@@ -1,0 +1,1327 @@
+# translation of eu.po to Basque
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Iñaki Larrañaga Murgoitio <dooteo@euskalgnu.org>, 2008, 2009, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: eu\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-02-16 18:40+0100\n"
+"PO-Revision-Date: 2010-03-24 16:44+0100\n"
+"Last-Translator: Iñaki Larrañaga Murgoitio <dooteo@euskalgnu.org>\n"
+"Language-Team: Basque <itzulpena@euskalgnu.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: ../data/MATE_ProponoApplet.xml.h:1 ../propono/propono-plugin-manager.c:495
+msgid "_About"
+msgstr "Honi _buruz"
+
+#: ../data/MATE_ProponoApplet.xml.h:2 ../propono/propono-ui.h:37
+msgid "_Help"
+msgstr "_Laguntza"
+
+#: ../data/propono.desktop.in.in.h:1 ../data/propono-file.desktop.in.in.h:1
+msgid "Access remote desktops"
+msgstr "Sarbidetu urruneko mahaigainetara"
+
+#: ../data/propono.desktop.in.in.h:2 ../data/propono-file.desktop.in.in.h:2
+#: ../propono/MATE_ProponoApplet.server.in.in.h:2
+#: ../propono/propono-applet.c:434 ../propono/propono-applet.c:486
+#: ../propono/propono-main.c:200
+msgid "Remote Desktop Viewer"
+msgstr "Urruneko mahaigainen ikustailea"
+
+#: ../data/propono.ui.h:1
+msgid "Allow _keyboard shortcuts"
+msgstr "Baimendu lasterbideak"
+
+#: ../data/propono.ui.h:2
+msgid "Authentication is required"
+msgstr "Autentifikatu egin behar da"
+
+#. setup label
+#: ../data/propono.ui.h:3 ../propono/propono-fav.c:851
+msgid "Bookmarks"
+msgstr "Laster-markak"
+
+#: ../data/propono.ui.h:4
+msgid "Connection"
+msgstr "Konexioa"
+
+#: ../data/propono.ui.h:5
+msgid "Connection options"
+msgstr "Konexioaren aukerak"
+
+#: ../data/propono.ui.h:6
+msgid "Folder"
+msgstr "Karpeta"
+
+#: ../data/propono.ui.h:7 ../plugins/ssh/propono-ssh-tab.c:49
+#: ../plugins/vnc/propono-vnc-tab.c:148 ../propono/propono-fav.c:404
+msgid "Host:"
+msgstr "Ostalaria:"
+
+#: ../data/propono.ui.h:8
+msgid "Interface"
+msgstr "Interfazea"
+
+#: ../data/propono.ui.h:9
+msgid "Options"
+msgstr "Aukerak"
+
+#: ../data/propono.ui.h:10
+msgid "Parent Folder"
+msgstr "Karpeta gurasoa"
+
+#: ../data/propono.ui.h:11
+msgid "Preferences"
+msgstr "Hobespenak"
+
+#. This is a tooltip in preferences dialog
+#: ../data/propono.ui.h:13
+msgid ""
+"This option enables menu accelerators and keyboard shortcuts. For more info "
+"on why you may want to disable them, check the documentation."
+msgstr ""
+"Aukera honek menuaren bizkortzaileak eta lasterbideak gaitzen ditu. Begiratu dokumentazioa "
+"hauek nola desgaitzen diren jakiteko."
+
+#: ../data/propono.ui.h:14
+msgid "Which machine do you want to connect to?"
+msgstr "Zein ordenagailurekin konektatzea nahi duzu?"
+
+#: ../data/propono.ui.h:15
+msgid "_Always show tabs"
+msgstr "_Beti erakutsi fitxak"
+
+#. This is a button label, in the authentication dialog
+#: ../data/propono.ui.h:17
+msgid "_Authenticate"
+msgstr "_Autentifikatu"
+
+#: ../data/propono.ui.h:18
+msgid "_Full screen"
+msgstr "_Pantaila osoa"
+
+#: ../data/propono.ui.h:19
+msgid "_Host:"
+msgstr "_Ostalaria:"
+
+#: ../data/propono.ui.h:20
+msgid "_Name:"
+msgstr "_Izena:"
+
+#: ../data/propono.ui.h:21
+msgid "_Password:"
+msgstr "_Pasahitza:"
+
+#: ../data/propono.ui.h:22
+msgid "_Protocol:"
+msgstr "_Protokoloa:"
+
+#: ../data/propono.ui.h:23
+msgid "_Remember this credential"
+msgstr "_Gogoratu kredentzial hau"
+
+#: ../data/propono.ui.h:24 ../plugins/ssh/propono-ssh-plugin.c:144
+msgid "_Username:"
+msgstr "_Erabiltzaile-izena:"
+
+#: ../data/propono.schemas.in.in.h:1 ../propono/propono-plugin-manager.c:795
+msgid "Active plugins"
+msgstr "Plugin aktiboak"
+
+#: ../data/propono.schemas.in.in.h:2
+msgid ""
+"List of active plugins. It contains the \"Location\" of the active plugins. "
+"See the .propono-plugin file for obtaining the \"Location\" of a given "
+"plugin."
+msgstr ""
+"Plugin aktiboen zerrenda. Plugin aktiboen \"kokalekua\" dauka. Ikus .propono-"
+"plugin fitxategia plugin baten \"kokalekua\" (location) lortzeko."
+
+#: ../data/propono.schemas.in.in.h:3
+msgid "Maximum number of history items in connect dialog"
+msgstr "Historiako elementuen gehienezko kopurua konexioaren elkarrizketa-koadroan"
+
+#: ../data/propono.schemas.in.in.h:4
+msgid ""
+"Set to \"false\" to disable menu shortcuts. Set to \"true\" to enable them. "
+"Note that if they are enabled, those keys will be intercepted by the menu "
+"and will not be sent to the remote host."
+msgstr ""
+"Ezarri \"false\" (faltsua) gisa menuaren lasterbideak desgaitzeko. Ezarri "
+"\"true\" (egia) gisa gaitzeko. Jakin ezazu gaituta badaude, menuak jasoko "
+"dituela tekla horiek eta ez direla urruneko ostalarira bidaliko."
+
+#: ../data/propono.schemas.in.in.h:5
+msgid ""
+"Set to \"true\" to always show the tabs. Set to \"false\" to only show the "
+"tabs when there is more than one active connection."
+msgstr ""
+"Ezarri \"true\" (egia) gisa fitxak beti erakusteko. Ezarri \"false"
+"\" (faltsua) gisa konexio aktibo bat baino gehiago daudenean soilik fitxak "
+"erakusteko."
+
+#: ../data/propono.schemas.in.in.h:6
+msgid ""
+"Set to \"true\" to always start the program listening for reverse "
+"connections."
+msgstr "Ezarri \"true\" (egia) gisa programa beti alderantzizko konexioak entzunez abiarazteko."
+
+#: ../data/propono.schemas.in.in.h:7
+msgid "Specifies the maximum number of items in the host dropdown entry."
+msgstr ""
+"Elementuen gehienezko kopurua zehazten du ostalariaren goitibeherako "
+"zerrendan."
+
+#: ../data/propono.schemas.in.in.h:8
+msgid "The handler for \"vnc://\" URLs"
+msgstr "\"vnc://\" URLen kudeatzailea"
+
+#: ../data/propono.schemas.in.in.h:9
+msgid ""
+"When connecting to a host, the client can say to the server to leave other "
+"clients connected or to drop the existent connections. Set the value to true "
+"to share the desktop with the other clients."
+msgstr ""
+"Ostalari batekin konektatzean, bezeroak zerbitzariari esan dezaioke beste "
+"bezeroak konektatuta uzteko, edo dauden konexioak jaregiteko. Ezarri balioa "
+"\"true\" (egia) gisa mahaigaina beste bezeroekin partekatzeko."
+
+#: ../data/propono.schemas.in.in.h:10
+msgid "Whether we should leave other clients connected"
+msgstr "Beste bezeroak konektatuta utzi behar diren ala ez"
+
+#: ../data/propono.schemas.in.in.h:11
+msgid "Whether we should show tabs even when there is only one active connection"
+msgstr "Fitxak erakutsi behar diren ala ez (nahiz eta konexio aktibo bakarra egon)"
+
+#: ../data/propono.schemas.in.in.h:12
+msgid "Whether we should show the menu accelerators (shortcut keys)"
+msgstr "Menuaren bizkortzaileak (laster-teklak) erakutsi behar diren ala ez"
+
+#: ../data/propono.schemas.in.in.h:13
+msgid "Whether we should start the program listening for reverse connections"
+msgstr ""
+"Programa abiatzean alderantzizko konexioak entzun behar "
+"dituen edo ez adierazten du."
+
+#: ../data/propono-mime.xml.in.h:1
+msgid "Remote Desktop (VNC) file"
+msgstr "Urruneko mahaigainaren (VNC) fitxategia"
+
+#: ../data/propono-mime.xml.in.h:2
+msgid "Remote Desktop Connection"
+msgstr "Urruneko mahaigainaren konexioa"
+
+#. vim: set ts=8:
+#: ../plugins/ssh/propono-ssh-plugin.c:76
+#: ../plugins/ssh/ssh.propono-plugin.desktop.in.h:1
+msgid "SSH"
+msgstr "SSH"
+
+#. Translators: This is a description of the SSH protocol. It appears at Connect dialog.
+#: ../plugins/ssh/propono-ssh-plugin.c:78
+msgid "Access Unix/Linux terminals"
+msgstr "Sarbidetu Unix/Linux terminaletan"
+
+#: ../plugins/ssh/propono-ssh-plugin.c:132
+msgid "SSH Options"
+msgstr "SSH aukerak"
+
+#. Translators: This is the tooltip for the username field in a SSH connection
+#: ../plugins/ssh/propono-ssh-plugin.c:149
+msgid ""
+"Optional. If blank, your username will be used. Also, it can be supplied in "
+"the Machine field above, in the form username@hostname."
+msgstr ""
+"Aukerakoa. Hutsik uzten bada, zure erabiltzaile-izena erabiliko da. Gainera, "
+"gaineko 'Ordenagailua' eremuan eman daiteke erabiltzaile-izena@ostalari-izena forman."
+
+#: ../plugins/ssh/propono-ssh-tab.c:50 ../plugins/vnc/propono-vnc-tab.c:149
+msgid "Port:"
+msgstr "Ataka:"
+
+#: ../plugins/ssh/ssh.propono-plugin.desktop.in.h:2
+msgid "SSH support"
+msgstr "SSH euskarria"
+
+#: ../plugins/vnc/propono-vnc-connection.c:290
+#: ../plugins/vnc/propono-vnc-plugin.c:321
+#, c-format
+msgid "Bad value for 'shared' flag: %d. It is supposed to be 0 or 1. Ignoring it."
+msgstr ""
+"Okerreko balioa 'partekatua' banderarentzako: %d. 0 edo 1 izan behar duela "
+"suposatzen da. Ez ikusi egiten."
+
+#: ../plugins/vnc/propono-vnc-plugin.c:84
+msgid "_Reverse Connections..."
+msgstr "_Alderantzizko konexioak..."
+
+#: ../plugins/vnc/propono-vnc-plugin.c:86
+msgid "Configure incoming VNC connections"
+msgstr "Konfiguratu sarrerako VNC konexioak"
+
+#. Translators: this is a command line option (run propono --help)
+#: ../plugins/vnc/propono-vnc-plugin.c:173
+msgid "Enable scaled mode"
+msgstr "Gaitu modu eskalatua"
+
+#. Translators: this is a command line option (run propono --help)
+#: ../plugins/vnc/propono-vnc-plugin.c:188
+msgid "VNC Options:"
+msgstr "VNC aukerak:"
+
+#. Translators: this is a command line option (run propono --help)
+#: ../plugins/vnc/propono-vnc-plugin.c:190
+msgid "Show VNC Options"
+msgstr "Erakutsi VNC aukerak"
+
+#. vim: set ts=8:
+#: ../plugins/vnc/propono-vnc-plugin.c:212
+#: ../plugins/vnc/vnc.propono-plugin.desktop.in.h:1
+msgid "VNC"
+msgstr "VNC"
+
+#: ../plugins/vnc/propono-vnc-plugin.c:213
+msgid "Access Unix/Linux, Windows and other machines."
+msgstr "Sarbidetu Unix/Linux, Windows eta beste ordenagailuetara."
+
+#: ../plugins/vnc/propono-vnc-plugin.c:270
+msgid "Could not parse the file."
+msgstr "Ezin izan da fitxategia analizatu."
+
+#: ../plugins/vnc/propono-vnc-plugin.c:277
+msgid "The file is not a VNC one: Missing the group \"connection\"."
+msgstr "Fitxategia ez da VNC bat. \"connection\" (konexioa) taldea falta zaio."
+
+#: ../plugins/vnc/propono-vnc-plugin.c:283
+msgid "The file is not a VNC one: Missing the key \"host\"."
+msgstr "Fitxategia ez da VNC bat. \"host\" (ostalaria) gakoa falta zaio."
+
+#: ../plugins/vnc/propono-vnc-plugin.c:374
+msgid "VNC Options"
+msgstr "VNC aukerak"
+
+#. View only check button
+#: ../plugins/vnc/propono-vnc-plugin.c:387
+#: ../plugins/vnc/propono-vnc-tab.c:632
+msgid "_View only"
+msgstr "_Ikusteko soilik"
+
+#. Scaling check button
+#: ../plugins/vnc/propono-vnc-plugin.c:395
+msgid "_Scaling"
+msgstr "_Eskalatzea"
+
+#: ../plugins/vnc/propono-vnc-plugin.c:411
+msgid "_Keep aspect ratio"
+msgstr "_Mantendu aspektu-erlazioa"
+
+#. JPEG Compression check button
+#: ../plugins/vnc/propono-vnc-plugin.c:421
+msgid "_Use JPEG Compression"
+msgstr "_Erabili JPEG konpresioak"
+
+#: ../plugins/vnc/propono-vnc-plugin.c:422
+msgid "This might not work on all VNC servers"
+msgstr "Baliteke VNC zerbitzari guztietan ez funtzionatzea"
+
+#: ../plugins/vnc/propono-vnc-plugin.c:431
+msgid "_Depth Color:"
+msgstr "_Kolore-sakonera:"
+
+#: ../plugins/vnc/propono-vnc-plugin.c:436
+msgid "Use Server Settings"
+msgstr "Erabili zerbitzariaren ezarpenak"
+
+#: ../plugins/vnc/propono-vnc-plugin.c:437
+msgid "True Color (24 bits)"
+msgstr "Benetako kolorea (24 bit)"
+
+#: ../plugins/vnc/propono-vnc-plugin.c:438
+msgid "High Color (16 bits)"
+msgstr "Kolore altua (16 bit)"
+
+#: ../plugins/vnc/propono-vnc-plugin.c:439
+msgid "Low Color (8 bits)"
+msgstr "Kolore baxua (8 bit)"
+
+#: ../plugins/vnc/propono-vnc-plugin.c:440
+msgid "Ultra Low Color (3 bits)"
+msgstr "Kolore oso baxua (3 bit)"
+
+#. Translators: the whole sentence will be: Use host <hostname> as a SSH tunnel
+#: ../plugins/vnc/propono-vnc-plugin.c:453
+msgid "Use h_ost"
+msgstr "Erabili _ostalaria"
+
+#. Translators: This is the tooltip of the SSH tunneling entry
+#: ../plugins/vnc/propono-vnc-plugin.c:461
+msgid "hostname or user@hostname"
+msgstr "ostalari-izena edo erabiltzailea@ostalari-izena"
+
+#. Translators: the whole sentence will be: Use host <hostname> as a SSH tunnel
+#: ../plugins/vnc/propono-vnc-plugin.c:465
+msgid "as a SSH tunnel"
+msgstr "SSH tunel bat bezala"
+
+#. Translators: this is a pattern to open *.vnc files in a open dialog.
+#: ../plugins/vnc/propono-vnc-plugin.c:500
+msgid "VNC Files"
+msgstr "VNC fitxategiak"
+
+#: ../plugins/vnc/propono-vnc-tab.c:147
+msgid "Desktop Name:"
+msgstr "Mahaigainaren izena:"
+
+#: ../plugins/vnc/propono-vnc-tab.c:150
+msgid "Dimensions:"
+msgstr "Dimentsioak:"
+
+#: ../plugins/vnc/propono-vnc-tab.c:304
+msgid "Error creating the SSH tunnel"
+msgstr "Errorea SSH tunela sortzean"
+
+#: ../plugins/vnc/propono-vnc-tab.c:305 ../plugins/vnc/propono-vnc-tab.c:316
+msgid "Unknown reason"
+msgstr "Errore ezezaguna"
+
+#: ../plugins/vnc/propono-vnc-tab.c:315
+msgid "Error connecting to host."
+msgstr "Errorea ostalariarekin konektatzean"
+
+#. Translators: %s is a host name or IP address; %u is a code error (number).
+#: ../plugins/vnc/propono-vnc-tab.c:360
+#, c-format
+msgid "Authentication method to host %s is unsupported. (%u)"
+msgstr "%s ostalariaren autentifikazio-metodoa ez dago onartuta. (%u)"
+
+#: ../plugins/vnc/propono-vnc-tab.c:364
+msgid "Authentication unsupported"
+msgstr "Autentifikazioa ez dago onartuta"
+
+#: ../plugins/vnc/propono-vnc-tab.c:531 ../plugins/vnc/propono-vnc-tab.c:548
+msgid "Authentication error"
+msgstr "Errorea autentifikatzean"
+
+#: ../plugins/vnc/propono-vnc-tab.c:532
+msgid "A username is required in order to access this machine."
+msgstr "Erabiltzaile-izena behar da ordenagailu honetara sarbidetzeko."
+
+#: ../plugins/vnc/propono-vnc-tab.c:549
+msgid "A password is required in order to access this machine."
+msgstr "Pasahitza behar da ordenagailu honetara sarbidetzeko."
+
+#: ../plugins/vnc/propono-vnc-tab.c:603
+msgid "S_caling"
+msgstr "E_skalatzea"
+
+#: ../plugins/vnc/propono-vnc-tab.c:604
+msgid "Fits the remote screen into the current window size"
+msgstr "Doitu urruneko pantaila uneko leihoaren tamainara"
+
+#: ../plugins/vnc/propono-vnc-tab.c:617
+msgid "_Keep Aspect Ratio"
+msgstr "_Mantendu aspektu-erlazioa"
+
+#: ../plugins/vnc/propono-vnc-tab.c:618
+msgid "Keeps the screen aspect ratio when using scaling"
+msgstr "Pantailaren aspektuaren erlazioa mantentzen du eskalatzean."
+
+#: ../plugins/vnc/propono-vnc-tab.c:633
+msgid "Does not send mouse and keyboard events"
+msgstr "Ez bidali sagu eta teklatuaren gertaerarik"
+
+#: ../plugins/vnc/propono-vnc-tab.c:646
+msgid "_Original size"
+msgstr "_Jatorrizko tamaina"
+
+#: ../plugins/vnc/propono-vnc-tab.c:647
+msgid "Adjusts the window to the remote desktop's size"
+msgstr "Leihoa doitzen du urruneko mahaigainaren tamainara"
+
+#: ../plugins/vnc/propono-vnc-tab.c:660
+msgid "_Refresh Screen"
+msgstr "_Freskatu pantaila"
+
+#: ../plugins/vnc/propono-vnc-tab.c:661
+msgid "Requests an update of the screen"
+msgstr "Pantaila eguneratzea eskatzen du"
+
+#. Send Ctrl-alt-del
+#: ../plugins/vnc/propono-vnc-tab.c:683 ../plugins/vnc/propono-vnc-tab.c:755
+#: ../plugins/vnc/propono-vnc-tab.c:757
+msgid "Send Ctrl-Alt-Del"
+msgstr "Bidali Ktrl+Alt+Ezab"
+
+#: ../plugins/vnc/propono-vnc-tab.c:684
+msgid "Sends Ctrl+Alt+Del to the remote machine"
+msgstr "Bidali Ktrl+Alt+Ezab urruneko ordenagailura"
+
+#: ../plugins/vnc/propono-vnc-tab.c:736 ../plugins/vnc/propono-vnc-tab.c:737
+msgid "Scaling"
+msgstr "Eskalatzea"
+
+#: ../plugins/vnc/propono-vnc-tab.c:746 ../plugins/vnc/propono-vnc-tab.c:747
+msgid "Read only"
+msgstr "Irakurtzeko soilik"
+
+#: ../plugins/vnc/propono-vnc-tab.c:919
+msgid ""
+"Scaling is not supported on this installation.\n"
+"\n"
+"Read the README file (shipped with Propono) in order to know how to enable "
+"this feature."
+msgstr ""
+"Eskalatzea ez dago onartuta instalazio honetan.\n"
+"\n"
+"Irakurri README fitxategia (Propono-rekin batera datorrena) eginbide hau "
+"nola gaitzen den jakiteko."
+
+#: ../plugins/vnc/propono-vnc-tunnel.c:77
+#, c-format
+msgid "Unable to find a free TCP port"
+msgstr "Ezin da TCP ataka librerik aurkitu"
+
+#: ../plugins/vnc/vnc.propono-plugin.desktop.in.h:2
+msgid "VNC support"
+msgstr "VNC euskarria"
+
+#: ../plugins/vnc/propono-vnc-listener-dialog.c:90
+msgid "IPv4:"
+msgstr "IPv4:"
+
+#: ../plugins/vnc/propono-vnc-listener-dialog.c:102
+msgid ""
+"\n"
+"\n"
+"IPv6:"
+msgstr ""
+"\n"
+"\n"
+"IPv6:"
+
+#: ../plugins/vnc/propono-vnc-listener-dialog.c:161
+#, c-format
+msgid "On the port %d"
+msgstr "%d atakan"
+
+#: ../plugins/vnc/propono-vnc-listener.c:168
+msgid "Incoming VNC connection arrived but there is no active window"
+msgstr "Sarrerako VNC konexioa iritsi da baina ez dago inolako leiho aktiborik"
+
+#. vim: set ts=8:
+#: ../plugins/vnc/vnc.ui.h:1
+msgid ""
+"By activating reverse connections you can access machines that are behind a "
+"firewall. The remote side is supposed to initiate the connection with you. "
+"For further information, checkout the help."
+msgstr ""
+"Alderantzizko konexioak aktibatzean suebaki baten atzean dauden "
+"ordenagailuak atzi ditzakezu. Suposatzen da urruneko aldeak hasten duela "
+"konexioa zurekin. Informazio gehiagorako, begiratu laguntza."
+
+#: ../plugins/vnc/vnc.ui.h:2
+msgid "Connectivity"
+msgstr "Konektibitatea"
+
+#: ../plugins/vnc/vnc.ui.h:3
+msgid "Reverse Connections"
+msgstr "Alderantzizko konexioak"
+
+#: ../plugins/vnc/vnc.ui.h:4
+msgid "This machine is reachable through the following IP address(es):"
+msgstr "Ordenagailu hau honako IP helbideetatik atzi daiteke:"
+
+#: ../plugins/vnc/vnc.ui.h:5
+msgid "_Always Enabled"
+msgstr "_Beti gaituta"
+
+#: ../plugins/vnc/vnc.ui.h:6
+msgid "_Enable Reverse Connections"
+msgstr "_Gaitu alderantzizko konexioak"
+
+#: ../propono/MATE_ProponoApplet.server.in.in.h:1
+msgid "A menu to quickly access remote machines"
+msgstr "Menua urruneko ordenagailuetan azkar sarbidetzeko"
+
+#: ../propono/MATE_ProponoApplet.server.in.in.h:3
+msgid "Propono Applet Factory"
+msgstr "Propono miniaplikazioaren fabrika"
+
+#: ../propono/propono-applet.c:277 ../propono/propono-applet.c:360
+msgid "Could not run propono:"
+msgstr "Ezin izan da propono exekutatu:"
+
+#: ../propono/propono-applet.c:380
+msgid "Open Remote Desktop Viewer"
+msgstr "Ireki urruneko mahaigainen ikustailea"
+
+#: ../propono/propono-applet.c:435
+msgid "Access your bookmarks"
+msgstr "Atzitu zure laster-markak"
+
+#: ../propono/propono-bookmarks.c:265 ../propono/propono-connection.c:522
+#: ../propono/propono-tab.c:535 ../propono/propono-tube-handler.c:253
+#, c-format
+msgid "The protocol %s is not supported."
+msgstr "%s protokoloa ez dago onartuta."
+
+#: ../propono/propono-bookmarks.c:343
+#, c-format
+msgid "Error while initializing bookmarks: %s"
+msgstr "Errorea laster-markak hasieratzean: %s"
+
+#: ../propono/propono-bookmarks.c:343 ../propono/propono-bookmarks.c:458
+#: ../propono/propono-bookmarks-migration.c:135
+#: ../propono/propono-cache-prefs.c:53 ../propono/propono-commands.c:173
+#: ../propono/propono-connect.c:482 ../propono/propono-fav.c:765
+#: ../propono/propono-main.c:101 ../propono/propono-main.c:120
+#: ../propono/propono-window.c:268 ../propono/propono-window.c:737
+msgid "Unknown error"
+msgstr "Errore ezezaguna"
+
+#: ../propono/propono-bookmarks.c:350
+msgid "Error while initializing bookmarks: The file seems to be empty"
+msgstr "Errorea laster-markak hasieratzean: fitxategia hutsik dagoela dirudi"
+
+#: ../propono/propono-bookmarks.c:357
+msgid "Error while initializing bookmarks: The file is not a propono bookmarks file"
+msgstr ""
+"Errorea laster-markak hasieratzean: fitxategia ez da propono-ren laster-"
+"marken fitxategia"
+
+#: ../propono/propono-bookmarks.c:419 ../propono/propono-bookmarks.c:426
+msgid "Error while saving bookmarks: Failed to create the XML structure"
+msgstr "Errorea laster-markak gordetzean: huts egin du XML egitura sortzean"
+
+#: ../propono/propono-bookmarks.c:433 ../propono/propono-bookmarks.c:440
+msgid "Error while saving bookmarks: Failed to initialize the XML structure"
+msgstr "Errorea laster-markak gordetzean: huts egin du XML egitura hasieratzean"
+
+#: ../propono/propono-bookmarks.c:449
+msgid "Error while saving bookmarks: Failed to finalize the XML structure"
+msgstr "Errorea laster-markak gordetzean: huts egin du XML egitura amaitzean"
+
+#: ../propono/propono-bookmarks.c:458
+#, c-format
+msgid "Error while saving bookmarks: %s"
+msgstr "Errorea laster-markak gordetzean: %s"
+
+#: ../propono/propono-bookmarks-migration.c:95
+#: ../propono/propono-bookmarks-migration.c:102
+msgid "Error while migrating bookmarks: Failed to create the XML structure"
+msgstr "Errorea laster-markak migratzean: huts egin du XML egitura sortzean"
+
+#: ../propono/propono-bookmarks-migration.c:109
+#: ../propono/propono-bookmarks-migration.c:116
+msgid "Error while migrating bookmarks: Failed to initialize the XML structure"
+msgstr "Errorea laster-markak migratzean: huts egin du XML egitura hasieratzean"
+
+#: ../propono/propono-bookmarks-migration.c:125
+msgid "Error while migrating bookmarks: Failed to finalize the XML structure"
+msgstr "Errorea laster-markak migratzean: huts egin du XML egitura amaitzean"
+
+#: ../propono/propono-bookmarks-migration.c:135
+#: ../propono/propono-bookmarks-migration.c:217
+#, c-format
+msgid "Error while migrating bookmarks: %s"
+msgstr "Errorea laster-markak migratzean: %s"
+
+#: ../propono/propono-bookmarks-migration.c:164
+msgid "Error while migrating bookmarks: VNC plugin is not activated"
+msgstr "Errorea laster-markak migratzean: VNC plugina ez dago aktibatuta"
+
+#: ../propono/propono-bookmarks-migration.c:217
+msgid "Failed to create the directory"
+msgstr "Huts egin du direktorioa sortzean"
+
+#: ../propono/propono-bookmarks-migration.c:241
+msgid ""
+"Migrating the bookmarks file to the new format. This operation is only "
+"supposed to run once."
+msgstr ""
+"Laster-marken fitxategia formatu berrira migratzen. Eragiketa hau behin "
+"bakarrik exekutatzen dela suposatzen da."
+
+#: ../propono/propono-bookmarks-migration.c:249
+#, c-format
+msgid "Error opening old bookmarks file: %s"
+msgstr "Errorea laster-marken fitxategi zaharra irekitzean: %s"
+
+#: ../propono/propono-bookmarks-migration.c:250
+#: ../propono/propono-bookmarks-migration.c:262
+msgid "Migration cancelled"
+msgstr "Migrazioa bertan behera utzita"
+
+#: ../propono/propono-bookmarks-migration.c:259
+msgid "Could not remove the old bookmarks file"
+msgstr "Ezin izan da laster-marken fitxategi zaharra kendu"
+
+#: ../propono/propono-bookmarks-tree.c:120
+msgid "Root Folder"
+msgstr "Erroko karpeta"
+
+#: ../propono/propono-bookmarks-ui.c:78
+msgid "Invalid name for this folder"
+msgstr "Izen baliogabea karpeta honentzako"
+
+#: ../propono/propono-bookmarks-ui.c:88 ../propono/propono-bookmarks-ui.c:200
+#, c-format
+msgid "The name \"%s\" is already used in this folder. Please use a different name."
+msgstr ""
+"Karpeta honetan \"%s\" izena erabilita dago jadanik. Erabili bestelako izen "
+"bat."
+
+#: ../propono/propono-bookmarks-ui.c:89 ../propono/propono-bookmarks-ui.c:190
+#: ../propono/propono-bookmarks-ui.c:201
+msgid "Invalid name for this item"
+msgstr "Izen baliogabea elementu honentzako"
+
+#. Translators: %s is a protocol name, like VNC or SSH
+#: ../propono/propono-bookmarks-ui.c:168
+#, c-format
+msgid "(Protocol: %s)"
+msgstr "(Protokoloa: %s)"
+
+#. Translators: %s is a bookmark entry name
+#: ../propono/propono-bookmarks-ui.c:308
+#, c-format
+msgid "Are you sure you want to remove %s from bookmarks?"
+msgstr "Ziur zaude %s kentzea nahi duzula laster-marketatik?"
+
+#: ../propono/propono-bookmarks-ui.c:314
+msgid "Remove Folder?"
+msgstr "Kendu karpeta?"
+
+#: ../propono/propono-bookmarks-ui.c:315
+msgid "Notice that all its subfolders and items will be removed as well."
+msgstr "Jakin ezazu bere azpikarpeta eta elementu guztiak ere kendu egingo direla."
+
+#: ../propono/propono-bookmarks-ui.c:320
+msgid "Remove Item?"
+msgstr "Kendu elementua?"
+
+#: ../propono/propono-bookmarks-ui.c:337
+msgid "Error removing bookmark: Entry not found"
+msgstr "Errorea laster-marka kentzean: ez da sarrera aurkitu"
+
+#: ../propono/propono-bookmarks-ui.c:354
+msgid "New Folder"
+msgstr "Karpeta berria"
+
+#: ../propono/propono-cache-prefs.c:53
+#, c-format
+msgid "Error while saving preferences: %s"
+msgstr "Errorea hobespenak gordetzean: %s"
+
+#: ../propono/propono-commands.c:121
+msgid "Choose the file"
+msgstr "Aukeratu fitxategia"
+
+#: ../propono/propono-commands.c:149
+msgid "There are no supported files"
+msgstr "Ez dago onartutako fitxategirik"
+
+#: ../propono/propono-commands.c:150
+msgid ""
+"None of the active plugins support this action. Activate some plugins and "
+"try again."
+msgstr ""
+"Plugin aktibotariko bat berak ere ez du ekintza hau onartzen. "
+"Aktibatu plugin batzuk eta saiatu berriro."
+
+#: ../propono/propono-commands.c:184
+msgid "The following file could not be opened:"
+msgid_plural "The following files could not be opened:"
+msgstr[0] "Ezin da honako fitxategia ireki:"
+msgstr[1] "Ezin dira honako fitxategiak ireki:"
+
+#: ../propono/propono-connect.c:87 ../propono/propono-connect.c:334
+#: ../propono/propono-connect.c:446
+msgid "Could not get the active protocol in the protocol list."
+msgstr "Ezin izan da protokolo aktiboa lortu protokoloen zerrendan."
+
+#: ../propono/propono-connect.c:315
+#, c-format
+msgid "Error while saving history file: %s"
+msgstr "Errorea historiaren fitxategia gordetzean: %s"
+
+#: ../propono/propono-connect.c:350
+msgid "Choose a Remote Desktop"
+msgstr "Aukeratu urruneko mahaigaina"
+
+#: ../propono/propono-connection.c:630
+msgid "Could not open the file."
+msgstr "Ezin izan da fitxategia ireki."
+
+#: ../propono/propono-connection.c:654
+msgid "The file was not recognized by any of the plugins."
+msgstr "Plugin bat berak ere ez du fitxategia ezagutzen."
+
+#: ../propono/propono-fav.c:567
+msgid "_New Folder"
+msgstr "Karpeta _berria"
+
+#: ../propono/propono-fav.c:568
+msgid "Create a new folder"
+msgstr "Sortu karpeta berri bat"
+
+#: ../propono/propono-fav.c:573
+msgid "_Open bookmark"
+msgstr "_Ireki laster-marka"
+
+#: ../propono/propono-fav.c:574
+msgid "Connect to this machine"
+msgstr "Konektatu ordenagailu honekin"
+
+#: ../propono/propono-fav.c:575
+msgid "_Edit bookmark"
+msgstr "_Editatu laster-marka"
+
+#: ../propono/propono-fav.c:576
+msgid "Edit the details of selected bookmark"
+msgstr "Editatu hautatutako laster-markaren xehetasunak"
+
+#: ../propono/propono-fav.c:577
+msgid "_Remove from bookmarks"
+msgstr "_Kendu laster-marketatik"
+
+#: ../propono/propono-fav.c:578
+msgid "Remove current selected connection from bookmarks"
+msgstr "Kendu unean hautatutako konexioa laster-marketatik"
+
+#: ../propono/propono-fav.c:596 ../propono/propono-window.c:399
+#, c-format
+msgid "Could not merge UI XML file: %s"
+msgstr "Ezin izan da interfazeko XML fitxategia batu: %s"
+
+#: ../propono/propono-fav.c:754
+msgid "Invalid operation"
+msgstr "Eragiketa baliogabea"
+
+#: ../propono/propono-fav.c:755
+msgid "Data received from drag&drop operation is invalid."
+msgstr "'Arrastatu eta jaregin' eragiketatik jasotako datuak baliogabeak dira."
+
+#: ../propono/propono-fav.c:859
+msgid "Hide panel"
+msgstr "Ezkutatu panela"
+
+#: ../propono/propono-fav.c:1044
+msgid "Hosts nearby"
+msgstr "Gertuko ostalariak"
+
+#. Translators: this is a command line option (run propono --help)
+#: ../propono/propono-main.c:63
+msgid "Open propono in fullscreen mode"
+msgstr "Ireki propono pantaila osoko moduan"
+
+#. Translators: this is a command line option (run propono --help)
+#: ../propono/propono-main.c:67
+msgid "Create a new toplevel window in an existing instance of propono"
+msgstr "Sortu maila goreneko leihoa propono-ren existitzen den instantzia batean"
+
+#. Translators: this is a command line option (run propono --help)
+#: ../propono/propono-main.c:71
+msgid "Open a file recognized by propono"
+msgstr "Ireki propono-k ezagututako fitxategia"
+
+#: ../propono/propono-main.c:71
+msgid "filename"
+msgstr "fitxategi-izena"
+
+#. Translators: this is a command line option (run propono --help)
+#: ../propono/propono-main.c:76
+msgid "[server:port]"
+msgstr "[zerbitzaria:ataka]"
+
+#: ../propono/propono-main.c:131
+msgid "The following error has occurred:"
+msgid_plural "The following errors have occurred:"
+msgstr[0] "Honako errorea gertatu da:"
+msgstr[1] "Honako erroreak gertatu dira:"
+
+#. Setup command line options
+#: ../propono/propono-main.c:170
+msgid "- Remote Desktop Viewer"
+msgstr "- Urruneko mahaigainen ikustailea"
+
+#: ../propono/propono-main.c:195
+msgid "Run 'propono --help' to see a full list of available command line options"
+msgstr ""
+"Exekutatu 'propono --help' komando-lerroko aukera erabilgarri guztien "
+"zerrenda ikusteko"
+
+#: ../propono/propono-mdns.c:159
+#, c-format
+msgid "Failed to resolve avahi hostname: %s\n"
+msgstr "Huts egin du avahi ostalari-izena ebaztean: %s\n"
+
+#: ../propono/propono-mdns.c:217
+#, c-format
+msgid "Plugin %s has already registered a browser for service %s."
+msgstr "%s pluginak jadanik arakatzaile bat erregistratuta du %s zerbitzuarentzako."
+
+#: ../propono/propono-mdns.c:226
+#, c-format
+msgid "Failed to add mDNS browser for service %s."
+msgstr "Huts egin du mDNS arakatzailea gehitzean %s zerbitzuarentzako."
+
+#: ../propono/propono-mdns.c:242
+#, c-format
+msgid "Failed to browse for hosts: %s\n"
+msgstr "Huts egin du ostalariak arakatzean: %s\n"
+
+#: ../propono/propono-mdns.c:315
+#, c-format
+msgid "Failed to initialize mDNS browser: %s\n"
+msgstr "Huts egin du mDNS arakatzailea hasieratzean: %s\n"
+
+#. Translators: %s is a host name or IP address.
+#: ../propono/propono-notebook.c:461
+#, c-format
+msgid "Connection to host %s was closed."
+msgstr "%s ostalariaren konexioa itxi egin da."
+
+#: ../propono/propono-notebook.c:463
+msgid "Connection closed"
+msgstr "Konexioa itxi egin da"
+
+#. Translators: %s is a host name or IP address.
+#: ../propono/propono-notebook.c:482
+#, c-format
+msgid "Authentication to host %s has failed"
+msgstr "Huts egin du %s ostalarian autentifikatzean"
+
+#: ../propono/propono-notebook.c:488
+msgid "Authentication failed"
+msgstr "Huts egin du autentifikatzean"
+
+#: ../propono/propono-notebook.c:526
+msgid "Connecting..."
+msgstr "Konektatzen..."
+
+#: ../propono/propono-notebook.c:553 ../propono/propono-tab.c:325
+msgid "Close connection"
+msgstr "Itxi konexioa"
+
+#: ../propono/propono-plugin-dialog.c:83
+msgid "Plugin Manager"
+msgstr "Pluginen kudeatzailea"
+
+#: ../propono/propono-plugin-manager.c:45
+msgid "Plugin"
+msgstr "Plugina"
+
+#: ../propono/propono-plugin-manager.c:46
+msgid "Enabled"
+msgstr "Gaituta"
+
+#: ../propono/propono-plugin-manager.c:503
+msgid "C_onfigure"
+msgstr "_Konfiguratu"
+
+#: ../propono/propono-plugin-manager.c:512
+msgid "A_ctivate"
+msgstr "_Aktibatu"
+
+#: ../propono/propono-plugin-manager.c:523
+msgid "Ac_tivate All"
+msgstr "Aktibatu _guztiak"
+
+#: ../propono/propono-plugin-manager.c:528
+msgid "_Deactivate All"
+msgstr "_Desaktibatu guztiak"
+
+#: ../propono/propono-plugin-manager.c:824
+msgid "_About Plugin"
+msgstr "Plugin honi _buruz"
+
+#: ../propono/propono-plugin-manager.c:828
+msgid "C_onfigure Plugin"
+msgstr "K_onfiguratu plugina"
+
+#: ../propono/propono-prefs.c:212
+msgid "Cannot initialize preferences manager."
+msgstr "Ezin da hobespenen kudeatzailea hasieratu."
+
+#: ../propono/propono-ssh.c:106
+msgid "Timed out when logging into SSH host"
+msgstr "Denboraz kanpo SSH ostalarian saioa hastean"
+
+#: ../propono/propono-ssh.c:180
+msgid "Unable to spawn ssh program"
+msgstr "Ezin da 'ssh' programa abiarazi"
+
+#: ../propono/propono-ssh.c:197
+#, c-format
+msgid "Unable to spawn ssh program: %s"
+msgstr "Ezin da 'ssh' programa abiarazi: %s"
+
+#: ../propono/propono-ssh.c:352
+msgid "Timed out when logging in"
+msgstr "Denboraz kanpo saioa hastean"
+
+#: ../propono/propono-ssh.c:375 ../propono/propono-ssh.c:529
+#: ../propono/propono-ssh.c:612
+msgid "Permission denied"
+msgstr "Baimena ukatuta"
+
+#: ../propono/propono-ssh.c:440
+msgid "Password dialog canceled"
+msgstr "Pasahitzaren elkarrizketa-koadroa bertan behera utzita"
+
+#: ../propono/propono-ssh.c:463
+msgid "Could not send password"
+msgstr "Ezin izan da pasahitza bidali"
+
+#: ../propono/propono-ssh.c:471
+msgid "Log In Anyway"
+msgstr "Hasi saioa dena den"
+
+#: ../propono/propono-ssh.c:471
+msgid "Cancel Login"
+msgstr "Utzi saio-hasiera"
+
+#: ../propono/propono-ssh.c:480
+#, c-format
+msgid ""
+"The identity of the remote computer (%s) is unknown.\n"
+"This happens when you log in to a computer the first time.\n"
+"\n"
+"The identity sent by the remote computer is %s. If you want to be absolutely "
+"sure it is safe to continue, contact the system administrator."
+msgstr ""
+"Urruneko ordenagailuaren (%s) identitatea ezezaguna da.\n"
+"Ordenagailu batean aurreneko aldiz saioa hastean gertatu ohi da.\n"
+"\n"
+"Urruneko ordenagailuak bidalitako identitatea %s da. Jarraitzea segurua den "
+"edo ez jakitea nahi baduzu, jar zaitez sistemako "
+"administratzailearekin harremanetan."
+
+#: ../propono/propono-ssh.c:498
+msgid "Login dialog canceled"
+msgstr "Saio-hasierako elkarrizketa-koadroa bertan behera utzita"
+
+#: ../propono/propono-ssh.c:519
+msgid "Can't send host identity confirmation"
+msgstr "Ezin da ostalariaren identitatearen berrespenik bidali"
+
+#: ../propono/propono-ssh.c:554 ../propono/propono-tab.c:732
+msgid "Error saving the credentials on the keyring."
+msgstr "Errorea kredentziala gako-sortan gordetzean."
+
+#: ../propono/propono-ssh.c:619
+msgid "Hostname not known"
+msgstr "Ostalari-izena ezezaguna"
+
+#: ../propono/propono-ssh.c:626
+msgid "No route to host"
+msgstr "Ez dago biderik ostalarira"
+
+#: ../propono/propono-ssh.c:633
+msgid "Connection refused by server"
+msgstr "Zerbitzariak konexioa ezetsi du"
+
+#: ../propono/propono-ssh.c:640
+msgid "Host key verification failed"
+msgstr "Huts egin du ostalariaren gakoa egiaztatzean"
+
+#: ../propono/propono-ssh.c:676
+msgid "Unable to find a valid SSH program"
+msgstr "Ezin da baliozko SSH programarik aurkitu"
+
+#: ../propono/propono-tab.c:346
+msgid "Leave fullscreen"
+msgstr "Irten _pantaila osotik"
+
+#: ../propono/propono-tab.c:497
+msgid "Error saving recent connection."
+msgstr "Errorea azken konexioa gordetzean."
+
+#: ../propono/propono-tab.c:818
+msgid "Could not get a screenshot of the connection."
+msgstr "Ezin izan da konexioaren pantaila-argazkia lortu."
+
+#: ../propono/propono-tab.c:823
+msgid "Save Screenshot"
+msgstr "Gorde pantaila-argazkia"
+
+#: ../propono/propono-tab.c:834
+#, c-format
+msgid "Screenshot of %s"
+msgstr "%s(r)en pantaila-argazkia"
+
+#: ../propono/propono-tab.c:885
+msgid "Error saving screenshot"
+msgstr "Errorea pantaila-argazkia gordetzean"
+
+#: ../propono/propono-tube-handler.c:229
+#, c-format
+msgid "Impossible to get service property: %s"
+msgstr "Ezinezkoa da zerbitzua ongi lortzea: %s"
+
+#: ../propono/propono-tube-handler.c:286
+#, c-format
+msgid "Impossible to create the connection: %s"
+msgstr "Ezinezkoa da konexioa sortzea: %s"
+
+#: ../propono/propono-tube-handler.c:325
+#, c-format
+msgid "Impossible to accept the stream tube: %s"
+msgstr "Ezinezkoa da korrontearen kanalizazioa onartzea: %s"
+
+#: ../propono/propono-tube-handler.c:463
+#, c-format
+msgid "Impossible to get the contact name: %s"
+msgstr "Ezinezkoa da kontaktuaren izena lortzea: %s"
+
+#: ../propono/propono-tube-handler.c:498
+#, c-format
+msgid "Impossible to get the avatar: %s"
+msgstr "Ezinezkoa da avatarra lortzea: %s"
+
+#: ../propono/propono-tube-handler.c:519
+#, c-format
+msgid "%s wants to share their desktop with you."
+msgstr "%s(e)k bere mahaigaina zurekin partekatzea nahi du."
+
+#: ../propono/propono-tube-handler.c:524
+msgid "Desktop sharing invitation"
+msgstr "Mahaigaina partekatzeko gonbidapena"
+
+#. Toplevel
+#: ../propono/propono-ui.h:33
+msgid "_Machine"
+msgstr "_Ordenagailua"
+
+#: ../propono/propono-ui.h:34
+msgid "_Edit"
+msgstr "_Editatu"
+
+#: ../propono/propono-ui.h:35
+msgid "_View"
+msgstr "_Ikusi"
+
+#: ../propono/propono-ui.h:36
+msgid "_Bookmarks"
+msgstr "Laster-_markak"
+
+#: ../propono/propono-ui.h:41
+msgid "Connect to a remote machine"
+msgstr "Konektatu urruneko ordenagailuarekin"
+
+#: ../propono/propono-ui.h:43
+msgid "Open a .VNC file"
+msgstr "Ireki .VNC fitxategia"
+
+#: ../propono/propono-ui.h:45
+msgid "Quit the program"
+msgstr "Irten programatik"
+
+#: ../propono/propono-ui.h:49
+msgid "Edit the application preferences"
+msgstr "Editatu aplikazioaren hobespenak"
+
+#: ../propono/propono-ui.h:50
+msgid "_Plugins"
+msgstr "_Pluginak"
+
+#: ../propono/propono-ui.h:51
+msgid "Select plugins"
+msgstr "Hautatu pluginak"
+
+#. Help menu
+#: ../propono/propono-ui.h:54
+msgid "_Contents"
+msgstr "_Edukia"
+
+#: ../propono/propono-ui.h:55
+msgid "Open the propono manual"
+msgstr "Ireki Propono-en eskuliburua"
+
+#: ../propono/propono-ui.h:57
+msgid "About this application"
+msgstr "Aplikazio honi buruz"
+
+#: ../propono/propono-ui.h:62
+msgid "_Toolbar"
+msgstr "_Tresna-barra"
+
+#: ../propono/propono-ui.h:63
+msgid "Show or hide the toolbar"
+msgstr "Erakutsi edo ezkutatu tresna-barra"
+
+#: ../propono/propono-ui.h:66
+msgid "_Statusbar"
+msgstr "_Egoera-barra"
+
+#: ../propono/propono-ui.h:67
+msgid "Show or hide the statusbar"
+msgstr "Erakutsi edo ezkutatu egoera-barra"
+
+#: ../propono/propono-ui.h:70
+msgid "Side _Panel"
+msgstr "Albo-_panela"
+
+#: ../propono/propono-ui.h:71
+msgid "Show or hide the side panel"
+msgstr "Erakutsi edo ezkutatu albo-panela"
+
+#: ../propono/propono-ui.h:79
+msgid "Close the current connection"
+msgstr "Itxi uneko konexioa"
+
+#: ../propono/propono-ui.h:80
+msgid "C_lose All"
+msgstr "It_xi denak"
+
+#: ../propono/propono-ui.h:81
+msgid "Close all active connections"
+msgstr "Itxi konexio aktibo guztiak"
+
+#. Bookmarks menu
+#: ../propono/propono-ui.h:84
+msgid "_Add to bookmarks"
+msgstr "_Gehitu laster-markei"
+
+#: ../propono/propono-ui.h:85
+msgid "Add current connection to your bookmarks"
+msgstr "Gehitu uneko konexioa laster-markei"
+
+#. Machine menu
+#: ../propono/propono-ui.h:92
+msgid "Take screenshot"
+msgstr "Egin pantaila-argazkia"
+
+#: ../propono/propono-ui.h:93
+msgid "Take a screenshot of active connection"
+msgstr "Egin uneko konexioaren pantaila-argazkia"
+
+#: ../propono/propono-ui.h:97
+msgid "View the current machine in full screen"
+msgstr "Ikusi uneko ordenagailua pantaila osoan"
+
+#: ../propono/propono-utils.c:75
+msgid "An error has occurred:"
+msgstr "Errore bat gertatu da:"
+
+#: ../propono/propono-utils.c:175
+msgid ""
+"A plugin tried to open an UI file but did not succeed, with the error "
+"message:"
+msgstr ""
+"Plugin batek interfazeko fitxategia irekitzen saiatu da, baina ez du lortu. "
+"Errorearen mezua:"
+
+#: ../propono/propono-utils.c:177
+msgid ""
+"The program tried to open an UI file but did not succeed, with the error "
+"message:"
+msgstr ""
+"Programak interfazeko fitxategia irekitzen saiatu da, baina ez du lortu. "
+"Errorearen mezua:"
+
+#: ../propono/propono-utils.c:180
+msgid "Please check your installation."
+msgstr "Egiaztatu instalazioa."
+
+#: ../propono/propono-utils.c:181
+msgid "Error loading UI file"
+msgstr "Errorea interfazeko fitxategia kargatzean"
+
+#: ../propono/propono-utils.c:492
+msgid "Propono is a remote desktop viewer for the MATE Desktop"
+msgstr "Propono urruneko mahaigainen ikustailea da MATErako."
+
+#: ../propono/propono-utils.c:495
+msgid ""
+"Propono is free software; you can redistribute it and/or modify it under the "
+"terms of the GNU General Public License as published by the Free Software "
+"Foundation; either version 2 of the License, or (at your option) any later "
+"version."
+msgstr ""
+"Propono software librea da; birbana eta/edo alda dezakezu Software "
+"Foundation-ek argitaratutako GNU Lizentzia Publiko Orokorraren 2. bertsioan, "
+"edo (nahiago baduzu) beste berriago batean, jasotako baldintzak betez gero."
+
+#: ../propono/propono-utils.c:499
+msgid ""
+"Propono is distributed in the hope that it will be useful, but WITHOUT ANY "
+"WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS "
+"FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more "
+"details."
+msgstr ""
+"Propono erabilgarria izango delakoan banatzen da, baina, INOLAKO BERMERIK "
+"GABE; era berean, ez da bermatzen beraren EGOKITASUNA MERKATURATZEKO edo "
+"HELBURU PARTIKULARRETARAKO ERABILTZEKO. Argibide gehiago nahi izanez gero, "
+"ikus GNU Lizentzia Publiko Orokorra."
+
+#: ../propono/propono-utils.c:503
+msgid ""
+"You should have received a copy of the GNU General Public License along with "
+"this program. If not, see <http://www.gnu.org/licenses/>."
+msgstr ""
+"Programa honekin batera GNU Lizentzia Publiko Orokorraren kopia bat jasoko "
+"zenuen. Hala ez bada, ikusi <http://www.gnu.org/licenses/>."
+
+#: ../propono/propono-utils.c:525
+msgid "translator-credits"
+msgstr "Iñaki Larrañaga Murgoitio <dooteo@euskalgnu.org>"
+
+#: ../propono/propono-utils.c:528
+msgid "Propono Website"
+msgstr "Propono-ren web gunea"
+
+#. Translators: %s is a protocol, like VNC or SSH
+#: ../propono/propono-utils.c:660
+#, c-format
+msgid "%s authentication is required"
+msgstr "%s autentifikazioa behar da"
+
+#: ../propono/propono-window.c:428
+msgid "_Recent connections"
+msgstr "_Azken konexioak"
+
+#. Translators: This is server:port, a statusbar tooltip when mouse is over a bookmark item on menu
+#: ../propono/propono-window.c:543
+#, c-format
+msgid "Open %s:%d"
+msgstr "Ireki %s:%d"
+
+#: ../propono/propono-window.c:721
+msgid "About menu accelerators and keyboard shortcuts"
+msgstr "Menuen bizkortzaile eta lasterbideei buruz"
+
+#: ../propono/propono-window.c:723
+msgid ""
+"Propono comes with menu accelerators and keyboard shortcuts disabled by "
+"default. The reason is to avoid the keys to be intercepted by the program, "
+"and allow them to be sent to the remote machine.\n"
+"\n"
+"You can change this behavior through the preferences dialog. For more "
+"information, check the documentation.\n"
+"\n"
+"This message will appear only once."
+msgstr ""
+"Lehenetsi gisa, Propono menuen bizkortzaile eta lasterbideak desgaituta "
+"dituela etortzen da. Arrazoi nagusia programak sakatzen diren teklak ez interpretatzea "
+"da, tekla horiek urruneko ordenagailura bidaltzeko xedea baitu.\n"
+"\n"
+"Portaera hau alda dezakezu hobespenen elkarrizketa-koadroa erabiliz. "
+"Informazio gehiagorako, irakurri dokumentazioa.\n"
+"\n"
+"Mezu hau behin bakarrik agertuko da."
+
+#: ../propono/propono-window.c:731 ../propono/propono-window.c:737
+#, c-format
+msgid "Error while creating the file %s: %s"
+msgstr "Errorea %s fitxategia sortzean: %s"

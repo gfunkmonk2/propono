@@ -1,0 +1,1056 @@
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Amitakhya Phukan <aphukan@fedoraproject.org>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: propono.HEAD\n"
+"Report-Msgid-Bugs-To: http://bugzilla.mate.org/enter_bug.cgi?product=propono&component=general\n"
+"POT-Creation-Date: 2009-08-25 12:02+0000\n"
+"PO-Revision-Date: 2009-09-18 14:18+0530\n"
+"Last-Translator: \n"
+"Language-Team: Assamese <>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 0.2\n"
+
+#: ../data/MATE_ProponoApplet.xml.h:1 ../propono/propono-plugin-manager.c:495
+msgid "_About"
+msgstr "বিষয়ে (_A)"
+
+#: ../data/MATE_ProponoApplet.xml.h:2 ../propono/propono-ui.h:37
+msgid "_Help"
+msgstr "সহায়তা (_H)"
+
+#: ../data/propono.desktop.in.in.h:1 ../data/propono-file.desktop.in.in.h:1
+msgid "Access remote desktops"
+msgstr "দূৰবৰ্তী ডেস্কটপৰ সৈতে সংযোগ কৰক"
+
+#: ../data/propono.desktop.in.in.h:2 ../data/propono-file.desktop.in.in.h:2
+#: ../propono/MATE_ProponoApplet.server.in.in.h:2
+#: ../propono/propono-applet.c:434 ../propono/propono-applet.c:486
+#: ../propono/propono-main.c:198
+msgid "Remote Desktop Viewer"
+msgstr "দূৰবৰ্তী ডেস্কটপ প্ৰদৰ্শন ব্যৱস্থা"
+
+#: ../data/propono.ui.h:1
+#| msgid "<i><small>All fields above are mandatory</small></i>"
+msgid "All fields above are mandatory"
+msgstr "উপৰোক্ত সকলো ক্ষেত্ৰত মান পূৰণ কৰা আৱশ্যক"
+
+#: ../data/propono.ui.h:2
+#| msgid "<b>Authentication is required</b>"
+msgid "Authentication is required"
+msgstr "পৰিচয় প্ৰমাণ কৰা আৱশ্যক"
+
+#: ../data/propono.ui.h:3 ../propono/propono-fav.c:856
+msgid "Bookmarks"
+msgstr "পত্ৰচিহ্ন"
+
+#: ../data/propono.ui.h:4
+#| msgid "Connecting..."
+msgid "Connection"
+msgstr "সংযোগ স্থাপন কৰা হৈছে"
+
+#: ../data/propono.ui.h:5
+#| msgid "<b>Connection options</b>"
+msgid "Connection options"
+msgstr "সংযোগ সংক্ৰান্ত বিকল্প"
+
+#: ../data/propono.ui.h:6
+#| msgid "New Folder"
+msgid "Folder"
+msgstr "নতুন ফোল্ডাৰ"
+
+#: ../data/propono.ui.h:7 ../plugins/ssh/propono-ssh-tab.c:49
+#: ../plugins/vnc/propono-vnc-tab.c:134 ../propono/propono-fav.c:425
+msgid "Host:"
+msgstr "গৃহস্থ:"
+
+#: ../data/propono.ui.h:8
+#| msgid "<b>Interface</b>"
+msgid "Interface"
+msgstr "সংযোগক্ষেত্ৰ"
+
+#: ../data/propono.ui.h:9
+#| msgid "<b>Options</b>"
+msgid "Options"
+msgstr "বিকল্প"
+
+#: ../data/propono.ui.h:10
+#| msgid "<b>Parent Folder</b>"
+msgid "Parent Folder"
+msgstr "ঊৰ্ধ্বতন ফোল্ডাৰ"
+
+#: ../data/propono.ui.h:11
+msgid "Preferences"
+msgstr "পছন্দ"
+
+#: ../data/propono.ui.h:12
+#| msgid "<b>Which machine do you want to connect to?</b>"
+msgid "Which machine do you want to connect to?"
+msgstr "কোন যন্ত্ৰৰ সৈতে সংযোগ স্থাপন কৰিবলৈ আপুনি ইচ্ছুক নে ?"
+
+#: ../data/propono.ui.h:13
+msgid "_Always show tabs"
+msgstr "সদায়ে টেব প্ৰদৰ্শন কৰা হ'ব (_A)"
+
+#. This is a button label, in the authentication dialog
+#: ../data/propono.ui.h:15
+msgid "_Authenticate"
+msgstr "পৰিচয় প্ৰমাণ (_A)"
+
+#: ../data/propono.ui.h:16
+msgid "_Full screen"
+msgstr "সম্পূৰ্ণ পৰ্দাত প্ৰদৰ্শন (_F)"
+
+#: ../data/propono.ui.h:17
+msgid "_Host:"
+msgstr "গৃহস্থ:(_H)"
+
+#: ../data/propono.ui.h:18
+msgid "_Name:"
+msgstr "নাম :(_N)"
+
+#: ../data/propono.ui.h:19
+msgid "_Password:"
+msgstr "গুপ্তশব্দ (_P):"
+
+#: ../data/propono.ui.h:20
+msgid "_Protocol:"
+msgstr "প্ৰোটোকল: (_P)"
+
+#: ../data/propono.ui.h:21
+msgid "_Remember this credential"
+msgstr "এই পৰিচয় মনত ৰখা হ'ব (_R)"
+
+#: ../data/propono.ui.h:22
+msgid "_Show menu shortcuts"
+msgstr "মেনুৰ শৰ্ট-কাট প্ৰদৰ্শন কৰা হ'ব (_S)"
+
+#: ../data/propono.ui.h:23
+msgid "_Username:"
+msgstr "ব্যৱহাৰকৰ্তাৰ নাম: (_U)"
+
+#: ../data/propono.schemas.in.in.h:1 ../propono/propono-plugin-manager.c:795
+msgid "Active plugins"
+msgstr "সক্ৰিয় প্লাগ-ইন"
+
+#: ../data/propono.schemas.in.in.h:2
+msgid ""
+"List of active plugins. It contains the \"Location\" of the active plugins. "
+"See the .propono-plugin file for obtaining the \"Location\" of a given "
+"plugin."
+msgstr ""
+"সক্ৰিয় প্লাগ-ইনৰ তালিকা  । ইয়াত সক্ৰিয় প্লাগ-ইনৰ \"অৱস্থান\" অন্তৰ্ভুক্ত আছে ।  কোনো সুনিৰ্দিষ্ট "
+"প্লাগ-ইনৰ \"অৱস্থান\" জনাৰ বাবে .propono-plugin নথিপত্ৰ চাওক ।"
+
+#: ../data/propono.schemas.in.in.h:3
+msgid "Maximum number of history items in connect dialog"
+msgstr "সংযোগেৰ সম্বাদ বাকচত প্ৰদৰ্শনযোগ্য পূৰ্ববৰ্তী তথ্যৰ সৰ্বাধিক তালিকা"
+
+#: ../data/propono.schemas.in.in.h:4
+msgid ""
+"Set to \"false\" to disable menu shortcuts. Set to \"true\" to enable them. "
+"Note that if they are enabled, those keys will be intercepted by the menu "
+"and will not be sent to the remote host."
+msgstr ""
+"মেনু শৰ্ট-কাট নিষ্ক্ৰিয় কৰাৰ বাবে \"false\" নিৰ্ধাৰণ কৰক  । শৰ্ট-কাট সক্ৰিয় কৰাৰ "
+"বাবে \"true\" নিৰ্ধাৰণ কৰক  । উল্লেখ্য, এইসমূহ সক্ৰিয় কৰা হ'লে, মেনু দ্বাৰা এই কি-"
+"সমূহৰ কৰ্ম চিনাক্ত আৰু গ্ৰহণ কৰা হ'ব আৰু দূৰবৰ্তী গৃহস্থকে প্ৰৰণ কৰা ন'হ'ব  ।"
+
+#: ../data/propono.schemas.in.in.h:5
+msgid ""
+"Set to \"true\" to always show the tabs. Set to \"false\" to only show the "
+"tabs when there is more than one active connection."
+msgstr ""
+"মান \"true\" নিৰ্ধাৰণ কৰা হ'লে সদায়ে টেব প্ৰদৰ্শন কৰা হ'ব  । অকল একাধিক সক্ৰিয় "
+"সংযোগ উপস্থিত থাকিলে টেব প্ৰদৰ্শনৰ বাবে মান \"false\" নিৰ্ধাৰণ কৰক  ।"
+
+#: ../data/propono.schemas.in.in.h:6
+msgid "Specifies the maximum number of items in the host dropdown entry."
+msgstr "গৃহস্থ ড্ৰপ-ডাউন নিবেশত প্ৰদৰ্শনযোগ্য তথ্যৰ সৰ্বাধিক সংখ্যা  ।"
+
+#: ../data/propono.schemas.in.in.h:7
+msgid "The handler for \"vnc://\" URLs"
+msgstr " \"vnc://\" URL ৰ হেন্ডলাৰ"
+
+#: ../data/propono.schemas.in.in.h:8
+msgid ""
+"When connecting to a host, the client can say to the server to leave other "
+"clients connected or to drop the existent connections. Set the value to true "
+"to share the desktop with the other clients."
+msgstr ""
+"গৃহস্থেৰ সৈতে সংযোগ স্থাপন কৰাৰ সময়, গ্ৰাহক প্ৰণালী দ্বাৰা সেৱকত অনেন্য সংযুক্ত "
+"গ্ৰাহকৰ সৈতে সংযোগ বিচ্ছিন্ন কৰিবলৈ অথবা নকৰিবলৈ অনুৰোধ কৰা যেতে পাৰে  । অনেন্য "
+"গ্ৰাহকৰ সৈতে ডেস্কটপ যৌথৰূপে ব্যৱহাৰৰ বাবে মান true নিৰ্ধাৰণ কৰক  ।"
+
+#: ../data/propono.schemas.in.in.h:9
+msgid "Whether we should leave other clients connected"
+msgstr "অনেন্য গ্ৰাহকৰ সংযোগ অপৰিবৰ্তিত থাকিব নে নহয়"
+
+#: ../data/propono.schemas.in.in.h:10
+msgid "Whether we should show tabs even when there is only one active connection"
+msgstr "অকল এটা সক্ৰিয় সংযোগ থাকিলে টেব প্ৰদৰ্শন কৰা হ'ব নে নহয়"
+
+#: ../data/propono.schemas.in.in.h:11
+msgid "Whether we should show the menu accelerators (shortcut keys)"
+msgstr "মেনু এক্‌ছেলেৰেটৰ (শৰ্টকাট-চাবি) প্ৰদৰ্শন কৰা হ'ব নে নহয়"
+
+#: ../data/propono-mime.xml.in.h:1
+msgid "Remote Desktop (VNC) file"
+msgstr "দূৰবৰ্তী ডেস্কটপ (VNC) নথিপত্ৰ"
+
+#: ../data/propono-mime.xml.in.h:2
+msgid "Remote Desktop Connection"
+msgstr "দূৰবৰ্তী ডেস্কটপ সংযোগ"
+
+#. vim: set ts=8:
+#: ../plugins/ssh/propono-ssh-plugin.c:70
+#: ../plugins/ssh/ssh.propono-plugin.desktop.in.h:1
+msgid "SSH"
+msgstr "SSH"
+
+#. Translators: This is a description of the SSH protocol. It appears at Connect dialog.
+#: ../plugins/ssh/propono-ssh-plugin.c:72
+msgid "Access Unix/Linux terminals"
+msgstr "Unix/Linux টাৰ্মিনেল ব্যৱহাৰ কৰক"
+
+#: ../plugins/ssh/propono-ssh-tab.c:50 ../plugins/vnc/propono-vnc-tab.c:135
+msgid "Port:"
+msgstr "পোৰ্ট:"
+
+#: ../plugins/ssh/ssh.propono-plugin.desktop.in.h:2
+msgid "SSH support"
+msgstr "SSH সমৰ্থন ব্যৱস্থা"
+
+#: ../plugins/vnc/propono-vnc-connection.c:207
+#: ../plugins/vnc/propono-vnc-plugin.c:214
+#, c-format
+msgid "Bad value for 'shared' flag: %d. It is supposed to be 0 or 1. Ignoring it."
+msgstr ""
+"'shared' শীৰ্ষক ফ্লেগৰ মান সঠিক নহয়: %d  । এই ক্ষেত্ৰত 0 (০) অথবা 1 (১) মান হোৱা "
+"উচিত  । উল্লিখিত মান উপেক্ষা কৰা হ'ব  ।"
+
+#. Translators: this is a command line option (run propono --help)
+#: ../plugins/vnc/propono-vnc-plugin.c:66
+msgid "Enable scaled mode"
+msgstr "Enable scaled mode"
+
+#. Translators: this is a command line option (run propono --help)
+#: ../plugins/vnc/propono-vnc-plugin.c:81
+msgid "VNC Options:"
+msgstr "VNC বিকল্প:"
+
+#. Translators: this is a command line option (run propono --help)
+#: ../plugins/vnc/propono-vnc-plugin.c:83
+msgid "Show VNC Options"
+msgstr "VNC বিকল্প দেখুৱাওক"
+
+#. vim: set ts=8:
+#: ../plugins/vnc/propono-vnc-plugin.c:105
+#: ../plugins/vnc/vnc.propono-plugin.desktop.in.h:1
+msgid "VNC"
+msgstr "VNC"
+
+#: ../plugins/vnc/propono-vnc-plugin.c:106
+msgid "Access Unix/Linux, Windows and other machines."
+msgstr "Unix/Linux, Windows আৰু অনেন্য যন্ত্ৰ ব্যৱহাৰ কৰক ।"
+
+#: ../plugins/vnc/propono-vnc-plugin.c:163
+msgid "Could not parse the file."
+msgstr "নথিপত্ৰ পাৰ্স কৰিবলৈ ব্যৰ্থ  ।"
+
+#: ../plugins/vnc/propono-vnc-plugin.c:170
+msgid "The file is not a VNC one: Missing the group \"connection\"."
+msgstr "এইটো VNC নথিপত্ৰ নহয়: \"connection\" দলস অনুপস্থিত"
+
+#: ../plugins/vnc/propono-vnc-plugin.c:176
+msgid "The file is not a VNC one: Missing the key \"host\"."
+msgstr "এইটো VNC নথিপত্ৰ নহয়: \"host\" চাবি অনুপস্থিত"
+
+#: ../plugins/vnc/propono-vnc-plugin.c:243
+msgid "VNC Options"
+msgstr "VNC সংক্ৰান্ত বিকল্প"
+
+#: ../plugins/vnc/propono-vnc-plugin.c:254
+#: ../plugins/vnc/propono-vnc-tab.c:654
+msgid "_View only"
+msgstr "অকল প্ৰদৰ্শন (_V)"
+
+#: ../plugins/vnc/propono-vnc-plugin.c:261
+msgid "_Scaling"
+msgstr "মাপ নিৰ্ণয় (_S)"
+
+#. Translators: this is a pattern to open *.vnc files in a open dialog.
+#: ../plugins/vnc/propono-vnc-plugin.c:285
+msgid "VNC Files"
+msgstr "VNC-ৰ নথিপত্ৰ"
+
+#: ../plugins/vnc/propono-vnc-tab.c:133
+msgid "Desktop Name:"
+msgstr "ডেস্কটপৰ নাম:"
+
+#: ../plugins/vnc/propono-vnc-tab.c:136
+msgid "Dimensions:"
+msgstr "মাত্ৰা:"
+
+#: ../plugins/vnc/propono-vnc-tab.c:268
+msgid "Error connecting to host."
+msgstr "গৃহস্থৰ সৈতে সংযোগ স্থাপনত ত্ৰুটি হৈছে"
+
+#. Translators: %s is a host name or IP address; %u is a code error (number).
+#: ../plugins/vnc/propono-vnc-tab.c:306
+#, c-format
+#| msgid "Authentication method to host <i>%s</i> is unsupported. (%u)"
+msgid "Authentication method to host %s is unsupported. (%u)"
+msgstr "গৃহস্থ %s-ৰ সৈতে পৰিচয় প্ৰমাণৰ পদ্ধতি সমৰ্থিত নহয় । (%u)"
+
+#: ../plugins/vnc/propono-vnc-tab.c:310
+msgid "Authentication unsupported"
+msgstr "অনুমোদনৰ পদ্ধতি সমৰ্থিত নহয়"
+
+#: ../plugins/vnc/propono-vnc-tab.c:570 ../plugins/vnc/propono-vnc-tab.c:587
+msgid "Authentication error"
+msgstr "অনুমোদন সংক্ৰান্ত সমস্যা"
+
+#: ../plugins/vnc/propono-vnc-tab.c:571
+msgid "A username is required in order to access this machine."
+msgstr "এই যন্ত্ৰ ব্যৱহাৰৰ বাবে ব্যৱহাৰকৰ্তাৰ নাম প্ৰয়োগ কৰা আৱশ্যক  ।"
+
+#: ../plugins/vnc/propono-vnc-tab.c:588
+msgid "A password is required in order to access this machine."
+msgstr "এই যন্ত্ৰ ব্যৱহাৰৰ বাবে গুপ্তশব্দ প্ৰয়োগ কৰা আৱশ্যক  ।"
+
+#: ../plugins/vnc/propono-vnc-tab.c:639
+msgid "S_caling"
+msgstr "মাপ নিৰ্ধাৰণ (_c)"
+
+#: ../plugins/vnc/propono-vnc-tab.c:640
+#| msgid "Fit the remote screen into the current window size"
+msgid "Fits the remote screen into the current window size"
+msgstr "দূৰবৰ্তী পৰ্দা বৰ্তমান উইন্ডোৰ মাপ অনুযায়ী নিৰ্ধাৰণ কৰা হ'ব"
+
+#: ../plugins/vnc/propono-vnc-tab.c:655
+#| msgid "Disable mouse and keyboard"
+msgid "Does not send mouse and keyboard events"
+msgstr "মাউছ আৰু চাবিৰ ফলকৰ পৰা উৎপন্ন ঘটনা পঠিওৱা ন'হ'ব"
+
+#: ../plugins/vnc/propono-vnc-tab.c:668
+msgid "_Original size"
+msgstr "মূল মাপ (_O)"
+
+#: ../plugins/vnc/propono-vnc-tab.c:669
+msgid "Adjusts the window to the remote desktop's size"
+msgstr "দূৰবৰ্তী ডেস্কটপৰ মাপ অনুযায়ী সংযোগক্ষেত্ৰৰ মাপ নিৰ্ধাৰণ কৰিবলৈ ব্যৱহৃত হয়"
+
+#: ../plugins/vnc/propono-vnc-tab.c:692 ../plugins/vnc/propono-vnc-tab.c:766
+#: ../plugins/vnc/propono-vnc-tab.c:767
+msgid "Send Ctrl-Alt-Del"
+msgstr "Ctrl-Alt-Del প্ৰৰণ কৰা হ'ব"
+
+#: ../plugins/vnc/propono-vnc-tab.c:693
+#| msgid "Send Ctrl+Alt+Del to active connection"
+msgid "Sends Ctrl+Alt+Del to the remote machine"
+msgstr "দূৰবৰ্তী যন্ত্ৰলৈ Ctrl+Alt+Del সংকেত পঠিওৱা হয়"
+
+#: ../plugins/vnc/propono-vnc-tab.c:745 ../plugins/vnc/propono-vnc-tab.c:746
+msgid "Scaling"
+msgstr "মাপ নিৰ্ধাৰণ"
+
+#: ../plugins/vnc/propono-vnc-tab.c:755 ../plugins/vnc/propono-vnc-tab.c:756
+msgid "Read only"
+msgstr "অকল পাঠযোগ্য"
+
+#: ../plugins/vnc/propono-vnc-tab.c:925
+msgid ""
+"Scaling is not supported on this installation.\n"
+"\n"
+"Read the README file (shipped with Propono) in order to know how to enable "
+"this feature."
+msgstr ""
+"বৰ্তমান সংস্থাপনৰ ক্ষেত্ৰত মাপ নিৰ্ধাৰণ সমৰ্থিত নহয়  ।\n"
+"\n"
+"এই বৈশিষ্ট্য সক্ৰিয় কৰাৰ প্ৰণালী সম্বন্ধে জনাৰ বাবে (Propono-ৰ সৈতে উপলব্ধ) README "
+"নথিপত্ৰ পঢ়ক  ।"
+
+#: ../plugins/vnc/vnc.propono-plugin.desktop.in.h:2
+msgid "VNC support"
+msgstr "VNC সমৰ্থন"
+
+#: ../propono/MATE_ProponoApplet.server.in.in.h:1
+msgid "A menu to quickly access remote machines"
+msgstr "দূৰবৰ্তী যন্ত্ৰৰ সৈতে দ্ৰুত সংযোগ স্থাপনৰ মেনু"
+
+#: ../propono/MATE_ProponoApplet.server.in.in.h:3
+msgid "Propono Applet Factory"
+msgstr "Propono এপলেট কলঘৰ"
+
+#: ../propono/propono-applet.c:277 ../propono/propono-applet.c:360
+msgid "Could not run propono:"
+msgstr "propono চলাবলৈ ব্যৰ্থ:"
+
+#: ../propono/propono-applet.c:380
+msgid "Open Remote Desktop Viewer"
+msgstr "দূৰবৰ্তী ডেস্কটপ প্ৰদৰ্শন ব্যৱস্থা আৰম্ভ কৰক"
+
+#: ../propono/propono-applet.c:435
+msgid "Access your bookmarks"
+msgstr "পত্ৰচিহ্ন প্ৰয়োগ কৰক"
+
+#: ../propono/propono-bookmarks.c:265 ../propono/propono-connection.c:519
+#: ../propono/propono-tab.c:533 ../propono/propono-tube-handler.c:253
+#, c-format
+msgid "The protocol %s is not supported."
+msgstr "প্ৰোটোকল %s সমৰ্থিত নহয়"
+
+#: ../propono/propono-bookmarks.c:343
+#, c-format
+msgid "Error while initializing bookmarks: %s"
+msgstr "পত্ৰচিহ্ন আৰম্ভ কৰিবলৈ ত্ৰুটি হৈছে: %s"
+
+#: ../propono/propono-bookmarks.c:343 ../propono/propono-bookmarks.c:458
+#: ../propono/propono-bookmarks-migration.c:135
+#: ../propono/propono-commands.c:170 ../propono/propono-connect.c:459
+#: ../propono/propono-fav.c:681 ../propono/propono-main.c:100
+#: ../propono/propono-main.c:119 ../propono/propono-window.c:266
+msgid "Unknown error"
+msgstr "অজ্ঞাত ত্ৰুটি"
+
+#: ../propono/propono-bookmarks.c:350
+msgid "Error while initializing bookmarks: The file seems to be empty"
+msgstr "পত্ৰচিহ্ন প্ৰাৰম্ভ কৰিবলৈ ব্যৰ্থ: নথিপত্ৰটি সম্ভৱত ৰিক্ত"
+
+#: ../propono/propono-bookmarks.c:357
+msgid "Error while initializing bookmarks: The file is not a propono bookmarks file"
+msgstr "পত্ৰচিহ্ন প্ৰাৰম্ভ কৰিবলৈ ব্যৰ্থ: এইটো propono পত্ৰচিহ্ন নথিপত্ৰ নহয়"
+
+#: ../propono/propono-bookmarks.c:419 ../propono/propono-bookmarks.c:426
+msgid "Error while saving bookmarks: Failed to create the XML structure"
+msgstr "পত্ৰচিহ্ন সংৰক্ষণ কৰিবলৈ ব্যৰ্থ: XML বিনেস গঠন কৰিবলৈ ব্যৰ্থ"
+
+#: ../propono/propono-bookmarks.c:433 ../propono/propono-bookmarks.c:440
+msgid "Error while saving bookmarks: Failed to initialize the XML structure"
+msgstr "পত্ৰচিহ্ন সংৰক্ষণ কৰিবলৈ ব্যৰ্থ: XML বিনেস আৰম্ভ কৰিবলৈ ব্যৰ্থ"
+
+#: ../propono/propono-bookmarks.c:449
+msgid "Error while saving bookmarks: Failed to finalize the XML structure"
+msgstr "পত্ৰচিহ্ন সংৰক্ষণ কৰিবলৈ ব্যৰ্থ: XML বিনেস নিৰ্ধাৰণ কৰিবলৈ ব্যৰ্থ"
+
+#: ../propono/propono-bookmarks.c:458
+#, c-format
+msgid "Error while saving bookmarks: %s"
+msgstr "পত্ৰচিহ্ন সংৰক্ষণে ত্ৰুটি হৈছে: %s"
+
+#: ../propono/propono-bookmarks-migration.c:95
+#: ../propono/propono-bookmarks-migration.c:102
+msgid "Error while migrating bookmarks: Failed to create the XML structure"
+msgstr "পত্ৰচিহ্ন মাইগ্ৰেট কৰিবলৈ ব্যৰ্থ: XML বিনেস গঠন কৰিবলৈ ব্যৰ্থ"
+
+#: ../propono/propono-bookmarks-migration.c:109
+#: ../propono/propono-bookmarks-migration.c:116
+msgid "Error while migrating bookmarks: Failed to initialize the XML structure"
+msgstr "পত্ৰচিহ্ন মাইগ্ৰেট কৰিবলৈ ব্যৰ্থ: XML বিনেস আৰম্ভ কৰিবলৈ ব্যৰ্থ"
+
+#: ../propono/propono-bookmarks-migration.c:125
+msgid "Error while migrating bookmarks: Failed to finalize the XML structure"
+msgstr "পত্ৰচিহ্ন মাইগ্ৰেট কৰিবলৈ ব্যৰ্থ: XML বিনেস নিৰ্ধাৰণ কৰিবলৈ ব্যৰ্থ"
+
+#: ../propono/propono-bookmarks-migration.c:135
+#: ../propono/propono-bookmarks-migration.c:238
+#, c-format
+msgid "Error while migrating bookmarks: %s"
+msgstr "পত্ৰচিহ্ন মাইগ্ৰেট কৰিবলৈ সমস্যা: %s"
+
+#: ../propono/propono-bookmarks-migration.c:164
+#| msgid "Error while migrating bookmarks: %s"
+msgid "Error while migrating bookmarks: VNC plugin is not activated"
+msgstr "পত্ৰচিহ্ন মাইগ্ৰেট কৰিবলৈ সমস্যা: VNC প্লাগ-ইন সক্ৰিয় নহয়"
+
+#: ../propono/propono-bookmarks-migration.c:238
+msgid "Failed to create the directory"
+msgstr "পঞ্জিকা নিৰ্মাণ কৰিবলৈ ব্যৰ্থ"
+
+#: ../propono/propono-bookmarks-migration.c:262
+msgid ""
+"Migrating the bookmarks file to the new format. This operation is only "
+"supposed to run once."
+msgstr ""
+"নতুন নথিপত্ৰৰ বিনেসে পত্ৰচিহ্নসমূহ মাইগ্ৰেট কৰা হৈছে  । এই কৰ্ম অকল এবাৰ সঞ্চালিত "
+"হ'ব  ।"
+
+#: ../propono/propono-bookmarks-migration.c:270
+#, c-format
+msgid "Error opening old bookmarks file: %s"
+msgstr "পত্ৰচিহ্নতৰ পুৰনি নথিপত্ৰ খুলিবলৈ ব্যৰ্থ: %s"
+
+#: ../propono/propono-bookmarks-migration.c:271
+#: ../propono/propono-bookmarks-migration.c:283
+msgid "Migration cancelled"
+msgstr "মাইগ্ৰেশন কৰ্ম বাতিল কৰা হৈছে"
+
+#: ../propono/propono-bookmarks-migration.c:280
+msgid "Could not remove the old bookmarks file"
+msgstr "পুৰনি পত্ৰচিহ্নতৰ নথিপত্ৰ আঁতৰাবলৈ ব্যৰ্থ"
+
+#: ../propono/propono-bookmarks-tree.c:120
+msgid "Root Folder"
+msgstr "Root ফোল্ডাৰ"
+
+#: ../propono/propono-bookmarks-ui.c:78
+msgid "Invalid name for this folder"
+msgstr "ফোল্ডাৰৰ নাম বৈধ নহয়"
+
+#: ../propono/propono-bookmarks-ui.c:88 ../propono/propono-bookmarks-ui.c:200
+#, c-format
+msgid "The name \"%s\" is already used in this folder. Please use a different name."
+msgstr ""
+"এই ফোল্ডাৰত \"%s\" নাম বৰ্তমানে ব্যৱহৃত হৈছে । অনুগ্ৰহ কৰি এটা ভিন্ন নাম "
+"প্ৰয়োগ কৰক ।"
+
+#: ../propono/propono-bookmarks-ui.c:89 ../propono/propono-bookmarks-ui.c:190
+#: ../propono/propono-bookmarks-ui.c:201
+#| msgid "Invalid name for this folder"
+msgid "Invalid name for this item"
+msgstr "এই বস্তুৰ বাবে এই নাম বৈধ নহয়"
+
+#. Translators: %s is a protocol name, like VNC or SSH
+#: ../propono/propono-bookmarks-ui.c:168
+#, c-format
+msgid "(Protocol: %s)"
+msgstr "(প্ৰোটোকল: %s)"
+
+#. Translators: %s is a bookmark entry name
+#: ../propono/propono-bookmarks-ui.c:308
+#, c-format
+#| msgid "Are you sure you want to remove <i>%s</i> from bookmarks?"
+msgid "Are you sure you want to remove %s from bookmarks?"
+msgstr "আপুনি নিশ্চিতৰূপে %s ক পত্ৰচিহ্নৰ তালিকাৰ পৰা আঁতৰাবলৈ ইচ্ছুক নে ?"
+
+#: ../propono/propono-bookmarks-ui.c:314
+msgid "Remove Folder?"
+msgstr "ফোল্ডাৰ আঁতৰুৱা হ'ব ?"
+
+#: ../propono/propono-bookmarks-ui.c:315
+msgid "Notice that all its subfolders and items will be removed as well."
+msgstr "উল্লেখ্য, পঞ্জিকাত উপস্থিত সকলো উপ-ফোল্ডাৰো আঁতৰুৱা হ'ব  ।"
+
+#: ../propono/propono-bookmarks-ui.c:320
+msgid "Remove Item?"
+msgstr "বস্তু আঁতৰুৱা হ'ব ?"
+
+#: ../propono/propono-bookmarks-ui.c:337
+msgid "Error removing bookmark: Entry not found"
+msgstr "পত্ৰচিহ্ন আঁতৰাবলৈ ব্যৰ্থ: নিবেশ পোৱা নাযায়"
+
+#: ../propono/propono-bookmarks-ui.c:354
+msgid "New Folder"
+msgstr "নতুন ফোল্ডাৰ"
+
+#: ../propono/propono-commands.c:120
+msgid "Choose the file"
+msgstr "নথিপত্ৰ বাছি লওক"
+
+#: ../propono/propono-commands.c:148
+msgid "There are none supported files"
+msgstr "কোনো সমৰ্থিত নথিপত্ৰ নাই"
+
+#: ../propono/propono-commands.c:148
+msgid ""
+"None of the active plugins offer a supported file to be open. Activate some "
+"plugins and try again."
+msgstr ""
+"কোনো সক্ৰিয় প্লাগ-ইন দ্বাৰা প্ৰদৰ্শনযোগ্য সমৰ্থিত নথিপত্ৰ উপলব্ধ নাই । কিছুমান প্লাগ-ইন "
+"সক্ৰিয় কৰি পুনৰায় প্ৰচেষ্টা কৰক ।"
+
+#: ../propono/propono-commands.c:181
+msgid "The following file could not be opened:"
+msgid_plural "The following files could not be opened:"
+msgstr[0] "নিম্নলিখিত নথিপত্ৰ খোলা নাযায়:"
+msgstr[1] "নিম্নলিখিত নথিপত্ৰ খোলা নাযায়:"
+
+#: ../propono/propono-connect.c:86 ../propono/propono-connect.c:330
+#: ../propono/propono-connect.c:424
+msgid "Could not get the active protocol in the protocol list."
+msgstr "প্ৰোটোকল তালিকাৰ পৰা সক্ৰিয় প্ৰোটোকল পোৱা নাযায় ।"
+
+#: ../propono/propono-connect.c:313
+#, c-format
+msgid "Error while saving history file: %s"
+msgstr "পূৰ্ববৰ্তী তথ্যৰ নথিপত্ৰ সংৰক্ষণ কৰিবলৈ সমস্যা: %s"
+
+#: ../propono/propono-connect.c:340
+#| msgid "Open Remote Desktop Viewer"
+msgid "Choose a Remote Desktop"
+msgstr "দূৰবৰ্তী এটা ডেস্কটপ নিৰ্বাচন কৰক"
+
+#: ../propono/propono-connection.c:627
+msgid "Could not open the file."
+msgstr "নথিপত্ৰ খুলিবলৈ ব্যৰ্থ  ।"
+
+#: ../propono/propono-connection.c:651
+msgid "The file was not recognized by any of the plugins."
+msgstr "কোনো প্লাগ-ইন দ্বাৰা নথিপত্ৰ চিনাক্ত কৰা নাযায় ।"
+
+#: ../propono/propono-fav.c:670
+msgid "Invalid operation"
+msgstr "কৰ্ম বৈধ নহয়"
+
+#: ../propono/propono-fav.c:671
+msgid "Data received from drag&drop operation is invalid."
+msgstr "drag&drop কৰ্মৰ পৰা প্ৰাপ্ত তথ্য বৈধ নহয়  ।"
+
+#: ../propono/propono-fav.c:871
+msgid "Hosts nearby"
+msgstr "নিকটবৰ্তী গৃহস্থ"
+
+#. Translators: this is a command line option (run propono --help)
+#: ../propono/propono-main.c:62
+msgid "Open propono in fullscreen mode"
+msgstr "propono ক সম্পূৰ্ণ পৰ্দ্দাত খোলক"
+
+#. Translators: this is a command line option (run propono --help)
+#: ../propono/propono-main.c:66
+msgid "Create a new toplevel window in an existing instance of propono"
+msgstr "propono-ৰ কোনো উপস্থিত ইনস্টেন্সত প্ৰধান-স্তৰৰ এটা নতুন সংযোগক্ষেত্ৰ নিৰ্মাণ কৰক"
+
+#. Translators: this is a command line option (run propono --help)
+#: ../propono/propono-main.c:70
+msgid "Open a file recognized by propono"
+msgstr "propono য়ে চিনি পোৱা এটা নথিপত্ৰ খোলক"
+
+#: ../propono/propono-main.c:70
+msgid "filename"
+msgstr "নথিপত্ৰৰ নাম"
+
+#. Translators: this is a command line option (run propono --help)
+#: ../propono/propono-main.c:75
+msgid "[server:port]"
+msgstr "[সেৱক:পোৰ্ট]"
+
+#: ../propono/propono-main.c:130
+msgid "The following error has occurred:"
+msgid_plural "The following errors have occurred:"
+msgstr[0] "নিম্নলিখিত ত্ৰুটি উৎপন্ন হৈছে:"
+msgstr[1] "নিম্নলিখিত ত্ৰুটি উৎপন্ন হৈছে:"
+
+#. Setup command line options
+#: ../propono/propono-main.c:169
+#| msgid "Remote Desktop Viewer"
+msgid "- Remote Desktop Viewer"
+msgstr "- দূৰবৰ্তী ডেস্কটপ প্ৰদৰ্শন ব্যৱস্থা"
+
+#: ../propono/propono-main.c:193
+msgid "Run 'propono --help' to see a full list of available command line options"
+msgstr "আদেশ শাৰী বিকল্পৰ সম্পুৰ্ণ তালিকাৰ বাবে 'propono --help' ব্যৱহাৰ কৰক"
+
+#: ../propono/propono-mdns.c:142
+#, c-format
+msgid "Failed to resolve avahi hostname: %s\n"
+msgstr "avahi গৃহস্থ-নাম মীমাংসা কৰিবলৈ ব্যৰ্থ: %s\n"
+
+#: ../propono/propono-mdns.c:200
+#, c-format
+msgid "Plugin %s has already registered a browser for service %s."
+msgstr "%s প্লাগ-ইন দ্বাৰা %s সেৱাৰ বাবে এটা ব্ৰাউজাৰ নিবন্ধন কৰা হৈছে ।"
+
+#: ../propono/propono-mdns.c:209
+#, c-format
+#| msgid "Failed to browse for hosts: %s\n"
+msgid "Failed to add mDNS browser for service %s."
+msgstr "%s সেৱাৰ বাবে mDNS ব্ৰাউজাৰ যোগ কৰিবলৈ ব্যৰ্থ ।"
+
+#: ../propono/propono-mdns.c:225
+#, c-format
+msgid "Failed to browse for hosts: %s\n"
+msgstr "গৃহস্থ ব্ৰাউজ কৰিবলৈ ব্যৰ্থ: %s\n"
+
+#: ../propono/propono-mdns.c:298
+#, c-format
+#| msgid "Failed to browse for hosts: %s\n"
+msgid "Failed to initialize mDNS browser: %s\n"
+msgstr "mDNS ব্ৰাউজাৰ আৰম্ভ কৰিবলৈ ব্যৰ্থ: %s\n"
+
+#. Translators: %s is a host name or IP address.
+#: ../propono/propono-notebook.c:461
+#, c-format
+#| msgid "Connection to host <i>%s</i> was closed."
+msgid "Connection to host %s was closed."
+msgstr "গৃহস্থ %s-ৰ সৈতে সংযোগ বিচ্ছিন্ন হৈছে"
+
+#: ../propono/propono-notebook.c:463
+msgid "Connection closed"
+msgstr "সংযোগ বিচ্ছিন্ন হৈছে"
+
+#. Translators: %s is a host name or IP address.
+#: ../propono/propono-notebook.c:482
+#, c-format
+#| msgid "Authentication to host <i>%s</i> has failed"
+msgid "Authentication to host %s has failed"
+msgstr "গৃহস্থ %s লৈ পৰিচয় প্ৰমাণ কৰিবলৈ ব্যৰ্থ"
+
+#: ../propono/propono-notebook.c:488
+msgid "Authentication failed"
+msgstr "অনুমোদন ব্যৰ্থ"
+
+#: ../propono/propono-notebook.c:525
+msgid "Connecting..."
+msgstr "সংযোগ স্থাপন কৰা হৈছে..."
+
+#: ../propono/propono-notebook.c:552 ../propono/propono-tab.c:325
+msgid "Close connection"
+msgstr "সংযোগ সমাপ্ত কৰক"
+
+#: ../propono/propono-plugin-dialog.c:83
+msgid "Plugin Manager"
+msgstr "প্লাগ-ইন পৰিচালন ব্যৱস্থা"
+
+#: ../propono/propono-plugin-manager.c:45
+msgid "Plugin"
+msgstr "প্লাগ-ইন"
+
+#: ../propono/propono-plugin-manager.c:46
+msgid "Enabled"
+msgstr "সক্ৰিয়"
+
+#: ../propono/propono-plugin-manager.c:503
+msgid "C_onfigure"
+msgstr "বিন্যাস কৰক (_o)"
+
+#: ../propono/propono-plugin-manager.c:512
+msgid "A_ctivate"
+msgstr "সক্ৰিয় কৰক (_c)"
+
+#: ../propono/propono-plugin-manager.c:523
+msgid "Ac_tivate All"
+msgstr "সমস্ত সক্ৰিয় কৰক (_t)"
+
+#: ../propono/propono-plugin-manager.c:528
+msgid "_Deactivate All"
+msgstr "সমস্ত নিষ্ক্ৰিয় কৰক (_D)"
+
+#: ../propono/propono-plugin-manager.c:824
+#| msgid "_About"
+msgid "_About Plugin"
+msgstr "প্লাগ-ইনৰ বিষয়ে (_A)"
+
+#: ../propono/propono-plugin-manager.c:828
+msgid "C_onfigure Plugin"
+msgstr "প্লাগ-ইন বিন্যাস কৰক (_o)"
+
+#: ../propono/propono-prefs.c:217
+msgid "Cannot initialize preferences manager."
+msgstr "বৈশিষ্ট্য পৰিচালন ব্যৱস্থা আৰম্ভ কৰা নাযায়  ।"
+
+#: ../propono/propono-tab.c:346
+#| msgid "_Full screen"
+msgid "Leave fullscreen"
+msgstr "সম্পূৰ্ণ পৰ্দাত প্ৰদৰ্শন বন্ধ কৰা হ'ব"
+
+#: ../propono/propono-tab.c:495
+msgid "Error saving recent connection."
+msgstr "বৰ্তমান সংযোগ সংৰক্ষণে ত্ৰুটি হৈছে  ।"
+
+#: ../propono/propono-tab.c:728
+#| msgid "Error saving the credential on the keyring."
+msgid "Error saving the credentials on the keyring."
+msgstr "কি-ৰিংত পৰিচয় সংৰক্ষণত সমস্যা ।"
+
+#: ../propono/propono-tab.c:814
+msgid "Could not get a screenshot of the connection."
+msgstr "বৰ্তমান সংযোগেৰ স্ক্ৰিন-শট প্ৰাপ্ত কৰা সম্ভৱ নহয়  ।"
+
+#: ../propono/propono-tab.c:819
+msgid "Save Screenshot"
+msgstr "পৰ্দাৰ ছবি সংৰক্ষণ কৰক"
+
+#: ../propono/propono-tab.c:830
+#, c-format
+msgid "Screenshot of %s"
+msgstr "%s-ৰ স্ক্ৰিন-শট"
+
+#: ../propono/propono-tab.c:881
+#| msgid "Error saving recent connection."
+msgid "Error saving screenshot"
+msgstr "পৰ্দাৰ ছবি সংৰক্ষণ কৰিবলৈ ত্ৰুটি"
+
+#: ../propono/propono-tube-handler.c:229
+#, c-format
+msgid "Impossible to get service property: %s"
+msgstr "সেৱাৰ বৈশিষ্ট্য প্ৰাপ্ত কৰা অসম্ভৱ: %s"
+
+#: ../propono/propono-tube-handler.c:286
+#, c-format
+#| msgid "Failed to create the directory"
+msgid "Impossible to create the connection: %s"
+msgstr "সংযোগ নিৰ্মাণ কৰা অসম্ভৱ: %s"
+
+#: ../propono/propono-tube-handler.c:325
+#, c-format
+msgid "Impossible to accept the stream tube: %s"
+msgstr "স্ট্ৰিম টিউব গ্ৰহণ কৰা অসম্ভৱ: %s"
+
+#: ../propono/propono-tube-handler.c:463
+#, c-format
+msgid "Impossible to get the contact name: %s"
+msgstr "যোগাযোগকৰ্তাৰ নাম প্ৰাপ্ত কৰিবলৈ ব্যৰ্থ: %s"
+
+#: ../propono/propono-tube-handler.c:498
+#, c-format
+msgid "Impossible to get the avatar: %s"
+msgstr "অবতাৰ প্ৰাপ্ত কৰা অসম্ভৱ: %s"
+
+#: ../propono/propono-tube-handler.c:519
+#, c-format
+msgid "%s wants to share his desktop with you."
+msgstr "%s আপোনাৰ সৈতে নিজৰ ডেস্কটপটি যৌথৰূপে ব্যৱহাৰ কৰিবলৈ ইচ্ছুক ।"
+
+#: ../propono/propono-tube-handler.c:524
+msgid "Desktop sharing invitation"
+msgstr "ডেস্কটপ যৌথৰূপে ব্যৱহাৰ কৰাৰ আমন্ত্ৰণ"
+
+#. Toplevel
+#: ../propono/propono-ui.h:33
+msgid "_Machine"
+msgstr "যন্ত্ৰ (_M)"
+
+#: ../propono/propono-ui.h:34
+msgid "_Edit"
+msgstr "সম্পাদনা (_E)"
+
+#: ../propono/propono-ui.h:35
+msgid "_View"
+msgstr "প্ৰদৰ্শন (_V)"
+
+#: ../propono/propono-ui.h:36
+msgid "_Bookmarks"
+msgstr "পত্ৰচিহ্ন (_B)"
+
+#: ../propono/propono-ui.h:41
+msgid "Connect to a remote machine"
+msgstr "দূৰবৰ্তী যন্ত্ৰৰ সৈতে সংযোগ স্থাপন কৰক"
+
+#: ../propono/propono-ui.h:43
+msgid "Open a .VNC file"
+msgstr "এটা .VNC নথিপত্ৰ খোলক"
+
+#: ../propono/propono-ui.h:45
+msgid "Quit the program"
+msgstr "প্ৰোগ্ৰাম বন্ধ কৰক"
+
+#: ../propono/propono-ui.h:49
+msgid "Edit the application preferences"
+msgstr "এপ্লিকেশন সংক্ৰান্ত পছন্দ মান পৰিবৰ্তন কৰক"
+
+#. FIXME: Study this dialog for next release
+#. { "EditPlugins", GTK_STOCK_EXECUTE, N_("_Plugins"), NULL,
+#. N_("Select plugins"), G_CALLBACK (propono_cmd_edit_plugins) },
+#.
+#. Bookmarks menu
+#: ../propono/propono-ui.h:56
+msgid "_Open bookmark"
+msgstr "পত্ৰচিহ্ন খোলক (_O)"
+
+#: ../propono/propono-ui.h:57
+msgid "Connect to this machine"
+msgstr "এই যন্ত্ৰৰ সৈতে সংযোগ স্থাপন কৰক"
+
+#: ../propono/propono-ui.h:58
+msgid "_Edit bookmark"
+msgstr "পত্ৰচিহ্ন সম্পাদন কৰক (_E)"
+
+#: ../propono/propono-ui.h:59
+msgid "Edit the details of selected bookmark"
+msgstr "পছন্দ কৰা পত্ৰচিহ্নটি সম্পাদন কৰক"
+
+#: ../propono/propono-ui.h:60
+msgid "_Remove from bookmarks"
+msgstr "পত্ৰচিহ্নৰ পৰা আঁতৰাওক (_R)"
+
+#: ../propono/propono-ui.h:61
+msgid "Remove current selected connection from bookmarks"
+msgstr "বৰ্তমানে পছন্দ কৰা সংযোগটি পত্ৰচিহ্নৰ পৰা আঁতৰাওক"
+
+#: ../propono/propono-ui.h:62
+msgid "_New Folder"
+msgstr "নতুন ফোল্ডাৰ (_N)"
+
+#: ../propono/propono-ui.h:63
+msgid "Create a new folder"
+msgstr "নতুন ফোল্ডাৰ নিৰ্মাণ কৰক"
+
+#. Help menu
+#: ../propono/propono-ui.h:66
+msgid "_Contents"
+msgstr "বিষয়বস্তু (_C)"
+
+#: ../propono/propono-ui.h:67
+msgid "Open the propono manual"
+msgstr "propono-ৰ সহায়িকা খোলক"
+
+#: ../propono/propono-ui.h:69
+msgid "About this application"
+msgstr "এপ্লিকেশন পৰিচিত"
+
+#: ../propono/propono-ui.h:74
+msgid "_Toolbar"
+msgstr "টুল-বাৰ(_T)"
+
+#: ../propono/propono-ui.h:75
+msgid "Show or hide the toolbar"
+msgstr "টুল-বাৰ প্ৰদৰ্শন অথবা লুকুৱা হ'ব"
+
+#: ../propono/propono-ui.h:78
+msgid "_Statusbar"
+msgstr "অৱস্থা-বাৰ (_S)"
+
+#: ../propono/propono-ui.h:79
+msgid "Show or hide the statusbar"
+msgstr "অৱস্থা-বাৰ প্ৰদৰ্শন কৰক অথবা লুকাওক"
+
+#: ../propono/propono-ui.h:82
+msgid "Side _Panel"
+msgstr "পাৰ্শ্ববৰ্তী পেনেল (_P)"
+
+#: ../propono/propono-ui.h:83
+msgid "Show or hide the side panel"
+msgstr "পাৰ্শ্ববৰ্তী পেনেল প্ৰদৰ্শন কৰক অথবা লুকাওক"
+
+#: ../propono/propono-ui.h:91
+msgid "Close the current connection"
+msgstr "বৰ্তমান সংযোগটি বন্ধ কৰক"
+
+#: ../propono/propono-ui.h:92
+msgid "C_lose All"
+msgstr "সমগ্ৰ বন্ধ কৰক (_l)"
+
+#: ../propono/propono-ui.h:93
+msgid "Close all active connections"
+msgstr "সকলো সক্ৰিয় সংযোগ বন্ধ কৰক"
+
+#. Bookmarks menu
+#: ../propono/propono-ui.h:96
+msgid "_Add to bookmarks"
+msgstr "পত্ৰচিহ্নত যোগ কৰক (_A)"
+
+#: ../propono/propono-ui.h:97
+msgid "Add current connection to your bookmarks"
+msgstr "বৰ্তমান সংযোগটি পত্ৰচিহ্নত যোগ কৰক"
+
+#. Machine menu
+#: ../propono/propono-ui.h:104
+msgid "Take screenshot"
+msgstr "স্ক্ৰিন-শট লওক"
+
+#: ../propono/propono-ui.h:105
+msgid "Take a screenshot of active connection"
+msgstr "বৰ্তমান সংযোগেৰ স্ক্ৰিন-শট লওক"
+
+#: ../propono/propono-ui.h:109
+msgid "View the current machine in full screen"
+msgstr "বৰ্তমান যন্ত্ৰকে সম্পূৰ্ণ পৰ্দাত প্ৰদৰ্শন কৰক"
+
+#: ../propono/propono-utils.c:75
+msgid "An error has occurred:"
+msgstr "ত্ৰুটি উৎপন্ন হৈছে:"
+
+#: ../propono/propono-utils.c:150
+#, c-format
+#| msgid "Could not open the file."
+msgid "Could not load builder file: %s"
+msgstr "বিল্ডাৰ নথিপত্ৰ লোড কৰিবলৈ ব্যৰ্থ: %s"
+
+#: ../propono/propono-utils.c:453
+#| msgid "Propono is a VNC client for the MATE Desktop"
+msgid "Propono is a remote desktop viewer for the MATE Desktop"
+msgstr "MATE ডেস্কটপত ব্যৱহাৰযোগ্য দূৰবৰ্তী ডেস্কটপ প্ৰদৰ্শন ব্যৱস্থা হ'ল Propono"
+
+#: ../propono/propono-utils.c:456
+msgid ""
+"Propono is free software; you can redistribute it and/or modify it under the "
+"terms of the GNU General Public License as published by the Free Software "
+"Foundation; either version 2 of the License, or (at your option) any later "
+"version."
+msgstr ""
+"Propono is free software; you can redistribute it and/or modify it under the "
+"terms of the GNU General Public License as published by the Free Software "
+"Foundation; either version 2 of the License, or (at your option) any later "
+"version."
+
+#: ../propono/propono-utils.c:460
+msgid ""
+"Propono is distributed in the hope that it will be useful, but WITHOUT ANY "
+"WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS "
+"FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more "
+"details."
+msgstr ""
+"Propono is distributed in the hope that it will be useful, but WITHOUT ANY "
+"WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS "
+"FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more "
+"details."
+
+#: ../propono/propono-utils.c:464
+msgid ""
+"You should have received a copy of the GNU General Public License along with "
+"this program. If not, see <http://www.gnu.org/licenses/>."
+msgstr ""
+"You should have received a copy of the GNU General Public License along with "
+"this program. If not, see <http://www.gnu.org/licenses/>."
+
+#: ../propono/propono-utils.c:486
+msgid "translator-credits"
+msgstr "অমিতাক্ষ ফুকন (aphukan@fedoraproject.org)"
+
+#: ../propono/propono-utils.c:489
+msgid "Propono Website"
+msgstr "Propono ওয়েবসাইট"
+
+#: ../propono/propono-window.c:397
+#, c-format
+msgid "Could not merge propono-ui.xml: %s"
+msgstr "propono-ui.xml একত্ৰিত কৰা নাযায়: %s "
+
+#: ../propono/propono-window.c:425
+msgid "_Recent connections"
+msgstr "সম্প্ৰতি ব্যৱহৃত সংযোগ (_R)"
+
+#. Translators: This is server:port, a statusbar tooltip when mouse is over a bookmark item on menu
+#: ../propono/propono-window.c:585
+#, c-format
+msgid "Open %s:%d"
+msgstr "%s খোলক:%d"
+
+#~ msgid "<b>Connection</b>"
+#~ msgstr "<b>সংযোগ</b>"
+
+#~ msgid "<b>Folder</b>"
+#~ msgstr "<b>ফোল্ডাৰ</b>"
+
+#~ msgid "host or host:display or host::port"
+#~ msgstr "host অথবা host:display অথবা host::port"
+
+#~ msgid "Supported formats"
+#~ msgstr "সমৰ্থিত বিন্যাস"
+
+#~ msgid "Choose a VNC Server"
+#~ msgstr "এটা VNC সেৱক পছন্দ কৰক"
+
+#~ msgid "Could not find the host address in the file."
+#~ msgstr "নথিপত্ৰেত উপস্থিত গৃহস্থ ঠিকনা সন্ধান কৰিবলৈ ব্যৰ্থ ।"
+
+#~ msgid "Opens a .vnc file"
+#~ msgstr "এটা .vnc নথিপত্ৰ খোলা হয়"
+
+#~ msgid "- VNC Client for MATE"
+#~ msgstr "- MATE বাবে VNC গ্ৰাহক"
+
+#~ msgid "Minimize window"
+#~ msgstr "সংযোগক্ষেত্ৰ লুকাওক"
+
+#~ msgid "_Read only"
+#~ msgstr "অকল পাঠযোগ্য (_R)"
+
+#~ msgid "Press Ctrl+Alt to release the cursor"
+#~ msgstr "কাৰ্সাৰৰ বাবে Ctrl+Alt ব্যৱহাৰ কৰক"

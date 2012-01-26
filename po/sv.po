@@ -1,0 +1,1373 @@
+# Swedish translation for propono.
+# Copyright (C) 2007, 2008, 2009, 2010 Free Software Foundation, Inc.
+# This file is distributed under the same license as the propono package.
+# Daniel Nylander <po@danielnylander.se>, 2007, 2008, 2009, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: propono\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-03-14 00:59+0100\n"
+"PO-Revision-Date: 2010-03-14 01:11+0100\n"
+"Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
+"Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../data/MATE_ProponoApplet.xml.h:1
+#: ../propono/propono-plugin-manager.c:495
+msgid "_About"
+msgstr "_Om"
+
+#: ../data/MATE_ProponoApplet.xml.h:2
+#: ../propono/propono-ui.h:37
+msgid "_Help"
+msgstr "_Hjälp"
+
+#: ../data/propono.desktop.in.in.h:1
+#: ../data/propono-file.desktop.in.in.h:1
+msgid "Access remote desktops"
+msgstr "Få åtkomst till fjärrskrivbord"
+
+#: ../data/propono.desktop.in.in.h:2
+#: ../data/propono-file.desktop.in.in.h:2
+#: ../propono/MATE_ProponoApplet.server.in.in.h:2
+#: ../propono/propono-applet.c:434
+#: ../propono/propono-applet.c:486
+#: ../propono/propono-main.c:200
+msgid "Remote Desktop Viewer"
+msgstr "Fjärrskrivbordsklient"
+
+#: ../data/propono.ui.h:1
+msgid "Allow _keyboard shortcuts"
+msgstr "Tillåt tan_gentbordsgenvägar"
+
+#: ../data/propono.ui.h:2
+msgid "Authentication is required"
+msgstr "Autentisering krävs"
+
+#. setup label
+#: ../data/propono.ui.h:3
+#: ../propono/propono-fav.c:851
+msgid "Bookmarks"
+msgstr "Bokmärken"
+
+#: ../data/propono.ui.h:4
+msgid "Connection"
+msgstr "Anslutning"
+
+#: ../data/propono.ui.h:5
+msgid "Connection options"
+msgstr "Anslutningsalternativ"
+
+#: ../data/propono.ui.h:6
+msgid "Folder"
+msgstr "Mapp"
+
+#: ../data/propono.ui.h:7
+#: ../plugins/ssh/propono-ssh-tab.c:49
+#: ../plugins/vnc/propono-vnc-tab.c:148
+#: ../propono/propono-fav.c:404
+msgid "Host:"
+msgstr "Värd:"
+
+#: ../data/propono.ui.h:8
+msgid "Interface"
+msgstr "Gränssnitt"
+
+#: ../data/propono.ui.h:9
+msgid "Options"
+msgstr "Alternativ"
+
+#: ../data/propono.ui.h:10
+msgid "Parent Folder"
+msgstr "Föräldramapp"
+
+#: ../data/propono.ui.h:11
+msgid "Preferences"
+msgstr "Inställningar"
+
+#. This is a tooltip in preferences dialog
+#: ../data/propono.ui.h:13
+msgid "This option enables menu accelerators and keyboard shortcuts. For more info on why you may want to disable them, check the documentation."
+msgstr "Detta alternativ aktiverar menytangenter och tangentbordsgenvägar. Läs dokumentationen för mer information om varför du kanske vill inaktivera dem."
+
+#: ../data/propono.ui.h:14
+msgid "Which machine do you want to connect to?"
+msgstr "Vilken dator vill du ansluta till?"
+
+#: ../data/propono.ui.h:15
+msgid "_Always show tabs"
+msgstr "Visa _alltid flikar"
+
+#. This is a button label, in the authentication dialog
+#: ../data/propono.ui.h:17
+msgid "_Authenticate"
+msgstr "_Autentisera"
+
+#: ../data/propono.ui.h:18
+msgid "_Full screen"
+msgstr "_Helskärm"
+
+#: ../data/propono.ui.h:19
+msgid "_Host:"
+msgstr "_Värd:"
+
+#: ../data/propono.ui.h:20
+msgid "_Name:"
+msgstr "_Namn:"
+
+#: ../data/propono.ui.h:21
+msgid "_Password:"
+msgstr "_Lösenord:"
+
+#: ../data/propono.ui.h:22
+msgid "_Protocol:"
+msgstr "_Protokoll:"
+
+#: ../data/propono.ui.h:23
+msgid "_Remember this credential"
+msgstr "_Kom ihåg denna inloggningsuppgift"
+
+#: ../data/propono.ui.h:24
+#: ../plugins/ssh/propono-ssh-plugin.c:144
+msgid "_Username:"
+msgstr "_Användarnamn:"
+
+#: ../data/propono.schemas.in.in.h:1
+#: ../propono/propono-plugin-manager.c:795
+msgid "Active plugins"
+msgstr "Aktiva insticksmoduler"
+
+#: ../data/propono.schemas.in.in.h:2
+msgid "List of active plugins. It contains the \"Location\" of the active plugins. See the .propono-plugin file for obtaining the \"Location\" of a given plugin."
+msgstr "Lista över aktiva insticksmoduler. Den innehåller \"Plats\" för de aktiva insticksmodulerna. Se filen .propono-plugin för att ta reda på \"Plats\" för en angiven insticksmodul."
+
+#: ../data/propono.schemas.in.in.h:3
+msgid "Maximum number of history items in connect dialog"
+msgstr "Maximalt antal historikobjekt i anslutningsdialogen"
+
+#: ../data/propono.schemas.in.in.h:4
+msgid "Set to \"false\" to disable menu shortcuts. Set to \"true\" to enable them. Note that if they are enabled, those keys will be intercepted by the menu and will not be sent to the remote host."
+msgstr "Ställ in till \"false\" för att inaktivera menygenvägar. Ställ in till \"true\" för att aktivera dem. Observera att om de är aktiverade så kommer dessa tangenter att fångas upp av menyn och kommer inte att skickas till fjärrdatorn."
+
+#: ../data/propono.schemas.in.in.h:5
+msgid "Set to \"true\" to always show the tabs. Set to \"false\" to only show the tabs when there is more than one active connection."
+msgstr "Ställ in till \"true\" för att alltid visa flikarna. Ställ in till \"false\" för att endast visa flikarna när det finns fler än en aktiv anslutning."
+
+#: ../data/propono.schemas.in.in.h:6
+msgid "Set to \"true\" to always start the program listening for reverse connections."
+msgstr "Ställ in till \"true\" för att alltid starta programlyssnaren för omvända anslutningar."
+
+#: ../data/propono.schemas.in.in.h:7
+msgid "Specifies the maximum number of items in the host dropdown entry."
+msgstr "Anger maximalt antal värdobjekt i rullgardinslistan."
+
+#: ../data/propono.schemas.in.in.h:8
+msgid "The handler for \"vnc://\" URLs"
+msgstr "Hanteraren för url:er av typen \"vnc://\""
+
+#: ../data/propono.schemas.in.in.h:9
+msgid "When connecting to a host, the client can say to the server to leave other clients connected or to drop the existent connections. Set the value to true to share the desktop with the other clients."
+msgstr "Vid anslutning till en värd kan klienten säga till servern att lämna andra klienter anslutna eller att bryta de befintliga anslutningarna. Ställ in värdet till sant för att dela skrivbordet med andra klienter."
+
+#: ../data/propono.schemas.in.in.h:10
+msgid "Whether we should leave other clients connected"
+msgstr "Huruvida vi ska lämna andra klienter anslutna"
+
+#: ../data/propono.schemas.in.in.h:11
+msgid "Whether we should show tabs even when there is only one active connection"
+msgstr "Huruvida vi ska visa flikar även om det endast finns en aktiv anslutning"
+
+#: ../data/propono.schemas.in.in.h:12
+msgid "Whether we should show the menu accelerators (shortcut keys)"
+msgstr "Huruvida vi ska visa menytangenter (genvägstangenter)"
+
+#: ../data/propono.schemas.in.in.h:13
+msgid "Whether we should start the program listening for reverse connections"
+msgstr "Huruvida vi ska starta programlyssnaren för omvända anslutningar"
+
+#: ../data/propono-mime.xml.in.h:1
+msgid "Remote Desktop (VNC) file"
+msgstr "Fjärrskrivbordsfil (VNC)"
+
+#: ../data/propono-mime.xml.in.h:2
+msgid "Remote Desktop Connection"
+msgstr "Fjärrskrivbordsanslutning"
+
+#. vim: set ts=8:
+#: ../plugins/ssh/propono-ssh-plugin.c:76
+#: ../plugins/ssh/ssh.propono-plugin.desktop.in.h:1
+msgid "SSH"
+msgstr "SSH"
+
+#. Translators: This is a description of the SSH protocol. It appears at Connect dialog.
+#: ../plugins/ssh/propono-ssh-plugin.c:78
+msgid "Access Unix/Linux terminals"
+msgstr "Kom åt Unix/Linux-terminaler"
+
+#: ../plugins/ssh/propono-ssh-plugin.c:132
+msgid "SSH Options"
+msgstr "SSH-flaggor"
+
+#. Translators: This is the tooltip for the username field in a SSH connection
+#: ../plugins/ssh/propono-ssh-plugin.c:149
+msgid "Optional. If blank, your username will be used. Also, it can be supplied in the Machine field above, in the form username@hostname."
+msgstr "Valfritt. Om tom kommer ditt användarnamn att användas. Det kan även anges i fältet Maskin ovan, i formatet användarnamn@värdnamn."
+
+#: ../plugins/ssh/propono-ssh-tab.c:50
+#: ../plugins/vnc/propono-vnc-tab.c:149
+msgid "Port:"
+msgstr "Port:"
+
+#: ../plugins/ssh/ssh.propono-plugin.desktop.in.h:2
+msgid "SSH support"
+msgstr "SSH-stöd"
+
+#: ../plugins/vnc/propono-vnc-connection.c:290
+#: ../plugins/vnc/propono-vnc-plugin.c:321
+#, c-format
+msgid "Bad value for 'shared' flag: %d. It is supposed to be 0 or 1. Ignoring it."
+msgstr "Felaktigt värde för \"shared\"-flagga: %d. Det ska vara 0 eller 1. Ignorerar det."
+
+#: ../plugins/vnc/propono-vnc-plugin.c:84
+msgid "_Reverse Connections..."
+msgstr "_Omvända anslutningar..."
+
+#: ../plugins/vnc/propono-vnc-plugin.c:86
+msgid "Configure incoming VNC connections"
+msgstr "Konfigurera inkommande VNC-anslutningar"
+
+#. Translators: this is a command line option (run propono --help)
+#: ../plugins/vnc/propono-vnc-plugin.c:173
+msgid "Enable scaled mode"
+msgstr "Aktivera skalat läge"
+
+#. Translators: this is a command line option (run propono --help)
+#: ../plugins/vnc/propono-vnc-plugin.c:188
+msgid "VNC Options:"
+msgstr "VNC-alternativ:"
+
+#. Translators: this is a command line option (run propono --help)
+#: ../plugins/vnc/propono-vnc-plugin.c:190
+msgid "Show VNC Options"
+msgstr "Visa VNC-alternativ"
+
+#. vim: set ts=8:
+#: ../plugins/vnc/propono-vnc-plugin.c:212
+#: ../plugins/vnc/vnc.propono-plugin.desktop.in.h:1
+msgid "VNC"
+msgstr "VNC"
+
+#: ../plugins/vnc/propono-vnc-plugin.c:213
+msgid "Access Unix/Linux, Windows and other machines."
+msgstr "Kom åt Unix/Linux, Windows och andra datorer."
+
+#: ../plugins/vnc/propono-vnc-plugin.c:270
+msgid "Could not parse the file."
+msgstr "Kunde inte tolka filen."
+
+#: ../plugins/vnc/propono-vnc-plugin.c:277
+msgid "The file is not a VNC one: Missing the group \"connection\"."
+msgstr "Filen är inte en VNC-fil: Saknar gruppen \"connection\"."
+
+#: ../plugins/vnc/propono-vnc-plugin.c:283
+msgid "The file is not a VNC one: Missing the key \"host\"."
+msgstr "Filen är inte en VNC-fil: Nyckeln \"host\" saknas."
+
+#: ../plugins/vnc/propono-vnc-plugin.c:374
+msgid "VNC Options"
+msgstr "VNC-alternativ"
+
+#. View only check button
+#: ../plugins/vnc/propono-vnc-plugin.c:387
+#: ../plugins/vnc/propono-vnc-tab.c:632
+msgid "_View only"
+msgstr "_Visa endast"
+
+#. Scaling check button
+#: ../plugins/vnc/propono-vnc-plugin.c:395
+msgid "_Scaling"
+msgstr "_Skalning"
+
+#: ../plugins/vnc/propono-vnc-plugin.c:411
+msgid "_Keep aspect ratio"
+msgstr "_Behåll bildförhållande"
+
+#. JPEG Compression check button
+#: ../plugins/vnc/propono-vnc-plugin.c:421
+msgid "_Use JPEG Compression"
+msgstr "_Använd JPEG-komprimering"
+
+#: ../plugins/vnc/propono-vnc-plugin.c:422
+msgid "This might not work on all VNC servers"
+msgstr "Detta kanske inte fungerar på alla VNC-servrar"
+
+#: ../plugins/vnc/propono-vnc-plugin.c:431
+msgid "_Depth Color:"
+msgstr "Färg_djup:"
+
+#: ../plugins/vnc/propono-vnc-plugin.c:436
+msgid "Use Server Settings"
+msgstr "Använd serverinställningar"
+
+#: ../plugins/vnc/propono-vnc-plugin.c:437
+msgid "True Color (24 bits)"
+msgstr "Många färger (24 bitar)"
+
+#: ../plugins/vnc/propono-vnc-plugin.c:438
+msgid "High Color (16 bits)"
+msgstr "Normala färger (16 bitar)"
+
+#: ../plugins/vnc/propono-vnc-plugin.c:439
+msgid "Low Color (8 bits)"
+msgstr "Få färger (8 bitar)"
+
+#: ../plugins/vnc/propono-vnc-plugin.c:440
+msgid "Ultra Low Color (3 bits)"
+msgstr "Mycket få färger (3 bitar)"
+
+#. Translators: the whole sentence will be: Use host <hostname> as a SSH tunnel
+#: ../plugins/vnc/propono-vnc-plugin.c:453
+msgid "Use h_ost"
+msgstr "Använd vä_rd"
+
+#. Translators: This is the tooltip of the SSH tunneling entry
+#: ../plugins/vnc/propono-vnc-plugin.c:461
+msgid "hostname or user@hostname"
+msgstr "värdnamn eller användare@värdnamn"
+
+#. Translators: the whole sentence will be: Use host <hostname> as a SSH tunnel
+#: ../plugins/vnc/propono-vnc-plugin.c:465
+msgid "as a SSH tunnel"
+msgstr "som en SSH-tunnel"
+
+#. Translators: this is a pattern to open *.vnc files in a open dialog.
+#: ../plugins/vnc/propono-vnc-plugin.c:500
+msgid "VNC Files"
+msgstr "VNC-filer"
+
+#: ../plugins/vnc/propono-vnc-tab.c:147
+msgid "Desktop Name:"
+msgstr "Skrivbordsnamn:"
+
+#: ../plugins/vnc/propono-vnc-tab.c:150
+msgid "Dimensions:"
+msgstr "Dimensioner:"
+
+#: ../plugins/vnc/propono-vnc-tab.c:304
+msgid "Error creating the SSH tunnel"
+msgstr "Fel vid skapandet av SSH-tunneln"
+
+#: ../plugins/vnc/propono-vnc-tab.c:305
+#: ../plugins/vnc/propono-vnc-tab.c:316
+msgid "Unknown reason"
+msgstr "Okänd anledning"
+
+#: ../plugins/vnc/propono-vnc-tab.c:315
+msgid "Error connecting to host."
+msgstr "Fel vid anslutning till värden."
+
+#. Translators: %s is a host name or IP address; %u is a code error (number).
+#: ../plugins/vnc/propono-vnc-tab.c:360
+#, c-format
+msgid "Authentication method to host %s is unsupported. (%u)"
+msgstr "Autentiseringsmetoden mot värden %s stöds inte. (%u)"
+
+#: ../plugins/vnc/propono-vnc-tab.c:364
+msgid "Authentication unsupported"
+msgstr "Autentisering stöds inte"
+
+#: ../plugins/vnc/propono-vnc-tab.c:531
+#: ../plugins/vnc/propono-vnc-tab.c:548
+msgid "Authentication error"
+msgstr "Autentiseringsfel"
+
+#: ../plugins/vnc/propono-vnc-tab.c:532
+msgid "A username is required in order to access this machine."
+msgstr "Ett användarnamn krävs för att komma åt denna dator."
+
+#: ../plugins/vnc/propono-vnc-tab.c:549
+msgid "A password is required in order to access this machine."
+msgstr "Ett lösenord krävs för att komma åt denna dator."
+
+#: ../plugins/vnc/propono-vnc-tab.c:603
+msgid "S_caling"
+msgstr "Ska_lning"
+
+#: ../plugins/vnc/propono-vnc-tab.c:604
+msgid "Fits the remote screen into the current window size"
+msgstr "Passar in fjärrskärmen i den aktuella fönsterstorleken"
+
+#: ../plugins/vnc/propono-vnc-tab.c:617
+msgid "_Keep Aspect Ratio"
+msgstr "_Behåll bildförhållande"
+
+#: ../plugins/vnc/propono-vnc-tab.c:618
+msgid "Keeps the screen aspect ratio when using scaling"
+msgstr "Behåller skärmens bildförhållande när skalning används"
+
+#: ../plugins/vnc/propono-vnc-tab.c:633
+msgid "Does not send mouse and keyboard events"
+msgstr "Skickar inte mus- och tangentbordshändelser"
+
+#: ../plugins/vnc/propono-vnc-tab.c:646
+msgid "_Original size"
+msgstr "_Ursprunglig storlek"
+
+#: ../plugins/vnc/propono-vnc-tab.c:647
+msgid "Adjusts the window to the remote desktop's size"
+msgstr "Justerar fönstret till storleken för fjärrskrivbordet"
+
+#: ../plugins/vnc/propono-vnc-tab.c:660
+msgid "_Refresh Screen"
+msgstr "_Uppdatera skärm"
+
+#: ../plugins/vnc/propono-vnc-tab.c:661
+msgid "Requests an update of the screen"
+msgstr "Begär en uppdatering av skärmen"
+
+#. Send Ctrl-alt-del
+#: ../plugins/vnc/propono-vnc-tab.c:683
+#: ../plugins/vnc/propono-vnc-tab.c:755
+#: ../plugins/vnc/propono-vnc-tab.c:757
+msgid "Send Ctrl-Alt-Del"
+msgstr "Skicka Ctrl-Alt-Del"
+
+#: ../plugins/vnc/propono-vnc-tab.c:684
+msgid "Sends Ctrl+Alt+Del to the remote machine"
+msgstr "Skickar Ctrl+Alt+Del till fjärrdatorn"
+
+#: ../plugins/vnc/propono-vnc-tab.c:736
+#: ../plugins/vnc/propono-vnc-tab.c:737
+msgid "Scaling"
+msgstr "Skalning"
+
+#: ../plugins/vnc/propono-vnc-tab.c:746
+#: ../plugins/vnc/propono-vnc-tab.c:747
+msgid "Read only"
+msgstr "Skrivskyddad"
+
+#: ../plugins/vnc/propono-vnc-tab.c:919
+msgid ""
+"Scaling is not supported on this installation.\n"
+"\n"
+"Read the README file (shipped with Propono) in order to know how to enable this feature."
+msgstr ""
+"Skalning stöds inte för denna installation.\n"
+"\n"
+"Läs filen README (kommer med Propono) för information om hur man aktiverar denna funktion."
+
+#: ../plugins/vnc/propono-vnc-tunnel.c:77
+#, c-format
+msgid "Unable to find a free TCP port"
+msgstr "Kunde inte hitta en ledig TCP-port"
+
+#: ../plugins/vnc/vnc.propono-plugin.desktop.in.h:2
+msgid "VNC support"
+msgstr "VNC-stöd"
+
+#: ../plugins/vnc/propono-vnc-listener-dialog.c:90
+msgid "IPv4:"
+msgstr "IPv4:"
+
+#: ../plugins/vnc/propono-vnc-listener-dialog.c:102
+msgid ""
+"\n"
+"\n"
+"IPv6:"
+msgstr ""
+"\n"
+"\n"
+"IPv6:"
+
+#: ../plugins/vnc/propono-vnc-listener-dialog.c:161
+#, c-format
+msgid "On the port %d"
+msgstr "På port %d"
+
+#: ../plugins/vnc/propono-vnc-listener.c:168
+msgid "Incoming VNC connection arrived but there is no active window"
+msgstr "Inkommande VNC-anslutning kom men det finns inget aktivt fönster"
+
+#. vim: set ts=8:
+#: ../plugins/vnc/vnc.ui.h:1
+msgid "By activating reverse connections you can access machines that are behind a firewall. The remote side is supposed to initiate the connection with you. For further information, checkout the help."
+msgstr "Genom att aktivera omvända anslutningar så kan du komma åt datorer som finns bakom en brandvägg. Fjärrsidan är tänkt att initiera anslutningen med dig. Se hjälpen för ytterligare information."
+
+#: ../plugins/vnc/vnc.ui.h:2
+msgid "Connectivity"
+msgstr "Anslutning"
+
+#: ../plugins/vnc/vnc.ui.h:3
+msgid "Reverse Connections"
+msgstr "Omvända anslutningar"
+
+#: ../plugins/vnc/vnc.ui.h:4
+msgid "This machine is reachable through the following IP address(es):"
+msgstr "Denna dator är nåbar på följande IP-adress(er):"
+
+#: ../plugins/vnc/vnc.ui.h:5
+msgid "_Always Enabled"
+msgstr "_Alltid aktiverad"
+
+#: ../plugins/vnc/vnc.ui.h:6
+msgid "_Enable Reverse Connections"
+msgstr "_Aktivera omvända anslutningar"
+
+#: ../propono/MATE_ProponoApplet.server.in.in.h:1
+msgid "A menu to quickly access remote machines"
+msgstr "En meny för att snabbt komma åt fjärrdatorer"
+
+#: ../propono/MATE_ProponoApplet.server.in.in.h:3
+msgid "Propono Applet Factory"
+msgstr "Panelprogramsfabrik för Propono"
+
+#: ../propono/propono-applet.c:277
+#: ../propono/propono-applet.c:360
+msgid "Could not run propono:"
+msgstr "Kunde inte köra propono:"
+
+#: ../propono/propono-applet.c:380
+msgid "Open Remote Desktop Viewer"
+msgstr "Öppna fjärrskrivbordsklient"
+
+#: ../propono/propono-applet.c:435
+msgid "Access your bookmarks"
+msgstr "Kom åt dina bokmärken"
+
+#: ../propono/propono-bookmarks.c:265
+#: ../propono/propono-connection.c:522
+#: ../propono/propono-tab.c:535
+#: ../propono/propono-tube-handler.c:253
+#, c-format
+msgid "The protocol %s is not supported."
+msgstr "Protokollet %s stöds inte."
+
+#: ../propono/propono-bookmarks.c:343
+#, c-format
+msgid "Error while initializing bookmarks: %s"
+msgstr "Fel vid initiering av bokmärken: %s"
+
+#: ../propono/propono-bookmarks.c:343
+#: ../propono/propono-bookmarks.c:458
+#: ../propono/propono-bookmarks-migration.c:135
+#: ../propono/propono-cache-prefs.c:53
+#: ../propono/propono-commands.c:173
+#: ../propono/propono-connect.c:482
+#: ../propono/propono-fav.c:765
+#: ../propono/propono-main.c:101
+#: ../propono/propono-main.c:120
+#: ../propono/propono-window.c:268
+#: ../propono/propono-window.c:737
+msgid "Unknown error"
+msgstr "Okänt fel"
+
+#: ../propono/propono-bookmarks.c:350
+msgid "Error while initializing bookmarks: The file seems to be empty"
+msgstr "Fel vid initiering av bokmärken: Filen verkar vara tom"
+
+#: ../propono/propono-bookmarks.c:357
+msgid "Error while initializing bookmarks: The file is not a propono bookmarks file"
+msgstr "Fel vid initiering av bokmärken: Filen är inte en bokmärkesfil för propono"
+
+#: ../propono/propono-bookmarks.c:419
+#: ../propono/propono-bookmarks.c:426
+msgid "Error while saving bookmarks: Failed to create the XML structure"
+msgstr "Fel vid sparande av bokmärken: Misslyckades med att skapa XML-strukturen"
+
+#: ../propono/propono-bookmarks.c:433
+#: ../propono/propono-bookmarks.c:440
+msgid "Error while saving bookmarks: Failed to initialize the XML structure"
+msgstr "Fel vid sparande av bokmärken: Misslyckades med att initiera XML-strukturen"
+
+#: ../propono/propono-bookmarks.c:449
+msgid "Error while saving bookmarks: Failed to finalize the XML structure"
+msgstr "Fel vid sparande av bokmärken: Misslyckades med att färdigställa XML-strukturen"
+
+#: ../propono/propono-bookmarks.c:458
+#, c-format
+msgid "Error while saving bookmarks: %s"
+msgstr "Fel när bokmärken sparades: %s"
+
+#: ../propono/propono-bookmarks-migration.c:95
+#: ../propono/propono-bookmarks-migration.c:102
+msgid "Error while migrating bookmarks: Failed to create the XML structure"
+msgstr "Fel vid migrering av bokmärken: Misslyckades med att skapa XML-strukturen"
+
+#: ../propono/propono-bookmarks-migration.c:109
+#: ../propono/propono-bookmarks-migration.c:116
+msgid "Error while migrating bookmarks: Failed to initialize the XML structure"
+msgstr "Fel vid migrering av bokmärken: Misslyckades med att initiera XML-strukturen"
+
+#: ../propono/propono-bookmarks-migration.c:125
+msgid "Error while migrating bookmarks: Failed to finalize the XML structure"
+msgstr "Fel vid migrering av bokmärken: Misslyckades med att färdigställa XML-strukturen"
+
+#: ../propono/propono-bookmarks-migration.c:135
+#: ../propono/propono-bookmarks-migration.c:217
+#, c-format
+msgid "Error while migrating bookmarks: %s"
+msgstr "Fel vid migrering av bokmärken: %s"
+
+#: ../propono/propono-bookmarks-migration.c:164
+msgid "Error while migrating bookmarks: VNC plugin is not activated"
+msgstr "Fel vid migrering av bokmärken: VNC-insticksmodulen är inte aktiverad"
+
+#: ../propono/propono-bookmarks-migration.c:217
+msgid "Failed to create the directory"
+msgstr "Misslyckades med att skapa katalogen"
+
+#: ../propono/propono-bookmarks-migration.c:241
+msgid "Migrating the bookmarks file to the new format. This operation is only supposed to run once."
+msgstr "Migrerar bokmärkesfilen till det nya formatet. Denna åtgärd är endast tänkt att köras en gång."
+
+#: ../propono/propono-bookmarks-migration.c:249
+#, c-format
+msgid "Error opening old bookmarks file: %s"
+msgstr "Fel vid öppning av gammal bokmärkesfil: %s"
+
+#: ../propono/propono-bookmarks-migration.c:250
+#: ../propono/propono-bookmarks-migration.c:262
+msgid "Migration cancelled"
+msgstr "Migreringen avbröts"
+
+#: ../propono/propono-bookmarks-migration.c:259
+msgid "Could not remove the old bookmarks file"
+msgstr "Kunde inte ta bort den gamla bokmärkesfilen"
+
+#: ../propono/propono-bookmarks-tree.c:120
+msgid "Root Folder"
+msgstr "Rotmapp"
+
+#: ../propono/propono-bookmarks-ui.c:78
+msgid "Invalid name for this folder"
+msgstr "Ogiltigt namn för denna mapp"
+
+#: ../propono/propono-bookmarks-ui.c:88
+#: ../propono/propono-bookmarks-ui.c:200
+#, c-format
+msgid "The name \"%s\" is already used in this folder. Please use a different name."
+msgstr "Namnet \"%s\" används redan i denna mapp. Använd ett annat namn."
+
+#: ../propono/propono-bookmarks-ui.c:89
+#: ../propono/propono-bookmarks-ui.c:190
+#: ../propono/propono-bookmarks-ui.c:201
+msgid "Invalid name for this item"
+msgstr "Ogiltigt namn för detta objekt"
+
+#. Translators: %s is a protocol name, like VNC or SSH
+#: ../propono/propono-bookmarks-ui.c:168
+#, c-format
+msgid "(Protocol: %s)"
+msgstr "(Protokoll: %s)"
+
+#. Translators: %s is a bookmark entry name
+#: ../propono/propono-bookmarks-ui.c:308
+#, c-format
+msgid "Are you sure you want to remove %s from bookmarks?"
+msgstr "Är du säker på att du vill ta bort %s från dina bokmärken?"
+
+#: ../propono/propono-bookmarks-ui.c:314
+msgid "Remove Folder?"
+msgstr "Ta bort mapp?"
+
+#: ../propono/propono-bookmarks-ui.c:315
+msgid "Notice that all its subfolders and items will be removed as well."
+msgstr "Observera att alla dess undermappar och objekt även kommer att tas bort."
+
+#: ../propono/propono-bookmarks-ui.c:320
+msgid "Remove Item?"
+msgstr "Ta bort objekt?"
+
+#: ../propono/propono-bookmarks-ui.c:337
+msgid "Error removing bookmark: Entry not found"
+msgstr "Fel vid borttagning av bokmärke: Posten hittades inte"
+
+#: ../propono/propono-bookmarks-ui.c:354
+msgid "New Folder"
+msgstr "Ny mapp"
+
+#: ../propono/propono-cache-prefs.c:53
+#, c-format
+msgid "Error while saving preferences: %s"
+msgstr "Fel när inställningarna sparades: %s"
+
+#: ../propono/propono-commands.c:121
+msgid "Choose the file"
+msgstr "Välj filen"
+
+#: ../propono/propono-commands.c:149
+msgid "There are no supported files"
+msgstr "Det finns inga filer som stöds"
+
+#: ../propono/propono-commands.c:150
+msgid "None of the active plugins support this action. Activate some plugins and try again."
+msgstr "Ingen av de aktiva insticksmodulerna har stöd för denna åtgärd. Aktivera ytterligare insticksmoduler och försök igen."
+
+#: ../propono/propono-commands.c:184
+msgid "The following file could not be opened:"
+msgid_plural "The following files could not be opened:"
+msgstr[0] "Följande fil kunde inte öppnas:"
+msgstr[1] "Följande filer kunde inte öppnas:"
+
+#: ../propono/propono-connect.c:87
+#: ../propono/propono-connect.c:334
+#: ../propono/propono-connect.c:446
+msgid "Could not get the active protocol in the protocol list."
+msgstr "Kunde inte få aktiva protokollet i protokollistan."
+
+#: ../propono/propono-connect.c:315
+#, c-format
+msgid "Error while saving history file: %s"
+msgstr "Fel när historikfil sparades: %s"
+
+#: ../propono/propono-connect.c:350
+msgid "Choose a Remote Desktop"
+msgstr "Välj ett fjärrskrivbord"
+
+#: ../propono/propono-connection.c:630
+msgid "Could not open the file."
+msgstr "Kunde inte öppna filen."
+
+#: ../propono/propono-connection.c:654
+msgid "The file was not recognized by any of the plugins."
+msgstr "Filen kändes inte igen av någon av insticksmodulerna."
+
+#: ../propono/propono-fav.c:567
+msgid "_New Folder"
+msgstr "_Ny mapp"
+
+#: ../propono/propono-fav.c:568
+msgid "Create a new folder"
+msgstr "Skapa en ny mapp"
+
+#: ../propono/propono-fav.c:573
+msgid "_Open bookmark"
+msgstr "_Öppna bokmärke"
+
+#: ../propono/propono-fav.c:574
+msgid "Connect to this machine"
+msgstr "Anslut till denna dator"
+
+#: ../propono/propono-fav.c:575
+msgid "_Edit bookmark"
+msgstr "R_edigera bokmärke"
+
+#: ../propono/propono-fav.c:576
+msgid "Edit the details of selected bookmark"
+msgstr "Redigera detaljerna för markerat bokmärke"
+
+#: ../propono/propono-fav.c:577
+msgid "_Remove from bookmarks"
+msgstr "_Ta bort från bokmärken"
+
+#: ../propono/propono-fav.c:578
+msgid "Remove current selected connection from bookmarks"
+msgstr "Ta bort aktuellt markerad anslutning från bokmärken"
+
+#: ../propono/propono-fav.c:596
+#: ../propono/propono-window.c:399
+#, c-format
+msgid "Could not merge UI XML file: %s"
+msgstr "Kunde inte sammanfoga XML-fil för användargränssnitt: %s"
+
+#: ../propono/propono-fav.c:754
+msgid "Invalid operation"
+msgstr "Ogiltig åtgärd"
+
+#: ../propono/propono-fav.c:755
+msgid "Data received from drag&drop operation is invalid."
+msgstr "Data som togs emot från dra&släpp-åtgärd är ogiltig."
+
+#: ../propono/propono-fav.c:859
+msgid "Hide panel"
+msgstr "Dölj panel"
+
+#: ../propono/propono-fav.c:1044
+msgid "Hosts nearby"
+msgstr "Närliggande värdar"
+
+#. Translators: this is a command line option (run propono --help)
+#: ../propono/propono-main.c:63
+msgid "Open propono in fullscreen mode"
+msgstr "Öppna propono i helskärmsläge"
+
+#. Translators: this is a command line option (run propono --help)
+#: ../propono/propono-main.c:67
+msgid "Create a new toplevel window in an existing instance of propono"
+msgstr "Skapa ett nytt toppnivåfönster i en befintlig instans av Propono"
+
+#. Translators: this is a command line option (run propono --help)
+#: ../propono/propono-main.c:71
+msgid "Open a file recognized by propono"
+msgstr "Öppna en fil som känns igen av propono"
+
+#: ../propono/propono-main.c:71
+msgid "filename"
+msgstr "filnamn"
+
+#. Translators: this is a command line option (run propono --help)
+#: ../propono/propono-main.c:76
+msgid "[server:port]"
+msgstr "[server:port]"
+
+#: ../propono/propono-main.c:131
+msgid "The following error has occurred:"
+msgid_plural "The following errors have occurred:"
+msgstr[0] "Följande fel har inträffat:"
+msgstr[1] "Följande fel har inträffat:"
+
+#. Setup command line options
+#: ../propono/propono-main.c:170
+msgid "- Remote Desktop Viewer"
+msgstr "- Fjärrskrivbordsklient"
+
+#: ../propono/propono-main.c:195
+msgid "Run 'propono --help' to see a full list of available command line options"
+msgstr "Kör \"propono --help\" för att se en fullständig lista över tillgängliga kommandoradsflaggor"
+
+#: ../propono/propono-mdns.c:159
+#, c-format
+msgid "Failed to resolve avahi hostname: %s\n"
+msgstr "Misslyckades med att slå upp avahi-värdnamn: %s\n"
+
+#: ../propono/propono-mdns.c:217
+#, c-format
+msgid "Plugin %s has already registered a browser for service %s."
+msgstr "Insticksmodulen %s har redan registrerat en bläddrare för tjänsten %s."
+
+#: ../propono/propono-mdns.c:226
+#, c-format
+msgid "Failed to add mDNS browser for service %s."
+msgstr "Misslyckades med att lägga till mDNS-bläddrare för tjänsten %s."
+
+#: ../propono/propono-mdns.c:242
+#, c-format
+msgid "Failed to browse for hosts: %s\n"
+msgstr "Misslyckades med att söka efter värdar: %s\n"
+
+#: ../propono/propono-mdns.c:315
+#, c-format
+msgid "Failed to initialize mDNS browser: %s\n"
+msgstr "Misslyckades med att initiera mDNS-bläddrare: %s\n"
+
+#. Translators: %s is a host name or IP address.
+#: ../propono/propono-notebook.c:461
+#, c-format
+msgid "Connection to host %s was closed."
+msgstr "Anslutningen till värden %s stängdes."
+
+#: ../propono/propono-notebook.c:463
+msgid "Connection closed"
+msgstr "Anslutningen stängdes"
+
+#. Translators: %s is a host name or IP address.
+#: ../propono/propono-notebook.c:482
+#, c-format
+msgid "Authentication to host %s has failed"
+msgstr "Autentisering mot värden %s misslyckades"
+
+#: ../propono/propono-notebook.c:488
+msgid "Authentication failed"
+msgstr "Autentisering misslyckades"
+
+#: ../propono/propono-notebook.c:526
+msgid "Connecting..."
+msgstr "Ansluter..."
+
+#: ../propono/propono-notebook.c:553
+#: ../propono/propono-tab.c:325
+msgid "Close connection"
+msgstr "Stäng anslutning"
+
+#: ../propono/propono-plugin-dialog.c:83
+msgid "Plugin Manager"
+msgstr "Instickshanterare"
+
+#: ../propono/propono-plugin-manager.c:45
+msgid "Plugin"
+msgstr "Insticksmodul"
+
+#: ../propono/propono-plugin-manager.c:46
+msgid "Enabled"
+msgstr "Aktiverad"
+
+#: ../propono/propono-plugin-manager.c:503
+msgid "C_onfigure"
+msgstr "K_onfigurera"
+
+#: ../propono/propono-plugin-manager.c:512
+msgid "A_ctivate"
+msgstr "A_ktivera"
+
+#: ../propono/propono-plugin-manager.c:523
+msgid "Ac_tivate All"
+msgstr "Ak_tivera alla"
+
+#: ../propono/propono-plugin-manager.c:528
+msgid "_Deactivate All"
+msgstr "_Inaktivera alla"
+
+#: ../propono/propono-plugin-manager.c:824
+msgid "_About Plugin"
+msgstr "_Om insticksmodulen"
+
+#: ../propono/propono-plugin-manager.c:828
+msgid "C_onfigure Plugin"
+msgstr "K_onfigurera insticksmodulen"
+
+#: ../propono/propono-prefs.c:212
+msgid "Cannot initialize preferences manager."
+msgstr "Kan inte initiera inställningshanteraren."
+
+#: ../propono/propono-ssh.c:106
+msgid "Timed out when logging into SSH host"
+msgstr "Tidsgränsen överstegs vid inloggning mot SSH-värden"
+
+#: ../propono/propono-ssh.c:180
+msgid "Unable to spawn ssh program"
+msgstr "Kunde inte starta ssh-programmet"
+
+#: ../propono/propono-ssh.c:197
+#, c-format
+msgid "Unable to spawn ssh program: %s"
+msgstr "Kunde inte starta ssh-programmet: %s"
+
+#: ../propono/propono-ssh.c:352
+msgid "Timed out when logging in"
+msgstr "Tidsgränsen överstegs vid inloggning"
+
+#: ../propono/propono-ssh.c:375
+#: ../propono/propono-ssh.c:529
+#: ../propono/propono-ssh.c:612
+msgid "Permission denied"
+msgstr "Åtkomst nekas"
+
+#: ../propono/propono-ssh.c:440
+msgid "Password dialog canceled"
+msgstr "Dialogrutan för lösenordet avbröts"
+
+#: ../propono/propono-ssh.c:463
+msgid "Could not send password"
+msgstr "Kunde inte skicka lösenordet"
+
+#: ../propono/propono-ssh.c:471
+msgid "Log In Anyway"
+msgstr "Logga in ändå"
+
+#: ../propono/propono-ssh.c:471
+msgid "Cancel Login"
+msgstr "Avbryt inloggning"
+
+#: ../propono/propono-ssh.c:480
+#, c-format
+msgid ""
+"The identity of the remote computer (%s) is unknown.\n"
+"This happens when you log in to a computer the first time.\n"
+"\n"
+"The identity sent by the remote computer is %s. If you want to be absolutely sure it is safe to continue, contact the system administrator."
+msgstr ""
+"Identiteten för fjärrdatorn (%s) är okänd.\n"
+"Detta händer när du loggar in på en dator för första gången.\n"
+"\n"
+"Identiteten som skickades av fjärrdatorn är %s. Du bör kontakta systemadministratören om du vill vara absolut säker på att fortsätta."
+
+#: ../propono/propono-ssh.c:498
+msgid "Login dialog canceled"
+msgstr "Dialogrutan för inloggning avbröts"
+
+#: ../propono/propono-ssh.c:519
+msgid "Can't send host identity confirmation"
+msgstr "Kan inte skicka bekräftelse på värdens identitet"
+
+#: ../propono/propono-ssh.c:554
+#: ../propono/propono-tab.c:732
+msgid "Error saving the credentials on the keyring."
+msgstr "Fel när inloggningsuppgifter sparades i nyckelringen."
+
+#: ../propono/propono-ssh.c:619
+msgid "Hostname not known"
+msgstr "Värdnamnet är inte känt"
+
+#: ../propono/propono-ssh.c:626
+msgid "No route to host"
+msgstr "Ingen väg till värd"
+
+#: ../propono/propono-ssh.c:633
+msgid "Connection refused by server"
+msgstr "Anslutningen nekades av servern"
+
+#: ../propono/propono-ssh.c:640
+msgid "Host key verification failed"
+msgstr "Verifiering av värdnyckeln misslyckades"
+
+#: ../propono/propono-ssh.c:676
+msgid "Unable to find a valid SSH program"
+msgstr "Kunde inte hitta ett giltigt SSH-program"
+
+#: ../propono/propono-tab.c:346
+msgid "Leave fullscreen"
+msgstr "Lämna helskärmsläge"
+
+#: ../propono/propono-tab.c:497
+msgid "Error saving recent connection."
+msgstr "Fel när senaste anslutningen sparades."
+
+#: ../propono/propono-tab.c:818
+msgid "Could not get a screenshot of the connection."
+msgstr "Kunde inte få en skärmbild på anslutningen."
+
+#: ../propono/propono-tab.c:823
+msgid "Save Screenshot"
+msgstr "Spara skärmbild"
+
+#: ../propono/propono-tab.c:834
+#, c-format
+msgid "Screenshot of %s"
+msgstr "Skärmbild för %s"
+
+#: ../propono/propono-tab.c:885
+msgid "Error saving screenshot"
+msgstr "Fel vid sparandet av skärmbild"
+
+#: ../propono/propono-tube-handler.c:229
+#, c-format
+msgid "Impossible to get service property: %s"
+msgstr "Omöjligt att få egenskap för tjänsten: %s"
+
+#: ../propono/propono-tube-handler.c:286
+#, c-format
+msgid "Impossible to create the connection: %s"
+msgstr "Omöjligt att skapa anslutningen: %s"
+
+#: ../propono/propono-tube-handler.c:325
+#, c-format
+msgid "Impossible to accept the stream tube: %s"
+msgstr "Omöjligt att acceptera strömtuben: %s"
+
+#: ../propono/propono-tube-handler.c:463
+#, c-format
+msgid "Impossible to get the contact name: %s"
+msgstr "Omöjligt att få kontaktens namn: %s"
+
+#: ../propono/propono-tube-handler.c:498
+#, c-format
+msgid "Impossible to get the avatar: %s"
+msgstr "Omöjligt att få avataren: %s"
+
+#: ../propono/propono-tube-handler.c:519
+#, c-format
+msgid "%s wants to share their desktop with you."
+msgstr "%s vill dela sitt skrivbord med dig."
+
+#: ../propono/propono-tube-handler.c:524
+msgid "Desktop sharing invitation"
+msgstr "Inbjudan om skrivbordsdelning"
+
+#. Toplevel
+#: ../propono/propono-ui.h:33
+msgid "_Machine"
+msgstr "_Dator"
+
+#: ../propono/propono-ui.h:34
+msgid "_Edit"
+msgstr "R_edigera"
+
+#: ../propono/propono-ui.h:35
+msgid "_View"
+msgstr "_Visa"
+
+#: ../propono/propono-ui.h:36
+msgid "_Bookmarks"
+msgstr "_Bokmärken"
+
+#: ../propono/propono-ui.h:41
+msgid "Connect to a remote machine"
+msgstr "Anslut till en fjärrdator"
+
+#: ../propono/propono-ui.h:43
+msgid "Open a .VNC file"
+msgstr "Öppna en .VNC-fil"
+
+#: ../propono/propono-ui.h:45
+msgid "Quit the program"
+msgstr "Avsluta programmet"
+
+#: ../propono/propono-ui.h:49
+msgid "Edit the application preferences"
+msgstr "Redigera programmets inställningar"
+
+#: ../propono/propono-ui.h:50
+msgid "_Plugins"
+msgstr "I_nsticksmoduler"
+
+#: ../propono/propono-ui.h:51
+msgid "Select plugins"
+msgstr "Välj insticksmoduler"
+
+#. Help menu
+#: ../propono/propono-ui.h:54
+msgid "_Contents"
+msgstr "_Innehåll"
+
+#: ../propono/propono-ui.h:55
+msgid "Open the propono manual"
+msgstr "Öppna handboken för Propono"
+
+#: ../propono/propono-ui.h:57
+msgid "About this application"
+msgstr "Om det här programmet"
+
+#: ../propono/propono-ui.h:62
+msgid "_Toolbar"
+msgstr "_Verktygsrad"
+
+#: ../propono/propono-ui.h:63
+msgid "Show or hide the toolbar"
+msgstr "Visa eller dölj verktygsraden"
+
+#: ../propono/propono-ui.h:66
+msgid "_Statusbar"
+msgstr "_Statusrad"
+
+#: ../propono/propono-ui.h:67
+msgid "Show or hide the statusbar"
+msgstr "Visa eller dölj statusraden"
+
+#: ../propono/propono-ui.h:70
+msgid "Side _Panel"
+msgstr "Sido_panel"
+
+#: ../propono/propono-ui.h:71
+msgid "Show or hide the side panel"
+msgstr "Visa eller dölj sidopanelen"
+
+#: ../propono/propono-ui.h:79
+msgid "Close the current connection"
+msgstr "Stäng aktuell anslutning"
+
+#: ../propono/propono-ui.h:80
+msgid "C_lose All"
+msgstr "S_täng alla"
+
+#: ../propono/propono-ui.h:81
+msgid "Close all active connections"
+msgstr "Stäng alla aktiva anslutningar"
+
+#. Bookmarks menu
+#: ../propono/propono-ui.h:84
+msgid "_Add to bookmarks"
+msgstr "_Lägg till bokmärke"
+
+#: ../propono/propono-ui.h:85
+msgid "Add current connection to your bookmarks"
+msgstr "Lägg till aktuell anslutning till dina bokmärken"
+
+#. Machine menu
+#: ../propono/propono-ui.h:92
+msgid "Take screenshot"
+msgstr "Ta skärmbild"
+
+#: ../propono/propono-ui.h:93
+msgid "Take a screenshot of active connection"
+msgstr "Ta en skärmbild på aktiv anslutning"
+
+#: ../propono/propono-ui.h:97
+msgid "View the current machine in full screen"
+msgstr "Visa den aktuella datorn i helskärm"
+
+#: ../propono/propono-utils.c:75
+msgid "An error has occurred:"
+msgstr "Ett fel har inträffat:"
+
+#: ../propono/propono-utils.c:175
+msgid "A plugin tried to open an UI file but did not succeed, with the error message:"
+msgstr "En insticksmodul försökte öppna ett användargränssnitt men lyckades inte. Felmeddelande:"
+
+#: ../propono/propono-utils.c:177
+msgid "The program tried to open an UI file but did not succeed, with the error message:"
+msgstr "Programmet försökte att öppna ett användargränssnitt men lyckades inte. Felmeddelande:"
+
+#: ../propono/propono-utils.c:180
+msgid "Please check your installation."
+msgstr "Kontrollera din installation."
+
+#: ../propono/propono-utils.c:181
+msgid "Error loading UI file"
+msgstr "Fel vid inläsning av användargränssnittsfilen"
+
+#: ../propono/propono-utils.c:492
+msgid "Propono is a remote desktop viewer for the MATE Desktop"
+msgstr "Propono är en fjärrskrivbordsklient för MATE-skrivbordet"
+
+#: ../propono/propono-utils.c:495
+msgid "Propono is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version."
+msgstr "Propono är fri programvara. Du kan distribuera det och/eller modifiera det under villkoren i GNU General Public License, publicerad av Free Software Foundation, antingen version 2 eller (om du så vill) någon senare version."
+
+#: ../propono/propono-utils.c:499
+msgid "Propono is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details."
+msgstr "Propono distribueras i hopp om att det ska vara användbart, men UTAN NÅGON SOM HELST GARANTI, även utan underförstådd garanti om SÄLJBARHET eller LÄMPLIGHET FÖR NÅGOT SPECIELLT ÄNDAMÅL. Se GNU General Public License för ytterligare information."
+
+#: ../propono/propono-utils.c:503
+msgid "You should have received a copy of the GNU General Public License along with this program. If not, see <http://www.gnu.org/licenses/>."
+msgstr "Du bör ha fått en kopia av GNU General Public License tillsammans med detta program. Om inte, se <http://www.gnu.org/licenses/>."
+
+#: ../propono/propono-utils.c:525
+msgid "translator-credits"
+msgstr ""
+"Daniel Nylander <po@danielnylander.se>\n"
+"\n"
+"Skicka synpunker på översättningen till\n"
+"<tp-sv@listor.tp-sv.se>."
+
+#: ../propono/propono-utils.c:528
+msgid "Propono Website"
+msgstr "Webbplats för Propono"
+
+#. Translators: %s is a protocol, like VNC or SSH
+#: ../propono/propono-utils.c:660
+#, c-format
+msgid "%s authentication is required"
+msgstr "%s-autentisering krävs"
+
+#: ../propono/propono-window.c:428
+msgid "_Recent connections"
+msgstr "_Tidigare anslutningar"
+
+#. Translators: This is server:port, a statusbar tooltip when mouse is over a bookmark item on menu
+#: ../propono/propono-window.c:543
+#, c-format
+msgid "Open %s:%d"
+msgstr "Öppna %s:%d"
+
+#: ../propono/propono-window.c:721
+msgid "About menu accelerators and keyboard shortcuts"
+msgstr "Om menytangenter och tangentbordsgenvägar"
+
+#: ../propono/propono-window.c:723
+msgid ""
+"Propono comes with menu accelerators and keyboard shortcuts disabled by default. The reason is to avoid the keys to be intercepted by the program, and allow them to be sent to the remote machine.\n"
+"\n"
+"You can change this behavior through the preferences dialog. For more information, check the documentation.\n"
+"\n"
+"This message will appear only once."
+msgstr ""
+"Propono levereras som standard med inaktiverade menytangenter och tangentbordsgenvägar. Anledningen är att undvika att tangenterna fångas av programmet och tillåta att de skickas till fjärrdatorn.\n"
+"\n"
+"Du kan ändra detta beteende genom inställningsdialogen. Läs dokumentationen för mer information.\n"
+"\n"
+"Detta meddelande kommer inte att visas igen."
+
+#: ../propono/propono-window.c:731
+#: ../propono/propono-window.c:737
+#, c-format
+msgid "Error while creating the file %s: %s"
+msgstr "Fel vid försök att skapa filen %s: %s"
+
+#~ msgid "All fields above are mandatory"
+#~ msgstr "Alla fält ovan är obligatoriska"
+#~ msgid "Failed to request name: %s"
+#~ msgstr "Misslyckades med att begära namnet: %s"
+#~ msgid "No error given"
+#~ msgstr "Inget fel angavs"
+#~ msgid "Could not merge propono-ui.xml: %s"
+#~ msgstr "Kunde inte sammanfoga propono-ui.xml: %s"
+#~ msgid "<small>(Protocol: <i>%s</i>)</small>"
+#~ msgstr "<small>(Protokoll: <i>%s</i>)</small>"
+#~ msgid "Minimize window"
+#~ msgstr "Minimera fönster"
+#~ msgid "Supported formats"
+#~ msgstr "Format som stöds"
+#~ msgid "<b>Connection</b>"
+#~ msgstr "<b>Anslutning</b>"
+#~ msgid "<b>Folder</b>"
+#~ msgstr "<b>Mapp</b>"
+#~ msgid "host or host:display or host::port"
+#~ msgstr "värd eller värd:display eller värd::port"
+#~ msgid "Choose a VNC Server"
+#~ msgstr "Välj en VNC-server"
+#~ msgid "Could not find the host address in the file."
+#~ msgstr "Kunde inte hitta värdadressen i filen."
+#~ msgid "Opens a .vnc file"
+#~ msgstr "Öppnar en .vnc-fil"
+#~ msgid "- VNC Client for MATE"
+#~ msgstr "- VNC-klient för MATE"
+#~ msgid "_Read only"
+#~ msgstr "S_krivskyddad"
+#~ msgid "Press Ctrl+Alt to release the cursor"
+#~ msgstr "Tryck på Ctrl+Alt för att släppa muspekaren"
+#~ msgid "<b>Editing a bookmark</b>"
+#~ msgstr "<b>Redigering av bokmärke</b>"
+#~ msgid "<b>Enter a name for this connection</b>"
+#~ msgstr "<b>Ange ett namn för denna anslutning</b>"
+#~ msgid ""
+#~ "<b>In order to connect on this machine, a password is required. Please "
+#~ "supply it.</b>"
+#~ msgstr ""
+#~ "<b>Ett lösenord krävs för att kunna ansluta till denna dator. Ange "
+#~ "lösenordet.</b>"
+#~ msgid "Editing a bookmark"
+#~ msgstr "Redigerar ett bokmärke"
+#~ msgid "Saving to bookmarks"
+#~ msgstr "Sparar till bokmärken"
+#~ msgid "_Bookmark name:"
+#~ msgstr "_Bokmärkesnamn:"
+#~ msgid "Error: %s"
+#~ msgstr "Fel: %s"
+#~ msgid "Confirm removal?"
+#~ msgstr "Bekräfta borttagning?"
+#~ msgid "Error while removing %s from bookmarks: %s"
+#~ msgstr "Fel vid borttagning av %s från bokmärken: %s"
+#~ msgid ""
+#~ "Scaling does not work properly on composited windows. Disable the visual "
+#~ "effects and try again."
+#~ msgstr ""
+#~ "Skalning fungerar inte korrekt på kompositerade fönster. Inaktivera de "
+#~ "visuella effekterna och försök igen."
+#~ msgid "Expected `%s' got `%s' for key %s"
+#~ msgstr "Förväntade \"%s\", fick \"%s\" för nyckeln %s"
+#~ msgid "Press Ctrl+Alt to grab the cursor"
+#~ msgstr "Tryck på Ctrl+Alt för att fånga muspekaren"
+#~ msgid "Image"
+#~ msgstr "Bild"
+#~ msgid "Name"
+#~ msgstr "Namn"
+#~ msgid "Hide bookmarks"
+#~ msgstr "Dölj bokmärken"
+#~ msgid "Could not initialize MateVFS\n"
+#~ msgstr "Kunde inte initiera MateVFS\n"
+#~ msgid "Add to favorites"
+#~ msgstr "Lägg till i favoriter"
+#~ msgid "Favorites"
+#~ msgstr "Favoriter"
+#~ msgid "Hide favorites"
+#~ msgstr "Dölj favoriter"
+#~ msgid "Propono"
+#~ msgstr "Propono"
+#~ msgid "_Favorites"
+#~ msgstr "_Favoriter"
+#~ msgid "_Open favorite"
+#~ msgstr "_Öppna favorit"
+#~ msgid "Connect to this favorite"
+#~ msgstr "Anslut till den här favoriten"
+#~ msgid "_Edit favorite"
+#~ msgstr "R_edigera favorit"
+#~ msgid "Copy the selection"
+#~ msgstr "Kopiera markeringen"
+#~ msgid "Paste the clipboard"
+#~ msgstr "Klistra in urklippet"
+#~ msgid "  "
+#~ msgstr "  "
+#~ msgid "gtk-cancel"
+#~ msgstr "Avbryt"
+#~ msgid "gtk-connect"
+#~ msgstr "Anslut"
+#~ msgid "gtk-find"
+#~ msgstr "Sök"
+#~ msgid "gtk-ok"
+#~ msgstr "OK"
+#~ msgid "gtk-save"
+#~ msgstr "Spara"

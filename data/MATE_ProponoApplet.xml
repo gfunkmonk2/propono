@@ -1,0 +1,18 @@
+<Root>
+  <popups>
+    <popup name="button3">
+      <menuitem
+       name="Help Item"
+       verb="ProponoHelp"
+       _label="_Help"
+       pixtype="stock"
+       pixname="gtk-help"/>
+      <menuitem
+       name="About Item"
+       verb="ProponoAbout"
+       _label="_About"
+       pixtype="stock"
+       pixname="gtk-about"/>
+    </popup>
+  </popups>
+</Root>

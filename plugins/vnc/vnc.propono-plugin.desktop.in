@@ -1,0 +1,11 @@
+[Propono Plugin]
+Module=vnc
+IAge=1
+_Name=VNC
+_Description=VNC support
+Authors=Jonh Wendell
+Copyright=Copyright © 2009 Jonh Wendell
+Website=http://www.bani.com.br
+Version=1.0
+Engine=1
+Icon=propono

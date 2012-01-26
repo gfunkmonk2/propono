@@ -1,0 +1,45 @@
+# List of source files containing translatable strings.
+
+data/MATE_ProponoApplet.xml
+data/propono.desktop.in.in
+data/propono-file.desktop.in.in
+[type: gettext/glade]data/propono.ui
+data/propono.schemas.in.in
+data/propono-mime.xml.in
+data/propono-ui.xml
+plugins/ssh/propono-ssh-connection.c
+plugins/ssh/propono-ssh-plugin.c
+plugins/ssh/propono-ssh-tab.c
+plugins/ssh/ssh.propono-plugin.desktop.in
+plugins/vnc/propono-vnc-connection.c
+plugins/vnc/propono-vnc-plugin.c
+plugins/vnc/propono-vnc-tab.c
+plugins/vnc/propono-vnc-tunnel.c
+plugins/vnc/vnc.propono-plugin.desktop.in
+plugins/vnc/propono-vnc-listener-dialog.c
+plugins/vnc/propono-vnc-listener.c
+[type: gettext/glade]plugins/vnc/vnc.ui
+propono/MATE_ProponoApplet.server.in.in
+propono/propono-app.c
+propono/propono-applet.c
+propono/propono-bookmarks.c
+propono/propono-bookmarks-migration.c
+propono/propono-bookmarks-tree.c
+propono/propono-bookmarks-ui.c
+propono/propono-cache-prefs.c
+propono/propono-commands.c
+propono/propono-connect.c
+propono/propono-connection.c
+propono/propono-fav.c
+propono/propono-main.c
+propono/propono-mdns.c
+propono/propono-notebook.c
+propono/propono-plugin-dialog.c
+propono/propono-plugin-manager.c
+propono/propono-prefs.c
+propono/propono-ssh.c
+propono/propono-tab.c
+propono/propono-tube-handler.c
+propono/propono-ui.h
+propono/propono-utils.c
+propono/propono-window.c

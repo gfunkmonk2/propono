@@ -1,0 +1,11 @@
+[Propono Plugin]
+Module=ssh
+IAge=1
+_Name=SSH
+_Description=SSH support
+Authors=Jonh Wendell
+Copyright=Copyright © 2009 Jonh Wendell
+Website=http://www.bani.com.br
+Version=1.0
+Engine=1
+Icon=utilities-terminal

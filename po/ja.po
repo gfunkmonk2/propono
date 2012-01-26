@@ -1,0 +1,813 @@
+# propono ja.po.
+# Copyright (C) 2008,2009 Free Software Foundation, Inc.
+# This file is distributed under the same license as the propono package.
+# Takeshi AIHANA <takeshi.aihana@gmail.com>, 2008,2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: propono trunk\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-03-23 00:26+0900\n"
+"PO-Revision-Date: 2009-03-23 00:26+0900\n"
+"Last-Translator: Takeshi AIHANA <takeshi.aihana@gmail.com>\n"
+"Language-Team: Japanese <takeshi.aihana@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../data/MATE_ProponoApplet.xml.h:1
+msgid "_About"
+msgstr "情報(_A)"
+
+#: ../data/MATE_ProponoApplet.xml.h:2 ../src/propono-ui.h:37
+msgid "_Help"
+msgstr "ヘルプ(_H)"
+
+#: ../data/propono.desktop.in.in.h:1 ../data/propono-file.desktop.in.in.h:1
+msgid "Access remote desktops"
+msgstr "リモートのデスクトップにアクセスします"
+
+#: ../data/propono.desktop.in.in.h:2 ../data/propono-file.desktop.in.in.h:2
+#: ../src/MATE_ProponoApplet.server.in.in.h:2 ../src/propono-applet.c:418
+#: ../src/propono-applet.c:473 ../src/propono-main.c:151
+msgid "Remote Desktop Viewer"
+msgstr "リモート・デスクトップのビューア"
+
+#: ../data/propono.glade.h:1
+msgid "<b>Authentication is required</b>"
+msgstr "<b>認証が必要です</b>"
+
+#: ../data/propono.glade.h:2
+msgid "<b>Connection options</b>"
+msgstr "<b>接続のオプション</b>"
+
+#: ../data/propono.glade.h:3
+msgid "<b>Connection</b>"
+msgstr "<b>接続</b>"
+
+#: ../data/propono.glade.h:4
+msgid "<b>Folder</b>"
+msgstr "<b>フォルダ</b>"
+
+#: ../data/propono.glade.h:5
+msgid "<b>Interface</b>"
+msgstr "<b>インタフェース</b>"
+
+#: ../data/propono.glade.h:6
+msgid "<b>Options</b>"
+msgstr "<b>オプション</b>"
+
+#: ../data/propono.glade.h:7
+msgid "<b>Parent Folder</b>"
+msgstr "<b>親のフォルダ</b>"
+
+#: ../data/propono.glade.h:8
+msgid "<b>Which machine do you want to connect to?</b>"
+msgstr "<b>どのマシンに接続しますか？</b>"
+
+#: ../data/propono.glade.h:9
+msgid "<i><small>All fields above are mandatory</small></i>"
+msgstr "<i><small>全ての項目を入力して下さい</small></i>"
+
+#: ../data/propono.glade.h:10 ../src/propono-fav.c:846
+msgid "Bookmarks"
+msgstr "ブックマーク"
+
+#: ../data/propono.glade.h:11 ../src/propono-fav.c:422
+#: ../src/propono-tab.c:1062
+msgid "Host:"
+msgstr "ホスト名:"
+
+#: ../data/propono.glade.h:12
+msgid "Preferences"
+msgstr "設定"
+
+#: ../data/propono.glade.h:13 ../data/propono.schemas.in.h:8
+msgid ""
+"Whether we should show tabs even when there is only one active connection"
+msgstr "１個の接続の場合でも複数個のタブをダイアログに表示するかどうか"
+
+#: ../data/propono.glade.h:14 ../data/propono.schemas.in.h:9
+msgid "Whether we should show the menu accelerators (shortcut keys)"
+msgstr "メニューにショートカット・キーを表示するかどうか"
+
+#: ../data/propono.glade.h:15
+msgid "_Always show tabs"
+msgstr "常にタブを表示する(_A)"
+
+#. This is a button label, in the authentication dialog
+#: ../data/propono.glade.h:17
+msgid "_Authenticate"
+msgstr "認証(_A)"
+
+#: ../data/propono.glade.h:18
+msgid "_Full screen"
+msgstr "フルスクリーン表示にする(_F)"
+
+#: ../data/propono.glade.h:19
+msgid "_Host:"
+msgstr "ホスト名(_H):"
+
+#: ../data/propono.glade.h:20
+msgid "_Name:"
+msgstr "名前(_N):"
+
+#: ../data/propono.glade.h:21
+msgid "_Password:"
+msgstr "パスワード(_P):"
+
+#: ../data/propono.glade.h:22
+msgid "_Remember this credential"
+msgstr "この証明書を保持する(_R)"
+
+#: ../data/propono.glade.h:23
+msgid "_Scaling"
+msgstr "スクリーンのサイズを変更する(_S)"
+
+#: ../data/propono.glade.h:24
+msgid "_Show menu shortcuts"
+msgstr "ショートカット・キーを表示する(_S)"
+
+#: ../data/propono.glade.h:25
+msgid "_Username:"
+msgstr "ユーザ名(_U):"
+
+#: ../data/propono.glade.h:26
+msgid "_View only"
+msgstr "表示のみ(_V)"
+
+#. Tooltip for host entry in connect dialog
+#: ../data/propono.glade.h:28
+msgid "host or host:display or host::port"
+msgstr ""
+"ホスト名またはホスト名:ディスプレイ番号またはホスト名::ポート番号を入力して下"
+"さい"
+
+#: ../data/propono.schemas.in.h:1
+msgid "Maximum number of history items in connect dialog"
+msgstr "接続ダイアログに表示する履歴の個数 (最大値)"
+
+#: ../data/propono.schemas.in.h:2
+msgid ""
+"Set to \"false\" to disable menu shortcuts. Set to \"true\" to enable them. "
+"Note that if they are enabled, those keys will be intercepted by the menu "
+"and will not be sent to the remote host."
+msgstr ""
+"FALSE にするとメニューのショートカットが無効になります。それ以外はショート"
+"カットが有効になります。ショートカットが有効な場合、メニューがこれらのキーに"
+"割り込むことになり、リモートのホストにはショートカットが送信されなくなりま"
+"す。"
+
+#: ../data/propono.schemas.in.h:3
+msgid ""
+"Set to \"true\" to always show the tabs. Set to \"false\" to only show the "
+"tabs when there is more than one active connection."
+msgstr ""
+"TRUE にすると常に複数のタブを表示します。それ以外は１個以上の接続が発生した場"
+"合にのみ複数のタブが表示されることになります。"
+
+#: ../data/propono.schemas.in.h:4
+msgid "Specifies the maximum number of items in the host dropdown entry."
+msgstr ""
+"接続ダイアログでホスト名を入力するエントリにあるドロップ・ダウン式のコンボに"
+"並べる履歴の個数 (最大値) です。"
+
+#: ../data/propono.schemas.in.h:5
+msgid "The handler for \"vnc://\" URLs"
+msgstr "\"vnc://\" という URI にタイするハンドラ"
+
+#: ../data/propono.schemas.in.h:6
+msgid ""
+"When connecting to a host, the client can say to the server to leave other "
+"clients connected or to drop the existent connections. Set the value to true "
+"to share the desktop with the other clients."
+msgstr ""
+"指定したホストに接続する際に、クライアントが他に接続しているクライアントをそ"
+"のままにしておくか、または接続を断するかをサーバに指示することができるように"
+"なります。TRUE にすると他のクライアントとデスクトップを共有します。"
+
+#: ../data/propono.schemas.in.h:7
+msgid "Whether we should leave other clients connected"
+msgstr "他のクライアントの接続をそのままにしておくかどうか"
+
+#: ../data/propono-mime.xml.in.h:1
+msgid "Remote Desktop (VNC) file"
+msgstr "リモート・デスクトップ (VNC) のファイル"
+
+#: ../data/propono-mime.xml.in.h:2
+msgid "Remote Desktop Connection"
+msgstr "リモート・デスクトップの接続"
+
+#: ../src/MATE_ProponoApplet.server.in.in.h:1
+msgid "A menu to quickly access remote machines"
+msgstr "リモートのマシンに素早く接続します"
+
+#: ../src/MATE_ProponoApplet.server.in.in.h:3
+msgid "Propono Applet Factory"
+msgstr "Propono アプレットのファクトリ"
+
+#: ../src/propono-applet.c:271 ../src/propono-applet.c:349
+msgid "Could not run propono:"
+msgstr "Propono を起動できませんでした:"
+
+#: ../src/propono-applet.c:369
+msgid "Open Remote Desktop Viewer"
+msgstr "リモート・デスクトップのビューアを開く"
+
+#: ../src/propono-applet.c:419
+msgid "Access your bookmarks"
+msgstr "ブックマークにアクセスします"
+
+#: ../src/propono-bookmarks.c:344
+#, c-format
+msgid "Error while initializing bookmarks: %s"
+msgstr "ブックマークを初期化する際にエラーが発生しました: %s"
+
+#: ../src/propono-bookmarks.c:344 ../src/propono-bookmarks.c:459
+#: ../src/propono-bookmarks-migration.c:133 ../src/propono-commands.c:145
+#: ../src/propono-connect.c:277 ../src/propono-fav.c:678
+#: ../src/propono-main.c:85 ../src/propono-main.c:104
+#: ../src/propono-window.c:279
+msgid "Unknown error"
+msgstr "原因不明のエラーです"
+
+#: ../src/propono-bookmarks.c:351
+msgid "Error while initializing bookmarks: The file seems to be empty"
+msgstr ""
+"ブックマークを初期化する際にエラーが発生しました: ファイルが空のようです"
+
+#: ../src/propono-bookmarks.c:358
+msgid ""
+"Error while initializing bookmarks: The file is not a propono bookmarks file"
+msgstr ""
+"ブックマークを初期化する際にエラーが発生しました: Propono のブックマーク・"
+"ファイルではないようです"
+
+#: ../src/propono-bookmarks.c:420 ../src/propono-bookmarks.c:427
+msgid "Error while saving bookmarks: Failed to create the XML structure"
+msgstr ""
+"ブックマークを保存する際にエラーが発生しました: XML 構造体の生成に失敗しまし"
+"た"
+
+#: ../src/propono-bookmarks.c:434 ../src/propono-bookmarks.c:441
+msgid "Error while saving bookmarks: Failed to initialize the XML structure"
+msgstr ""
+"ブックマークを保存する際にエラーが発生しました: XML 構造体の初期化に失敗しま"
+"した"
+
+#: ../src/propono-bookmarks.c:450
+msgid "Error while saving bookmarks: Failed to finalize the XML structure"
+msgstr ""
+"ブックマークを保存する際にエラーが発生しました: XML 構造体を破棄できませんで"
+"した"
+
+#: ../src/propono-bookmarks.c:459
+#, c-format
+msgid "Error while saving bookmarks: %s"
+msgstr "ブックマークを保存する際にエラーが発生しました: %s"
+
+#: ../src/propono-bookmarks-migration.c:93
+#: ../src/propono-bookmarks-migration.c:100
+msgid "Error while migrating bookmarks: Failed to create the XML structure"
+msgstr ""
+"ブックマークの移行でエラーが発生しました: XML 構造体の生成に失敗しました"
+
+#: ../src/propono-bookmarks-migration.c:107
+#: ../src/propono-bookmarks-migration.c:114
+msgid "Error while migrating bookmarks: Failed to initialize the XML structure"
+msgstr ""
+"ブックマークの移行でエラーが発生しました: XML 構造体の初期化に失敗しました"
+
+#: ../src/propono-bookmarks-migration.c:123
+msgid "Error while migrating bookmarks: Failed to finalize the XML structure"
+msgstr ""
+"ブックマークの移行でエラーが発生しました: XML 構造体を破棄できませんでした"
+
+#: ../src/propono-bookmarks-migration.c:133
+#: ../src/propono-bookmarks-migration.c:231
+#, c-format
+msgid "Error while migrating bookmarks: %s"
+msgstr "ブックマークの移行でエラーが発生しました: %s"
+
+#: ../src/propono-bookmarks-migration.c:231
+msgid "Failed to create the directory"
+msgstr "ディレクトリの生成に失敗しました"
+
+#: ../src/propono-bookmarks-migration.c:255
+msgid ""
+"Migrating the bookmarks file to the new format. This operation is only "
+"supposed to run once."
+msgstr ""
+"ブックマークを新しい形式に変換します (この操作は一度しか実施できません)"
+
+#: ../src/propono-bookmarks-migration.c:263
+#, c-format
+msgid "Error opening old bookmarks file: %s"
+msgstr "古いブックマーク・ファイルを開く際にエラーが発生しました: %s"
+
+#: ../src/propono-bookmarks-migration.c:264
+#: ../src/propono-bookmarks-migration.c:276
+msgid "Migration cancelled"
+msgstr "移行をキャンセルしました"
+
+#: ../src/propono-bookmarks-migration.c:273
+msgid "Could not remove the old bookmarks file"
+msgstr "古いブックマーク・ファイルを削除できませんでした"
+
+#: ../src/propono-bookmarks-tree.c:120
+msgid "Root Folder"
+msgstr "ルートのフォルダ"
+
+#: ../src/propono-bookmarks-ui.c:79
+msgid "Invalid name for this folder"
+msgstr "このフォルダの名前が間違っています"
+
+#: ../src/propono-bookmarks-ui.c:89 ../src/propono-bookmarks-ui.c:191
+#, c-format
+msgid ""
+"The name \"%s\" is already used in this folder. Please use a different name."
+msgstr ""
+"既に \"%s\" というアイテムがこのフォルダの中にあります。別の名前を使用して下"
+"さい。"
+
+#: ../src/propono-bookmarks-ui.c:90 ../src/propono-bookmarks-ui.c:181
+#: ../src/propono-bookmarks-ui.c:192
+msgid "Invalid name for this item"
+msgstr "アイテムの名前が間違っています"
+
+#: ../src/propono-bookmarks-ui.c:292
+#, c-format
+msgid "Are you sure you want to remove <i>%s</i> from bookmarks?"
+msgstr "本当にブックマークから <i>%s</i> を削除しますか？"
+
+#: ../src/propono-bookmarks-ui.c:297
+msgid "Remove Folder?"
+msgstr "フォルダを削除しますか？"
+
+#: ../src/propono-bookmarks-ui.c:298
+msgid "Notice that all its subfolders and items will be removed as well."
+msgstr "この中にあるサブフォルダとそのアイテムが全て削除されます。"
+
+#: ../src/propono-bookmarks-ui.c:303
+msgid "Remove Item?"
+msgstr "アイテムを削除しますか？"
+
+#: ../src/propono-bookmarks-ui.c:320
+msgid "Error removing bookmark: Entry not found"
+msgstr "ブックマークを削除する際にエラーが発生しました: エントリがありません"
+
+#: ../src/propono-bookmarks-ui.c:337
+msgid "New Folder"
+msgstr "新しいフォルダ"
+
+#: ../src/propono-commands.c:113
+msgid "Choose the file"
+msgstr "ファイルの選択"
+
+#: ../src/propono-commands.c:124 ../src/propono-tab.c:1152
+msgid "Supported formats"
+msgstr "サポートしているファイル"
+
+#: ../src/propono-commands.c:156
+msgid "The following file could not be opened:"
+msgid_plural "The following files could not be opened:"
+msgstr[0] "次のファイルは開けません"
+msgstr[1] "次のファイルは開けません"
+
+#: ../src/propono-connect.c:181
+#, c-format
+msgid "Error while saving history file: %s"
+msgstr "履歴ファイルを保存する際にエラーが発生しました: %s"
+
+#: ../src/propono-connect.c:193
+msgid "Choose a VNC Server"
+msgstr "VNC サーバの選択"
+
+#: ../src/propono-connection.c:601
+#, c-format
+msgid "The protocol %s is not supported."
+msgstr "%s というプロトコルはサポートしていません。"
+
+#: ../src/propono-connection.c:708
+msgid "Could not open the file."
+msgstr "ファイルを開けませんでした"
+
+#: ../src/propono-connection.c:727
+msgid "Could not parse the file."
+msgstr "ファイルを解析できませんでした"
+
+#: ../src/propono-connection.c:772
+#, c-format
+msgid ""
+"Bad value for 'shared' flag: %d. It is supposed to be 0 or 1. Ignoring it."
+msgstr ""
+"'shared' フラグの値が間違っています (0 または 1 のどちらかです): %d (無視しま"
+"す)"
+
+#: ../src/propono-connection.c:778
+msgid "Could not find the host address in the file."
+msgstr "ホストのアドレスが見つかりませんでした"
+
+#: ../src/propono-fav.c:667
+msgid "Invalid operation"
+msgstr "間違った操作です"
+
+#: ../src/propono-fav.c:668
+msgid "Data received from drag&drop operation is invalid."
+msgstr "ドラッグ＆ドロップで受け取ったデータが間違っています"
+
+#: ../src/propono-fav.c:861
+msgid "Hosts nearby"
+msgstr "近くにあるホスト"
+
+#: ../src/propono-main.c:53
+msgid "Opens a .vnc file"
+msgstr "指定した .vnc ファイルを開く"
+
+#: ../src/propono-main.c:53
+msgid "filename"
+msgstr "FILENAME"
+
+#: ../src/propono-main.c:56
+msgid "Create a new toplevel window in an existing instance of propono"
+msgstr "既存の propono を使って新しいウィンドウを生成する"
+
+#: ../src/propono-main.c:60
+msgid "[server:port]"
+msgstr "[サーバ:ポート番号]"
+
+#: ../src/propono-main.c:115
+msgid "The following error has occurred:"
+msgid_plural "The following errors have occurred:"
+msgstr[0] "次のエラーが発生しました:"
+msgstr[1] "次のエラーが発生しました:"
+
+#. Setup command line options
+#: ../src/propono-main.c:137
+msgid "- VNC Client for MATE"
+msgstr "- MATE 向けの VNC クライアント"
+
+#: ../src/propono-main.c:146
+msgid ""
+"Run 'propono --help' to see a full list of available command line options"
+msgstr ""
+"利用可能なコマンドライン・オプションの一覧を表示する際は 'propono --help' し"
+"て下さい"
+
+#: ../src/propono-mdns.c:123
+#, c-format
+msgid "Failed to resolve avahi hostname: %s\n"
+msgstr "avahi でホスト名を解決できませんでした: %s\n"
+
+#: ../src/propono-mdns.c:175 ../src/propono-mdns.c:184
+#, c-format
+msgid "Failed to browse for hosts: %s\n"
+msgstr "ホストを参照できませんでした: %s\n"
+
+#: ../src/propono-notebook.c:168
+#, c-format
+msgid "Connection to host <i>%s</i> was closed."
+msgstr "<i>%s</i> への接続が切れました。"
+
+#: ../src/propono-notebook.c:170
+msgid "Connection closed"
+msgstr "接続が切れました"
+
+#: ../src/propono-notebook.c:194
+msgid "Connecting..."
+msgstr "接続中..."
+
+#: ../src/propono-notebook.c:221 ../src/propono-tab.c:878
+msgid "Close connection"
+msgstr "この接続を閉じます"
+
+#: ../src/propono-prefs.c:169
+msgid "Cannot initialize preferences manager."
+msgstr "設定マネージャを初期化できません"
+
+#: ../src/propono-tab.c:322
+msgid "Error connecting to host."
+msgstr "ホストに接続する際にエラーが発生しました。"
+
+#: ../src/propono-tab.c:354
+#, c-format
+msgid "Authentication to host <i>%s</i> has failed"
+msgstr "<i>%s</i> の認証に失敗しました。"
+
+#: ../src/propono-tab.c:360
+msgid "Authentication failed"
+msgstr "認証に失敗しました"
+
+#: ../src/propono-tab.c:382
+#, c-format
+msgid "Authentication method to host <i>%s</i> is unsupported. (%u)"
+msgstr "<i>%s</i> に対する認証方法をサポートしていません (%u)。"
+
+#: ../src/propono-tab.c:386
+msgid "Authentication unsupported"
+msgstr "認証方法をサポートしていません"
+
+#: ../src/propono-tab.c:460
+msgid "Error saving recent connection."
+msgstr "最近開いた接続を保存する際にエラーが発生しました。"
+
+#: ../src/propono-tab.c:492
+msgid "Error saving the credential on the keyring."
+msgstr "証明書をキーリングに保存する際にエラーが発生しました。"
+
+#: ../src/propono-tab.c:747 ../src/propono-tab.c:764
+msgid "Authentication error"
+msgstr "認証エラー"
+
+#: ../src/propono-tab.c:748
+msgid "A username is required in order to access this machine."
+msgstr "このマシンにアクセスするにはユーザ名が必要です。"
+
+#: ../src/propono-tab.c:765
+msgid "A password is required in order to access this machine."
+msgstr "このマシンにアクセスするにはパスワードが必要です。"
+
+#: ../src/propono-tab.c:891
+msgid "Minimize window"
+msgstr "ウィンドウの最小化"
+
+#: ../src/propono-tab.c:906 ../src/propono-tab.c:907
+msgid "Scaling"
+msgstr "サイズ変更"
+
+#: ../src/propono-tab.c:916 ../src/propono-tab.c:917
+msgid "Read only"
+msgstr "表示のみ"
+
+#. Machine menu
+#: ../src/propono-tab.c:927 ../src/propono-tab.c:928 ../src/propono-ui.h:85
+msgid "Take screenshot"
+msgstr "スクリーンショットを撮る"
+
+#: ../src/propono-tab.c:936 ../src/propono-tab.c:937 ../src/propono-ui.h:88
+msgid "Send Ctrl-Alt-Del"
+msgstr "Ctrl-Alt-Del を送る"
+
+#: ../src/propono-tab.c:1061
+msgid "Desktop Name:"
+msgstr "デスクトップ名:"
+
+#: ../src/propono-tab.c:1063
+msgid "Port:"
+msgstr "ポート番号:"
+
+#: ../src/propono-tab.c:1064
+msgid "Dimensions:"
+msgstr "画面サイズ:"
+
+#: ../src/propono-tab.c:1130
+msgid "Could not get a screenshot of the connection."
+msgstr "接続のスクリーンショットを取得できませんでした"
+
+#: ../src/propono-tab.c:1138
+#, c-format
+msgid "Screenshot of %s"
+msgstr "%sのスクリーンショット"
+
+#: ../src/propono-tab.c:1141
+msgid "Save Screenshot"
+msgstr "スクリーンショットの保存"
+
+#: ../src/propono-tab.c:1205
+msgid ""
+"Scaling is not supported on this installation.\n"
+"\n"
+"Read the README file (shipped with Propono) in order to know how to enable "
+"this feature."
+msgstr ""
+"お使いの Propono ではサイズの変更をサポートしていません。\n"
+"\n"
+"この機能を有効にする方法については、パッケージ付属の README ファイルをご覧下"
+"さい。"
+
+#. Toplevel
+#: ../src/propono-ui.h:33
+msgid "_Machine"
+msgstr "マシン(_M)"
+
+#: ../src/propono-ui.h:34
+msgid "_Edit"
+msgstr "編集(_E)"
+
+#: ../src/propono-ui.h:35
+msgid "_View"
+msgstr "表示(_V)"
+
+#: ../src/propono-ui.h:36
+msgid "_Bookmarks"
+msgstr "ブックマーク(_B)"
+
+#: ../src/propono-ui.h:41
+msgid "Connect to a remote machine"
+msgstr "リモートのマシンに接続します"
+
+#: ../src/propono-ui.h:43
+msgid "Open a .VNC file"
+msgstr ".VNC ファイルを読み込んで接続します"
+
+#: ../src/propono-ui.h:45
+msgid "Quit the program"
+msgstr "プログラムを終了します"
+
+#: ../src/propono-ui.h:49
+msgid "Edit the application preferences"
+msgstr "このアプリケーションを設定します"
+
+#. Bookmarks menu
+#: ../src/propono-ui.h:52
+msgid "_Open bookmark"
+msgstr "ブックマークを開く(_O)"
+
+#: ../src/propono-ui.h:53
+msgid "Connect to this machine"
+msgstr "このマシンに接続します"
+
+#: ../src/propono-ui.h:54
+msgid "_Edit bookmark"
+msgstr "ブックマークの編集(_E)"
+
+#: ../src/propono-ui.h:55
+msgid "Edit the details of selected bookmark"
+msgstr "この接続の詳細を編集します"
+
+#: ../src/propono-ui.h:56
+msgid "_Remove from bookmarks"
+msgstr "ブックマークの削除(_R)"
+
+#: ../src/propono-ui.h:57
+msgid "Remove current selected connection from bookmarks"
+msgstr "この接続をブックマークから削除します"
+
+#: ../src/propono-ui.h:58
+msgid "_New Folder"
+msgstr "新しいフォルダ(_N)"
+
+#: ../src/propono-ui.h:59
+msgid "Create a new folder"
+msgstr "新しいフォルダを生成します"
+
+#. Help menu
+#: ../src/propono-ui.h:62
+msgid "_Contents"
+msgstr "目次(_C)"
+
+#: ../src/propono-ui.h:63
+msgid "Open the propono manual"
+msgstr "Propono のマニュアルを開きます"
+
+#: ../src/propono-ui.h:65
+msgid "About this application"
+msgstr "このアプリケーションについて"
+
+#: ../src/propono-ui.h:72
+msgid "Close the current connection"
+msgstr "現在表示している接続を閉じます"
+
+#: ../src/propono-ui.h:73
+msgid "C_lose All"
+msgstr "全て閉じる(_L)"
+
+#: ../src/propono-ui.h:74
+msgid "Close all active connections"
+msgstr "表示している全ての接続を閉じます"
+
+#. Bookmarks menu
+#: ../src/propono-ui.h:77
+msgid "_Add to bookmarks"
+msgstr "ブックマークの追加(_A)"
+
+#: ../src/propono-ui.h:78
+msgid "Add current connection to your bookmarks"
+msgstr "この接続をブックマークに追加します"
+
+#: ../src/propono-ui.h:86
+msgid "Take a screenshot of active connection"
+msgstr "表示している接続のスクリーンショットを撮ります"
+
+#: ../src/propono-ui.h:89
+msgid "Send Ctrl+Alt+Del to active connection"
+msgstr "作業中の接続に Ctrl+Alt+Del を送信します"
+
+#: ../src/propono-ui.h:93
+msgid "View the current machine in full screen"
+msgstr "この接続をフルスクリーン表示にします"
+
+#: ../src/propono-ui.h:95
+msgid "_Original size"
+msgstr "元のサイズ(_O)"
+
+#: ../src/propono-ui.h:96
+msgid "Adjusts the window to the remote desktop's size"
+msgstr "ウィンドウをリモート・デスクトップのサイズに変更します"
+
+#: ../src/propono-ui.h:102
+msgid "S_caling"
+msgstr "サイズの変更(_C)"
+
+#: ../src/propono-ui.h:103
+msgid "Fit the remote screen into the current window size"
+msgstr "リモートの画面を現在のウィンドウの大きさに合わせて変更します"
+
+#: ../src/propono-ui.h:105
+msgid "_Read only"
+msgstr "表示のみ(_R)"
+
+#: ../src/propono-ui.h:106
+msgid "Disable mouse and keyboard"
+msgstr "マウスとキーボードを使った操作を無効にします"
+
+#: ../src/propono-ui.h:112
+msgid "_Toolbar"
+msgstr "ツールバー(_T)"
+
+#: ../src/propono-ui.h:113
+msgid "Show or hide the toolbar"
+msgstr "ツールバーの表示を切り替えます"
+
+#: ../src/propono-ui.h:116
+msgid "_Statusbar"
+msgstr "ステータスバー(_S)"
+
+#: ../src/propono-ui.h:117
+msgid "Show or hide the statusbar"
+msgstr "ステータスバーの表示を切り替えます"
+
+#: ../src/propono-ui.h:120
+msgid "Side _Panel"
+msgstr "サイド・パネル(_P)"
+
+#: ../src/propono-ui.h:121
+msgid "Show or hide the side panel"
+msgstr "サイド・パネルの表示を切り替えます"
+
+#: ../src/propono-utils.c:75
+msgid "An error has occurred:"
+msgstr "エラーが発生しました:"
+
+#: ../src/propono-utils.c:433
+msgid "Propono is a VNC client for the MATE Desktop"
+msgstr "Propono は MATE デスクトップ向けの VNC クライアントです。"
+
+#: ../src/propono-utils.c:436
+msgid ""
+"Propono is free software; you can redistribute it and/or modify it under the "
+"terms of the GNU General Public License as published by the Free Software "
+"Foundation; either version 2 of the License, or (at your option) any later "
+"version."
+msgstr ""
+"Propono はフリーソフトウェアです。フリーソフトウェア財団が提供する GNU 一般公"
+"衆利用許諾契約書の第二版、あるいはそれ以降の版が定める条項の下で本プログラム"
+"を再頒布または変更することができます。"
+
+#: ../src/propono-utils.c:440
+msgid ""
+"Propono is distributed in the hope that it will be useful, but WITHOUT ANY "
+"WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS "
+"FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more "
+"details."
+msgstr ""
+"Propono 本プログラムは有用とは思いますが、頒布にあたっては市場性または特定の"
+"目的に対する適合性についての暗黙の保証を含めて、いかなる保証も行ないません。"
+"詳細には GNU 一般公衆利用許諾契約書をご覧下さい。"
+
+#: ../src/propono-utils.c:444
+msgid ""
+"You should have received a copy of the GNU General Public License along with "
+"this program. If not, see <http://www.gnu.org/licenses/>."
+msgstr ""
+"あなたは本プログラムと一緒に GNU 一般公衆利用許諾契約書の写しを受け取っている"
+"はずです。そうでない場合は、Free Software Foundation, Inc., 51 Franklin "
+"Street, Fifth Floor, Boston, MA 02110-1301, USA まで連絡して下さい。"
+
+#: ../src/propono-utils.c:466
+msgid "translator-credits"
+msgstr "相花毅 <takeshi.aihana@gmail.com>"
+
+#: ../src/propono-utils.c:469
+msgid "Propono Website"
+msgstr "Propono のウェブサイト"
+
+#: ../src/propono-window.c:413
+#, c-format
+msgid "Could not merge propono-ui.xml: %s"
+msgstr "propono-ui.xml をマージできませんでした: %s"
+
+#: ../src/propono-window.c:441
+msgid "_Recent connections"
+msgstr "最近開いた接続(_R)"
+
+#. Translators: This is server:port, a statusbar tooltip when mouse is over a bookmark item on menu
+#: ../src/propono-window.c:614
+#, c-format
+msgid "Open %s:%d"
+msgstr "%s:%d を開きます"
+
+#: ../src/propono-window.c:797
+msgid "Press Ctrl+Alt to release the cursor"
+msgstr "取得したカーソルを解放する場合は Ctrl+Alt を押下して下さい"

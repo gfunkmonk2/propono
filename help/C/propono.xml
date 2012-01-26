@@ -1,0 +1,564 @@
+<?xml version="1.0"?>
+<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+    "http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
+  <!ENTITY legal SYSTEM "legal.xml">
+  <!ENTITY GFDL  SYSTEM "fdl-appendix.xml">
+  <!ENTITY app "Propono">
+  <!ENTITY application "<application>&app;</application>">
+  <!ENTITY appversion "2.28">
+  <!ENTITY manrevision "2.28">
+]>
+<!--
+      (Do not remove this comment block.)
+  Template Maintained by the MATE Documentation Project:
+	  http://developer.mate.org/projects/gdp
+  Template version: 2.0 beta
+  Template last modified Feb 12, 2002
+-->
+
+<!-- =============Document Header ============================= -->
+<article id="index" lang="en">
+<!-- please do not change the id; for translations, change lang to -->
+<!-- appropriate code -->
+
+  <articleinfo>
+    <title>&application; Manual</title>
+    <abstract role="description">
+      <para>
+        &application; is a Remote Desktop Viewer
+      </para>
+    </abstract>
+    <copyright>
+      <year>2007, 2008, 2009</year>
+      <holder>Jonh Wendell (wendell@bani.com.br)</holder>
+    </copyright>
+
+  <!-- translators: uncomment this:
+
+  <copyright>
+   <year>2006</year>
+   <holder>ME-THE-TRANSLATOR (Latin translation)</holder>
+  </copyright>
+
+  -->
+
+<!-- An address can be added to the publisher information.  If a role is
+     not specified, the publisher/author is the same for all versions of the
+     document.  -->
+    <publisher role="maintainer">
+      <publishername>Jonh Wendell</publishername>
+    </publisher>
+
+   &legal;
+   <!-- This file  contains link to license for the documentation (GNU FDL), and
+        other legal stuff such as "NO WARRANTY" statement. Please do not change
+        any of this. -->
+
+    <authorgroup>
+      <author>
+        <firstname>Vinicius</firstname>
+        <surname>Depizzol</surname>
+        <email>vdepizzol@gmail.com</email>
+      </author>
+
+      <author>
+        <firstname>Jonh</firstname>
+        <surname>Wendell</surname>
+        <email>wendell@bani.com.br</email>
+      </author>
+
+<!-- This is appropriate place for other contributors: translators,
+      maintainers,  etc. Commented out by default.
+       <othercredit role="translator">
+        <firstname>Latin</firstname>
+        <surname>Translator 1</surname>
+        <affiliation>
+          <orgname>Latin Translation Team</orgname>
+          <address> <email>translator@mate.org</email> </address>
+        </affiliation>
+        <contrib>Latin translation</contrib>
+      </othercredit>
+-->
+    </authorgroup>
+
+    <revhistory>
+      <revision>
+        <revnumber>0.3</revnumber>
+        <date>2009-08-23</date>
+        <revdescription>
+          <para role="author">Jonh Wendell
+            <email>wendell@bani.com.br</email>
+          </para>
+        </revdescription>
+      </revision>
+      <revision>
+        <revnumber>0.2</revnumber>
+        <date>2008-01-15</date>
+        <revdescription>
+          <para role="author">Vinicius Depizzol
+            <email>vdepizzol@gmail.com</email>
+          </para>
+        </revdescription>
+      </revision>
+      <revision>
+        <revnumber>0.1</revnumber>
+        <date>2007-12-16</date>
+        <revdescription>
+          <para role="author">Jaap A. Haitsma
+            <email>jaap@haitsma.org</email>
+          </para>
+          <para role="publisher">Jaap A. Haitsma</para>
+        </revdescription>
+      </revision>
+    </revhistory>
+
+    <legalnotice>
+      <title>Feedback</title>
+      <para>
+        To report a bug or make a suggestion regarding the &app; application or
+        this manual, please file a bug at
+        <ulink url="http://bugzilla.mate.org/enter_bug.cgi?product=propono"
+	  type="http">MATE bugzilla page</ulink>.
+      </para>
+<!-- Translators may also add here feedback address for translations -->
+    </legalnotice>
+  </articleinfo>
+
+  <indexterm zone="index">
+    <primary>&application;</primary>
+  </indexterm>
+  <indexterm zone="index">
+    <primary>remote desktop</primary>
+  </indexterm>
+
+<!-- ============= Document Body ============================= -->
+<!-- ============= Introduction ============================== -->
+<section id="intro">
+  <title>Introduction</title>
+  <!-- manrevision 2.0 compatibility -->
+  <anchor id="aboutex"/>
+  <anchor id="notice"/>
+  <indexterm>
+    <primary>&application;</primary>
+    <secondary>Manual</secondary>
+    <tertiary>propono</tertiary>
+  </indexterm>
+
+  <para>The &app; application is a Remote Desktop Viewer for the <systemitem>MATE desktop</systemitem> that uses Virtual Network Computing (VNC) system (and possibly other protocols) to remotely control another computer.</para>
+  <para><application>&app;</application> provides the following features:</para>
+  <itemizedlist>
+  	<listitem>
+  		<para>Connect to several machines at the same time.</para>
+  	</listitem>
+  	<listitem>
+  		<para>Store recently connections and allows to bookmark them.</para>
+  	</listitem>
+  	<listitem>
+  		<para>Browse local network for machines.</para>
+  	</listitem>
+  	<listitem>
+  		<para>Provide a MATE Panel applet to quickly access your bookmarked machines.</para>
+  	</listitem>
+  	<listitem>
+  		<para>Extensible through its plugin structure.</para>
+  	</listitem>
+  </itemizedlist>
+
+</section>
+
+<!-- ============= Getting Started =========================== -->
+<section id="getting-started">
+	<title>Getting Started</title>
+
+<!-- ============= To Start propono ========================== -->
+
+	<section id="getting-started-to-start">
+		<title>Starting &app;</title>
+		<para>You can start <application>&app;</application> in the following ways:</para>
+		<variablelist>
+				<varlistentry>
+				<term><guimenu>Applications</guimenu> menu</term>
+				<listitem>
+	    	<para>Choose <menuchoice><guisubmenu>Internet</guisubmenu><guimenuitem>Remote Desktop Viewer</guimenuitem></menuchoice>. </para>
+				</listitem>
+				</varlistentry>
+				<varlistentry>
+				<term>Command line</term>
+    		<listitem>
+    		<para>Execute the following command: <command>propono</command></para>
+    		</listitem>
+    		</varlistentry>
+		</variablelist>
+	</section>
+
+<!-- ============= To Start propono in command-line ======== -->
+	<section id="getting-started-run-from-cmd-line">
+		<title>Starting &app; from a command line</title>
+		<para>You can run <application>&app;</application> from a command line and connect to a single machine or multiple machines. To connect to a machine from a command line, type the following command, then press <keycap>Return</keycap>:</para>
+		<para><command>propono <replaceable>hostname_or_ip_address</replaceable></command></para>
+		<para>For more information on how to run <application>&app;</application> from a command line, see the unix manual page for &app;, <ulink url="man:propono" type="man"><citerefentry><refentrytitle>&app;</refentrytitle><manvolnum>1</manvolnum></citerefentry></ulink>.</para>
+	</section>
+
+
+<!-- ============= propono window ========================== -->
+
+	<section id="getting-started-the-window">
+		<title>The &app; Window</title>
+		<figure id="propono-window">
+			<title>&app; window</title>
+		  <screenshot>
+			 <mediaobject>
+				<imageobject>
+				  <imagedata fileref="figures/propono-screenshot.png" format="PNG"/>
+					 </imageobject>
+				<textobject> <phrase>Shows propono main window.</phrase>
+				</textobject>
+			</mediaobject>
+		  </screenshot>
+		</figure>
+		
+		<para>The <application>&app;</application> window contains the following
+			elements:</para>
+		
+		<variablelist>
+			<varlistentry>
+				<term>Menubar</term>
+				<listitem>
+					<para>The menus on the menubar contain all of the commands you need to work with remote connections in <application>&app;</application>.</para>
+				</listitem>
+			</varlistentry>
+			<varlistentry>
+				<term>Toolbar</term>
+				<listitem>
+					<para>The toolbar contains a subset of the most used commands that you can access from the menubar.</para>
+				</listitem>
+			</varlistentry>
+			<varlistentry>
+				<term>Display Area</term>
+				<listitem>
+					<para>The display area contains a list of tabs with the connected machines and its remote desktops.</para>
+				</listitem>
+			</varlistentry>
+			<varlistentry>
+				<term>Statusbar</term>
+				<listitem>
+					<para>The statusbar displays information about current <application>&app;</application> activity and contextual information about the menu items.</para>
+				</listitem>
+			</varlistentry>
+			<varlistentry>
+				<term>Side Pane</term>
+				<listitem>
+					<para>The side pane contains a list of bookmarked connections and (if available) a list of auto-discovered network machines.</para>
+				</listitem>
+			</varlistentry>
+		</variablelist>
+	</section>
+
+<!-- ============= notes about propono ========================== -->
+	<section id="getting-started-notes">
+		<title>Some notes about &app;</title>
+		<para>As a tool to access other machines, &app; behaves slightly different than other <systemitem>MATE</systemitem> applications in its default installation.</para>
+		<para>&app; comes with menu accelerators and keyboard shortcuts disabled by default. This avoids keys being intercepted by &app; when you wanted to send those keys to the remote machine.</para>
+		<para>For instance, the keyboard shortcut to close a tab is <guilabel>Ctrl+W</guilabel>, but that key combination will be sent to the remote machine by default.</para>
+		<para>If you want to change this behavior, go to &app; preferences in
+			<menuchoice>
+	  			<guimenu>Edit</guimenu>
+	  			<guimenuitem>Preferences</guimenuitem>
+	  		</menuchoice>.
+
+		</para>
+	</section>
+
+</section>
+
+<section id="using">
+  <title>Using &app;</title>
+  
+  <section id="connect">
+  	<title>To connect to a remote machine</title>
+  
+	  <section id="connect-informing-data">
+	  	<title>Informing a host address</title>
+	  	<para>To connect with a remote machine, choose 
+		  	<menuchoice>
+		  		<shortcut><keycombo><keycap>Ctrl</keycap><keycap>N</keycap></keycombo></shortcut>
+		  		<guimenu>Machine</guimenu>
+		  		<guimenuitem>Connect</guimenuitem>
+		  	</menuchoice>. The <guilabel>Connection Dialog</guilabel> is displayed. 
+		  	Inform the <guilabel>Protocol</guilabel> and the <guilabel>Host</guilabel> of 
+		  	the connection and click the <guibutton>Connect</guibutton> button. You will see a bunch of
+		  	options depending on what protocol you have selected.
+		  </para>
+
+		<figure id="connect-dialog">
+			<title>Connect dialog</title>
+		  <screenshot>
+			 <mediaobject>
+				<imageobject>
+				  <imagedata fileref="figures/propono-connect-dialog.png" format="PNG"/>
+					 </imageobject>
+				<textobject> <phrase>Shows the connect dialog.</phrase>
+				</textobject>
+			</mediaobject>
+		  </screenshot>
+		</figure>
+
+		  <para>
+		  You can also use the <guibutton>Find</guibutton> button to browse available machines on local network.
+		  </para>
+		  <note>
+		  	<para>
+			  	The availabity of the <guibutton>Find</guibutton> button depends on the protocol you
+			  	have selected. &app; relies on <application>Avahi</application> service to browse for
+			  	machines in your local network. Also, notice that &app; can be compiled without
+			  	<application>Avahi</application> support. In this case, this button will not be available.
+		  	</para>
+		  </note>
+
+	  	<para>
+		  	Some machines may require a secure connection. In this case, an 
+		  	<guilabel>Authentication</guilabel> dialog will be displayed asking for the credentials.
+		  	The type of credentials depends on the server. It may be a password and an username.
+		  	If you check <guilabel>Remember this credential</guilabel>, <application>&app;</application> will store 
+		  	the secure information using <application>MATE Keyring Manager</application>.
+	  	</para>
+		<figure id="connect-auth-needed">
+			<title>Authentication dialog</title>
+		  <screenshot>
+			 <mediaobject>
+				<imageobject>
+				  <imagedata fileref="figures/propono-auth-needed.png" format="PNG"/>
+					 </imageobject>
+				<textobject><phrase>Shows the authentication dialog.</phrase></textobject>
+			</mediaobject>
+		  </screenshot>
+		</figure>
+
+		  <para>
+		  	If the connection has been used previously, you can also access it by 
+		  	<menuchoice>
+		  		<guimenu>Machine</guimenu>
+		  		<guimenu>Recent connections...</guimenu>
+		  	</menuchoice>.
+		  </para>
+	  </section>
+	  
+	  <section id="connect-opening-file">
+	  	<title>Opening a Remote Connection File</title>
+	  	<para>Some hosts distribute remote connection files (generally ending with 
+	  		suffix &quot;.vnc&quot;) instead of inform Host address and Port. To open a
+	  		remote connection file, choose 
+	  		<menuchoice>
+	  			<shortcut><keycombo><keycap>Ctrl</keycap><keycap>O</keycap></keycombo></shortcut>
+	  			<guimenu>Machine</guimenu>
+	  			<guimenuitem>Open</guimenuitem>
+	  		</menuchoice>. The <guilabel>Select File</guilabel> dialog is displayed. 
+	  		Select the file you want to open, then click on the <guibutton>Open</guibutton> button.
+	  	</para>
+	  	
+	  	<tip>
+	  		<para>You can also double-click on a remote connection file in the <application>Caja</application> 
+	  		file manager to open it on the <application>&app;</application> window.
+	  		</para>
+	  	</tip>
+	  </section>
+
+	  <section id="connect-using-bookmarks">
+	  	<title>Using Bookmarks</title>
+	  	<para>You can access your mostly used connections through bookmarks. See the
+	  	<link linkend="bookmarks">Bookmarks chapter</link>.
+	  	</para>
+	  </section>
+
+	</section>
+	
+	<section id="fullscreen">
+		<title>To Use Full Screen Mode</title>
+		<para>To zoom the Display Area to full screen mode, choose 
+			<menuchoice>
+				<shortcut><keycap>F11</keycap></shortcut>
+				<guimenu>View</guimenu>
+				<guimenuitem>Full Screen</guimenuitem>
+			</menuchoice> or the corresponding tool bar button.
+		</para>
+		<note>
+			<para>
+				While in full screen mode, move the mouse to the top center of the screen
+				to show a hidden tool bar, which has buttons to leave full screen mode,
+				close the connection and other options.
+			</para>
+		</note>
+	</section>
+	 
+	<section id="close">
+		<title>To Close a Connection</title>
+		<para>To close a connection, choose 
+		<menuchoice>
+			<guimenu>Machine</guimenu>
+			<guimenuitem>Close</guimenuitem>
+		</menuchoice>.
+		</para>
+	</section>
+	
+	<section id="screenshot">
+		<title>To Take Screenshot</title>
+		<para>To take screenshot of the current remote desktop, choose 
+			<menuchoice>
+				<guimenu>Machine</guimenu>
+				<guimenu>Take Screenshot</guimenu>
+			</menuchoice> or press the relative button in the toolbar. The 
+			<guilabel>Save Screenshot</guilabel> dialog is displayed, click the 
+			<guibutton>Save</guibutton> button to save the screenshot.
+		</para>
+	</section>
+
+</section>
+
+
+<section id="bookmarks">
+	<title>Using Bookmarks</title>
+
+	<section id="bookmarks-using">
+		<title>Using Bookmarks</title>
+		<para>Bookmarks are a resource to keep around machines you access frequently.
+		They are visible at side panel or in the <guimenu>Bookmarks</guimenu> menu.
+		</para>
+
+		<figure id="bookmarks-side-panel">
+			<title>Bookmarks at side panel</title>
+		  <screenshot>
+			 <mediaobject>
+				<imageobject>
+				  <imagedata fileref="figures/propono-bookmarks-side-panel.png" format="PNG"/>
+					 </imageobject>
+				<textobject> <phrase>Shows bookmarks at side panel.</phrase>
+				</textobject>
+			</mediaobject>
+		  </screenshot>
+		</figure>
+
+		<para>As you move the mouse around the entries, a tooltip will show you the hostname
+		of the connection. To connect to a machine, just double click on a entry.
+		</para>
+
+	</section>
+
+	<section id="bookmarks-add">
+		<title>To Create a New Bookmark</title>
+		<para>To bookmark the currently viewed connection, choose 
+			<menuchoice>
+				<shortcut><keycombo><keycap>Ctrl</keycap><keycap>D</keycap></keycombo></shortcut>
+				<guimenu>Bookmarks</guimenu>
+				<guimenuitem>Add to Bookmarks</guimenuitem>
+			</menuchoice>. The <guilabel>Saving to Bookmarks</guilabel> dialog is displayed. 
+			Inform the name of the connection and optionally other data, such as the folder and click <guibutton>Save</guibutton>.
+		</para>
+
+		<figure id="bookmarks-saving">
+			<title>Saving a bookmark</title>
+		  <screenshot>
+			 <mediaobject>
+				<imageobject>
+				  <imagedata fileref="figures/propono-saving-bookmarks.png" format="PNG"/>
+					 </imageobject>
+				<textobject> <phrase>Shows the Saving to Bookmarks dialog.</phrase>
+				</textobject>
+			</mediaobject>
+		  </screenshot>
+		</figure>
+
+		<note>
+			<para>You can use folders to organize your bookmarks. To create a folder, right click
+			in the side panel and choose the option <guimenu>New Folder</guimenu> in the context menu,
+			or go to menu
+				<menuchoice>
+					<guimenu>Bookmarks</guimenu>
+					<guimenu>New Folder</guimenu>
+				</menuchoice>.
+			</para>
+		</note>
+
+	</section>
+	
+	<section id="bookmarks-edit">
+		<title>To Edit a Bookmark's Properties</title>
+		<para>
+			To edit a bookmark's properties, such as it's name and host, choose <guimenuitem>Edit bookmark</guimenuitem> 
+			from the context menu of the bookmark in the Side Pane. The same dialog as shown above will be displayed.
+		</para>
+
+		<figure id="bookmarks-editing">
+			<title>Editing a bookmark</title>
+		  <screenshot>
+			 <mediaobject>
+				<imageobject>
+				  <imagedata fileref="figures/propono-editing-bookmarks.png" format="PNG"/>
+					 </imageobject>
+				<textobject> <phrase>Context menu option to edit a bookmark</phrase>
+				</textobject>
+			</mediaobject>
+		  </screenshot>
+		</figure>
+
+		<note><para>You can also edit a folder.</para></note>
+	</section>
+
+	<section id="bookmarks-remove">
+		<title>To Remove a Bookmark</title>
+		<para>
+			To remove a bookmark, choose <guilabel>Remove from bookmarks</guilabel> from the context menu 
+			of the bookmark in the Side Pane.
+		</para>
+		<note><para>You can also remove a folder. Notice that removing a folder will remove all its entries. A confirmation dialog will be shown.</para></note>
+	</section>
+
+</section>
+
+<section id="preferences">
+	<title>Preferences</title>
+	<para>To configure <application>&app;</application>, choose <menuchoice> <guimenu>Edit</guimenu> <guimenuitem>Preferences</guimenuitem> </menuchoice>. The <guilabel>Preferences</guilabel> dialog contains the following items:</para>
+
+	<variablelist>
+		<varlistentry>
+			<term><guilabel>Always show tabs</guilabel></term>
+			<listitem>
+				<para>Select this option to make the tabs always visible, even when only one connection is active.</para>
+			</listitem>
+		</varlistentry>
+
+		<varlistentry>
+			<term><guilabel>Show menu shortcuts</guilabel></term>
+			<listitem>
+				<para>By selecting this option, keyboard shortcuts, like <guilabel>Ctrl+D</guilabel>
+				and menu accelerators, like <guilabel>Alt+M</guilabel> to access the Machine menu, will be enabled.
+				This means that &app; will catch those key combinations, instead of sending them to the remote machine. Because most of the time you will be
+				working on the remote machine, this option comes <guilabel>disabled</guilabel> by default.
+				</para>
+			</listitem>
+		</varlistentry>
+	</variablelist>
+</section>
+
+<section id="about">
+  <title>About</title>
+  <para>
+    &app; was written by Jonh Wendell <email>wendell@bani.com.br</email>.
+    To find more information about &app;, please visit the
+    <ulink url="http://projects.mate.org/propono/" type="http">&application; web page</ulink>.
+  </para>
+  <para>
+    To report a bug or make a suggestion regarding this application you can file
+    a bug in our 
+    <ulink url="http://bugzilla.mate.org/browse.cgi?product=propono" type="http">
+    bug tracker</ulink>.
+  </para>
+  <para>This program is distributed under the terms of the GNU
+    General Public license as published by the Free Software
+    Foundation; either version 2 of the License, or (at your option)
+    any later version. A copy of this license can be found at the
+    <ulink url="http://www.gnu.org/licenses/gpl.html" type="http">GNU site</ulink>, or in the file
+    COPYING included with the source code of this program.
+  </para>
+</section>
+
+</article>

@@ -1,0 +1,772 @@
+2009-04-13  Jonh Wendell  <jwendell@mate.org>
+
+	* configure.in: post-release bump version to 2.26.2
+
+==================== 2.26.1 =======================
+
+2009-03-20  Jonh Wendell  <jwendell@mate.org>
+
+	* src/propono-bookmarks.[ch],
+	* src/propono-bookmarks-ui.c,
+	* data/propono.glade: Don't allow items name duplicated on bookmarks.
+	Closes #574134.
+
+2009-03-16  Jonh Wendell  <jwendell@mate.org>
+
+	* configure.in: post-release bump version to 2.26.1
+
+==================== 2.26.0 =======================
+
+2009-03-06  Jonh Wendell  <jwendell@mate.org>
+
+	* data/propono.glade: Remove extra spacing from preferences window.
+	Closes #574135.
+
+2009-03-02  Jonh Wendell  <jwendell@mate.org>
+
+	* configure.in: post-release bump version to 2.26.0
+
+==================== 2.25.92 =======================
+2009-02-19  Jonh Wendell  <jwendell@mate.org>
+
+	* src/propono-connection.c,
+	* src/propono-tab.c: Allow IPv6 address in command line as well in
+	the connection dialog. The address must be enclosed by square braces,
+	for instance: [::a:b:c:d]. This is the same syntax used by RealVNC.
+	Closes Ubuntu #290394. The command line help and man page should be
+	updated to reflect this, though.
+
+2009-02-18  Jonh Wendell  <jwendell@mate.org>
+
+	* data/propono.glade,
+	* src/propono-tab.c: Improved the authentication dialog.
+
+2009-02-16  Jonh Wendell  <jwendell@mate.org>
+
+	* configure.in: post-release bump version to 2.25.92
+
+==================== 2.25.91 =======================
+
+2009-02-13  Jonh Wendell <jwendell@mate.org>
+
+	* src/propono-tab.c (propono_tab_take_screenshot): Presents an error
+	message if capture of screenshot fails.
+
+2009-02-02  Jonh Wendell <jwendell@mate.org>
+
+	* configure.ac: post-release bump to 2.25.91
+
+==================== 2.25.90 ======================
+
+2009-01-30  Jonh Wendell <jwendell@mate.org>
+
+	* configure.ac: Handle correctly --enable-avahi, Closes #569878.
+
+2009-01-22  Jonh Wendell <jwendell@mate.org>
+
+	* src/propono-applet.c: Rewrite of the applet, now using GObject.
+	Also, fix the icon on transparent panels, closes #568674.
+
+2009-01-21  Jonh Wendell <jwendell@mate.org>
+
+	* configure.ac: post-release bump to 2.25.90
+
+==================== 2.25.5 ======================
+
+2009-01-12  Kjartan Maraas  <kmaraas@mate.org>
+
+	* data/propono.glade: Don't translate widget
+	labels.
+
+2009-01-05  Jonh Wendell <jwendell@mate.org>
+
+	* configure.ac: post-release bump to 2.25.5
+
+==================== 2.25.4 ======================
+
+2008-12-15  Jonh Wendell <jwendell@mate.org>
+
+	* configure.ac: Depends on gtk-vnc 0.3.8
+	* src/propono-tab.c: Let scaling work on composited screens.
+
+2008-12-15  Jonh Wendell <jwendell@mate.org>
+
+	* src/propono-tab.c: Added minimize button to toolbar in fullscreen
+	mode, closes #558596.
+	* data/icons/hicolor_status_*view-minimize.png: New icons, by
+	Vinicius Depizzol.
+
+2008-12-15  Jonh Wendell <jwendell@mate.org>
+
+	* configure.ac: post-release bump to 2.25.4
+
+==================== 2.25.3 ======================
+
+2008-12-12  Jonh Wendell <jwendell@mate.org>
+
+	* src/propono-applet.c: Make applet use new bookmarks structure.
+
+2008-12-11  Jonh Wendell <jwendell@mate.org>
+
+	* data/propono.1: New manual page, by Emilio Pozuelo Monfort and
+	Halton Huo.
+
+2008-12-11  Jonh Wendell <jwendell@mate.org>
+
+	* src/propono-main.c: Make 'propono --help' fully localized, by
+	calling setlocale(). Patch by Takao Fujiwara. Closes #562526.
+
+2008-12-11  Jonh Wendell <jwendell@mate.org>
+
+	* lots of files: Some adjusts in GObject destructors. Also removed
+	some deprecated gtk+ symbols, closes #563462.
+
+2008-12-11  Jonh Wendell <jwendell@mate.org>
+
+	* lots of files: Folders in bookmarks, closes #549649.
+	Sorting entries alphabetically, closes #550596.
+
+2008-11-16  Jonh Wendell <jwendell@mate.org>
+
+	* lots of files: Drag and drop ability: Bookmark can be added by dragging
+	and dropping an tab into it. Closes #536896.
+
+2008-11-14  Jonh Wendell <jwendell@mate.org>
+
+	* lots of files: Added an initial preferences dialog.
+
+2008-11-14  Jonh Wendell <jwendell@mate.org>
+
+	* lots of files: Show a secondary text in all error dialogs.
+
+2008-11-14  Jonh Wendell <jwendell@mate.org>
+
+	* src/propono-connection.[ch],
+	* src/propono-tab.c: Better parse a .vnc file. Closes #559525.
+
+2008-11-13  Jonh Wendell <jwendell@mate.org>
+
+	* src/propono-connection.[ch],
+	* src/propono-tab.c,
+	* data/propono.glade: Allow the username in the authentication schema.
+	If an username is required to connect to a host, we ask it in the
+	auth dialog, as long as the password. Closes #559526.
+
+2008-11-11  Jonh Wendell <jwendell@mate.org>
+
+	* src/propono-window.c (show_hide_accels): Also hides menu mnemonics.
+	Closes #555803.
+
+2008-11-11  Jonh Wendell <jwendell@mate.org>
+
+	* src/propono-bookmarks.c (propono_bookmarks_add): Use the connection's
+	name for the default bookmark name, when adding. Closes #557675.
+	Patch from Mauro Dreissig.
+
+2008-11-11  Jonh Wendell <jwendell@mate.org>
+
+	* lots of files: Make avahi optional by adding an option to
+	configure script: --disable-avahi. It's enabled by default.
+	Closes #557740.
+
+2008-10-20  Jonh Wendell <jwendell@mate.org>
+
+	* configure.ac: bump to 2.25.1
+
+2008-10-20  Jonh Wendell <jwendell@mate.org>
+
+	* Lots of files: Added an 'original size' option in the menu.
+	Closes #509948.
+
+2008-10-04  Jonh Wendell <jwendell@mate.org>
+
+	* src/propono-bookmarks.c (propono_bookmarks_init):
+	Create the parent directory before copying the old bookmarks file
+	to the new location. Closes #554995.
+
+2008-09-22  Jonh Wendell <jwendell@mate.org>
+
+	* configure.ac: post-release bump to 2.24.1
+
+==================== 2.24.0 ======================
+
+2008-09-08  Jonh Wendell <jwendell@mate.org>
+
+	* configure.ac: post-release bump to 2.24.0
+
+==================== 2.23.92 =====================
+
+2008-09-08  Jonh Wendell <jwendell@mate.org>
+
+	* src/propono-tab.c: Fixed bug #533282 - Support for downscaling.
+
+2008-09-08  Jonh Wendell <jwendell@mate.org>
+
+	* configure.ac: bump gtk-vnc dependency to 0.3.7
+	* src/propono-tab.c: Removed ugly hacks related to key press. New
+	gtk-vnc handles this correctly.
+
+2008-09-01  Jonh Wendell <jwendell@mate.org>
+
+	* configure.ac: post-release bump to 2.23.92
+
+==================== 2.23.91 =====================
+
+2008-08-22  Halton Huo <halton.huo@sun.com>
+
+	* configure.ac: Add libsocket to LDFLAGS, closes #548585
+
+2008-08-18  Jonh Wendell <jwendell@mate.org>
+
+	* configure.ac: post-release bump to 2.23.91
+
+==================== 2.23.90 =====================
+
+2008-08-18  Jonh Wendell <jwendell@mate.org>
+
+	* configure.ac: Requires gtk+ >= 2.13.1, glib >= 2.17.0
+	* src/propono-utils.c: Uses new gtk+ functions instead of mate-open.
+	Closes #514064.
+
+2008-07-26  Wouter Bolsterlee  <wbolster@svn.mate.org>
+
+	Bug 544736 – Use single GTK+ includes
+
+	* src/gossip-cell-renderer-expander.c:
+	* src/gossip-cell-renderer-expander.h:
+	* src/propono-app.c:
+	* src/propono-app.h:
+	* src/propono-applet.c:
+	* src/propono-bacon.c:
+	* src/propono-bacon.h:
+	* src/propono-bookmarks.c:
+	* src/propono-bookmarks.h:
+	* src/propono-commands.c:
+	* src/propono-commands.h:
+	* src/propono-connect.c:
+	* src/propono-connection.c:
+	* src/propono-connection.h:
+	* src/propono-fav.c:
+	* src/propono-main.c:
+	* src/propono-mdns.h:
+	* src/propono-notebook.c:
+	* src/propono-notebook.h:
+	* src/propono-prefs.c:
+	* src/propono-prefs.h:
+	* src/propono-tab.c:
+	* src/propono-tab.h:
+	* src/propono-ui.h:
+	* src/propono-utils.c:
+	* src/propono-utils.h:
+	* src/propono-window-private.h:
+	* src/propono-window.c:
+	* src/propono-window.h:
+
+	Use single <gtk/gtk.h> includes. Also fixed malformed
+	Vim modelines.
+
+2008-06-16  Jonh Wendell <jwendell@mate.org>
+
+	* configure.ac: post-release bump to 2.23.5
+
+==================== 2.23.4 =====================
+
+2008-06-13  Jonh Wendell <jwendell@mate.org>
+
+	* Added a panel applet.
+
+2008-06-02  Jonh Wendell <jwendell@mate.org>
+
+	* configure.ac: post-release bump to 2.23.4
+
+==================== 2.23.3 =====================
+
+2008-06-02  Jonh Wendell <jwendell@mate.org>
+
+	* src/propono-bookmarks.c (propono_bookmarks_init):
+	Use XDG recomendation to store bookmarks file. Make sure to copy
+	the old file to new location. Fixes #536111.
+
+2008-06-01  Jonh Wendell <jwendell@mate.org>
+
+	Reworked 'edit bookmark' window, among other things...
+
+2008-05-31  Jonh Wendell <jwendell@mate.org>
+
+	Fix bug #515816 - connect dialog should remember Host/Port address.
+	Also added options to connect in fullscreen, view only and with scaling
+	directly in the connection dialog.
+
+2008-05-31  Jonh Wendell <jwendell@mate.org>
+
+	* src/propono-app.c: Persist changes in menu shortcuts (Ubuntu #233918).
+
+2008-05-30  Jonh Wendell <jwendell@mate.org>
+
+	* src/propono-window.c: Drop F11 key handling.
+
+2008-05-29  Jonh Wendell <jwendell@mate.org>
+
+	* src/propono-tab.c: Fix bug #531969 - scrolling on server.
+
+2008-05-29  Jonh Wendell <jwendell@mate.org>
+
+	Added a mateconf key to disable menu shortcuts.
+
+2008-05-29  Jonh Wendell <jwendell@mate.org>
+
+	* src/propono-window.c,
+	* src/propono-tab.[ch]: Get rid of grabbing cursor. Keyboard is grabbed
+	automatically.
+
+2008-05-29  Jonh Wendell <jwendell@mate.org>
+
+	Fixed bug #522100 - Provide option to leave fullscreen mode
+
+2008-05-12  Jonh Wendell <jwendell@mate.org>
+
+	* configure.ac: post-release bump to 2.23.3
+
+==================== 2.23.2 =====================
+
+2008-05-09  Jonh Wendell <jwendell@mate.org>
+
+	* lots of files: Closes #519145 – Implement unique instance.
+
+2008-05-07  Jonh Wendell <jwendell@mate.org>
+
+	* src/propono-tab.c: Closes #531954 – Don't propagate key events.
+
+2008-05-06  Jonh Wendell <jwendell@mate.org>
+
+	* lots of files: Closes #518351 – Don't show tabs when only one connection is open.
+
+2008-05-06  Jonh Wendell <jwendell@mate.org>
+
+	* lots of files: Make ProponoPrefs a GObject
+
+2008-05-06  Jonh Wendell <jwendell@mate.org>
+
+	* src/propono-connection.c: Support for host::port, patch from
+	Henrik Holst, closes #501165.
+
+2008-05-06  Jonh Wendell <jwendell@mate.org>
+
+	* configure.ac: requires gtk-vnc 0.3.6
+
+2008-05-05  Jonh Wendell <jwendell@mate.org>
+
+	* src/propono-tab.c,
+	* src/propono-window.c: Handle correctly clipboard. Closes #530582.
+
+2008-05-05  Jonh Wendell <jwendell@mate.org>
+
+	* src/Makefile.am: Don't distribute propono-enums.[hc]. Closes #531593.
+
+2008-05-02  Jonh Wendell <jwendell@mate.org>
+
+	* src/propono-tab.c: Initial support for VEncrypt sessions.
+	Patch from Henrik Holst. Closes #530712.
+
+2008-04-30  Jonh Wendell <jwendell@mate.org>
+
+	* src/propono-prefs-manager.[ch],
+	* src/propono-tab.c,
+	* data/propono.schemas.in: Added a mateconf key (shared_flag) to tell
+	whether to share the desktop with other clients.
+
+2008-04-29  Jonh Wendell <jwendell@mate.org>
+
+	* Added "Send ctrl-alt-del" option to menu and toolbar.
+	Closes #490841. Patch from Henrik Holst.
+
+2008-04-21  Jonh Wendell <jwendell@mate.org>
+
+	* configure.ac: post-release bump to 2.23.2
+
+==================== 2.23.1 =====================
+
+2008-04-16  Jonathon Jongsma  <jjongsma@mate.org>
+
+	* src/propono-notebook.c: make the notebook tab close buttons smaller to
+	save some vertical space
+
+2008-04-16  Jonh Wendell <jwendell@mate.org>
+
+	Provide a 'read only' mode. Closes #509945.
+
+2008-04-09  Jonh Wendell <jwendell@mate.org>
+
+	Show avahi-found hosts in side panel and bookmark menu. Closes #512918.
+	
+	* configure.ac:
+	 - Bump avahi dependency to 0.6.22
+	 - Bump gtk-vnc dependency to 0.3.5
+	 - Avahi dependency is mandatory now
+	 - Also depends on avahi-gobject
+	* src/propono-mdns.[ch]: New files, mdns class
+	* propono-window.[ch],
+	* propono-fav.c: Make use of new mdns class
+
+2008-04-03  Jonh Wendell <jwendell@mate.org>
+
+	* src/propono-commands.c: Show an error message if running composited
+	window and try to enable scaling. Compiz doesn't work well with OpenGL
+	applications yet.
+
+2008-04-03  Jonh Wendell <jwendell@mate.org>
+
+	* src/propono-tab.[ch],
+	* src/propono-window.[ch]: Better handles menus sensitivity.
+	* src/propono-bookmarks.c,
+	* src/propono-commands.c:
+	- Don't crash when adding a bookmark after the connection is closed. (LP: #205303).
+	- Ignore NULL hosts in bookmarks file.
+
+2008-04-03  Jonh Wendell <jwendell@mate.org>
+
+	* src/propono-tab.c:
+	Changed properties types from pointer to object;
+	Use new gtk-vnc API vnc_display_force_grab() in fullscreen handling.
+
+2008-03-29  Jonh Wendell <jwendell@mate.org>
+
+	* src/propono-utils.[ch],
+	* src/propono-main.c: Use the new debug stuff from gtk-vnc
+
+2008-03-24  Jonh Wendell <jwendell@mate.org>
+	- Make ProponoBookmarks a GObject.
+	- Modify the side panel interface.
+
+2008-03-19  Jonh Wendell <jwendell@mate.org>
+	Make ProponoConnection a GObject.
+
+2008-03-14  Jonh Wendell <jwendell@mate.org>
+
+	Initial support for scaling. Closes #476942.
+
+	* configure.ac: Bump gtk-vnc version to 0.3.4
+	* README: Brief explanation on how to enable scaling
+	* src/propono-tab.c,
+	* src/propono-commands.h,
+	* src/propono-window.c,
+	* src/propono-tab.h,
+	* src/propono-ui.h,
+	* src/propono-window-private.h,
+	* src/propono-commands.c,
+	* data/propono-ui.xml: Implement scaling
+
+2008-03-12  Jonh Wendell <jwendell@mate.org>
+
+	* configure.ac: post-release bump to 2.23.1 (#512925)
+
+==================== 0.5.0 =====================
+
+2008-02-25  Jonh Wendell <jwendell@mate.org>
+
+	* configure.ac: post-release bump to 0.5.0
+
+==================== 0.4.92 ====================
+
+2008-02-22  Jonh Wendell <jwendell@mate.org>
+
+	* src/propono-window.c,
+	* src/propono-tab.c: Fix an inconsistency in menu sensitivity, when we
+	close a tab.
+
+2008-02-20  Halton Huo <halton.huo@sun.com>
+
+	* configure.ac: fix g_thread_init symbol lost, closes #517603
+
+2008-02-11  Jonh Wendell <jwendell@mate.org>
+
+	* configure.ac: post-release bump to 0.4.92
+
+==================== 0.4.91 ====================
+
+2008-02-11  Jonh Wendell <jwendell@mate.org>
+
+	* configure.ac: Depends on gtk-vnc 0.3.3
+
+2008-02-10  Jonh Wendell <jwendell@mate.org>
+
+	* src/propono-window.c,
+	* src/propono-main.c,
+	* src/propono-connection.[ch]: More work on vnc:// protocol, also
+	fixes issues in recent connections stuff.
+
+2008-01-31  Jonh Wendell <jwendell@mate.org>
+
+	* data/propono.glade: Allow port numbers less than 1024. (Closes #513381)
+
+2008-01-30  Jonh Wendell <jwendell@mate.org>
+
+	* Register propono in mateconf as a handler to vnc:// protocol
+
+2008-01-28  Jonh Wendell <jwendell@mate.org>
+
+	* configure.ac: post-release bump to 0.4.91
+
+==================== 0.4.90 ====================
+
+2008-01-28  Jonh Wendell <jwendell@mate.org>
+
+	* configure.ac, NEWS, README: Version 0.4.90
+
+2008-01-28  Jonh Wendell <jwendell@mate.org>
+
+	* Makefile.am,
+	* help/C/propono.xml: Fix some docs issues
+
+2008-01-27  Jonh Wendell <jwendell@mate.org>
+
+	* src/propono-window.c,
+	* src/propono-window-private.h: Fix a crash in delete_event,
+	by disconnecting from the clipboard signal.
+
+2008-01-25  Jonh Wendell <jwendell@mate.org>
+
+	* src/propono-notebook.c: Adjust the size of tabs.
+
+2008-01-24  Jonh Wendell <jwendell@mate.org>
+
+	* data/propono.desktop.in.in: Removed 'OnlyShowIn' line (LP: #185707)
+
+2008-01-24  Jonh Wendell <jwendell@mate.org>
+
+	* configure.ac,
+	* src/propono-main.c,
+	* src/propono-connection.c
+	* src/propono-commands.c: Use gio instead of mate-vfs.
+
+2008-01-20  Jonh Wendell <jwendell@mate.org>
+
+	* src/vnagre-tab.c (open_vnc): Don't use new symbol from gtk-vnc trunk.
+	Closes #509993.
+
+2008-01-15  Jonh Wendell <jwendell@mate.org>
+
+	* data/propono.1,
+	* data/Makefile.am: Added a manual page, thanks to Emilio Pozuelo Monfort.
+	Closes #509490.
+
+2007-12-19  Jonh Wendell <jwendell@mate.org>
+
+	* lots of files: Initial documentation skeleton, patch from Jaap A. Haitsma,
+	  important step to fix bug #503806.
+
+2007-12-15  Jonh Wendell <jwendell@mate.org>
+	* src/propono-commands.c:
+	Make links in about dialog clickable. Closes #503770
+	Thanks to Jaap A. Haitsma for the patch.
+
+2007-12-14  Jonh Wendell <jwendell@mate.org>
+	Small adjusts in .desktop files. Closes #503650
+
+2007-12-13  Jonh Wendell <jwendell@mate.org>
+	* src/propono-window.c (create_menu_bar_and_toolbar):
+	Flag some toolbar buttons as "important". Closes #503468
+
+2007-12-13  Jonh Wendell <jwendell@mate.org>
+	* configure.ac: Dropped -Wall, fix suncc compile, closes #503358
+	  Thanks to Halton Huo.
+
+==================== 0.4 ====================
+
+2007-12-12  Jonh Wendell <jwendell@mate.org>
+	pre-release bump version to 0.4
+
+2007-11-11  Jonh Wendell <jwendell@mate.org>
+
+	Propono has its own icon!
+	Thanks to Vinicius Depizzol for the artwork and Michael Monreal for
+	the integration patch. Closes #489145.
+	
+	* configure.ac,
+	* data/Makefile.am: Changed some rules
+	* data/icons: THE new directory
+	* src/propono-commands.c: Put vdepizzol's name under credits
+
+2007-11-07  Jonh Wendell <jwendell@mate.org>
+
+	* src/propono-utils.[ch],
+	* src/propono-main.c,
+	* src/propono-connection.[ch],
+	* src/propono-commands.c: Improved error handling
+
+2007-11-07  Jonh Wendell <jwendell@mate.org>
+
+	More hack on .vnc file format support:
+	
+	* data/propono-ui.xml,
+	* src/propono-commands.[ch],
+	* src/propono-ui.h: Added an "Open .VNC file" menu item.
+
+2007-11-06  Jonh Wendell <jwendell@mate.org>
+
+	Initial support to load .vnc files:
+
+	* configure.ac: Added mate-vfs as a dependency
+	* src/propono-tab.c: Use "x-remote-connection" in recent connection
+	* src/propono-main.c: Parse filenames as parameters ("-f" command line flag)
+	* src/propono-connection.[ch]: propono_connection_new_from_file (): new function
+
+2007-10-21  Jonh Wendell <jwendell@mate.org>
+
+	* src/propono-tab.c,
+	* src/propono-window.c,
+	* src/propono-window.h,
+	* src/propono-notebook.c,
+	* src/propono-window-private.h:
+	  - Disable all shortcut keys when the cursor is grabbed, closes #485317.
+
+2007-10-11  Jonh Wendell <jwendell@mate.org>
+
+	* data/Makefile.am
+	  - Make use of $destdir, thanks to Mark Howard. (Closes #485397)
+
+2007-10-10  Jonh Wendell <jwendell@mate.org>
+
+	* src/propono-tab.c,
+	* src/propono-window.c,
+	* src/propono-notebook.c:
+	  - Adjust scrollbars in fullscreen mode
+
+2007-10-09  Jonh Wendell <jwendell@mate.org>
+
+	* lots of files:
+	  - Rename favorites to bookmarks (closes #477504)
+
+2007-10-09  Jonh Wendell <jwendell@mate.org>
+	* src/propono-window.c,
+	* data/Makefile.am,
+	* data/propono.svg,
+	* data/propono.desktop.in.in:
+	  - In a near future, we will ship our own icon
+
+2007-10-09  Jonh Wendell <jwendell@mate.org>
+
+	* lots of files:
+	  - Keep recent connections around
+	  - Other minor changes
+
+2007-10-04  Jonh Wendell <jwendell@mate.org>
+
+	* configure.ac,
+	* data/propono.glade,
+	* src/propono-tab.c:
+	  - Added mate-keyring support.
+	* src/propono-favorites.c:
+	  - Don't save the password in the favorites file.
+	* src/propono-window.c:
+	  - Avoid a crash when exiting the application with more than one
+	    tab opened.
+
+2007-10-04  Jonh Wendell <jwendell@mate.org>
+
+	* src/propono-tab.c:
+	  - Added bell support.
+
+2007-10-03  Jonh Wendell <jwendell@mate.org>
+
+	* src/propono-tab.c,
+	* src/propono-window.c,
+	* src/propono-tab.h,
+	* src/propono-ui.h,
+	* data/propono-ui.xml:
+	  - Added clipboard support (copy and paste)
+	  - Dropped edit menu, it's not being used anyway.
+
+2007-10-03  Jonh Wendell <jwendell@mate.org>
+
+	* src/propono-tab.c:
+	  - Connect to auth-unsupported signal from gtk-vnc, displaying a
+	    message to the user if we don't support the auth type from the
+	    server (Closes #478874)
+
+2007-09-18  Jonh Wendell  <jwendell@mate.org>
+
+	* src/propono-favorites.c:
+	  - Fixed a crash when saving to favorites (Closes #477251)
+
+2007-09-17  Jonh Wendell  <jwendell@mate.org>
+
+	* data/propono.desktop.in.in:
+	  - Changed .desktop entry to 'Remote Desktop Viewer' (Closes #476951)
+
+2007-09-17  Jonh Wendell  <jwendell@mate.org>
+
+	* src/*.[ch]:
+	  - Updated license header (Closes #477303)
+
+2007-09-17  Jonh Wendell  <jwendell@mate.org>
+
+	* data/propono.glade:
+	  - Don't mark some strings for translation (Closes #477300)
+	  - Changed min and max port numbers (Closes #477654)
+
+2007-09-17  Jonh Wendell  <jwendell@mate.org>
+
+	* src/propono-tab.c,
+	* src/propono-window.c:
+	  - Show tabs in fullscreen mode when ungrab the pointer.
+
+2007-09-13  Jonh Wendell  <jwendell@mate.org>
+
+	* configure.ac,
+	* README,
+	* NEWS,
+	* INSTALL:
+	  - Updated to version 0.3
+
+2007-09-13  Jonh Wendell  <jwendell@mate.org>
+
+	* src/propono-tab.[ch],
+	* src/propono-window.[ch],
+	* src/propono-notebook.[ch],
+	* src/propono-commands.c:
+	  - Uses auth-failure signal from gtk-vnc.
+
+2007-09-11  Jonh Wendell  <jwendell@mate.org>
+
+	* src/propono-tab.c,
+	* src/propono-window.[ch],
+	* src/propono-connection.[ch]:
+	  - Updates tab label and window title when we connect into a host.
+
+2007-09-06  Jonh Wendell  <jwendell@mate.org>
+
+	* src/propono-tab.c:
+	  - Show pointer grab/ungrab messages on statusbar
+
+2007-09-06  Jonh Wendell  <jwendell@mate.org>
+
+	* src/propono-window.c
+	* src/propono-window-private.h:
+	  - Show tooltips on statusbar
+
+2007-09-06  Jonh Wendell  <jwendell@mate.org>
+
+	* src/propono-tab.[hc]
+	* src/propono-commands.[hc]
+	* src/propono-window.c
+	* src/propono-ui.h
+	* data/propono-ui.xml:
+	  - Added "Take Screenshot" feature
+
+2007-08-31  Jonh Wendell  <jwendell@mate.org>
+
+	* lots of files:
+	  - Added command line options parsing 
+	  - Removed my own socket code, let gtk-vnc do the dirty job 
+
+2007-08-31  Jonh Wendell  <jwendell@mate.org>
+
+	* MAINTAINERS: Updated to the new format
+	* src/propono-notebook.c: Handles disconnect signal
+
+==================== 0.2 ====================
+
+2007-08-20  Jonh Wendell  <jwendell@mate.org>
+
+	* lots of files: version 0.2

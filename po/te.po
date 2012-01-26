@@ -1,0 +1,986 @@
+# translation of propono.master.te.po to Telugu
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Krishna Babu K <kkrothap@redhat.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: propono.master.te\n"
+"Report-Msgid-Bugs-To: http://bugzilla.mate.org/enter_bug.cgi?product=propono&component=general\n"
+"POT-Creation-Date: 2009-09-01 06:12+0000\n"
+"PO-Revision-Date: 2009-09-11 20:37+0530\n"
+"Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
+"Language-Team: Telugu <en@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n\n"
+"\n"
+"\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: ../data/MATE_ProponoApplet.xml.h:1 ../propono/propono-plugin-manager.c:495
+msgid "_About"
+msgstr "గురించి(_A)"
+
+#: ../data/MATE_ProponoApplet.xml.h:2 ../propono/propono-ui.h:37
+msgid "_Help"
+msgstr "సహాయం(_H)"
+
+#: ../data/propono.desktop.in.in.h:1 ../data/propono-file.desktop.in.in.h:1
+msgid "Access remote desktops"
+msgstr "దూరస్థ రంగస్థలములను యాక్సిస్ చేయుము"
+
+#: ../data/propono.desktop.in.in.h:2 ../data/propono-file.desktop.in.in.h:2
+#: ../propono/MATE_ProponoApplet.server.in.in.h:2
+#: ../propono/propono-applet.c:434 ../propono/propono-applet.c:486
+#: ../propono/propono-main.c:198
+msgid "Remote Desktop Viewer"
+msgstr "దూరస్థ రంగస్థల దర్శని"
+
+#: ../data/propono.ui.h:1
+msgid "All fields above are mandatory"
+msgstr "పైని అన్ని క్షేత్రములు తప్పనిసరి"
+
+#: ../data/propono.ui.h:2
+msgid "Authentication is required"
+msgstr "ధృవీకరణము అవసరమైంది"
+
+#: ../data/propono.ui.h:3 ../propono/propono-fav.c:856
+msgid "Bookmarks"
+msgstr "పుస్తకచిహ్నాలు"
+
+#: ../data/propono.ui.h:4
+msgid "Connection"
+msgstr "అనుసంధానము"
+
+#: ../data/propono.ui.h:5
+msgid "Connection options"
+msgstr "అనుసంధానము ఐచ్చికములు"
+
+#: ../data/propono.ui.h:6
+msgid "Folder"
+msgstr "ఫోల్డర్"
+
+#: ../data/propono.ui.h:7 ../plugins/ssh/propono-ssh-tab.c:49
+#: ../plugins/vnc/propono-vnc-tab.c:134 ../propono/propono-fav.c:425
+msgid "Host:"
+msgstr "హొస్ట్:"
+
+#: ../data/propono.ui.h:8
+msgid "Interface"
+msgstr "ఇంటర్ఫేస్"
+
+#: ../data/propono.ui.h:9
+msgid "Options"
+msgstr "ఐచ్చికములు"
+
+#: ../data/propono.ui.h:10
+msgid "Parent Folder"
+msgstr "మాత్రుక ఫోల్డర్"
+
+#: ../data/propono.ui.h:11
+msgid "Preferences"
+msgstr "అభీష్టాలు"
+
+#: ../data/propono.ui.h:12
+msgid "Which machine do you want to connect to?"
+msgstr "మీరు ఏ మిషన్‌కు అనుసంధానము కావాలని కోరుకొనుచున్నారు?"
+
+#: ../data/propono.ui.h:13
+msgid "_Always show tabs"
+msgstr "ఎల్లప్పుడ టాబ్లను చూపుము (_A)"
+
+#. This is a button label, in the authentication dialog
+#: ../data/propono.ui.h:15
+msgid "_Authenticate"
+msgstr "దృవీకరించు(_A)"
+
+#: ../data/propono.ui.h:16
+msgid "_Full screen"
+msgstr "పూర్తి తెర (_F)"
+
+#: ../data/propono.ui.h:17
+msgid "_Host:"
+msgstr "హోస్ట్ (_H):"
+
+#: ../data/propono.ui.h:18
+msgid "_Name:"
+msgstr "నామము(_N):"
+
+#: ../data/propono.ui.h:19
+msgid "_Password:"
+msgstr "సంకేతపదం(_P):"
+
+#: ../data/propono.ui.h:20
+msgid "_Protocol:"
+msgstr "నిభందన (_P):"
+
+#: ../data/propono.ui.h:21
+msgid "_Remember this credential"
+msgstr "ఈ ఆనవాళ్ళను గుర్తుంచుకొనుము (_R)"
+
+#: ../data/propono.ui.h:22
+msgid "_Show menu shortcuts"
+msgstr "మెనూ లఘువులను చూపుము (_S)"
+
+#: ../data/propono.ui.h:23
+msgid "_Username:"
+msgstr "వినియోగదారు నామము (_U):"
+
+#: ../data/propono.schemas.in.in.h:1 ../propono/propono-plugin-manager.c:795
+msgid "Active plugins"
+msgstr "క్రియాశీల ప్లగిన్లు"
+
+#: ../data/propono.schemas.in.in.h:2
+msgid ""
+"List of active plugins. It contains the \"Location\" of the active plugins. "
+"See the .propono-plugin file for obtaining the \"Location\" of a given "
+"plugin."
+msgstr ""
+"క్రియాశీల ప్లగిన్ల జాబితా. ఇది క్రియాశీల ప్లగిన్ల \"స్థానమును\" కలిగివుంటుంది. "
+"ఇచ్చిన ప్లగిన్ యొక్క \"స్థానమును\" పొందుటకు propono-plugin ఫైలు."
+
+#: ../data/propono.schemas.in.in.h:3
+msgid "Maximum number of history items in connect dialog"
+msgstr "అనుసంధానము డైలాగునందు చరిత్ర అంశములయొక్క గరిష్ట సంఖ్య"
+
+#: ../data/propono.schemas.in.in.h:4
+msgid ""
+"Set to \"false\" to disable menu shortcuts. Set to \"true\" to enable them. "
+"Note that if they are enabled, those keys will be intercepted by the menu "
+"and will not be sent to the remote host."
+msgstr ""
+"మెనూ లఘవులను అచేతనము చేయుటకు \"false\"కు అమర్చుము. చేతనము చేయుటకు \"true\"కు "
+"అమర్చుము. అవి చేతనము చేయబడితే, ఆ కీలు మెనూ చేత ఖండించబడతాయి మరియు దూరస్థ హోస్టునకు పంపబడవని "
+"గమనించండి."
+
+#: ../data/propono.schemas.in.in.h:5
+msgid ""
+"Set to \"true\" to always show the tabs. Set to \"false\" to only show the "
+"tabs when there is more than one active connection."
+msgstr ""
+"టాబ్లను యెల్లప్పుడు చూపుటకు \"true\"కు అమర్చండి. ఒకటి కన్నా యెక్కువ క్రియాశీల విండోలు "
+"వున్నప్పుడు మాత్రమే టాబ్లను చూపుటకు \"false\"కు అమర్చండి."
+
+#: ../data/propono.schemas.in.in.h:6
+msgid "Specifies the maximum number of items in the host dropdown entry."
+msgstr "హోస్టు డ్రాప్‌డౌన్ ప్రవేశమునందు అంశముల గరిష్ట సంఖ్యను తెలుపుతుంది."
+
+#: ../data/propono.schemas.in.in.h:7
+msgid "The handler for \"vnc://\" URLs"
+msgstr "\"vnc://\" URLs కొరకు సంభాలికలు"
+
+#: ../data/propono.schemas.in.in.h:8
+msgid ""
+"When connecting to a host, the client can say to the server to leave other "
+"clients connected or to drop the existent connections. Set the value to true "
+"to share the desktop with the other clients."
+msgstr ""
+"హోస్టుకు అనుసంధానమగుచున్నప్పుడు, కక్షిదారి సేవికకు యితర అనుసంధానమైవున్న కక్షిదారులను వదిలివేయమని "
+"లేదా వున్న అనుసంధానములను వదిలివేయమని చెప్పగలదు. రంగస్థలమును యితర కక్షిదారులతో పంచుకొనుటకు "
+"విలువను సత్యమునకు అమర్చుము."
+
+#: ../data/propono.schemas.in.in.h:9
+msgid "Whether we should leave other clients connected"
+msgstr "అనుసంధానమైవున్న యితర కక్షిదారులను మనము విడువవలెనా"
+
+#: ../data/propono.schemas.in.in.h:10
+msgid "Whether we should show tabs even when there is only one active connection"
+msgstr "ఒక క్రియాశీల అనుసంధానము వున్నాకూడా మనము టాబ్లను చూపాలా"
+
+#: ../data/propono.schemas.in.in.h:11
+msgid "Whether we should show the menu accelerators (shortcut keys)"
+msgstr "మెనూ యాగ్జెలరేటర్లను చూపాలా (లఘువులు)"
+
+#: ../data/propono-mime.xml.in.h:1
+msgid "Remote Desktop (VNC) file"
+msgstr "దూరస్థ రంగస్థలము (VNC) ఫైలు"
+
+#: ../data/propono-mime.xml.in.h:2
+msgid "Remote Desktop Connection"
+msgstr "దూరస్థ రంగస్థలము అనుసంధానము"
+
+#. vim: set ts=8:
+#: ../plugins/ssh/propono-ssh-plugin.c:70
+#: ../plugins/ssh/ssh.propono-plugin.desktop.in.h:1
+msgid "SSH"
+msgstr "SSH"
+
+#. Translators: This is a description of the SSH protocol. It appears at Connect dialog.
+#: ../plugins/ssh/propono-ssh-plugin.c:72
+msgid "Access Unix/Linux terminals"
+msgstr "Unix/Linux టెర్మినల్సును యాక్సిస్ చేయుము"
+
+#: ../plugins/ssh/propono-ssh-tab.c:50 ../plugins/vnc/propono-vnc-tab.c:135
+msgid "Port:"
+msgstr "పోర్టు:"
+
+#: ../plugins/ssh/ssh.propono-plugin.desktop.in.h:2
+msgid "SSH support"
+msgstr "SSH మద్దతు"
+
+#: ../plugins/vnc/propono-vnc-connection.c:207
+#: ../plugins/vnc/propono-vnc-plugin.c:214
+#, c-format
+msgid "Bad value for 'shared' flag: %d. It is supposed to be 0 or 1. Ignoring it."
+msgstr "'shared' ఫ్లాగ్ కొరకు చెడ్డ విలువ: %d. ఇది 0 లేక 1 కావాలి. దీనిని వదిలివేయండి."
+
+#. Translators: this is a command line option (run propono --help)
+#: ../plugins/vnc/propono-vnc-plugin.c:66
+msgid "Enable scaled mode"
+msgstr "స్కేలు రీతిని చేతనముచేయి"
+
+#. Translators: this is a command line option (run propono --help)
+#: ../plugins/vnc/propono-vnc-plugin.c:81
+msgid "VNC Options:"
+msgstr "VNC ఐచ్చికాలు:"
+
+#. Translators: this is a command line option (run propono --help)
+#: ../plugins/vnc/propono-vnc-plugin.c:83
+msgid "Show VNC Options"
+msgstr "VNC ఐచ్చికాలు చూపుము"
+
+#. vim: set ts=8:
+#: ../plugins/vnc/propono-vnc-plugin.c:105
+#: ../plugins/vnc/vnc.propono-plugin.desktop.in.h:1
+msgid "VNC"
+msgstr "VNC"
+
+#: ../plugins/vnc/propono-vnc-plugin.c:106
+msgid "Access Unix/Linux, Windows and other machines."
+msgstr "Unix/Linux, Windows మరియు యితర మిషన్లను యాక్సిస్ చేయుము."
+
+#: ../plugins/vnc/propono-vnc-plugin.c:163
+msgid "Could not parse the file."
+msgstr "ఫైలును పార్శ్ చేయలేక పోయింది"
+
+#: ../plugins/vnc/propono-vnc-plugin.c:170
+msgid "The file is not a VNC one: Missing the group \"connection\"."
+msgstr "ఫైలు VNCది కాదు: సమూహ \"అనుసంధానము\" తప్పిపోయింది."
+
+#: ../plugins/vnc/propono-vnc-plugin.c:176
+msgid "The file is not a VNC one: Missing the key \"host\"."
+msgstr "ఫైలు VNCది కాదు: కీ \"హోస్టు\" తప్పిపోయింది."
+
+#: ../plugins/vnc/propono-vnc-plugin.c:243
+msgid "VNC Options"
+msgstr "VNC ఐచ్చికాలు"
+
+#: ../plugins/vnc/propono-vnc-plugin.c:254
+#: ../plugins/vnc/propono-vnc-tab.c:654
+msgid "_View only"
+msgstr "దర్శనము మాత్రమే (_V)"
+
+#: ../plugins/vnc/propono-vnc-plugin.c:261
+msgid "_Scaling"
+msgstr "స్కేలింగ్(_S)"
+
+#. Translators: this is a pattern to open *.vnc files in a open dialog.
+#: ../plugins/vnc/propono-vnc-plugin.c:285
+msgid "VNC Files"
+msgstr "VNC ఫైళ్ళు"
+
+#: ../plugins/vnc/propono-vnc-tab.c:133
+msgid "Desktop Name:"
+msgstr "రంగస్థలము నామము:"
+
+#: ../plugins/vnc/propono-vnc-tab.c:136
+msgid "Dimensions:"
+msgstr "కొలతలు:"
+
+#: ../plugins/vnc/propono-vnc-tab.c:268
+msgid "Error connecting to host."
+msgstr "హోస్టుకు అనుసంధానమగుటలో దోషము"
+
+#. Translators: %s is a host name or IP address; %u is a code error (number).
+#: ../plugins/vnc/propono-vnc-tab.c:306
+#, c-format
+msgid "Authentication method to host %s is unsupported. (%u)"
+msgstr "%s హోస్టు చేయుటకు ధృవీకరణ పద్దతి మద్దతించనిది. (%u)"
+
+#: ../plugins/vnc/propono-vnc-tab.c:310
+msgid "Authentication unsupported"
+msgstr "దృవీకరణము మద్దతీయనిది"
+
+#: ../plugins/vnc/propono-vnc-tab.c:570 ../plugins/vnc/propono-vnc-tab.c:587
+msgid "Authentication error"
+msgstr "దృవీకరణ దోషము"
+
+#: ../plugins/vnc/propono-vnc-tab.c:571
+msgid "A username is required in order to access this machine."
+msgstr "ఈ మిషన్ యాక్సిస్ చేయుటకు వినియోగదారినామము అవసరము"
+
+#: ../plugins/vnc/propono-vnc-tab.c:588
+msgid "A password is required in order to access this machine."
+msgstr "ఈ మిషన్‌ను యాక్సిస్ చేయుటకు వొక సంకేతపదము అవసరము"
+
+#: ../plugins/vnc/propono-vnc-tab.c:639
+msgid "S_caling"
+msgstr "స్కేలింగ్ (_c)"
+
+#: ../plugins/vnc/propono-vnc-tab.c:640
+msgid "Fits the remote screen into the current window size"
+msgstr "దూరస్థ స్క్రీన్‌ను ప్రస్తుత విండో పరిమాణమునకు అమర్చుము"
+
+#: ../plugins/vnc/propono-vnc-tab.c:655
+msgid "Does not send mouse and keyboard events"
+msgstr "మౌస్ మరియు కీబోర్డు ఘటనలను పంపలేదు"
+
+#: ../plugins/vnc/propono-vnc-tab.c:668
+msgid "_Original size"
+msgstr "వాస్తవ పరిమాణము (_O)"
+
+#: ../plugins/vnc/propono-vnc-tab.c:669
+msgid "Adjusts the window to the remote desktop's size"
+msgstr "విండోను దూరస్థ రంగస్థలముయొక్క పరిమాణముకు సర్దుబాటు చేయుము"
+
+#: ../plugins/vnc/propono-vnc-tab.c:692 ../plugins/vnc/propono-vnc-tab.c:766
+#: ../plugins/vnc/propono-vnc-tab.c:767
+msgid "Send Ctrl-Alt-Del"
+msgstr "Ctrl-Alt-Del పంపుము"
+
+#: ../plugins/vnc/propono-vnc-tab.c:693
+msgid "Sends Ctrl+Alt+Del to the remote machine"
+msgstr "దూరస్థ మిషన్‌కు Ctrl+Alt+Del పంపుతోంది"
+
+#: ../plugins/vnc/propono-vnc-tab.c:745 ../plugins/vnc/propono-vnc-tab.c:746
+msgid "Scaling"
+msgstr "కొలబద్దచేయుట"
+
+#: ../plugins/vnc/propono-vnc-tab.c:755 ../plugins/vnc/propono-vnc-tab.c:756
+msgid "Read only"
+msgstr "చదువుట మాత్రమే"
+
+#: ../plugins/vnc/propono-vnc-tab.c:925
+msgid ""
+"Scaling is not supported on this installation.\n"
+"\n"
+"Read the README file (shipped with Propono) in order to know how to enable "
+"this feature."
+msgstr ""
+"ఈ సంస్థాపనపై స్కేలింగ్ మద్దతీయబడదు.\n"
+"\n"
+"ఈ సౌలభ్యాన్ని యెలా చేతనము చేయవలెనో తెలుసుకొనుటకు (వినాగ్రే ఫైలుతో వచ్చిన) README ఫైలును చదువుము."
+
+#: ../plugins/vnc/vnc.propono-plugin.desktop.in.h:2
+msgid "VNC support"
+msgstr "VNC మద్దతు"
+
+#: ../propono/MATE_ProponoApplet.server.in.in.h:1
+msgid "A menu to quickly access remote machines"
+msgstr "దూరస్థ మిషన్లను త్వరితంగా యాక్సిస్ చేయుటకు మెను"
+
+#: ../propono/MATE_ProponoApplet.server.in.in.h:3
+msgid "Propono Applet Factory"
+msgstr "వినాగ్రే ఆప్లేట్ ఫాక్టరి"
+
+#: ../propono/propono-applet.c:277 ../propono/propono-applet.c:360
+msgid "Could not run propono:"
+msgstr "వినాగ్రేను నడుపలేక పోయింది:"
+
+#: ../propono/propono-applet.c:380
+msgid "Open Remote Desktop Viewer"
+msgstr "దూరస్థ రంగస్థల దర్శనిని తెరువుము"
+
+#: ../propono/propono-applet.c:435
+msgid "Access your bookmarks"
+msgstr "మీ పుస్తకచిహ్నాలును యాక్సిస్ చేయుము"
+
+#: ../propono/propono-bookmarks.c:265 ../propono/propono-connection.c:519
+#: ../propono/propono-tab.c:533 ../propono/propono-tube-handler.c:253
+#, c-format
+msgid "The protocol %s is not supported."
+msgstr "ప్రోటోకాల్ %s మద్దతించబడదు"
+
+#: ../propono/propono-bookmarks.c:343
+#, c-format
+msgid "Error while initializing bookmarks: %s"
+msgstr "పుస్తకచిహ్నాలును సిద్దము చేయుచున్నప్పుడు దోషము: %s"
+
+#: ../propono/propono-bookmarks.c:343 ../propono/propono-bookmarks.c:458
+#: ../propono/propono-bookmarks-migration.c:135
+#: ../propono/propono-commands.c:170 ../propono/propono-connect.c:459
+#: ../propono/propono-fav.c:681 ../propono/propono-main.c:100
+#: ../propono/propono-main.c:119 ../propono/propono-window.c:266
+msgid "Unknown error"
+msgstr "తెలియని దోషము"
+
+#: ../propono/propono-bookmarks.c:350
+msgid "Error while initializing bookmarks: The file seems to be empty"
+msgstr "పుస్తకచిహ్నాలును సిద్దము చేయుచున్నప్పుడు దోషము: ఫైలు ఖాళీగా వున్నట్లువుంది"
+
+#: ../propono/propono-bookmarks.c:357
+msgid "Error while initializing bookmarks: The file is not a propono bookmarks file"
+msgstr "పుస్తకచిహ్నాలును సిద్దపరుస్తున్నప్పుడు దోషము: ఫైలు వినాగ్రే పుస్తకచిహ్నాల ఫైలు కాదు"
+
+#: ../propono/propono-bookmarks.c:419 ../propono/propono-bookmarks.c:426
+msgid "Error while saving bookmarks: Failed to create the XML structure"
+msgstr "పుస్తకచిహ్నాలను దాయుచున్నప్పుడు దోషము: XML నిర్మాణమును సృష్టించుటకు విఫలమైంది"
+
+#: ../propono/propono-bookmarks.c:433 ../propono/propono-bookmarks.c:440
+msgid "Error while saving bookmarks: Failed to initialize the XML structure"
+msgstr "పుస్తకచిహ్నాలను దాయుచున్నప్పుడు విఫలమైంది: XML నిర్మాణము సిద్దపరచుటలో విఫలమైంది"
+
+#: ../propono/propono-bookmarks.c:449
+msgid "Error while saving bookmarks: Failed to finalize the XML structure"
+msgstr "పుస్తకచిహ్నాలను దాయుచున్నప్పుడు విఫలమైంది: XML నిర్మాణము ఖరారు చేయుటలో విఫలమైంది"
+
+#: ../propono/propono-bookmarks.c:458
+#, c-format
+msgid "Error while saving bookmarks: %s"
+msgstr "పుస్తకచిహ్నాలను దాయుచున్నప్పుడు దోషము: %s"
+
+#: ../propono/propono-bookmarks-migration.c:95
+#: ../propono/propono-bookmarks-migration.c:102
+msgid "Error while migrating bookmarks: Failed to create the XML structure"
+msgstr "పుస్తకచిహ్నాలను వలసపంపుటలో దోషము: XML నిర్మాణమును సృష్టించుటకు విఫలమైంది"
+
+#: ../propono/propono-bookmarks-migration.c:109
+#: ../propono/propono-bookmarks-migration.c:116
+msgid "Error while migrating bookmarks: Failed to initialize the XML structure"
+msgstr "పుస్తకచిహ్నాలను వలసపంపుటలో దోషము: XML నిర్మాణమును సిద్దముచేయుటలో విఫలమైంది"
+
+#: ../propono/propono-bookmarks-migration.c:125
+msgid "Error while migrating bookmarks: Failed to finalize the XML structure"
+msgstr "పుస్తకచిహ్నాలను వలసపంపుటలో దోషము: XML నిర్మాణమును ఖరారు చేయుటలో విఫలమైంది"
+
+#: ../propono/propono-bookmarks-migration.c:135
+#: ../propono/propono-bookmarks-migration.c:238
+#, c-format
+msgid "Error while migrating bookmarks: %s"
+msgstr "పుస్తకచిహ్నాలను వలసపంపుటలో దోషము: %s"
+
+#: ../propono/propono-bookmarks-migration.c:164
+msgid "Error while migrating bookmarks: VNC plugin is not activated"
+msgstr "బుక్‌మార్కులను మైగ్రేట చేస్తున్నప్పుడు దోషము: VNC ప్లగిన్ క్రియాశీల పరచబడలేదు"
+
+#: ../propono/propono-bookmarks-migration.c:238
+msgid "Failed to create the directory"
+msgstr "డైరెక్టరీను సృష్టించుటకు విఫలమైంది."
+
+#: ../propono/propono-bookmarks-migration.c:262
+msgid ""
+"Migrating the bookmarks file to the new format. This operation is only "
+"supposed to run once."
+msgstr "పుస్తకచిహ్నాల ఫైలు కొత్త రూపానికి వలసపంపుతున్నది. ఈ ఆపరేషన్ వొకసారి మాత్రమే నడుపవలెను."
+
+#: ../propono/propono-bookmarks-migration.c:270
+#, c-format
+msgid "Error opening old bookmarks file: %s"
+msgstr "పాత పుస్తకచిహ్నాల ఫైలు తెరువుటలో దోషము: %s"
+
+#: ../propono/propono-bookmarks-migration.c:271
+#: ../propono/propono-bookmarks-migration.c:283
+msgid "Migration cancelled"
+msgstr "వలసపంపుట విఫలమైంది"
+
+#: ../propono/propono-bookmarks-migration.c:280
+msgid "Could not remove the old bookmarks file"
+msgstr "పాత పుస్తకచిహ్నాల ఫైలును తొలగించలేక పోయింది"
+
+#: ../propono/propono-bookmarks-tree.c:120
+msgid "Root Folder"
+msgstr "రూట్ ఫొల్డర్"
+
+#: ../propono/propono-bookmarks-ui.c:78
+msgid "Invalid name for this folder"
+msgstr "ఈ ఫోల్డర్ కొరకు చెల్లని నామము"
+
+#: ../propono/propono-bookmarks-ui.c:88 ../propono/propono-bookmarks-ui.c:200
+#, c-format
+msgid "The name \"%s\" is already used in this folder. Please use a different name."
+msgstr "నామము \"%s\" యిప్పటికే ఈ ఫోల్డరునందు వుపయోగించబడింది. దయచేసి వేరొక నామాన్ని వుపయోగించండి."
+
+#: ../propono/propono-bookmarks-ui.c:89 ../propono/propono-bookmarks-ui.c:190
+#: ../propono/propono-bookmarks-ui.c:201
+msgid "Invalid name for this item"
+msgstr "ఈ అంశము కొరకు సరికాని నామము"
+
+#. Translators: %s is a protocol name, like VNC or SSH
+#: ../propono/propono-bookmarks-ui.c:168
+#, c-format
+msgid "(Protocol: %s)"
+msgstr "(నిభందన: %s)"
+
+#. Translators: %s is a bookmark entry name
+#: ../propono/propono-bookmarks-ui.c:308
+#, c-format
+msgid "Are you sure you want to remove %s from bookmarks?"
+msgstr "మీరు %sను పుస్తకగుర్తులనుండి తీసివేద్దామని ఖచ్చితంగా అనుకొనుచున్నారా?"
+
+#: ../propono/propono-bookmarks-ui.c:314
+msgid "Remove Folder?"
+msgstr "ఫోల్డరును తీసివేయాలా?"
+
+#: ../propono/propono-bookmarks-ui.c:315
+msgid "Notice that all its subfolders and items will be removed as well."
+msgstr "వీటి అన్ని ఉపసంచయములు మరియు వాటి అంశములు తీసివేయబడతాయని గుర్తించండి."
+
+#: ../propono/propono-bookmarks-ui.c:320
+msgid "Remove Item?"
+msgstr "అంశమును తీసివేయాలా?"
+
+#: ../propono/propono-bookmarks-ui.c:337
+msgid "Error removing bookmark: Entry not found"
+msgstr "పుస్తకచిహ్నామును తొలగించుటలో దోషము: ప్రవేశము కనబడలేదు"
+
+#: ../propono/propono-bookmarks-ui.c:354
+msgid "New Folder"
+msgstr "కొత్త సంచి"
+
+#: ../propono/propono-commands.c:120
+msgid "Choose the file"
+msgstr "ఫైలును యెంచుకొనుము"
+
+#: ../propono/propono-commands.c:148
+msgid "There are none supported files"
+msgstr "అక్కడ మద్దతిచ్చు దస్త్రములు లేవు"
+
+#: ../propono/propono-commands.c:148
+msgid ""
+"None of the active plugins offer a supported file to be open. Activate some "
+"plugins and try again."
+msgstr ""
+"ఏ క్రియాశీల ప్లగిన్లు తెరుచుటకు మద్దతిచ్చు ఫైళ్ళను యిచ్చుటలేదు. కొన్ని ప్లగిన్లను క్రియాశీలపర్చుము "
+"మరలా ప్రయత్నించుము."
+
+#: ../propono/propono-commands.c:181
+msgid "The following file could not be opened:"
+msgid_plural "The following files could not be opened:"
+msgstr[0] "ఈ క్రింది ఫైలు తెరువబడలేక పోయింది:"
+msgstr[1] "ఈ క్రింది ఫైళ్ళు తెరువబడలేక పోయినవి:"
+
+#: ../propono/propono-connect.c:86 ../propono/propono-connect.c:330
+#: ../propono/propono-connect.c:424
+msgid "Could not get the active protocol in the protocol list."
+msgstr "నిభందన జాబితానందు క్రియాశీల నిభందనను పొందలేక పోయింది."
+
+#: ../propono/propono-connect.c:313
+#, c-format
+msgid "Error while saving history file: %s"
+msgstr "చరిత్ర ఫైలును దాయుటలో దోషము: %s"
+
+#: ../propono/propono-connect.c:340
+msgid "Choose a Remote Desktop"
+msgstr "దూరస్థ డెస్కుటాప్‌ను యెంచుకొనుము"
+
+#: ../propono/propono-connection.c:627
+msgid "Could not open the file."
+msgstr "ఫైలును తెరువలేక పోయింది"
+
+#: ../propono/propono-connection.c:651
+msgid "The file was not recognized by any of the plugins."
+msgstr "ఆ ఫైలు ఏ ప్లగిన్ల చేత గుర్తించబడలేదు."
+
+#: ../propono/propono-fav.c:670
+msgid "Invalid operation"
+msgstr "చెల్లని ఆపరేషన్"
+
+#: ../propono/propono-fav.c:671
+msgid "Data received from drag&drop operation is invalid."
+msgstr "లాగి&వదులు ఆపరేషన్ నుండి స్వీకరించబడిన డాటా చెల్లనిది."
+
+#: ../propono/propono-fav.c:871
+msgid "Hosts nearby"
+msgstr "దగ్గరలోని హోస్టులు"
+
+#. Translators: this is a command line option (run propono --help)
+#: ../propono/propono-main.c:62
+msgid "Open propono in fullscreen mode"
+msgstr "proponoను నిండుతెర రీతినందు తెరువుము"
+
+#. Translators: this is a command line option (run propono --help)
+#: ../propono/propono-main.c:66
+msgid "Create a new toplevel window in an existing instance of propono"
+msgstr "ప్రస్తుతం వున్న వినాగ్రే నందు పైస్థాయి విండోను సృష్టించుము"
+
+#. Translators: this is a command line option (run propono --help)
+#: ../propono/propono-main.c:70
+msgid "Open a file recognized by propono"
+msgstr "propono ద్వారా గుర్తించబడిన ఫైలును తెరువుము"
+
+#: ../propono/propono-main.c:70
+msgid "filename"
+msgstr "దస్త్రనామము"
+
+#. Translators: this is a command line option (run propono --help)
+#: ../propono/propono-main.c:75
+msgid "[server:port]"
+msgstr "[server:port]"
+
+#: ../propono/propono-main.c:130
+msgid "The following error has occurred:"
+msgid_plural "The following errors have occurred:"
+msgstr[0] "ఈ క్రింది దోషము యెదురైంది:"
+msgstr[1] "ఈ క్రింది దోషములు యెదురైనవి:"
+
+#. Setup command line options
+#: ../propono/propono-main.c:169
+msgid "- Remote Desktop Viewer"
+msgstr "- దూరస్థ డెస్కుటాప్ దర్శని"
+
+#: ../propono/propono-main.c:193
+msgid "Run 'propono --help' to see a full list of available command line options"
+msgstr "అందుబాటులోవున్న ఆదేశ వరుస ఐచ్చికముల కొరకు 'propono --help' నడుపుము"
+
+#: ../propono/propono-mdns.c:142
+#, c-format
+msgid "Failed to resolve avahi hostname: %s\n"
+msgstr "అవాహి హోస్టునామమును పరిష్కరించుటలో విఫలమైంది: %s\n"
+
+#: ../propono/propono-mdns.c:200
+#, c-format
+msgid "Plugin %s has already registered a browser for service %s."
+msgstr "ప్లగిన్ %s యిప్పటికే వొక బ్రౌజర్‌ను సేవ %s కొరకు నమోదుచేసి వున్నది."
+
+#: ../propono/propono-mdns.c:209
+#, c-format
+msgid "Failed to add mDNS browser for service %s."
+msgstr "సేవ %s కొరకు mDNS బ్రౌజర్‌ను జతచేయుటకు విఫలమైంది."
+
+#: ../propono/propono-mdns.c:225
+#, c-format
+msgid "Failed to browse for hosts: %s\n"
+msgstr "హోస్టుల కొరకు అన్వేషించుటలో విఫలమైంది: %s\n"
+
+#: ../propono/propono-mdns.c:298
+#, c-format
+msgid "Failed to initialize mDNS browser: %s\n"
+msgstr "mDNS బ్రౌజర్ సిద్దపరచుటలో విఫలమైంది: %s\n"
+
+#. Translators: %s is a host name or IP address.
+#: ../propono/propono-notebook.c:461
+#, c-format
+msgid "Connection to host %s was closed."
+msgstr "హోస్టు %sనకు అనుసంధానము మూయబడింది."
+
+#: ../propono/propono-notebook.c:463
+msgid "Connection closed"
+msgstr "అనుసంధానము మూయబడింది"
+
+#. Translators: %s is a host name or IP address.
+#: ../propono/propono-notebook.c:482
+#, c-format
+msgid "Authentication to host %s has failed"
+msgstr "హోస్టు %sనకు ధృవీకరణ విఫలమైంది"
+
+#: ../propono/propono-notebook.c:488
+msgid "Authentication failed"
+msgstr "ప్రామాణీకరణ విఫలమైంది"
+
+#: ../propono/propono-notebook.c:525
+msgid "Connecting..."
+msgstr "అనుసంధానించబడుచున్నది..."
+
+#: ../propono/propono-notebook.c:552 ../propono/propono-tab.c:325
+msgid "Close connection"
+msgstr "అనుసంధానము మూయుము"
+
+#: ../propono/propono-plugin-dialog.c:83
+msgid "Plugin Manager"
+msgstr "ప్లగిన్ నిర్వాహిక"
+
+#: ../propono/propono-plugin-manager.c:45
+msgid "Plugin"
+msgstr "ప్లగిన్"
+
+#: ../propono/propono-plugin-manager.c:46
+msgid "Enabled"
+msgstr "చేతనపరచిన"
+
+#: ../propono/propono-plugin-manager.c:503
+msgid "C_onfigure"
+msgstr "ఆకృతీకరించిన (_o)"
+
+#: ../propono/propono-plugin-manager.c:512
+msgid "A_ctivate"
+msgstr "క్రియాశీలపరచుము (_c)"
+
+#: ../propono/propono-plugin-manager.c:523
+msgid "Ac_tivate All"
+msgstr "అన్నిటిని క్రియాశీలపరచుము (_t)"
+
+#: ../propono/propono-plugin-manager.c:528
+msgid "_Deactivate All"
+msgstr "అన్నిటిని క్రియాహీనపరచుము (_D)"
+
+#: ../propono/propono-plugin-manager.c:824
+msgid "_About Plugin"
+msgstr "ప్లగిన్ గురించి (_A)"
+
+#: ../propono/propono-plugin-manager.c:828
+msgid "C_onfigure Plugin"
+msgstr "ప్లగిన్ ఆకృతీకరించుము (_o)"
+
+#: ../propono/propono-prefs.c:217
+msgid "Cannot initialize preferences manager."
+msgstr "అభీష్టముల అభికర్తను సంసిద్ధపరుచుట సాధ్యంకాలేదు"
+
+#: ../propono/propono-tab.c:346
+msgid "Leave fullscreen"
+msgstr "నిండుతెరను వదిలివేయుము"
+
+#: ../propono/propono-tab.c:495
+msgid "Error saving recent connection."
+msgstr "ఇటీవలి అనుసంధానమును దాయుటలో దోషము."
+
+#: ../propono/propono-tab.c:728
+msgid "Error saving the credentials on the keyring."
+msgstr "కీరింగునందలి ఆనవాళ్ళను దాయుటలో దోషము."
+
+#: ../propono/propono-tab.c:814
+msgid "Could not get a screenshot of the connection."
+msgstr "అనుసంధానము యొక్క తెరపట్టును పొందలేక పోయింది."
+
+#: ../propono/propono-tab.c:819
+msgid "Save Screenshot"
+msgstr "తెర ఛాయచిత్రం దాచుము"
+
+#: ../propono/propono-tab.c:830
+#, c-format
+msgid "Screenshot of %s"
+msgstr "%s యొక్క తెరపట్టు"
+
+#: ../propono/propono-tab.c:881
+msgid "Error saving screenshot"
+msgstr "స్క్రీన్‌షాట్ దాయుటలో దోషము"
+
+#: ../propono/propono-tube-handler.c:229
+#, c-format
+msgid "Impossible to get service property: %s"
+msgstr "సేవా లక్షణమును పొందుట అసాధ్యము: %s"
+
+#: ../propono/propono-tube-handler.c:286
+#, c-format
+msgid "Impossible to create the connection: %s"
+msgstr "అనుసంధానమును సృష్టించుట అసాధ్యము: %s"
+
+#: ../propono/propono-tube-handler.c:325
+#, c-format
+msgid "Impossible to accept the stream tube: %s"
+msgstr "స్ట్రీమ్ ట్యూబ్‌ను ఆమోదించుట అసాధ్యము: %s"
+
+#: ../propono/propono-tube-handler.c:463
+#, c-format
+msgid "Impossible to get the contact name: %s"
+msgstr "సంప్రదింపు నామమును పొందుట అసాధ్యము: %s"
+
+#: ../propono/propono-tube-handler.c:498
+#, c-format
+msgid "Impossible to get the avatar: %s"
+msgstr "అవతార్‌ను పొందుట అసాధ్యము: %s"
+
+#: ../propono/propono-tube-handler.c:519
+#, c-format
+msgid "%s wants to share his desktop with you."
+msgstr "%s తన డెస్కుటాప్‌ను మీతో పంచుకొనవలెనని అనుకొనుచున్నారు."
+
+#: ../propono/propono-tube-handler.c:524
+msgid "Desktop sharing invitation"
+msgstr "డెస్కుటాప్ భాగస్వామ్య ఆహ్వానము"
+
+#. Toplevel
+#: ../propono/propono-ui.h:33
+msgid "_Machine"
+msgstr "మిషన్ (_M)"
+
+#: ../propono/propono-ui.h:34
+msgid "_Edit"
+msgstr "సరిచేయు (_E)"
+
+#: ../propono/propono-ui.h:35
+msgid "_View"
+msgstr "దర్శనం (_V)"
+
+#: ../propono/propono-ui.h:36
+msgid "_Bookmarks"
+msgstr "పుస్తకచిహ్నాలు (_B)"
+
+#: ../propono/propono-ui.h:41
+msgid "Connect to a remote machine"
+msgstr "దూరస్థ మిషన్‌కు అనుంధామవ్వు"
+
+#: ../propono/propono-ui.h:43
+msgid "Open a .VNC file"
+msgstr ".VNC ఫైలు తెరువుము"
+
+#: ../propono/propono-ui.h:45
+msgid "Quit the program"
+msgstr "ఈ కార్యక్రమమును త్యజించు"
+
+#: ../propono/propono-ui.h:49
+msgid "Edit the application preferences"
+msgstr "అనువర్తనపు అభీష్టాలను సరికూర్చుము"
+
+#. FIXME: Study this dialog for next release
+#. { "EditPlugins", GTK_STOCK_EXECUTE, N_("_Plugins"), NULL,
+#. N_("Select plugins"), G_CALLBACK (propono_cmd_edit_plugins) },
+#.
+#. Bookmarks menu
+#: ../propono/propono-ui.h:56
+msgid "_Open bookmark"
+msgstr "పుస్తకచిహ్నాన్ని తెరువుము (_O)"
+
+#: ../propono/propono-ui.h:57
+msgid "Connect to this machine"
+msgstr "ఈ మిషన్‌కు అనుసంధానమగుము"
+
+#: ../propono/propono-ui.h:58
+msgid "_Edit bookmark"
+msgstr "పుస్తకచిహ్నాన్ని సరికూర్చుము (_E)"
+
+#: ../propono/propono-ui.h:59
+msgid "Edit the details of selected bookmark"
+msgstr "ఎంచుకొనిన పుస్తకగుర్తుయొక్క వివరములను సరికూర్చుము"
+
+#: ../propono/propono-ui.h:60
+msgid "_Remove from bookmarks"
+msgstr "పుస్తకచిహ్నాలనుండి తీసివేయుము (_R)"
+
+#: ../propono/propono-ui.h:61
+msgid "Remove current selected connection from bookmarks"
+msgstr "పుస్తకచిహ్నాల నుండి ప్రస్తుత యెంపికచేసిన అనుసంధానమును తీసివేయుము"
+
+#: ../propono/propono-ui.h:62
+msgid "_New Folder"
+msgstr "కొత్త సంచయం(_N)"
+
+#: ../propono/propono-ui.h:63
+msgid "Create a new folder"
+msgstr "కొత్త ఫోల్డరును సృష్టించుము"
+
+#. Help menu
+#: ../propono/propono-ui.h:66
+msgid "_Contents"
+msgstr "సారములు (_C)"
+
+#: ../propono/propono-ui.h:67
+msgid "Open the propono manual"
+msgstr "వినాగ్రే మాన్యువల్‌ను తెరువుము"
+
+#: ../propono/propono-ui.h:69
+msgid "About this application"
+msgstr "ఈ కార్యక్షేత్రం గురించి"
+
+#: ../propono/propono-ui.h:74
+msgid "_Toolbar"
+msgstr "పనిముట్ల పట్టా(_T)"
+
+#: ../propono/propono-ui.h:75
+msgid "Show or hide the toolbar"
+msgstr "పనిముట్ల పట్టాను చూపుము లేదా దాయుము"
+
+#: ../propono/propono-ui.h:78
+msgid "_Statusbar"
+msgstr "సుస్థితి పట్టీ (_S)"
+
+#: ../propono/propono-ui.h:79
+msgid "Show or hide the statusbar"
+msgstr "స్థితిపట్టీను చూపుము లేదా మరుగునవుంచుము"
+
+#: ../propono/propono-ui.h:82
+msgid "Side _Panel"
+msgstr "ప్రక్క ప్యానల్ (_P)"
+
+#: ../propono/propono-ui.h:83
+msgid "Show or hide the side panel"
+msgstr "ప్రక్క ప్యానల్‌ను చూపుము లేదా మరుగునవుంచుము"
+
+#: ../propono/propono-ui.h:91
+msgid "Close the current connection"
+msgstr "ప్రస్తుత అనుసంధానమును మూయుము"
+
+#: ../propono/propono-ui.h:92
+msgid "C_lose All"
+msgstr "అన్నిటిని మూయుము (_l)"
+
+#: ../propono/propono-ui.h:93
+msgid "Close all active connections"
+msgstr "అన్ని క్రియాశీల అనుసంధానములను మూయుము"
+
+#. Bookmarks menu
+#: ../propono/propono-ui.h:96
+msgid "_Add to bookmarks"
+msgstr "పుస్తకచిహ్నాలను జతచేయుము (_A)"
+
+#: ../propono/propono-ui.h:97
+msgid "Add current connection to your bookmarks"
+msgstr "ప్రస్తుత అనుసంధానమును మీ పుస్తకచిహ్నాలకు జతచేయుము"
+
+#. Machine menu
+#: ../propono/propono-ui.h:104
+msgid "Take screenshot"
+msgstr "తెరపట్టును తీసుకొనుము"
+
+#: ../propono/propono-ui.h:105
+msgid "Take a screenshot of active connection"
+msgstr "క్రియాశీల అనుసంధానము యొక్క తెరపట్టును తీసుకొనుము"
+
+#: ../propono/propono-ui.h:109
+msgid "View the current machine in full screen"
+msgstr "ప్రస్తుత మిషన్‌ను పూర్తితెర నందు చూడుము"
+
+#: ../propono/propono-utils.c:75
+msgid "An error has occurred:"
+msgstr "ఒక దోషము యెదురైంది:"
+
+#: ../propono/propono-utils.c:150
+#, c-format
+msgid "Could not load builder file: %s"
+msgstr "బుల్టర్ ఫైలును లోడుచేయలేక పోయింది: %s"
+
+#: ../propono/propono-utils.c:453
+msgid "Propono is a remote desktop viewer for the MATE Desktop"
+msgstr "Propono అనునది MATE డెస్కుటాప్‌నకు దూరస్థ డెస్కుటాప్ దర్శని"
+
+#: ../propono/propono-utils.c:456
+msgid ""
+"Propono is free software; you can redistribute it and/or modify it under the "
+"terms of the GNU General Public License as published by the Free Software "
+"Foundation; either version 2 of the License, or (at your option) any later "
+"version."
+msgstr ""
+"వినాగ్రే ఉచిత సాఫ్ట్వేర్; నీవు దానిని మరలపంచవచ్చు స్వతంత్ర సాఫ్ట్వేర్ సంస్థ వెలువరిచిన GNU సర్వసామన్యమైన "
+"ప్రజా లైసెన్సు వివరణం 2లైసెన్సు లేదా వేరే (మీ ఐచ్చికం వద్ద) వివరణల ప్రకారం మార్చవచ్చు."
+
+#: ../propono/propono-utils.c:460
+msgid ""
+"Propono is distributed in the hope that it will be useful, but WITHOUT ANY "
+"WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS "
+"FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more "
+"details."
+msgstr ""
+"వినాగ్రే ఉపయోగపడుతుందనే నమ్మకంతో పంపిణీచేయబడుతోంది,అయితే ఏ హామీ లేకుండా; వ్యాపారసంబందంగా కాని లేదా "
+"ఒకనిర్దిష్ట అవసరానికిచెందినదని కాని హామీ లేదు. ఎక్కువ సమాచారంకొరకు GNU జనరల్ పబ్లిక్ లైసెన్స్  ను చూడండి."
+
+#: ../propono/propono-utils.c:464
+msgid ""
+"You should have received a copy of the GNU General Public License along with "
+"this program. If not, see <http://www.gnu.org/licenses/>."
+msgstr ""
+"మీరు GNU జనరల్ పబ్లిక్ లైసెన్స్‍ యొక్క నకలును ఈ ప్రోగ్రామ్ తోటి పొందుతారు. పొందక పోతే, <http://www."
+"gnu.org/licenses/> చూడండి."
+
+#: ../propono/propono-utils.c:486
+msgid "translator-credits"
+msgstr "KrishnaBabu K <kkrothap@redhat.com> 2008."
+
+#: ../propono/propono-utils.c:489
+msgid "Propono Website"
+msgstr "వినాగ్రే వెబ్‌సైట్"
+
+#: ../propono/propono-window.c:397
+#, c-format
+msgid "Could not merge propono-ui.xml: %s"
+msgstr "propono-ui.xml ను మిళితం చేయలేదు: %s"
+
+#: ../propono/propono-window.c:425
+msgid "_Recent connections"
+msgstr "ఇటీవలి అనుసంధానములు (_R)"
+
+#. Translators: This is server:port, a statusbar tooltip when mouse is over a bookmark item on menu
+#: ../propono/propono-window.c:585
+#, c-format
+msgid "Open %s:%d"
+msgstr "%s:%d తెరువుము"

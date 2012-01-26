@@ -1,0 +1,423 @@
+# translation of propono.si.po to Sinhala
+# Copyright (C) 2007 THE propono.si'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the propono.si package.
+# W.H. Kalpa Pathum <callkalpa@gmail.com>, 2007.
+# Danishka Navin <snavin@redhat.com>, 2007.
+# 
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: propono.si\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-11-20 06:32+0000\n"
+"PO-Revision-Date: 2007-12-07 13:13+0530\n"
+"Last-Translator: W.H. Kalpa Pathum <callkalpa@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);"
+
+#: ../data/propono.desktop.in.in.h:1 ../data/propono-file.desktop.in.in.h:1
+msgid "Access remote desktops"
+msgstr "දුරස්ථ තිර මුහුණත් වලට ප්‍රවේශ වන්න"
+
+#: ../data/propono.desktop.in.in.h:2 ../data/propono-file.desktop.in.in.h:2
+#: ../src/propono-main.c:120
+msgid "Remote Desktop Viewer"
+msgstr "දුරස්ථ තිර මුහුණත් දර්ශකය"
+
+#: ../data/propono.glade.h:1
+msgid "<b>Editing a bookmark</b>"
+msgstr "<b>පිටු සළකුණක් සකසමින් පවතී</b>"
+
+#: ../data/propono.glade.h:2
+msgid "<b>Enter a name for this connection</b>"
+msgstr "මෙම සම්බන්ධතාවය සඳහා නමක් ඇතුළත් කරන්න"
+
+#: ../data/propono.glade.h:3
+msgid ""
+"<b>In order to connect on this machine, a password is required. Please, "
+"supply it.</b>"
+msgstr "<b>මෙම පරිගණකයට සම්බන්ධ වීම පිණිස රහස් පදයක් අවශ්‍ය වේ. කරුණාකර එය සපයන්න.<b>"
+
+#: ../data/propono.glade.h:4
+msgid "<b>Which machine do you want to connect to?</b>"
+msgstr "<b>ඔබට සම්බන්ධ වීමට අවශ්‍ය වන්නේ කුමන පරිගණකයටද?</b>"
+
+#: ../data/propono.glade.h:5
+msgid "Editing a bookmark"
+msgstr "පිටු සළකුණක් සකසමින් පවතී"
+
+#: ../data/propono.glade.h:6 ../src/propono-tab.c:690
+msgid "Host:"
+msgstr "ධාරකය"
+
+#: ../data/propono.glade.h:7
+msgid "Saving to bookmarks"
+msgstr "පිටු සළකුණු වලට සුරකිමින් පවතී"
+
+#: ../data/propono.glade.h:8
+msgid "_Host:"
+msgstr "ධාරකය: (_H)"
+
+#: ../data/propono.glade.h:9
+msgid "_Name:"
+msgstr "නම (_N):"
+
+#: ../data/propono.glade.h:10
+msgid "_Password:"
+msgstr "රහස්පදය: (_P)"
+
+#: ../data/propono.glade.h:11
+msgid "_Port:"
+msgstr "කෙවනිය (_P):"
+
+#: ../data/propono.glade.h:12
+msgid "_Remember this password"
+msgstr "මෙම රහස් පදය මතක තබා ගන්න (_R)"
+
+#: ../data/propono-mime.xml.in.h:1
+msgid "Remote Desktop (VNC) file"
+msgstr "දුරස්ථ තිර මුහුණත් (VNC) ගොනුව"
+
+#: ../data/propono-mime.xml.in.h:2
+msgid "Remote Desktop Connection"
+msgstr "දුරස්ථ තිර මුහුණත් සම්බන්ධතාවය"
+
+#: ../src/propono-bookmarks.c:58 ../src/propono-bookmarks.c:76
+#, c-format
+msgid "Error while saving bookmarks: %s"
+msgstr "පිටු සළකුණු‌ සුරකීම දෝෂ සහගතයි:-%s"
+
+#: ../src/propono-bookmarks.c:111
+#, c-format
+msgid "Error while initializing bookmarks: %s"
+msgstr "පිටු සළකුණු ආරම්භ කිරීම දෝෂ සහගතයි:-%s"
+
+#: ../src/propono-bookmarks.c:282
+msgid "Confirm removal?"
+msgstr "ඉවත් කිරීම සහතිකද?"
+
+#: ../src/propono-bookmarks.c:285
+#, c-format
+msgid "Are you sure you want to exclude <i>%s</i> from bookmarks?"
+msgstr "පිටු සළකුණු වලින් <i>%s</i> ඉවත් කිරීමට අවශ්‍ය බව ඔබට සහතිකද?"
+
+#: ../src/propono-bookmarks.c:296
+#, c-format
+msgid "Error while removing %s from bookmarks: %s"
+msgstr "%s පිටු සළකුණු වලින් ඉවත් කිරීම දෝෂ සහගතයි:-%s"
+
+#: ../src/propono-commands.c:89
+msgid "Choose the file"
+msgstr "ගොනුව තෝරන්න"
+
+#: ../src/propono-commands.c:100 ../src/propono-tab.c:773
+msgid "Supported formats"
+msgstr "සහය දක්වන ආකෘති"
+
+#: ../src/propono-commands.c:132 ../src/propono-main.c:89
+msgid "The following file could not be opened:"
+msgstr "පහත සඳහන් ගොනුව විවෘත කළ නොහැක:"
+
+#: ../src/propono-commands.c:308
+msgid "Propono is a VNC client for the MATE Desktop"
+msgstr "Propono යනු ග්නෝම් තිර මුහුණත සඳහා වූ VNC සේවාලාභියායි"
+
+#: ../src/propono-commands.c:311
+msgid ""
+"Propono is free software; you can redistribute it and/or modify it under the "
+"terms of the GNU General Public License as published by the Free Software "
+"Foundation; either version 2 of the License, or (at your option) any later "
+"version."
+msgstr ""
+"Propono is free software; you can redistribute it and/or modify it under the "
+"terms of the GNU General Public License as published by the Free Software "
+"Foundation; either version 2 of the License, or (at your option) any later "
+"version."
+
+#: ../src/propono-commands.c:315
+msgid ""
+"Propono is distributed in the hope that it will be useful, but WITHOUT ANY "
+"WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS "
+"FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more "
+"details."
+msgstr ""
+"Propono is distributed in the hope that it will be useful, but WITHOUT ANY "
+"WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS "
+"FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more "
+"details."
+
+#: ../src/propono-commands.c:319
+msgid ""
+"You should have received a copy of the GNU General Public License along with "
+"this program. If not, see <http://www.gnu.org/licenses/>."
+msgstr ""
+"You should have received a copy of the GNU General Public License along with "
+"this program. If not, see <http://www.gnu.org/licenses/>."
+
+#: ../src/propono-commands.c:337
+msgid "translator-credits"
+msgstr "පරිවර්තන ස්තුතිය"
+
+#: ../src/propono-commands.c:340
+msgid "Propono Website"
+msgstr "Propono වෙබ් අඩවිය"
+
+#: ../src/propono-connect.c:53
+msgid "Choose a VNC Server"
+msgstr "VNC සේවාදායකයෙක් තෝරන්න"
+
+#: ../src/propono-fav.c:382
+msgid "Image"
+msgstr "පිළිඹිබු"
+
+#: ../src/propono-fav.c:389
+msgid "Name"
+msgstr "නම"
+
+#: ../src/propono-fav.c:437
+msgid "Bookmarks"
+msgstr "පිටු සළකුණු"
+
+#: ../src/propono-fav.c:445
+msgid "Hide bookmarks"
+msgstr "පිටු සළකුණු සඟවන්න"
+
+#: ../src/propono-main.c:43
+msgid "Opens a .vnc file"
+msgstr ".vnc ගොනුවක් විවෘත කරයි"
+
+#: ../src/propono-main.c:43
+msgid "filename"
+msgstr "ගොනු නාමය"
+
+#: ../src/propono-main.c:47
+msgid "[server:port]"
+msgstr "[සේවාදායකයා:කෙවෙනිය]"
+
+#. Setup command line options
+#: ../src/propono-main.c:107
+msgid "- VNC Client for MATE"
+msgstr "- ග්නෝම් සඳහා වූ VNC සේවාලාභියා"
+
+#: ../src/propono-main.c:115
+msgid "Run 'propono --help' to see a full list of available command line options"
+msgstr "ප්‍රයෝජනය සඳහා ඇති‌ රේඛිය විධාන තෝරා ගැනීම් සම්පූර්ණ ලැයිස්තුවක් බලා ගැනීමට 'propono --සහය' ධාවනය කරන්න"
+
+#: ../src/propono-main.c:126
+msgid "Could not initialize MateVFS\n"
+msgstr "ග්නෝම්VFS ආරම්භ කිරීමට නොහැකි විය\n"
+
+#: ../src/propono-notebook.c:113
+#, c-format
+msgid "Connection to host \"%s\" was closed."
+msgstr "\"%s\" ධාරකය හා වූ සම්බන්ධය වසා දමන ලදි"
+
+#: ../src/propono-notebook.c:139
+msgid "Connecting..."
+msgstr "සම්බන්ධ වෙමින්..."
+
+#: ../src/propono-notebook.c:163
+msgid "Close connection"
+msgstr "සම්බන්ධතාවය වසන්න"
+
+#: ../src/propono-prefs-manager.c:124
+msgid "Cannot initialize preferences manager."
+msgstr "අභිප්‍රේත කළමනාකරු ආරම්භ කිරීමට නොහැක"
+
+#: ../src/propono-prefs-manager.c:420
+#, c-format
+msgid "Expected `%s' got `%s' for key %s"
+msgstr "`%s' බලාපොරොත්තු වුවත්  `%s'  ලැබුනි , %s යතුර සඳහා"
+
+#: ../src/propono-tab.c:255
+msgid "Error connecting to host."
+msgstr "ධාරකය හා සම්බන්ධ වීම දෝෂ සහිතයි"
+
+#: ../src/propono-tab.c:293
+#, c-format
+msgid "Authentication to host \"%s\" has failed"
+msgstr "\"%s\" ධාරකයට සත්‍යාපනය කිරීම අසාර්ථක වී ඇත"
+
+#: ../src/propono-tab.c:321
+#, c-format
+msgid "Authentication method to host \"%s\" is unsupported. (%u)"
+msgstr "\"%s\" ධාරකයට සත්‍යාපනය කිරීමේ ආකාරය සහය නොදක්වයි. (%u)"
+
+#: ../src/propono-tab.c:377
+msgid "Error saving recent connection."
+msgstr "මෑතකදි භාවිතා කළ සම්බන්ධතා සුරකීම දෝෂ සහගතයි"
+
+#: ../src/propono-tab.c:408
+msgid "Error saving the password on the keyring."
+msgstr "රහස් පදය කියරින්ග් එකට සුරකීම දෝෂ සහගතයි"
+
+#: ../src/propono-tab.c:468 ../src/propono-tab.c:564
+msgid "Press Ctrl+Alt to grab the cursor"
+msgstr "කර්සරය අල්ලා ගැනීමට Ctrl+Alt ඔබන්න"
+
+#: ../src/propono-tab.c:543
+msgid "Press Ctrl+Alt to release the cursor"
+msgstr "කර්සරය නිදහස් කිරීමට‌ Ctrl+Alt ඔබන්න"
+
+#: ../src/propono-tab.c:689
+msgid "Desktop Name:"
+msgstr "තිර මුහුණතෙහි නම:"
+
+#: ../src/propono-tab.c:691
+msgid "Port:"
+msgstr "කෙවනිය:"
+
+#: ../src/propono-tab.c:692
+msgid "Dimensions:"
+msgstr "මාන:"
+
+#: ../src/propono-tab.c:759
+#, c-format
+msgid "Screenshot of %s"
+msgstr "%s හි තිර පිටපත"
+
+#: ../src/propono-tab.c:762
+msgid "Save Screenshot"
+msgstr "තිරපිටපත සුරකින්න"
+
+#. Toplevel
+#: ../src/propono-ui.h:33
+msgid "_Machine"
+msgstr "පරිගණකය (_M)"
+
+#: ../src/propono-ui.h:34
+msgid "_Edit"
+msgstr "සැකසුම් (_E)"
+
+#: ../src/propono-ui.h:35
+msgid "_View"
+msgstr "දසුන (_V)"
+
+#: ../src/propono-ui.h:36 ../src/propono-ui.h:97
+msgid "_Bookmarks"
+msgstr "පිටු සළකුණු (_B)"
+
+#: ../src/propono-ui.h:37
+msgid "_Help"
+msgstr "උදව් (_H)"
+
+#: ../src/propono-ui.h:41
+msgid "Connect into a remote machine"
+msgstr "දුරස්ථ පරිගණකයකට සම්බන්ධ වන්න"
+
+#: ../src/propono-ui.h:43
+msgid "Open a .VNC file"
+msgstr ".vnc ගොනුවක් විවෘත කරන්න"
+
+#: ../src/propono-ui.h:45
+msgid "Quit the program"
+msgstr "වැඩසටහනින් ඉවත්විම"
+
+#. Bookmarks menu
+#: ../src/propono-ui.h:48
+msgid "_Open bookmark"
+msgstr "පිටු සළකුණ විවෘත කරන්න (_O)"
+
+#: ../src/propono-ui.h:49
+msgid "Connect into this machine"
+msgstr "මෙම පරිගණකයට සම්බන්ධ කරන්න"
+
+#: ../src/propono-ui.h:50
+msgid "_Edit bookmark"
+msgstr "පිටු සළකුණු සැකසුම් (_E)"
+
+#: ../src/propono-ui.h:51
+msgid "Edit the details of selected bookmark"
+msgstr "තෝරාගත් පිටු සළකුණෙහි විස්තර සකසන්න"
+
+#: ../src/propono-ui.h:52
+msgid "_Remove from bookmarks"
+msgstr "පිටු සළකුණු වලින් ඉවත් කරන්න (_R)"
+
+#: ../src/propono-ui.h:53
+msgid "Remove current selected connection from bookmarks"
+msgstr "දැනට තෝරා ඇති සම්බන්ධතාවය පිටු සළකුණු වලින් ඉවත් කරන්න"
+
+#. Help menu
+#: ../src/propono-ui.h:56
+msgid "_Contents"
+msgstr "අන්තර්ගත (_C)"
+
+#: ../src/propono-ui.h:57
+msgid "Open the propono manual"
+msgstr "propono අත් පොත විවෘත කරන්න"
+
+#: ../src/propono-ui.h:59
+msgid "About this application"
+msgstr "මෙම යෙදුම සම්බන්ධව"
+
+#: ../src/propono-ui.h:66
+msgid "Close the current connection"
+msgstr "දැනට පවතින සම්බන්ධතාවය වසන්න"
+
+#: ../src/propono-ui.h:67
+msgid "C_lose All"
+msgstr "සියල්ල වසන්න (_l)"
+
+#: ../src/propono-ui.h:68
+msgid "Close all active connections"
+msgstr "සියළු ක්‍රියාකාරී සම්බන්ධතා වසන්න"
+
+#. Bookmarks menu
+#: ../src/propono-ui.h:71
+msgid "_Add to bookmarks"
+msgstr "පිටු සළකුණු වලට එක් කරන්න (_A)"
+
+#: ../src/propono-ui.h:72
+msgid "Add current connection to your bookmarks"
+msgstr "දැනට පවතින සම්බන්ධතාවය පිටු සළකුණු වලට එක් කරන්න"
+
+#. Machine menu
+#: ../src/propono-ui.h:79
+msgid "Take screenshot"
+msgstr "තිරපිටපත ලබා ගන්න"
+
+#: ../src/propono-ui.h:80
+msgid "Take a screenshot of active connection"
+msgstr "ක්‍රියාකාරී සම්බන්ධතාවයෙහි තිර පිටපතක් ලබා ගන්න"
+
+#: ../src/propono-ui.h:84
+msgid "View the current machine in full screen"
+msgstr "මෙම පරිගණකය සම්පූර්ණ තිරයෙහිම පෙන්වන්න"
+
+#: ../src/propono-ui.h:89
+msgid "_Toolbar"
+msgstr "මෙවලම් පුවරුව (_T)"
+
+#: ../src/propono-ui.h:90
+msgid "Show or hide the toolbar"
+msgstr "මෙවලම් තීරුව පෙන්වන්න හෝ සඟවන්න"
+
+#: ../src/propono-ui.h:93
+msgid "_Statusbar"
+msgstr "තත්ව පුවරුව (_S)"
+
+#: ../src/propono-ui.h:94
+msgid "Show or hide the statusbar"
+msgstr "තත්වතීරුව පෙන්වන්න හෝ සඟවන්න"
+
+#: ../src/propono-ui.h:98
+msgid "Show or hide the bookmarks panel"
+msgstr "පිටු සළකුණු පුවරුව පෙන්වන්න හෝ සඟවන්න"
+
+#: ../src/propono-window.c:367
+#, c-format
+msgid "Could not merge propono-ui.xml: %s"
+msgstr "propono-ui.xml එක් කිරීමට නොහැකි විය: %s"
+
+#: ../src/propono-window.c:395
+msgid "_Recent connections"
+msgstr "මෑත කාලීන සම්බන්ධතා (_R)"
+
+#: ../src/propono-window.c:535
+#, c-format
+msgid "Open %s:%d"
+msgstr "%s විවෘත කරන්න :%d"

@@ -1,0 +1,126 @@
+.TH PROPONO "1" "August 12th 2009" "User Commands"
+.SH "NAME"
+propono \- a remote desktop viewer for the MATE Desktop
+.SH "SYNOPSYS"
+.PP
+\fBpropono\fR [\fBOPTIONS\fR] [\fB\fIserver\fR]\fR[::\fIport\fR|:display\fR]
+.SH "DESCRIPTION"
+.PP
+\fBpropono\fR is a remote desktop viewer for the MATE desktop. It can support
+many protocols using a plugin system. Current plugins exist for VNC and SSH.
+Propono has many features, among others:\&.
+.PP
+- Support for multiple connections simultaneously
+.PP
+- Bookmarks and history support
+.PP
+- Avahi integration
+.PP
+- MATE keyring integration
+.PP
+- MATE panel applet to quickly launch propono to access VNC servers
+.PP
+- You can connect to a VNC server by double clicking on a \&.vnc file when using caja\&.
+.SH "OPTIONS"
+.SS "Help Options:"
+.TP
+\-?, \fB\-\-help\fR
+Show help options
+.TP
+\fB\-\-help\-all\fR
+Show all help options
+.TP
+\fB\-\-help\-gtk\fR
+Show GTK+ options
+.SS "Application Options:"
+.TP
+\fB\-\-help\-vnc\fR
+Show VNC options
+.TP
+\fB\-F\fR, \fB\-\-file\fR=\fIfilename\fR
+Opens a .vnc file
+.TP
+\fB\-f\fR, \fB\-\-fullscreen\fR
+Open propono in fullscreen mode
+.TP
+\-n, \fB\-\-new\-window\fR
+Create a new toplevel window in an existing instance of propono
+.TP
+\fB\-\-display\fR=\fIDISPLAY\fR
+X display to use
+.PP
+Run 'propono \fB\-\-help\fR' to see a full list of available command line options
+.SH "OPERANDS"
+.PP
+The following operands are supported:
+.TP
+\fB\fB\fI\fR[server\fR]\fR[::\fIport|:display\fR]\fR\fR
+Specifies the VNC server to connect to\&. The VNC server can be either a
+hostname, or an IP address. If the server is an IPv6 address, it must be
+enclosed by square brackets. The address can optionally be followed by two
+colons (::) and the VNC port number\&, or alternatively by one colon (:) and
+the display where Propono should run. If a port is not specified, default
+value of 5900 will be used\&.
+If the value is lower than 1024, 5900 will be added to it\&. For example, ":0"
+means "5900" and ":1" means ":5901"\&. If only a port is specified, but not
+the hostname, localhost will be assumed.
+Possible values for the display are between 0 and 1024. If a display number
+greater than 1024 is specified, it will be assumed to be a port.
+Note that you can't specify the port and the display at the same time.
+.SH "EXAMPLES"
+.PP
+\fBExample 1: Start propono from the command line\fR
+.PP
+.PP
+.nf
+example% \fBpropono\fR
+.fi
+.PP
+\fBExample 2: Create a new top-level window\fR
+.PP
+.PP
+.nf
+example% \fBpropono \-\-new-window\fR
+.fi
+.PP
+\fBExample 3: Connect to a specified VNC server and port\fR
+.PP
+.PP
+.nf
+example% \fBpropono snoopy::5900\fR
+.fi
+.PP
+\fBExample 4: Connect to a specified IPv4 address and port\fR
+.PP
+.PP
+.nf
+example% \fBpropono 192.168.1.35::2700
+.fi
+.PP
+\fBExample 5: Connect to a specified IPv6 address and port\fR
+.PP
+.PP
+.nf
+example% \fBpropono [2001:0db8:0:0:0:0:1428:57ab]::2700
+.fi
+.PP
+\fBExample 6: Connect to a VNC server specified by a \&.vnc file\fR
+.PP
+.PP
+.nf
+example% \fBpropono \-F snoopy\&.vnc\fR
+.fi
+.PP
+\fBExample 7: Connect to localhost on a specified port in fullscreen mode\fR
+.PP
+.PP
+.nf
+example% \fBpropono -f ::5900
+.fi
+.SH "SEE ALSO"
+.PP
+Propono help manual
+.SH "AUTHOR"
+Propono was written by Jonh Wendell <wendell@bani.com.br>
+.TP
+This manual page was written by Emilio Pozuelo Monfort <pochu@ubuntu.com> and Halton Huo <halton.huo@sun.com>.

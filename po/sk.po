@@ -1,0 +1,1366 @@
+# Slovak translation for propono.
+# Copyright (C) 2009, 2010 Free Software Foundation, Inc.
+# This file is distributed under the same license as the propono package.
+# Roman Mátyus <romanmatyus@gmail.com>, 2009, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: propono\n"
+"Report-Msgid-Bugs-To: http://bugzilla.mate.org/enter_bug.cgi?"
+"product=propono&component=general\n"
+"POT-Creation-Date: 2010-04-28 01:37+0000\n"
+"PO-Revision-Date: 2010-04-26 14:54+0200\n"
+"Last-Translator: Roman Mátyus <romanmatyus@gmail.com>\n"
+"Language-Team: Slovak <mate-sk-list@mate.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 1 : (n>=2 && n<=4) ? 2 : 0;\n"
+
+#: ../data/MATE_ProponoApplet.xml.h:1 ../propono/propono-plugin-manager.c:496
+msgid "_About"
+msgstr "_O programe"
+
+#: ../data/MATE_ProponoApplet.xml.h:2 ../propono/propono-ui.h:37
+msgid "_Help"
+msgstr "_Pomocník"
+
+#: ../data/propono.desktop.in.in.h:1 ../data/propono-file.desktop.in.in.h:1
+msgid "Access remote desktops"
+msgstr "Prístup k vzdialeným pracovným plochám"
+
+#: ../data/propono.desktop.in.in.h:2 ../data/propono-file.desktop.in.in.h:2
+#: ../propono/MATE_ProponoApplet.server.in.in.h:2
+#: ../propono/propono-applet.c:434 ../propono/propono-applet.c:486
+#: ../propono/propono-main.c:201
+msgid "Remote Desktop Viewer"
+msgstr "Zobrazovač vzdialenej pracovnej plochy"
+
+#: ../data/propono.ui.h:1
+#, fuzzy
+#| msgid "_Show menu shortcuts"
+msgid "Allow _keyboard shortcuts"
+msgstr "Zobraziť kláve_sové skratky ponuky"
+
+#: ../data/propono.ui.h:2
+msgid "Authentication is required"
+msgstr "Je vyžadované overenie totožnosti"
+
+#. setup label
+#: ../data/propono.ui.h:3 ../propono/propono-fav.c:851
+msgid "Bookmarks"
+msgstr "Záložky"
+
+#: ../data/propono.ui.h:4
+msgid "Connection"
+msgstr "Pripojenie"
+
+#: ../data/propono.ui.h:5
+msgid "Connection options"
+msgstr "Možnosti pripojenia"
+
+#: ../data/propono.ui.h:6
+msgid "Folder"
+msgstr "Priečinok"
+
+#: ../data/propono.ui.h:7 ../plugins/ssh/propono-ssh-tab.c:49
+#: ../plugins/vnc/propono-vnc-tab.c:148 ../propono/propono-fav.c:404
+msgid "Host:"
+msgstr "Hostiteľ:"
+
+#: ../data/propono.ui.h:8
+msgid "Interface"
+msgstr "Rozhranie"
+
+#: ../data/propono.ui.h:9
+msgid "Options"
+msgstr "Možnosti"
+
+#: ../data/propono.ui.h:10
+msgid "Parent Folder"
+msgstr "Rodičovský priečinok"
+
+#: ../data/propono.ui.h:11
+msgid "Preferences"
+msgstr "Predvoľby"
+
+#. This is a tooltip in preferences dialog
+#: ../data/propono.ui.h:13
+msgid ""
+"This option enables menu accelerators and keyboard shortcuts. For more info "
+"on why you may want to disable them, check the documentation."
+msgstr ""
+
+#: ../data/propono.ui.h:14
+msgid "Which machine do you want to connect to?"
+msgstr "K akému stroju sa chcete pripojiť?"
+
+#: ../data/propono.ui.h:15
+msgid "_Always show tabs"
+msgstr "Vždy zobr_azovať karty"
+
+#. This is a button label, in the authentication dialog
+#: ../data/propono.ui.h:17
+msgid "_Authenticate"
+msgstr "_Overiť totožnosť"
+
+#: ../data/propono.ui.h:18
+msgid "_Full screen"
+msgstr "_Celá obrazovka"
+
+#: ../data/propono.ui.h:19
+msgid "_Host:"
+msgstr "_Hostiteľ:"
+
+#. Translators: This is the name of a bookmark. It appears in the add/edit bookmark dialog.
+#: ../data/propono.ui.h:21
+msgid "_Name:"
+msgstr "_Názov:"
+
+#: ../data/propono.ui.h:22
+msgid "_Password:"
+msgstr "_Heslo:"
+
+#: ../data/propono.ui.h:23
+msgid "_Protocol:"
+msgstr "_Protokol:"
+
+#: ../data/propono.ui.h:24
+msgid "_Remember this credential"
+msgstr "Zapamätať toto pove_renie"
+
+#: ../data/propono.ui.h:25 ../plugins/ssh/propono-ssh-plugin.c:144
+msgid "_Username:"
+msgstr "_Používateľské meno:"
+
+#: ../data/propono.schemas.in.in.h:1 ../propono/propono-plugin-manager.c:796
+msgid "Active plugins"
+msgstr "Aktívne zásuvné moduly"
+
+#: ../data/propono.schemas.in.in.h:2
+msgid ""
+"List of active plugins. It contains the \"Location\" of the active plugins. "
+"See the .propono-plugin file for obtaining the \"Location\" of a given "
+"plugin."
+msgstr ""
+"Zoznam aktívnych zásuvných modulov. Obsahuje \"Umiestnenie\" aktívnych "
+"zásuvných modulov. \"Umiestnenie\" daného zásuvného modulu sa dozviete v "
+"súbore .propono-plugin."
+
+#: ../data/propono.schemas.in.in.h:3
+msgid "Maximum number of history items in connect dialog"
+msgstr "Najvyšší počet položiek histórie v dialógovom okne pripojení"
+
+#: ../data/propono.schemas.in.in.h:4
+msgid ""
+"Set to \"false\" to disable menu shortcuts. Set to \"true\" to enable them. "
+"Note that if they are enabled, those keys will be intercepted by the menu "
+"and will not be sent to the remote host."
+msgstr ""
+"Aby ste zakázali klávesové skratky ponuky, nastavte na \"false\". Aby ste "
+"ich povolili, nastavte na \"true\". Všimnite si, že ak sú klávesy povolené, "
+"budú zachytené ponukou, a nebudú odoslané vzdialenému hostiteľovi."
+
+#: ../data/propono.schemas.in.in.h:5
+msgid ""
+"Set to \"true\" to always show the tabs. Set to \"false\" to only show the "
+"tabs when there is more than one active connection."
+msgstr ""
+"Aby sa vždy zobrazovali karty, nastavte na \"true\". Nastavte na \"false\", "
+"aby sa zobrazili karty, iba ak je viac ako jedno aktívne pripojenie."
+
+#: ../data/propono.schemas.in.in.h:6
+msgid ""
+"Set to \"true\" to always start the program listening for reverse "
+"connections."
+msgstr ""
+
+#: ../data/propono.schemas.in.in.h:7
+msgid "Specifies the maximum number of items in the host dropdown entry."
+msgstr ""
+"Určuje najvyšší počet položiek v rozbaľovacom poli so zoznamom hostiteľov."
+
+#: ../data/propono.schemas.in.in.h:8
+msgid "The handler for \"vnc://\" URLs"
+msgstr "Obsluha pre URL \"vnc://\""
+
+#: ../data/propono.schemas.in.in.h:9
+msgid ""
+"When connecting to a host, the client can say to the server to leave other "
+"clients connected or to drop the existent connections. Set the value to true "
+"to share the desktop with the other clients."
+msgstr ""
+"Pri pripájaní k hostiteľovi môže klient povedať serveru, že má ponechať "
+"pripojených ostatných klientov, alebo že má zahodiť existujúce pripojenia. "
+"Nastavte hodnotu na \"true\", aby ste zdieľali pracovnú plochu s ostatnými "
+"klientmi."
+
+#: ../data/propono.schemas.in.in.h:10
+msgid "Whether we should leave other clients connected"
+msgstr "Či máme nechať ostatných klientov pripojených"
+
+#: ../data/propono.schemas.in.in.h:11
+msgid ""
+"Whether we should show tabs even when there is only one active connection"
+msgstr "Či máme zobraziť karty, aj keď je aktívne iba jedno pripojenie"
+
+#: ../data/propono.schemas.in.in.h:12
+msgid "Whether we should show the menu accelerators (shortcut keys)"
+msgstr "Či máme zobraziť akcelerátory (klávesové skratky) ponúk"
+
+#: ../data/propono.schemas.in.in.h:13
+#, fuzzy
+#| msgid "Whether we should leave other clients connected"
+msgid "Whether we should start the program listening for reverse connections"
+msgstr "Či má nechať ostatných klientov pripojených"
+
+#: ../data/propono-mime.xml.in.h:1
+msgid "Remote Desktop (VNC) file"
+msgstr "Súbor vzdialenej pracovnej plochy (VNC)"
+
+#: ../data/propono-mime.xml.in.h:2
+msgid "Remote Desktop Connection"
+msgstr "Pripojenie k vzdialenej pracovnej ploche"
+
+#. vim: set ts=8:
+#: ../plugins/ssh/propono-ssh-plugin.c:76
+#: ../plugins/ssh/ssh.propono-plugin.desktop.in.h:1
+msgid "SSH"
+msgstr "SSH"
+
+#. Translators: This is a description of the SSH protocol. It appears at Connect dialog.
+#: ../plugins/ssh/propono-ssh-plugin.c:78
+msgid "Access Unix/Linux terminals"
+msgstr "Prístup k unixovému/linuxovému terminálu"
+
+#: ../plugins/ssh/propono-ssh-plugin.c:132
+#, fuzzy
+#| msgid "Options"
+msgid "SSH Options"
+msgstr "Možnosti"
+
+#. Translators: This is the tooltip for the username field in a SSH connection
+#: ../plugins/ssh/propono-ssh-plugin.c:149
+msgid ""
+"Optional. If blank, your username will be used. Also, it can be supplied in "
+"the Machine field above, in the form username@hostname."
+msgstr ""
+
+#: ../plugins/ssh/propono-ssh-tab.c:50 ../plugins/vnc/propono-vnc-tab.c:149
+msgid "Port:"
+msgstr "Port:"
+
+#: ../plugins/ssh/ssh.propono-plugin.desktop.in.h:2
+msgid "SSH support"
+msgstr "Podpora SSH"
+
+#. Translators: 'shared' here is a VNC protocol specific flag. You can translate it, but I think it's better to let it untranslated
+#: ../plugins/vnc/propono-vnc-connection.c:291
+#: ../plugins/vnc/propono-vnc-plugin.c:325
+#, c-format
+msgid ""
+"Bad value for 'shared' flag: %d. It is supposed to be 0 or 1. Ignoring it."
+msgstr ""
+"Chybná hodnota pre prepínač 'zdieľané': %d. Malo by to byť 0 alebo 1. "
+"Ignoruje sa."
+
+#. Translators: "Reverse" here is an adjective, not a verb.
+#: ../plugins/vnc/propono-vnc-plugin.c:85
+#, fuzzy
+msgid "_Reverse Connections..."
+msgstr "Ob_rátiť spojenia..."
+
+#: ../plugins/vnc/propono-vnc-plugin.c:87
+msgid "Configure incoming VNC connections"
+msgstr "Nastaviť prichádzajúce pripojenia VNC"
+
+#. Translators: this is a command line option (run propono --help)
+#: ../plugins/vnc/propono-vnc-plugin.c:174
+msgid "Enable scaled mode"
+msgstr "Povoliť režim zmeny rozmerov"
+
+#. Translators: this is a command line option (run propono --help)
+#: ../plugins/vnc/propono-vnc-plugin.c:189
+msgid "VNC Options:"
+msgstr "Možnosti VNC:"
+
+#. Translators: this is a command line option (run propono --help)
+#: ../plugins/vnc/propono-vnc-plugin.c:191
+msgid "Show VNC Options"
+msgstr "Zobraziť možnosti VNC"
+
+#. vim: set ts=8:
+#: ../plugins/vnc/propono-vnc-plugin.c:213
+#: ../plugins/vnc/vnc.propono-plugin.desktop.in.h:1
+msgid "VNC"
+msgstr "VNC"
+
+#: ../plugins/vnc/propono-vnc-plugin.c:214
+msgid "Access Unix/Linux, Windows and other machines."
+msgstr "Prístup k Unix/Linux, Windows a iným strojom."
+
+#: ../plugins/vnc/propono-vnc-plugin.c:271
+msgid "Could not parse the file."
+msgstr "Súbor sa nepodarilo analyzovať."
+
+#. Translators: Do not translate "connection". It's the name of a group in the .vnc (.ini like) file.
+#: ../plugins/vnc/propono-vnc-plugin.c:279
+#, fuzzy
+msgid "The file is not a VNC one: Missing the group \"connection\"."
+msgstr "Tento súbor nie je VNC súborom: Chýba skupina \"connection\"."
+
+#. Translators: Do not translate "host". It's the name of a key in the .vnc (.ini like) file.
+#: ../plugins/vnc/propono-vnc-plugin.c:286
+#, fuzzy
+msgid "The file is not a VNC one: Missing the key \"host\"."
+msgstr "Tento súbor nie je VNC súborom: Chýba kľúč \"host\"."
+
+#: ../plugins/vnc/propono-vnc-plugin.c:378
+msgid "VNC Options"
+msgstr "Možnosti VNC"
+
+#. View only check button
+#: ../plugins/vnc/propono-vnc-plugin.c:391
+#: ../plugins/vnc/propono-vnc-tab.c:632
+msgid "_View only"
+msgstr "Iba _pozeranie"
+
+#. Scaling check button
+#: ../plugins/vnc/propono-vnc-plugin.c:399
+msgid "_Scaling"
+msgstr "_Zmena veľkosti"
+
+#: ../plugins/vnc/propono-vnc-plugin.c:415
+msgid "_Keep aspect ratio"
+msgstr ""
+
+#. JPEG Compression check button
+#: ../plugins/vnc/propono-vnc-plugin.c:425
+msgid "_Use JPEG Compression"
+msgstr ""
+
+#: ../plugins/vnc/propono-vnc-plugin.c:426
+msgid "This might not work on all VNC servers"
+msgstr ""
+
+#: ../plugins/vnc/propono-vnc-plugin.c:435
+msgid "_Depth Color:"
+msgstr ""
+
+#: ../plugins/vnc/propono-vnc-plugin.c:440
+msgid "Use Server Settings"
+msgstr ""
+
+#: ../plugins/vnc/propono-vnc-plugin.c:441
+msgid "True Color (24 bits)"
+msgstr ""
+
+#: ../plugins/vnc/propono-vnc-plugin.c:442
+msgid "High Color (16 bits)"
+msgstr ""
+
+#: ../plugins/vnc/propono-vnc-plugin.c:443
+msgid "Low Color (8 bits)"
+msgstr ""
+
+#: ../plugins/vnc/propono-vnc-plugin.c:444
+msgid "Ultra Low Color (3 bits)"
+msgstr ""
+
+#. Translators: the whole sentence will be: Use host <hostname> as a SSH tunnel
+#: ../plugins/vnc/propono-vnc-plugin.c:457
+msgid "Use h_ost"
+msgstr ""
+
+#. Translators: This is the tooltip of the SSH tunneling entry
+#: ../plugins/vnc/propono-vnc-plugin.c:465
+msgid "hostname or user@hostname"
+msgstr ""
+
+#. Translators: the whole sentence will be: Use host <hostname> as a SSH tunnel
+#: ../plugins/vnc/propono-vnc-plugin.c:469
+msgid "as a SSH tunnel"
+msgstr ""
+
+#. Translators: this is a pattern to open *.vnc files in a open dialog.
+#: ../plugins/vnc/propono-vnc-plugin.c:504
+msgid "VNC Files"
+msgstr "Súbory VNC"
+
+#: ../plugins/vnc/propono-vnc-tab.c:147
+msgid "Desktop Name:"
+msgstr "Názov pracovnej plochy:"
+
+#: ../plugins/vnc/propono-vnc-tab.c:150
+msgid "Dimensions:"
+msgstr "Rozmery:"
+
+#: ../plugins/vnc/propono-vnc-tab.c:304
+msgid "Error creating the SSH tunnel"
+msgstr ""
+
+#: ../plugins/vnc/propono-vnc-tab.c:305 ../plugins/vnc/propono-vnc-tab.c:316
+#, fuzzy
+#| msgid "Unknown error"
+msgid "Unknown reason"
+msgstr "Neznáma chyba"
+
+#: ../plugins/vnc/propono-vnc-tab.c:315
+msgid "Error connecting to host."
+msgstr "Chyba pripájania sa k hostiteľovi."
+
+# * https://bugzilla.mate.org/show_bug.cgi?id=615639
+#. Translators: %s is a host name or IP address; %u is a code error (number). Also, the right sentence would be ... method for host...
+#: ../plugins/vnc/propono-vnc-tab.c:360
+#, fuzzy, c-format
+msgid "Authentication method to host %s is unsupported. (%u)"
+msgstr "Metóda overenia totožnosti k hostiteľovi %s nie je podporovaná. (%u)"
+
+#: ../plugins/vnc/propono-vnc-tab.c:364
+msgid "Authentication unsupported"
+msgstr "Overenie totožnosti nie je podporované"
+
+#: ../plugins/vnc/propono-vnc-tab.c:531 ../plugins/vnc/propono-vnc-tab.c:548
+msgid "Authentication error"
+msgstr "Chyba overenia totožnosti"
+
+#: ../plugins/vnc/propono-vnc-tab.c:532
+msgid "A username is required in order to access this machine."
+msgstr "Je vyžadované používateľské meno za účelom prístupu k tomuto stroju."
+
+#: ../plugins/vnc/propono-vnc-tab.c:549
+msgid "A password is required in order to access this machine."
+msgstr "Je vyžadované heslo za účelom prístupu k tomuto stroju."
+
+#: ../plugins/vnc/propono-vnc-tab.c:603
+msgid "S_caling"
+msgstr "_Zmena rozmerov"
+
+#: ../plugins/vnc/propono-vnc-tab.c:604
+msgid "Fits the remote screen into the current window size"
+msgstr "Prispôsobí vzdialenú obrazovku aktuálnej veľkosti okna"
+
+#: ../plugins/vnc/propono-vnc-tab.c:617
+msgid "_Keep Aspect Ratio"
+msgstr ""
+
+#: ../plugins/vnc/propono-vnc-tab.c:618
+msgid "Keeps the screen aspect ratio when using scaling"
+msgstr ""
+
+#: ../plugins/vnc/propono-vnc-tab.c:633
+msgid "Does not send mouse and keyboard events"
+msgstr "Neodosiela udalosti klávesnice a myši"
+
+#: ../plugins/vnc/propono-vnc-tab.c:646
+msgid "_Original size"
+msgstr "Pôv_odná velkosť"
+
+#: ../plugins/vnc/propono-vnc-tab.c:647
+msgid "Adjusts the window to the remote desktop's size"
+msgstr "Zmení okno veľkosti vzdialenej pracovnej plochy"
+
+#: ../plugins/vnc/propono-vnc-tab.c:660
+msgid "_Refresh Screen"
+msgstr ""
+
+#: ../plugins/vnc/propono-vnc-tab.c:661
+msgid "Requests an update of the screen"
+msgstr ""
+
+#. Send Ctrl-alt-del
+#: ../plugins/vnc/propono-vnc-tab.c:683 ../plugins/vnc/propono-vnc-tab.c:755
+#: ../plugins/vnc/propono-vnc-tab.c:757
+msgid "Send Ctrl-Alt-Del"
+msgstr "Odoslať Ctrl-Alt-Del"
+
+#: ../plugins/vnc/propono-vnc-tab.c:684
+msgid "Sends Ctrl+Alt+Del to the remote machine"
+msgstr "Odošle Ctrl+Alt+Del vzdialenému stroju"
+
+#: ../plugins/vnc/propono-vnc-tab.c:736 ../plugins/vnc/propono-vnc-tab.c:737
+msgid "Scaling"
+msgstr "Zmena veľkosti"
+
+#: ../plugins/vnc/propono-vnc-tab.c:746 ../plugins/vnc/propono-vnc-tab.c:747
+msgid "Read only"
+msgstr "Len na čítanie"
+
+#: ../plugins/vnc/propono-vnc-tab.c:919
+msgid ""
+"Scaling is not supported on this installation.\n"
+"\n"
+"Read the README file (shipped with Propono) in order to know how to enable "
+"this feature."
+msgstr ""
+"Táto inštalácia nepodporuje zmenu veľkosti.\n"
+"\n"
+"Prečítajte si súbor README (distribuovaný s Propono), aby ste vedeli, ako "
+"túto funkciu povoliť."
+
+#: ../plugins/vnc/propono-vnc-tunnel.c:77
+#, c-format
+msgid "Unable to find a free TCP port"
+msgstr ""
+
+#: ../plugins/vnc/vnc.propono-plugin.desktop.in.h:2
+msgid "VNC support"
+msgstr "Podpora VNC"
+
+#: ../plugins/vnc/propono-vnc-listener-dialog.c:90
+msgid "IPv4:"
+msgstr ""
+
+#: ../plugins/vnc/propono-vnc-listener-dialog.c:102
+msgid ""
+"\n"
+"\n"
+"IPv6:"
+msgstr ""
+
+#: ../plugins/vnc/propono-vnc-listener-dialog.c:161
+#, c-format
+msgid "On the port %d"
+msgstr ""
+
+#: ../plugins/vnc/propono-vnc-listener.c:168
+msgid "Incoming VNC connection arrived but there is no active window"
+msgstr ""
+
+#. vim: set ts=8:
+#: ../plugins/vnc/vnc.ui.h:1
+msgid ""
+"By activating reverse connections you can access machines that are behind a "
+"firewall. The remote side is supposed to initiate the connection with you. "
+"For further information, checkout the help."
+msgstr ""
+
+#: ../plugins/vnc/vnc.ui.h:2
+#, fuzzy
+#| msgid "Connection"
+msgid "Connectivity"
+msgstr "Pripojenie"
+
+#: ../plugins/vnc/vnc.ui.h:3
+#, fuzzy
+#| msgid "_Reverse Connections..."
+msgid "Reverse Connections"
+msgstr "_Opakovať pripojenia..."
+
+#: ../plugins/vnc/vnc.ui.h:4
+msgid "This machine is reachable through the following IP address(es):"
+msgstr ""
+
+#: ../plugins/vnc/vnc.ui.h:5
+#, fuzzy
+#| msgid "Enabled"
+msgid "_Always Enabled"
+msgstr "Povolený"
+
+#: ../plugins/vnc/vnc.ui.h:6
+#, fuzzy
+#| msgid "_Reverse Connections..."
+msgid "_Enable Reverse Connections"
+msgstr "_Opakovať pripojenia..."
+
+#: ../propono/MATE_ProponoApplet.server.in.in.h:1
+msgid "A menu to quickly access remote machines"
+msgstr "Ponuka na rýchly prístup k vzdialeným strojom"
+
+#: ../propono/MATE_ProponoApplet.server.in.in.h:3
+msgid "Propono Applet Factory"
+msgstr "Továreň zásuvného modulu Propono"
+
+#: ../propono/propono-applet.c:277 ../propono/propono-applet.c:360
+msgid "Could not run propono:"
+msgstr "Nepodarilo sa spustiť propono:"
+
+#: ../propono/propono-applet.c:380
+msgid "Open Remote Desktop Viewer"
+msgstr "Otvoriť zobrazovač vzdialenej pracovnej plochy"
+
+#: ../propono/propono-applet.c:435
+msgid "Access your bookmarks"
+msgstr "Prístup k vašim záložkám"
+
+#: ../propono/propono-bookmarks.c:265 ../propono/propono-connection.c:522
+#: ../propono/propono-tab.c:535 ../propono/propono-tube-handler.c:253
+#, c-format
+msgid "The protocol %s is not supported."
+msgstr "Protokol %s nie je podporovaný."
+
+#: ../propono/propono-bookmarks.c:343
+#, c-format
+msgid "Error while initializing bookmarks: %s"
+msgstr "Chyba pri inicializácii záložiek: %s"
+
+#: ../propono/propono-bookmarks.c:343 ../propono/propono-bookmarks.c:458
+#: ../propono/propono-bookmarks-migration.c:135
+#: ../propono/propono-cache-prefs.c:53 ../propono/propono-commands.c:173
+#: ../propono/propono-connect.c:483 ../propono/propono-fav.c:765
+#: ../propono/propono-main.c:102 ../propono/propono-main.c:121
+#: ../propono/propono-window.c:268 ../propono/propono-window.c:737
+msgid "Unknown error"
+msgstr "Neznáma chyba"
+
+#: ../propono/propono-bookmarks.c:350
+msgid "Error while initializing bookmarks: The file seems to be empty"
+msgstr "Chyba pri inicializácii záložiek: Súbor vyzerá byť prázdny"
+
+#: ../propono/propono-bookmarks.c:357
+msgid ""
+"Error while initializing bookmarks: The file is not a propono bookmarks file"
+msgstr ""
+"Chyba pri inicializácii záložiek: Súbor nie je súborom záložiek propono"
+
+#: ../propono/propono-bookmarks.c:419 ../propono/propono-bookmarks.c:426
+msgid "Error while saving bookmarks: Failed to create the XML structure"
+msgstr "Chyba pri ukladaní záložiek: Zlyhalo vytvorenie štruktúry XML"
+
+#: ../propono/propono-bookmarks.c:433 ../propono/propono-bookmarks.c:440
+msgid "Error while saving bookmarks: Failed to initialize the XML structure"
+msgstr "Chyba pri ukladaní záložiek: Zlyhalo inicializovanie štruktúry XML"
+
+#: ../propono/propono-bookmarks.c:449
+msgid "Error while saving bookmarks: Failed to finalize the XML structure"
+msgstr "Chyba pri ukladaní záložiek: Zlyhalo dokončovanie štruktúry XML"
+
+#: ../propono/propono-bookmarks.c:458
+#, c-format
+msgid "Error while saving bookmarks: %s"
+msgstr "Chyba pri ukladaní záložiek: %s"
+
+#: ../propono/propono-bookmarks-migration.c:95
+#: ../propono/propono-bookmarks-migration.c:102
+msgid "Error while migrating bookmarks: Failed to create the XML structure"
+msgstr "Chyba pri migrácií záložiek: Zlyhalo vytvorenie štruktúry XML"
+
+#: ../propono/propono-bookmarks-migration.c:109
+#: ../propono/propono-bookmarks-migration.c:116
+msgid "Error while migrating bookmarks: Failed to initialize the XML structure"
+msgstr "Chyba pri migrácií záložiek: Zlyhalo inicializovanie štruktúry XML"
+
+#: ../propono/propono-bookmarks-migration.c:125
+msgid "Error while migrating bookmarks: Failed to finalize the XML structure"
+msgstr "Chyba pri migrácií záložiek: Zlyhalo dokončovanie štruktúry XML"
+
+#: ../propono/propono-bookmarks-migration.c:135
+#: ../propono/propono-bookmarks-migration.c:217
+#, c-format
+msgid "Error while migrating bookmarks: %s"
+msgstr "Chyba pri migrácií záložiek: %s"
+
+#: ../propono/propono-bookmarks-migration.c:164
+msgid "Error while migrating bookmarks: VNC plugin is not activated"
+msgstr "Chyba pri migrácií záložiek: Zásuvný modul pre VNC nie je aktivovaný"
+
+#: ../propono/propono-bookmarks-migration.c:217
+msgid "Failed to create the directory"
+msgstr "Zlyhalo vytvorenie adresára"
+
+#: ../propono/propono-bookmarks-migration.c:241
+msgid ""
+"Migrating the bookmarks file to the new format. This operation is only "
+"supposed to run once."
+msgstr ""
+"Migrácia súboru záložiek na nový formát. Predpokladá sa, že táto operácia "
+"bude spustená iba raz."
+
+#: ../propono/propono-bookmarks-migration.c:249
+#, c-format
+msgid "Error opening old bookmarks file: %s"
+msgstr "Chyba pri otváraní starého súboru záložiek: %s"
+
+#: ../propono/propono-bookmarks-migration.c:250
+#: ../propono/propono-bookmarks-migration.c:262
+msgid "Migration cancelled"
+msgstr "Migrácia zrušená"
+
+#: ../propono/propono-bookmarks-migration.c:259
+msgid "Could not remove the old bookmarks file"
+msgstr "Nepodarilo sa odstrániť starý súbor záložiek"
+
+#: ../propono/propono-bookmarks-tree.c:120
+msgid "Root Folder"
+msgstr "Koreňový priečinok"
+
+#: ../propono/propono-bookmarks-ui.c:78
+msgid "Invalid name for this folder"
+msgstr "Neplatný názov pre tento priečinok"
+
+#: ../propono/propono-bookmarks-ui.c:88 ../propono/propono-bookmarks-ui.c:200
+#, c-format
+msgid ""
+"The name \"%s\" is already used in this folder. Please use a different name."
+msgstr ""
+"Názov \"%s\" je už v tomto priečinku použitý. Použite, prosím, iný názov."
+
+#: ../propono/propono-bookmarks-ui.c:89 ../propono/propono-bookmarks-ui.c:190
+#: ../propono/propono-bookmarks-ui.c:201
+msgid "Invalid name for this item"
+msgstr "Neplatný názov pre túto položku"
+
+#. Translators: %s is a protocol name, like VNC or SSH
+#: ../propono/propono-bookmarks-ui.c:168
+#, c-format
+msgid "(Protocol: %s)"
+msgstr "(Protokol: %s)"
+
+#. Translators: %s is a bookmark entry name
+#: ../propono/propono-bookmarks-ui.c:308
+#, c-format
+msgid "Are you sure you want to remove %s from bookmarks?"
+msgstr "Ste si istý, že chcete odstrániť položku %s zo záložiek?"
+
+#: ../propono/propono-bookmarks-ui.c:314
+msgid "Remove Folder?"
+msgstr "Odstrániť priečinok?"
+
+#: ../propono/propono-bookmarks-ui.c:315
+msgid "Notice that all its subfolders and items will be removed as well."
+msgstr ""
+"Všimnite si, že všetky jeho podpriečinky a položky budú tiež odstránené."
+
+#: ../propono/propono-bookmarks-ui.c:320
+msgid "Remove Item?"
+msgstr "Odstrániť položku?"
+
+#: ../propono/propono-bookmarks-ui.c:337
+msgid "Error removing bookmark: Entry not found"
+msgstr "Chyba pri odstraňovaní záložky: Položka nebola nájdená"
+
+#: ../propono/propono-bookmarks-ui.c:354
+msgid "New Folder"
+msgstr "Nový priečinok"
+
+#: ../propono/propono-cache-prefs.c:53
+#, fuzzy, c-format
+#| msgid "Error while saving bookmarks: %s"
+msgid "Error while saving preferences: %s"
+msgstr "Chyba pri ukladaní záložiek: %s"
+
+#: ../propono/propono-commands.c:121
+msgid "Choose the file"
+msgstr "Vybrať súbor"
+
+#: ../propono/propono-commands.c:149
+#, fuzzy
+#| msgid "There are none supported files"
+msgid "There are no supported files"
+msgstr "Žiadne podporované súbory"
+
+#: ../propono/propono-commands.c:150
+#, fuzzy
+#| msgid ""
+#| "None of the active plugins offer a supported file to be open. Activate "
+#| "some plugins and try again."
+msgid ""
+"None of the active plugins support this action. Activate some plugins and "
+"try again."
+msgstr ""
+"Žiadny aktívny zásuvný modul neponúka možnosť otvorenia súboru. Aktivujte "
+"nejaké zásuvné moduly a skúste to znovu."
+
+#: ../propono/propono-commands.c:184
+msgid "The following file could not be opened:"
+msgid_plural "The following files could not be opened:"
+msgstr[0] "Nasledujúce súbory sa nepodarilo otvoriť:"
+msgstr[1] "Nasledujúci súbor sa nepodarilo otvoriť:"
+msgstr[2] "Nasledujúce súbory sa nepodarilo otvoriť:"
+
+# * https://bugzilla.mate.org/show_bug.cgi?id=616992
+#. Translators: Please consider the word "from" instead of "in". I'll fix this phrase for 2.31 (or 3.0)
+#: ../propono/propono-connect.c:88 ../propono/propono-connect.c:335
+#: ../propono/propono-connect.c:447
+#, fuzzy
+msgid "Could not get the active protocol in the protocol list."
+msgstr "Nepodarilo sa získať aktívny protokol v zozname protokolov."
+
+#: ../propono/propono-connect.c:316
+#, c-format
+msgid "Error while saving history file: %s"
+msgstr "Chyba pri ukladaní súboru histórie: %s"
+
+#: ../propono/propono-connect.c:351
+msgid "Choose a Remote Desktop"
+msgstr "Vybrať vzdialenú pracovnú plochu"
+
+#: ../propono/propono-connection.c:630
+msgid "Could not open the file."
+msgstr "Súbor sa nepodarilo otvoriť."
+
+#: ../propono/propono-connection.c:654
+msgid "The file was not recognized by any of the plugins."
+msgstr "Súbor nebol rozpoznaný žiadnym zásuvným modulom."
+
+#: ../propono/propono-fav.c:567
+msgid "_New Folder"
+msgstr "_Nový priečinok"
+
+#: ../propono/propono-fav.c:568
+msgid "Create a new folder"
+msgstr "Vytvoriť nový priečinok"
+
+#: ../propono/propono-fav.c:573
+msgid "_Open bookmark"
+msgstr "_Otvoriť záložku"
+
+#: ../propono/propono-fav.c:574
+msgid "Connect to this machine"
+msgstr "Pripojiť sa k tomuto stroju"
+
+#: ../propono/propono-fav.c:575
+msgid "_Edit bookmark"
+msgstr "Up_raviť záložku"
+
+#: ../propono/propono-fav.c:576
+msgid "Edit the details of selected bookmark"
+msgstr "Upraviť podrobnosti vybranej záložky"
+
+#: ../propono/propono-fav.c:577
+msgid "_Remove from bookmarks"
+msgstr "O_dstrániť zo záložiek"
+
+#: ../propono/propono-fav.c:578
+msgid "Remove current selected connection from bookmarks"
+msgstr "Odstrániť práve zvolené pripojenie zo záložiek"
+
+#: ../propono/propono-fav.c:596 ../propono/propono-window.c:399
+#, fuzzy, c-format
+#| msgid "Could not merge propono-ui.xml: %s"
+msgid "Could not merge UI XML file: %s"
+msgstr "Nedá sa zlúčiť propono-ui.xml: %s"
+
+#: ../propono/propono-fav.c:754
+msgid "Invalid operation"
+msgstr "Neplatná operácia"
+
+#: ../propono/propono-fav.c:755
+msgid "Data received from drag&drop operation is invalid."
+msgstr "Dáta prijaté pomocou operácie chyť a pusť sú neplatné."
+
+#: ../propono/propono-fav.c:859
+#, fuzzy
+#| msgid "Side _Panel"
+msgid "Hide panel"
+msgstr "Bočný _panel"
+
+#: ../propono/propono-fav.c:1044
+msgid "Hosts nearby"
+msgstr "Blízki hostitelia"
+
+#. Translators: this is a command line option (run propono --help)
+#: ../propono/propono-main.c:64
+msgid "Open propono in fullscreen mode"
+msgstr "Otvoriť propono v režime celej obrazovky"
+
+#. Translators: this is a command line option (run propono --help)
+#: ../propono/propono-main.c:68
+msgid "Create a new toplevel window in an existing instance of propono"
+msgstr "Vytvoriť nové hlavné okno v už existujúcej inštancii propono"
+
+#. Translators: this is a command line option (run propono --help)
+#: ../propono/propono-main.c:72
+msgid "Open a file recognized by propono"
+msgstr "Otvoriť súbor, ktorý propono pozná"
+
+#: ../propono/propono-main.c:72
+msgid "filename"
+msgstr "názov súboru"
+
+#. Translators: this is a command line option (run propono --help)
+#: ../propono/propono-main.c:77
+msgid "[server:port]"
+msgstr "[server:port]"
+
+#: ../propono/propono-main.c:132
+msgid "The following error has occurred:"
+msgid_plural "The following errors have occurred:"
+msgstr[0] "Vyskytli sa nasledujúce chyby:"
+msgstr[1] "Vyskytla sa nasledujúca chyba:"
+msgstr[2] "Vyskytli sa nasledujúce chyby:"
+
+#. Setup command line options
+#: ../propono/propono-main.c:171
+msgid "- Remote Desktop Viewer"
+msgstr "- Zobrazovač vzdialenej pracovnej plochy"
+
+#: ../propono/propono-main.c:196
+msgid ""
+"Run 'propono --help' to see a full list of available command line options"
+msgstr ""
+"Spustite 'propono --help', aby ste videli celý zoznam dostupných volieb "
+"príkazového riadka"
+
+#: ../propono/propono-mdns.c:159
+#, c-format
+msgid "Failed to resolve avahi hostname: %s\n"
+msgstr "Nepodarilo sa previesť názov hostiteľa avahi: %s\n"
+
+#: ../propono/propono-mdns.c:217
+#, fuzzy, c-format
+msgid "Plugin %s has already registered a browser for service %s."
+msgstr "Zásuvný modul %s je už registrovaný ako prehliadač služby %s."
+
+#: ../propono/propono-mdns.c:226
+#, c-format
+msgid "Failed to add mDNS browser for service %s."
+msgstr "Zlyhalo pridanie prehliadača mDNS pre službu %s."
+
+#. Translators: "Browse for hosts" means the ability to find/locate some machines [with the VNC service enabled] in the local network
+#: ../propono/propono-mdns.c:243
+#, fuzzy, c-format
+msgid "Failed to browse for hosts: %s\n"
+msgstr "Nepodarilo sa prehľadať zoznam hostiteľov: %s\n"
+
+#: ../propono/propono-mdns.c:316
+#, c-format
+msgid "Failed to initialize mDNS browser: %s\n"
+msgstr "Zlyhalo inicializovaie prehliadača mDNS: %s\n"
+
+#. Translators: %s is a host name or IP address.
+#: ../propono/propono-notebook.c:461
+#, c-format
+msgid "Connection to host %s was closed."
+msgstr "Pripojenie k hostiteľovi %s bolo zatvorené."
+
+#: ../propono/propono-notebook.c:463
+msgid "Connection closed"
+msgstr "Pripojenie zatvorené"
+
+#. Translators: %s is a host name or IP address.
+#: ../propono/propono-notebook.c:482
+#, c-format
+msgid "Authentication to host %s has failed"
+msgstr "Overenie totožnosti pri prístupe k hostiteľovi %s zlyhalo"
+
+#: ../propono/propono-notebook.c:488
+msgid "Authentication failed"
+msgstr "Overenie totožnosti zlyhalo"
+
+#: ../propono/propono-notebook.c:526
+msgid "Connecting..."
+msgstr "Pripája sa..."
+
+#: ../propono/propono-notebook.c:553 ../propono/propono-tab.c:325
+msgid "Close connection"
+msgstr "Zatvoriť pripojenie"
+
+#: ../propono/propono-plugin-dialog.c:83
+msgid "Plugin Manager"
+msgstr "Správca zásuvných modulov"
+
+#: ../propono/propono-plugin-manager.c:45
+msgid "Plugin"
+msgstr "Zásuvný modul"
+
+#. Translators: "Enabled" is the title of a column in the plugins treeview. This column shows a checkbox, where the plugin can be [de]activated. If it's activated, its status is "enabled" and the checkbox is checked.
+#: ../propono/propono-plugin-manager.c:47
+#, fuzzy
+msgid "Enabled"
+msgstr "Povoliť"
+
+#: ../propono/propono-plugin-manager.c:504
+msgid "C_onfigure"
+msgstr "_Nastaviť"
+
+#: ../propono/propono-plugin-manager.c:513
+msgid "A_ctivate"
+msgstr "A_ktivovať"
+
+#: ../propono/propono-plugin-manager.c:524
+msgid "Ac_tivate All"
+msgstr "Ak_tivovať všetko"
+
+#: ../propono/propono-plugin-manager.c:529
+msgid "_Deactivate All"
+msgstr "_Deaktivovať všetko"
+
+#: ../propono/propono-plugin-manager.c:825
+msgid "_About Plugin"
+msgstr "_O zásuvnom module"
+
+#: ../propono/propono-plugin-manager.c:829
+msgid "C_onfigure Plugin"
+msgstr "_Nastaviť zásuvný modul"
+
+#: ../propono/propono-prefs.c:212
+msgid "Cannot initialize preferences manager."
+msgstr "Nepodarilo sa inicializovať správcu predvolieb."
+
+#: ../propono/propono-ssh.c:106
+msgid "Timed out when logging into SSH host"
+msgstr ""
+
+#: ../propono/propono-ssh.c:180
+msgid "Unable to spawn ssh program"
+msgstr ""
+
+#: ../propono/propono-ssh.c:197
+#, c-format
+msgid "Unable to spawn ssh program: %s"
+msgstr ""
+
+#: ../propono/propono-ssh.c:352
+msgid "Timed out when logging in"
+msgstr ""
+
+#: ../propono/propono-ssh.c:375 ../propono/propono-ssh.c:529
+#: ../propono/propono-ssh.c:612
+msgid "Permission denied"
+msgstr ""
+
+#: ../propono/propono-ssh.c:440
+msgid "Password dialog canceled"
+msgstr ""
+
+#: ../propono/propono-ssh.c:463
+#, fuzzy
+#| msgid "Could not run propono:"
+msgid "Could not send password"
+msgstr "Nedá sa spustiť propono:"
+
+#: ../propono/propono-ssh.c:471
+msgid "Log In Anyway"
+msgstr ""
+
+#: ../propono/propono-ssh.c:471
+msgid "Cancel Login"
+msgstr ""
+
+#: ../propono/propono-ssh.c:480
+#, c-format
+msgid ""
+"The identity of the remote computer (%s) is unknown.\n"
+"This happens when you log in to a computer the first time.\n"
+"\n"
+"The identity sent by the remote computer is %s. If you want to be absolutely "
+"sure it is safe to continue, contact the system administrator."
+msgstr ""
+
+#: ../propono/propono-ssh.c:498
+#, fuzzy
+#| msgid "Migration cancelled"
+msgid "Login dialog canceled"
+msgstr "Migrácia zrušená"
+
+#: ../propono/propono-ssh.c:519
+msgid "Can't send host identity confirmation"
+msgstr ""
+
+#: ../propono/propono-ssh.c:554 ../propono/propono-tab.c:732
+msgid "Error saving the credentials on the keyring."
+msgstr "Chyba pri ukladaná prihlasovacích údajov do kľúčenky."
+
+#: ../propono/propono-ssh.c:619
+msgid "Hostname not known"
+msgstr ""
+
+#: ../propono/propono-ssh.c:626
+msgid "No route to host"
+msgstr ""
+
+#: ../propono/propono-ssh.c:633
+#, fuzzy
+#| msgid "Connection closed"
+msgid "Connection refused by server"
+msgstr "Pripojenie bolo ukončené"
+
+#: ../propono/propono-ssh.c:640
+#, fuzzy
+#| msgid "Authentication failed"
+msgid "Host key verification failed"
+msgstr "Overenie prístupu zlyhalo"
+
+#: ../propono/propono-ssh.c:677
+msgid "Unable to find a valid SSH program"
+msgstr ""
+
+#: ../propono/propono-tab.c:346
+msgid "Leave fullscreen"
+msgstr "Opustiť režim celej obrazovky"
+
+#: ../propono/propono-tab.c:497
+msgid "Error saving recent connection."
+msgstr "Chyba pri ukladaní nedávneho pripojenia."
+
+#: ../propono/propono-tab.c:818
+msgid "Could not get a screenshot of the connection."
+msgstr "Nepodarilo sa zachytiť snímku obrazovky pripojenia."
+
+#: ../propono/propono-tab.c:823
+msgid "Save Screenshot"
+msgstr "Uložiť snímku obrazovky"
+
+#. Translators: This is the suggested filename (in save dialog) when taking a screenshot of the connection. %s will be replaced by the friendly name of the connection, for instance: Screenshot of wendell@wendell-laptop, or Screenshot of 200.100.100.123
+#: ../propono/propono-tab.c:835
+#, fuzzy, c-format
+msgid "Screenshot of %s"
+msgstr "Snímka obrazovky %s"
+
+#: ../propono/propono-tab.c:886
+msgid "Error saving screenshot"
+msgstr "Chyba pri ukladaní snímky obrazovky"
+
+#: ../propono/propono-tube-handler.c:229
+#, c-format
+msgid "Impossible to get service property: %s"
+msgstr "Nemožné zistiť vlastnosti služby: %s"
+
+#: ../propono/propono-tube-handler.c:286
+#, c-format
+msgid "Impossible to create the connection: %s"
+msgstr "Nemožné vytvoriť pripojenie: %s"
+
+#: ../propono/propono-tube-handler.c:325
+#, fuzzy, c-format
+msgid "Impossible to accept the stream tube: %s"
+msgstr "Nemožné akceptovať stream tube: %s"
+
+#. Translators: this is an error message when we fail to get the name of an empathy/telepathy buddy. %s will be replaced by the actual error message.
+#: ../propono/propono-tube-handler.c:463
+#, fuzzy, c-format
+msgid "Impossible to get the contact name: %s"
+msgstr "Nemožné získať názov kontaktu: %s"
+
+#: ../propono/propono-tube-handler.c:500
+#, c-format
+msgid "Impossible to get the avatar: %s"
+msgstr "Nemožné získať avatara: %s"
+
+#: ../propono/propono-tube-handler.c:521
+#, fuzzy, c-format
+#| msgid "%s wants to share his desktop with you."
+msgid "%s wants to share their desktop with you."
+msgstr "%s chce s vami zdieľať svoju pracovnú plochu."
+
+#: ../propono/propono-tube-handler.c:526
+msgid "Desktop sharing invitation"
+msgstr "Pozvanie k zdieľaniu pracovnej plochy"
+
+#. Toplevel
+#: ../propono/propono-ui.h:33
+msgid "_Machine"
+msgstr "_Stroj"
+
+#: ../propono/propono-ui.h:34
+msgid "_Edit"
+msgstr "_Upraviť"
+
+#: ../propono/propono-ui.h:35
+msgid "_View"
+msgstr "_Zobraziť"
+
+#: ../propono/propono-ui.h:36
+msgid "_Bookmarks"
+msgstr "Zál_ožky"
+
+#: ../propono/propono-ui.h:41
+msgid "Connect to a remote machine"
+msgstr "Pripojiť sa k vzdialenému stroju"
+
+#: ../propono/propono-ui.h:43
+msgid "Open a .VNC file"
+msgstr "Otvoriť súbor .VNC"
+
+#: ../propono/propono-ui.h:45
+msgid "Quit the program"
+msgstr "Ukončiť program"
+
+#: ../propono/propono-ui.h:49
+msgid "Edit the application preferences"
+msgstr "Upraviť predvoľby aplikácie"
+
+#: ../propono/propono-ui.h:50
+#, fuzzy
+#| msgid "Plugin"
+msgid "_Plugins"
+msgstr "Zásuvný modul"
+
+#: ../propono/propono-ui.h:51
+#, fuzzy
+#| msgid "Active plugins"
+msgid "Select plugins"
+msgstr "Aktívne zásuvné moduly"
+
+#. Help menu
+#: ../propono/propono-ui.h:54
+msgid "_Contents"
+msgstr "Ob_sah"
+
+#: ../propono/propono-ui.h:55
+msgid "Open the propono manual"
+msgstr "Otvoriť príručku k propono"
+
+#: ../propono/propono-ui.h:57
+msgid "About this application"
+msgstr "O tejto aplikácií"
+
+#: ../propono/propono-ui.h:62
+msgid "_Toolbar"
+msgstr "Lišta nás_trojov"
+
+#: ../propono/propono-ui.h:63
+msgid "Show or hide the toolbar"
+msgstr "Zobraziť alebo skryť lištu nástrojov"
+
+#: ../propono/propono-ui.h:66
+msgid "_Statusbar"
+msgstr "Stavová _lišta"
+
+#: ../propono/propono-ui.h:67
+msgid "Show or hide the statusbar"
+msgstr "Zobraziť alebo skryť stavovú lištu"
+
+#: ../propono/propono-ui.h:70
+msgid "Side _Panel"
+msgstr "Bočný _panel"
+
+#: ../propono/propono-ui.h:71
+msgid "Show or hide the side panel"
+msgstr "Zobraziť alebo skryť bočný panel"
+
+#: ../propono/propono-ui.h:79
+msgid "Close the current connection"
+msgstr "Ukončiť aktuálne pripojenie"
+
+#: ../propono/propono-ui.h:80
+msgid "C_lose All"
+msgstr "_Zatvoriť všetko"
+
+#: ../propono/propono-ui.h:81
+msgid "Close all active connections"
+msgstr "Zatvoriť všetky aktívne pripojenia"
+
+#. Bookmarks menu
+#: ../propono/propono-ui.h:84
+msgid "_Add to bookmarks"
+msgstr "Prid_ať do záložiek"
+
+#: ../propono/propono-ui.h:85
+msgid "Add current connection to your bookmarks"
+msgstr "Pridať aktuálne pripojenie do vašich záložiek"
+
+#. Machine menu
+#: ../propono/propono-ui.h:92
+msgid "Take screenshot"
+msgstr "Urobiť snímku obrazovky"
+
+#: ../propono/propono-ui.h:93
+msgid "Take a screenshot of active connection"
+msgstr "Urobiť snímku obrazovky aktívneho pripojenia"
+
+#: ../propono/propono-ui.h:97
+msgid "View the current machine in full screen"
+msgstr "Zobraziť aktuálny stroj na celú obrazovku"
+
+#: ../propono/propono-utils.c:75
+msgid "An error has occurred:"
+msgstr "Vyskytla sa chyba:"
+
+#: ../propono/propono-utils.c:175
+msgid ""
+"A plugin tried to open an UI file but did not succeed, with the error "
+"message:"
+msgstr ""
+"Zásuvný modul sa pokúsil otvoriť súbor používateľského rozhrania, ale "
+"neuspel, s chybovým hlásením:"
+
+#: ../propono/propono-utils.c:177
+msgid ""
+"The program tried to open an UI file but did not succeed, with the error "
+"message:"
+msgstr ""
+"Program sa pokúsil otvoriť súbor používateľského rozhrania, ale neuspel, s "
+"chybovým hlásením:"
+
+#: ../propono/propono-utils.c:180
+msgid "Please check your installation."
+msgstr "Skontrolujte, prosím, vašu inštaláciu."
+
+#: ../propono/propono-utils.c:181
+msgid "Error loading UI file"
+msgstr "Chyba pri nahrávaní súboru používateľského rozhrania"
+
+#: ../propono/propono-utils.c:492
+msgid "Propono is a remote desktop viewer for the MATE Desktop"
+msgstr "Propono je zobrazovač vzdialenej pracovnej plochy pre prostredie MATE"
+
+#: ../propono/propono-utils.c:495
+msgid ""
+"Propono is free software; you can redistribute it and/or modify it under the "
+"terms of the GNU General Public License as published by the Free Software "
+"Foundation; either version 2 of the License, or (at your option) any later "
+"version."
+msgstr ""
+"Tento program je slobodný softvér; môžete ho šíriť a modifikovať podľa "
+"ustanovení GNU General Public License, ako ho vydala Free Software "
+"Foundation; a to buď verzie 2 tejto licence alebo (podla vlastného uváženia) "
+"ktorejkoľvek neskoršej verzie."
+
+#: ../propono/propono-utils.c:499
+msgid ""
+"Propono is distributed in the hope that it will be useful, but WITHOUT ANY "
+"WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS "
+"FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more "
+"details."
+msgstr ""
+"Program Propono je rozširovaný v nádeji, že bude užitočný, avšak BEZ "
+"AKEJKOĽVEK ZÁRUKY; neposkytujú sa ani odvodené záruky PREDAJNOSTI alebo "
+"VHODNOSTI PRE URČITÝ ÚČEL. Ďalšie podrobnosti hľadejte v GNU General Public "
+"License."
+
+#: ../propono/propono-utils.c:503
+msgid ""
+"You should have received a copy of the GNU General Public License along with "
+"this program. If not, see <http://www.gnu.org/licenses/>."
+msgstr ""
+"Kópiu GNU General Public License ste mali obdržať spolu s programom. Ak sa "
+"tak nestalo, navštívte <http://www.gnu.org/licenses/>."
+
+#: ../propono/propono-utils.c:525
+msgid "translator-credits"
+msgstr "Roman Mátyus <romanmatyus@gmail.com>"
+
+#: ../propono/propono-utils.c:528
+msgid "Propono Website"
+msgstr "Webová stránka Propono"
+
+#. Translators: %s is a protocol, like VNC or SSH
+#: ../propono/propono-utils.c:653
+#, fuzzy, c-format
+#| msgid "Authentication is required"
+msgid "%s authentication is required"
+msgstr "Je vyžadované overenie"
+
+#: ../propono/propono-window.c:428
+msgid "_Recent connections"
+msgstr "_Nedávne pripojenia"
+
+#. Translators: This is server:port, a statusbar tooltip when mouse is over a bookmark item on menu
+#: ../propono/propono-window.c:543
+#, c-format
+msgid "Open %s:%d"
+msgstr "Otvoriť %s:%d"
+
+#: ../propono/propono-window.c:721
+msgid "About menu accelerators and keyboard shortcuts"
+msgstr ""
+
+#: ../propono/propono-window.c:723
+msgid ""
+"Propono comes with menu accelerators and keyboard shortcuts disabled by "
+"default. The reason is to avoid the keys to be intercepted by the program, "
+"and allow them to be sent to the remote machine.\n"
+"\n"
+"You can change this behavior through the preferences dialog. For more "
+"information, check the documentation.\n"
+"\n"
+"This message will appear only once."
+msgstr ""
+
+#: ../propono/propono-window.c:731 ../propono/propono-window.c:737
+#, fuzzy, c-format
+#| msgid "Error while saving history file: %s"
+msgid "Error while creating the file %s: %s"
+msgstr "Chyba pri ukladaní súboru s históriou: %s"

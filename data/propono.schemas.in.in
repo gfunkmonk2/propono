@@ -1,0 +1,113 @@
+<mateconfschemafile>
+	<schemalist>
+		<schema>
+			<key>/schemas/desktop/mate/url-handlers/vnc/command</key>
+			<applyto>/desktop/mate/url-handlers/vnc/command</applyto>
+			<owner>propono</owner>
+			<type>string</type>
+			<default>propono %s</default>
+			<locale name="C">
+				<short>The handler for "vnc://" URLs</short>
+				<long></long>
+			</locale>
+		</schema>
+
+		<schema>
+			<key>/schemas/desktop/mate/url-handlers/vnc/needs_terminal</key>
+			<applyto>/desktop/mate/url-handlers/vnc/needs_terminal</applyto>
+			<owner>propono</owner>
+			<type>bool</type>
+			<default>false</default>
+			<locale name="C">
+				<short></short>
+				<long></long>
+			</locale>
+		</schema>
+
+		<schema>
+			<key>/schemas/desktop/mate/url-handlers/vnc/enabled</key>
+			<applyto>/desktop/mate/url-handlers/vnc/enabled</applyto>
+			<owner>propono</owner>
+			<type>bool</type>
+			<default>true</default>
+			<locale name="C">
+				<short></short>
+				<long></long>
+			</locale>
+		</schema>
+
+		<schema>
+			<key>/schemas/apps/propono/shared_flag</key>
+			<applyto>/apps/propono/shared_flag</applyto>
+			<owner>propono</owner>
+			<type>bool</type>
+			<default>true</default>
+			<locale name="C">
+				<short>Whether we should leave other clients connected</short>
+				<long>When connecting to a host, the client can say to the server to leave other clients connected or to drop the existent connections. Set the value to true to share the desktop with the other clients.</long>
+			</locale>
+		</schema>
+
+		<schema>
+			<key>/schemas/apps/propono/always_show_tabs</key>
+			<applyto>/apps/propono/always_show_tabs</applyto>
+			<owner>propono</owner>
+			<type>bool</type>
+			<default>false</default>
+			<locale name="C">
+				<short>Whether we should show tabs even when there is only one active connection</short>
+				<long>Set to "true" to always show the tabs. Set to "false" to only show the tabs when there is more than one active connection.</long>
+			</locale>
+		</schema>
+
+		<schema>
+			<key>/schemas/apps/propono/show_accels</key>
+			<applyto>/apps/propono/show_accels</applyto>
+			<owner>propono</owner>
+			<type>bool</type>
+			<default>false</default>
+			<locale name="C">
+				<short>Whether we should show the menu accelerators (shortcut keys)</short>
+				<long>Set to "false" to disable menu shortcuts. Set to "true" to enable them. Note that if they are enabled, those keys will be intercepted by the menu and will not be sent to the remote host.</long>
+			</locale>
+		</schema>
+
+		<schema>
+			<key>/schemas/apps/propono/history_size</key>
+			<applyto>/apps/propono/history_size</applyto>
+			<owner>propono</owner>
+			<type>int</type>
+			<default>15</default>
+			<locale name="C">
+				<short>Maximum number of history items in connect dialog</short>
+				<long>Specifies the maximum number of items in the host dropdown entry.</long>
+			</locale>
+		</schema>
+
+		<schema>
+			<key>/schemas/apps/propono/plugins/active-plugins</key>
+			<applyto>/apps/propono/plugins/active-plugins</applyto>
+			<owner>propono</owner>
+			<type>list</type>
+			<list_type>string</list_type>
+			<default>[@ACTIVE_PLUGINS@]</default>
+			<locale name="C">
+				<short>Active plugins</short>
+				<long>List of active plugins. It contains the "Location" of the active plugins. See the .propono-plugin file for obtaining the "Location" of a given plugin.</long>
+			</locale>
+		</schema>
+
+		<schema>
+			<key>/schemas/apps/propono/always_enable_listening</key>
+			<applyto>/apps/propono/always_enable_listening</applyto>
+			<owner>propono</owner>
+			<type>bool</type>
+			<default>false</default>
+			<locale name="C">
+				<short>Whether we should start the program listening for reverse connections</short>
+				<long>Set to "true" to always start the program listening for reverse connections.</long>
+			</locale>
+		</schema>
+
+	</schemalist>
+</mateconfschemafile>

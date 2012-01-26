@@ -1,0 +1,1027 @@
+# Serbian translation of propono
+# Courtesy of Prevod.org team (http://prevod.org/) -- 2008.
+#
+# Translation updated on 2008-04-22 by cp6linux team (http://cp6linux.org/)
+#
+# This file is distributed under the same license as the propono package.
+#
+# Maintainer: Dušan Živojnov <calvin@verat.net>
+# Translated on 2009-09-13 by: Branko Kokanović <branko.kokanovic@gmail.com>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: propono\n"
+"Report-Msgid-Bugs-To: http://bugzilla.mate.org/enter_bug.cgi?"
+"product=propono&component=general\n"
+"POT-Creation-Date: 2009-09-13 01:50+0000\n"
+"PO-Revision-Date: 2009-09-13 11:05+0200\n"
+"Last-Translator: Branko Kokanović <branko.kokanovic@gmail.com>\n"
+"Language-Team:  <sr@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: ../data/MATE_ProponoApplet.xml.h:1 ../propono/propono-plugin-manager.c:495
+msgid "_About"
+msgstr "_O programu"
+
+#: ../data/MATE_ProponoApplet.xml.h:2 ../propono/propono-ui.h:37
+msgid "_Help"
+msgstr "P_omoć"
+
+#: ../data/propono.desktop.in.in.h:1 ../data/propono-file.desktop.in.in.h:1
+msgid "Access remote desktops"
+msgstr "Pristupi udaljenom računaru"
+
+#: ../data/propono.desktop.in.in.h:2 ../data/propono-file.desktop.in.in.h:2
+#: ../propono/MATE_ProponoApplet.server.in.in.h:2
+#: ../propono/propono-applet.c:434 ../propono/propono-applet.c:486
+#: ../propono/propono-main.c:198
+msgid "Remote Desktop Viewer"
+msgstr "Pregled udaljenih radnih površina"
+
+#: ../data/propono.ui.h:1
+msgid "All fields above are mandatory"
+msgstr "Sva polja iznad su obavezna"
+
+#: ../data/propono.ui.h:2
+msgid "Authentication is required"
+msgstr "Prijava je obavezna"
+
+#: ../data/propono.ui.h:3 ../propono/propono-fav.c:856
+msgid "Bookmarks"
+msgstr "Obeleživači"
+
+#: ../data/propono.ui.h:4
+msgid "Connection"
+msgstr "Veza"
+
+#: ../data/propono.ui.h:5
+msgid "Connection options"
+msgstr "Opcije veze"
+
+#: ../data/propono.ui.h:6
+msgid "Folder"
+msgstr "Fascikla"
+
+#: ../data/propono.ui.h:7 ../plugins/ssh/propono-ssh-tab.c:49
+#: ../plugins/vnc/propono-vnc-tab.c:134 ../propono/propono-fav.c:425
+msgid "Host:"
+msgstr "Računar:"
+
+#: ../data/propono.ui.h:8
+msgid "Interface"
+msgstr "Sučelje"
+
+#: ../data/propono.ui.h:9
+msgid "Options"
+msgstr "Opcije"
+
+#: ../data/propono.ui.h:10
+msgid "Parent Folder"
+msgstr "Roditeljska fascikla"
+
+#: ../data/propono.ui.h:11
+msgid "Preferences"
+msgstr "Postavke"
+
+#: ../data/propono.ui.h:12
+msgid "Which machine do you want to connect to?"
+msgstr "Na koji računar želite da se povežete?"
+
+#: ../data/propono.ui.h:13
+msgid "_Always show tabs"
+msgstr "_Uvek prikazuj listove"
+
+#. This is a button label, in the authentication dialog
+#: ../data/propono.ui.h:15
+msgid "_Authenticate"
+msgstr "Prij_avi se"
+
+#: ../data/propono.ui.h:16
+msgid "_Full screen"
+msgstr "_Ceo ekran"
+
+#: ../data/propono.ui.h:17
+msgid "_Host:"
+msgstr "_Računar:"
+
+#: ../data/propono.ui.h:18
+msgid "_Name:"
+msgstr "_Ime:"
+
+#: ../data/propono.ui.h:19
+msgid "_Password:"
+msgstr "_Šifra:"
+
+#: ../data/propono.ui.h:20
+msgid "_Protocol:"
+msgstr "_Protokol:"
+
+#: ../data/propono.ui.h:21
+msgid "_Remember this credential"
+msgstr "_Zapamti ove akreditive"
+
+#: ../data/propono.ui.h:22
+msgid "_Show menu shortcuts"
+msgstr "_Prikaži prečice u meniju"
+
+#: ../data/propono.ui.h:23
+msgid "_Username:"
+msgstr "_Korisničko ime:"
+
+#: ../data/propono.schemas.in.in.h:1 ../propono/propono-plugin-manager.c:795
+msgid "Active plugins"
+msgstr "Pokrenuti dodaci"
+
+#: ../data/propono.schemas.in.in.h:2
+msgid ""
+"List of active plugins. It contains the \"Location\" of the active plugins. "
+"See the .propono-plugin file for obtaining the \"Location\" of a given "
+"plugin."
+msgstr ""
+"Spisak pokrenutih dodataka. Sadrži „Lokaciju“ aktivnog dodatka. Pogledajte "
+"Vinagerovu datoteku dodatka da biste saznali „Lokaciju“ željenog dodatka."
+
+#: ../data/propono.schemas.in.in.h:3
+msgid "Maximum number of history items in connect dialog"
+msgstr "Maksimalan broj prethodnih stavki u prozorčetu za povezivanje"
+
+#: ../data/propono.schemas.in.in.h:4
+msgid ""
+"Set to \"false\" to disable menu shortcuts. Set to \"true\" to enable them. "
+"Note that if they are enabled, those keys will be intercepted by the menu "
+"and will not be sent to the remote host."
+msgstr ""
+"Ako je isključeno prečice menija će biti onemogućene. Ako su prečice "
+"omogućene program će prigrabiti te kombinacije tastera i neće ih poslati "
+"udaljenoj površi."
+
+#: ../data/propono.schemas.in.in.h:5
+msgid ""
+"Set to \"true\" to always show the tabs. Set to \"false\" to only show the "
+"tabs when there is more than one active connection."
+msgstr ""
+"Ako je uključeno listovi će uvek biti prikazani. Isključite da prikažete "
+"listove samo kada postoji više aktivnih veza."
+
+#: ../data/propono.schemas.in.in.h:6
+msgid "Specifies the maximum number of items in the host dropdown entry."
+msgstr "Određuje maksimalan broj stavki u listi za unos imena računara. "
+
+#: ../data/propono.schemas.in.in.h:7
+msgid "The handler for \"vnc://\" URLs"
+msgstr "Program za korišćenje URL-ova tipa \"vnc://\""
+
+#: ../data/propono.schemas.in.in.h:8
+msgid ""
+"When connecting to a host, the client can say to the server to leave other "
+"clients connected or to drop the existent connections. Set the value to true "
+"to share the desktop with the other clients."
+msgstr ""
+"Pri povezivanju na računar, klijent može da naloži serveru da zadrži ili "
+"prekine vezu sa već povezanim klijentima. Uključite da omogućite deljenje "
+"kontrole sa drugim klijentima."
+
+#: ../data/propono.schemas.in.in.h:9
+msgid "Whether we should leave other clients connected"
+msgstr "Treba li zadržati prethodne veze ka drugim klijentima"
+
+#: ../data/propono.schemas.in.in.h:10
+msgid ""
+"Whether we should show tabs even when there is only one active connection"
+msgstr "Treba li prikazati listove kada je samo jedna veza aktivna"
+
+#: ../data/propono.schemas.in.in.h:11
+msgid "Whether we should show the menu accelerators (shortcut keys)"
+msgstr "Treba li prikazati ubrzivače menija (prečice)"
+
+#: ../data/propono-mime.xml.in.h:1
+msgid "Remote Desktop (VNC) file"
+msgstr "Konfiguraciona datoteka udaljene radne površine (VNC)"
+
+#: ../data/propono-mime.xml.in.h:2
+msgid "Remote Desktop Connection"
+msgstr "Veza ka udaljenoj radnoj površini"
+
+#. vim: set ts=8:
+#: ../plugins/ssh/propono-ssh-plugin.c:70
+#: ../plugins/ssh/ssh.propono-plugin.desktop.in.h:1
+msgid "SSH"
+msgstr "SSH"
+
+#. Translators: This is a description of the SSH protocol. It appears at Connect dialog.
+#: ../plugins/ssh/propono-ssh-plugin.c:72
+msgid "Access Unix/Linux terminals"
+msgstr "Pristup UNIX/Linuks terminalima"
+
+#: ../plugins/ssh/propono-ssh-tab.c:50 ../plugins/vnc/propono-vnc-tab.c:135
+msgid "Port:"
+msgstr "Port:"
+
+#: ../plugins/ssh/ssh.propono-plugin.desktop.in.h:2
+msgid "SSH support"
+msgstr "SSH podrška"
+
+#: ../plugins/vnc/propono-vnc-connection.c:207
+#: ../plugins/vnc/propono-vnc-plugin.c:214
+#, c-format
+msgid ""
+"Bad value for 'shared' flag: %d. It is supposed to be 0 or 1. Ignoring it."
+msgstr "Loša vrednost za „deljenu“ oznaku: %d. Treba biti 0 ili 1. Ignorišem."
+
+#. Translators: this is a command line option (run propono --help)
+#: ../plugins/vnc/propono-vnc-plugin.c:66
+msgid "Enable scaled mode"
+msgstr "Omogući režim razmere"
+
+#. Translators: this is a command line option (run propono --help)
+#: ../plugins/vnc/propono-vnc-plugin.c:81
+msgid "VNC Options:"
+msgstr "VNC opcije:"
+
+#. Translators: this is a command line option (run propono --help)
+#: ../plugins/vnc/propono-vnc-plugin.c:83
+msgid "Show VNC Options"
+msgstr "Prikaži VNC opcije"
+
+#. vim: set ts=8:
+#: ../plugins/vnc/propono-vnc-plugin.c:105
+#: ../plugins/vnc/vnc.propono-plugin.desktop.in.h:1
+msgid "VNC"
+msgstr "VNC"
+
+#: ../plugins/vnc/propono-vnc-plugin.c:106
+msgid "Access Unix/Linux, Windows and other machines."
+msgstr "Pristup UNIX/Linuks, Windows i ostalim mašinama."
+
+#: ../plugins/vnc/propono-vnc-plugin.c:163
+msgid "Could not parse the file."
+msgstr "Ne mogu da obradim datoteku."
+
+#: ../plugins/vnc/propono-vnc-plugin.c:170
+msgid "The file is not a VNC one: Missing the group \"connection\"."
+msgstr "Ovo nije VNC datoteka: Nedostaje grupa „connection“."
+
+#: ../plugins/vnc/propono-vnc-plugin.c:176
+msgid "The file is not a VNC one: Missing the key \"host\"."
+msgstr "Ovo nije VNC datoteka: Nedostaje ključ „host“."
+
+#: ../plugins/vnc/propono-vnc-plugin.c:243
+msgid "VNC Options"
+msgstr "VNC opcije"
+
+#: ../plugins/vnc/propono-vnc-plugin.c:254
+#: ../plugins/vnc/propono-vnc-tab.c:654
+msgid "_View only"
+msgstr "Samo _pregled"
+
+#: ../plugins/vnc/propono-vnc-plugin.c:261
+msgid "_Scaling"
+msgstr "_Razmera"
+
+#. Translators: this is a pattern to open *.vnc files in a open dialog.
+#: ../plugins/vnc/propono-vnc-plugin.c:285
+msgid "VNC Files"
+msgstr "VNC datoteke"
+
+#: ../plugins/vnc/propono-vnc-tab.c:133
+msgid "Desktop Name:"
+msgstr "Ime radne površine:"
+
+#: ../plugins/vnc/propono-vnc-tab.c:136
+msgid "Dimensions:"
+msgstr "Dimenzije:"
+
+#: ../plugins/vnc/propono-vnc-tab.c:268
+msgid "Error connecting to host."
+msgstr "Greška prilikom povezivanja sa računarom."
+
+#. Translators: %s is a host name or IP address; %u is a code error (number).
+#: ../plugins/vnc/propono-vnc-tab.c:306
+#, c-format
+msgid "Authentication method to host %s is unsupported. (%u)"
+msgstr "Metod prijave za računar %s nije podržan. (%u)"
+
+#: ../plugins/vnc/propono-vnc-tab.c:310
+msgid "Authentication unsupported"
+msgstr "Metod prijave nije podržan"
+
+#: ../plugins/vnc/propono-vnc-tab.c:570 ../plugins/vnc/propono-vnc-tab.c:587
+msgid "Authentication error"
+msgstr "Greška pri prijavljivanju"
+
+#: ../plugins/vnc/propono-vnc-tab.c:571
+msgid "A username is required in order to access this machine."
+msgstr "Potrebno vam je korisničko ime da bi pristupili ovom računaru."
+
+#: ../plugins/vnc/propono-vnc-tab.c:588
+msgid "A password is required in order to access this machine."
+msgstr "Potrebna vam je lozinka da bi pristupili ovom računaru."
+
+#: ../plugins/vnc/propono-vnc-tab.c:639
+msgid "S_caling"
+msgstr "R_azmera"
+
+#: ../plugins/vnc/propono-vnc-tab.c:640
+msgid "Fits the remote screen into the current window size"
+msgstr "Uklapa udaljeni ekran u veličinu prozora"
+
+#: ../plugins/vnc/propono-vnc-tab.c:655
+msgid "Does not send mouse and keyboard events"
+msgstr "Ne šalje događaje miša i tastature"
+
+#: ../plugins/vnc/propono-vnc-tab.c:668
+msgid "_Original size"
+msgstr "_Izvorna veličina"
+
+#: ../plugins/vnc/propono-vnc-tab.c:669
+msgid "Adjusts the window to the remote desktop's size"
+msgstr "Prilagođava prozor veličini udaljene radne površine"
+
+#: ../plugins/vnc/propono-vnc-tab.c:692 ../plugins/vnc/propono-vnc-tab.c:766
+#: ../plugins/vnc/propono-vnc-tab.c:767
+msgid "Send Ctrl-Alt-Del"
+msgstr "Pošalji Ctrl-Alt-Del"
+
+#: ../plugins/vnc/propono-vnc-tab.c:693
+msgid "Sends Ctrl+Alt+Del to the remote machine"
+msgstr "Šalje Ctrl+Alt+Del udaljenoj mašini"
+
+#: ../plugins/vnc/propono-vnc-tab.c:745 ../plugins/vnc/propono-vnc-tab.c:746
+msgid "Scaling"
+msgstr "Razmera"
+
+#: ../plugins/vnc/propono-vnc-tab.c:755 ../plugins/vnc/propono-vnc-tab.c:756
+msgid "Read only"
+msgstr "Samo za pregled"
+
+#: ../plugins/vnc/propono-vnc-tab.c:925
+msgid ""
+"Scaling is not supported on this installation.\n"
+"\n"
+"Read the README file (shipped with Propono) in order to know how to enable "
+"this feature."
+msgstr ""
+"Razmera nije podržana u ovoj instalaciji.\n"
+"\n"
+"Pročitajte README datoteku (isporučuje su Vinager) da bi saznali kako da "
+"omogućite ovu mogućnost."
+
+#: ../plugins/vnc/vnc.propono-plugin.desktop.in.h:2
+msgid "VNC support"
+msgstr "VNC podrška"
+
+#: ../propono/MATE_ProponoApplet.server.in.in.h:1
+msgid "A menu to quickly access remote machines"
+msgstr "Meni za brz pristup udaljenim računarima"
+
+#: ../propono/MATE_ProponoApplet.server.in.in.h:3
+msgid "Propono Applet Factory"
+msgstr "Fabrika vinager programčeta"
+
+#: ../propono/propono-applet.c:277 ../propono/propono-applet.c:360
+msgid "Could not run propono:"
+msgstr "Ne mogu da pokrenem preglednika udaljene radne površine:"
+
+#: ../propono/propono-applet.c:380
+msgid "Open Remote Desktop Viewer"
+msgstr "Otvori preglednika udaljene radne površine"
+
+#: ../propono/propono-applet.c:435
+msgid "Access your bookmarks"
+msgstr "Pristupi obeleživačima"
+
+#: ../propono/propono-bookmarks.c:265 ../propono/propono-connection.c:519
+#: ../propono/propono-tab.c:533 ../propono/propono-tube-handler.c:253
+#, c-format
+msgid "The protocol %s is not supported."
+msgstr "Protokol %s nije podržan."
+
+#: ../propono/propono-bookmarks.c:343
+#, c-format
+msgid "Error while initializing bookmarks: %s"
+msgstr "Greška prilikom inicijalizovanja obeleživača: %s"
+
+#: ../propono/propono-bookmarks.c:343 ../propono/propono-bookmarks.c:458
+#: ../propono/propono-bookmarks-migration.c:135
+#: ../propono/propono-commands.c:170 ../propono/propono-connect.c:463
+#: ../propono/propono-fav.c:681 ../propono/propono-main.c:100
+#: ../propono/propono-main.c:119 ../propono/propono-window.c:266
+msgid "Unknown error"
+msgstr "Javila se nepoznata greška"
+
+#: ../propono/propono-bookmarks.c:350
+msgid "Error while initializing bookmarks: The file seems to be empty"
+msgstr "Greška prilikom inicijalizovanja obeleživača: Datoteka izgleda prazno"
+
+#: ../propono/propono-bookmarks.c:357
+msgid ""
+"Error while initializing bookmarks: The file is not a propono bookmarks file"
+msgstr ""
+"Greška prilikom inicijalizovanja obeleživača: Datoteka nije u formatu u kome "
+"se čuvaju obeleživači."
+
+#: ../propono/propono-bookmarks.c:419 ../propono/propono-bookmarks.c:426
+msgid "Error while saving bookmarks: Failed to create the XML structure"
+msgstr ""
+"Greška prilikom čuvanja obeleživača: Greška prilikom pravljenja XML strukture"
+
+#: ../propono/propono-bookmarks.c:433 ../propono/propono-bookmarks.c:440
+msgid "Error while saving bookmarks: Failed to initialize the XML structure"
+msgstr ""
+"Greška prilikom čuvanja obeleživača: Greška prilikom inicijalizacije XML "
+"strukture"
+
+#: ../propono/propono-bookmarks.c:449
+msgid "Error while saving bookmarks: Failed to finalize the XML structure"
+msgstr ""
+"Greška prilikom čuvanja obeleživača: Greška prilikom dovršavanja XML strukture"
+
+#: ../propono/propono-bookmarks.c:458
+#, c-format
+msgid "Error while saving bookmarks: %s"
+msgstr "Greška prilikom čuvanja obeleživača: %s"
+
+#: ../propono/propono-bookmarks-migration.c:95
+#: ../propono/propono-bookmarks-migration.c:102
+msgid "Error while migrating bookmarks: Failed to create the XML structure"
+msgstr ""
+"Greška prilikom prebacivanja obeleživača: Greška prilikom pravljenja XML "
+"strukture"
+
+#: ../propono/propono-bookmarks-migration.c:109
+#: ../propono/propono-bookmarks-migration.c:116
+msgid "Error while migrating bookmarks: Failed to initialize the XML structure"
+msgstr ""
+"Greška prilikom prebacivanja obeleživača: Greška prilikom inicijalizacije XML "
+"strukture"
+
+#: ../propono/propono-bookmarks-migration.c:125
+msgid "Error while migrating bookmarks: Failed to finalize the XML structure"
+msgstr ""
+"Greška prilikom prebacivanja obeleživača: Greška prilikom dovršavanja XML "
+"strukture"
+
+#: ../propono/propono-bookmarks-migration.c:135
+#: ../propono/propono-bookmarks-migration.c:238
+#, c-format
+msgid "Error while migrating bookmarks: %s"
+msgstr "Greška prilikom prebacivanja obeleživača: %s"
+
+#: ../propono/propono-bookmarks-migration.c:164
+msgid "Error while migrating bookmarks: VNC plugin is not activated"
+msgstr "Greška prilikom prebacivanja obeleživača: VNC dodatak nije aktiviran"
+
+#: ../propono/propono-bookmarks-migration.c:238
+msgid "Failed to create the directory"
+msgstr "Ne mogu da napravim fasciklu"
+
+#: ../propono/propono-bookmarks-migration.c:262
+msgid ""
+"Migrating the bookmarks file to the new format. This operation is only "
+"supposed to run once."
+msgstr ""
+"Prebacujem datoteku sa obeleživačima u novi format. Ova operacija je "
+"predviđena da se obavi samo jednom."
+
+#: ../propono/propono-bookmarks-migration.c:270
+#, c-format
+msgid "Error opening old bookmarks file: %s"
+msgstr "Greška prilikom otvaranja datoteke sa obeleživačima: %s"
+
+#: ../propono/propono-bookmarks-migration.c:271
+#: ../propono/propono-bookmarks-migration.c:283
+msgid "Migration cancelled"
+msgstr "Prebacivanje je otkazano"
+
+#: ../propono/propono-bookmarks-migration.c:280
+msgid "Could not remove the old bookmarks file"
+msgstr "Ne mogu da uklonim staru datoteku sa obeleživačima"
+
+#: ../propono/propono-bookmarks-tree.c:120
+msgid "Root Folder"
+msgstr "Korena fascikla"
+
+#: ../propono/propono-bookmarks-ui.c:78
+msgid "Invalid name for this folder"
+msgstr "Neispravno ime za ovu fasciklu"
+
+#: ../propono/propono-bookmarks-ui.c:88 ../propono/propono-bookmarks-ui.c:200
+#, c-format
+msgid ""
+"The name \"%s\" is already used in this folder. Please use a different name."
+msgstr "Već je iskorišćeno ime „%s“ u ovoj fascikli, odaberite neko drugo."
+
+#: ../propono/propono-bookmarks-ui.c:89 ../propono/propono-bookmarks-ui.c:190
+#: ../propono/propono-bookmarks-ui.c:201
+msgid "Invalid name for this item"
+msgstr "Neispravno ime za ovu stavku"
+
+#. Translators: %s is a protocol name, like VNC or SSH
+#: ../propono/propono-bookmarks-ui.c:168
+#, c-format
+msgid "(Protocol: %s)"
+msgstr "(Protokol: %s)"
+
+#. Translators: %s is a bookmark entry name
+#: ../propono/propono-bookmarks-ui.c:308
+#, c-format
+msgid "Are you sure you want to remove %s from bookmarks?"
+msgstr "Da li ste sigurni da želite da uklonite %s iz obeleživača?"
+
+#: ../propono/propono-bookmarks-ui.c:314
+msgid "Remove Folder?"
+msgstr "Da uklonim fasciklu?"
+
+#: ../propono/propono-bookmarks-ui.c:315
+msgid "Notice that all its subfolders and items will be removed as well."
+msgstr ""
+"Primetite da će sve fascikle i sve stavke ispod ove fascikle takođe biti "
+"uklonjene."
+
+#: ../propono/propono-bookmarks-ui.c:320
+msgid "Remove Item?"
+msgstr "Da uklonim stavku?"
+
+#: ../propono/propono-bookmarks-ui.c:337
+msgid "Error removing bookmark: Entry not found"
+msgstr "Greška prilikom brisanja obeleživača: Unos nije nađen"
+
+#: ../propono/propono-bookmarks-ui.c:354
+msgid "New Folder"
+msgstr "Nova fascikla"
+
+#: ../propono/propono-commands.c:120
+msgid "Choose the file"
+msgstr "Izaberite datoteku"
+
+#: ../propono/propono-commands.c:148
+msgid "There are none supported files"
+msgstr "Ne postoje nijedna podržana datoteka"
+
+#: ../propono/propono-commands.c:148
+msgid ""
+"None of the active plugins offer a supported file to be open. Activate some "
+"plugins and try again."
+msgstr ""
+"Nijedan od aktivnih dodataka ne podržava otvaranje datoteke. Aktivirajte neke "
+"dodatke i probajte ponovo."
+
+#: ../propono/propono-commands.c:181
+msgid "The following file could not be opened:"
+msgid_plural "The following files could not be opened:"
+msgstr[0] "Ne mogu da otvorim sledeću datoteku:"
+msgstr[1] "Ne mogu da otvorim sledeće datoteke:"
+msgstr[2] "Ne mogu da otvorim sledeće datoteke:"
+
+#: ../propono/propono-connect.c:86 ../propono/propono-connect.c:330
+#: ../propono/propono-connect.c:428
+msgid "Could not get the active protocol in the protocol list."
+msgstr "Ne mogu da uzmem aktivni protokol iz spiska protokola."
+
+#: ../propono/propono-connect.c:313
+#, c-format
+msgid "Error while saving history file: %s"
+msgstr "Greška prilikom čuvanja istorijata: %s"
+
+#: ../propono/propono-connect.c:340
+msgid "Choose a Remote Desktop"
+msgstr "Odaberite udaljenu radnu površinu"
+
+#: ../propono/propono-connection.c:627
+msgid "Could not open the file."
+msgstr "Ne mogu da otvorim datoteku."
+
+#: ../propono/propono-connection.c:651
+msgid "The file was not recognized by any of the plugins."
+msgstr "Nijedan dodatak nije prepoznao datoteku."
+
+#: ../propono/propono-fav.c:670
+msgid "Invalid operation"
+msgstr "Neispravna operacija"
+
+#: ../propono/propono-fav.c:671
+msgid "Data received from drag&drop operation is invalid."
+msgstr "Podaci primljeni iz operacije prevlačenja nisu ispravni."
+
+#: ../propono/propono-fav.c:871
+msgid "Hosts nearby"
+msgstr "Računari u blizini"
+
+#. Translators: this is a command line option (run propono --help)
+#: ../propono/propono-main.c:62
+msgid "Open propono in fullscreen mode"
+msgstr "Otvara Vinager u režimu preko celog ekrana"
+
+#. Translators: this is a command line option (run propono --help)
+#: ../propono/propono-main.c:66
+msgid "Create a new toplevel window in an existing instance of propono"
+msgstr "Pravi novi prozor u već pokrenutom programu"
+
+#. Translators: this is a command line option (run propono --help)
+#: ../propono/propono-main.c:70
+msgid "Open a file recognized by propono"
+msgstr "Otvara datoteku koju Vinager prepozna"
+
+#: ../propono/propono-main.c:70
+msgid "filename"
+msgstr "ime datoteke"
+
+#. Translators: this is a command line option (run propono --help)
+#: ../propono/propono-main.c:75
+msgid "[server:port]"
+msgstr "[server:port]"
+
+#: ../propono/propono-main.c:130
+msgid "The following error has occurred:"
+msgid_plural "The following errors have occurred:"
+msgstr[0] "Javio se sledeći problem:"
+msgstr[1] "Javili su se sledeći problemi:"
+msgstr[2] "Javili su se sledeći problemi:"
+
+#. Setup command line options
+#: ../propono/propono-main.c:169
+msgid "- Remote Desktop Viewer"
+msgstr "- Pregled udaljenih radnih površina"
+
+#: ../propono/propono-main.c:193
+msgid ""
+"Run 'propono --help' to see a full list of available command line options"
+msgstr ""
+"Pokrenite 'propono --help' ako želite da vidite potpunu listu dostupnih "
+"opcija"
+
+#: ../propono/propono-mdns.c:144
+#, c-format
+msgid "Failed to resolve avahi hostname: %s\n"
+msgstr "Ne mogu da razlučim avahi ime: %s\n"
+
+#: ../propono/propono-mdns.c:202
+#, c-format
+msgid "Plugin %s has already registered a browser for service %s."
+msgstr "Dodatak %s je već registrovao pregledača za uslugu %s."
+
+#: ../propono/propono-mdns.c:211
+#, c-format
+msgid "Failed to add mDNS browser for service %s."
+msgstr "Ne mogu da dodam mDNS pretraživač za uslugu %s."
+
+#: ../propono/propono-mdns.c:227
+#, c-format
+msgid "Failed to browse for hosts: %s\n"
+msgstr "Ne mogu da razgledam računar: %s\n"
+
+#: ../propono/propono-mdns.c:300
+#, c-format
+msgid "Failed to initialize mDNS browser: %s\n"
+msgstr "Neuspelo pokretanje mDNS pretraživača: %s\n"
+
+#. Translators: %s is a host name or IP address.
+#: ../propono/propono-notebook.c:461
+#, c-format
+msgid "Connection to host %s was closed."
+msgstr "Veza sa računarom %s je zatvorena."
+
+#: ../propono/propono-notebook.c:463
+msgid "Connection closed"
+msgstr "Veza je zatvorena"
+
+#. Translators: %s is a host name or IP address.
+#: ../propono/propono-notebook.c:482
+#, c-format
+msgid "Authentication to host %s has failed"
+msgstr "Prijava za računar %s nije uspela"
+
+#: ../propono/propono-notebook.c:488
+msgid "Authentication failed"
+msgstr "Prijava nije uspela"
+
+#: ../propono/propono-notebook.c:525
+msgid "Connecting..."
+msgstr "Povezujem se..."
+
+#: ../propono/propono-notebook.c:552 ../propono/propono-tab.c:325
+msgid "Close connection"
+msgstr "Zatvori vezu"
+
+#: ../propono/propono-plugin-dialog.c:83
+msgid "Plugin Manager"
+msgstr "Upravnik dodacima"
+
+#: ../propono/propono-plugin-manager.c:45
+msgid "Plugin"
+msgstr "Dodatak"
+
+#: ../propono/propono-plugin-manager.c:46
+msgid "Enabled"
+msgstr "Omogućen"
+
+#: ../propono/propono-plugin-manager.c:503
+msgid "C_onfigure"
+msgstr "P_odesi"
+
+#: ../propono/propono-plugin-manager.c:512
+msgid "A_ctivate"
+msgstr "A_ktiviraj"
+
+#: ../propono/propono-plugin-manager.c:523
+msgid "Ac_tivate All"
+msgstr "Ak_tiviraj sve"
+
+#: ../propono/propono-plugin-manager.c:528
+msgid "_Deactivate All"
+msgstr "_Deaktiviraj sve"
+
+#: ../propono/propono-plugin-manager.c:824
+msgid "_About Plugin"
+msgstr "_O dodatku"
+
+#: ../propono/propono-plugin-manager.c:828
+msgid "C_onfigure Plugin"
+msgstr "P_odesi dodatak"
+
+#: ../propono/propono-prefs.c:227
+msgid "Cannot initialize preferences manager."
+msgstr "Ne mogu da inicijalizujem upravnika preferencija"
+
+#: ../propono/propono-tab.c:346
+msgid "Leave fullscreen"
+msgstr "Napusti ceo ekran"
+
+#: ../propono/propono-tab.c:495
+msgid "Error saving recent connection."
+msgstr "Greška prilikom čuvanja nedavnih veza"
+
+#: ../propono/propono-tab.c:728
+msgid "Error saving the credentials on the keyring."
+msgstr "Greška prilikom čuvanja šifri u privesku ključeva."
+
+#: ../propono/propono-tab.c:814
+msgid "Could not get a screenshot of the connection."
+msgstr "Ne mogu da uzmem snimak ekrana aktivne veze."
+
+#: ../propono/propono-tab.c:819
+msgid "Save Screenshot"
+msgstr "Čuva snimak ekrana"
+
+#: ../propono/propono-tab.c:830
+#, c-format
+msgid "Screenshot of %s"
+msgstr "Snimak ekrana %s"
+
+#: ../propono/propono-tab.c:881
+msgid "Error saving screenshot"
+msgstr "Greška prilikom čuvanja snimka ekrana"
+
+#: ../propono/propono-tube-handler.c:229
+#, c-format
+msgid "Impossible to get service property: %s"
+msgstr "Ne mogu da preuzmem svojstvo servisa: %s"
+
+#: ../propono/propono-tube-handler.c:286
+#, c-format
+msgid "Impossible to create the connection: %s"
+msgstr "Ne mogu da napravim vezu: %s"
+
+#: ../propono/propono-tube-handler.c:325
+#, c-format
+msgid "Impossible to accept the stream tube: %s"
+msgstr "Ne mogu da prihvatitim kanal toka: %s"
+
+#: ../propono/propono-tube-handler.c:463
+#, c-format
+msgid "Impossible to get the contact name: %s"
+msgstr "Ne mogu da preuzmem ime kontakta: %s"
+
+#: ../propono/propono-tube-handler.c:498
+#, c-format
+msgid "Impossible to get the avatar: %s"
+msgstr "Ne mogu da preuzmem avatar: %s"
+
+#: ../propono/propono-tube-handler.c:519
+#, c-format
+msgid "%s wants to share his desktop with you."
+msgstr "%s želi da deli svoju radnu površinu sa vama."
+
+#: ../propono/propono-tube-handler.c:524
+msgid "Desktop sharing invitation"
+msgstr "Pozivnica za deljenje radne površine"
+
+#. Toplevel
+#: ../propono/propono-ui.h:33
+msgid "_Machine"
+msgstr "_Računar"
+
+#: ../propono/propono-ui.h:34
+msgid "_Edit"
+msgstr "_Prepravi"
+
+#: ../propono/propono-ui.h:35
+msgid "_View"
+msgstr "P_regledaj"
+
+#: ../propono/propono-ui.h:36
+msgid "_Bookmarks"
+msgstr "_Obeleživači"
+
+#: ../propono/propono-ui.h:41
+msgid "Connect to a remote machine"
+msgstr "Povezuje se na udaljeni računar"
+
+#: ../propono/propono-ui.h:43
+msgid "Open a .VNC file"
+msgstr "Otvara .vnc datoteku"
+
+#: ../propono/propono-ui.h:45
+msgid "Quit the program"
+msgstr "Izlazi iz programa"
+
+#: ../propono/propono-ui.h:49
+msgid "Edit the application preferences"
+msgstr "Menja postavke programa"
+
+#. FIXME: Study this dialog for next release
+#. { "EditPlugins", GTK_STOCK_EXECUTE, N_("_Plugins"), NULL,
+#. N_("Select plugins"), G_CALLBACK (propono_cmd_edit_plugins) },
+#.
+#. Bookmarks menu
+#: ../propono/propono-ui.h:56
+msgid "_Open bookmark"
+msgstr "_Otvori obeleživač"
+
+#: ../propono/propono-ui.h:57
+msgid "Connect to this machine"
+msgstr "Povezuje se na ovaj računar"
+
+#: ../propono/propono-ui.h:58
+msgid "_Edit bookmark"
+msgstr "_Prepravi obeleživač"
+
+#: ../propono/propono-ui.h:59
+msgid "Edit the details of selected bookmark"
+msgstr "Prepravlja detalje odabranih obeleživača"
+
+#: ../propono/propono-ui.h:60
+msgid "_Remove from bookmarks"
+msgstr "_Ukloni iz obeleživača"
+
+#: ../propono/propono-ui.h:61
+msgid "Remove current selected connection from bookmarks"
+msgstr "Uklanja trenutno odabranu vezu iz obeleživača"
+
+#: ../propono/propono-ui.h:62
+msgid "_New Folder"
+msgstr "_Nova fascikla"
+
+#: ../propono/propono-ui.h:63
+msgid "Create a new folder"
+msgstr "Pravi novu fasciklu"
+
+#. Help menu
+#: ../propono/propono-ui.h:66
+msgid "_Contents"
+msgstr "_Sadržaj"
+
+#: ../propono/propono-ui.h:67
+msgid "Open the propono manual"
+msgstr "Otvara korisničko uputstvo za Pregled udaljenih radnih površina"
+
+#: ../propono/propono-ui.h:69
+msgid "About this application"
+msgstr "O ovom programu"
+
+#: ../propono/propono-ui.h:74
+msgid "_Toolbar"
+msgstr "_Paleta alatki"
+
+#: ../propono/propono-ui.h:75
+msgid "Show or hide the toolbar"
+msgstr "Prikazuje ili sakriva paletu alatki"
+
+#: ../propono/propono-ui.h:78
+msgid "_Statusbar"
+msgstr "_Statusna linija"
+
+#: ../propono/propono-ui.h:79
+msgid "Show or hide the statusbar"
+msgstr "Prikazuje ili sakriva statusnu liniju"
+
+#: ../propono/propono-ui.h:82
+msgid "Side _Panel"
+msgstr "_Panel sa strane"
+
+#: ../propono/propono-ui.h:83
+msgid "Show or hide the side panel"
+msgstr "Prikazuje ili sakriva pano za sa strane"
+
+#: ../propono/propono-ui.h:91
+msgid "Close the current connection"
+msgstr "Zatvara trenutnu vezu"
+
+#: ../propono/propono-ui.h:92
+msgid "C_lose All"
+msgstr "Z_atvori sve"
+
+#: ../propono/propono-ui.h:93
+msgid "Close all active connections"
+msgstr "Zatvara sve aktivne veze"
+
+#. Bookmarks menu
+#: ../propono/propono-ui.h:96
+msgid "_Add to bookmarks"
+msgstr "_Dodaj u obeleživače"
+
+#: ../propono/propono-ui.h:97
+msgid "Add current connection to your bookmarks"
+msgstr "Dodaje trenutnu vezu u obeleživače"
+
+#. Machine menu
+#: ../propono/propono-ui.h:104
+msgid "Take screenshot"
+msgstr "Snimi ekran"
+
+#: ../propono/propono-ui.h:105
+msgid "Take a screenshot of active connection"
+msgstr "Uzima snimak ekrana trenutno aktivne veze"
+
+#: ../propono/propono-ui.h:109
+msgid "View the current machine in full screen"
+msgstr "Pregleda ovaj računar preko celog ekrana"
+
+#: ../propono/propono-utils.c:75
+msgid "An error has occurred:"
+msgstr "Javila se sledeća greška:"
+
+#: ../propono/propono-utils.c:150
+#, c-format
+msgid "Could not load builder file: %s"
+msgstr "Ne mogu da otvorim datoteku izgradnje: %s"
+
+#: ../propono/propono-utils.c:453
+msgid "Propono is a remote desktop viewer for the MATE Desktop"
+msgstr "Vinager je Gnomov pregledač udaljenih radnih površina"
+
+#: ../propono/propono-utils.c:456
+msgid ""
+"Propono is free software; you can redistribute it and/or modify it under the "
+"terms of the GNU General Public License as published by the Free Software "
+"Foundation; either version 2 of the License, or (at your option) any later "
+"version."
+msgstr ""
+"Vinager je slobodan softver; možete ga prosleđivati drugima i/ili ga "
+"prepravljati pod uslovima GNU Opšte javne licence (GNU General Public "
+"License) koju objavljuje Fondacija slobodnog softvera (Free Software "
+"Foundation); i to verzije 2 ove licence ili, po vašem mišljenju, bilo koje "
+"novije verzije."
+
+#: ../propono/propono-utils.c:460
+msgid ""
+"Propono is distributed in the hope that it will be useful, but WITHOUT ANY "
+"WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS "
+"FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more "
+"details."
+msgstr ""
+"Vinager se distribuira u nadi da će biti koristan, ali NEMA NIKAKVIH "
+"GARANCIJA; čak ni implicitnih garancija za UPOTREBNU VREDNOST ili NAMENE U "
+"ODREĐENE SVRHE. Pogledajte Gnuovu Opštu javnu licencu ( GNU General Public "
+"License) za više informacija."
+
+#: ../propono/propono-utils.c:464
+msgid ""
+"You should have received a copy of the GNU General Public License along with "
+"this program. If not, see <http://www.gnu.org/licenses/>."
+msgstr ""
+"Trebalo bi da ste zajedno sa ovim programom primili i kopiju GNUOVE Opšte "
+"javne licence (GNU General Public License). Ako niste, pogledajte <http://"
+"www.gnu.org/licenses/>."
+
+#: ../propono/propono-utils.c:486
+msgid "translator-credits"
+msgstr ""
+"Marko Uskoković <marko.uskokovic@cp6linux.org>\n"
+"Goran Rakić <grakic@devbase.net>\n"
+"Branko Kokanović <branko.kokanovic@gmail.com>\n"
+"\n"
+"Prevod.org — prevod na srpski jezik."
+
+#: ../propono/propono-utils.c:489
+msgid "Propono Website"
+msgstr "Veb mesto projekta  Vinager"
+
+#: ../propono/propono-window.c:397
+#, c-format
+msgid "Could not merge propono-ui.xml: %s"
+msgstr "Ne mogu da spojim propono-ui.xml: %s"
+
+#: ../propono/propono-window.c:425
+msgid "_Recent connections"
+msgstr "_Nedavne veze"
+
+#. Translators: This is server:port, a statusbar tooltip when mouse is over a bookmark item on menu
+#: ../propono/propono-window.c:585
+#, c-format
+msgid "Open %s:%d"
+msgstr "Otvara %s:%d"

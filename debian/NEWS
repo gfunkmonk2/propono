@@ -1,0 +1,8 @@
+propono (2.23.4-1) unstable; urgency=low
+
+  * Since 2.23.4, Propono follows the XDG Base Directory Specification,
+    which means it will use ~/.local/share/propono to store bookmarks,
+    instead of ~/.mate2/propono.bookmarks. The migration will happen
+    automatically if there's no ~/.local/share/propono file yet.
+
+ -- Emilio Pozuelo Monfort <pochu@ubuntu.com>  Mon, 07 Jul 2008 23:52:46 +0200

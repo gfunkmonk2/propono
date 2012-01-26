@@ -1,0 +1,770 @@
+# Vietnamese translation for Propono.
+# Copyright © 2009 MATE i18n Project for Vietnamese.
+# Clytie Siddall <clytie@riverland.net.au>, 2008-2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: propono 2.25.90\n"
+"Report-Msgid-Bugs-To: http://bugzilla.mate.org/enter_bug.cgi?product=propono&component=general\n"
+"POT-Creation-Date: 2009-01-12 14:52+0000\n"
+"PO-Revision-Date: 2009-02-08 00:05+0930\n"
+"Last-Translator: Clytie Siddall <clytie@riverland.net.au>\n"
+"Language-Team: Vietnamese <vi-VN@googlegroups.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: LocFactoryEditor 1.8\n"
+
+#: ../data/MATE_ProponoApplet.xml.h:1
+msgid "_About"
+msgstr "_Giới thiệu"
+
+#: ../data/MATE_ProponoApplet.xml.h:2
+#: ../src/propono-ui.h:37
+msgid "_Help"
+msgstr "Trợ g_iúp"
+
+#: ../data/propono.desktop.in.in.h:1
+#: ../data/propono-file.desktop.in.in.h:1
+msgid "Access remote desktops"
+msgstr "Truy cập đến màn hình nền từ xa"
+
+#: ../data/propono.desktop.in.in.h:2
+#: ../data/propono-file.desktop.in.in.h:2
+#: ../src/MATE_ProponoApplet.server.in.in.h:2
+#: ../src/propono-applet.c:258
+#: ../src/propono-applet.c:264
+#: ../src/propono-main.c:151
+msgid "Remote Desktop Viewer"
+msgstr "Bộ Xem Màn Hình Nền Từ Xa"
+
+#: ../data/propono.glade.h:1
+msgid "<b>Authentication is required</b>"
+msgstr "<b>Yêu cầu xác thực</b>"
+
+#: ../data/propono.glade.h:2
+msgid "<b>Connection options</b>"
+msgstr "<b>Tùy chọn kết nối</b>"
+
+#: ../data/propono.glade.h:3
+#| msgid "<b>Connection options</b>"
+msgid "<b>Connection</b>"
+msgstr "<b>Kết nối</b>"
+
+#: ../data/propono.glade.h:4
+msgid "<b>Folder</b>"
+msgstr "<b>Thư mục</b>"
+
+#: ../data/propono.glade.h:5
+msgid "<b>Interface</b>"
+msgstr "<b>Giao diện</b>"
+
+#: ../data/propono.glade.h:6
+#| msgid "<b>Connection options</b>"
+msgid "<b>Options</b>"
+msgstr "<b>Tuỳ chọn</b>"
+
+#: ../data/propono.glade.h:7
+msgid "<b>Parent Folder</b>"
+msgstr "<b>Thư mục cha</b>"
+
+#: ../data/propono.glade.h:8
+msgid "<b>Which machine do you want to connect to?</b>"
+msgstr "<b>Bạn có muốn kết nối tới máy nào?</b>"
+
+#: ../data/propono.glade.h:9
+#: ../src/propono-fav.c:846
+msgid "Bookmarks"
+msgstr "Liên kết lưu"
+
+#: ../data/propono.glade.h:10
+#: ../src/propono-fav.c:422
+#: ../src/propono-tab.c:999
+msgid "Host:"
+msgstr "Máy:"
+
+#: ../data/propono.glade.h:11
+msgid "Preferences"
+msgstr "Tuỳ thích"
+
+#: ../data/propono.glade.h:12
+#: ../data/propono.schemas.in.h:8
+msgid "Whether we should show tabs even when there is only one active connection"
+msgstr "Có nên hiển thị các thẻ ngay cả khi chỉ có một kết nối đang chạy, hay không"
+
+#: ../data/propono.glade.h:13
+#: ../data/propono.schemas.in.h:9
+msgid "Whether we should show the menu accelerators (shortcut keys)"
+msgstr "Có nên hiển thị các phím tắt hay không"
+
+#: ../data/propono.glade.h:14
+msgid "_Always show tabs"
+msgstr "Lúc nà_o hiện thẻ"
+
+#: ../data/propono.glade.h:15
+msgid "_Full screen"
+msgstr "T_oàn màn hình"
+
+#: ../data/propono.glade.h:16
+msgid "_Host:"
+msgstr "_Máy:"
+
+#: ../data/propono.glade.h:17
+msgid "_Name:"
+msgstr "Tê_n:"
+
+#: ../data/propono.glade.h:18
+msgid "_Password:"
+msgstr "_Mật khẩu :"
+
+#: ../data/propono.glade.h:19
+#| msgid "_Remember this password"
+msgid "_Remember this credential"
+msgstr "_Nhớ thông tin xác thực này"
+
+#: ../data/propono.glade.h:20
+msgid "_Scaling"
+msgstr "_Co giãn"
+
+#: ../data/propono.glade.h:21
+msgid "_Show menu shortcuts"
+msgstr "_Hiện phím tắt trình đơn"
+
+#: ../data/propono.glade.h:22
+#| msgid "_Name:"
+msgid "_Username:"
+msgstr "Tên người _dùng:"
+
+#: ../data/propono.glade.h:23
+msgid "_View only"
+msgstr "Chỉ _xem"
+
+#. Tooltip for host entry in connect dialog
+#: ../data/propono.glade.h:25
+msgid "host or host:display or host::port"
+msgstr "« máy » hay « máy:trình_bày » hay « máy::cổng »"
+
+#: ../data/propono.schemas.in.h:1
+msgid "Maximum number of history items in connect dialog"
+msgstr "Số tối đa các mục lược sử trong hộp thoại kết nối"
+
+#: ../data/propono.schemas.in.h:2
+msgid "Set to \"false\" to disable menu shortcuts. Set to \"true\" to enable them. Note that if they are enabled, those keys will be intercepted by the menu and will not be sent to the remote host."
+msgstr "Đặt thành \"false\" (sai) để tắt các phím tắt của trình đơn. Đặt thành \"true\" (đúng) để bật phím tắt lại. Bật thì mỗi phím tắt bị trình đơn gián đoạn nên không gửi cho máy từ xa."
+
+#: ../data/propono.schemas.in.h:3
+msgid "Set to \"true\" to always show the tabs. Set to \"false\" to only show the tabs when there is more than one active connection."
+msgstr "Đặt thành \"true\" (đúng) để hiển thị các thẻ luôn luôn. Đặt thành \"false\" (sai) để chỉ hiển thị các thẻ khi có nhiều kết nối đang chạy."
+
+#: ../data/propono.schemas.in.h:4
+msgid "Specifies the maximum number of items in the host dropdown entry."
+msgstr "Ghi rõ số tối đa các mục trong danh sách máy thả xuống."
+
+#: ../data/propono.schemas.in.h:5
+msgid "The handler for \"vnc://\" URLs"
+msgstr "Bộ thao tác các địa chỉ URL kiểu « vnc:// »"
+
+#: ../data/propono.schemas.in.h:6
+#| msgid ""
+#| "When connecting to a host, the client can say to the server to leave "
+#| "others clients connected or to drop the existent connections. Set the "
+#| "value to true to share the desktop with the others clients."
+msgid "When connecting to a host, the client can say to the server to leave other clients connected or to drop the existent connections. Set the value to true to share the desktop with the other clients."
+msgstr "Khi kết nối tới một máy, ứng dụng khách có thể yêu cầu trình phục vụ để lại các ứng dụng khách được kết nối, hoặc bỏ lại các kết nối đã có. Đặt thành \"true\" (đúng) để chia sẻ màn hình nền với các ứng dụng khách khác."
+
+#: ../data/propono.schemas.in.h:7
+msgid "Whether we should leave other clients connected"
+msgstr "Có nên để lại các ứng dụng khách được kết nối hay không"
+
+#: ../data/propono-mime.xml.in.h:1
+msgid "Remote Desktop (VNC) file"
+msgstr "Tập tin màn hình nền từ xa (VNC)"
+
+#: ../data/propono-mime.xml.in.h:2
+msgid "Remote Desktop Connection"
+msgstr "Kết nối tới màn hình nền từ xa"
+
+#: ../src/MATE_ProponoApplet.server.in.in.h:1
+#| msgid "Connect into a remote machine"
+msgid "A menu to quickly access remote machines"
+msgstr "Một trình đơn để truy cập nhanh đến máy từ xa"
+
+#: ../src/MATE_ProponoApplet.server.in.in.h:3
+msgid "Propono Applet Factory"
+msgstr "Bộ tạo Tiểu dụng Propono"
+
+#: ../src/propono-applet.c:100
+#: ../src/propono-applet.c:178
+#| msgid "Could not merge propono-ui.xml: %s"
+msgid "Could not run propono:"
+msgstr "Không thể chạy propono:"
+
+#: ../src/propono-applet.c:198
+#| msgid "Remote Desktop Viewer"
+msgid "Open Remote Desktop Viewer"
+msgstr "Mở Bộ Xem Màn Hình Nền Từ Xa"
+
+#: ../src/propono-applet.c:265
+#| msgid "_Add to bookmarks"
+msgid "Access your bookmarks"
+msgstr "Truy cập đến các liên kết lưu của mình"
+
+#: ../src/propono-bookmarks.c:344
+#, c-format
+msgid "Error while initializing bookmarks: %s"
+msgstr "Gặp lỗi khi sơ khởi các liên kết lưu : %s"
+
+#: ../src/propono-bookmarks.c:344
+#: ../src/propono-bookmarks.c:459
+#: ../src/propono-bookmarks-migration.c:133
+#: ../src/propono-commands.c:145
+#: ../src/propono-connect.c:275
+#: ../src/propono-fav.c:678
+#: ../src/propono-main.c:85
+#: ../src/propono-main.c:104
+#: ../src/propono-window.c:279
+msgid "Unknown error"
+msgstr "Lỗi không rõ"
+
+#: ../src/propono-bookmarks.c:351
+#| msgid "Error while initializing bookmarks: %s"
+msgid "Error while initializing bookmarks: The file seems to be empty"
+msgstr "Gặp lỗi khi sơ khởi các liên kết lưu : tập tin hình như trống"
+
+#: ../src/propono-bookmarks.c:358
+#| msgid "Error while initializing bookmarks: %s"
+msgid "Error while initializing bookmarks: The file is not a propono bookmarks file"
+msgstr "Gặp lỗi khi sơ khởi các liên kết lưu : tập tin không phải là một tập tin liên kết lưu propono"
+
+#: ../src/propono-bookmarks.c:420
+#: ../src/propono-bookmarks.c:427
+#| msgid "Error while saving bookmarks: %s"
+msgid "Error while saving bookmarks: Failed to create the XML structure"
+msgstr "Gặp lỗi khi lưu lại các liên kết : không tạo được cấu trúc XML"
+
+#: ../src/propono-bookmarks.c:434
+#: ../src/propono-bookmarks.c:441
+#| msgid "Error while saving bookmarks: %s"
+msgid "Error while saving bookmarks: Failed to initialize the XML structure"
+msgstr "Gặp lỗi khi lưu lại các liên kết : không sơ khởi được cấu trúc XML"
+
+#: ../src/propono-bookmarks.c:450
+#| msgid "Error while saving bookmarks: %s"
+msgid "Error while saving bookmarks: Failed to finalize the XML structure"
+msgstr "Gặp lỗi khi lưu lại các liên kết : không kết thúc được cấu trúc XML"
+
+#: ../src/propono-bookmarks.c:459
+#, c-format
+msgid "Error while saving bookmarks: %s"
+msgstr "Gặp lỗi khi lưu lại các liên kết : %s"
+
+#: ../src/propono-bookmarks-migration.c:93
+#: ../src/propono-bookmarks-migration.c:100
+msgid "Error while migrating bookmarks: Failed to create the XML structure"
+msgstr "Lỗi khi nâng cấp các liên kết lưu : không tạo được cấu trúc XML"
+
+#: ../src/propono-bookmarks-migration.c:107
+#: ../src/propono-bookmarks-migration.c:114
+msgid "Error while migrating bookmarks: Failed to initialize the XML structure"
+msgstr "Lỗi khi nâng cấp các liên kết lưu : không sơ khởi được cấu trúc XML"
+
+#: ../src/propono-bookmarks-migration.c:123
+msgid "Error while migrating bookmarks: Failed to finalize the XML structure"
+msgstr "Lỗi khi nâng cấp các liên kết lưu : không kết thúc được cấu trúc XML"
+
+#: ../src/propono-bookmarks-migration.c:133
+#: ../src/propono-bookmarks-migration.c:231
+#, c-format
+#| msgid "Error while saving bookmarks: %s"
+msgid "Error while migrating bookmarks: %s"
+msgstr "Gặp lỗi khi nâng cấp các liên kết lưu : %s"
+
+#: ../src/propono-bookmarks-migration.c:231
+msgid "Failed to create the directory"
+msgstr "Lỗi tạo thư mục"
+
+#: ../src/propono-bookmarks-migration.c:255
+#| msgid ""
+#| "Copying the bookmarks file to the new location. This operation is "
+#| "supposed to run only once."
+msgid "Migrating the bookmarks file to the new format. This operation is only supposed to run once."
+msgstr "Đang nâng cấp các liên kết lưu sang định dạng mới. Thao tác này nên chạy chỉ một lần."
+
+#: ../src/propono-bookmarks-migration.c:263
+#, c-format
+#| msgid "Error while saving bookmarks: %s"
+msgid "Error opening old bookmarks file: %s"
+msgstr "Gặp lỗi khi mở tập tin liên kết lưu cũ : %s"
+
+#: ../src/propono-bookmarks-migration.c:264
+#: ../src/propono-bookmarks-migration.c:276
+msgid "Migration cancelled"
+msgstr "Nâng cấp bị thôi"
+
+#: ../src/propono-bookmarks-migration.c:273
+msgid "Could not remove the old bookmarks file"
+msgstr "Không thể gỡ bỏ tập tin liên kết lưu cũ"
+
+#: ../src/propono-bookmarks-tree.c:120
+msgid "Root Folder"
+msgstr "Thư mục gốc"
+
+#: ../src/propono-bookmarks-ui.c:66
+msgid "Invalid name for this folder"
+msgstr "Tên không hợp lệ đối với thư mục này"
+
+#: ../src/propono-bookmarks-ui.c:236
+#, c-format
+msgid "Are you sure you want to remove <i>%s</i> from bookmarks?"
+msgstr "Bạn chắc chắn muốn gỡ bỏ <i>%s</i> khỏi các liên kết lưu không?"
+
+#: ../src/propono-bookmarks-ui.c:241
+msgid "Remove Folder?"
+msgstr "Bỏ thư mục ?"
+
+#: ../src/propono-bookmarks-ui.c:242
+msgid "Notice that all its subfolders and items will be removed as well."
+msgstr "Ghi chú rằng tất cả các thư mục con và mục bên trong sẽ cũng bị gỡ bỏ."
+
+#: ../src/propono-bookmarks-ui.c:247
+msgid "Remove Item?"
+msgstr "Bỏ mục ?"
+
+#: ../src/propono-bookmarks-ui.c:264
+#| msgid "Error while saving bookmarks: %s"
+msgid "Error removing bookmark: Entry not found"
+msgstr "Gặp lỗi khi gỡ bỏ liên kết lưu : không tìm thấy mục nhập"
+
+#: ../src/propono-bookmarks-ui.c:281
+msgid "New Folder"
+msgstr "Thư mục mới"
+
+#: ../src/propono-commands.c:113
+msgid "Choose the file"
+msgstr "Chọn tập tin"
+
+#: ../src/propono-commands.c:124
+#: ../src/propono-tab.c:1082
+msgid "Supported formats"
+msgstr "Các định dạng được hỗ trợ"
+
+#: ../src/propono-commands.c:156
+msgid "The following file could not be opened:"
+msgid_plural "The following files could not be opened:"
+msgstr[0] "Không thể mở tập tin theo đây:"
+
+#: ../src/propono-connect.c:179
+#, c-format
+msgid "Error while saving history file: %s"
+msgstr "Gặp lỗi khi lưu tập tin lược sử : %s"
+
+#: ../src/propono-connect.c:191
+msgid "Choose a VNC Server"
+msgstr "Chọn máy phục vụ VNC"
+
+#: ../src/propono-connection.c:600
+#, c-format
+msgid "The protocol %s is not supported."
+msgstr "Không hỗ trợ giao thức %s."
+
+#: ../src/propono-connection.c:695
+#| msgid "Choose the file"
+msgid "Could not open the file."
+msgstr "Không thể mở tập tin đó."
+
+#: ../src/propono-connection.c:714
+#| msgid "Choose the file"
+msgid "Could not parse the file."
+msgstr "Không thể phân tích cú pháp của tập tin đó."
+
+#: ../src/propono-connection.c:759
+#, c-format
+msgid "Bad value for 'shared' flag: %d. It is supposed to be 0 or 1. Ignoring it."
+msgstr "Giá trị sai đối với cờ « shared » (dùng chung): %d. Nó nên là 0 hay 1. Vì thế đang bỏ qua nó."
+
+#: ../src/propono-connection.c:765
+msgid "Could not find the host address in the file."
+msgstr "Không tìm thấy địa chỉ máy trong tập tin."
+
+#: ../src/propono-fav.c:667
+msgid "Invalid operation"
+msgstr "Thao tác không hợp lệ"
+
+#: ../src/propono-fav.c:668
+msgid "Data received from drag&drop operation is invalid."
+msgstr "Dữ liệu sai được nhận từ thao tác kéo-và-thả."
+
+#: ../src/propono-fav.c:861
+msgid "Hosts nearby"
+msgstr "Mấy gần"
+
+#: ../src/propono-main.c:53
+msgid "Opens a .vnc file"
+msgstr "Mở một tập tin .vnc"
+
+#: ../src/propono-main.c:53
+msgid "filename"
+msgstr "tên tập tin"
+
+#: ../src/propono-main.c:56
+msgid "Create a new toplevel window in an existing instance of propono"
+msgstr "Tạo một cửa sổ cấp đầu mới trong một tiến trình propono đang chạy"
+
+#: ../src/propono-main.c:60
+msgid "[server:port]"
+msgstr "[máy_phục_vụ:cổng]"
+
+#: ../src/propono-main.c:115
+msgid "The following error has occurred:"
+msgid_plural "The following errors have occurred:"
+msgstr[0] "Gặp lỗi theo đây:"
+
+#. Setup command line options
+#: ../src/propono-main.c:137
+msgid "- VNC Client for MATE"
+msgstr "— Ứng dụng khách VNC cho MATE"
+
+#: ../src/propono-main.c:146
+msgid "Run 'propono --help' to see a full list of available command line options"
+msgstr "Hãy chạy câu lệnh « propono --help » để xem danh sách tất cả các tùy chọn dòng lệnh sẵn sàng"
+
+#: ../src/propono-mdns.c:123
+#, c-format
+msgid "Failed to resolve avahi hostname: %s\n"
+msgstr "Lỗi quyết định tên máy avahi: %s\n"
+
+#: ../src/propono-mdns.c:175
+#: ../src/propono-mdns.c:184
+#, c-format
+msgid "Failed to browse for hosts: %s\n"
+msgstr "Lỗi duyệt tới máy: %s\n"
+
+#: ../src/propono-notebook.c:168
+#, c-format
+#| msgid "Connection to host \"%s\" was closed."
+msgid "Connection to host <i>%s</i> was closed."
+msgstr "Kết nối tới máy <i>%s</i> đã bị đóng."
+
+#: ../src/propono-notebook.c:170
+#| msgid "Connection to host \"%s\" was closed."
+msgid "Connection closed"
+msgstr "Kết nối bị đóng"
+
+#: ../src/propono-notebook.c:194
+msgid "Connecting..."
+msgstr "Đang kết nối..."
+
+#: ../src/propono-notebook.c:221
+#: ../src/propono-tab.c:815
+msgid "Close connection"
+msgstr "Đóng kết nối"
+
+#: ../src/propono-prefs.c:169
+msgid "Cannot initialize preferences manager."
+msgstr "Không thể khởi chạy bộ quản lý tùy thích."
+
+#: ../src/propono-tab.c:322
+msgid "Error connecting to host."
+msgstr "Gặp lỗi khi kết nối tới máy."
+
+#: ../src/propono-tab.c:354
+#, c-format
+#| msgid "Authentication to host \"%s\" has failed"
+msgid "Authentication to host <i>%s</i> has failed"
+msgstr "Xác thực tới máy <i>%s</i> không thành công"
+
+#: ../src/propono-tab.c:360
+#| msgid "Authentication to host \"%s\" has failed"
+msgid "Authentication failed"
+msgstr "Xác thực không thành công"
+
+#: ../src/propono-tab.c:382
+#, c-format
+#| msgid "Authentication method to host \"%s\" is unsupported. (%u)"
+msgid "Authentication method to host <i>%s</i> is unsupported. (%u)"
+msgstr "Phương pháp xác thực tới máy <i>%s</i> không được hỗ trợ. (%u)"
+
+#: ../src/propono-tab.c:386
+#| msgid "Authentication method to host \"%s\" is unsupported. (%u)"
+msgid "Authentication unsupported"
+msgstr "Phương pháp xác thực không được hỗ trợ"
+
+#: ../src/propono-tab.c:464
+msgid "Error saving recent connection."
+msgstr "Lỗi lưu kết nối vừa mở."
+
+#: ../src/propono-tab.c:496
+#| msgid "Error saving the password on the keyring."
+msgid "Error saving the credential on the keyring."
+msgstr "Gặp lỗi khi lưu thông tin xác thực vào vòng khoá."
+
+#: ../src/propono-tab.c:828
+msgid "Minimize window"
+msgstr "Thu nhỏ cửa sổ"
+
+#: ../src/propono-tab.c:843
+#: ../src/propono-tab.c:844
+msgid "Scaling"
+msgstr "Co giãn"
+
+#: ../src/propono-tab.c:853
+#: ../src/propono-tab.c:854
+msgid "Read only"
+msgstr "Chỉ đọc"
+
+#. Machine menu
+#: ../src/propono-tab.c:864
+#: ../src/propono-tab.c:865
+#: ../src/propono-ui.h:85
+msgid "Take screenshot"
+msgstr "Chụp ảnh màn hình"
+
+#: ../src/propono-tab.c:873
+#: ../src/propono-tab.c:874
+#: ../src/propono-ui.h:88
+msgid "Send Ctrl-Alt-Del"
+msgstr "Gửi Ctrl-Alt-Del"
+
+#: ../src/propono-tab.c:998
+msgid "Desktop Name:"
+msgstr "Tên màn hình nền:"
+
+#: ../src/propono-tab.c:1000
+msgid "Port:"
+msgstr "Cổng:"
+
+#: ../src/propono-tab.c:1001
+msgid "Dimensions:"
+msgstr "Các chiều :"
+
+#: ../src/propono-tab.c:1068
+#, c-format
+msgid "Screenshot of %s"
+msgstr "Ảnh chụp màn hình của %s"
+
+#: ../src/propono-tab.c:1071
+msgid "Save Screenshot"
+msgstr "Lưu ảnh chụp màn hình"
+
+#: ../src/propono-tab.c:1135
+msgid ""
+"Scaling is not supported on this installation.\n"
+"\n"
+"Read the README file (shipped with Propono) in order to know how to enable this feature."
+msgstr ""
+"Chức năng co giãn không được hỗ trợ trên bản cài đặt này.\n"
+"\n"
+"Xem tài liệu Đọc Đi (README) có sẵn với Propono, để tìm biết hiệu lực tính năng này như thế nào."
+
+#. Toplevel
+#: ../src/propono-ui.h:33
+msgid "_Machine"
+msgstr "_Máy"
+
+#: ../src/propono-ui.h:34
+msgid "_Edit"
+msgstr "_Sửa"
+
+#: ../src/propono-ui.h:35
+msgid "_View"
+msgstr "_Xem"
+
+#: ../src/propono-ui.h:36
+msgid "_Bookmarks"
+msgstr "_Liên kết lưu"
+
+#: ../src/propono-ui.h:41
+#| msgid "Connect into a remote machine"
+msgid "Connect to a remote machine"
+msgstr "Kết nối tới máy từ xa"
+
+#: ../src/propono-ui.h:43
+msgid "Open a .VNC file"
+msgstr "Mở tập tin .VNC"
+
+#: ../src/propono-ui.h:45
+msgid "Quit the program"
+msgstr "Thoát khỏi chương trình"
+
+#: ../src/propono-ui.h:49
+msgid "Edit the application preferences"
+msgstr "Sửa tuỳ thích ứng dụng"
+
+#. Bookmarks menu
+#: ../src/propono-ui.h:52
+msgid "_Open bookmark"
+msgstr "_Mở liên kết lưu"
+
+#: ../src/propono-ui.h:53
+#| msgid "Connect into this machine"
+msgid "Connect to this machine"
+msgstr "Kết nối đến máy này"
+
+#: ../src/propono-ui.h:54
+msgid "_Edit bookmark"
+msgstr "_Sửa liên kết lưu"
+
+#: ../src/propono-ui.h:55
+msgid "Edit the details of selected bookmark"
+msgstr "Chỉnh sửa đổi chi tiết về liên kết lưu được chọn"
+
+#: ../src/propono-ui.h:56
+msgid "_Remove from bookmarks"
+msgstr "_Bỏ khỏi liên kết lưu"
+
+#: ../src/propono-ui.h:57
+msgid "Remove current selected connection from bookmarks"
+msgstr "Gỡ bỏ kết nối được chọn hiện thời khỏi các liên kết lưu"
+
+#: ../src/propono-ui.h:58
+msgid "_New Folder"
+msgstr "Thư mục mớ_i"
+
+#: ../src/propono-ui.h:59
+msgid "Create a new folder"
+msgstr "Tạo một thư mục mới"
+
+#. Help menu
+#: ../src/propono-ui.h:62
+msgid "_Contents"
+msgstr "Mụ_c lục"
+
+#: ../src/propono-ui.h:63
+msgid "Open the propono manual"
+msgstr "Mở sổ tay Propono"
+
+#: ../src/propono-ui.h:65
+msgid "About this application"
+msgstr "Giới thiệu ứng dụng này"
+
+#: ../src/propono-ui.h:72
+msgid "Close the current connection"
+msgstr "Đóng kết nối hiện thời"
+
+#: ../src/propono-ui.h:73
+msgid "C_lose All"
+msgstr "Đóng _tất cả"
+
+#: ../src/propono-ui.h:74
+msgid "Close all active connections"
+msgstr "Đóng mọi kết nối hoạt động"
+
+#. Bookmarks menu
+#: ../src/propono-ui.h:77
+msgid "_Add to bookmarks"
+msgstr "Thê_m vào liên kết lưu"
+
+#: ../src/propono-ui.h:78
+msgid "Add current connection to your bookmarks"
+msgstr "Thêm kết nối hiện thời vào các liên kết bạn đã lưu"
+
+#: ../src/propono-ui.h:86
+msgid "Take a screenshot of active connection"
+msgstr "Chụp ảnh màn hình của kết nối đang chạy"
+
+#: ../src/propono-ui.h:89
+msgid "Send Ctrl+Alt+Del to active connection"
+msgstr "Gửi tín hiệu Ctrl+Alt+Del cho kết nối đang chạy"
+
+#: ../src/propono-ui.h:93
+msgid "View the current machine in full screen"
+msgstr "Xem máy hiện thời trên toàn màn hình"
+
+#: ../src/propono-ui.h:95
+msgid "_Original size"
+msgstr "_Cỡ gốc"
+
+#: ../src/propono-ui.h:96
+msgid "Adjusts the window to the remote desktop's size"
+msgstr "Điều chỉnh cửa sổ thành kích cỡ của màn hình nền ở xa"
+
+#: ../src/propono-ui.h:102
+msgid "S_caling"
+msgstr "_Co giãn"
+
+#: ../src/propono-ui.h:103
+msgid "Fit the remote screen into the current window size"
+msgstr "Vừa khít màn hình ở xa vào kích cỡ cửa sổ hiện tại"
+
+#: ../src/propono-ui.h:105
+msgid "_Read only"
+msgstr "_Chỉ đọc"
+
+#: ../src/propono-ui.h:106
+#| msgid "Disable mouse and keyboard activities"
+msgid "Disable mouse and keyboard"
+msgstr "Tắt con chuột và bàn phím"
+
+#: ../src/propono-ui.h:112
+msgid "_Toolbar"
+msgstr "_Thanh công cụ"
+
+#: ../src/propono-ui.h:113
+msgid "Show or hide the toolbar"
+msgstr "Hiển thị hay ẩn thanh công cụ"
+
+#: ../src/propono-ui.h:116
+msgid "_Statusbar"
+msgstr "Thanh t_rạng thái"
+
+#: ../src/propono-ui.h:117
+msgid "Show or hide the statusbar"
+msgstr "Hiển thị hay ẩn thanh trạng thái"
+
+#: ../src/propono-ui.h:120
+msgid "Side _Panel"
+msgstr "Ô _bên"
+
+#: ../src/propono-ui.h:121
+msgid "Show or hide the side panel"
+msgstr "Hiện/ẩn khung lề"
+
+#: ../src/propono-utils.c:75
+#| msgid "The following error has occurred:"
+#| msgid_plural "The following errors have occurred:"
+msgid "An error has occurred:"
+msgstr "Một lỗi đã xảy ra:"
+
+#: ../src/propono-utils.c:433
+msgid "Propono is a VNC client for the MATE Desktop"
+msgstr "Propono là một ứng dụng khách VNC cho môi trường MATE."
+
+#: ../src/propono-utils.c:436
+msgid "Propono is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version."
+msgstr "Propono là phần mềm tự do; bạn có thể phát hành lại nó và/hoặc sửa đổi nó theo các điều khoản của Giấy Phép Công Cộng GNU như được xuất bản bởi Tổ chức Phần mềm Tự do; hoặc phiên bản 2 của Giấy phép này, hoặc bất kì phiên bản sau nào (tuỳ ý)."
+
+#: ../src/propono-utils.c:440
+msgid "Propono is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details."
+msgstr "Propono được phân phối với mong muốn nó sẽ là một phần mềm có ích, nhưng KHÔNG PHẢI CHỊU BẤT KÌ TRÁCH NHIỆM NÀO. Xem Giấy Phép Công Cộng GNU để biết thêm chi tiết."
+
+#: ../src/propono-utils.c:444
+msgid "You should have received a copy of the GNU General Public License along with this program. If not, see <http://www.gnu.org/licenses/>."
+msgstr "Bạn đã nhận một bản sao của Giấy Phép Công Cộng GNU cùng với chương trình này; nếu không, xem địa chỉ  <http://www.gnu.org/licenses/>."
+
+#: ../src/propono-utils.c:466
+msgid "translator-credits"
+msgstr "Nhóm Việt hóa MATE <matevi-list@lists.sourceforge.net>"
+
+#: ../src/propono-utils.c:469
+msgid "Propono Website"
+msgstr "Trang Web của Propono"
+
+#: ../src/propono-window.c:413
+#, c-format
+msgid "Could not merge propono-ui.xml: %s"
+msgstr "Không thể gộp lại propono-ui.xml: %s"
+
+#: ../src/propono-window.c:441
+msgid "_Recent connections"
+msgstr "Kết nối _vừa mở"
+
+#. Translators: This is server:port, a statusbar tooltip when mouse is over a bookmark item on menu
+#: ../src/propono-window.c:614
+#, c-format
+msgid "Open %s:%d"
+msgstr "Mở %s:%d"
+
+#: ../src/propono-window.c:797
+msgid "Press Ctrl+Alt to release the cursor"
+msgstr "Bấm tổ hợp phím Ctrl+Alt để nhả con trỏ"

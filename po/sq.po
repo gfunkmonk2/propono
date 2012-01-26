@@ -1,0 +1,611 @@
+# Përkthimi i propono në shqip.
+# Copyright (C) 2008 Free Software Foundation, Inc.
+# This file is distributed under the same license as the propono package.
+#
+# Laurent Dhima <laurenti@alblinux.net>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: propono HEAD\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-07-03 14:33+0000\n"
+"PO-Revision-Date: 2008-07-22 18:00+0200\n"
+"Last-Translator: Laurent Dhima <laurenti@alblinux.net>\n"
+"Language-Team: albanian <mate-albanian-perkthyesit@lists.sourceforge.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../data/MATE_ProponoApplet.xml.h:1
+msgid "_About"
+msgstr "_Informacione"
+
+#: ../data/MATE_ProponoApplet.xml.h:2 ../src/propono-ui.h:37
+msgid "_Help"
+msgstr "_Ndihmë"
+
+#: ../data/propono.desktop.in.in.h:1 ../data/propono-file.desktop.in.in.h:1
+msgid "Access remote desktops"
+msgstr "Hyrje në ambiente në distancë pune"
+
+#: ../data/propono.desktop.in.in.h:2 ../data/propono-file.desktop.in.in.h:2
+#: ../src/MATE_ProponoApplet.server.in.in.h:2 ../src/propono-applet.c:222
+#: ../src/propono-applet.c:228 ../src/propono-main.c:144
+msgid "Remote Desktop Viewer"
+msgstr "Shfaq ambiente në distancë pune"
+
+#: ../data/propono.glade.h:1
+msgid "<b>Connection options</b>"
+msgstr "<b>Opsionet e lidhjes</b>"
+
+#: ../data/propono.glade.h:2
+msgid "<b>Editing a bookmark</b>"
+msgstr "<b>Ndryshimi i një libërshënuesi</b>"
+
+#: ../data/propono.glade.h:3
+msgid "<b>Enter a name for this connection</b>"
+msgstr "<b>Shkruaj një emër për këtë lidhje</b>"
+
+#: ../data/propono.glade.h:4
+msgid ""
+"<b>In order to connect on this machine, a password is required. Please "
+"supply it.</b>"
+msgstr ""
+"<b>Për tu lidhur me këtë makinë kërkohet një fjalëkalim. Të lutem, Jep "
+"fjalëkalimin.</b>"
+
+#: ../data/propono.glade.h:5
+msgid "<b>Which machine do you want to connect to?</b>"
+msgstr "<b>Me kë makinë dëshiron të lidhesh?</b>"
+
+#: ../data/propono.glade.h:6
+msgid "Editing a bookmark"
+msgstr "Ndryshimi i një libërshënuesi"
+
+#: ../data/propono.glade.h:7 ../src/propono-fav.c:424 ../src/propono-tab.c:896
+msgid "Host:"
+msgstr "Host:"
+
+#: ../data/propono.glade.h:8
+msgid "Saving to bookmarks"
+msgstr "Duke ruajtur në libërshënues"
+
+#: ../data/propono.glade.h:9
+msgid "_Bookmark name:"
+msgstr "Emri i li_bërshënuesit:"
+
+#: ../data/propono.glade.h:10
+msgid "_Full screen"
+msgstr "_Ekran i plotë"
+
+#: ../data/propono.glade.h:11
+msgid "_Host:"
+msgstr "_Host:"
+
+#: ../data/propono.glade.h:12
+msgid "_Name:"
+msgstr "_Emri:"
+
+#: ../data/propono.glade.h:13
+msgid "_Password:"
+msgstr "_Fjalëkalimi:"
+
+#: ../data/propono.glade.h:14
+msgid "_Remember this password"
+msgstr "_Kujto këtë fjalëkalim"
+
+#: ../data/propono.glade.h:15
+msgid "_Scaling"
+msgstr "_Shkalla"
+
+#: ../data/propono.glade.h:16
+msgid "_View only"
+msgstr "_Vetëm shiko"
+
+#. Tooltip for host entry in connect dialog
+#: ../data/propono.glade.h:18
+msgid "host or host:display or host::port"
+msgstr "host ose host:display ose host::port"
+
+#: ../data/propono.schemas.in.h:1
+msgid "Maximum number of history items in connect dialog"
+msgstr ""
+"Numri maksimum i elementëve të kronollogjisë në dritaren e dialogut "
+"të lidhjeve"
+
+#: ../data/propono.schemas.in.h:2
+msgid ""
+"Set to \"false\" to disable menu shortcuts. Set to \"true\" to enable them. "
+"Note that if they are enabled, those keys will be intercepted by the menu "
+"and will not be sent to the remote host."
+msgstr ""
+"Vendose në \"false\" për të çaktivizuar përshpejtuesit në menu. Vendose "
+"në \"true\" për t'i aktivizuar. Ki parasysh që nëse aktivizohen, tastet do të "
+"kapen nga menuja dhe nuk do të dërgohen tek host në distancë."
+
+#: ../data/propono.schemas.in.h:3
+msgid ""
+"Set to \"true\" to always show the tabs. Set to \"false\" to only show the "
+"tabs when there is more than one active connection."
+msgstr ""
+"Vendose në \"true\" për të shfaqur gjithmonë etiketat. Vendose në \"false\" "
+"për të shfaqur etiketat vetëm kur të ketë më shumë se një lidhje."
+
+#: ../data/propono.schemas.in.h:4
+msgid "Specifies the maximum number of items in the host dropdown entry."
+msgstr "Specifikon numrin maksimum të elementëve në zërin e host."
+
+#: ../data/propono.schemas.in.h:5
+msgid "The handler for \"vnc://\" URLs"
+msgstr "Manazhuesi për URL \"vnc://\""
+
+#: ../data/propono.schemas.in.h:6
+msgid ""
+"When connecting to a host, the client can say to the server to leave other "
+"clients connected or to drop the existent connections. Set the value to true "
+"to share the desktop with the other clients."
+msgstr ""
+"Kur lidhet me një host, klienti mund t'i kërkojë serverit të lërë klientët e "
+"tjerë të lidhur ose të shkëpusë lidhjet ekzistuese. Vendos vlerën në 'true' "
+"për të përdorur ambientin e punës së bashku me klientët e tjerë."
+
+#: ../data/propono.schemas.in.h:7
+msgid "Whether we should leave other clients connected"
+msgstr "Nëse duhen lënë të lidhur klientët e tjerë"
+
+#: ../data/propono.schemas.in.h:8
+msgid "Whether we should show tabs even when there is only one active connection"
+msgstr "Nëse duhen shfaqur etiketat edhe nëse ekziston vetëm një lidhje aktive"
+
+#: ../data/propono.schemas.in.h:9
+msgid "Whether we should show the menu accelerators (shortcut keys)"
+msgstr "Nëse duhen shfaqur përshpejtuesit e menusë (tastet përshpejtues)"
+
+#: ../data/propono-mime.xml.in.h:1
+msgid "Remote Desktop (VNC) file"
+msgstr "File desktop në distancë (VNC)"
+
+#: ../data/propono-mime.xml.in.h:2
+msgid "Remote Desktop Connection"
+msgstr "Lidhje me desktop në distancë"
+
+#: ../src/MATE_ProponoApplet.server.in.in.h:1
+msgid "A menu to quickly access remote machines"
+msgstr "Një menu për hyrje të shpejtë në makinat në distancë"
+
+#: ../src/MATE_ProponoApplet.server.in.in.h:3
+msgid "Propono Applet Factory"
+msgstr "Fabrika e applet Propono"
+
+#: ../src/propono-applet.c:98 ../src/propono-applet.c:144
+#, c-format
+msgid "Could not run propono: %s"
+msgstr "E pamundur nusja e propono: %s"
+
+#: ../src/propono-applet.c:167
+msgid "Open Remote Desktop Viewer"
+msgstr "Hap shikuesin e mjediseve në distancë të punës"
+
+#: ../src/propono-applet.c:229
+msgid "Access your bookmarks"
+msgstr "Hyrje tek libërshënuesit tuaj"
+
+#: ../src/propono-bookmarks.c:92
+msgid ""
+"Copying the bookmarks file to the new location. This operation is only "
+"supposed to run once."
+msgstr ""
+"Kopja e file me libërshënues tek pozicioni i ri. Ky veprim supozohet të "
+"kryhet vetëm një herë."
+
+#: ../src/propono-bookmarks.c:97
+#, c-format
+msgid "Error: %s"
+msgstr "Gabim: %s"
+
+#: ../src/propono-bookmarks.c:420
+msgid "Confirm removal?"
+msgstr "Konfermon heqjen?"
+
+#: ../src/propono-bookmarks.c:423
+#, c-format
+msgid "Are you sure you want to remove <i>%s</i> from bookmarks?"
+msgstr "Jeni i sigurt që dëshironi të hiqni <i>%s</i> nga libërshënuesit?"
+
+#: ../src/propono-bookmarks.c:434
+#, c-format
+msgid "Error while removing %s from bookmarks: %s"
+msgstr "Gabim gjatë heqjes së %s nga libërshënuesit: %s"
+
+#: ../src/propono-bookmarks.c:501
+#, c-format
+msgid "Error while initializing bookmarks: %s"
+msgstr "Gabim gjatë nisjes së libërshënuesve: %s"
+
+#: ../src/propono-bookmarks.c:522 ../src/propono-bookmarks.c:539
+#, c-format
+msgid "Error while saving bookmarks: %s"
+msgstr "Gabim gjatë ruajtjes së libërshënuesve: %s"
+
+#: ../src/propono-commands.c:106
+msgid "Choose the file"
+msgstr "Zgjidh file"
+
+#: ../src/propono-commands.c:117 ../src/propono-tab.c:979
+msgid "Supported formats"
+msgstr "Formatet e suportuar"
+
+#: ../src/propono-commands.c:149
+msgid "The following file could not be opened:"
+msgid_plural "The following files could not be opened:"
+msgstr[0] "File në vijim nuk mund të hapet:"
+msgstr[1] "File në vijim nuk mund të hapen:"
+
+#: ../src/propono-connect.c:172
+#, c-format
+msgid "Error while saving history file: %s"
+msgstr "Gabim gjatë ruajtjes së file me kronollogjinë: %s"
+
+#: ../src/propono-connect.c:183
+msgid "Choose a VNC Server"
+msgstr "Zgjidh një server VNC"
+
+#: ../src/propono-connect.c:261 ../src/propono-main.c:79
+#: ../src/propono-main.c:98 ../src/propono-window.c:285
+msgid "Unknown error"
+msgstr "Gabim i panjohur"
+
+#: ../src/propono-connection.c:530
+#, c-format
+msgid "The protocol %s is not supported."
+msgstr "Protokolli %s nuk suportohet."
+
+#: ../src/propono-fav.c:762
+msgid "Bookmarks"
+msgstr "Libërshënues"
+
+#: ../src/propono-fav.c:807
+msgid "Hosts nearby"
+msgstr "Host e afërt"
+
+#: ../src/propono-main.c:47
+msgid "Opens a .vnc file"
+msgstr "Hap një file .vnc"
+
+#: ../src/propono-main.c:47
+msgid "filename"
+msgstr "emrifile"
+
+#: ../src/propono-main.c:50
+msgid "Create a new toplevel window in an existing instance of propono"
+msgstr "Krijo një dritare të re të nivelit superior në një instancë ekzistuese të propono"
+
+#: ../src/propono-main.c:54
+msgid "[server:port]"
+msgstr "[server:porta]"
+
+#: ../src/propono-main.c:109 ../src/propono-window.c:284
+msgid "The following error has occurred:"
+msgid_plural "The following errors have occurred:"
+msgstr[0] "U ndesh gabimi si në vijim:"
+msgstr[1] "U ndeshën gabimet si në vijim:"
+
+#. Setup command line options
+#: ../src/propono-main.c:130
+msgid "- VNC Client for MATE"
+msgstr "- Klient VNC për MATE"
+
+#: ../src/propono-main.c:139
+msgid "Run 'propono --help' to see a full list of available command line options"
+msgstr ""
+"Ekzekuto 'propono --help' për të shikuar listën e plotë të opsioneve të "
+"rreshtit të komandës"
+
+#: ../src/propono-mdns.c:118
+#, c-format
+msgid "Failed to resolve avahi hostname: %s\n"
+msgstr "Marrja e emrit të host avahi dështoi: %s\n"
+
+#: ../src/propono-mdns.c:170 ../src/propono-mdns.c:179
+#, c-format
+msgid "Failed to browse for hosts: %s\n"
+msgstr "Shfletimi dështoi për host: %s\n"
+
+#: ../src/propono-notebook.c:127
+#, c-format
+msgid "Connection to host \"%s\" was closed."
+msgstr "Lidhja me host \"%s\" u mbyll."
+
+#: ../src/propono-notebook.c:153
+msgid "Connecting..."
+msgstr "Duke u lidhur..."
+
+#: ../src/propono-notebook.c:180 ../src/propono-tab.c:709
+msgid "Close connection"
+msgstr "Mbyll lidhjen"
+
+#: ../src/propono-prefs.c:167
+msgid "Cannot initialize preferences manager."
+msgstr "E pamundur nisja e manazhuesit të preferimeve."
+
+#: ../src/propono-tab.c:287
+msgid "Error connecting to host."
+msgstr "Gabim gjatë lidhjes me host-in."
+
+#: ../src/propono-tab.c:320
+#, c-format
+msgid "Authentication to host \"%s\" has failed"
+msgstr "Identifikimi në host \"%s\" dështoi"
+
+#: ../src/propono-tab.c:348
+#, c-format
+msgid "Authentication method to host \"%s\" is unsupported. (%u)"
+msgstr "Metoda e identifikimit në host \"%s\" nuk suportohet. (%u)"
+
+#: ../src/propono-tab.c:429
+msgid "Error saving recent connection."
+msgstr "Gabim gjatë ruajtjes së lidhjeve të fundit."
+
+#: ../src/propono-tab.c:460
+msgid "Error saving the password on the keyring."
+msgstr "Gabim gjatë ruajtjes së fjalëkalimit në çelsambajtës."
+
+#: ../src/propono-tab.c:723 ../src/propono-tab.c:724
+msgid "Scaling"
+msgstr "Reduktimi"
+
+#: ../src/propono-tab.c:733 ../src/propono-tab.c:734
+msgid "Read only"
+msgstr "Vetëm lexim"
+
+#. Machine menu
+#: ../src/propono-tab.c:744 ../src/propono-tab.c:745 ../src/propono-ui.h:79
+msgid "Take screenshot"
+msgstr "Merr pamje ekrani"
+
+#: ../src/propono-tab.c:753 ../src/propono-tab.c:754 ../src/propono-ui.h:82
+msgid "Send Ctrl-Alt-Del"
+msgstr "Dërgo Ctrl Alt Del"
+
+#: ../src/propono-tab.c:895
+msgid "Desktop Name:"
+msgstr "Emri i desktop:"
+
+#: ../src/propono-tab.c:897
+msgid "Port:"
+msgstr "Porta:"
+
+#: ../src/propono-tab.c:898
+msgid "Dimensions:"
+msgstr "Përmasat:"
+
+#: ../src/propono-tab.c:965
+#, c-format
+msgid "Screenshot of %s"
+msgstr "Pamje ekrani nga %s"
+
+#: ../src/propono-tab.c:968
+msgid "Save Screenshot"
+msgstr "Ruaj pamjen e ekranit"
+
+#: ../src/propono-tab.c:1032
+msgid ""
+"Scaling does not work properly on composited windows. Disable the visual "
+"effects and try again."
+msgstr ""
+"Reduktimi nuk funksionon sikurse duhet në dritaret e kompozuara. Çaktivizo "
+"efektet vizivë dhe riprovo."
+
+#: ../src/propono-tab.c:1039
+msgid ""
+"Scaling is not supported on this installation.\n"
+"\n"
+"Read the README file (shipped with Propono) in order to know how to enable "
+"this feature."
+msgstr ""
+"Shkallëzimi nuk suportohet në këtë instalim.\n"
+"\n"
+"Lexo file README (përfshirë në Propono) për të mësuar se si aktivizohet "
+"ky funksion."
+
+#. Toplevel
+#: ../src/propono-ui.h:33
+msgid "_Machine"
+msgstr "_Makina"
+
+#: ../src/propono-ui.h:34
+msgid "_Edit"
+msgstr "_Ndrysho"
+
+#: ../src/propono-ui.h:35
+msgid "_View"
+msgstr "_Shfaq"
+
+#: ../src/propono-ui.h:36
+msgid "_Bookmarks"
+msgstr "_Libërshënues"
+
+#: ../src/propono-ui.h:41
+msgid "Connect to a remote machine"
+msgstr "Lidhu me një makinë në distancë"
+
+#: ../src/propono-ui.h:43
+msgid "Open a .VNC file"
+msgstr "Hap një file .VNC"
+
+#: ../src/propono-ui.h:45
+msgid "Quit the program"
+msgstr "Mbyll programin"
+
+#. Bookmarks menu
+#: ../src/propono-ui.h:48
+msgid "_Open bookmark"
+msgstr "_Hap libërshënues"
+
+#: ../src/propono-ui.h:49
+msgid "Connect to this machine"
+msgstr "Lidhu me këtë makinë"
+
+#: ../src/propono-ui.h:50
+msgid "_Edit bookmark"
+msgstr "_Ndrysho libërshënues"
+
+#: ../src/propono-ui.h:51
+msgid "Edit the details of selected bookmark"
+msgstr "Ndrysho detajet e libërshënuesit të zgjedhur"
+
+#: ../src/propono-ui.h:52
+msgid "_Remove from bookmarks"
+msgstr "_Hiq nga libërshënuesi"
+
+#: ../src/propono-ui.h:53
+msgid "Remove current selected connection from bookmarks"
+msgstr "Hiq lidhjen e zgjedhur nga libërshënuesi"
+
+#. Help menu
+#: ../src/propono-ui.h:56
+msgid "_Contents"
+msgstr "_Përmbajtja"
+
+#: ../src/propono-ui.h:57
+msgid "Open the propono manual"
+msgstr "Hap manualin e propono"
+
+#: ../src/propono-ui.h:59
+msgid "About this application"
+msgstr "Informacione mbi këtë aplikativ"
+
+#: ../src/propono-ui.h:66
+msgid "Close the current connection"
+msgstr "Mbyll lidhjen e tanishme"
+
+#: ../src/propono-ui.h:67
+msgid "C_lose All"
+msgstr "Mby_lli të gjitha"
+
+#: ../src/propono-ui.h:68
+msgid "Close all active connections"
+msgstr "Mbyll të gjitha lidhjet aktive"
+
+#. Bookmarks menu
+#: ../src/propono-ui.h:71
+msgid "_Add to bookmarks"
+msgstr "_Shto në libërshënues"
+
+#: ../src/propono-ui.h:72
+msgid "Add current connection to your bookmarks"
+msgstr "Shto lidhjen e tanishme në libërshënues"
+
+#: ../src/propono-ui.h:80
+msgid "Take a screenshot of active connection"
+msgstr "Merr një pamje nga lidhja aktive"
+
+#: ../src/propono-ui.h:83
+msgid "Send Ctrl+Alt+Del to active connection"
+msgstr "Dërgo Ctrl+Alt+Del për të aktivizuar lidhjen"
+
+#: ../src/propono-ui.h:87
+msgid "View the current machine in full screen"
+msgstr "Shfaq makinën aktuale në ekran të plotë"
+
+#: ../src/propono-ui.h:92
+msgid "S_caling"
+msgstr "Sh_kallëzimi"
+
+#: ../src/propono-ui.h:93
+msgid "Fit the remote screen into the current window size"
+msgstr "Përshtat ekranin në distancë sipas madhësisë së dritares aktuale"
+
+#: ../src/propono-ui.h:95
+msgid "_Read only"
+msgstr "_Vetëm në lexim"
+
+#: ../src/propono-ui.h:96
+msgid "Disable mouse and keyboard"
+msgstr "Çaktivizo mouse dhe tastierën"
+
+#: ../src/propono-ui.h:102
+msgid "_Toolbar"
+msgstr "_Paneli i instrumentëve"
+
+#: ../src/propono-ui.h:103
+msgid "Show or hide the toolbar"
+msgstr "Shfaq ose fsheh panelin"
+
+#: ../src/propono-ui.h:106
+msgid "_Statusbar"
+msgstr "_Shtylla e gjëndjes"
+
+#: ../src/propono-ui.h:107
+msgid "Show or hide the statusbar"
+msgstr "Shfaq ose fsheh panelin e gjëndjes"
+
+#: ../src/propono-ui.h:110
+msgid "Side _Panel"
+msgstr "_Paneli anësor"
+
+#: ../src/propono-ui.h:111
+msgid "Show or hide the side panel"
+msgstr "Shfaq ose fsheh panelin anësor"
+
+#: ../src/propono-utils.c:450
+msgid "Propono is a VNC client for the MATE Desktop"
+msgstr "Propono është një klient VNC për MATE Desktop"
+
+#: ../src/propono-utils.c:453
+msgid ""
+"Propono is free software; you can redistribute it and/or modify it under the "
+"terms of the GNU General Public License as published by the Free Software "
+"Foundation; either version 2 of the License, or (at your option) any later "
+"version."
+msgstr ""
+"Propono është program i lirë; ju mund t'a rishpërndani dhe/ose ndryshoniatë "
+"sipas kushteve të Liçencës Publike të Përgjithshme GNU sikurse publikuar nga "
+"Free Software Foundation; sipas versionit 2 të Liçencës, ose (sipas "
+"opinionit tuaj) çdo versioni të mëvonshëm."
+
+#: ../src/propono-utils.c:457
+msgid ""
+"Propono is distributed in the hope that it will be useful, but WITHOUT ANY "
+"WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS "
+"FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more "
+"details."
+msgstr ""
+"Propono shpërndahet me dëshirën që të jetë i vlefshëm për ju, por PA ASNJË "
+"LLOJ GARANCIE; pa garancinë preçize të SHITJES apo PËRDORIMIT PËR NJË QËLLIM "
+"PREÇIZ.  Shiko Liçencën Publike të Përgjithshme GNU për hollësi të tjera."
+
+#: ../src/propono-utils.c:461
+msgid ""
+"You should have received a copy of the GNU General Public License along with "
+"this program. If not, see <http://www.gnu.org/licenses/>."
+msgstr ""
+"Së bashku me këtë program duhet të keni marrë edhe një kopje të Liçencës "
+"Publike të Përgjithshme GNU. Nëse jo, shiko <http://www.gnu.org/licenses/>."
+
+#: ../src/propono-utils.c:483
+msgid "translator-credits"
+msgstr "Laurent Dhima <laurenti@alblinux.net>"
+
+#: ../src/propono-utils.c:486
+msgid "Propono Website"
+msgstr "Siti web i Propono"
+
+#: ../src/propono-window.c:422
+#, c-format
+msgid "Could not merge propono-ui.xml: %s"
+msgstr "I pamundur bashkimi i propono-ui.xml: %s"
+
+#: ../src/propono-window.c:450
+msgid "_Recent connections"
+msgstr "_Lidhjet e fundit"
+
+#. Translators: This is server:port, a statusbar tooltip when mouse is over a bookmark item on menu
+#: ../src/propono-window.c:610 ../src/propono-window.c:660
+#, c-format
+msgid "Open %s:%d"
+msgstr "Hap %s:%d"
+
+#: ../src/propono-window.c:809
+msgid "Press Ctrl+Alt to release the cursor"
+msgstr "Shtyp Ctrl+Alt për të lëshuar kursorin"

@@ -1,0 +1,1455 @@
+# translation of propono to Lithuanian
+# Copyright (C) 2008 Gintautas Miliauskas
+# This file is distributed under the same license as the propono package.
+# Gintautas Miliauskas <gintas@akl.lt>, 2008.
+# Žygimantas Beručka <zygis@mate.org>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: propono\n"
+"Report-Msgid-Bugs-To: "
+"http://bugzilla.mate.org/enter_bug.cgi?product=propono&component=general\n"
+"POT-Creation-Date: 2010-03-26 12:30+0000\n"
+"PO-Revision-Date: 2010-04-03 14:17+0300\n"
+"Last-Translator: Žygimantas Beručka <zygis@mate.org>\n"
+"Language-Team: Lithuanian <mate-lt@lists.akl.lt>\n"
+"Language: lt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%"
+"100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Virtaal 0.5.2\n"
+
+#: ../data/MATE_ProponoApplet.xml.h:1 ../propono/propono-plugin-manager.c:495
+msgid "_About"
+msgstr "_Apie"
+
+#: ../data/MATE_ProponoApplet.xml.h:2 ../propono/propono-ui.h:37
+msgid "_Help"
+msgstr "_Žinynas"
+
+#: ../data/propono.desktop.in.in.h:1 ../data/propono-file.desktop.in.in.h:1
+msgid "Access remote desktops"
+msgstr "Junkitės prie nutolusių darbastalių"
+
+#: ../data/propono.desktop.in.in.h:2 ../data/propono-file.desktop.in.in.h:2
+#: ../propono/MATE_ProponoApplet.server.in.in.h:2
+#: ../propono/propono-applet.c:434 ../propono/propono-applet.c:486
+#: ../propono/propono-main.c:200
+msgid "Remote Desktop Viewer"
+msgstr "Nutolusių darbastalių rodymo programa"
+
+#: ../data/propono.ui.h:1
+#| msgid "_Show menu shortcuts"
+msgid "Allow _keyboard shortcuts"
+msgstr "Leisti _sparčiuosius klavišus"
+
+#: ../data/propono.ui.h:2
+msgid "Authentication is required"
+msgstr "Reikia nustatyti tapatybę"
+
+#. setup label
+#: ../data/propono.ui.h:3 ../propono/propono-fav.c:851
+msgid "Bookmarks"
+msgstr "Žymelės"
+
+#: ../data/propono.ui.h:4
+msgid "Connection"
+msgstr "Ryšys"
+
+#: ../data/propono.ui.h:5
+msgid "Connection options"
+msgstr "Ryšio parinktys"
+
+#: ../data/propono.ui.h:6
+msgid "Folder"
+msgstr "Aplankas"
+
+#: ../data/propono.ui.h:7 ../plugins/ssh/propono-ssh-tab.c:49
+#: ../plugins/vnc/propono-vnc-tab.c:148 ../propono/propono-fav.c:404
+msgid "Host:"
+msgstr "Kompiuteris:"
+
+#: ../data/propono.ui.h:8
+msgid "Interface"
+msgstr "Sąsaja"
+
+#: ../data/propono.ui.h:9
+msgid "Options"
+msgstr "Parinktys"
+
+#: ../data/propono.ui.h:10
+msgid "Parent Folder"
+msgstr "Aukštesnysis aplankas"
+
+#: ../data/propono.ui.h:11
+msgid "Preferences"
+msgstr "Nustatymai"
+
+#. This is a tooltip in preferences dialog
+#: ../data/propono.ui.h:13
+msgid ""
+"This option enables menu accelerators and keyboard shortcuts. For more info "
+"on why you may want to disable them, check the documentation."
+msgstr ""
+"Ši parinktis įjungia meniu akceleratorius ir sparčiuosius klavišus. Daugiau "
+"informacijos, kodėl galite norėti juos išjungti, galite rasti "
+"dokumentacijoje."
+
+#: ../data/propono.ui.h:14
+msgid "Which machine do you want to connect to?"
+msgstr "Prie kurio kompiuterio norite prisijungti?"
+
+#: ../data/propono.ui.h:15
+msgid "_Always show tabs"
+msgstr "Vis_ada rodyti korteles"
+
+#. This is a button label, in the authentication dialog
+#: ../data/propono.ui.h:17
+msgid "_Authenticate"
+msgstr "_Nustatyti tapatybę"
+
+#: ../data/propono.ui.h:18
+msgid "_Full screen"
+msgstr "_Visame ekrane"
+
+#: ../data/propono.ui.h:19
+msgid "_Host:"
+msgstr "_Kompiuteris:"
+
+#: ../data/propono.ui.h:20
+msgid "_Name:"
+msgstr "_Vardas:"
+
+#: ../data/propono.ui.h:21
+msgid "_Password:"
+msgstr "_Slaptažodis:"
+
+#: ../data/propono.ui.h:22
+msgid "_Protocol:"
+msgstr "_Protokolas:"
+
+#: ../data/propono.ui.h:23
+msgid "_Remember this credential"
+msgstr "_Atsiminti šį kredencialą"
+
+#: ../data/propono.ui.h:24 ../plugins/ssh/propono-ssh-plugin.c:144
+msgid "_Username:"
+msgstr "Naudotojo _vardas:"
+
+#: ../data/propono.schemas.in.in.h:1 ../propono/propono-plugin-manager.c:795
+msgid "Active plugins"
+msgstr "Aktyvūs įskiepiai"
+
+#: ../data/propono.schemas.in.in.h:2
+msgid ""
+"List of active plugins. It contains the \"Location\" of the active plugins. "
+"See the .propono-plugin file for obtaining the \"Location\" of a given plugin."
+msgstr ""
+"Įjungtų įskiepių sąrašas. Jame yra įjungtų įskiepių „vieta“. Daugiau "
+"informacijos, kaip sužinoti įskiepio „vietą“, galite rasti .propono-plugin "
+"faile."
+
+#: ../data/propono.schemas.in.in.h:3
+msgid "Maximum number of history items in connect dialog"
+msgstr "Maksimalus retrospektyvos įrašų skaičius prisijungimo dialoge"
+
+#: ../data/propono.schemas.in.in.h:4
+msgid ""
+"Set to \"false\" to disable menu shortcuts. Set to \"true\" to enable them. Note "
+"that if they are enabled, those keys will be intercepted by the menu and "
+"will not be sent to the remote host."
+msgstr ""
+"Nustatykite į neigiamą, jei norite išjungti meniu sparčiuosius klavišus. "
+"Nustatykite į teigiamą, jei norite juos įjungti. Jei šie klavišai įjungti, "
+"juos perims vietinis langas ir paspaudimai nebus perduoti nutolusiam "
+"kompiuteriui."
+
+#: ../data/propono.schemas.in.in.h:5
+msgid ""
+"Set to \"true\" to always show the tabs. Set to \"false\" to only show the tabs "
+"when there is more than one active connection."
+msgstr ""
+"Nustatykite į teigiamą, jei norite, kad kortelės visada būtų rodomos. "
+"Nustatykite į neigiamą, jei norite matyti korteles tik tada, kai yra daugiau "
+"negu vienas aktyvus ryšys."
+
+#: ../data/propono.schemas.in.in.h:6
+msgid ""
+"Set to \"true\" to always start the program listening for reverse connections."
+msgstr ""
+"Nustatykite į teigiamą, jei norite, kad programa visada klausytųsi "
+"atvirkštinių ryšių."
+
+#: ../data/propono.schemas.in.in.h:7
+msgid "Specifies the maximum number of items in the host dropdown entry."
+msgstr ""
+"Nustato maksimalų siūlomų elementų skaičių kompiuterio pasirinkimo lauke."
+
+#: ../data/propono.schemas.in.in.h:8
+msgid "The handler for \"vnc://\" URLs"
+msgstr "\"vnc://\" adresų apdorojimo programa"
+
+#: ../data/propono.schemas.in.in.h:9
+msgid ""
+"When connecting to a host, the client can say to the server to leave other "
+"clients connected or to drop the existent connections. Set the value to true "
+"to share the desktop with the other clients."
+msgstr ""
+"Jungiantis prie serverio, klientas gali paprašyti atjungti kitus klientus "
+"arba palikti juos prijungtus.  Nustatykite „ŧrue“, jei norite dalintis "
+"darbastalį su kitais klientais."
+
+#: ../data/propono.schemas.in.in.h:10
+msgid "Whether we should leave other clients connected"
+msgstr "Ar palikti kitus klientus prijungtus"
+
+#: ../data/propono.schemas.in.in.h:11
+msgid ""
+"Whether we should show tabs even when there is only one active connection"
+msgstr "Ar rodyti korteles, kai yra tik vienas aktyvus ryšys"
+
+#: ../data/propono.schemas.in.in.h:12
+msgid "Whether we should show the menu accelerators (shortcut keys)"
+msgstr "Ar rodyti meniu akceleratorius (sparčiuosius klavišus)"
+
+#: ../data/propono.schemas.in.in.h:13
+#| msgid "Whether we should leave other clients connected"
+msgid "Whether we should start the program listening for reverse connections"
+msgstr "Ar programa turėtų būti paleista klausanti atvirkštinių ryšių"
+
+#: ../data/propono-mime.xml.in.h:1
+msgid "Remote Desktop (VNC) file"
+msgstr "Nutolusio darbastalio (VNC) failas"
+
+#: ../data/propono-mime.xml.in.h:2
+msgid "Remote Desktop Connection"
+msgstr "Prisijungimas prie nutolusio darbastalio"
+
+#. vim: set ts=8:
+#: ../plugins/ssh/propono-ssh-plugin.c:76
+#: ../plugins/ssh/ssh.propono-plugin.desktop.in.h:1
+msgid "SSH"
+msgstr "SSH"
+
+#. Translators: This is a description of the SSH protocol. It appears at Connect dialog.
+#: ../plugins/ssh/propono-ssh-plugin.c:78
+msgid "Access Unix/Linux terminals"
+msgstr "Prisijungti prie Unix/Linux terminalų"
+
+#: ../plugins/ssh/propono-ssh-plugin.c:132
+#| msgid "Options"
+msgid "SSH Options"
+msgstr "SSH parinktys"
+
+#. Translators: This is the tooltip for the username field in a SSH connection
+#: ../plugins/ssh/propono-ssh-plugin.c:149
+msgid ""
+"Optional. If blank, your username will be used. Also, it can be supplied in "
+"the Machine field above, in the form username@hostname."
+msgstr ""
+"Neprivaloma. Jei tuščia, bus naudojamas jūsų naudotojo vardas. Be to, jį "
+"galima nurodyti aukščiau esančiame laukelyje „Kompiuteris“ tokia forma: "
+"naudotojovardas@kompiuteriovardas."
+
+#: ../plugins/ssh/propono-ssh-tab.c:50 ../plugins/vnc/propono-vnc-tab.c:149
+msgid "Port:"
+msgstr "Prievadas:"
+
+#: ../plugins/ssh/ssh.propono-plugin.desktop.in.h:2
+msgid "SSH support"
+msgstr "SSH palaikymas"
+
+#. Translators: 'shared' here is a VNC protocol specific flag. You can translate it, but I think it's better to let it untranslated
+#: ../plugins/vnc/propono-vnc-connection.c:291
+#: ../plugins/vnc/propono-vnc-plugin.c:322
+#, c-format
+msgid ""
+"Bad value for 'shared' flag: %d. It is supposed to be 0 or 1. Ignoring it."
+msgstr ""
+"Netinkama „bendrintos“ gairelės reikšmė: %d. Turėtų būti 0 arba 1. "
+"Ignoruojama."
+
+#: ../plugins/vnc/propono-vnc-plugin.c:84
+#| msgid "_Recent connections"
+msgid "_Reverse Connections..."
+msgstr "_Atvirkštiniai ryšiai..."
+
+#: ../plugins/vnc/propono-vnc-plugin.c:86
+msgid "Configure incoming VNC connections"
+msgstr "Konfigūruoti gaunamus VNC ryšius"
+
+#. Translators: this is a command line option (run propono --help)
+#: ../plugins/vnc/propono-vnc-plugin.c:173
+msgid "Enable scaled mode"
+msgstr "Įjungti mastelio keitimo veikseną"
+
+#. Translators: this is a command line option (run propono --help)
+#: ../plugins/vnc/propono-vnc-plugin.c:188
+msgid "VNC Options:"
+msgstr "VNC parinktys:"
+
+#. Translators: this is a command line option (run propono --help)
+#: ../plugins/vnc/propono-vnc-plugin.c:190
+msgid "Show VNC Options"
+msgstr "Rodyti VNC parinktis"
+
+#. vim: set ts=8:
+#: ../plugins/vnc/propono-vnc-plugin.c:212
+#: ../plugins/vnc/vnc.propono-plugin.desktop.in.h:1
+msgid "VNC"
+msgstr "VNC"
+
+#: ../plugins/vnc/propono-vnc-plugin.c:213
+msgid "Access Unix/Linux, Windows and other machines."
+msgstr "Prisijungti prie Unix/Linux, Windows ir kitų kompiuterių."
+
+#: ../plugins/vnc/propono-vnc-plugin.c:270
+msgid "Could not parse the file."
+msgstr "Nepavyko apdoroti failo."
+
+#: ../plugins/vnc/propono-vnc-plugin.c:277
+msgid "The file is not a VNC one: Missing the group \"connection\"."
+msgstr "Tai ne VNC failas: nėra grupės „connection“."
+
+#: ../plugins/vnc/propono-vnc-plugin.c:283
+msgid "The file is not a VNC one: Missing the key \"host\"."
+msgstr "Tai ne VNC failas: nėra rakto „host“."
+
+#: ../plugins/vnc/propono-vnc-plugin.c:375
+msgid "VNC Options"
+msgstr "VNC parinktys"
+
+#. View only check button
+#: ../plugins/vnc/propono-vnc-plugin.c:388
+#: ../plugins/vnc/propono-vnc-tab.c:632
+msgid "_View only"
+msgstr "_Tik rodymas"
+
+#. Scaling check button
+#: ../plugins/vnc/propono-vnc-plugin.c:396
+msgid "_Scaling"
+msgstr "_Mastelis"
+
+#: ../plugins/vnc/propono-vnc-plugin.c:412
+msgid "_Keep aspect ratio"
+msgstr "_Išsaugoti proporciją"
+
+#. JPEG Compression check button
+#: ../plugins/vnc/propono-vnc-plugin.c:422
+msgid "_Use JPEG Compression"
+msgstr "_Naudoti JPEG glaudinimą"
+
+#: ../plugins/vnc/propono-vnc-plugin.c:423
+msgid "This might not work on all VNC servers"
+msgstr "Tai gali veikti ne visuose VNC serveriuose"
+
+#: ../plugins/vnc/propono-vnc-plugin.c:432
+msgid "_Depth Color:"
+msgstr "_Spalvų gylis:"
+
+#: ../plugins/vnc/propono-vnc-plugin.c:437
+msgid "Use Server Settings"
+msgstr "Naudoti serverio parametrus"
+
+#: ../plugins/vnc/propono-vnc-plugin.c:438
+msgid "True Color (24 bits)"
+msgstr "﻿Tikrosios spalvos (24 bitai)"
+
+#: ../plugins/vnc/propono-vnc-plugin.c:439
+msgid "High Color (16 bits)"
+msgstr "Daug spalvų (16 bitų)"
+
+#: ../plugins/vnc/propono-vnc-plugin.c:440
+msgid "Low Color (8 bits)"
+msgstr "Mažai spalvų (8 bitai)"
+
+#: ../plugins/vnc/propono-vnc-plugin.c:441
+msgid "Ultra Low Color (3 bits)"
+msgstr "Labai mažai spalvų (3 bitų)"
+
+#. Translators: the whole sentence will be: Use host <hostname> as a SSH tunnel
+#: ../plugins/vnc/propono-vnc-plugin.c:454
+msgid "Use h_ost"
+msgstr "Naudoti _kompiuterį"
+
+#. Translators: This is the tooltip of the SSH tunneling entry
+#: ../plugins/vnc/propono-vnc-plugin.c:462
+msgid "hostname or user@hostname"
+msgstr "kompiuterio vardas ar naudotojas@kompiuteriovardas"
+
+#. Translators: the whole sentence will be: Use host <hostname> as a SSH tunnel
+#: ../plugins/vnc/propono-vnc-plugin.c:466
+msgid "as a SSH tunnel"
+msgstr "kaip SSH tunelis"
+
+#. Translators: this is a pattern to open *.vnc files in a open dialog.
+#: ../plugins/vnc/propono-vnc-plugin.c:501
+msgid "VNC Files"
+msgstr "VNC failai"
+
+#: ../plugins/vnc/propono-vnc-tab.c:147
+msgid "Desktop Name:"
+msgstr "Darbastalio pavadinimas:"
+
+#: ../plugins/vnc/propono-vnc-tab.c:150
+msgid "Dimensions:"
+msgstr "Matmenys:"
+
+#: ../plugins/vnc/propono-vnc-tab.c:304
+msgid "Error creating the SSH tunnel"
+msgstr "Klaida kuriant SSH tunelį"
+
+#: ../plugins/vnc/propono-vnc-tab.c:305 ../plugins/vnc/propono-vnc-tab.c:316
+#| msgid "Unknown error"
+msgid "Unknown reason"
+msgstr "Nežinoma priežastis"
+
+#: ../plugins/vnc/propono-vnc-tab.c:315
+msgid "Error connecting to host."
+msgstr "Klaida jungiantis prie kompiuterio."
+
+#. Translators: %s is a host name or IP address; %u is a code error (number).
+#: ../plugins/vnc/propono-vnc-tab.c:360
+#, c-format
+msgid "Authentication method to host %s is unsupported. (%u)"
+msgstr "Tapatybės nustatymo metodas kompiuteryje %s nepalaikomas. (%u)"
+
+#: ../plugins/vnc/propono-vnc-tab.c:364
+msgid "Authentication unsupported"
+msgstr "Tapatybės nustatymas nepalaikomas"
+
+#: ../plugins/vnc/propono-vnc-tab.c:531 ../plugins/vnc/propono-vnc-tab.c:548
+msgid "Authentication error"
+msgstr "Tapatybės nustatymo klaida"
+
+#: ../plugins/vnc/propono-vnc-tab.c:532
+msgid "A username is required in order to access this machine."
+msgstr "Prieigai prie šio kompiuterio reikia naudotojo vardo."
+
+#: ../plugins/vnc/propono-vnc-tab.c:549
+msgid "A password is required in order to access this machine."
+msgstr "Prieigai prie šio kompiuterio reikia slaptažodžio."
+
+#: ../plugins/vnc/propono-vnc-tab.c:603
+msgid "S_caling"
+msgstr "_Mastelis"
+
+#: ../plugins/vnc/propono-vnc-tab.c:604
+msgid "Fits the remote screen into the current window size"
+msgstr "Pritaiko nutolusį ekraną prie esamo lango dydžio"
+
+#: ../plugins/vnc/propono-vnc-tab.c:617
+msgid "_Keep Aspect Ratio"
+msgstr "_Išsaugoti proporciją"
+
+#: ../plugins/vnc/propono-vnc-tab.c:618
+msgid "Keeps the screen aspect ratio when using scaling"
+msgstr "Keičiant mastelį išsaugo ekrano proporciją"
+
+#: ../plugins/vnc/propono-vnc-tab.c:633
+msgid "Does not send mouse and keyboard events"
+msgstr "Nesiunčia pelės ir klaviatūros įvykių"
+
+#: ../plugins/vnc/propono-vnc-tab.c:646
+msgid "_Original size"
+msgstr "_Pradinis dydis"
+
+#: ../plugins/vnc/propono-vnc-tab.c:647
+msgid "Adjusts the window to the remote desktop's size"
+msgstr "Langas priderinamas prie nuotolinio darbastalio dydžio"
+
+#: ../plugins/vnc/propono-vnc-tab.c:660
+msgid "_Refresh Screen"
+msgstr "_Atnaujinti vaizdą"
+
+#: ../plugins/vnc/propono-vnc-tab.c:661
+msgid "Requests an update of the screen"
+msgstr "Paprašoma atnaujinti vaizdą"
+
+#. Send Ctrl-alt-del
+#: ../plugins/vnc/propono-vnc-tab.c:683 ../plugins/vnc/propono-vnc-tab.c:755
+#: ../plugins/vnc/propono-vnc-tab.c:757
+msgid "Send Ctrl-Alt-Del"
+msgstr "Siųsti Ctrl-Alt-Del"
+
+#: ../plugins/vnc/propono-vnc-tab.c:684
+msgid "Sends Ctrl+Alt+Del to the remote machine"
+msgstr "Siunčia Ctrl+Alt+Del į nuotolinį kompiuterį"
+
+#: ../plugins/vnc/propono-vnc-tab.c:736 ../plugins/vnc/propono-vnc-tab.c:737
+msgid "Scaling"
+msgstr "Mastelis"
+
+#: ../plugins/vnc/propono-vnc-tab.c:746 ../plugins/vnc/propono-vnc-tab.c:747
+msgid "Read only"
+msgstr "Tik skaitymui"
+
+#: ../plugins/vnc/propono-vnc-tab.c:919
+msgid ""
+"Scaling is not supported on this installation.\n"
+"\n"
+"Read the README file (shipped with Propono) in order to know how to enable "
+"this feature."
+msgstr ""
+"Šioje konfigūracijoje mastelio keisti negalima.\n"
+"\n"
+"Skaitykite README failą (pridėtą prie Propono), jei norite sužinoti, kaip "
+"įjungti šią galimybę."
+
+#: ../plugins/vnc/propono-vnc-tunnel.c:77
+#, c-format
+msgid "Unable to find a free TCP port"
+msgstr "Nepavyko rasti laisvo TCP prievado"
+
+#: ../plugins/vnc/vnc.propono-plugin.desktop.in.h:2
+msgid "VNC support"
+msgstr "VNC palaikymas"
+
+#: ../plugins/vnc/propono-vnc-listener-dialog.c:90
+msgid "IPv4:"
+msgstr "IPv4:"
+
+#: ../plugins/vnc/propono-vnc-listener-dialog.c:102
+msgid ""
+"\n"
+"\n"
+"IPv6:"
+msgstr ""
+"\n"
+"\n"
+"IPv6:"
+
+#: ../plugins/vnc/propono-vnc-listener-dialog.c:161
+#, c-format
+msgid "On the port %d"
+msgstr "Prievade %d"
+
+#: ../plugins/vnc/propono-vnc-listener.c:168
+msgid "Incoming VNC connection arrived but there is no active window"
+msgstr "Gaunamas VNC ryšys gautas, tačiau nėra jokio aktyvaus lango"
+
+#. vim: set ts=8:
+#: ../plugins/vnc/vnc.ui.h:1
+msgid ""
+"By activating reverse connections you can access machines that are behind a "
+"firewall. The remote side is supposed to initiate the connection with you. "
+"For further information, checkout the help."
+msgstr ""
+"Aktyvuodami atvirkštinius ryšius galite gauti prieigą prie kompiuterių, "
+"esančių už užkardos. Nutolęs kompiuteris turėtų inicijuoti ryšį su jumis. "
+"Daugiau informacijos galite rasti žinyne."
+
+#: ../plugins/vnc/vnc.ui.h:2
+#| msgid "Connection"
+msgid "Connectivity"
+msgstr "Ryšiai"
+
+#: ../plugins/vnc/vnc.ui.h:3
+#| msgid "_Recent connections"
+msgid "Reverse Connections"
+msgstr "Atvirkštieji ryšiai"
+
+#: ../plugins/vnc/vnc.ui.h:4
+msgid "This machine is reachable through the following IP address(es):"
+msgstr "Šį kompiuterį galima pasiekti šiuo (-iais) IP adresu (-ais):"
+
+#: ../plugins/vnc/vnc.ui.h:5
+#| msgid "Enabled"
+msgid "_Always Enabled"
+msgstr "_Visada įjungta"
+
+#: ../plugins/vnc/vnc.ui.h:6
+#| msgid "_Recent connections"
+msgid "_Enable Reverse Connections"
+msgstr "_Įjungti atvirkštinius ryšius"
+
+#: ../propono/MATE_ProponoApplet.server.in.in.h:1
+msgid "A menu to quickly access remote machines"
+msgstr "Meniu greitai prieigai prie nutolusių kompiuterių"
+
+#: ../propono/MATE_ProponoApplet.server.in.in.h:3
+msgid "Propono Applet Factory"
+msgstr "Propono įtaiso gamykla"
+
+#: ../propono/propono-applet.c:277 ../propono/propono-applet.c:360
+msgid "Could not run propono:"
+msgstr "Nepavyko paleisti propono"
+
+#: ../propono/propono-applet.c:380
+msgid "Open Remote Desktop Viewer"
+msgstr "Atverti nutolusių darbastalių rodymo programą"
+
+#: ../propono/propono-applet.c:435
+msgid "Access your bookmarks"
+msgstr "Rodyti žymeles"
+
+#: ../propono/propono-bookmarks.c:265 ../propono/propono-connection.c:522
+#: ../propono/propono-tab.c:535 ../propono/propono-tube-handler.c:253
+#, c-format
+msgid "The protocol %s is not supported."
+msgstr "Protokolas %s nepalaikomas."
+
+#: ../propono/propono-bookmarks.c:343
+#, c-format
+msgid "Error while initializing bookmarks: %s"
+msgstr "Klaida inicializuojant žymeles: %s"
+
+#: ../propono/propono-bookmarks.c:343 ../propono/propono-bookmarks.c:458
+#: ../propono/propono-bookmarks-migration.c:135
+#: ../propono/propono-cache-prefs.c:53 ../propono/propono-commands.c:173
+#: ../propono/propono-connect.c:482 ../propono/propono-fav.c:765
+#: ../propono/propono-main.c:101 ../propono/propono-main.c:120
+#: ../propono/propono-window.c:268 ../propono/propono-window.c:737
+msgid "Unknown error"
+msgstr "Nežinoma klaida"
+
+#: ../propono/propono-bookmarks.c:350
+msgid "Error while initializing bookmarks: The file seems to be empty"
+msgstr "Klaida inicializuojant žymeles: failas tuščias"
+
+#: ../propono/propono-bookmarks.c:357
+msgid ""
+"Error while initializing bookmarks: The file is not a propono bookmarks file"
+msgstr "Klaida inicializuojant žymeles: tai ne propono žymelių failas"
+
+#: ../propono/propono-bookmarks.c:419 ../propono/propono-bookmarks.c:426
+msgid "Error while saving bookmarks: Failed to create the XML structure"
+msgstr "Klaida įrašant žymeles: nepavyko sukurti XML struktūros"
+
+#: ../propono/propono-bookmarks.c:433 ../propono/propono-bookmarks.c:440
+msgid "Error while saving bookmarks: Failed to initialize the XML structure"
+msgstr "Klaida įrašant žymeles: nepavyko inicijuoti XML struktūros"
+
+#: ../propono/propono-bookmarks.c:449
+msgid "Error while saving bookmarks: Failed to finalize the XML structure"
+msgstr "Klaida įrašant žymeles: nepavyko finalizuoti XML struktūros"
+
+#: ../propono/propono-bookmarks.c:458
+#, c-format
+msgid "Error while saving bookmarks: %s"
+msgstr "Klaida įrašant žymeles: %s"
+
+#: ../propono/propono-bookmarks-migration.c:95
+#: ../propono/propono-bookmarks-migration.c:102
+msgid "Error while migrating bookmarks: Failed to create the XML structure"
+msgstr "Klaida perkeliant žymeles: nepavyko sukurti XML struktūros"
+
+#: ../propono/propono-bookmarks-migration.c:109
+#: ../propono/propono-bookmarks-migration.c:116
+msgid "Error while migrating bookmarks: Failed to initialize the XML structure"
+msgstr "Klaida perkeliant žymeles: nepavyko inicijuoti XML struktūros"
+
+#: ../propono/propono-bookmarks-migration.c:125
+msgid "Error while migrating bookmarks: Failed to finalize the XML structure"
+msgstr "Klaida perkeliant žymeles: nepavyko finalizuoti XML struktūros"
+
+#: ../propono/propono-bookmarks-migration.c:135
+#: ../propono/propono-bookmarks-migration.c:217
+#, c-format
+msgid "Error while migrating bookmarks: %s"
+msgstr "Klaida perkeliant žymeles: %s"
+
+#: ../propono/propono-bookmarks-migration.c:164
+msgid "Error while migrating bookmarks: VNC plugin is not activated"
+msgstr "Klaida perkeliant žymeles: VNC įskiepis neįjungtas"
+
+#: ../propono/propono-bookmarks-migration.c:217
+msgid "Failed to create the directory"
+msgstr "Klaida sukuriant katalogą"
+
+#: ../propono/propono-bookmarks-migration.c:241
+msgid ""
+"Migrating the bookmarks file to the new format. This operation is only "
+"supposed to run once."
+msgstr ""
+"Žymelių failas perkeliamas nauju formatu.  Tai turėtų būti vienkartinė "
+"operacija."
+
+#: ../propono/propono-bookmarks-migration.c:249
+#, c-format
+msgid "Error opening old bookmarks file: %s"
+msgstr "Klaida atveriant senąjį žymelių failą: %s"
+
+#: ../propono/propono-bookmarks-migration.c:250
+#: ../propono/propono-bookmarks-migration.c:262
+msgid "Migration cancelled"
+msgstr "Perkėlimas nutrauktas"
+
+#: ../propono/propono-bookmarks-migration.c:259
+msgid "Could not remove the old bookmarks file"
+msgstr "Nepavyko pašalinti senojo žymelių failo"
+
+#: ../propono/propono-bookmarks-tree.c:120
+msgid "Root Folder"
+msgstr "Šakninis aplankas"
+
+#: ../propono/propono-bookmarks-ui.c:78
+msgid "Invalid name for this folder"
+msgstr "Neteisingas pavadinimas šiam aplankui"
+
+#: ../propono/propono-bookmarks-ui.c:88 ../propono/propono-bookmarks-ui.c:200
+#, c-format
+msgid ""
+"The name \"%s\" is already used in this folder. Please use a different name."
+msgstr ""
+"Pavadinimas „%s“ šiame aplanke jau naudojamas. Pasirinkite kitą pavadinimą."
+
+#: ../propono/propono-bookmarks-ui.c:89 ../propono/propono-bookmarks-ui.c:190
+#: ../propono/propono-bookmarks-ui.c:201
+msgid "Invalid name for this item"
+msgstr "Netinkamas pavadinimas šiam objektui"
+
+#. Translators: %s is a protocol name, like VNC or SSH
+#: ../propono/propono-bookmarks-ui.c:168
+#, c-format
+msgid "(Protocol: %s)"
+msgstr "(Protokolas: %s)"
+
+#. Translators: %s is a bookmark entry name
+#: ../propono/propono-bookmarks-ui.c:308
+#, c-format
+msgid "Are you sure you want to remove %s from bookmarks?"
+msgstr "Ar tikrai norite pašalinti %s iš žymelių?"
+
+#: ../propono/propono-bookmarks-ui.c:314
+msgid "Remove Folder?"
+msgstr "Pašalinti aplanką?"
+
+#: ../propono/propono-bookmarks-ui.c:315
+msgid "Notice that all its subfolders and items will be removed as well."
+msgstr ""
+"Turėkite omenyje, kad visi poaplankiai ir elementai tai pat bus pašalinti."
+
+#: ../propono/propono-bookmarks-ui.c:320
+msgid "Remove Item?"
+msgstr "Pašalinti elementą?"
+
+#: ../propono/propono-bookmarks-ui.c:337
+msgid "Error removing bookmark: Entry not found"
+msgstr "Klaida šalinant žymeles: įrašas nerastas"
+
+#: ../propono/propono-bookmarks-ui.c:354
+msgid "New Folder"
+msgstr "Naujas aplankas"
+
+#: ../propono/propono-cache-prefs.c:53
+#, c-format
+#| msgid "Error while saving bookmarks: %s"
+msgid "Error while saving preferences: %s"
+msgstr "Klaida įrašant nustatymus: %s"
+
+#: ../propono/propono-commands.c:121
+msgid "Choose the file"
+msgstr "Pasirinkite failą"
+
+#: ../propono/propono-commands.c:149
+msgid "There are no supported files"
+msgstr "Nėra palaikomų failų"
+
+#: ../propono/propono-commands.c:150
+msgid ""
+"None of the active plugins support this action. Activate some plugins and "
+"try again."
+msgstr ""
+"Nė vienas aktyvių įskiepių nepalaiko šio veiksmo. Įjunkite keletą įskiepių "
+"ir bandykite dar kartą."
+
+#: ../propono/propono-commands.c:184
+msgid "The following file could not be opened:"
+msgid_plural "The following files could not be opened:"
+msgstr[0] "Nepavyko atverti šio failo:"
+msgstr[1] "Nepavyko atverti šių failų:"
+msgstr[2] "Nepavyko atverti šių failų:"
+
+#: ../propono/propono-connect.c:87 ../propono/propono-connect.c:334
+#: ../propono/propono-connect.c:446
+msgid "Could not get the active protocol in the protocol list."
+msgstr "Nepavyko gauti aktyvaus protokolo protokolų sąraše."
+
+#: ../propono/propono-connect.c:315
+#, c-format
+msgid "Error while saving history file: %s"
+msgstr "Klaida įrašant retrospektyvos failą: %s"
+
+#: ../propono/propono-connect.c:350
+msgid "Choose a Remote Desktop"
+msgstr "Pasirinkite nutolusį darbastalį"
+
+#: ../propono/propono-connection.c:630
+msgid "Could not open the file."
+msgstr "Nepavyko atverti failo."
+
+#: ../propono/propono-connection.c:654
+msgid "The file was not recognized by any of the plugins."
+msgstr "Failo neatpažino joks įskiepis."
+
+#: ../propono/propono-fav.c:567
+msgid "_New Folder"
+msgstr "_Naujas aplankas"
+
+#: ../propono/propono-fav.c:568
+msgid "Create a new folder"
+msgstr "Sukurti naują aplanką"
+
+#: ../propono/propono-fav.c:573
+msgid "_Open bookmark"
+msgstr "_Atverti žymelę"
+
+#: ../propono/propono-fav.c:574
+msgid "Connect to this machine"
+msgstr "Prisijungti prie šio kompiuterio"
+
+#: ../propono/propono-fav.c:575
+msgid "_Edit bookmark"
+msgstr "_Keisti žymelę"
+
+#: ../propono/propono-fav.c:576
+msgid "Edit the details of selected bookmark"
+msgstr "Keisti pasirinktos žymelės savybes"
+
+#: ../propono/propono-fav.c:577
+msgid "_Remove from bookmarks"
+msgstr "_Pašalinti iš žymelių"
+
+#: ../propono/propono-fav.c:578
+msgid "Remove current selected connection from bookmarks"
+msgstr "Pašalinti pasirinktą ryšį iš žymelių"
+
+#: ../propono/propono-fav.c:596 ../propono/propono-window.c:399
+#, c-format
+msgid "Could not merge UI XML file: %s"
+msgstr "Nepavyko sulieti UI XML failo: %s"
+
+#: ../propono/propono-fav.c:754
+msgid "Invalid operation"
+msgstr "Netinkama operacija"
+
+#: ../propono/propono-fav.c:755
+msgid "Data received from drag&drop operation is invalid."
+msgstr "Vilkimo operacijos metu gauti duomenys netinkami."
+
+#: ../propono/propono-fav.c:859
+#| msgid "Side _Panel"
+msgid "Hide panel"
+msgstr "Paslėpti skydelį"
+
+#: ../propono/propono-fav.c:1044
+msgid "Hosts nearby"
+msgstr "Kompiuteriai netoliese"
+
+#. Translators: this is a command line option (run propono --help)
+#: ../propono/propono-main.c:63
+msgid "Open propono in fullscreen mode"
+msgstr "Atverti Propono viso ekrano veiksenoje"
+
+#. Translators: this is a command line option (run propono --help)
+#: ../propono/propono-main.c:67
+msgid "Create a new toplevel window in an existing instance of propono"
+msgstr ""
+"Kurti naują aukščiausiojo lygmens langą dabartinėje Propono instancijoje"
+
+#. Translators: this is a command line option (run propono --help)
+#: ../propono/propono-main.c:71
+msgid "Open a file recognized by propono"
+msgstr "Atverti failą, kurį atpažįsta Propono"
+
+#: ../propono/propono-main.c:71
+msgid "filename"
+msgstr "failo pavadinimas"
+
+#. Translators: this is a command line option (run propono --help)
+#: ../propono/propono-main.c:76
+msgid "[server:port]"
+msgstr "[serveris:prievadas]"
+
+#: ../propono/propono-main.c:131
+msgid "The following error has occurred:"
+msgid_plural "The following errors have occurred:"
+msgstr[0] "Įvyko klaida:"
+msgstr[1] "Įvyko klaidos:"
+msgstr[2] "Įvyko klaidos:"
+
+#. Setup command line options
+#: ../propono/propono-main.c:170
+msgid "- Remote Desktop Viewer"
+msgstr "– Nutolusių darbastalių rodymo programa"
+
+#: ../propono/propono-main.c:195
+msgid ""
+"Run 'propono --help' to see a full list of available command line options"
+msgstr ""
+"Paleiskite „propono --help“, jei norite pamatyti galimų komandų eilutės "
+"parametrų sąrašą."
+
+#: ../propono/propono-mdns.c:159
+#, c-format
+msgid "Failed to resolve avahi hostname: %s\n"
+msgstr "Nepavyko nustatyti Avahi kompiuterio vardo: %s\n"
+
+#: ../propono/propono-mdns.c:217
+#, c-format
+msgid "Plugin %s has already registered a browser for service %s."
+msgstr "Įskiepis %s jau užregistravo naršyklę tarnybai %s."
+
+#: ../propono/propono-mdns.c:226
+#, c-format
+msgid "Failed to add mDNS browser for service %s."
+msgstr "Nepavyko pridėti mDNS naršyklės tarnybai %s."
+
+#: ../propono/propono-mdns.c:242
+#, c-format
+msgid "Failed to browse for hosts: %s\n"
+msgstr "Nepavyko naršyti tinklo: %s\n"
+
+#: ../propono/propono-mdns.c:315
+#, c-format
+msgid "Failed to initialize mDNS browser: %s\n"
+msgstr "Nepavyko inicijuoti mDNS naršyklės: %s\n"
+
+#. Translators: %s is a host name or IP address.
+#: ../propono/propono-notebook.c:461
+#, c-format
+msgid "Connection to host %s was closed."
+msgstr "Ryšys su kompiuteriu %s užvertas."
+
+#: ../propono/propono-notebook.c:463
+msgid "Connection closed"
+msgstr "Ryšys užvertas"
+
+#. Translators: %s is a host name or IP address.
+#: ../propono/propono-notebook.c:482
+#, c-format
+msgid "Authentication to host %s has failed"
+msgstr "Autentikacija kompiuteryje %s nepavyko"
+
+#: ../propono/propono-notebook.c:488
+msgid "Authentication failed"
+msgstr "Atpažinimas nepavyko"
+
+#: ../propono/propono-notebook.c:526
+msgid "Connecting..."
+msgstr "Jungiamasi..."
+
+#: ../propono/propono-notebook.c:553 ../propono/propono-tab.c:325
+msgid "Close connection"
+msgstr "Atsijungti"
+
+#: ../propono/propono-plugin-dialog.c:83
+msgid "Plugin Manager"
+msgstr "Įskiepių valdyklė"
+
+#: ../propono/propono-plugin-manager.c:45
+msgid "Plugin"
+msgstr "Įskiepis"
+
+#: ../propono/propono-plugin-manager.c:46
+msgid "Enabled"
+msgstr "Įjungta"
+
+#: ../propono/propono-plugin-manager.c:503
+msgid "C_onfigure"
+msgstr "_Konfigūruoti"
+
+#: ../propono/propono-plugin-manager.c:512
+msgid "A_ctivate"
+msgstr "_Aktyvuoti"
+
+#: ../propono/propono-plugin-manager.c:523
+msgid "Ac_tivate All"
+msgstr "Aktyvuoti _visus"
+
+#: ../propono/propono-plugin-manager.c:528
+msgid "_Deactivate All"
+msgstr "_Deaktyvuoti visus"
+
+#: ../propono/propono-plugin-manager.c:824
+msgid "_About Plugin"
+msgstr "_Apie įskiepį"
+
+#: ../propono/propono-plugin-manager.c:828
+msgid "C_onfigure Plugin"
+msgstr "_Konfigūruoti įskiepį"
+
+#: ../propono/propono-prefs.c:212
+msgid "Cannot initialize preferences manager."
+msgstr "Nepavyko inicializuoti nustatymų valdyklės."
+
+#: ../propono/propono-ssh.c:106
+msgid "Timed out when logging into SSH host"
+msgstr "Baigėsi skirtasis laikas jungiantis prie SSH kompiuterio"
+
+#: ../propono/propono-ssh.c:180
+msgid "Unable to spawn ssh program"
+msgstr "Nepavyko paleisti ssh programos"
+
+#: ../propono/propono-ssh.c:197
+#, c-format
+msgid "Unable to spawn ssh program: %s"
+msgstr "Nepavyko paleisti ssh programos: %s"
+
+#: ../propono/propono-ssh.c:352
+msgid "Timed out when logging in"
+msgstr "Jungiantis baigėsi skirtasis laikas"
+
+#: ../propono/propono-ssh.c:375 ../propono/propono-ssh.c:529
+#: ../propono/propono-ssh.c:612
+msgid "Permission denied"
+msgstr "Prieiga uždrausta"
+
+#: ../propono/propono-ssh.c:440
+msgid "Password dialog canceled"
+msgstr "Slaptažodžio dialogas atmestas"
+
+#: ../propono/propono-ssh.c:463
+#| msgid "Could not run propono:"
+msgid "Could not send password"
+msgstr "Nepavyko išsiųsti slaptažodžio"
+
+#: ../propono/propono-ssh.c:471
+msgid "Log In Anyway"
+msgstr "Vis tiek prisijungti"
+
+#: ../propono/propono-ssh.c:471
+msgid "Cancel Login"
+msgstr "Atšaukti prisijungimą"
+
+#: ../propono/propono-ssh.c:480
+#, c-format
+msgid ""
+"The identity of the remote computer (%s) is unknown.\n"
+"This happens when you log in to a computer the first time.\n"
+"\n"
+"The identity sent by the remote computer is %s. If you want to be absolutely "
+"sure it is safe to continue, contact the system administrator."
+msgstr ""
+"Nutolusio kompiuterio (%s) tapatybė nežinoma.\n"
+"Taip nutinka, kai pirmą kartą prisijungiate prie kompiuterio.\n"
+"\n"
+"Nutolusio kompiuterio atsiųsta tapatybė yra %s. Jeigu esate visiškai tikri, "
+"kad tęsti yra saugu, susisiekite su sistemos administratoriumi."
+
+#: ../propono/propono-ssh.c:498
+#| msgid "Migration cancelled"
+msgid "Login dialog canceled"
+msgstr "Prisijungimo dialogas atmestas"
+
+#: ../propono/propono-ssh.c:519
+msgid "Can't send host identity confirmation"
+msgstr "Nepavyko išsiųsti kompiuterio tapatybės patvirtinimo"
+
+#: ../propono/propono-ssh.c:554 ../propono/propono-tab.c:732
+msgid "Error saving the credentials on the keyring."
+msgstr "Klaida įrašant kredencialus raktinėje."
+
+#: ../propono/propono-ssh.c:619
+msgid "Hostname not known"
+msgstr "Kompiuterio vardas nežinomas"
+
+#: ../propono/propono-ssh.c:626
+msgid "No route to host"
+msgstr "Nėra maršruto iki kompiuterio"
+
+#: ../propono/propono-ssh.c:633
+#| msgid "Connection closed"
+msgid "Connection refused by server"
+msgstr "Serveris atmetė prisijungimą"
+
+#: ../propono/propono-ssh.c:640
+#| msgid "Authentication failed"
+msgid "Host key verification failed"
+msgstr "Nepavyko patvirtinti kompiuterio rakto"
+
+#: ../propono/propono-ssh.c:676
+msgid "Unable to find a valid SSH program"
+msgstr "Nepavyko rasti tinkamos SSH programos"
+
+#: ../propono/propono-tab.c:346
+msgid "Leave fullscreen"
+msgstr "Išjungti viso ekrano veikseną"
+
+#: ../propono/propono-tab.c:497
+msgid "Error saving recent connection."
+msgstr "Klaida įrašant neseną prisijungimą."
+
+#: ../propono/propono-tab.c:818
+msgid "Could not get a screenshot of the connection."
+msgstr "Nepavyko gauti ryšio ekrano nuotraukos."
+
+#: ../propono/propono-tab.c:823
+msgid "Save Screenshot"
+msgstr "Įrašyti ekrano nuotrauką"
+
+#: ../propono/propono-tab.c:834
+#, c-format
+msgid "Screenshot of %s"
+msgstr "%s ekrano nuotrauka"
+
+#: ../propono/propono-tab.c:885
+msgid "Error saving screenshot"
+msgstr "Klaida įrašant ekrano nuotrauką"
+
+#: ../propono/propono-tube-handler.c:229
+#, c-format
+msgid "Impossible to get service property: %s"
+msgstr "Nepavyko gauti tarnybos savybės: %s"
+
+#: ../propono/propono-tube-handler.c:286
+#, c-format
+msgid "Impossible to create the connection: %s"
+msgstr "Nepavyko sukurti ryšio: %s"
+
+#: ../propono/propono-tube-handler.c:325
+#, c-format
+msgid "Impossible to accept the stream tube: %s"
+msgstr "Nepavyko priimti srauto tunelio: %s"
+
+#: ../propono/propono-tube-handler.c:463
+#, c-format
+msgid "Impossible to get the contact name: %s"
+msgstr "Nepavyko gauti adresato vardo: %s"
+
+#: ../propono/propono-tube-handler.c:498
+#, c-format
+msgid "Impossible to get the avatar: %s"
+msgstr "Nepavyko gauti avataro: %s"
+
+#: ../propono/propono-tube-handler.c:519
+#, c-format
+#| msgid "%s wants to share his desktop with you."
+msgid "%s wants to share their desktop with you."
+msgstr "%s nori su jumis pasidalinti savo darbastaliu."
+
+#: ../propono/propono-tube-handler.c:524
+msgid "Desktop sharing invitation"
+msgstr "Darbastalio dalijimosi kvietimas"
+
+#. Toplevel
+#: ../propono/propono-ui.h:33
+msgid "_Machine"
+msgstr "_Kompiuteris"
+
+#: ../propono/propono-ui.h:34
+msgid "_Edit"
+msgstr "_Taisa"
+
+#: ../propono/propono-ui.h:35
+msgid "_View"
+msgstr "_Rodymas"
+
+#: ../propono/propono-ui.h:36
+msgid "_Bookmarks"
+msgstr "Ž_ymelės"
+
+#: ../propono/propono-ui.h:41
+msgid "Connect to a remote machine"
+msgstr "Prisijungti prie nutolusio kompiuterio"
+
+#: ../propono/propono-ui.h:43
+msgid "Open a .VNC file"
+msgstr "Atverti .VNC failą"
+
+#: ../propono/propono-ui.h:45
+msgid "Quit the program"
+msgstr "Uždaryti programą"
+
+#: ../propono/propono-ui.h:49
+msgid "Edit the application preferences"
+msgstr "Keisti programos nustatymus"
+
+#: ../propono/propono-ui.h:50
+#| msgid "Plugin"
+msgid "_Plugins"
+msgstr "Įs_kiepiai"
+
+#: ../propono/propono-ui.h:51
+#| msgid "Active plugins"
+msgid "Select plugins"
+msgstr "Pasirinkti įskiepius"
+
+#. Help menu
+#: ../propono/propono-ui.h:54
+msgid "_Contents"
+msgstr "_Turinys"
+
+#: ../propono/propono-ui.h:55
+msgid "Open the propono manual"
+msgstr "Atverti propono žinyną"
+
+#: ../propono/propono-ui.h:57
+msgid "About this application"
+msgstr "Apie šią programą"
+
+#: ../propono/propono-ui.h:62
+msgid "_Toolbar"
+msgstr "Į_rankių juosta"
+
+#: ../propono/propono-ui.h:63
+msgid "Show or hide the toolbar"
+msgstr "Rodyti arba slėpti įrankių juostą"
+
+#: ../propono/propono-ui.h:66
+msgid "_Statusbar"
+msgstr "_Būsenos juosta"
+
+#: ../propono/propono-ui.h:67
+msgid "Show or hide the statusbar"
+msgstr "Rodyti arba slėpti būsenos juostą"
+
+#: ../propono/propono-ui.h:70
+msgid "Side _Panel"
+msgstr "_Šoninis skydelis"
+
+#: ../propono/propono-ui.h:71
+msgid "Show or hide the side panel"
+msgstr "Rodyti arba slėpti šoninį skydelį"
+
+#: ../propono/propono-ui.h:79
+msgid "Close the current connection"
+msgstr "Uždaryti esamą ryšį"
+
+#: ../propono/propono-ui.h:80
+msgid "C_lose All"
+msgstr "_Užverti visus"
+
+#: ../propono/propono-ui.h:81
+msgid "Close all active connections"
+msgstr "Uždaryti visus esamus ryšius"
+
+#. Bookmarks menu
+#: ../propono/propono-ui.h:84
+msgid "_Add to bookmarks"
+msgstr "_Pridėti prie žymelių"
+
+#: ../propono/propono-ui.h:85
+msgid "Add current connection to your bookmarks"
+msgstr "Pridėti esamą ryšį prie žymelių"
+
+#. Machine menu
+#: ../propono/propono-ui.h:92
+msgid "Take screenshot"
+msgstr "Padaryti ekrano nuotrauką"
+
+#: ../propono/propono-ui.h:93
+msgid "Take a screenshot of active connection"
+msgstr "Padaryti aktyvaus ryšio ekrano nuotrauką"
+
+#: ../propono/propono-ui.h:97
+msgid "View the current machine in full screen"
+msgstr "Rodyti šį kompiuterį visame ekrane"
+
+#: ../propono/propono-utils.c:75
+msgid "An error has occurred:"
+msgstr "Įvyko klaida:"
+
+#: ../propono/propono-utils.c:175
+msgid ""
+"A plugin tried to open an UI file but did not succeed, with the error "
+"message:"
+msgstr ""
+"Įskiepis bandė atverti UI failą, tačiau to padaryti nepavyko. Klaidos "
+"pranešimas:"
+
+#: ../propono/propono-utils.c:177
+msgid ""
+"The program tried to open an UI file but did not succeed, with the error "
+"message:"
+msgstr ""
+"Programa bandė atverti UI failą, tačiau to padaryti nepavyko. Klaidos "
+"pranešimas:"
+
+#: ../propono/propono-utils.c:180
+msgid "Please check your installation."
+msgstr "Patikrinkite, ar programa įdiegta tinkamai."
+
+#: ../propono/propono-utils.c:181
+#| msgid "Error while saving history file: %s"
+msgid "Error loading UI file"
+msgstr "Klaida įrašant UI failą"
+
+#: ../propono/propono-utils.c:492
+msgid "Propono is a remote desktop viewer for the MATE Desktop"
+msgstr "Propono – tai nutolusių darbastalių rodymo programa MATE aplinkai"
+
+#: ../propono/propono-utils.c:495
+msgid ""
+"Propono is free software; you can redistribute it and/or modify it under the "
+"terms of the GNU General Public License as published by the Free Software "
+"Foundation; either version 2 of the License, or (at your option) any later "
+"version."
+msgstr ""
+"Propono yra laisva programinė įranga. Galite ją platinti ir/arba modifikuoti "
+"GNU Bendrosios viešosios licencijos sąlygomis, paskelbtomis Laisvosios "
+"programinės įrangos fondo; 2-osios arba (jūsų pasirinkimu) bet kurios "
+"vėlesnės licencijos versijos sąlygomis."
+
+#: ../propono/propono-utils.c:499
+msgid ""
+"Propono is distributed in the hope that it will be useful, but WITHOUT ANY "
+"WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS "
+"FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more "
+"details."
+msgstr ""
+"Propono yra platinama tikintis, kad ji bus naudinga, bet BE JOKIŲ GARANTIJŲ, "
+"netgi be numanomų PARDAVIMO arba TINKAMUMO TAM TIKRAM TIKSLUI garantijų. "
+"Daugiau informacijos galite rasti GNU Bendrojoje viešojoje licencijoje."
+
+#: ../propono/propono-utils.c:503
+msgid ""
+"You should have received a copy of the GNU General Public License along with "
+"this program. If not, see <http://www.gnu.org/licenses/>."
+msgstr ""
+"Jūs turėjote gauti GNU bendrosios viešosios licencijos kopiją kartu su šia "
+"programa. Jei negavote, žiūrėkite <http://www.gnu.org/licenses/>."
+
+#: ../propono/propono-utils.c:525
+msgid "translator-credits"
+msgstr ""
+"Gintautas Miliauskas <gintas@akl.lt>\\n\n"
+"Žygimantas Beručka <zygis@mate.org>"
+
+#: ../propono/propono-utils.c:528
+msgid "Propono Website"
+msgstr "Propono tinklalapis"
+
+#. Translators: %s is a protocol, like VNC or SSH
+#: ../propono/propono-utils.c:660
+#, c-format
+#| msgid "Authentication is required"
+msgid "%s authentication is required"
+msgstr "%s reikia nustatyti tapatybę"
+
+#: ../propono/propono-window.c:428
+msgid "_Recent connections"
+msgstr "_Vėliausi ryšiai"
+
+#. Translators: This is server:port, a statusbar tooltip when mouse is over a bookmark item on menu
+#: ../propono/propono-window.c:543
+#, c-format
+msgid "Open %s:%d"
+msgstr "Atverti %s:%d"
+
+#: ../propono/propono-window.c:721
+msgid "About menu accelerators and keyboard shortcuts"
+msgstr "Apie meniu akceleratorius ir sparčiuosius klavišus"
+
+#: ../propono/propono-window.c:723
+msgid ""
+"Propono comes with menu accelerators and keyboard shortcuts disabled by "
+"default. The reason is to avoid the keys to be intercepted by the program, "
+"and allow them to be sent to the remote machine.\n"
+"\n"
+"You can change this behavior through the preferences dialog. For more "
+"information, check the documentation.\n"
+"\n"
+"This message will appear only once."
+msgstr ""
+"Propono pagal numatytuosius nustatymus meniu akceleratoriai ir spartieji "
+"klavišai yra išjungti. Taip yra norint neleisti programai perimti klavišų ir "
+"norint leisti perduoti jų paspaudimus į nutolusį kompiuterį.\n"
+"\n"
+"Galite pakeisti šią veikseną nustatymų dialoge. Daugiau informacijos galite "
+"rasti dokumentacijoje.\n"
+"\n"
+"Šis pranešimas rodomas tik vieną kartą."
+
+#: ../propono/propono-window.c:731 ../propono/propono-window.c:737
+#, c-format
+#| msgid "Error while saving history file: %s"
+msgid "Error while creating the file %s: %s"
+msgstr "Klaida kuriant failą %s: %s"
+
+#~ msgid "All fields above are mandatory"
+#~ msgstr "Visi aukščiau esantys langeliai privalomi"
+
+#~ msgid "Could not merge propono-ui.xml: %s"
+#~ msgstr "Nepavyko sulieti propono-ui.xml: %s"
+
+#~ msgid "<b>Connection</b>"
+#~ msgstr "<b>Ryšys</b>"
+
+#~ msgid "<b>Folder</b>"
+#~ msgstr "<b>Aplankas</b>"
+
+#~ msgid "host or host:display or host::port"
+#~ msgstr "kompiuteris arba kompiuteris:ekranas arba kompiuteris::prievadas"
+
+#~ msgid "Supported formats"
+#~ msgstr "Palaikomi formatai"
+
+#~ msgid "Choose a VNC Server"
+#~ msgstr "Pasirinkite VNC serverį"
+
+#~ msgid "Could not find the host address in the file."
+#~ msgstr "Faile nerastas kompiuterio adresas."
+
+#~ msgid "Opens a .vnc file"
+#~ msgstr "Atveria .vnc failą"
+
+#~ msgid "- VNC Client for MATE"
+#~ msgstr "- VNC klientas MATE aplinkai"
+
+#~ msgid "Error saving the credential on the keyring."
+#~ msgstr "Klaida įrašant kredencialus į raktinę."
+
+#~ msgid "Minimize window"
+#~ msgstr "Sumažinti langą"
+
+#~ msgid "_Read only"
+#~ msgstr "Tik _skaitymui"
+
+#~ msgid "Press Ctrl+Alt to release the cursor"
+#~ msgstr "Paspauskite Vald+Alt, jei norite išlaisvinti kursorių"
+
+#~ msgid "<b>Editing a bookmark</b>"
+#~ msgstr "<b>Keičiama žymelė</b>"
+
+#~ msgid "<b>Enter a name for this connection</b>"
+#~ msgstr "<b>Įveskite pavadinimą šiam prisijungimui</b>"
+
+#~ msgid ""
+#~ "<b>In order to connect on this machine, a password is required. Please "
+#~ "supply it.</b>"
+#~ msgstr ""
+#~ "<b>Norėdami prisijungti prie šio kompiuterio, privalote pateikti "
+#~ "slaptažodį.</b>"
+
+#~ msgid "Editing a bookmark"
+#~ msgstr "Keičiama žymelė"
+
+#~ msgid "Saving to bookmarks"
+#~ msgstr "Įrašoma į žymeles"
+
+#~ msgid "_Bookmark name:"
+#~ msgstr "_Žymelės pavadinimas:"
+
+#~ msgid "Error: %s"
+#~ msgstr "Klaida: %s"
+
+#~ msgid "Confirm removal?"
+#~ msgstr "Patvirtinti pašalinimą?"
+
+#~ msgid "Error while removing %s from bookmarks: %s"
+#~ msgstr "Klaida šalinant %s iš žymelių: %s"
+
+#~ msgid ""
+#~ "Scaling does not work properly on composited windows. Disable the visual "
+#~ "effects and try again."
+#~ msgstr ""
+#~ "Mastelio keitimas neveikia su komponuojamais langais. Išjunkite "
+#~ "vizualinius efektus ir bandykite dar kartą."
+
+#~ msgid "Image"
+#~ msgstr "Paveikslėlis"
+
+#~ msgid "Name"
+#~ msgstr "Vardas"
+
+#~ msgid "Hide bookmarks"
+#~ msgstr "Slėpti žymeles"
+
+#~ msgid "Expected `%s' got `%s' for key %s"
+#~ msgstr "Tikėtasi „%s“, gauta „%s“ raktui %s"
+
+#~ msgid "Press Ctrl+Alt to grab the cursor"
+#~ msgstr "Paspauskite Vald+Alt, jei norite pagriebti kursorių"

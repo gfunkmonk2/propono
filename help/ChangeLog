@@ -1,0 +1,191 @@
+==================== 2.26.1 =======================
+
+2009-04-04  Simos Xenitellis  <simos@mate.org>
+
+	* el/figures/*.png: Added screenshot by Fotis Tsamis.
+
+2009-03-18  Kostas Papadimas  <pkst@mate.org>
+
+	* Makefile.am:
+	* el/el.po: Added Greek translation by Marios Zindilis.
+
+2009-03-13  Andre Klapper  <a9016009@gmx.de>
+
+	* cs.po: Updated Czech translation by Lucas Lommer.
+
+2009-03-11  Milo Casagrande  <milo@ubuntu.com>
+
+	* it/it.po: Updated Italian translation.
+	* it/figures/: Added screenshot.
+
+2009-03-04  Philip Withnall  <philip@tecnocode.co.uk>
+
+	* Makefile.am:
+	* en_GB/en_GB.po: Added British English translation.
+
+==================== 2.25.92 =======================
+
+2009-02-24  Gil Forcada  <gforcada@mate.org>
+
+	* ca/ca.po: Updated Catalan translation by Joan Duran.
+	* ca/figures/*.png: Added screenshot.
+
+2009-02-17  Andre Klapper  <a9016009@gmx.de>
+
+	* cs/cs.po: Updated Czech Translation by Lucas Lommer.
+
+==================== 2.25.91 =======================
+==================== 2.25.90 ======================
+
+2009-01-31  Mario Blättermann  <mariobl@svn.mate.org>
+
+	* de/de.po: Some cosmetic fixes in German translation.
+	* de/figures/*: New screenshot.
+
+2009-01-26  Daniel Nylander <po@danielnylander.se>
+
+	* sv/sv.po: Updated Swedish translation.
+
+==================== 2.25.5 ======================
+==================== 2.25.4 ======================
+
+2008-12-15  Jorge Gonzalez  <jorgegonz@svn.mate.org>
+
+	* es.po: Updated Spanish translation.
+
+==================== 2.25.3 ======================
+
+2008-12-14  Leonardo Ferreira Fontenelle  <leonardof@mate.org>
+
+	* Makefile.am: Added pt_BR to DOC_LINGUAS.
+	* pt_BR/pt_BR.po: Updated Brazilian Portuguese translation by Leonardo
+	Gregianin and myself.
+	* pt_BR/figures/propono-screenshot.png: Added screenshot.
+
+2008-12-11  Jonh Wendell <jwendell@mate.org>
+
+	* C/figures/propono-screenshot.png: Changed the screenshot with a
+	smaller one.
+
+2008-10-26  Mario Blättermann  <mariobl@svn.mate.org>
+
+	* de/figures/propono-screenshot.png: Added screenshot.
+	* de/de.po: Updated German translation.
+
+2008-10-13  Mario Blättermann  <mariobl@svn.mate.org>
+
+	* de/de.po: Updated German translation.
+
+2008-09-30  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* th/figures/propono-screenshot.png: Added Thai screenshot.
+
+2008-09-22  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* Makefile.am: Added 'th' to DOC_LINGUAS.
+	* th/th.po: Added Thai translation by Sira Nokyoongtong.
+
+==================== 2.24.0 ======================
+
+2008-09-12  Petr Kovar  <pknbe@volny.cz>
+
+	* cs/cs.po: Added Czech doc translation by Lucas Lommer.
+	* Makefile.am: Added cs to DOC_LINGUAS.
+
+==================== 2.23.92 =====================
+==================== 2.23.91 =====================
+==================== 2.23.90 =====================
+
+2008-08-31  Mario Blättermann  <mariobl@svn.mate.org>
+
+	* de/de.po: Added German translation.
+	* Makefile.am: Added de to DOC_LINGUAS.
+
+2008-08-11  Gil Forcada  <gforcada@mate.org>
+
+	* ca/ca.po: Added Catalan translation by Joan Duran.
+	* Makefile.am: Added ca to DOC_LINGUAS.
+
+==================== 2.23.4 =====================
+
+2008-06-11  Yannig Marchegay <yannig@marchegay.org>
+
+	* oc/oc.po: Updated Occitan translation.
+
+==================== 2.23.3 =====================
+
+==================== 2.23.2 =====================
+
+2008-03-14  Laurent Dhima  <laurenti@alblinux.net>
+
+	* sq/sq.po: Added Albanian translation.
+	* Makefile.am: Added sq to ALL_LINGUAS.
+
+2008-03-09  Daniel Nylander <po@danielnylander.se>
+
+	* sv/sv.po: Updated Swedish translation.
+	* sv/figures/*: Added screenshot.
+
+2008-03-09  Duarte Loreto <happyguy_pt@hotmail.com>
+
+	* pt/pt.po: Updated Portuguese translation by Filipe Gomes
+	<filipefgomes@gmail.com>.
+
+2008-03-08  Jorge Gonzalez  <jorgegonz@svn.mate.org>
+
+	* es/es.po: Updated Spanish translation.
+	* es/figures/*.png: Added screenshot.
+
+2008-03-03  Luca Ferretti  <elle.uca@libero.it>
+	
+	* it/it.po: Fixed validity errors.
+
+2008-03-03  Luca Ferretti  <elle.uca@libero.it>
+
+	* Makefile.am: Added it to ALL_LINGUAS.
+	* it/it.po: Added Italian translation by Andrea Zagli.
+
+2008-02-12  Jorge Gonzalez  <jorgegonz@svn.mate.org>
+
+	* es/es.po: Updated Spanish translation.
+
+==================== 0.4.91 ====================
+
+2008-02-09  Claude Paroz  <claude@2xlibre.net>
+
+	* Changelog: Renamed Changelog to ChangeLog.
+	* Makefile.am: Added fr to DOC_LINGUAS.
+	* fr/fr.po: Added French translation.
+	* fr/figures/*: Added translated screenshot.
+
+2008-01-29  Jorge Gonzalez  <jorgegonz@svn.mate.org>
+
+	* es/es.po: Updated Spanish translation   
+
+==================== 0.4.90 ====================
+
+2008-01-26  Duarte Loreto <happyguy_pt@hotmail.com>
+
+	* pt/pt.po: Added Portuguese translation by Filipe Gomes
+	<filipefgomes@gmail.com>.
+	* Makefile.am: Added Portuguese (pt) to DOC_LINGUAS.
+
+2008-01-20  Yannig Marchegay <yannig@marchegay.org>
+
+	* oc.po: Updated Occitan translation.
+
+2008-01-19  Jorge Gonzalez  <jorgegonz@svn.mate.org>
+
+	* es/es.po: Updated Spanish translation
+
+2008-01-18  Jonh Wendell <jwendell@mate.org>
+
+	* Documentation finished, thanks to Vinicius Depizzol and GHOP. Closes #503806.
+
+2008-01-15  Jonh Wendell <jwendell@mate.org>
+
+	* Added Changelog
+
+2007-12-29  Daniel Nylander <po@danielnylander.se>
+
+	* sv/sv.po: Added Swedish translation.

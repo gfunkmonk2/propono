@@ -1,0 +1,1332 @@
+# translation of propono.master.ta.po to Tamil
+# translation of ta.po to
+# translation of propono.ta.po to
+# Dr.T.Vasudevan <agnihot3@gmail.com>, 2008, 2009.
+# I. Felix <ifelix@redhat.com>, 2008, 2009.
+# Dr.T.vasudevan <agnihot3@gmail.com>, 2009.
+# Dr,T,Vasudevan <agnihot3@gmail.com>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: propono.master.ta\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-02-15 16:18+0530\n"
+"PO-Revision-Date: 2010-02-15 17:56+0530\n"
+"Last-Translator: Dr,T,Vasudevan <agnihot3@gmail.com>\n"
+"Language-Team: Tamil <Ubuntu-l10n-tam@lists.ubuntu.com>>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 0.3\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+
+#: ../data/MATE_ProponoApplet.xml.h:1 ../propono/propono-plugin-manager.c:495
+msgid "_About"
+msgstr "பற்றி (_A) "
+
+#: ../data/MATE_ProponoApplet.xml.h:2 ../propono/propono-ui.h:37
+msgid "_Help"
+msgstr "உதவி (_H)"
+
+#: ../data/propono.desktop.in.in.h:1 ../data/propono-file.desktop.in.in.h:1
+msgid "Access remote desktops"
+msgstr "தொலை பணிமேடைகளை அணுகுதல்"
+
+#: ../data/propono.desktop.in.in.h:2 ../data/propono-file.desktop.in.in.h:2
+#: ../propono/MATE_ProponoApplet.server.in.in.h:2
+#: ../propono/propono-applet.c:434 ../propono/propono-applet.c:486
+#: ../propono/propono-main.c:200
+msgid "Remote Desktop Viewer"
+msgstr "தொலை பணிமேடை காட்டி"
+
+#: ../data/propono.ui.h:1
+msgid "Allow _keyboard shortcuts"
+msgstr "_k விரைவு விசைகளை அனுமதிக்கவும்"
+
+#: ../data/propono.ui.h:2
+msgid "Authentication is required"
+msgstr "அங்கீகாரம் தேவைப்படுகிறது"
+
+#. setup label
+#: ../data/propono.ui.h:3 ../propono/propono-fav.c:851
+msgid "Bookmarks"
+msgstr "புத்தகக்குறிகள்"
+
+#: ../data/propono.ui.h:4
+msgid "Connection"
+msgstr "இணைப்பு"
+
+#: ../data/propono.ui.h:5
+msgid "Connection options"
+msgstr "இணைப்பு விருப்பங்கள்"
+
+#: ../data/propono.ui.h:6
+msgid "Folder"
+msgstr "கோப்புறை"
+
+#: ../data/propono.ui.h:7 ../plugins/ssh/propono-ssh-tab.c:49
+#: ../plugins/vnc/propono-vnc-tab.c:148 ../propono/propono-fav.c:404
+msgid "Host:"
+msgstr "புரவலன்:"
+
+#: ../data/propono.ui.h:8
+msgid "Interface"
+msgstr "இடைமுகம்"
+
+#: ../data/propono.ui.h:9
+msgid "Options"
+msgstr "விருப்பங்கள்"
+
+#: ../data/propono.ui.h:10
+msgid "Parent Folder"
+msgstr "பெற்றோர் கோப்புறை>"
+
+#: ../data/propono.ui.h:11
+msgid "Preferences"
+msgstr "விருப்பங்கள்"
+
+#. This is a tooltip in preferences dialog
+#: ../data/propono.ui.h:13
+msgid ""
+"This option enables menu accelerators and keyboard shortcuts. For more info "
+"on why you may want to disable them, check the documentation."
+msgstr "இந்த தேர்வு உங்களை பட்டி முடுக்கிகள் மற்றும் விசைப்பலகை குறுக்கு விசைகள் ஆகியவற்றை செயலாக்கும். மேலும் ஏன் இவற்றை செயலிழக்கச்செய்யலாகாது என அறிய ஆவணத்தை காண்க"
+
+#: ../data/propono.ui.h:14
+msgid "Which machine do you want to connect to?"
+msgstr "எந்த கணினியுடன் நீங்கள் இணைக்க வேண்டும்?"
+
+#: ../data/propono.ui.h:15
+msgid "_Always show tabs"
+msgstr "(_A) எப்போதும் கீற்றுகளை காட்டு"
+
+#. This is a button label, in the authentication dialog
+#: ../data/propono.ui.h:17
+msgid "_Authenticate"
+msgstr "அனுமதித்தல் (_A)"
+
+#: ../data/propono.ui.h:18
+msgid "_Full screen"
+msgstr "முழுத் திரை (_F)"
+
+#: ../data/propono.ui.h:19
+msgid "_Host:"
+msgstr "புரவலன் (_H):"
+
+#: ../data/propono.ui.h:20
+msgid "_Name:"
+msgstr "பெயர் (_N):"
+
+#: ../data/propono.ui.h:21
+msgid "_Password:"
+msgstr "கடவுச்சொல் (_P):"
+
+#: ../data/propono.ui.h:22
+msgid "_Protocol:"
+msgstr "நெறிமுறை (_P):"
+
+#: ../data/propono.ui.h:23
+msgid "_Remember this credential"
+msgstr "இந்த அறிமுக ஆவணத்தை நினைவில் கொள்ளவும் (_R)"
+
+#: ../data/propono.ui.h:24 ../plugins/ssh/propono-ssh-plugin.c:144
+msgid "_Username:"
+msgstr "(_U) பயனர் பெயர்:"
+
+#: ../data/propono.schemas.in.in.h:1 ../propono/propono-plugin-manager.c:795
+msgid "Active plugins"
+msgstr "கூடுதல் இணைப்பை செயல்படுத்து"
+
+#: ../data/propono.schemas.in.in.h:2
+msgid ""
+"List of active plugins. It contains the \"Location\" of the active plugins. "
+"See the .propono-plugin file for obtaining the \"Location\" of a given "
+"plugin."
+msgstr ""
+"செயலிலுள்ள கூடுதல் இணைப்புகளின் பட்டியல். இது செயலிலுள்ள கூடுதல் இணைப்பின் \"இடத்தை\" "
+"கொண்டுள்ளது. .propono-plugin கோப்பினை \"இடத்தை\" கொடுக்கப்பட்ட கூடுதல் இணைப்புக்கு "
+"பெறுகிறதா என பார்க்கவும்."
+
+#: ../data/propono.schemas.in.in.h:3
+msgid "Maximum number of history items in connect dialog"
+msgstr "இணை உரையாடலில் அதிக பட்ச வரலாற்று உருப்படி எண்"
+
+#: ../data/propono.schemas.in.in.h:4
+msgid ""
+"Set to \"false\" to disable menu shortcuts. Set to \"true\" to enable them. "
+"Note that if they are enabled, those keys will be intercepted by the menu "
+"and will not be sent to the remote host."
+msgstr ""
+"\"தவறு\" என அமைத்தால்  பட்டி குறுக்கு விசைகள் செயல் நீங்கும். \"உண்மை\" என அமைத்தால் "
+"செயல் படும். ஆவைற்றை  அமைத்தால் பட்டியால் அவ்விசைகள் தடுக்கப்படும். தொலை புரவலனுக்கு "
+"அனுப்பப்பட மாட்டா என குறிக்க."
+
+#: ../data/propono.schemas.in.in.h:5
+msgid ""
+"Set to \"true\" to always show the tabs. Set to \"false\" to only show the "
+"tabs when there is more than one active connection."
+msgstr ""
+"\"உண்மை\" என அமைத்தால்  கீற்றுகள் எப்போதும் காட்டப்படும். \"தவறு\" என அமைத்தால் ஒரு "
+"இணைப்புக்கு மேல் செயல் படும் போது மட்டுமே கீற்றுகள் காட்டப்படும்."
+
+#: ../data/propono.schemas.in.in.h:6
+msgid ""
+"Set to \"true\" to always start the program listening for reverse "
+"connections."
+msgstr "\"உண்மை\" என அமைத்தால்  நிரல் திருப்பி வரும் இணைப்புகளுக்கு செவி சாய்த்து துவக்கப்படும்."
+
+#: ../data/propono.schemas.in.in.h:7
+msgid "Specifies the maximum number of items in the host dropdown entry."
+msgstr "கீழிறங்கும் புரவலன் உள்ளீட்டில் அதிக பட்ச உருப்படி எண்"
+
+#: ../data/propono.schemas.in.in.h:8
+msgid "The handler for \"vnc://\" URLs"
+msgstr "\"vnc://\" URL களுக்கு கையாளி"
+
+#: ../data/propono.schemas.in.in.h:9
+msgid ""
+"When connecting to a host, the client can say to the server to leave other "
+"clients connected or to drop the existent connections. Set the value to true "
+"to share the desktop with the other clients."
+msgstr ""
+"ஒரு புரவலனுக்கு இணைக்கும்போது, சார்ந்தோன் சேவையகத்திடம் மற்ற இணைப்புகள்  இருக்கலாம் அல்லது "
+"துண்டிக்கலாம் என கூறலாம். மற்ற சார்ந்தோன்களுடன் மேல்மேசையை பகிந்துகொள்ள மதிப்பை உண்மை என "
+"அமை."
+
+#: ../data/propono.schemas.in.in.h:10
+msgid "Whether we should leave other clients connected"
+msgstr " மற்ற இணைப்புகள்  இருக்க  விடலாமா"
+
+#: ../data/propono.schemas.in.in.h:11
+msgid "Whether we should show tabs even when there is only one active connection"
+msgstr "ஒரே ஒரு இணைப்பு மட்டும் செயலில் உள்ளபோதும் கீற்றுகளை காட்டலாமா"
+
+#: ../data/propono.schemas.in.in.h:12
+msgid "Whether we should show the menu accelerators (shortcut keys)"
+msgstr "பட்டி விரைவு விசை (குறுக்குவிசை) களை காட்டலாமா "
+
+#: ../data/propono.schemas.in.in.h:13
+msgid "Whether we should start the program listening for reverse connections"
+msgstr " நிரலை திரும்பும்  இணைப்புகளுக்கு செவி சாய்த்து துவக்கலாமா?"
+
+#: ../data/propono-mime.xml.in.h:1
+msgid "Remote Desktop (VNC) file"
+msgstr "தொலை பணிமேடை (விஎன்சி(VNC)) கோப்பு"
+
+#: ../data/propono-mime.xml.in.h:2
+msgid "Remote Desktop Connection"
+msgstr "தொலை பணிமேடை இணைப்பு"
+
+#. vim: set ts=8:
+#: ../plugins/ssh/propono-ssh-plugin.c:76
+#: ../plugins/ssh/ssh.propono-plugin.desktop.in.h:1
+msgid "SSH"
+msgstr "SSH"
+
+#. Translators: This is a description of the SSH protocol. It appears at Connect dialog.
+#: ../plugins/ssh/propono-ssh-plugin.c:78
+msgid "Access Unix/Linux terminals"
+msgstr "Unix/Linux முனையங்களை அணுகு"
+
+#: ../plugins/ssh/propono-ssh-plugin.c:132
+msgid "SSH Options"
+msgstr "SSH தேர்வுகள்"
+
+#. Translators: This is the tooltip for the username field in a SSH connection
+#: ../plugins/ssh/propono-ssh-plugin.c:149
+msgid ""
+"Optional. If blank, your username will be used. Also, it can be supplied in "
+"the Machine field above, in the form username@hostname."
+msgstr "விருப்பத்தேர்வு. வெற்றாக இருப்பின் உங்கள் பெயர் பயன்படுத்தப்படும். மேலும் அது மேற்காணும் இயந்திரத்தின் புலத்தில் username@hostname. ஆக கொடுக்கப்பட முடியும். "
+
+#: ../plugins/ssh/propono-ssh-tab.c:50 ../plugins/vnc/propono-vnc-tab.c:149
+msgid "Port:"
+msgstr "துறை:"
+
+#: ../plugins/ssh/ssh.propono-plugin.desktop.in.h:2
+msgid "SSH support"
+msgstr "SSH துணை"
+
+#: ../plugins/vnc/propono-vnc-connection.c:290
+#: ../plugins/vnc/propono-vnc-plugin.c:321
+#, c-format
+msgid "Bad value for 'shared' flag: %d. It is supposed to be 0 or 1. Ignoring it."
+msgstr ""
+"பகிர்ந்த குறிக்கு பிழையான மதிப்பு: %d. அது 0 அல்லது 1 ஆக இருக்க வேண்டும். "
+"உதாசீனப்படுத்தப்படுகிறது"
+
+#: ../plugins/vnc/propono-vnc-plugin.c:84
+msgid "_Reverse Connections..."
+msgstr "_R இணைப்புகளை திருப்புக..."
+
+#: ../plugins/vnc/propono-vnc-plugin.c:86
+msgid "Configure incoming VNC connections"
+msgstr "உள்வரும் VNC இணைப்புகளை கட்டமைக்கவும்"
+
+#. Translators: this is a command line option (run propono --help)
+#: ../plugins/vnc/propono-vnc-plugin.c:173
+msgid "Enable scaled mode"
+msgstr "அளவிடப்பட்ட முறைமையை செயல்படுத்து"
+
+#. Translators: this is a command line option (run propono --help)
+#: ../plugins/vnc/propono-vnc-plugin.c:188
+msgid "VNC Options:"
+msgstr "VNC விருப்பங்கள்:"
+
+#. Translators: this is a command line option (run propono --help)
+#: ../plugins/vnc/propono-vnc-plugin.c:190
+msgid "Show VNC Options"
+msgstr "VNC விருப்பங்களைக் காட்டு"
+
+#. vim: set ts=8:
+#: ../plugins/vnc/propono-vnc-plugin.c:212
+#: ../plugins/vnc/vnc.propono-plugin.desktop.in.h:1
+msgid "VNC"
+msgstr "VNC"
+
+#: ../plugins/vnc/propono-vnc-plugin.c:213
+msgid "Access Unix/Linux, Windows and other machines."
+msgstr "Unix/Linux, Windows மற்றும் பிற கணினிகளை அணுகு."
+
+#: ../plugins/vnc/propono-vnc-plugin.c:270
+msgid "Could not parse the file."
+msgstr "கோப்பினை அலகிட முடியவில்லை"
+
+#: ../plugins/vnc/propono-vnc-plugin.c:277
+msgid "The file is not a VNC one: Missing the group \"connection\"."
+msgstr "கோப்பு ஒரு VNC இல்லை: குழு \"இணைப்பை\" தொலைக்கிறது."
+
+#: ../plugins/vnc/propono-vnc-plugin.c:283
+msgid "The file is not a VNC one: Missing the key \"host\"."
+msgstr "கோப்பு ஒரு VNC அல்ல: விசை \"புரவலனை\" தொலைக்கிறது."
+
+#: ../plugins/vnc/propono-vnc-plugin.c:374
+msgid "VNC Options"
+msgstr "VNC விருப்பங்கள்"
+
+#. View only check button
+#: ../plugins/vnc/propono-vnc-plugin.c:387
+#: ../plugins/vnc/propono-vnc-tab.c:632
+msgid "_View only"
+msgstr "பார்வைக்கு மட்டும் (_V)"
+
+#. Scaling check button
+#: ../plugins/vnc/propono-vnc-plugin.c:395
+msgid "_Scaling"
+msgstr "(_S) அளவு மாற்றுதல் "
+
+#: ../plugins/vnc/propono-vnc-plugin.c:411
+msgid "_Keep aspect ratio"
+msgstr "_K காட்சி பாங்கு விகிதத்தை வைத்திரு"
+
+#. JPEG Compression check button
+#: ../plugins/vnc/propono-vnc-plugin.c:421
+msgid "_Use JPEG Compression"
+msgstr "_U ஜெபெக் சுருக்கத்தை பயன்படுத்து "
+
+#: ../plugins/vnc/propono-vnc-plugin.c:422
+msgid "This might not work on all VNC servers"
+msgstr "இது எல்லா விஎன்சி சேவையகங்களிலும் வேலை செய்யாமல் இருக்கலாம்."
+
+#: ../plugins/vnc/propono-vnc-plugin.c:431
+msgid "_Depth Color:"
+msgstr "_D ஆழத்தின்  வண்ணம்:"
+
+#: ../plugins/vnc/propono-vnc-plugin.c:436
+msgid "Use Server Settings"
+msgstr "சேவையக அமைப்புகளை பயன்படுத்து"
+
+#: ../plugins/vnc/propono-vnc-plugin.c:437
+msgid "True Color (24 bits)"
+msgstr "உண்மை நிறம் (24 பிட்கள் )"
+
+#: ../plugins/vnc/propono-vnc-plugin.c:438
+msgid "High Color (16 bits)"
+msgstr "அதிக நிறம் (16 பிட்கள் )"
+
+#: ../plugins/vnc/propono-vnc-plugin.c:439
+msgid "Low Color (8 bits)"
+msgstr "தாழ் நிறம் (8 பிட்கள் )"
+
+#: ../plugins/vnc/propono-vnc-plugin.c:440
+msgid "Ultra Low Color (3 bits)"
+msgstr "மிக தாழ்ந்த நிறம் (3பிட்கள்) "
+
+#. Translators: the whole sentence will be: Use host <hostname> as a SSH tunnel
+#: ../plugins/vnc/propono-vnc-plugin.c:453
+msgid "Use h_ost"
+msgstr "_o புரவலனை பயன்படுத்து"
+
+#. Translators: This is the tooltip of the SSH tunneling entry
+#: ../plugins/vnc/propono-vnc-plugin.c:461
+msgid "hostname or user@hostname"
+msgstr "புரவலர் பெயர் அல்லதி user@hostname"
+
+#. Translators: the whole sentence will be: Use host <hostname> as a SSH tunnel
+#: ../plugins/vnc/propono-vnc-plugin.c:465
+msgid "as a SSH tunnel"
+msgstr "SSH டன்னலாக "
+
+#. Translators: this is a pattern to open *.vnc files in a open dialog.
+#: ../plugins/vnc/propono-vnc-plugin.c:500
+msgid "VNC Files"
+msgstr "விஎன்சி கோப்புகள்"
+
+#: ../plugins/vnc/propono-vnc-tab.c:147
+msgid "Desktop Name:"
+msgstr "பணிமேடை பெயர்:"
+
+#: ../plugins/vnc/propono-vnc-tab.c:150
+msgid "Dimensions:"
+msgstr "பரிமாணங்கள்:"
+
+#: ../plugins/vnc/propono-vnc-tab.c:304
+msgid "Error creating the SSH tunnel"
+msgstr "SSH டன்னல் உருவாக்குவதில் பிழை"
+
+#: ../plugins/vnc/propono-vnc-tab.c:305 ../plugins/vnc/propono-vnc-tab.c:316
+msgid "Unknown reason"
+msgstr "தெரியாத காரணம்"
+
+#: ../plugins/vnc/propono-vnc-tab.c:315
+msgid "Error connecting to host."
+msgstr "புரவலனுடன் இணைக்கும் போது பிழை"
+
+#. Translators: %s is a host name or IP address; %u is a code error (number).
+#: ../plugins/vnc/propono-vnc-tab.c:360
+#, c-format
+msgid "Authentication method to host %s is unsupported. (%u)"
+msgstr "புரவலன் %s க்கு உரிம முறை துணைபுரியவில்லை. (%u)"
+
+#: ../plugins/vnc/propono-vnc-tab.c:364
+msgid "Authentication unsupported"
+msgstr "உரிம முறை துணைபுரியவில்லை."
+
+#: ../plugins/vnc/propono-vnc-tab.c:531 ../plugins/vnc/propono-vnc-tab.c:548
+msgid "Authentication error"
+msgstr "அனுமதித்தல் பிழை"
+
+#: ../plugins/vnc/propono-vnc-tab.c:532
+msgid "A username is required in order to access this machine."
+msgstr "இந்த கணினியை அணுக ஒரு பயனர் பெயர் தேவைப்படுகிறது."
+
+#: ../plugins/vnc/propono-vnc-tab.c:549
+msgid "A password is required in order to access this machine."
+msgstr "இந்த கணினியை அணுக ஒரு கடவுச்சொல் தேவைப்படுகிறது."
+
+#: ../plugins/vnc/propono-vnc-tab.c:603
+msgid "S_caling"
+msgstr "(_c) அளவு மாற்றுதல்"
+
+#: ../plugins/vnc/propono-vnc-tab.c:604
+msgid "Fits the remote screen into the current window size"
+msgstr "தொலை திரையை தற்போதைய சாளர அளவுக்கு பொருத்துகிறது"
+
+#: ../plugins/vnc/propono-vnc-tab.c:617
+msgid "_Keep Aspect Ratio"
+msgstr "_K காட்சி பாங்கு விகிதத்தை வைத்திரு"
+
+#: ../plugins/vnc/propono-vnc-tab.c:618
+msgid "Keeps the screen aspect ratio when using scaling"
+msgstr "அலவிடு ம்போ து  காட்சி பாங்கு விகிதத்தை வைத்திருக்கும்"
+
+#: ../plugins/vnc/propono-vnc-tab.c:633
+msgid "Does not send mouse and keyboard events"
+msgstr "சொடுக்கி  மற்றும் விசைப்பலகை நிகழ்ச்சிகளை அனுப்பாதீர்கள்"
+
+#: ../plugins/vnc/propono-vnc-tab.c:646
+msgid "_Original size"
+msgstr "(_O) அசல் அளவு"
+
+#: ../plugins/vnc/propono-vnc-tab.c:647
+msgid "Adjusts the window to the remote desktop's size"
+msgstr "சாளரத்தை தொலை மேல்மேசை அளவுக்கு மாற்றுக"
+
+#: ../plugins/vnc/propono-vnc-tab.c:660
+msgid "_Refresh Screen"
+msgstr "_R திரையை புதுப்பி"
+
+#: ../plugins/vnc/propono-vnc-tab.c:661
+msgid "Requests an update of the screen"
+msgstr "திரை புதுப்பித்தலை வேண்டுகிறது"
+
+#. Send Ctrl-alt-del
+#: ../plugins/vnc/propono-vnc-tab.c:683 ../plugins/vnc/propono-vnc-tab.c:755
+#: ../plugins/vnc/propono-vnc-tab.c:757
+msgid "Send Ctrl-Alt-Del"
+msgstr "அனுப்பு Ctrl Alt Del"
+
+#: ../plugins/vnc/propono-vnc-tab.c:684
+msgid "Sends Ctrl+Alt+Del to the remote machine"
+msgstr "தொலை கணினிக்கு  Ctrl+Alt+Del அனுப்புகிறது"
+
+#: ../plugins/vnc/propono-vnc-tab.c:736 ../plugins/vnc/propono-vnc-tab.c:737
+msgid "Scaling"
+msgstr "அளவு மாற்றுதல் "
+
+#: ../plugins/vnc/propono-vnc-tab.c:746 ../plugins/vnc/propono-vnc-tab.c:747
+msgid "Read only"
+msgstr "படிக்க மட்டும்"
+
+#: ../plugins/vnc/propono-vnc-tab.c:919
+msgid ""
+"Scaling is not supported on this installation.\n"
+"\n"
+"Read the README file (shipped with Propono) in order to know how to enable "
+"this feature."
+msgstr ""
+"அளவு மாற்றுதல்  இந்த நிறுவலில் இயங்காது.\n"
+"\n"
+" இதை எப்படி கையாளுவது என அறிய வினாக்ரேவுடன் வந்த 'என்னைப்படி' கோப்பை பார்க்க. "
+
+#: ../plugins/vnc/propono-vnc-tunnel.c:77
+#, c-format
+msgid "Unable to find a free TCP port"
+msgstr "வேலையில்லா டிசி பிதுரையை  கானவில்லைஒஒ"
+
+#: ../plugins/vnc/vnc.propono-plugin.desktop.in.h:2
+msgid "VNC support"
+msgstr "VNC துணை"
+
+#: ../plugins/vnc/propono-vnc-listener-dialog.c:90
+msgid "IPv4:"
+msgstr "IPv4:"
+
+#: ../plugins/vnc/propono-vnc-listener-dialog.c:102
+msgid ""
+"\n"
+"\n"
+"IPv6:"
+msgstr ""
+"\n"
+"\n"
+"IPv6:"
+
+#: ../plugins/vnc/propono-vnc-listener-dialog.c:161
+#, c-format
+msgid "On the port %d"
+msgstr "%d துறையில் "
+
+#: ../plugins/vnc/propono-vnc-listener.c:168
+msgid "Incoming VNC connection arrived but there is no active window"
+msgstr "உள்வரும் விஎன்சி இணைப்பு வந்தது ஆனால் செயலில் உள்ள சாளரம் ஏதும் இல்லை."
+
+#. vim: set ts=8:
+#: ../plugins/vnc/vnc.ui.h:1
+msgid ""
+"By activating reverse connections you can access machines that are behind a "
+"firewall. The remote side is supposed to initiate the connection with you. "
+"For further information, checkout the help."
+msgstr ""
+"திருப்பும் இணைப்பை செயல்படுத்தினால் நீங்கள் ஒரு நெருப்பு வளையத்தின் உள்ளிருக்கும் கணினிகளை "
+"அணுகலாம்.தொலை பக்கம் உங்களுடன் தொடர்பு கொள்ள வேண்டும். மேற்கொண்டு தகவல்களுக்கு உதவியை "
+"பார்க்கவும்."
+
+#: ../plugins/vnc/vnc.ui.h:2
+msgid "Connectivity"
+msgstr "இணைப்பு"
+
+#: ../plugins/vnc/vnc.ui.h:3
+msgid "Reverse Connections"
+msgstr "இணைப்புகளை திருப்புக"
+
+#: ../plugins/vnc/vnc.ui.h:4
+msgid "This machine is reachable through the following IP address(es):"
+msgstr "இந்த கணினியை கீழ் காணும் ஐபி முகவரியில் (களில்) அணுகலாம்:"
+
+#: ../plugins/vnc/vnc.ui.h:5
+msgid "_Always Enabled"
+msgstr "(_A) எப்போதும் செயல்படுத்து"
+
+#: ../plugins/vnc/vnc.ui.h:6
+msgid "_Enable Reverse Connections"
+msgstr "_E இணைப்புகளை திருப்புதலை செயல் படுத்துக"
+
+#: ../propono/MATE_ProponoApplet.server.in.in.h:1
+msgid "A menu to quickly access remote machines"
+msgstr "தொலை கணினியுடன் விரைவில் இணைக்க ஒரு பட்டி"
+
+#: ../propono/MATE_ProponoApplet.server.in.in.h:3
+msgid "Propono Applet Factory"
+msgstr "வினாக்ரே குறுநிரல் தொழிற்சாலை"
+
+#: ../propono/propono-applet.c:277 ../propono/propono-applet.c:360
+msgid "Could not run propono:"
+msgstr "வினாக்ரே ஐ இயக்க முடியவில்லை:"
+
+#: ../propono/propono-applet.c:380
+msgid "Open Remote Desktop Viewer"
+msgstr "தொலை பணிமேடை காட்டியை திற"
+
+#: ../propono/propono-applet.c:435
+msgid "Access your bookmarks"
+msgstr "உங்கள் புத்தகக்குறிகளை அணுகுக"
+
+#: ../propono/propono-bookmarks.c:265 ../propono/propono-connection.c:522
+#: ../propono/propono-tab.c:535 ../propono/propono-tube-handler.c:253
+#, c-format
+msgid "The protocol %s is not supported."
+msgstr "நெறிமுறை %s துணைபுரியவில்லை."
+
+#: ../propono/propono-bookmarks.c:343
+#, c-format
+msgid "Error while initializing bookmarks: %s"
+msgstr "புத்தகக்குறி ஆரம்பிக்கும் போது பிழை: %s"
+
+#: ../propono/propono-bookmarks.c:343 ../propono/propono-bookmarks.c:458
+#: ../propono/propono-bookmarks-migration.c:135
+#: ../propono/propono-cache-prefs.c:53 ../propono/propono-commands.c:173
+#: ../propono/propono-connect.c:482 ../propono/propono-fav.c:765
+#: ../propono/propono-main.c:101 ../propono/propono-main.c:120
+#: ../propono/propono-window.c:268 ../propono/propono-window.c:737
+msgid "Unknown error"
+msgstr "தெரியாத பிழை"
+
+#: ../propono/propono-bookmarks.c:350
+msgid "Error while initializing bookmarks: The file seems to be empty"
+msgstr "புத்தகக்குறி ஆரம்பிக்கும் போது பிழை: கோப்பு காலியாக உள்ளது போலிருக்கிறது"
+
+#: ../propono/propono-bookmarks.c:357
+msgid "Error while initializing bookmarks: The file is not a propono bookmarks file"
+msgstr ""
+"புத்தகக்குறி ஆரம்பிக்கும் போது பிழை: இந்த கோப்பு வினாக்ரே புத்தகக்குறிப்பு கோப்பு அல்ல"
+
+#: ../propono/propono-bookmarks.c:419 ../propono/propono-bookmarks.c:426
+msgid "Error while saving bookmarks: Failed to create the XML structure"
+msgstr "புத்தகக்குறிகளை சேமிக்கும் போது பிழை: எக்ஸ்எம்எல் கட்டமைப்பை உருவாக்க முடியவில்லை"
+
+#: ../propono/propono-bookmarks.c:433 ../propono/propono-bookmarks.c:440
+msgid "Error while saving bookmarks: Failed to initialize the XML structure"
+msgstr "புத்தகக்குறிகளை சேமிக்கும் போது பிழை: எக்ஸ்எம்எல் கட்டமைப்பை துவக்க முடியவில்லை"
+
+#: ../propono/propono-bookmarks.c:449
+msgid "Error while saving bookmarks: Failed to finalize the XML structure"
+msgstr "புத்தகக்குறிகளை சேமிக்கும் போது பிழை: எக்ஸ்எம்எல் கட்டமைப்பை இறுதியாக்க முடியவில்லை"
+
+#: ../propono/propono-bookmarks.c:458
+#, c-format
+msgid "Error while saving bookmarks: %s"
+msgstr "புத்தகக்குறிகளை சேமிக்கும் போது பிழை: %s"
+
+#: ../propono/propono-bookmarks-migration.c:95
+#: ../propono/propono-bookmarks-migration.c:102
+msgid "Error while migrating bookmarks: Failed to create the XML structure"
+msgstr "புத்தகக்குறிகளை நகர்த்தும் போது பிழை: எக்ஸ்எம்எல் கட்டமைப்பை உருவாக்க முடியவில்லை"
+
+#: ../propono/propono-bookmarks-migration.c:109
+#: ../propono/propono-bookmarks-migration.c:116
+msgid "Error while migrating bookmarks: Failed to initialize the XML structure"
+msgstr "புத்தகக்குறிகளை நகர்த்தும் போது பிழை: எக்ஸ்எம்எல் கட்டமைப்பை துவக்க முடியவில்லை"
+
+#: ../propono/propono-bookmarks-migration.c:125
+msgid "Error while migrating bookmarks: Failed to finalize the XML structure"
+msgstr "புத்தகக்குறிகளை நகர்த்தும் போது பிழை: எக்ஸ்எம்எல் கட்டமைப்பை இறுதியாக்க முடியவில்லை"
+
+#: ../propono/propono-bookmarks-migration.c:135
+#: ../propono/propono-bookmarks-migration.c:217
+#, c-format
+msgid "Error while migrating bookmarks: %s"
+msgstr "புத்தகக்குறிகளை நகர்த்தும் போது பிழை: %s"
+
+#: ../propono/propono-bookmarks-migration.c:164
+msgid "Error while migrating bookmarks: VNC plugin is not activated"
+msgstr "புத்தகக்குறிகளை நகர்த்தும் போது பிழை:VNC கூடுதல் இணைப்பபு செயல்படுத்தப்படவில்லை"
+
+#: ../propono/propono-bookmarks-migration.c:217
+msgid "Failed to create the directory"
+msgstr "அடைவை உருவாக்குதல் தோல்வியுற்றது"
+
+#: ../propono/propono-bookmarks-migration.c:241
+msgid ""
+"Migrating the bookmarks file to the new format. This operation is only "
+"supposed to run once."
+msgstr ""
+" புத்தகக்குறி கோப்பு புதிய இடத்துக்கு நகர்த்துகிறது. இந்த செயல் ஒரு முறை மட்டுமே இயங்க "
+"வேண்டும்.."
+
+#: ../propono/propono-bookmarks-migration.c:249
+#, c-format
+msgid "Error opening old bookmarks file: %s"
+msgstr "பழைய புத்தகக்குறிகளை திறக்கும் போது பிழை: %s"
+
+#: ../propono/propono-bookmarks-migration.c:250
+#: ../propono/propono-bookmarks-migration.c:262
+msgid "Migration cancelled"
+msgstr "நகர்த்துதல் இரத்து செய்யப்பட்டது "
+
+#: ../propono/propono-bookmarks-migration.c:259
+msgid "Could not remove the old bookmarks file"
+msgstr "பழைய புத்தகக்குறிகள் கோப்பை நீக்க முடியவில்லை"
+
+#: ../propono/propono-bookmarks-tree.c:120
+msgid "Root Folder"
+msgstr "மூல அடைவு"
+
+#: ../propono/propono-bookmarks-ui.c:78
+msgid "Invalid name for this folder"
+msgstr "இந்த அடைவுக்கு செல்லுபடியாகாத பெயர்"
+
+#: ../propono/propono-bookmarks-ui.c:88 ../propono/propono-bookmarks-ui.c:200
+#, c-format
+msgid "The name \"%s\" is already used in this folder. Please use a different name."
+msgstr ""
+"இந்த அடைவில்  \"%s\" என்ற பெயர் ஏற்கெனவே பயனில் உள்ளது. தயை செய்து வேறு பெயரை "
+"யன்படுத்துக."
+
+#: ../propono/propono-bookmarks-ui.c:89 ../propono/propono-bookmarks-ui.c:190
+#: ../propono/propono-bookmarks-ui.c:201
+msgid "Invalid name for this item"
+msgstr "இந்த உருப்படிக்கு செல்லுபடியாகாத பெயர்"
+
+#. Translators: %s is a protocol name, like VNC or SSH
+#: ../propono/propono-bookmarks-ui.c:168
+#, c-format
+msgid "(Protocol: %s)"
+msgstr "(நெறிமுறை: %s)"
+
+#. Translators: %s is a bookmark entry name
+#: ../propono/propono-bookmarks-ui.c:308
+#, c-format
+msgid "Are you sure you want to remove %s from bookmarks?"
+msgstr "நீங்கள் புத்தகக்குறியிலிருந்து %sஐ நிச்சயம் நீக்க வேண்டுமா?"
+
+#: ../propono/propono-bookmarks-ui.c:314
+msgid "Remove Folder?"
+msgstr "அடைவை நீக்கவா?"
+
+#: ../propono/propono-bookmarks-ui.c:315
+msgid "Notice that all its subfolders and items will be removed as well."
+msgstr "துணை அடைவுகளும் மற்ற எல்லா உருப்படிகளும் நீக்கப்படும் என அறியவும்"
+
+#: ../propono/propono-bookmarks-ui.c:320
+msgid "Remove Item?"
+msgstr "உருப்படியை நீக்கவா?"
+
+#: ../propono/propono-bookmarks-ui.c:337
+msgid "Error removing bookmark: Entry not found"
+msgstr "புத்தகக்குறிகளை சேமிக்கும் போது பிழை: உள்ளீட்டை காணவில்லை"
+
+#: ../propono/propono-bookmarks-ui.c:354
+msgid "New Folder"
+msgstr "புதிய அடைவு"
+
+#: ../propono/propono-cache-prefs.c:53, c-format
+msgid "Error while saving preferences: %s"
+msgstr "விருப்பங்களை சேமிக்கும் போது பிழை: %s"
+
+#: ../propono/propono-commands.c:121
+msgid "Choose the file"
+msgstr "கோப்பினை தேர்வு செய்யவும்"
+
+#: ../propono/propono-commands.c:149
+msgid "There are no supported files"
+msgstr "துணையாக உள்ள கோப்புகள் இல்லை"
+
+#: ../propono/propono-commands.c:150
+msgid ""
+"None of the active plugins support this action. Activate some plugins and "
+"try again."
+msgstr ""
+"இந்த செயலை செயலிலுள்ள கூடுதல் இணைப்புகளை ஆதரிக்கவில்லை. சில கூடுதல் "
+"இணைப்புகள் செயல்படுத்தி மீண்டும் முயற்சிக்கவும்."
+
+#: ../propono/propono-commands.c:184
+msgid "The following file could not be opened:"
+msgid_plural "The following files could not be opened:"
+msgstr[0] "பின்வரும் கோப்பினை திறக்க முடியாது"
+msgstr[1] "பின்வரும் கோப்புகளை திறக்க முடியாது"
+
+#: ../propono/propono-connect.c:87 ../propono/propono-connect.c:334
+#: ../propono/propono-connect.c:446
+msgid "Could not get the active protocol in the protocol list."
+msgstr "நெறிமுறை பட்டியலில் செயலிலுள்ள நெறிமுறையை பெற முடியாது."
+
+#: ../propono/propono-connect.c:315
+#, c-format
+msgid "Error while saving history file: %s"
+msgstr "வரலாறு கோப்பை சேமிக்கும் போது பிழை: %s"
+
+#: ../propono/propono-connect.c:350
+msgid "Choose a Remote Desktop"
+msgstr "ஒரு தொலை பணிமேடை தேர்ந்தெடு"
+
+#: ../propono/propono-connection.c:630
+msgid "Could not open the file."
+msgstr "கோப்பினை திறக்க முடியவில்லை"
+
+#: ../propono/propono-connection.c:654
+msgid "The file was not recognized by any of the plugins."
+msgstr "கோப்பு எந்த கூடுதல் இணைப்புகளுடனும் அறியப்படவில்லை."
+
+#: ../propono/propono-fav.c:567
+msgid "_New Folder"
+msgstr "_N புதிய அடைவு"
+
+#: ../propono/propono-fav.c:568
+msgid "Create a new folder"
+msgstr "புதிய அடைவை உருவாக்கவும்"
+
+#: ../propono/propono-fav.c:573
+msgid "_Open bookmark"
+msgstr "புத்தகக்குறியைத் திறத்தல் (_O)"
+
+#: ../propono/propono-fav.c:574
+msgid "Connect to this machine"
+msgstr "இந்த கணினியுடன் இணை"
+
+#: ../propono/propono-fav.c:575
+msgid "_Edit bookmark"
+msgstr "புத்தகக்குறியை திருத்துதல் (_E)"
+
+#: ../propono/propono-fav.c:576
+msgid "Edit the details of selected bookmark"
+msgstr "தேர்ந்தெடுக்கப்பட்ட புத்தகக்குறியின் விவரங்களை திருத்தவும்"
+
+#: ../propono/propono-fav.c:577
+msgid "_Remove from bookmarks"
+msgstr "புத்தகக்குறிகளிலிருந்து நீக்கவும் (_R)"
+
+#: ../propono/propono-fav.c:578
+msgid "Remove current selected connection from bookmarks"
+msgstr "தற்போது தேர்ந்தெடுக்கப்பட்ட இணைப்பை புத்தகக்குறிகளிலிருந்து நீக்கவும்"
+
+#: ../propono/propono-fav.c:596 ../propono/propono-window.c:399
+#, c-format
+msgid "Could not merge UI XML file: %s"
+msgstr "UI XML கோப்பை பிணைக்க முடியவில்லை: %s"
+
+#: ../propono/propono-fav.c:754
+msgid "Invalid operation"
+msgstr "செல்லுபடியாகாத செயல்"
+
+#: ../propono/propono-fav.c:755
+msgid "Data received from drag&drop operation is invalid."
+msgstr "இழுத்துவிடும் செயலில் இருந்து பெறப்பட்ட தரவு செல்லுபடியாகாது"
+
+#: ../propono/propono-fav.c:859
+msgid "Hide panel"
+msgstr "பலகத்தை மறைக்கவும்"
+
+#: ../propono/propono-fav.c:1044
+msgid "Hosts nearby"
+msgstr "அருகிலுள்ள புரவலன்கள்"
+
+#. Translators: this is a command line option (run propono --help)
+#: ../propono/propono-main.c:63
+msgid "Open propono in fullscreen mode"
+msgstr "proponoஐ முழுத்திரை முறைமையில் திற"
+
+#. Translators: this is a command line option (run propono --help)
+#: ../propono/propono-main.c:67
+msgid "Create a new toplevel window in an existing instance of propono"
+msgstr "இயக்கத்தில் உள்ள ஒரு வினாக்ரே வில் புதிய உயர் மட்ட  சாளரம் உருவாக்கு"
+
+#. Translators: this is a command line option (run propono --help)
+#: ../propono/propono-main.c:71
+msgid "Open a file recognized by propono"
+msgstr "proponoஆல் அறியப்பட்ட ஒரு கோப்பினை திற"
+
+#: ../propono/propono-main.c:71
+msgid "filename"
+msgstr "கோப்பு பெயர்"
+
+#. Translators: this is a command line option (run propono --help)
+#: ../propono/propono-main.c:76
+msgid "[server:port]"
+msgstr "[server:port]"
+
+#: ../propono/propono-main.c:131
+msgid "The following error has occurred:"
+msgid_plural "The following errors have occurred:"
+msgstr[0] "பின்வரும் பிழை ஏற்பட்டுள்ளது:"
+msgstr[1] "பின்வரும் பிழைகள் ஏற்பட்டுள்ளன:"
+
+#. Setup command line options
+#: ../propono/propono-main.c:170
+msgid "- Remote Desktop Viewer"
+msgstr "- தொலை பணிமேடை காட்டி"
+
+#: ../propono/propono-main.c:195
+msgid "Run 'propono --help' to see a full list of available command line options"
+msgstr ""
+"'propono --help' என இயக்கினால் இருக்கும் கட்டளைவரி விருப்பங்களின் பட்டியலை கொடுக்கவும்"
+
+#: ../propono/propono-mdns.c:159
+#, c-format
+msgid "Failed to resolve avahi hostname: %s\n"
+msgstr "ஆவாஹி புரவலன் பெயரை கண்டறிதல் தோற்றது: %s\n"
+
+#: ../propono/propono-mdns.c:217
+#, c-format
+msgid "Plugin %s has already registered a browser for service %s."
+msgstr "கூடுதல் இணைப்பு %s சேவை %sக்கு ஏற்கனவே ஒரு உலாவியில் பதிவு செய்யப்பட்டது."
+
+#: ../propono/propono-mdns.c:226
+#, c-format
+msgid "Failed to add mDNS browser for service %s."
+msgstr "%sக்கு mDNS உலாவிக்கான சேவையை சேர்க்க முடியவில்லை."
+
+#: ../propono/propono-mdns.c:242
+#, c-format
+msgid "Failed to browse for hosts: %s\n"
+msgstr "புரவலன்களுக்கு உலாவல் தோற்றது : %s\n"
+
+#: ../propono/propono-mdns.c:315
+#, c-format
+msgid "Failed to initialize mDNS browser: %s\n"
+msgstr "mDNS உலாவியை துவக்க முடியவில்லை : %s\n"
+
+#. Translators: %s is a host name or IP address.
+#: ../propono/propono-notebook.c:461
+#, c-format
+msgid "Connection to host %s was closed."
+msgstr "புரவலன் %s உடன் உள்ள இணைப்பு துண்டிக்கப்பட்டது."
+
+#: ../propono/propono-notebook.c:463
+msgid "Connection closed"
+msgstr "இணைப்பு துண்டிக்கப்பட்டது."
+
+#. Translators: %s is a host name or IP address.
+#: ../propono/propono-notebook.c:482
+#, c-format
+msgid "Authentication to host %s has failed"
+msgstr "புரவலன் %s க்கு உரிமப்படுத்த முடியவில்லை"
+
+#: ../propono/propono-notebook.c:488
+msgid "Authentication failed"
+msgstr "அனுமதித்தல் தோல்வி"
+
+#: ../propono/propono-notebook.c:526
+msgid "Connecting..."
+msgstr "இணைக்கிறது..."
+
+#: ../propono/propono-notebook.c:553 ../propono/propono-tab.c:325
+msgid "Close connection"
+msgstr "இணைப்பை துண்டிக்கவும்"
+
+#: ../propono/propono-plugin-dialog.c:83
+msgid "Plugin Manager"
+msgstr "கூடுதல் இணைப்பு  மேலாளர்"
+
+#: ../propono/propono-plugin-manager.c:45
+msgid "Plugin"
+msgstr "கூடுதல் இணைப்பு"
+
+#: ../propono/propono-plugin-manager.c:46
+msgid "Enabled"
+msgstr "செயல்படுத்து"
+
+#: ../propono/propono-plugin-manager.c:503
+msgid "C_onfigure"
+msgstr "கட்டமைப்பு (_o)"
+
+#: ../propono/propono-plugin-manager.c:512
+msgid "A_ctivate"
+msgstr "செயல்படுத்து (_c)"
+
+#: ../propono/propono-plugin-manager.c:523
+msgid "Ac_tivate All"
+msgstr "அனைத்தையும் செயல்படுத்து (_t)"
+
+#: ../propono/propono-plugin-manager.c:528
+msgid "_Deactivate All"
+msgstr "அனைத்தையும் செயல்நீக்கு (_D)"
+
+#: ../propono/propono-plugin-manager.c:824
+msgid "_About Plugin"
+msgstr "கூடுதல் இணைப்பு பற்றி (_A) "
+
+#: ../propono/propono-plugin-manager.c:828
+msgid "C_onfigure Plugin"
+msgstr "கட்டமைப்பு கூடுதல் இணைப்பு (_o)"
+
+#: ../propono/propono-prefs.c:212
+msgid "Cannot initialize preferences manager."
+msgstr "முன்னுரிமைகள் மேலாளரை துவக்க முடியவில்லை."
+
+#: ../propono/propono-ssh.c:106
+msgid "Timed out when logging into SSH host"
+msgstr "SSH புரவலன் புகுபதிவு நேரம் முடிவடைந்தது"
+
+#: ../propono/propono-ssh.c:180
+msgid "Unable to spawn ssh program"
+msgstr "ssh நிரலை உருவாக்க முடியவில்லை"
+
+#: ../propono/propono-ssh.c:197
+#, c-format
+msgid "Unable to spawn ssh program: %s"
+msgstr "ssh நிரலை உருவாக்க முடியவில்லை: %s"
+
+#: ../propono/propono-ssh.c:352
+msgid "Timed out when logging in"
+msgstr "புகுபதிவு நேரம் முடிவடைந்தது"
+
+#: ../propono/propono-ssh.c:375 ../propono/propono-ssh.c:529
+#: ../propono/propono-ssh.c:612
+msgid "Permission denied"
+msgstr "அனுமதி மறுக்கப்பட்டது"
+
+#: ../propono/propono-ssh.c:440
+msgid "Password dialog canceled"
+msgstr "கடவுச்சொல் உரையாடல் ரத்தானது"
+
+#: ../propono/propono-ssh.c:463
+msgid "Could not send password"
+msgstr "கடவுச்சொல்லை அனுப்ப முடியவில்லை"
+
+#: ../propono/propono-ssh.c:471
+msgid "Log In Anyway"
+msgstr "எவ்வாறேனும் புகுபதிவு செய்யவும்"
+
+#: ../propono/propono-ssh.c:471
+msgid "Cancel Login"
+msgstr "புகுபதிவை ரத்து செய்யவும்"
+
+#: ../propono/propono-ssh.c:480
+#, c-format
+msgid ""
+"The identity of the remote computer (%s) is unknown.\n"
+"This happens when you log in to a computer the first time.\n"
+"\n"
+"The identity sent by the remote computer is %s. If you want to be absolutely "
+"sure it is safe to continue, contact the system administrator."
+msgstr ""
+"தொலை கணினி (%s) இன் அடையாளம் தெரியவில்லை.\n"
+"இது முதன்முறை நீங்கள் கணினியில் உள்நுழையும் போது ஏற்படும்..\n"
+"\n"
+"தொலை கணினி கொடுத்த அடையாளம் %s. நீங்கள் பாதுகாப்பை "
+"உறுதிப்படுத்திக்கொள்ள நைனைத்தால் கணினி நிர்வாகியை தொடர்பு கொள்ளவும்."
+
+#: ../propono/propono-ssh.c:498
+msgid "Login dialog canceled"
+msgstr "புகுபதிவு உரையாடல் ரத்தானது"
+
+#: ../propono/propono-ssh.c:519
+msgid "Can't send host identity confirmation"
+msgstr "புரவலன் அடையாள உறுதிப்படுத்தலை அனுப்ப முடியவில்லை"
+
+#: ../propono/propono-ssh.c:554 ../propono/propono-tab.c:732
+msgid "Error saving the credentials on the keyring."
+msgstr "விசை வளையத்தில் அறிமுக ஆவணம் சேமிக்கும் போது பிழை."
+
+#: ../propono/propono-ssh.c:619
+msgid "Hostname not known"
+msgstr "புரவலன் பெயர் தெரியவில்லை"
+
+#: ../propono/propono-ssh.c:626
+msgid "No route to host"
+msgstr "புரவலனுக்கு வழித்தடம் எதுவும் இல்லை"
+
+#: ../propono/propono-ssh.c:633
+msgid "Connection refused by server"
+msgstr "சேவையகத்தால் இணைப்பு தவிர்க்கப்பட்டது"
+
+#: ../propono/propono-ssh.c:640
+msgid "Host key verification failed"
+msgstr "புரவலன் குறியீட்டை சரி பார்க்க முடியவில்லை"
+
+#: ../propono/propono-ssh.c:676
+msgid "Unable to find a valid SSH program"
+msgstr "செல்லுபடியாகும் ssh நிரலை உருவாக்க முடியவில்லை"
+
+#: ../propono/propono-tab.c:346
+msgid "Leave fullscreen"
+msgstr "முழுத்திரையை விடு"
+
+#: ../propono/propono-tab.c:497
+msgid "Error saving recent connection."
+msgstr "சமீபத்திய இணைப்பை சேமிக்கும் போது பிழை"
+
+#: ../propono/propono-tab.c:818
+msgid "Could not get a screenshot of the connection."
+msgstr "இணைப்பின் திரைவெட்டை பிடிக்க முடியவில்லை"
+
+#: ../propono/propono-tab.c:823
+msgid "Save Screenshot"
+msgstr "திரைப்பிடிப்பை சேமிக்கவும்"
+
+#: ../propono/propono-tab.c:834
+#, c-format
+msgid "Screenshot of %s"
+msgstr "%s இன் திரைப்பிடிப்பு"
+
+#: ../propono/propono-tab.c:885
+msgid "Error saving screenshot"
+msgstr "திரைசேமிப்பை சேமிக்கும் போது பிழை"
+
+#: ../propono/propono-tube-handler.c:229
+#, c-format
+msgid "Impossible to get service property: %s"
+msgstr "சேவை தன்மை பெற முடியாது: %s"
+
+#: ../propono/propono-tube-handler.c:286
+#, c-format
+msgid "Impossible to create the connection: %s"
+msgstr "இணைப்பை உருவாக்க முடியவில்லை: %s"
+
+#: ../propono/propono-tube-handler.c:325
+#, c-format
+msgid "Impossible to accept the stream tube: %s"
+msgstr "ஸ்டிரிம் ட்யூப்பை அணுக முடியாது: %s"
+
+#: ../propono/propono-tube-handler.c:463
+#, c-format
+msgid "Impossible to get the contact name: %s"
+msgstr "தொடர்பு பெயரை பெற முடியாது: %s"
+
+#: ../propono/propono-tube-handler.c:498
+#, c-format
+msgid "Impossible to get the avatar: %s"
+msgstr "அவதாரை பெற முடியாது: %s"
+
+#: ../propono/propono-tube-handler.c:519, c-format
+msgid "%s wants to share their desktop with you."
+msgstr "%s அவரகளுடைய பணிமேடையை உங்களுடன் பகிர விரும்புகிறார்கள்"
+
+#: ../propono/propono-tube-handler.c:524
+msgid "Desktop sharing invitation"
+msgstr "பணிமேடை பகிரும் அழைப்பிதழ்"
+
+#. Toplevel
+#: ../propono/propono-ui.h:33
+msgid "_Machine"
+msgstr "கணினி (_M)"
+
+#: ../propono/propono-ui.h:34
+msgid "_Edit"
+msgstr "தொகுத்தல் (_E)"
+
+#: ../propono/propono-ui.h:35
+msgid "_View"
+msgstr "பார்வை (_V)"
+
+#: ../propono/propono-ui.h:36
+msgid "_Bookmarks"
+msgstr "புத்தகக்குறிகள் (_B)"
+
+#: ../propono/propono-ui.h:41
+msgid "Connect to a remote machine"
+msgstr "ஒரு தொலை கணினியுடன் இணை"
+
+#: ../propono/propono-ui.h:43
+msgid "Open a .VNC file"
+msgstr "ஒரு .விஎன்சி(VNC) கோப்பினை திறத்தல்"
+
+#: ../propono/propono-ui.h:45
+msgid "Quit the program"
+msgstr "நிரலை விட்டு வெளியேறுதல்"
+
+#: ../propono/propono-ui.h:49
+msgid "Edit the application preferences"
+msgstr "பயன்பாட்டின் விருப்பங்களை திருத்துக"
+
+#: ../propono/propono-ui.h:50
+msgid "_Plugins"
+msgstr "(_P) சொருகிகள்"
+
+#: ../propono/propono-ui.h:51
+msgid "Select plugins"
+msgstr "சொருகிகளை தேர்ந்தெடு"
+
+#. Help menu
+#: ../propono/propono-ui.h:54
+msgid "_Contents"
+msgstr "உள்ளடக்கம் (_C)"
+
+#: ../propono/propono-ui.h:55
+msgid "Open the propono manual"
+msgstr "வினாக்ரே  கையேட்டை திறக்கவும்"
+
+#: ../propono/propono-ui.h:57
+msgid "About this application"
+msgstr "இந்தப் பயன்பாடு பற்றி"
+
+#: ../propono/propono-ui.h:62
+msgid "_Toolbar"
+msgstr "கருவிப்பட்டை (_T)"
+
+#: ../propono/propono-ui.h:63
+msgid "Show or hide the toolbar"
+msgstr "கருவிப்பட்டையைக் காட்டவும் அல்லது மறைக்கவும்"
+
+#: ../propono/propono-ui.h:66
+msgid "_Statusbar"
+msgstr "நிலைப்பட்டி (_S)"
+
+#: ../propono/propono-ui.h:67
+msgid "Show or hide the statusbar"
+msgstr "நிலைப்பட்டையைக் காட்டவும் அல்லது மறைக்கவும்"
+
+#: ../propono/propono-ui.h:70
+msgid "Side _Panel"
+msgstr "(_P) பக்க பலகம்"
+
+#: ../propono/propono-ui.h:71
+msgid "Show or hide the side panel"
+msgstr "பக்க பலகத்தை காட்டவும் அல்லது மறைக்கவும்"
+
+#: ../propono/propono-ui.h:79
+msgid "Close the current connection"
+msgstr "நடப்பு இணைப்பை துண்டிக்கவும்"
+
+#: ../propono/propono-ui.h:80
+msgid "C_lose All"
+msgstr "அனைத்தையும் மூடவும் (_l)"
+
+#: ../propono/propono-ui.h:81
+msgid "Close all active connections"
+msgstr "அனைத்து செயலிலுள்ள இணைப்பை துண்டித்தல்"
+
+#. Bookmarks menu
+#: ../propono/propono-ui.h:84
+msgid "_Add to bookmarks"
+msgstr "புத்தகக்குறிகளில் சேர்த்தல் (_A)"
+
+#: ../propono/propono-ui.h:85
+msgid "Add current connection to your bookmarks"
+msgstr "நடப்பு இணைப்புகளை உங்கள் புத்தகக்குறிகளில் சேர்த்தல்"
+
+#. Machine menu
+#: ../propono/propono-ui.h:92
+msgid "Take screenshot"
+msgstr "திரைபிடிப்பு எடுக்கவும்"
+
+#: ../propono/propono-ui.h:93
+msgid "Take a screenshot of active connection"
+msgstr "செயலிலுள்ள இணைப்பை திரைப்பிடிப்பு செய்யவும்"
+
+#: ../propono/propono-ui.h:97
+msgid "View the current machine in full screen"
+msgstr "நடப்பு கணினியை முழுத்திரையில் பார்க்கவும்"
+
+#: ../propono/propono-utils.c:75
+msgid "An error has occurred:"
+msgstr "பிழை ஒன்று ஏற்பட்டுள்ளது:"
+
+#: ../propono/propono-utils.c:175
+msgid ""
+"A plugin tried to open an UI file but did not succeed, with the error "
+"message:"
+msgstr "ஒரு சொருகி ஒரு யூஐ கோப்பை திறக்க முயன்றது; ஆனால் வெற்றி அடையவில்லை. வழு செய்தி:"
+
+#: ../propono/propono-utils.c:177
+msgid ""
+"The program tried to open an UI file but did not succeed, with the error "
+"message:"
+msgstr "ஒரு நிரலட ஒரு யூஐ கோப்பை திறக்க முயன்றது. ஆனால் வெற்றி அடையவில்லை. வழு செய்தி:"
+
+#: ../propono/propono-utils.c:180
+msgid "Please check your installation."
+msgstr "உங்கள் நிறுவலை சரிபார்க்கவும்."
+
+#: ../propono/propono-utils.c:181
+msgid "Error loading UI file"
+msgstr "யூஐ கோப்பை சேமிக்கும் போது பிழை"
+
+#: ../propono/propono-utils.c:492
+msgid "Propono is a remote desktop viewer for the MATE Desktop"
+msgstr "Propono என்பது க்னோம் பணிமேடைக்கு தொலை பணிமேடை காட்டியாகும்"
+
+#: ../propono/propono-utils.c:495
+msgid ""
+"Propono is free software; you can redistribute it and/or modify it under the "
+"terms of the GNU General Public License as published by the Free Software "
+"Foundation; either version 2 of the License, or (at your option) any later "
+"version."
+msgstr ""
+"வினாக்ரே இலவச மென் பொருளாகும். நீங்கள் இலவச மென் பொருள் அமைப்பினால் வெளியிடப்பட்ட ஜிஎன்யு "
+"பொது அனுமதிக்கான இந்த 2ம் பதிப்பு அல்லது அடுத்த பதிப்புகள் விதிகளின் படி நீங்கள்  "
+"(விருப்பப்படி) மாற்றலாம். அல்லது மீண்டும் பறிமாறலாம்"
+
+#: ../propono/propono-utils.c:499
+msgid ""
+"Propono is distributed in the hope that it will be useful, but WITHOUT ANY "
+"WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS "
+"FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more "
+"details."
+msgstr ""
+"வினாக்ரே  உபயோகப்படும் என்ற எதிர்பார்ப்புடன் வெளியிடப்படுகிறது. ஆனால் விற்க தகுதி, "
+"குறிப்பிட்ட செயலுக்கான தகுதி உள்பட எந்த உத்திரவாதமும் அளிக்கப்படவில்லை. மேற் கொண்டு "
+"விவரங்களுக்கு ஜிஎன்யு பொது அனுமதிக்கான விதிகளை பார்க்கவும்"
+
+#: ../propono/propono-utils.c:503
+msgid ""
+"You should have received a copy of the GNU General Public License along with "
+"this program. If not, see <http://www.gnu.org/licenses/>."
+msgstr ""
+"இந்த நிரலுடன் குனு பொது பொதுவுடைமை உரிமத்தின் பிரதி ஒன்று தங்களுக்குக் கிடைத்திருக்க "
+"வேண்டும்.இல்லை என்றால் <http://www.gnu.org/licenses/> பார்க்வும்."
+
+#: ../propono/propono-utils.c:525
+msgid "translator-credits"
+msgstr ""
+"Dr. T. Vasudevan <agnihot3@gmail.com> 2009,2010 I. Felix <ifelix25@gmail.com> "
+"2008"
+
+#: ../propono/propono-utils.c:528
+msgid "Propono Website"
+msgstr "வினாக்ரே  இணையதளம்"
+
+#. Translators: %s is a protocol, like VNC or SSH
+#: ../propono/propono-utils.c:660, c-format
+msgid "%s authentication is required"
+msgstr "%s அங்கீகாரம் தேவைப்படுகிறது"
+
+#: ../propono/propono-window.c:428
+msgid "_Recent connections"
+msgstr "சமீபத்திய இணைப்புகள் (_R)"
+
+#. Translators: This is server:port, a statusbar tooltip when mouse is over a bookmark item on menu
+#: ../propono/propono-window.c:543
+#, c-format
+msgid "Open %s:%d"
+msgstr "%s ஐ திற:%d"
+
+#: ../propono/propono-window.c:721
+msgid "About menu accelerators and keyboard shortcuts"
+msgstr "பட்டி முடுக்கி விசைகள்  மற்றும் விசைப்பலகை குறுக்கு விசைகள்"
+
+#: ../propono/propono-window.c:723
+msgid ""
+"Propono comes with menu accelerators and keyboard shortcuts disabled by "
+"default. The reason is to avoid the keys to be intercepted by the program, "
+"and allow them to be sent to the remote machine.\n"
+"\n"
+"You can change this behavior through the preferences dialog. For more "
+"information, check the documentation.\n"
+"\n"
+"This message will appear only once."
+msgstr ""
+"பட்டி முடுக்கி விசைகள்  மற்றும் விசைப்பலகை குறுக்கு விசைகள் செயலிழப்பதே "
+"காரணம் விசைகள் நிரலால் மறிக்கப்பட்டு தொலை கணினிக்கு அனுப்புதலை தடுக்கும். "
+"இதை தவிர்க்கவே.\n"
+"\n"
+"இந்த நடத்தையை நீங்கள் தேர்வுகள் உரையாடலில் மாற்றலாம். மேலும் "
+"விவரங்களுக்கு ஆவணங்களை காண்க\n"
+"\n"
+"இந்த செய்தி ஒரு முறை மட்டுமே காட்டப்படும்."
+
+#: ../propono/propono-window.c:731 ../propono/propono-window.c:737, c-format
+msgid "Error while creating the file %s: %s"
+msgstr " %s கோப்பை உருவாக்கும் போது பிழை: %s"
+
+#~ msgid "All fields above are mandatory"
+#~ msgstr "அனைத்து புலங்களும் அவசியமானவை"
+
+#~ msgid "Could not merge propono-ui.xml: %s"
+#~ msgstr "propono-ui.xml ஐ இணைக்க முடியவில்லை: %s"
+
+#~| msgid "Failed to resolve avahi hostname: %s\n"
+#~ msgid "Failed to request name: %s"
+#~ msgstr "பெயரை விண்ணப்பிக்க முடியவில்லை: %s"
+
+#~ msgid "No error given"
+#~ msgstr "பிழை தரப்படவில்லை"

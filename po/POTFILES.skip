@@ -1,0 +1,7 @@
+data/propono.desktop.in
+data/propono-file.desktop.in
+data/propono-mime.xml.in
+data/propono.schemas.in
+plugins/dummy/dummy.propono-plugin.desktop.in
+plugins/dummy/propono-dummy-plugin.c
+propono/MATE_ProponoApplet.server.in

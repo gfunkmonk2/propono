@@ -1,0 +1,429 @@
+# translation of ku.po to Kurdish
+# Kurdish translation of PACKAGE.
+# Copyright (C) 2008 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Erdal Ronahi <erdal dot ronahi nospam @ gmail.com>, 2008.
+# Erdal Ronahi <erdal dot ronahi at gmail dot com>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: ku\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-03-20 04:11+0000\n"
+"PO-Revision-Date: 2008-04-24 03:38+0200\n"
+"Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
+"Language-Team: Kurdish <ku@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural= n != 1;\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: ../data/propono.desktop.in.in.h:1 ../data/propono-file.desktop.in.in.h:1
+msgid "Access remote desktops"
+msgstr ""
+
+#: ../data/propono.desktop.in.in.h:2 ../data/propono-file.desktop.in.in.h:2
+#: ../src/propono-main.c:134
+msgid "Remote Desktop Viewer"
+msgstr ""
+
+#: ../data/propono.glade.h:1
+msgid "<b>Editing a bookmark</b>"
+msgstr ""
+
+#: ../data/propono.glade.h:2
+msgid "<b>Enter a name for this connection</b>"
+msgstr ""
+
+#: ../data/propono.glade.h:3
+msgid ""
+"<b>In order to connect on this machine, a password is required. Please, "
+"supply it.</b>"
+msgstr ""
+
+#: ../data/propono.glade.h:4
+msgid "<b>Which machine do you want to connect to?</b>"
+msgstr ""
+
+#: ../data/propono.glade.h:5
+msgid "Editing a bookmark"
+msgstr ""
+
+#: ../data/propono.glade.h:6 ../src/propono-tab.c:682
+msgid "Host:"
+msgstr "Mevandar:"
+
+#: ../data/propono.glade.h:7
+msgid "Saving to bookmarks"
+msgstr ""
+
+#: ../data/propono.glade.h:8
+msgid "_Host:"
+msgstr "_Mevandar:"
+
+#: ../data/propono.glade.h:9
+msgid "_Name:"
+msgstr "_Nav:"
+
+#: ../data/propono.glade.h:10
+msgid "_Password:"
+msgstr "_Şîfre:"
+
+#: ../data/propono.glade.h:11
+msgid "_Port:"
+msgstr "_Port:"
+
+#: ../data/propono.glade.h:12
+msgid "_Remember this password"
+msgstr ""
+
+#: ../data/propono.schemas.in.h:1
+msgid "The handler for \"vnc://\" URLs"
+msgstr ""
+
+#: ../data/propono-mime.xml.in.h:1
+msgid "Remote Desktop (VNC) file"
+msgstr ""
+
+#: ../data/propono-mime.xml.in.h:2
+msgid "Remote Desktop Connection"
+msgstr ""
+
+#: ../src/propono-bookmarks.c:58 ../src/propono-bookmarks.c:76
+#, c-format
+msgid "Error while saving bookmarks: %s"
+msgstr ""
+
+#: ../src/propono-bookmarks.c:111
+#, c-format
+msgid "Error while initializing bookmarks: %s"
+msgstr ""
+
+#: ../src/propono-bookmarks.c:282
+msgid "Confirm removal?"
+msgstr ""
+
+#: ../src/propono-bookmarks.c:285
+#, c-format
+msgid "Are you sure you want to exclude <i>%s</i> from bookmarks?"
+msgstr ""
+
+#: ../src/propono-bookmarks.c:296
+#, c-format
+msgid "Error while removing %s from bookmarks: %s"
+msgstr ""
+
+#: ../src/propono-commands.c:90
+msgid "Choose the file"
+msgstr ""
+
+#: ../src/propono-commands.c:101 ../src/propono-tab.c:765
+msgid "Supported formats"
+msgstr ""
+
+#: ../src/propono-commands.c:133
+msgid "The following file could not be opened:"
+msgstr ""
+
+#: ../src/propono-commands.c:383
+msgid "Propono is a VNC client for the MATE Desktop"
+msgstr ""
+
+#: ../src/propono-commands.c:386
+msgid ""
+"Propono is free software; you can redistribute it and/or modify it under the "
+"terms of the GNU General Public License as published by the Free Software "
+"Foundation; either version 2 of the License, or (at your option) any later "
+"version."
+msgstr ""
+
+#: ../src/propono-commands.c:390
+msgid ""
+"Propono is distributed in the hope that it will be useful, but WITHOUT ANY "
+"WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS "
+"FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more "
+"details."
+msgstr ""
+
+#: ../src/propono-commands.c:394
+msgid ""
+"You should have received a copy of the GNU General Public License along with "
+"this program. If not, see <http://www.gnu.org/licenses/>."
+msgstr ""
+
+#: ../src/propono-commands.c:416
+msgid "translator-credits"
+msgstr ""
+
+#: ../src/propono-commands.c:419
+msgid "Propono Website"
+msgstr ""
+
+#: ../src/propono-connect.c:53
+msgid "Choose a VNC Server"
+msgstr ""
+
+#: ../src/propono-connection.c:161
+#, c-format
+msgid "The protocol %s is not supported."
+msgstr ""
+
+#: ../src/propono-fav.c:382
+msgid "Image"
+msgstr "Wêne"
+
+#: ../src/propono-fav.c:389
+msgid "Name"
+msgstr "Nav"
+
+#: ../src/propono-fav.c:437
+msgid "Bookmarks"
+msgstr ""
+
+#: ../src/propono-fav.c:445
+msgid "Hide bookmarks"
+msgstr ""
+
+#: ../src/propono-main.c:42
+msgid "Opens a .vnc file"
+msgstr "Pelekî .vnc vedike"
+
+#: ../src/propono-main.c:42
+msgid "filename"
+msgstr "navê pelî"
+
+#: ../src/propono-main.c:46
+msgid "[server:port]"
+msgstr ""
+
+#: ../src/propono-main.c:71 ../src/propono-main.c:90
+#: ../src/propono-window.c:284
+msgid "Unknown error"
+msgstr "Çewtiya nenas"
+
+#: ../src/propono-main.c:101 ../src/propono-window.c:283
+msgid "The following error has occurred:"
+msgstr ""
+
+#. Setup command line options
+#: ../src/propono-main.c:121
+msgid "- VNC Client for MATE"
+msgstr ""
+
+#: ../src/propono-main.c:129
+msgid "Run 'propono --help' to see a full list of available command line options"
+msgstr ""
+
+#: ../src/propono-notebook.c:98
+#, c-format
+msgid "Connection to host \"%s\" was closed."
+msgstr ""
+
+#: ../src/propono-notebook.c:124
+msgid "Connecting..."
+msgstr "Tê girêdan..."
+
+#: ../src/propono-notebook.c:148
+msgid "Close connection"
+msgstr ""
+
+#: ../src/propono-prefs-manager.c:124
+msgid "Cannot initialize preferences manager."
+msgstr ""
+
+#: ../src/propono-prefs-manager.c:420
+#, c-format
+msgid "Expected `%s' got `%s' for key %s"
+msgstr ""
+
+#: ../src/propono-tab.c:255
+msgid "Error connecting to host."
+msgstr ""
+
+#: ../src/propono-tab.c:290
+#, c-format
+msgid "Authentication to host \"%s\" has failed"
+msgstr ""
+
+#: ../src/propono-tab.c:318
+#, c-format
+msgid "Authentication method to host \"%s\" is unsupported. (%u)"
+msgstr ""
+
+#: ../src/propono-tab.c:374
+msgid "Error saving recent connection."
+msgstr ""
+
+#: ../src/propono-tab.c:405
+msgid "Error saving the password on the keyring."
+msgstr ""
+
+#: ../src/propono-tab.c:465 ../src/propono-tab.c:561
+msgid "Press Ctrl+Alt to grab the cursor"
+msgstr ""
+
+#: ../src/propono-tab.c:540
+msgid "Press Ctrl+Alt to release the cursor"
+msgstr ""
+
+#: ../src/propono-tab.c:681
+msgid "Desktop Name:"
+msgstr ""
+
+#: ../src/propono-tab.c:683
+msgid "Port:"
+msgstr ""
+
+#: ../src/propono-tab.c:684
+msgid "Dimensions:"
+msgstr ""
+
+#: ../src/propono-tab.c:751
+#, c-format
+msgid "Screenshot of %s"
+msgstr ""
+
+#: ../src/propono-tab.c:754
+msgid "Save Screenshot"
+msgstr ""
+
+#. Toplevel
+#: ../src/propono-ui.h:33
+msgid "_Machine"
+msgstr "_Makîne"
+
+#: ../src/propono-ui.h:34
+msgid "_Edit"
+msgstr "_Sererastkirin"
+
+#: ../src/propono-ui.h:35
+msgid "_View"
+msgstr "_Dîtin"
+
+#: ../src/propono-ui.h:36 ../src/propono-ui.h:97
+msgid "_Bookmarks"
+msgstr ""
+
+#: ../src/propono-ui.h:37
+msgid "_Help"
+msgstr "_Alîkarî"
+
+#: ../src/propono-ui.h:41
+msgid "Connect into a remote machine"
+msgstr ""
+
+#: ../src/propono-ui.h:43
+msgid "Open a .VNC file"
+msgstr ""
+
+#: ../src/propono-ui.h:45
+msgid "Quit the program"
+msgstr ""
+
+#. Bookmarks menu
+#: ../src/propono-ui.h:48
+msgid "_Open bookmark"
+msgstr ""
+
+#: ../src/propono-ui.h:49
+msgid "Connect into this machine"
+msgstr ""
+
+#: ../src/propono-ui.h:50
+msgid "_Edit bookmark"
+msgstr ""
+
+#: ../src/propono-ui.h:51
+msgid "Edit the details of selected bookmark"
+msgstr ""
+
+#: ../src/propono-ui.h:52
+msgid "_Remove from bookmarks"
+msgstr ""
+
+#: ../src/propono-ui.h:53
+msgid "Remove current selected connection from bookmarks"
+msgstr ""
+
+#. Help menu
+#: ../src/propono-ui.h:56
+msgid "_Contents"
+msgstr "_Naverok"
+
+#: ../src/propono-ui.h:57
+msgid "Open the propono manual"
+msgstr ""
+
+#: ../src/propono-ui.h:59
+msgid "About this application"
+msgstr ""
+
+#: ../src/propono-ui.h:66
+msgid "Close the current connection"
+msgstr ""
+
+#: ../src/propono-ui.h:67
+msgid "C_lose All"
+msgstr ""
+
+#: ../src/propono-ui.h:68
+msgid "Close all active connections"
+msgstr ""
+
+#. Bookmarks menu
+#: ../src/propono-ui.h:71
+msgid "_Add to bookmarks"
+msgstr ""
+
+#: ../src/propono-ui.h:72
+msgid "Add current connection to your bookmarks"
+msgstr ""
+
+#. Machine menu
+#: ../src/propono-ui.h:79
+msgid "Take screenshot"
+msgstr ""
+
+#: ../src/propono-ui.h:80
+msgid "Take a screenshot of active connection"
+msgstr ""
+
+#: ../src/propono-ui.h:84
+msgid "View the current machine in full screen"
+msgstr ""
+
+#: ../src/propono-ui.h:89
+msgid "_Toolbar"
+msgstr ""
+
+#: ../src/propono-ui.h:90
+msgid "Show or hide the toolbar"
+msgstr ""
+
+#: ../src/propono-ui.h:93
+msgid "_Statusbar"
+msgstr ""
+
+#: ../src/propono-ui.h:94
+msgid "Show or hide the statusbar"
+msgstr ""
+
+#: ../src/propono-ui.h:98
+msgid "Show or hide the bookmarks panel"
+msgstr ""
+
+#: ../src/propono-window.c:401
+#, c-format
+msgid "Could not merge propono-ui.xml: %s"
+msgstr ""
+
+#: ../src/propono-window.c:429
+msgid "_Recent connections"
+msgstr ""
+
+#. Translators: This is server:port, a statusbar tooltip when mouse is over a bookmark item on menu
+#: ../src/propono-window.c:578
+#, c-format
+msgid "Open %s:%d"
+msgstr ""

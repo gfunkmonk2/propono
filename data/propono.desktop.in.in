@@ -1,0 +1,14 @@
+[Desktop Entry]
+_Name=Remote Desktop Viewer
+_Comment=Access remote desktops
+Exec=propono %U
+Icon=propono
+Terminal=false
+MimeType=application/x-remote-connection;
+Type=Application
+StartupNotify=true
+Categories=MATE;GTK;Network;RemoteAccess;
+X-MATE-Bugzilla-Bugzilla=MATE
+X-MATE-Bugzilla-Product=propono
+X-MATE-Bugzilla-Component=general
+X-MATE-Bugzilla-Version=@VERSION@

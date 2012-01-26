@@ -1,0 +1,1234 @@
+# Indonesian translation for propono.
+# Copyright (C) 2010 propono's COPYRIGHT HOLDER
+# This file is distributed under the same license as the propono package.
+# Nana Suryana <nana@suryana.or.id>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: propono master\n"
+"Report-Msgid-Bugs-To: http://bugzilla.mate.org/enter_bug.cgi?product=propono&component=general\n"
+"POT-Creation-Date: 2010-04-18 10:24+0000\n"
+"PO-Revision-Date: 2010-04-18 10:24+0000\n"
+"Last-Translator: Nana Suryana <nana@suryana.or.id>\n"
+"Language-Team: MATE Indonesian Translation Team <mate@i15n.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../data/MATE_ProponoApplet.xml.h:1 ../propono/propono-plugin-manager.c:495
+msgid "_About"
+msgstr "_Tentang"
+
+#: ../data/MATE_ProponoApplet.xml.h:2 ../propono/propono-ui.h:37
+msgid "_Help"
+msgstr "_Bantuan"
+
+#: ../data/propono.desktop.in.in.h:1 ../data/propono-file.desktop.in.in.h:1
+msgid "Access remote desktops"
+msgstr "Akses remote desktop"
+
+#: ../data/propono.desktop.in.in.h:2 ../data/propono-file.desktop.in.in.h:2
+#: ../propono/MATE_ProponoApplet.server.in.in.h:2
+#: ../propono/propono-applet.c:434 ../propono/propono-applet.c:486
+#: ../propono/propono-main.c:201
+msgid "Remote Desktop Viewer"
+msgstr "Remote Desktop Viewer"
+
+#: ../data/propono.ui.h:1
+msgid "Allow _keyboard shortcuts"
+msgstr "Bolehkan cara pintas _keyboard"
+
+#: ../data/propono.ui.h:2
+msgid "Authentication is required"
+msgstr "Otentikasi diperlukan"
+
+#. setup label
+#: ../data/propono.ui.h:3 ../propono/propono-fav.c:851
+msgid "Bookmarks"
+msgstr "Bookmark"
+
+#: ../data/propono.ui.h:4
+msgid "Connection"
+msgstr "Koneksi"
+
+#: ../data/propono.ui.h:5
+msgid "Connection options"
+msgstr "Sambungan pilihan"
+
+#: ../data/propono.ui.h:6
+msgid "Folder"
+msgstr "Folder"
+
+#: ../data/propono.ui.h:7 ../plugins/ssh/propono-ssh-tab.c:49
+#: ../plugins/vnc/propono-vnc-tab.c:148 ../propono/propono-fav.c:404
+msgid "Host:"
+msgstr "Host:"
+
+#: ../data/propono.ui.h:8
+msgid "Interface"
+msgstr "Interface"
+
+#: ../data/propono.ui.h:9
+msgid "Options"
+msgstr "Pilihan"
+
+#: ../data/propono.ui.h:10
+msgid "Parent Folder"
+msgstr "Folder induk"
+
+#: ../data/propono.ui.h:11
+msgid "Preferences"
+msgstr "Preferensi"
+
+#. This is a tooltip in preferences dialog
+#: ../data/propono.ui.h:13
+msgid "This option enables menu accelerators and keyboard shortcuts. For more info on why you may want to disable them, check the documentation."
+msgstr "Pilihan ini memungkinkan akselerator menu dan shortcut keyboard. Untuk info lebih lanjut tentang cara menonaktifkannya, periksa dokumentasi."
+
+#: ../data/propono.ui.h:14
+msgid "Which machine do you want to connect to?"
+msgstr "Mesin mana yang ingin anda koneksi?"
+
+#: ../data/propono.ui.h:15
+msgid "_Always show tabs"
+msgstr "_Selalu tunjukkan tab"
+
+#. This is a button label, in the authentication dialog
+#: ../data/propono.ui.h:17
+msgid "_Authenticate"
+msgstr "_Autentikasi"
+
+#: ../data/propono.ui.h:18
+msgid "_Full screen"
+msgstr "Layar _Penuh"
+
+#: ../data/propono.ui.h:19
+msgid "_Host:"
+msgstr "_Host:"
+
+#: ../data/propono.ui.h:20
+msgid "_Name:"
+msgstr "_Nama:"
+
+#: ../data/propono.ui.h:21
+msgid "_Password:"
+msgstr "_Kata sandi:"
+
+#: ../data/propono.ui.h:22
+msgid "_Protocol:"
+msgstr "_Protokol:"
+
+#: ../data/propono.ui.h:23
+msgid "_Remember this credential"
+msgstr "_Ingat kredensial ini"
+
+#: ../data/propono.ui.h:24 ../plugins/ssh/propono-ssh-plugin.c:144
+msgid "_Username:"
+msgstr "_Nama Pengguna:"
+
+#: ../data/propono.schemas.in.in.h:1 ../propono/propono-plugin-manager.c:795
+msgid "Active plugins"
+msgstr "Aktif plugin"
+
+#: ../data/propono.schemas.in.in.h:2
+msgid "List of active plugins. It contains the \"Location\" of the active plugins. See the .propono-plugin file for obtaining the \"Location\" of a given plugin."
+msgstr "Daftar plugin yang aktif. Berisi \"Lokasi\"dari plugin yang aktif. Lihat berkas propono-plugin untuk mendapatkan \"Lokasi\" dari sebuah plugin yang diberikan."
+
+#: ../data/propono.schemas.in.in.h:3
+msgid "Maximum number of history items in connect dialog"
+msgstr "Maksimum jumlah item sejarah pada dialog koneksi"
+
+#: ../data/propono.schemas.in.in.h:4
+msgid "Set to \"false\" to disable menu shortcuts. Set to \"true\" to enable them. Note that if they are enabled, those keys will be intercepted by the menu and will not be sent to the remote host."
+msgstr "Set ke \"false\" untuk menonaktifkan menu pintas. Set ke \"true\" untuk mengaktifkan. Catatan bahwa jika menu pintas diaktifkan, tombol tersebut akan dicegat oleh menu dan tidak akan dikirim ke host remote."
+
+#: ../data/propono.schemas.in.in.h:5
+msgid "Set to \"true\" to always show the tabs. Set to \"false\" to only show the tabs when there is more than one active connection."
+msgstr "Set ke \"true\" untuk selalu menampilkan tab. Set ke \"false\" untuk hanya menampilkan tab ketika ada lebih dari satu sambungan aktif."
+
+#: ../data/propono.schemas.in.in.h:6
+msgid "Set to \"true\" to always start the program listening for reverse connections."
+msgstr "Set ke \"treu\" untuk selalu menjalankan program yang mendengarkan untuk koneksi berlawanan."
+
+#: ../data/propono.schemas.in.in.h:7
+msgid "Specifies the maximum number of items in the host dropdown entry."
+msgstr "Menentukan jumlah maksimum dari item pada entri dropdown host."
+
+#: ../data/propono.schemas.in.in.h:8
+msgid "The handler for \"vnc://\" URLs"
+msgstr "Pengendali untuk URL \"vnc://\" "
+
+#: ../data/propono.schemas.in.in.h:9
+msgid "When connecting to a host, the client can say to the server to leave other clients connected or to drop the existent connections. Set the value to true to share the desktop with the other clients."
+msgstr "Ketika melakukan koneksi ke host, klien bisa berkata kepada server untuk meninggalkan klien lain yang terhubung atau untuk hentikan koneksi. Menetapkan nilai true untuk berbagi desktop dengan klien lain."
+
+#: ../data/propono.schemas.in.in.h:10
+msgid "Whether we should leave other clients connected"
+msgstr "Apakah kita harus meninggalkan klien lain yang terhubung"
+
+#: ../data/propono.schemas.in.in.h:11
+msgid "Whether we should show tabs even when there is only one active connection"
+msgstr "Apakah kita harus menunjukkan tab bahkan ketika hanya ada satu sambungan aktif"
+
+#: ../data/propono.schemas.in.in.h:12
+msgid "Whether we should show the menu accelerators (shortcut keys)"
+msgstr "Apakah kita harus menunjukkan akselerator menu (tombol pintas)"
+
+#: ../data/propono.schemas.in.in.h:13
+msgid "Whether we should start the program listening for reverse connections"
+msgstr "Apakah kita harus mulai program untuk mendengarkan koneksi berlawanan"
+
+#: ../data/propono-mime.xml.in.h:1
+msgid "Remote Desktop (VNC) file"
+msgstr "Remote Desktop (VNC) file"
+
+#: ../data/propono-mime.xml.in.h:2
+msgid "Remote Desktop Connection"
+msgstr "Remote Desktop Connection"
+
+#. vim: set ts=8:
+#: ../plugins/ssh/propono-ssh-plugin.c:76
+#: ../plugins/ssh/ssh.propono-plugin.desktop.in.h:1
+msgid "SSH"
+msgstr "SSH"
+
+#. Translators: This is a description of the SSH protocol. It appears at
+#. Connect dialog.
+#: ../plugins/ssh/propono-ssh-plugin.c:78
+msgid "Access Unix/Linux terminals"
+msgstr "Akses Unix / Linux terminal"
+
+#: ../plugins/ssh/propono-ssh-plugin.c:132
+msgid "SSH Options"
+msgstr "SSH Pilihan"
+
+#. Translators: This is the tooltip for the username field in a SSH connection
+#: ../plugins/ssh/propono-ssh-plugin.c:149
+msgid "Optional. If blank, your username will be used. Also, it can be supplied in the Machine field above, in the form username@hostname."
+msgstr "Opsional. Jika kosong, nama pengguna akan digunakan. Selain itu, dapat diberikan di bidang Mesin di atas, dalam bentuk namapengguna@namahost."
+
+#: ../plugins/ssh/propono-ssh-tab.c:50 ../plugins/vnc/propono-vnc-tab.c:149
+msgid "Port:"
+msgstr "Port:"
+
+#: ../plugins/ssh/ssh.propono-plugin.desktop.in.h:2
+msgid "SSH support"
+msgstr "Mendukung SSH"
+
+#. Translators: 'shared' here is a VNC protocol specific flag. You can
+#. translate it, but I think it's better to let it untranslated
+#: ../plugins/vnc/propono-vnc-connection.c:291
+#: ../plugins/vnc/propono-vnc-plugin.c:322
+#, c-format
+msgid "Bad value for 'shared' flag: %d. It is supposed to be 0 or 1. Ignoring it."
+msgstr "Nilai buruk untuk 'shared' flag: %d. Hal ini seharusnya 0 atau 1. Mengabaikannya."
+
+#: ../plugins/vnc/propono-vnc-plugin.c:84
+msgid "_Reverse Connections..."
+msgstr "_Reverse Koneksi ..."
+
+#: ../plugins/vnc/propono-vnc-plugin.c:86
+msgid "Configure incoming VNC connections"
+msgstr "Konfigurasi VNC untuk koneksi masuk"
+
+#. Translators: this is a command line option (run propono --help)
+#: ../plugins/vnc/propono-vnc-plugin.c:173
+msgid "Enable scaled mode"
+msgstr "Aktifkan modus penskalaan"
+
+#. Translators: this is a command line option (run propono --help)
+#: ../plugins/vnc/propono-vnc-plugin.c:188
+msgid "VNC Options:"
+msgstr "Opsi VNC:"
+
+#. Translators: this is a command line option (run propono --help)
+#: ../plugins/vnc/propono-vnc-plugin.c:190
+msgid "Show VNC Options"
+msgstr "Tampilkan opsi VNC"
+
+#. vim: set ts=8:
+#: ../plugins/vnc/propono-vnc-plugin.c:212
+#: ../plugins/vnc/vnc.propono-plugin.desktop.in.h:1
+msgid "VNC"
+msgstr "VNC"
+
+#: ../plugins/vnc/propono-vnc-plugin.c:213
+msgid "Access Unix/Linux, Windows and other machines."
+msgstr "Akses Unix/Linux, Windows dan mesin lainnya."
+
+#: ../plugins/vnc/propono-vnc-plugin.c:270
+msgid "Could not parse the file."
+msgstr "Tidak dapat melakukan parse file."
+
+#: ../plugins/vnc/propono-vnc-plugin.c:277
+msgid "The file is not a VNC one: Missing the group \"connection\"."
+msgstr "File tersebut bukan jenis VNC: Hilang dalam grup \"koneksi\"."
+
+#: ../plugins/vnc/propono-vnc-plugin.c:283
+msgid "The file is not a VNC one: Missing the key \"host\"."
+msgstr "File tersebut tidak satu VNC: Hilang kunci \"host\"."
+
+#: ../plugins/vnc/propono-vnc-plugin.c:375
+msgid "VNC Options"
+msgstr "Opsi VNC"
+
+#. View only check button
+#: ../plugins/vnc/propono-vnc-plugin.c:388
+#: ../plugins/vnc/propono-vnc-tab.c:632
+msgid "_View only"
+msgstr "Hanya _View"
+
+#. Scaling check button
+#: ../plugins/vnc/propono-vnc-plugin.c:396
+msgid "_Scaling"
+msgstr "_Skala"
+
+#: ../plugins/vnc/propono-vnc-plugin.c:412
+msgid "_Keep aspect ratio"
+msgstr "_Pakai aspek rasio"
+
+#. JPEG Compression check button
+#: ../plugins/vnc/propono-vnc-plugin.c:422
+msgid "_Use JPEG Compression"
+msgstr "Pakai Kompresi _JPEG"
+
+#: ../plugins/vnc/propono-vnc-plugin.c:423
+msgid "This might not work on all VNC servers"
+msgstr "Ini mungkin tidak bekerja pada semua server VNC"
+
+#: ../plugins/vnc/propono-vnc-plugin.c:432
+msgid "_Depth Color:"
+msgstr "_Kedalaman Warna:"
+
+#: ../plugins/vnc/propono-vnc-plugin.c:437
+msgid "Use Server Settings"
+msgstr "Gunakan Pengaturan Server"
+
+#: ../plugins/vnc/propono-vnc-plugin.c:438
+msgid "True Color (24 bits)"
+msgstr "Warna Asli (24 bit)"
+
+#: ../plugins/vnc/propono-vnc-plugin.c:439
+msgid "High Color (16 bits)"
+msgstr "Warna Tinggi (16 bit)"
+
+#: ../plugins/vnc/propono-vnc-plugin.c:440
+msgid "Low Color (8 bits)"
+msgstr "Warna rendah (8 bit)"
+
+#: ../plugins/vnc/propono-vnc-plugin.c:441
+msgid "Ultra Low Color (3 bits)"
+msgstr "Warna sangat rendah (3 bit)"
+
+#. Translators: the whole sentence will be: Use host <hostname> as a SSH
+#. tunnel
+#: ../plugins/vnc/propono-vnc-plugin.c:454
+msgid "Use h_ost"
+msgstr "Pakai h_ost"
+
+#. Translators: This is the tooltip of the SSH tunneling entry
+#: ../plugins/vnc/propono-vnc-plugin.c:462
+msgid "hostname or user@hostname"
+msgstr "namahost atau pengguna@namahost-"
+
+#. Translators: the whole sentence will be: Use host <hostname> as a SSH
+#. tunnel
+#: ../plugins/vnc/propono-vnc-plugin.c:466
+msgid "as a SSH tunnel"
+msgstr "sebagai terowongan SSH"
+
+#. Translators: this is a pattern to open *.vnc files in a open dialog.
+#: ../plugins/vnc/propono-vnc-plugin.c:501
+msgid "VNC Files"
+msgstr "Berkas VNC"
+
+#: ../plugins/vnc/propono-vnc-tab.c:147
+msgid "Desktop Name:"
+msgstr "Nama Desktop:"
+
+#: ../plugins/vnc/propono-vnc-tab.c:150
+msgid "Dimensions:"
+msgstr "Dimensi:"
+
+#: ../plugins/vnc/propono-vnc-tab.c:304
+msgid "Error creating the SSH tunnel"
+msgstr "Kesalahan membuat tunnel SSH"
+
+#: ../plugins/vnc/propono-vnc-tab.c:305 ../plugins/vnc/propono-vnc-tab.c:316
+msgid "Unknown reason"
+msgstr "Penyebab tidak diketahui"
+
+#: ../plugins/vnc/propono-vnc-tab.c:315
+msgid "Error connecting to host."
+msgstr "Kesalahan koneksi ke host."
+
+#. Translators: %s is a host name or IP address; %u is a code error (number).
+#: ../plugins/vnc/propono-vnc-tab.c:360
+#, c-format
+msgid "Authentication method to host %s is unsupported. (%u)"
+msgstr "Metode Otentikasi untuk host %s tidak didukung. (%u)"
+
+#: ../plugins/vnc/propono-vnc-tab.c:364
+msgid "Authentication unsupported"
+msgstr "Otentikasi tidak didukung"
+
+#: ../plugins/vnc/propono-vnc-tab.c:531 ../plugins/vnc/propono-vnc-tab.c:548
+msgid "Authentication error"
+msgstr "Kesalahan Otentikasi"
+
+#: ../plugins/vnc/propono-vnc-tab.c:532
+msgid "A username is required in order to access this machine."
+msgstr "Nama pengguna diperlukan untuk mengakses mesin ini."
+
+#: ../plugins/vnc/propono-vnc-tab.c:549
+msgid "A password is required in order to access this machine."
+msgstr "Kata sandi diperlukan untuk mengakses mesin ini."
+
+#: ../plugins/vnc/propono-vnc-tab.c:603
+msgid "S_caling"
+msgstr "S_kala"
+
+#: ../plugins/vnc/propono-vnc-tab.c:604
+msgid "Fits the remote screen into the current window size"
+msgstr "Cocokkan dengan layar remote ke dalam ukuran jendela"
+
+#: ../plugins/vnc/propono-vnc-tab.c:617
+msgid "_Keep Aspect Ratio"
+msgstr "_Pakai Aspek Rasio"
+
+#: ../plugins/vnc/propono-vnc-tab.c:618
+msgid "Keeps the screen aspect ratio when using scaling"
+msgstr "Menjaga rasio aspek layar ketika menggunakan skala"
+
+#: ../plugins/vnc/propono-vnc-tab.c:633
+msgid "Does not send mouse and keyboard events"
+msgstr "Tidak mengirimkan aktifitas mouse dan keyboard"
+
+#: ../plugins/vnc/propono-vnc-tab.c:646
+msgid "_Original size"
+msgstr "Ukuran _Original"
+
+#: ../plugins/vnc/propono-vnc-tab.c:647
+msgid "Adjusts the window to the remote desktop's size"
+msgstr "Menyesuaikan ukuran jendela ke desktop remote"
+
+#: ../plugins/vnc/propono-vnc-tab.c:660
+msgid "_Refresh Screen"
+msgstr "_Refresh Screen"
+
+#: ../plugins/vnc/propono-vnc-tab.c:661
+msgid "Requests an update of the screen"
+msgstr "Permintaan update layar"
+
+#. Send Ctrl-alt-del
+#: ../plugins/vnc/propono-vnc-tab.c:683 ../plugins/vnc/propono-vnc-tab.c:755
+#: ../plugins/vnc/propono-vnc-tab.c:757
+msgid "Send Ctrl-Alt-Del"
+msgstr "Kirim Ctrl-Alt-Del"
+
+#: ../plugins/vnc/propono-vnc-tab.c:684
+msgid "Sends Ctrl+Alt+Del to the remote machine"
+msgstr "Mengirim Ctrl+Alt+Del pada mesin remote"
+
+#: ../plugins/vnc/propono-vnc-tab.c:736 ../plugins/vnc/propono-vnc-tab.c:737
+msgid "Scaling"
+msgstr "Scala"
+
+#: ../plugins/vnc/propono-vnc-tab.c:746 ../plugins/vnc/propono-vnc-tab.c:747
+msgid "Read only"
+msgstr "Baca saja"
+
+#: ../plugins/vnc/propono-vnc-tab.c:919
+msgid ""
+"Scaling is not supported on this installation.\n"
+"\n"
+"Read the README file (shipped with Propono) in order to know how to enable this feature."
+msgstr ""
+"Skala tidak didukung dalam instalasi ini.\n"
+"\n"
+"Baca file README (dikirimkan dengan Propono) untuk mengetahui cara mengaktifkan fitur ini."
+
+#: ../plugins/vnc/propono-vnc-tunnel.c:77
+#, c-format
+msgid "Unable to find a free TCP port"
+msgstr "Tidak dapat menemukan port TCP bebas"
+
+#: ../plugins/vnc/vnc.propono-plugin.desktop.in.h:2
+msgid "VNC support"
+msgstr "VNC dukungan"
+
+#: ../plugins/vnc/propono-vnc-listener-dialog.c:90
+msgid "IPv4:"
+msgstr "IPv4:"
+
+#: ../plugins/vnc/propono-vnc-listener-dialog.c:102
+msgid ""
+"\n"
+"\n"
+"IPv6:"
+msgstr  ""
+"\n"
+"\n"
+"IPv6:"
+
+#: ../plugins/vnc/propono-vnc-listener-dialog.c:161
+#, c-format
+msgid "On the port %d"
+msgstr "Pada port% d"
+
+#: ../plugins/vnc/propono-vnc-listener.c:168
+msgid "Incoming VNC connection arrived but there is no active window"
+msgstr "Koneksi VNC masuk tetapi tidak ada jendela aktif"
+
+#. vim: set ts=8:
+#: ../plugins/vnc/vnc.ui.h:1
+msgid "By activating reverse connections you can access machines that are behind a firewall. The remote side is supposed to initiate the connection with you. For further information, checkout the help."
+msgstr "Dengan mengaktifkan koneksi reverse Anda dapat mengakses mesin yang berada di balik firewall. Sisi remote seharusnya untuk memulai koneksi dengan Anda. Untuk informasi lebih lanjut, periksa bantuan."
+
+#: ../plugins/vnc/vnc.ui.h:2
+msgid "Connectivity"
+msgstr "Konektivitas"
+
+#: ../plugins/vnc/vnc.ui.h:3
+msgid "Reverse Connections"
+msgstr "Koneksi Reverse"
+
+#: ../plugins/vnc/vnc.ui.h:4
+msgid "This machine is reachable through the following IP address(es):"
+msgstr "Mesin ini dapat dijangkau melalui alamat IP"
+
+#: ../plugins/vnc/vnc.ui.h:5
+msgid "_Always Enabled"
+msgstr "_Selalu Diaktifkan"
+
+#: ../plugins/vnc/vnc.ui.h:6
+msgid "_Enable Reverse Connections"
+msgstr "_Aktifkan Koneksi Reverse"
+
+#: ../propono/MATE_ProponoApplet.server.in.in.h:1
+msgid "A menu to quickly access remote machines"
+msgstr "Menu untuk mengakses mesin remote"
+
+#: ../propono/MATE_ProponoApplet.server.in.in.h:3
+msgid "Propono Applet Factory"
+msgstr "Propono Applet Factory"
+
+#: ../propono/propono-applet.c:277 ../propono/propono-applet.c:360
+msgid "Could not run propono:"
+msgstr "Tidak bisa menjalankan propono:"
+
+#: ../propono/propono-applet.c:380
+msgid "Open Remote Desktop Viewer"
+msgstr "Buka Remote Desktop Viewer"
+
+#: ../propono/propono-applet.c:435
+msgid "Access your bookmarks"
+msgstr "Akses bookmark"
+
+#: ../propono/propono-bookmarks.c:265 ../propono/propono-connection.c:522
+#: ../propono/propono-tab.c:535 ../propono/propono-tube-handler.c:253
+#, c-format
+msgid "The protocol %s is not supported."
+msgstr "Protokol %s tidak didukung."
+
+#: ../propono/propono-bookmarks.c:343
+#, c-format
+msgid "Error while initializing bookmarks: %s"
+msgstr "Kesalahan ketika menginisialisasi bookmark: %s"
+
+#: ../propono/propono-bookmarks.c:343 ../propono/propono-bookmarks.c:458
+#: ../propono/propono-bookmarks-migration.c:135
+#: ../propono/propono-cache-prefs.c:53 ../propono/propono-commands.c:173
+#: ../propono/propono-connect.c:482 ../propono/propono-fav.c:765
+#: ../propono/propono-main.c:102 ../propono/propono-main.c:121
+#: ../propono/propono-window.c:268 ../propono/propono-window.c:737
+msgid "Unknown error"
+msgstr "Kesalahan tidak dikenal"
+
+#: ../propono/propono-bookmarks.c:350
+msgid "Error while initializing bookmarks: The file seems to be empty"
+msgstr "Kesalahan ketika menginisialisasi bookmark: File ini kelihatannya kosong"
+
+#: ../propono/propono-bookmarks.c:357
+msgid "Error while initializing bookmarks: The file is not a propono bookmarks file"
+msgstr "Kesalahan ketika menginisialisasi bookmark: File ini bukan merupakan penanda file propono"
+
+#: ../propono/propono-bookmarks.c:419 ../propono/propono-bookmarks.c:426
+msgid "Error while saving bookmarks: Failed to create the XML structure"
+msgstr "Kesalahan saat menyimpan bookmark: Gagal membuat struktur XML"
+
+#: ../propono/propono-bookmarks.c:433 ../propono/propono-bookmarks.c:440
+msgid "Error while saving bookmarks: Failed to initialize the XML structure"
+msgstr "Kesalahan saat menyimpan bookmark: Gagal untuk menginisialisasi struktur XML"
+
+#: ../propono/propono-bookmarks.c:449
+msgid "Error while saving bookmarks: Failed to finalize the XML structure"
+msgstr "Kesalahan saat menyimpan bookmark: Gagal untuk menyelesaikan struktur XML"
+
+#: ../propono/propono-bookmarks.c:458
+#, c-format
+msgid "Error while saving bookmarks: %s"
+msgstr "Kesalahan saat menyimpan bookmark: %s"
+
+#: ../propono/propono-bookmarks-migration.c:95
+#: ../propono/propono-bookmarks-migration.c:102
+msgid "Error while migrating bookmarks: Failed to create the XML structure"
+msgstr "Error ketika bermigrasi bookmark: Gagal membuat struktur XML"
+
+#: ../propono/propono-bookmarks-migration.c:109
+#: ../propono/propono-bookmarks-migration.c:116
+msgid "Error while migrating bookmarks: Failed to initialize the XML structure"
+msgstr "Error ketika bermigrasi bookmark: Gagal untuk menginisialisasi struktur XML"
+
+#: ../propono/propono-bookmarks-migration.c:125
+msgid "Error while migrating bookmarks: Failed to finalize the XML structure"
+msgstr "Error ketika migrasi bookmark: Gagal untuk menyelesaikan struktur XML"
+
+#: ../propono/propono-bookmarks-migration.c:135
+#: ../propono/propono-bookmarks-migration.c:217
+#, c-format
+msgid "Error while migrating bookmarks: %s"
+msgstr "Error ketika migrasi bookmark: %s"
+
+#: ../propono/propono-bookmarks-migration.c:164
+msgid "Error while migrating bookmarks: VNC plugin is not activated"
+msgstr "Error ketika migrasi bookmark: plugin VNC tidak diaktifkan"
+
+#: ../propono/propono-bookmarks-migration.c:217
+msgid "Failed to create the directory"
+msgstr "Gagal membuat direktori"
+
+#: ../propono/propono-bookmarks-migration.c:241
+msgid "Migrating the bookmarks file to the new format. This operation is only supposed to run once."
+msgstr "Migrasi file bookmark ke format yang baru. Operasi ini seharusnya hanya satu kali."
+
+#: ../propono/propono-bookmarks-migration.c:249
+#, c-format
+msgid "Error opening old bookmarks file: %s"
+msgstr "Error membuka file lama bookmark: %s"
+
+#: ../propono/propono-bookmarks-migration.c:250
+#: ../propono/propono-bookmarks-migration.c:262
+msgid "Migration cancelled"
+msgstr "Migrasi dibatalkan"
+
+#: ../propono/propono-bookmarks-migration.c:259
+msgid "Could not remove the old bookmarks file"
+msgstr "Tidak dapat menghapus file bookmark lama"
+
+#: ../propono/propono-bookmarks-tree.c:120
+msgid "Root Folder"
+msgstr "Root Folder"
+
+#: ../propono/propono-bookmarks-ui.c:78
+msgid "Invalid name for this folder"
+msgstr "Nama tidak valid untuk folder ini"
+
+#: ../propono/propono-bookmarks-ui.c:88 ../propono/propono-bookmarks-ui.c:200
+#, c-format
+msgid "The name \"%s\" is already used in this folder. Please use a different name."
+msgstr "Nama \"%s\" sudah digunakan dalam folder ini. Silakan gunakan nama yang berbeda."
+
+#: ../propono/propono-bookmarks-ui.c:89 ../propono/propono-bookmarks-ui.c:190
+#: ../propono/propono-bookmarks-ui.c:201
+msgid "Invalid name for this item"
+msgstr "Nama tidak valid untuk item ini"
+
+#. Translators: %s is a protocol name, like VNC or SSH
+#: ../propono/propono-bookmarks-ui.c:168
+#, c-format
+msgid "(Protocol: %s)"
+msgstr "(Protokol: %s)"
+
+#. Translators: %s is a bookmark entry name
+#: ../propono/propono-bookmarks-ui.c:308
+#, c-format
+msgid "Are you sure you want to remove %s from bookmarks?"
+msgstr "Apakah Anda yakin ingin menghapus %s dari bookmark?"
+
+#: ../propono/propono-bookmarks-ui.c:314
+msgid "Remove Folder?"
+msgstr "Hapus Folder?"
+
+#: ../propono/propono-bookmarks-ui.c:315
+msgid "Notice that all its subfolders and items will be removed as well."
+msgstr "Perhatikan bahwa semua subfolder dan item akan dihapus juga."
+
+#: ../propono/propono-bookmarks-ui.c:320
+msgid "Remove Item?"
+msgstr "Hapus Item?"
+
+#: ../propono/propono-bookmarks-ui.c:337
+msgid "Error removing bookmark: Entry not found"
+msgstr "Kesalahan menghapus penunjuk: Entri tidak ditemukan"
+
+#: ../propono/propono-bookmarks-ui.c:354
+msgid "New Folder"
+msgstr "Folder Baru"
+
+#: ../propono/propono-cache-prefs.c:53
+#, c-format
+msgid "Error while saving preferences: %s"
+msgstr "Kesalahan saat menyimpan preferensi: %s"
+
+#: ../propono/propono-commands.c:121
+msgid "Choose the file"
+msgstr "Pilih berkas"
+
+#: ../propono/propono-commands.c:149
+msgid "There are no supported files"
+msgstr "Tidak ada berkas yang didukung"
+
+#: ../propono/propono-commands.c:150
+msgid "None of the active plugins support this action. Activate some plugins and try again."
+msgstr "Tidak plugin aktif yang mendukung aksi ini. Aktifkan beberapa plugin dan coba lagi."
+
+#: ../propono/propono-commands.c:184
+msgid "The following file could not be opened:"
+msgid_plural "The following files could not be opened:"
+msgstr[0] "Berkas berikut tidak dapat dibuka:"
+
+#: ../propono/propono-connect.c:87 ../propono/propono-connect.c:334
+#: ../propono/propono-connect.c:446
+msgid "Could not get the active protocol in the protocol list."
+msgstr "Tidak mendapatkan protokol aktif dalam daftar protokol."
+
+#: ../propono/propono-connect.c:315
+#, c-format
+msgid "Error while saving history file: %s"
+msgstr "Kesalahan saat menyimpan berkas histori: %s"
+
+#: ../propono/propono-connect.c:350
+msgid "Choose a Remote Desktop"
+msgstr "Pilih Remote Desktop"
+
+#: ../propono/propono-connection.c:630
+msgid "Could not open the file."
+msgstr "Tak dapat membuka file."
+
+#: ../propono/propono-connection.c:654
+msgid "The file was not recognized by any of the plugins."
+msgstr "File tidak dikenal oleh plugin."
+
+#: ../propono/propono-fav.c:567
+msgid "_New Folder"
+msgstr "Folder _Baru"
+
+#: ../propono/propono-fav.c:568
+msgid "Create a new folder"
+msgstr "Buat folder baru"
+
+#: ../propono/propono-fav.c:573
+msgid "_Open bookmark"
+msgstr "_Buka bookmark"
+
+#: ../propono/propono-fav.c:574
+msgid "Connect to this machine"
+msgstr "Terhubung ke mesin ini"
+
+#: ../propono/propono-fav.c:575
+msgid "_Edit bookmark"
+msgstr "_Sunting bookmark"
+
+#: ../propono/propono-fav.c:576
+msgid "Edit the details of selected bookmark"
+msgstr "Menpluma rincian bookmark dipilih"
+
+#: ../propono/propono-fav.c:577
+msgid "_Remove from bookmarks"
+msgstr "_Hapus dari bookmark"
+
+#: ../propono/propono-fav.c:578
+msgid "Remove current selected connection from bookmarks"
+msgstr "Hapus koneksi yang dipilih saat ini dari bookmark"
+
+#: ../propono/propono-fav.c:596 ../propono/propono-window.c:399
+#, c-format
+msgid "Could not merge UI XML file: %s"
+msgstr "Tidak dapat menggabungkan UI file XML: %s"
+
+#: ../propono/propono-fav.c:754
+msgid "Invalid operation"
+msgstr "Operasi tidak valid"
+
+#: ../propono/propono-fav.c:755
+msgid "Data received from drag&drop operation is invalid."
+msgstr "Data yang diterima dari operasi drag&drop tidak valid."
+
+#: ../propono/propono-fav.c:859
+msgid "Hide panel"
+msgstr "Sembunyikan panel"
+
+#: ../propono/propono-fav.c:1044
+msgid "Hosts nearby"
+msgstr "Host dekatnya"
+
+#. Translators: this is a command line option (run propono --help)
+#: ../propono/propono-main.c:64
+msgid "Open propono in fullscreen mode"
+msgstr "Buka propono di modus layar penuh"
+
+#. Translators: this is a command line option (run propono --help)
+#: ../propono/propono-main.c:68
+msgid "Create a new toplevel window in an existing instance of propono"
+msgstr "Membuat jendela baru di level atas contoh yang ada propono"
+
+#. Translators: this is a command line option (run propono --help)
+#: ../propono/propono-main.c:72
+msgid "Open a file recognized by propono"
+msgstr "Buka file yang dikenal oleh propono"
+
+#: ../propono/propono-main.c:72
+msgid "filename"
+msgstr "nama file"
+
+#. Translators: this is a command line option (run propono --help)
+#: ../propono/propono-main.c:77
+msgid "[server:port]"
+msgstr "[server:port]"
+
+#: ../propono/propono-main.c:132
+msgid "The following error has occurred:"
+msgid_plural "The following errors have occurred:"
+msgstr[0] "Kesalahan berikut muncul:"
+
+#. Setup command line options
+#: ../propono/propono-main.c:171
+msgid "- Remote Desktop Viewer"
+msgstr "- Remote Desktop Viewer"
+
+#: ../propono/propono-main.c:196
+msgid "Run 'propono --help' to see a full list of available command line options"
+msgstr "Jalankan 'propono --' untuk melihat daftar lengkap pilihan baris perintah yang tersedia"
+
+#: ../propono/propono-mdns.c:159
+#, c-format
+msgid "Failed to resolve avahi hostname: %s\n"
+msgstr "Gagal untuk mendapatkan nama host avahi: %s\n"
+
+#: ../propono/propono-mdns.c:217
+#, c-format
+msgid "Plugin %s has already registered a browser for service %s."
+msgstr "Plugin %s telah terdaftar browser untuk layanan %s."
+
+#: ../propono/propono-mdns.c:226
+#, c-format
+msgid "Failed to add mDNS browser for service %s."
+msgstr "Gagal menambahkan mDNS browser layanan untuk %s."
+
+#: ../propono/propono-mdns.c:242
+#, c-format
+msgid "Failed to browse for hosts: %s\n"
+msgstr "Gagal untuk mencari host: %s\n"
+
+#: ../propono/propono-mdns.c:315
+#, c-format
+msgid "Failed to initialize mDNS browser: %s\n"
+msgstr "Gagal untuk menginisialisasi mDNS browser: %s\n"
+
+#. Translators: %s is a host name or IP address.
+#: ../propono/propono-notebook.c:461
+#, c-format
+msgid "Connection to host %s was closed."
+msgstr "Koneksi ke host %s ditutup."
+
+#: ../propono/propono-notebook.c:463
+msgid "Connection closed"
+msgstr "Koneksi ditutup"
+
+#. Translators: %s is a host name or IP address.
+#: ../propono/propono-notebook.c:482
+#, c-format
+msgid "Authentication to host %s has failed"
+msgstr "Otentikasi untuk host %s telah gagal"
+
+#: ../propono/propono-notebook.c:488
+msgid "Authentication failed"
+msgstr "Otentikasi gagal"
+
+#: ../propono/propono-notebook.c:526
+msgid "Connecting..."
+msgstr "Menyambung ..."
+
+#: ../propono/propono-notebook.c:553 ../propono/propono-tab.c:325
+msgid "Close connection"
+msgstr "Akhiri sambungan"
+
+#: ../propono/propono-plugin-dialog.c:83
+msgid "Plugin Manager"
+msgstr "Manajer Plugin"
+
+#: ../propono/propono-plugin-manager.c:45
+msgid "Plugin"
+msgstr "Plugin"
+
+#: ../propono/propono-plugin-manager.c:46
+msgid "Enabled"
+msgstr "Aktifkan"
+
+#: ../propono/propono-plugin-manager.c:503
+msgid "C_onfigure"
+msgstr "K_onfigurasi"
+
+#: ../propono/propono-plugin-manager.c:512
+msgid "A_ctivate"
+msgstr "A_ktifkan"
+
+#: ../propono/propono-plugin-manager.c:523
+msgid "Ac_tivate All"
+msgstr "Ak_tifkan Semua"
+
+#: ../propono/propono-plugin-manager.c:528
+msgid "_Deactivate All"
+msgstr "_Deaktifasi Semua"
+
+#: ../propono/propono-plugin-manager.c:824
+msgid "_About Plugin"
+msgstr "_Tentang Plugin"
+
+#: ../propono/propono-plugin-manager.c:828
+msgid "C_onfigure Plugin"
+msgstr "K_onfigurasi Plugin"
+
+#: ../propono/propono-prefs.c:212
+msgid "Cannot initialize preferences manager."
+msgstr "Tidak dapat menginisialisasi manajer preferensi."
+
+#: ../propono/propono-ssh.c:106
+msgid "Timed out when logging into SSH host"
+msgstr "Timeout saat login ke host SSH"
+
+#: ../propono/propono-ssh.c:180
+msgid "Unable to spawn ssh program"
+msgstr "Tidak dapat melakukan spawn program ssh"
+
+#: ../propono/propono-ssh.c:197
+#, c-format
+msgid "Unable to spawn ssh program: %s"
+msgstr "Tidak dapat untuk spawn program ssh: %s"
+
+#: ../propono/propono-ssh.c:352
+msgid "Timed out when logging in"
+msgstr "Waktu habis saat ketika masuk"
+
+#: ../propono/propono-ssh.c:375 ../propono/propono-ssh.c:529
+#: ../propono/propono-ssh.c:612
+msgid "Permission denied"
+msgstr "Izin ditolak"
+
+#: ../propono/propono-ssh.c:440
+msgid "Password dialog canceled"
+msgstr "Dialog kata sandi dibatalkan"
+
+#: ../propono/propono-ssh.c:463
+msgid "Could not send password"
+msgstr "Tidak dapat mengirim kata sandi"
+
+#: ../propono/propono-ssh.c:471
+msgid "Log In Anyway"
+msgstr "Log In Anyway"
+
+#: ../propono/propono-ssh.c:471
+msgid "Cancel Login"
+msgstr "Login Batal"
+
+#: ../propono/propono-ssh.c:480
+#, c-format
+msgid ""
+"The identity of the remote computer (%s) is unknown.\n"
+"This happens when you log in to a computer the first time.\n"
+"\n"
+"The identity sent by the remote computer is %s. If you want to be absolutely sure it is safe to continue, contact the system administrator."
+msgstr ""
+"Identitas komputer remote (%s) tidak diketahui.\n"
+"Ini terjadi saat anda login ke komputer pertama kali.\n"
+"\n"
+"Identitas yang dikirim oleh komputer remote adalah %s. Jika Anda ingin benar-benar yakin aman untuk melanjutkan, hubungi administrator sistem."
+
+#: ../propono/propono-ssh.c:498
+msgid "Login dialog canceled"
+msgstr "Login dialog dibatalkan"
+
+#: ../propono/propono-ssh.c:519
+msgid "Can't send host identity confirmation"
+msgstr "Tidak dapat mengirim konfirmasi Identitas host"
+
+#: ../propono/propono-ssh.c:554 ../propono/propono-tab.c:732
+msgid "Error saving the credentials on the keyring."
+msgstr "Kesalahan saat menyimpan credentials pada keyring."
+
+#: ../propono/propono-ssh.c:619
+msgid "Hostname not known"
+msgstr "Hostname tidak diketahui"
+
+#: ../propono/propono-ssh.c:626
+msgid "No route to host"
+msgstr "rute Tidak untuk host"
+
+#: ../propono/propono-ssh.c:633
+msgid "Connection refused by server"
+msgstr "Koneksi ditolak oleh server"
+
+#: ../propono/propono-ssh.c:640
+msgid "Host key verification failed"
+msgstr "Host tombol gagal verifikasi"
+
+#: ../propono/propono-ssh.c:677
+msgid "Unable to find a valid SSH program"
+msgstr "Tidak dapat menemukan program SSH yang valid"
+
+#: ../propono/propono-tab.c:346
+msgid "Leave fullscreen"
+msgstr "Tinggalkan fullscreen"
+
+#: ../propono/propono-tab.c:497
+msgid "Error saving recent connection."
+msgstr "Kesalahan menyimpan koneksi sebelumnya"
+
+#: ../propono/propono-tab.c:818
+msgid "Could not get a screenshot of the connection."
+msgstr "Tidak bisa mendapatkan screenshot dari koneksi."
+
+#: ../propono/propono-tab.c:823
+msgid "Save Screenshot"
+msgstr "Simpan Screenshot"
+
+#: ../propono/propono-tab.c:834
+#, c-format
+msgid "Screenshot of %s"
+msgstr "Screenshot dari %s"
+
+#: ../propono/propono-tab.c:885
+msgid "Error saving screenshot"
+msgstr "Kesalahan saat menyimpan screenshot"
+
+#: ../propono/propono-tube-handler.c:229
+#, c-format
+msgid "Impossible to get service property: %s"
+msgstr "Mustahil untuk mendapatkan properti layanan: %s"
+
+#: ../propono/propono-tube-handler.c:286
+#, c-format
+msgid "Impossible to create the connection: %s"
+msgstr "Mustahil untuk membuat sambungan: %s"
+
+#: ../propono/propono-tube-handler.c:325
+#, c-format
+msgid "Impossible to accept the stream tube: %s"
+msgstr "Mustahil untuk menerima tabung stream: %s"
+
+#: ../propono/propono-tube-handler.c:463
+#, c-format
+msgid "Impossible to get the contact name: %s"
+msgstr "Mustahil untuk mendapatkan nama kontak: %s"
+
+#: ../propono/propono-tube-handler.c:498
+#, c-format
+msgid "Impossible to get the avatar: %s"
+msgstr "Mustahil untuk mendapatkan avatar: %s"
+
+#: ../propono/propono-tube-handler.c:519
+#, c-format
+msgid "%s wants to share their desktop with you."
+msgstr "%s ingin berbagi desktop mereka dengan Anda."
+
+#: ../propono/propono-tube-handler.c:524
+msgid "Desktop sharing invitation"
+msgstr "Desktop berbagi undangan"
+
+#. Toplevel
+#: ../propono/propono-ui.h:33
+msgid "_Machine"
+msgstr "_Mesin"
+
+#: ../propono/propono-ui.h:34
+msgid "_Edit"
+msgstr "_Sunting"
+
+#: ../propono/propono-ui.h:35
+msgid "_View"
+msgstr "_View"
+
+#: ../propono/propono-ui.h:36
+msgid "_Bookmarks"
+msgstr "_Bookmark"
+
+#: ../propono/propono-ui.h:41
+msgid "Connect to a remote machine"
+msgstr "Hubungkan ke mesin remote"
+
+#: ../propono/propono-ui.h:43
+msgid "Open a .VNC file"
+msgstr "Buka berkas .VNC"
+
+#: ../propono/propono-ui.h:45
+msgid "Quit the program"
+msgstr "Keluar dari program"
+
+#: ../propono/propono-ui.h:49
+msgid "Edit the application preferences"
+msgstr "Edit preferensi aplikasi"
+
+#: ../propono/propono-ui.h:50
+msgid "_Plugins"
+msgstr "_Plugin"
+
+#: ../propono/propono-ui.h:51
+msgid "Select plugins"
+msgstr "Pilih plugin"
+
+#. Help menu
+#: ../propono/propono-ui.h:54
+msgid "_Contents"
+msgstr "_Konten"
+
+#: ../propono/propono-ui.h:55
+msgid "Open the propono manual"
+msgstr "Buka manual propono"
+
+#: ../propono/propono-ui.h:57
+msgid "About this application"
+msgstr "Tentang aplikasi ini"
+
+#: ../propono/propono-ui.h:62
+msgid "_Toolbar"
+msgstr "_Toolbar"
+
+#: ../propono/propono-ui.h:63
+msgid "Show or hide the toolbar"
+msgstr "Menampilkan atau menyembunyikan toolbar"
+
+#: ../propono/propono-ui.h:66
+msgid "_Statusbar"
+msgstr "_Statusbar"
+
+#: ../propono/propono-ui.h:67
+msgid "Show or hide the statusbar"
+msgstr "Menampilkan atau menyembunyikan statusbar"
+
+#: ../propono/propono-ui.h:70
+msgid "Side _Panel"
+msgstr "_Panel sisi"
+
+#: ../propono/propono-ui.h:71
+msgid "Show or hide the side panel"
+msgstr "Menampilkan atau menyembunyikan panel sisi"
+
+#: ../propono/propono-ui.h:79
+msgid "Close the current connection"
+msgstr "Tutup sambungan saat ini"
+
+#: ../propono/propono-ui.h:80
+msgid "C_lose All"
+msgstr "T_utup Semua"
+
+#: ../propono/propono-ui.h:81
+msgid "Close all active connections"
+msgstr "Tutup semua koneksi aktif"
+
+#. Bookmarks menu
+#: ../propono/propono-ui.h:84
+msgid "_Add to bookmarks"
+msgstr "_Tambah untuk bookmark"
+
+#: ../propono/propono-ui.h:85
+msgid "Add current connection to your bookmarks"
+msgstr "Tambah sambungan aktif ke daftar bookmark Anda"
+
+#. Machine menu
+#: ../propono/propono-ui.h:92
+msgid "Take screenshot"
+msgstr "Ambil screenshot"
+
+#: ../propono/propono-ui.h:93
+msgid "Take a screenshot of active connection"
+msgstr "Ambil screenshot sambungan aktif"
+
+#: ../propono/propono-ui.h:97
+msgid "View the current machine in full screen"
+msgstr "Lihat mesin saat ini dalam layar penuh"
+
+#: ../propono/propono-utils.c:75
+msgid "An error has occurred:"
+msgstr "Sebuah kesalahan telah terjadi:"
+
+#: ../propono/propono-utils.c:175
+msgid "A plugin tried to open an UI file but did not succeed, with the error message:"
+msgstr "plugin A mencoba untuk membuka file UI tetapi tidak berhasil, dengan pesan kesalahan:"
+
+#: ../propono/propono-utils.c:177
+msgid "The program tried to open an UI file but did not succeed, with the error message:"
+msgstr "Program ini mencoba untuk membuka file UI tetapi tidak berhasil, dengan pesan kesalahan:"
+
+#: ../propono/propono-utils.c:180
+msgid "Please check your installation."
+msgstr "Harap periksa instalasi Anda."
+
+#: ../propono/propono-utils.c:181
+msgid "Error loading UI file"
+msgstr "Kesalahan memuat file UI"
+
+#: ../propono/propono-utils.c:492
+msgid "Propono is a remote desktop viewer for the MATE Desktop"
+msgstr "Propono adalah penampil remote desktop untuk Desktop MATE"
+
+#: ../propono/propono-utils.c:495
+msgid "Propono is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version."
+msgstr "Propono adalah perangkat lunak bebas; Anda dapat menyebarluaskannya dan/atau memodifikasinya di bawah GNU General Public License seperti yang diterbitkan oleh Free Software Foundation; baik versi 2 dari Lisensi, atau (dengan pilihan Anda) versi lain."
+
+#: ../propono/propono-utils.c:499
+msgid "Propono is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details."
+msgstr "Propono didistribusikan dengan harapan akan berguna, tetapi TANPA ADANYA JAMINAN; tanpa jaminan yang termasuk dari DAGANGAN atau KECOCOKAN UNTUK TUJUAN TERTENTU. Lihat Lisensi Publik Umum GNU untuk lebih jelasnya."
+
+#: ../propono/propono-utils.c:503
+msgid "You should have received a copy of the GNU General Public License along with this program. If not, see <http://www.gnu.org/licenses/>."
+msgstr "Anda seharusnya menerima salinan dari GNU General Public License bersama dengan program ini. Jika tidak, lihat <http://www.gnu.org/licenses/> ."
+
+#: ../propono/propono-utils.c:525
+msgid "translator-credits"
+msgstr "Nana Suryana <nana@suryana.or.id>, 2010."
+
+#: ../propono/propono-utils.c:528
+msgid "Propono Website"
+msgstr "Situs Propono"
+
+#. Translators: %s is a protocol, like VNC or SSH
+#: ../propono/propono-utils.c:653
+#, c-format
+msgid "%s authentication is required"
+msgstr "otentikasi %s diperlukan"
+
+#: ../propono/propono-window.c:428
+msgid "_Recent connections"
+msgstr "Koneksi _Sebelumnya"
+
+#. Translators: This is server:port, a statusbar tooltip when mouse is over a
+#. bookmark item on menu
+#: ../propono/propono-window.c:543
+#, c-format
+msgid "Open %s:%d"
+msgstr "Buka %s:%d"
+
+#: ../propono/propono-window.c:721
+msgid "About menu accelerators and keyboard shortcuts"
+msgstr "Tentang akselerator menu dan shortcut keyboard"
+
+#: ../propono/propono-window.c:723
+msgid ""
+"Propono comes with menu accelerators and keyboard shortcuts disabled by default. The reason is to avoid the keys to be intercepted by the program, and allow them to be sent to the remote machine.\n"
+"\n"
+"You can change this behavior through the preferences dialog. For more information, check the documentation.\n"
+"\n"
+"This message will appear only once."
+msgstr ""
+"Propono dilengkapi dengan akselerator Menu dan shortcut keyboard yg dinonaktifkan secara default. Alasannya adalah untuk menghindari tombol dicegat oleh program, dan memungkinkan untuk dikirim ke remote mesin.\n"
+"\n"
+"Anda dapat mengubah perilaku melalui dialog preferensi. Untuk informasi lebih lanjut, periksa dokumentasi \n."
+"\n"
+"Pesan ini akan muncul hanya sekali."
+
+#: ../propono/propono-window.c:731 ../propono/propono-window.c:737
+#, c-format
+msgid "Error while creating the file %s: %s"
+msgstr "Kesalahan saat membuat file %s: %s"

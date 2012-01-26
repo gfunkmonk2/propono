@@ -1,0 +1,1394 @@
+# Thai translation of propono.
+# Copyright (C) 2008-2010 Free Software Foundation, Inc.
+# This file is distributed under the same license as the propono package.
+# Theppitak Karoonboonyanan <thep@linux.thai.net>, 2008-2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: propono\n"
+"Report-Msgid-Bugs-To: http://bugzilla.mate.org/enter_bug.cgi?"
+"product=propono&component=general\n"
+"POT-Creation-Date: 2010-03-26 12:30+0000\n"
+"PO-Revision-Date: 2010-04-09 16:31+0700\n"
+"Last-Translator: Theppitak Karoonboonyanan <thep@linux.thai.net>\n"
+"Language-Team: Thai <thai-l10n@googlegroups.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../data/MATE_ProponoApplet.xml.h:1 ../propono/propono-plugin-manager.c:495
+msgid "_About"
+msgstr "เ_กี่ยวกับ"
+
+#: ../data/MATE_ProponoApplet.xml.h:2 ../propono/propono-ui.h:37
+msgid "_Help"
+msgstr "_วิธีใช้"
+
+#: ../data/propono.desktop.in.in.h:1 ../data/propono-file.desktop.in.in.h:1
+msgid "Access remote desktops"
+msgstr "เข้าใช้พื้นโต๊ะในเครื่องอื่น"
+
+#: ../data/propono.desktop.in.in.h:2 ../data/propono-file.desktop.in.in.h:2
+#: ../propono/MATE_ProponoApplet.server.in.in.h:2
+#: ../propono/propono-applet.c:434 ../propono/propono-applet.c:486
+#: ../propono/propono-main.c:200
+msgid "Remote Desktop Viewer"
+msgstr "เครื่องมือแสดงพื้นโต๊ะเครื่องอื่น"
+
+#: ../data/propono.ui.h:1
+msgid "Allow _keyboard shortcuts"
+msgstr "เปิดใช้ปุ่ม_ลัดแป้นพิมพ์"
+
+#: ../data/propono.ui.h:2
+msgid "Authentication is required"
+msgstr "ต้องการการยืนยันตัวบุคคล"
+
+#. setup label
+#: ../data/propono.ui.h:3 ../propono/propono-fav.c:851
+msgid "Bookmarks"
+msgstr "ที่คั่นหน้า"
+
+#: ../data/propono.ui.h:4
+msgid "Connection"
+msgstr "การเชื่อมต่อ"
+
+#: ../data/propono.ui.h:5
+msgid "Connection options"
+msgstr "ตัวเลือกของการเชื่อมต่อ"
+
+#: ../data/propono.ui.h:6
+msgid "Folder"
+msgstr "โฟลเดอร์"
+
+#: ../data/propono.ui.h:7 ../plugins/ssh/propono-ssh-tab.c:49
+#: ../plugins/vnc/propono-vnc-tab.c:148 ../propono/propono-fav.c:404
+msgid "Host:"
+msgstr "โฮสต์:"
+
+#: ../data/propono.ui.h:8
+msgid "Interface"
+msgstr "การติดต่อผู้ใช้"
+
+#: ../data/propono.ui.h:9
+msgid "Options"
+msgstr "ตัวเลือก"
+
+#: ../data/propono.ui.h:10
+msgid "Parent Folder"
+msgstr "โฟลเดอร์แม่"
+
+#: ../data/propono.ui.h:11
+msgid "Preferences"
+msgstr "ปรับแต่ง"
+
+#. This is a tooltip in preferences dialog
+#: ../data/propono.ui.h:13
+msgid ""
+"This option enables menu accelerators and keyboard shortcuts. For more info "
+"on why you may want to disable them, check the documentation."
+msgstr ""
+"ตัวเลือกนี้จะเปิดใช้คีย์ด่วนของเมนูและปุ่มลัดของแป้นพิมพ์ "
+"กรุณาตรวจสอบเอกสารวิธีใช้เพื่อดูข้อมูลเพิ่มเติมว่าทำไมคุณจึงอาจต้องการปิดตัวเลือกนี้"
+
+#: ../data/propono.ui.h:14
+msgid "Which machine do you want to connect to?"
+msgstr "คุณต้องการเชื่อมต่อไปยังเครื่องไหน?"
+
+#: ../data/propono.ui.h:15
+msgid "_Always show tabs"
+msgstr "แสดงแ_ท็บเสมอ"
+
+#. This is a button label, in the authentication dialog
+#: ../data/propono.ui.h:17
+msgid "_Authenticate"
+msgstr "ยืนยัน_ตัวบุคคล"
+
+#: ../data/propono.ui.h:18
+msgid "_Full screen"
+msgstr "เ_ต็มจอ"
+
+#: ../data/propono.ui.h:19
+msgid "_Host:"
+msgstr "_โฮสต์:"
+
+#: ../data/propono.ui.h:20
+msgid "_Name:"
+msgstr "_ชื่อ:"
+
+#: ../data/propono.ui.h:21
+msgid "_Password:"
+msgstr "_รหัสผ่าน:"
+
+#: ../data/propono.ui.h:22
+msgid "_Protocol:"
+msgstr "โ_พรโทคอล:"
+
+#: ../data/propono.ui.h:23
+msgid "_Remember this credential"
+msgstr "_จำรหัสลับนี้ไว้"
+
+#: ../data/propono.ui.h:24 ../plugins/ssh/propono-ssh-plugin.c:144
+msgid "_Username:"
+msgstr "_ชื่อผู้ใช้:"
+
+#: ../data/propono.schemas.in.in.h:1 ../propono/propono-plugin-manager.c:795
+msgid "Active plugins"
+msgstr "ปลั๊กอินที่เปิดใช้"
+
+#: ../data/propono.schemas.in.in.h:2
+msgid ""
+"List of active plugins. It contains the \"Location\" of the active plugins. "
+"See the .propono-plugin file for obtaining the \"Location\" of a given "
+"plugin."
+msgstr ""
+"รายชื่อของปลั๊กอินที่เปิดใช้ ในรูปของ \"ตำแหน่งเก็บ\" ของปลั๊กอินที่เปิดใช้ ดูที่แฟ้ม .propono-"
+"plugin เพื่อหา \"ตำแหน่งเก็บ\" ของปลั๊กอินที่ต้องการ"
+
+#: ../data/propono.schemas.in.in.h:3
+msgid "Maximum number of history items in connect dialog"
+msgstr "จำนวนประวัติสูงสุดในกล่องโต้ตอบเชื่อมต่อ"
+
+#: ../data/propono.schemas.in.in.h:4
+msgid ""
+"Set to \"false\" to disable menu shortcuts. Set to \"true\" to enable them. "
+"Note that if they are enabled, those keys will be intercepted by the menu "
+"and will not be sent to the remote host."
+msgstr ""
+"กำหนดเป็น \"false\" ถ้าต้องการปิดคีย์ด่วนของเมนู กำหนดเป็น \"true\" ถ้าต้องการเปิดใช้ "
+"สังเกตว่า ถ้าเปิดใช้ ปุ่มกดต่างๆ เหล่านี้จะถูกเมนูจับไปใช้ และไม่ส่งไปยังโฮสต์ปลายทาง"
+
+#: ../data/propono.schemas.in.in.h:5
+msgid ""
+"Set to \"true\" to always show the tabs. Set to \"false\" to only show the "
+"tabs when there is more than one active connection."
+msgstr ""
+"กำหนดเป็น \"true\" ถ้าต้องการแสดงแท็บเสมอ กำหนดเป็น \"false\" "
+"ถ้าต้องการแสดงแท็บเฉพาะเมื่อมีการเชื่อมต่อทำงานอยู่มากกว่าหนึ่งรายการเท่านั้น"
+
+#: ../data/propono.schemas.in.in.h:6
+msgid ""
+"Set to \"true\" to always start the program listening for reverse "
+"connections."
+msgstr "กำหนดเป็น \"true\" ถ้าต้องการเปิดโปรแกรมโดยรอรับการเชื่อมต่อย้อนทางเสมอ"
+
+#: ../data/propono.schemas.in.in.h:7
+msgid "Specifies the maximum number of items in the host dropdown entry."
+msgstr "ระบุจำนวนสูงสุดของประวัติที่จะเก็บในกล่องป้อนโฮสต์"
+
+#: ../data/propono.schemas.in.in.h:8
+msgid "The handler for \"vnc://\" URLs"
+msgstr "โปรแกรมจัดการสำหรับ URL \"vnc://\""
+
+#: ../data/propono.schemas.in.in.h:9
+msgid ""
+"When connecting to a host, the client can say to the server to leave other "
+"clients connected or to drop the existent connections. Set the value to true "
+"to share the desktop with the other clients."
+msgstr ""
+"เมื่อเชื่อมต่อกับโฮสต์ ลูกข่ายสามารถบอกเซิร์ฟเวอร์ให้ปล่อยให้ลูกข่ายอื่นเชื่อมต่อต่อไป "
+"หรือให้ตัดการเชื่อมต่อทั้งหมดที่มีอยู่ก็ได้ ถ้าต้องการใช้พื้นโต๊ะร่วมกับลูกข่ายอื่น ก็ให้กำหนดคีย์นี้เป็น true"
+
+#: ../data/propono.schemas.in.in.h:10
+msgid "Whether we should leave other clients connected"
+msgstr "จะปล่อยให้ลูกข่ายอื่นเชื่อมต่อต่อไปหรือไม่"
+
+#: ../data/propono.schemas.in.in.h:11
+msgid ""
+"Whether we should show tabs even when there is only one active connection"
+msgstr "จะแสดงแท็บแม้จะมีการเชื่อมต่อแค่รายการเดียวหรือไม่"
+
+#: ../data/propono.schemas.in.in.h:12
+msgid "Whether we should show the menu accelerators (shortcut keys)"
+msgstr "จะแสดงคีย์ด่วนสำหรับเลือกรายการในเมนูหรือไม่"
+
+#: ../data/propono.schemas.in.in.h:13
+msgid "Whether we should start the program listening for reverse connections"
+msgstr "จะเปิดโปรแกรมโดยรอรับการเชื่อมต่อย้อนทางหรือไม่"
+
+#: ../data/propono-mime.xml.in.h:1
+msgid "Remote Desktop (VNC) file"
+msgstr "แฟ้มพื้นโต๊ะระยะไกล (VNC)"
+
+#: ../data/propono-mime.xml.in.h:2
+msgid "Remote Desktop Connection"
+msgstr "การเชื่อมต่อพื้นโต๊ะระยะไกล"
+
+#. vim: set ts=8:
+#: ../plugins/ssh/propono-ssh-plugin.c:76
+#: ../plugins/ssh/ssh.propono-plugin.desktop.in.h:1
+msgid "SSH"
+msgstr "SSH"
+
+#. Translators: This is a description of the SSH protocol. It appears at Connect dialog.
+#: ../plugins/ssh/propono-ssh-plugin.c:78
+msgid "Access Unix/Linux terminals"
+msgstr "เข้าใช้เทอร์มินัลยูนิกซ์/ลินุกซ์"
+
+#: ../plugins/ssh/propono-ssh-plugin.c:132
+msgid "SSH Options"
+msgstr "ตัวเลือก SSH"
+
+#. Translators: This is the tooltip for the username field in a SSH connection
+#: ../plugins/ssh/propono-ssh-plugin.c:149
+msgid ""
+"Optional. If blank, your username will be used. Also, it can be supplied in "
+"the Machine field above, in the form username@hostname."
+msgstr ""
+"ระบุหรือไม่ก็ได้ ถ้าปล่อยว่างไว้ ก็จะใช้ชื่อผู้ใช้ของคุณ นอกจากนี้ คุณยังสามารถระบุผ่านช่อง \"เครื่อง"
+"\" ข้างต้นได้ ในรูป username@hostname"
+
+#: ../plugins/ssh/propono-ssh-tab.c:50 ../plugins/vnc/propono-vnc-tab.c:149
+msgid "Port:"
+msgstr "พอร์ต:"
+
+#: ../plugins/ssh/ssh.propono-plugin.desktop.in.h:2
+msgid "SSH support"
+msgstr "การรองรับ SSH"
+
+#. Translators: 'shared' here is a VNC protocol specific flag. You can translate it, but I think it's better to let it untranslated
+#: ../plugins/vnc/propono-vnc-connection.c:291
+#: ../plugins/vnc/propono-vnc-plugin.c:322
+#, c-format
+msgid ""
+"Bad value for 'shared' flag: %d. It is supposed to be 0 or 1. Ignoring it."
+msgstr "ค่าของแฟล็ก 'shared' ไม่ถูกต้อง: %d ค่านี้ควรจะเป็น 0 หรือ 1 ดังนั้นจะข้ามไป"
+
+#: ../plugins/vnc/propono-vnc-plugin.c:84
+msgid "_Reverse Connections..."
+msgstr "การเชื่อมต่อย้อ_นทาง..."
+
+#: ../plugins/vnc/propono-vnc-plugin.c:86
+msgid "Configure incoming VNC connections"
+msgstr "ตั้งค่าการเชื่อมต่อ VNC ขาเข้า"
+
+#. Translators: this is a command line option (run propono --help)
+#: ../plugins/vnc/propono-vnc-plugin.c:173
+msgid "Enable scaled mode"
+msgstr "เปิดใช้โหมดปรับขนาดภาพ"
+
+#. Translators: this is a command line option (run propono --help)
+#: ../plugins/vnc/propono-vnc-plugin.c:188
+msgid "VNC Options:"
+msgstr "ตัวเลือก VNC:"
+
+#. Translators: this is a command line option (run propono --help)
+#: ../plugins/vnc/propono-vnc-plugin.c:190
+msgid "Show VNC Options"
+msgstr "แสดงตัวเลือก VNC"
+
+#. vim: set ts=8:
+#: ../plugins/vnc/propono-vnc-plugin.c:212
+#: ../plugins/vnc/vnc.propono-plugin.desktop.in.h:1
+msgid "VNC"
+msgstr "VNC"
+
+#: ../plugins/vnc/propono-vnc-plugin.c:213
+msgid "Access Unix/Linux, Windows and other machines."
+msgstr "เข้าใช้ยูนิกซ์/ลินุกซ์, วินโดวส์ และเครื่องประเภทอื่นๆ"
+
+#: ../plugins/vnc/propono-vnc-plugin.c:270
+msgid "Could not parse the file."
+msgstr "ไม่สามารถแจงแฟ้มนี้"
+
+#: ../plugins/vnc/propono-vnc-plugin.c:277
+msgid "The file is not a VNC one: Missing the group \"connection\"."
+msgstr "แฟ้มนี้ไม่ใช่แฟ้ม VNC: ไม่มีกลุ่มข้อมูล \"connection\""
+
+#: ../plugins/vnc/propono-vnc-plugin.c:283
+msgid "The file is not a VNC one: Missing the key \"host\"."
+msgstr "แฟ้มนี้ไม่ใช่แฟ้ม VNC: ไม่มีคีย์ \"host\""
+
+#: ../plugins/vnc/propono-vnc-plugin.c:375
+msgid "VNC Options"
+msgstr "ตัวเลือก VNC"
+
+#. View only check button
+#: ../plugins/vnc/propono-vnc-plugin.c:388
+#: ../plugins/vnc/propono-vnc-tab.c:632
+msgid "_View only"
+msgstr "ดูอย่างเ_ดียว"
+
+#. Scaling check button
+#: ../plugins/vnc/propono-vnc-plugin.c:396
+msgid "_Scaling"
+msgstr "ปรับ_ขนาด"
+
+#: ../plugins/vnc/propono-vnc-plugin.c:412
+msgid "_Keep aspect ratio"
+msgstr "_รักษาสัดส่วนภาพ"
+
+#. JPEG Compression check button
+#: ../plugins/vnc/propono-vnc-plugin.c:422
+msgid "_Use JPEG Compression"
+msgstr "ใช้การ_บีบอัด JPEG"
+
+#: ../plugins/vnc/propono-vnc-plugin.c:423
+msgid "This might not work on all VNC servers"
+msgstr "ตัวเลือกนี้อาจไม่ได้ใช้ได้กับเซิร์ฟเวอร์ VNC ทั้งหมด"
+
+#: ../plugins/vnc/propono-vnc-plugin.c:432
+msgid "_Depth Color:"
+msgstr "จำนวนบิต_สี:"
+
+#: ../plugins/vnc/propono-vnc-plugin.c:437
+msgid "Use Server Settings"
+msgstr "ใช้ตามค่าตั้งเซิร์ฟเวอร์"
+
+#: ../plugins/vnc/propono-vnc-plugin.c:438
+msgid "True Color (24 bits)"
+msgstr "สีแท้ (24 บิต)"
+
+#: ../plugins/vnc/propono-vnc-plugin.c:439
+msgid "High Color (16 bits)"
+msgstr "ความละเอียดสีสูง (16 บิต)"
+
+#: ../plugins/vnc/propono-vnc-plugin.c:440
+msgid "Low Color (8 bits)"
+msgstr "ความละเอียดสีต่ำ (8 บิต)"
+
+#: ../plugins/vnc/propono-vnc-plugin.c:441
+msgid "Ultra Low Color (3 bits)"
+msgstr "ความละเอียดสีต่ำมาก (3 บิต)"
+
+#. Translators: the whole sentence will be: Use host <hostname> as a SSH tunnel
+#: ../plugins/vnc/propono-vnc-plugin.c:454
+msgid "Use h_ost"
+msgstr "ใช้_โฮสต์"
+
+#. Translators: This is the tooltip of the SSH tunneling entry
+#: ../plugins/vnc/propono-vnc-plugin.c:462
+msgid "hostname or user@hostname"
+msgstr "hostname หรือ user@hostname"
+
+#. Translators: the whole sentence will be: Use host <hostname> as a SSH tunnel
+#: ../plugins/vnc/propono-vnc-plugin.c:466
+msgid "as a SSH tunnel"
+msgstr "เป็นอุโมงค์ SSH"
+
+#. Translators: this is a pattern to open *.vnc files in a open dialog.
+#: ../plugins/vnc/propono-vnc-plugin.c:501
+msgid "VNC Files"
+msgstr "แฟ้ม VNC"
+
+#: ../plugins/vnc/propono-vnc-tab.c:147
+msgid "Desktop Name:"
+msgstr "ชื่อพื้นโต๊ะ:"
+
+#: ../plugins/vnc/propono-vnc-tab.c:150
+msgid "Dimensions:"
+msgstr "ขนาด:"
+
+#: ../plugins/vnc/propono-vnc-tab.c:304
+msgid "Error creating the SSH tunnel"
+msgstr "เกิดข้อผิดพลาดขณะสร้างอุโมงค์ SSH"
+
+#: ../plugins/vnc/propono-vnc-tab.c:305 ../plugins/vnc/propono-vnc-tab.c:316
+msgid "Unknown reason"
+msgstr "ไม่ทราบสาเหตุ"
+
+#: ../plugins/vnc/propono-vnc-tab.c:315
+msgid "Error connecting to host."
+msgstr "เกิดข้อผิดพลาดขณะเชื่อมต่อไปยังโฮสต์"
+
+#. Translators: %s is a host name or IP address; %u is a code error (number).
+#: ../plugins/vnc/propono-vnc-tab.c:360
+#, c-format
+msgid "Authentication method to host %s is unsupported. (%u)"
+msgstr "ไม่รองรับวิธีการยืนยันตัวบุคคลกับโฮสต์ %s (%u)"
+
+#: ../plugins/vnc/propono-vnc-tab.c:364
+msgid "Authentication unsupported"
+msgstr "ไม่รองรับการยืนยันตัวบุคคล"
+
+#: ../plugins/vnc/propono-vnc-tab.c:531 ../plugins/vnc/propono-vnc-tab.c:548
+msgid "Authentication error"
+msgstr "ข้อผิดพลาดในการยืนยันตัวบุคคล"
+
+#: ../plugins/vnc/propono-vnc-tab.c:532
+msgid "A username is required in order to access this machine."
+msgstr "ต้องกรอกชื่อผู้ใช้เพื่อจะเข้าใช้เครื่องนี้"
+
+#: ../plugins/vnc/propono-vnc-tab.c:549
+msgid "A password is required in order to access this machine."
+msgstr "ต้องกรอกรหัสผ่านเพื่อจะเข้าใช้เครื่องนี้"
+
+#: ../plugins/vnc/propono-vnc-tab.c:603
+msgid "S_caling"
+msgstr "ปรับ_ขนาด"
+
+#: ../plugins/vnc/propono-vnc-tab.c:604
+msgid "Fits the remote screen into the current window size"
+msgstr "ปรับขนาดหน้าจอของเครื่องปลายทางให้พอดีกับขนาดหน้าต่างปัจจุบัน"
+
+#: ../plugins/vnc/propono-vnc-tab.c:617
+msgid "_Keep Aspect Ratio"
+msgstr "_รักษาสัดส่วนภาพ"
+
+#: ../plugins/vnc/propono-vnc-tab.c:618
+msgid "Keeps the screen aspect ratio when using scaling"
+msgstr "รักษาสัดส่วนภาพเมื่อใช้การปรับขนาดภาพ"
+
+#: ../plugins/vnc/propono-vnc-tab.c:633
+msgid "Does not send mouse and keyboard events"
+msgstr "ไม่ต้องส่งเหตุการณ์ของเมาส์และแป้นพิมพ์"
+
+#: ../plugins/vnc/propono-vnc-tab.c:646
+msgid "_Original size"
+msgstr "ขนาด_ต้นฉบับ"
+
+#: ../plugins/vnc/propono-vnc-tab.c:647
+msgid "Adjusts the window to the remote desktop's size"
+msgstr "ปรับขนาดหน้าต่างให้ตรงกับขนาดของพื้นโต๊ะระยะไกลต้นฉบับ"
+
+#: ../plugins/vnc/propono-vnc-tab.c:660
+msgid "_Refresh Screen"
+msgstr "_ปรับแสดงหน้าจอ"
+
+#: ../plugins/vnc/propono-vnc-tab.c:661
+msgid "Requests an update of the screen"
+msgstr "ส่งคำขอปรับแสดงหน้าจอใหม่"
+
+#. Send Ctrl-alt-del
+#: ../plugins/vnc/propono-vnc-tab.c:683 ../plugins/vnc/propono-vnc-tab.c:755
+#: ../plugins/vnc/propono-vnc-tab.c:757
+msgid "Send Ctrl-Alt-Del"
+msgstr "ส่ง Ctrl-Alt-Del"
+
+#: ../plugins/vnc/propono-vnc-tab.c:684
+msgid "Sends Ctrl+Alt+Del to the remote machine"
+msgstr "ส่ง Ctrl+Alt+Del ไปยังเครื่องฝั่งโน้น"
+
+#: ../plugins/vnc/propono-vnc-tab.c:736 ../plugins/vnc/propono-vnc-tab.c:737
+msgid "Scaling"
+msgstr "ปรับขนาด"
+
+#: ../plugins/vnc/propono-vnc-tab.c:746 ../plugins/vnc/propono-vnc-tab.c:747
+msgid "Read only"
+msgstr "ดูอย่างเดียว"
+
+#: ../plugins/vnc/propono-vnc-tab.c:919
+msgid ""
+"Scaling is not supported on this installation.\n"
+"\n"
+"Read the README file (shipped with Propono) in order to know how to enable "
+"this feature."
+msgstr ""
+"ไม่รองรับการปรับขนาดในรุ่นที่ติดตั้งนี้\n"
+"\n"
+"กรุณาอ่านแฟ้ม README (ซึ่งมากับ Propono) เพื่อดูว่าจะเปิดใช้ความสามารถนี้อย่างไร"
+
+#: ../plugins/vnc/propono-vnc-tunnel.c:77
+#, c-format
+msgid "Unable to find a free TCP port"
+msgstr "หาพอร์ต TCP ที่ว่างอยู่ไม่พบ"
+
+#: ../plugins/vnc/vnc.propono-plugin.desktop.in.h:2
+msgid "VNC support"
+msgstr "การรองรับ VNC"
+
+#: ../plugins/vnc/propono-vnc-listener-dialog.c:90
+msgid "IPv4:"
+msgstr "IPv4:"
+
+#: ../plugins/vnc/propono-vnc-listener-dialog.c:102
+msgid ""
+"\n"
+"\n"
+"IPv6:"
+msgstr ""
+"\n"
+"\n"
+"IPv6:"
+
+#: ../plugins/vnc/propono-vnc-listener-dialog.c:161
+#, c-format
+msgid "On the port %d"
+msgstr "ที่พอร์ต %d"
+
+#: ../plugins/vnc/propono-vnc-listener.c:168
+msgid "Incoming VNC connection arrived but there is no active window"
+msgstr "มีการเชื่อมต่อ VNC เข้ามา แต่ไม่มีหน้าต่างทำงานอยู่"
+
+#. vim: set ts=8:
+#: ../plugins/vnc/vnc.ui.h:1
+msgid ""
+"By activating reverse connections you can access machines that are behind a "
+"firewall. The remote side is supposed to initiate the connection with you. "
+"For further information, checkout the help."
+msgstr ""
+"ด้วยการเปิดรับการเชื่อมต่อย้อนทาง คุณจะสามารถเข้าใช้เครื่องที่อยู่หลังไฟร์วอลล์ได้ "
+"โดยเครื่องฝั่งโน้นจะเป็นผู้ขอเชื่อมต่อกับคุณ กรุณาอ่านข้อมูลเพิ่มเติมได้จากคู่มือวิธีใช้"
+
+#: ../plugins/vnc/vnc.ui.h:2
+msgid "Connectivity"
+msgstr "การเชื่อมต่อ"
+
+#: ../plugins/vnc/vnc.ui.h:3
+msgid "Reverse Connections"
+msgstr "การเชื่อมต่อย้อนทาง"
+
+#: ../plugins/vnc/vnc.ui.h:4
+msgid "This machine is reachable through the following IP address(es):"
+msgstr "เครื่องนี้สามารถเข้าถึงได้ผ่านหมายเลขไอพีต่อไปนี้:"
+
+#: ../plugins/vnc/vnc.ui.h:5
+msgid "_Always Enabled"
+msgstr "เปิดใช้เ_สมอ"
+
+#: ../plugins/vnc/vnc.ui.h:6
+msgid "_Enable Reverse Connections"
+msgstr "_เปิดใช้การเชื่อมต่อย้อนทาง"
+
+#: ../propono/MATE_ProponoApplet.server.in.in.h:1
+msgid "A menu to quickly access remote machines"
+msgstr "เมนูสำหรับเข้าใช้เครื่องในเครือข่ายอย่างเร็ว"
+
+#: ../propono/MATE_ProponoApplet.server.in.in.h:3
+msgid "Propono Applet Factory"
+msgstr "โรงงานแอพเพล็ต Propono"
+
+#: ../propono/propono-applet.c:277 ../propono/propono-applet.c:360
+msgid "Could not run propono:"
+msgstr "ไม่สามารถเรียก propono ทำงาน:"
+
+#: ../propono/propono-applet.c:380
+msgid "Open Remote Desktop Viewer"
+msgstr "เปิดเครื่องมือแสดงพื้นโต๊ะเครื่องอื่น"
+
+#: ../propono/propono-applet.c:435
+msgid "Access your bookmarks"
+msgstr "เข้าใช้ที่คั่นหน้า"
+
+#: ../propono/propono-bookmarks.c:265 ../propono/propono-connection.c:522
+#: ../propono/propono-tab.c:535 ../propono/propono-tube-handler.c:253
+#, c-format
+msgid "The protocol %s is not supported."
+msgstr "ไม่รองรับโพรโทคอล %s"
+
+#: ../propono/propono-bookmarks.c:343
+#, c-format
+msgid "Error while initializing bookmarks: %s"
+msgstr "เกิดข้อผิดพลาดขณะกำหนดค่าตั้งต้นที่คั่นหน้า: %s"
+
+#: ../propono/propono-bookmarks.c:343 ../propono/propono-bookmarks.c:458
+#: ../propono/propono-bookmarks-migration.c:135
+#: ../propono/propono-cache-prefs.c:53 ../propono/propono-commands.c:173
+#: ../propono/propono-connect.c:482 ../propono/propono-fav.c:765
+#: ../propono/propono-main.c:101 ../propono/propono-main.c:120
+#: ../propono/propono-window.c:268 ../propono/propono-window.c:737
+msgid "Unknown error"
+msgstr "ข้อผิดพลาดไม่ทราบสาเหตุ"
+
+#: ../propono/propono-bookmarks.c:350
+msgid "Error while initializing bookmarks: The file seems to be empty"
+msgstr "เกิดข้อผิดพลาดขณะกำหนดค่าตั้งต้นที่คั่นหน้า: ดูเหมือนแฟ้มจะว่างเปล่า"
+
+#: ../propono/propono-bookmarks.c:357
+msgid ""
+"Error while initializing bookmarks: The file is not a propono bookmarks file"
+msgstr "เกิดข้อผิดพลาดขณะกำหนดค่าตั้งต้นที่คั่นหน้า: แฟ้มนี้ไม่ใช่แฟ้มที่คั่นหน้าของ propono"
+
+#: ../propono/propono-bookmarks.c:419 ../propono/propono-bookmarks.c:426
+msgid "Error while saving bookmarks: Failed to create the XML structure"
+msgstr "เกิดข้อผิดพลาดขณะบันทึกที่คั่นหน้า: สร้างโครงสร้าง XML ไม่สำเร็จ"
+
+#: ../propono/propono-bookmarks.c:433 ../propono/propono-bookmarks.c:440
+msgid "Error while saving bookmarks: Failed to initialize the XML structure"
+msgstr "เกิดข้อผิดพลาดขณะบันทึกที่คั่นหน้า: กำหนดค่าตั้งต้นของโครงสร้าง XML ไม่สำเร็จ"
+
+#: ../propono/propono-bookmarks.c:449
+msgid "Error while saving bookmarks: Failed to finalize the XML structure"
+msgstr "เกิดข้อผิดพลาดขณะบันทึกที่คั่นหน้า: เขียนข้อมูลปิดท้ายโครงสร้าง XML ไม่สำเร็จ"
+
+#: ../propono/propono-bookmarks.c:458
+#, c-format
+msgid "Error while saving bookmarks: %s"
+msgstr "เกิดข้อผิดพลาดขณะบันทึกที่คั่นหน้า: %s"
+
+#: ../propono/propono-bookmarks-migration.c:95
+#: ../propono/propono-bookmarks-migration.c:102
+msgid "Error while migrating bookmarks: Failed to create the XML structure"
+msgstr "เกิดข้อผิดพลาดขณะย้ายข้อมูลที่คั่นหน้า: สร้างโครงสร้าง XML ไม่สำเร็จ"
+
+#: ../propono/propono-bookmarks-migration.c:109
+#: ../propono/propono-bookmarks-migration.c:116
+msgid "Error while migrating bookmarks: Failed to initialize the XML structure"
+msgstr "เกิดข้อผิดพลาดขณะย้ายข้อมูลที่คั่นหน้า: กำหนดค่าตั้งต้นของโครงสร้าง XML ไม่สำเร็จ"
+
+#: ../propono/propono-bookmarks-migration.c:125
+msgid "Error while migrating bookmarks: Failed to finalize the XML structure"
+msgstr "เกิดข้อผิดพลาดขณะย้ายข้อมูลที่คั่นหน้า: เขียนข้อมูลปิดท้ายโครงสร้าง XML ไม่สำเร็จ"
+
+#: ../propono/propono-bookmarks-migration.c:135
+#: ../propono/propono-bookmarks-migration.c:217
+#, c-format
+msgid "Error while migrating bookmarks: %s"
+msgstr "เกิดข้อผิดพลาดขณะย้ายข้อมูลที่คั่นหน้า: %s"
+
+#: ../propono/propono-bookmarks-migration.c:164
+msgid "Error while migrating bookmarks: VNC plugin is not activated"
+msgstr "เกิดข้อผิดพลาดขณะย้ายข้อมูลที่คั่นหน้า: ไม่ได้เปิดใช้ปลั๊กอิน VNC"
+
+#: ../propono/propono-bookmarks-migration.c:217
+msgid "Failed to create the directory"
+msgstr "สร้างไดเรกทอรีไม่สำเร็จ"
+
+#: ../propono/propono-bookmarks-migration.c:241
+msgid ""
+"Migrating the bookmarks file to the new format. This operation is only "
+"supposed to run once."
+msgstr "กำลังย้ายข้อมูลแฟ้มที่คั่นหน้าไปเป็นฟอร์แมตใหม่ การกระทำนี้ควรเกิดขึ้นเพียงครั้งเดียวเท่านั้น"
+
+#: ../propono/propono-bookmarks-migration.c:249
+#, c-format
+msgid "Error opening old bookmarks file: %s"
+msgstr "เกิดข้อผิดพลาดขณะเปิดแฟ้มที่คั่นหน้าเก่า: %s"
+
+#: ../propono/propono-bookmarks-migration.c:250
+#: ../propono/propono-bookmarks-migration.c:262
+msgid "Migration cancelled"
+msgstr "ยกเลิกการย้ายข้อมูล"
+
+#: ../propono/propono-bookmarks-migration.c:259
+msgid "Could not remove the old bookmarks file"
+msgstr "ไม่สามารถลบแฟ้มที่คั่นหน้าเก่า"
+
+#: ../propono/propono-bookmarks-tree.c:120
+msgid "Root Folder"
+msgstr "โฟลเดอร์บนสุด"
+
+#: ../propono/propono-bookmarks-ui.c:78
+msgid "Invalid name for this folder"
+msgstr "ชื่อโฟลเดอร์ผิดพลาด"
+
+#: ../propono/propono-bookmarks-ui.c:88 ../propono/propono-bookmarks-ui.c:200
+#, c-format
+msgid ""
+"The name \"%s\" is already used in this folder. Please use a different name."
+msgstr "ชื่อ \"%s\" ถูกใช้ไปแล้วในโฟลเดอร์นี้ กรุณาใช้ชื่ออื่น"
+
+#: ../propono/propono-bookmarks-ui.c:89 ../propono/propono-bookmarks-ui.c:190
+#: ../propono/propono-bookmarks-ui.c:201
+msgid "Invalid name for this item"
+msgstr "ชื่อรายการผิดพลาด"
+
+#. Translators: %s is a protocol name, like VNC or SSH
+#: ../propono/propono-bookmarks-ui.c:168
+#, c-format
+msgid "(Protocol: %s)"
+msgstr "(โพรโทคอล: %s)"
+
+#. Translators: %s is a bookmark entry name
+#: ../propono/propono-bookmarks-ui.c:308
+#, c-format
+msgid "Are you sure you want to remove %s from bookmarks?"
+msgstr "ยืนยันที่จะลบ %s ออกจากรายการที่คั่นหน้าหรือไม่?"
+
+#: ../propono/propono-bookmarks-ui.c:314
+msgid "Remove Folder?"
+msgstr "จะลบโฟลเดอร์หรือไม่?"
+
+#: ../propono/propono-bookmarks-ui.c:315
+msgid "Notice that all its subfolders and items will be removed as well."
+msgstr "สังเกตว่าโฟลเดอร์ย่อยและรายการทั้งหมดจะถูกลบไปด้วย"
+
+#: ../propono/propono-bookmarks-ui.c:320
+msgid "Remove Item?"
+msgstr "จะลบรายการหรือไม่?"
+
+#: ../propono/propono-bookmarks-ui.c:337
+msgid "Error removing bookmark: Entry not found"
+msgstr "เกิดข้อผิดพลาดขณะลบที่คั่นหน้า: ไม่พบรายการนี้"
+
+#: ../propono/propono-bookmarks-ui.c:354
+msgid "New Folder"
+msgstr "โฟลเดอร์ใหม่"
+
+#: ../propono/propono-cache-prefs.c:53
+#, c-format
+msgid "Error while saving preferences: %s"
+msgstr "เกิดข้อผิดพลาดขณะบันทึกค่าปรับแต่ง: %s"
+
+#: ../propono/propono-commands.c:121
+msgid "Choose the file"
+msgstr "เลือกแฟ้ม"
+
+#: ../propono/propono-commands.c:149
+msgid "There are no supported files"
+msgstr "ไม่มีแฟ้มที่รองรับ"
+
+#: ../propono/propono-commands.c:150
+msgid ""
+"None of the active plugins support this action. Activate some plugins and "
+"try again."
+msgstr ""
+"ในบรรดาปลั๊กอินที่เปิดใช้ ไม่มีปลั๊กอินใดรองรับการกระทำนี้เลย กรุณาเปิดใช้ปลั๊กอินบางตัวแล้วลองใหม่"
+
+#: ../propono/propono-commands.c:184
+msgid "The following file could not be opened:"
+msgid_plural "The following files could not be opened:"
+msgstr[0] "ไม่สามารถเปิดแฟ้มต่อไปนี้:"
+
+#: ../propono/propono-connect.c:87 ../propono/propono-connect.c:334
+#: ../propono/propono-connect.c:446
+msgid "Could not get the active protocol in the protocol list."
+msgstr "ไม่สามารถอ่านโพรโทคอลที่เปิดใช้จากรายชื่อโพรโทคอล"
+
+#: ../propono/propono-connect.c:315
+#, c-format
+msgid "Error while saving history file: %s"
+msgstr "เกิดข้อผิดพลาดขณะบันทึกแฟ้มประวัติ: %s"
+
+#: ../propono/propono-connect.c:350
+msgid "Choose a Remote Desktop"
+msgstr "เลือกพื้นโต๊ะเครื่องอื่น"
+
+#: ../propono/propono-connection.c:630
+msgid "Could not open the file."
+msgstr "ไม่สามารถเปิดแฟ้มนี้"
+
+#: ../propono/propono-connection.c:654
+msgid "The file was not recognized by any of the plugins."
+msgstr "ไม่มีปลั๊กอินใดรู้จักแฟ้มนี้เลย"
+
+#: ../propono/propono-fav.c:567
+msgid "_New Folder"
+msgstr "โฟลเดอร์ใ_หม่"
+
+#: ../propono/propono-fav.c:568
+msgid "Create a new folder"
+msgstr "สร้างโฟลเดอร์ใหม่"
+
+#: ../propono/propono-fav.c:573
+msgid "_Open bookmark"
+msgstr "_เปิดที่คั่นหน้า"
+
+#: ../propono/propono-fav.c:574
+msgid "Connect to this machine"
+msgstr "เชื่อมต่อไปยังเครื่องนี้"
+
+#: ../propono/propono-fav.c:575
+msgid "_Edit bookmark"
+msgstr "แ_ก้ไขที่คั่นหน้า"
+
+#: ../propono/propono-fav.c:576
+msgid "Edit the details of selected bookmark"
+msgstr "แก้ไขรายละเอียดของที่คั่นหน้าที่เลือก"
+
+#: ../propono/propono-fav.c:577
+msgid "_Remove from bookmarks"
+msgstr "_ลบออกจากรายการที่คั่นหน้า"
+
+#: ../propono/propono-fav.c:578
+msgid "Remove current selected connection from bookmarks"
+msgstr "ลบการเชื่อมต่อที่เลือกออกจากรายการที่คั่นหน้า"
+
+#: ../propono/propono-fav.c:596 ../propono/propono-window.c:399
+#, c-format
+msgid "Could not merge UI XML file: %s"
+msgstr "ไม่สามารถผสานแฟ้ม XML ส่วนติดต่อผู้ใช้: %s"
+
+#: ../propono/propono-fav.c:754
+msgid "Invalid operation"
+msgstr "การกระทำใช้ไม่ได้"
+
+#: ../propono/propono-fav.c:755
+msgid "Data received from drag&drop operation is invalid."
+msgstr "ข้อมูลที่ได้รับจากการลาก-วางใช้ไม่ได้"
+
+#: ../propono/propono-fav.c:859
+msgid "Hide panel"
+msgstr "ซ่อนแถบข้าง"
+
+#: ../propono/propono-fav.c:1044
+msgid "Hosts nearby"
+msgstr "โฮสต์ที่อยู่ใกล้"
+
+#. Translators: this is a command line option (run propono --help)
+#: ../propono/propono-main.c:63
+msgid "Open propono in fullscreen mode"
+msgstr "เปิด propono ในโหมดเต็มจอ"
+
+#. Translators: this is a command line option (run propono --help)
+#: ../propono/propono-main.c:67
+msgid "Create a new toplevel window in an existing instance of propono"
+msgstr "เปิดหน้าต่างใหม่โดยอาศัยโพรเซสของ propono ที่มีอยู่"
+
+#. Translators: this is a command line option (run propono --help)
+#: ../propono/propono-main.c:71
+msgid "Open a file recognized by propono"
+msgstr "เปิดแฟ้มที่ propono รู้จัก"
+
+#: ../propono/propono-main.c:71
+msgid "filename"
+msgstr "ชื่อแฟ้ม"
+
+#. Translators: this is a command line option (run propono --help)
+#: ../propono/propono-main.c:76
+msgid "[server:port]"
+msgstr "[เซิร์ฟเวอร์:พอร์ต]"
+
+#: ../propono/propono-main.c:131
+msgid "The following error has occurred:"
+msgid_plural "The following errors have occurred:"
+msgstr[0] "เกิดข้อผิดพลาดต่อไปนี้:"
+
+#. Setup command line options
+#: ../propono/propono-main.c:170
+msgid "- Remote Desktop Viewer"
+msgstr "- เครื่องมือแสดงพื้นโต๊ะเครื่องอื่น"
+
+#: ../propono/propono-main.c:195
+msgid ""
+"Run 'propono --help' to see a full list of available command line options"
+msgstr "เรียก 'propono --help' เพื่อดูรายการเต็มของตัวเลือกสำหรับบรรทัดคำสั่ง"
+
+#: ../propono/propono-mdns.c:159
+#, c-format
+msgid "Failed to resolve avahi hostname: %s\n"
+msgstr "ไม่สามารถเปิดหาที่อยู่ของชื่อโฮสต์ avahi: %s\n"
+
+#: ../propono/propono-mdns.c:217
+#, c-format
+msgid "Plugin %s has already registered a browser for service %s."
+msgstr "ปลั๊กอิน %s ได้ลงทะเบียนเบราว์เซอร์สำหรับบริการ %s ไว้แล้ว"
+
+#: ../propono/propono-mdns.c:226
+#, c-format
+msgid "Failed to add mDNS browser for service %s."
+msgstr "ไม่สามารถเพิ่มเบราว์เซอร์ mDNS สำหรับบริการ %s"
+
+#: ../propono/propono-mdns.c:242
+#, c-format
+msgid "Failed to browse for hosts: %s\n"
+msgstr "ไม่สามารถเรียกดูโฮสต์: %s\n"
+
+#: ../propono/propono-mdns.c:315
+#, c-format
+msgid "Failed to initialize mDNS browser: %s\n"
+msgstr "ไม่สามารถตั้งต้นเบราว์เซอร์ mDNS: %s\n"
+
+#. Translators: %s is a host name or IP address.
+#: ../propono/propono-notebook.c:461
+#, c-format
+msgid "Connection to host %s was closed."
+msgstr "การเชื่อมต่อไปยังโฮสต์ %s ถูกปิด"
+
+#: ../propono/propono-notebook.c:463
+msgid "Connection closed"
+msgstr "การเชื่อมต่อถูกปิด"
+
+#. Translators: %s is a host name or IP address.
+#: ../propono/propono-notebook.c:482
+#, c-format
+msgid "Authentication to host %s has failed"
+msgstr "การยืนยันตัวบุคคลกับโฮสต์ %s ไม่ผ่าน"
+
+#: ../propono/propono-notebook.c:488
+msgid "Authentication failed"
+msgstr "การยืนยันตัวบุคคลไม่ผ่าน"
+
+#: ../propono/propono-notebook.c:526
+msgid "Connecting..."
+msgstr "กำลังเชื่อมต่อ..."
+
+#: ../propono/propono-notebook.c:553 ../propono/propono-tab.c:325
+msgid "Close connection"
+msgstr "ปิดการเชื่อมต่อ"
+
+#: ../propono/propono-plugin-dialog.c:83
+msgid "Plugin Manager"
+msgstr "เครื่องมือจัดการปลั๊กอิน"
+
+#: ../propono/propono-plugin-manager.c:45
+msgid "Plugin"
+msgstr "ปลั๊กอิน"
+
+#: ../propono/propono-plugin-manager.c:46
+msgid "Enabled"
+msgstr "เปิดใช้"
+
+#: ../propono/propono-plugin-manager.c:503
+msgid "C_onfigure"
+msgstr "_ตั้งค่า"
+
+#: ../propono/propono-plugin-manager.c:512
+msgid "A_ctivate"
+msgstr "_เปิดใช้งาน"
+
+#: ../propono/propono-plugin-manager.c:523
+msgid "Ac_tivate All"
+msgstr "เปิดใช้งาน_ทั้งหมด"
+
+#: ../propono/propono-plugin-manager.c:528
+msgid "_Deactivate All"
+msgstr "ปิ_ดใช้ทั้งหมด"
+
+#: ../propono/propono-plugin-manager.c:824
+msgid "_About Plugin"
+msgstr "เ_กี่ยวกับปลั๊กอิน"
+
+#: ../propono/propono-plugin-manager.c:828
+msgid "C_onfigure Plugin"
+msgstr "_ตั้งค่าปลั๊กอิน"
+
+#: ../propono/propono-prefs.c:212
+msgid "Cannot initialize preferences manager."
+msgstr "ไม่สามารถตั้งต้นเครื่องมือจัดการค่าปรับแต่ง"
+
+#: ../propono/propono-ssh.c:106
+msgid "Timed out when logging into SSH host"
+msgstr "หมดเวลาคอยขณะเข้าระบบสู่โฮสต์ SSH"
+
+#: ../propono/propono-ssh.c:180
+msgid "Unable to spawn ssh program"
+msgstr "ไม่สามารถ swawn โปรแกรม ssh"
+
+#: ../propono/propono-ssh.c:197
+#, c-format
+msgid "Unable to spawn ssh program: %s"
+msgstr "ไม่สามารถ swawn โปรแกรม ssh: %s"
+
+#: ../propono/propono-ssh.c:352
+msgid "Timed out when logging in"
+msgstr "หมดเวลาขณะเข้าระบบ"
+
+#: ../propono/propono-ssh.c:375 ../propono/propono-ssh.c:529
+#: ../propono/propono-ssh.c:612
+msgid "Permission denied"
+msgstr "ไม่ได้รับอนุญาต"
+
+#: ../propono/propono-ssh.c:440
+msgid "Password dialog canceled"
+msgstr "กล่องโต้ตอบรับรหัสผ่านถูกยกเลิก"
+
+#: ../propono/propono-ssh.c:463
+msgid "Could not send password"
+msgstr "ไม่สามารถส่งรหัสผ่าน"
+
+#: ../propono/propono-ssh.c:471
+msgid "Log In Anyway"
+msgstr "เข้าระบบต่อไป"
+
+#: ../propono/propono-ssh.c:471
+msgid "Cancel Login"
+msgstr "ยกเลิกการเข้าระบบ"
+
+#: ../propono/propono-ssh.c:480
+#, c-format
+msgid ""
+"The identity of the remote computer (%s) is unknown.\n"
+"This happens when you log in to a computer the first time.\n"
+"\n"
+"The identity sent by the remote computer is %s. If you want to be absolutely "
+"sure it is safe to continue, contact the system administrator."
+msgstr ""
+"ไม่รู้จักเอกลักษณ์ของคอมพิวเตอร์ (%s) ในเครือข่าย\n"
+"เหตุการณ์นี้จะเกิดเมื่อคุณเข้าระบบไปยังคอมพิวเตอร์อื่นเป็นครั้งแรก\n"
+"\n"
+"ข้อความบอกเอกลักษณ์ที่เครื่องฝั่งโน้นส่งมาคือ %s  ถ้าคุณต้องการมั่นใจว่าปลอดภัยที่จะดำเนินการต่อ "
+"กรุณาติดต่อผู้ดูแลระบบ"
+
+#: ../propono/propono-ssh.c:498
+msgid "Login dialog canceled"
+msgstr "กล่องโต้ตอบเข้าระบบถูกยกเลิก"
+
+#: ../propono/propono-ssh.c:519
+msgid "Can't send host identity confirmation"
+msgstr "ไม่สามารถส่งคำยืนยันเอกลักษณ์โฮสต์"
+
+#: ../propono/propono-ssh.c:554 ../propono/propono-tab.c:732
+msgid "Error saving the credentials on the keyring."
+msgstr "เกิดข้อผิดพลาดขณะบันทึกรหัสลับลงในพวงกุญแจ"
+
+#: ../propono/propono-ssh.c:619
+msgid "Hostname not known"
+msgstr "ไม่รู้จักชื่อโฮสต์"
+
+#: ../propono/propono-ssh.c:626
+msgid "No route to host"
+msgstr "ไม่มีเส้นทางไปยังโฮสต์"
+
+#: ../propono/propono-ssh.c:633
+msgid "Connection refused by server"
+msgstr "เซิร์ฟเวอร์ปฏิเสธการเชื่อมต่อ"
+
+#: ../propono/propono-ssh.c:640
+msgid "Host key verification failed"
+msgstr "การตรวจสอบกุญแจสำหรับโฮสต์ไม่ผ่าน"
+
+#: ../propono/propono-ssh.c:676
+msgid "Unable to find a valid SSH program"
+msgstr "ไม่พบโปรแกรม SSH ที่ใช้การได้"
+
+#: ../propono/propono-tab.c:346
+msgid "Leave fullscreen"
+msgstr "เลิกแสดงเต็มจอ"
+
+#: ../propono/propono-tab.c:497
+msgid "Error saving recent connection."
+msgstr "เกิดข้อผิดพลาดขณะบันทึกการเชื่อมต่อล่าสุด"
+
+#: ../propono/propono-tab.c:818
+msgid "Could not get a screenshot of the connection."
+msgstr "ไม่สามารถจับภาพหน้าจอของการเชื่อมต่อ"
+
+#: ../propono/propono-tab.c:823
+msgid "Save Screenshot"
+msgstr "จับภาพหน้าจอ"
+
+#: ../propono/propono-tab.c:834
+#, c-format
+msgid "Screenshot of %s"
+msgstr "ภาพหน้าจอของ %s"
+
+#: ../propono/propono-tab.c:885
+msgid "Error saving screenshot"
+msgstr "เกิดข้อผิดพลาดขณะบันทึกภาพหน้าจอ"
+
+#: ../propono/propono-tube-handler.c:229
+#, c-format
+msgid "Impossible to get service property: %s"
+msgstr "ไม่สามารถอ่านค่าคุณสมบัติของบริการ: %s"
+
+#: ../propono/propono-tube-handler.c:286
+#, c-format
+msgid "Impossible to create the connection: %s"
+msgstr "ไม่สามารถสร้างการเชื่อมต่อ: %s"
+
+#: ../propono/propono-tube-handler.c:325
+#, c-format
+msgid "Impossible to accept the stream tube: %s"
+msgstr "ไม่สามารถตอบรับท่อสตรีม: %s"
+
+#: ../propono/propono-tube-handler.c:463
+#, c-format
+msgid "Impossible to get the contact name: %s"
+msgstr "ไม่สามารถอ่านชื่อผู้ติดต่อ: %s"
+
+#: ../propono/propono-tube-handler.c:498
+#, c-format
+msgid "Impossible to get the avatar: %s"
+msgstr "ไม่สามารถอ่านรูปแทนตัว: %s"
+
+#: ../propono/propono-tube-handler.c:519
+#, c-format
+msgid "%s wants to share their desktop with you."
+msgstr "%s ต้องการแบ่งปันพื้นโต๊ะให้คุณใช้ร่วม"
+
+#: ../propono/propono-tube-handler.c:524
+msgid "Desktop sharing invitation"
+msgstr "คำเชิญเพื่อแบ่งปันพื้นโต๊ะ"
+
+#. Toplevel
+#: ../propono/propono-ui.h:33
+msgid "_Machine"
+msgstr "เ_ครื่อง"
+
+#: ../propono/propono-ui.h:34
+msgid "_Edit"
+msgstr "แ_ก้ไข"
+
+#: ../propono/propono-ui.h:35
+msgid "_View"
+msgstr "มุ_มมอง"
+
+#: ../propono/propono-ui.h:36
+msgid "_Bookmarks"
+msgstr "_ที่คั่นหน้า"
+
+#: ../propono/propono-ui.h:41
+msgid "Connect to a remote machine"
+msgstr "เชื่อมต่อไปยังเครื่องในเครือข่าย"
+
+#: ../propono/propono-ui.h:43
+msgid "Open a .VNC file"
+msgstr "เปิดแฟ้ม .VNC"
+
+#: ../propono/propono-ui.h:45
+msgid "Quit the program"
+msgstr "ออกจากโปรแกรม"
+
+#: ../propono/propono-ui.h:49
+msgid "Edit the application preferences"
+msgstr "แก้ไขค่าปรับแต่งของโปรแกรม"
+
+#: ../propono/propono-ui.h:50
+msgid "_Plugins"
+msgstr "_ปลั๊กอิน"
+
+#: ../propono/propono-ui.h:51
+msgid "Select plugins"
+msgstr "เลือกปลั๊กอิน"
+
+#. Help menu
+#: ../propono/propono-ui.h:54
+msgid "_Contents"
+msgstr "เนื้อ_หา"
+
+#: ../propono/propono-ui.h:55
+msgid "Open the propono manual"
+msgstr "เปิดคู่มือ propono"
+
+#: ../propono/propono-ui.h:57
+msgid "About this application"
+msgstr "เกี่ยวกับโปรแกรมนี้"
+
+#: ../propono/propono-ui.h:62
+msgid "_Toolbar"
+msgstr "แถบเ_ครื่องมือ"
+
+#: ../propono/propono-ui.h:63
+msgid "Show or hide the toolbar"
+msgstr "ซ่อนหรือแสดงแถบเครื่องมือ"
+
+#: ../propono/propono-ui.h:66
+msgid "_Statusbar"
+msgstr "แถบ_สถานะ"
+
+#: ../propono/propono-ui.h:67
+msgid "Show or hide the statusbar"
+msgstr "ซ่อนหรือแสดงแถบสถานะ"
+
+#: ../propono/propono-ui.h:70
+msgid "Side _Panel"
+msgstr "แถบ_ข้าง"
+
+#: ../propono/propono-ui.h:71
+msgid "Show or hide the side panel"
+msgstr "ซ่อนหรือแสดงแถบข้าง"
+
+#: ../propono/propono-ui.h:79
+msgid "Close the current connection"
+msgstr "ปิดการเชื่อมต่อปัจจุบัน"
+
+#: ../propono/propono-ui.h:80
+msgid "C_lose All"
+msgstr "ปิดทั้ง_หมด"
+
+#: ../propono/propono-ui.h:81
+msgid "Close all active connections"
+msgstr "ปิดการเชื่อมต่อทั้งหมดที่เปิดอยู่"
+
+#. Bookmarks menu
+#: ../propono/propono-ui.h:84
+msgid "_Add to bookmarks"
+msgstr "เ_พิ่มในที่คั่นหน้า"
+
+#: ../propono/propono-ui.h:85
+msgid "Add current connection to your bookmarks"
+msgstr "เพิ่มการเชื่อมต่อปัจจุบันเข้าในรายการที่คั่นหน้า"
+
+#. Machine menu
+#: ../propono/propono-ui.h:92
+msgid "Take screenshot"
+msgstr "จับภาพหน้าจอ"
+
+#: ../propono/propono-ui.h:93
+msgid "Take a screenshot of active connection"
+msgstr "จับภาพหน้าจอของการเชื่อมต่อที่เปิดอยู่"
+
+#: ../propono/propono-ui.h:97
+msgid "View the current machine in full screen"
+msgstr "แสดงเครื่องปัจจุบันแบบเต็มจอ"
+
+#: ../propono/propono-utils.c:75
+msgid "An error has occurred:"
+msgstr "เกิดข้อผิดพลาด:"
+
+#: ../propono/propono-utils.c:175
+msgid ""
+"A plugin tried to open an UI file but did not succeed, with the error "
+"message:"
+msgstr "มีปลั๊กอินพยายามเปิดแฟ้ม UI แต่ไม่สำเร็จ โดยมีข้อความข้อผิดพลาดคือ:"
+
+#: ../propono/propono-utils.c:177
+msgid ""
+"The program tried to open an UI file but did not succeed, with the error "
+"message:"
+msgstr "โปรแกรมพยายามเปิดแฟ้ม UI แต่ไม่สำเร็จ โดยมีข้อความข้อผิดพลาดคือ:"
+
+#: ../propono/propono-utils.c:180
+msgid "Please check your installation."
+msgstr "กรุณาตรวจสอบการติดตั้งโปรแกรมของคุณ"
+
+#: ../propono/propono-utils.c:181
+msgid "Error loading UI file"
+msgstr "เกิดข้อผิดพลาดขณะโหลดแฟ้ม UI"
+
+#: ../propono/propono-utils.c:492
+msgid "Propono is a remote desktop viewer for the MATE Desktop"
+msgstr "Propono คือเครื่องมือแสดงพื้นโต๊ะเครื่องอื่นสำหรับเดสก์ท็อป MATE"
+
+#: ../propono/propono-utils.c:495
+msgid ""
+"Propono is free software; you can redistribute it and/or modify it under the "
+"terms of the GNU General Public License as published by the Free Software "
+"Foundation; either version 2 of the License, or (at your option) any later "
+"version."
+msgstr ""
+"Propono เป็นซอฟต์แวร์เสรี คุณสามารถแจกจ่ายต่อ และ/หรือ แก้ไขโปรแกรมได้ ภายใต้เงื่อนไขของ "
+"GNU General Public License ที่เผยแพร่โดยมูลนิธิซอฟต์แวร์เสรี ไม่ว่าจะเป็นสัญญาอนุญาตรุ่นที่ 2 "
+"หรือรุ่นถัดมา (ตามแต่คุณจะเลือก)"
+
+#: ../propono/propono-utils.c:499
+msgid ""
+"Propono is distributed in the hope that it will be useful, but WITHOUT ANY "
+"WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS "
+"FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more "
+"details."
+msgstr ""
+"Propono เผยแพร่ด้วยความหวังว่าโปรแกรมจะมีประโยชน์ แต่ *ไม่มีการรับประกันใดๆ* "
+"ไม่มีแม้การรับประกัน *อรรถประโยชน์เชิงพาณิชย์* หรือ "
+"*ความเหมาะสมสำหรับวัตถุประสงค์เฉพาะกิจใดๆ* กรุณาอ่าน GNU General Public License "
+"เพื่อดูรายละเอียดเพิ่มเติม"
+
+#: ../propono/propono-utils.c:503
+msgid ""
+"You should have received a copy of the GNU General Public License along with "
+"this program. If not, see <http://www.gnu.org/licenses/>."
+msgstr ""
+"คุณควรจะได้รับสำเนาของ GNU General Public License มาพร้อมกับโปรแกรมนี้ ถ้าคุณไม่ได้รับ "
+"กรุณาดูที่ <http://www.gnu.org/licenses/>"
+
+#: ../propono/propono-utils.c:525
+msgid "translator-credits"
+msgstr ""
+"เทพพิทักษ์ การุญบุญญานันท์ <thep@linux.thai.net>\n"
+"\n"
+"ถ้ามีเวลาโปรดมาช่วยกันแปล :-)\n"
+"http://mate-th.sourceforge.net"
+
+#: ../propono/propono-utils.c:528
+msgid "Propono Website"
+msgstr "เว็บไซต์ Propono"
+
+#. Translators: %s is a protocol, like VNC or SSH
+#: ../propono/propono-utils.c:660
+#, c-format
+msgid "%s authentication is required"
+msgstr "ต้องการการยืนยันตัวบุคคลสำหรับ %s"
+
+#: ../propono/propono-window.c:428
+msgid "_Recent connections"
+msgstr "การเชื่อมต่อ_ล่าสุด"
+
+#. Translators: This is server:port, a statusbar tooltip when mouse is over a bookmark item on menu
+#: ../propono/propono-window.c:543
+#, c-format
+msgid "Open %s:%d"
+msgstr "เปิด %s:%d"
+
+#: ../propono/propono-window.c:721
+msgid "About menu accelerators and keyboard shortcuts"
+msgstr "เกี่ยวกับคีย์ด่วนเมนูและปุ่มลัดแป้นพิมพ์"
+
+#: ../propono/propono-window.c:723
+msgid ""
+"Propono comes with menu accelerators and keyboard shortcuts disabled by "
+"default. The reason is to avoid the keys to be intercepted by the program, "
+"and allow them to be sent to the remote machine.\n"
+"\n"
+"You can change this behavior through the preferences dialog. For more "
+"information, check the documentation.\n"
+"\n"
+"This message will appear only once."
+msgstr ""
+"Propono จะปิดการใช้คีย์ด่วนเมนูและปุ่มลัดแป้นพิมพ์โดยปริยาย เหตุผลคือเพื่อเลี่ยงไม่ให้ปุ่มดังกล่าวถูก "
+"Propono เองดักไปใช้ และให้ส่งต่อไปยังเครื่องปลายทาง\n"
+"\n"
+"คุณสามารถเปลี่ยนพฤติกรรมนี้ได้ผ่านกล่องโต้ตอบปรับแต่ง กรุณาอ่านข้อมูลเพิ่มเติมจากเอกสารวิธีใช้\n"
+"\n"
+"ข้อความนี้จะปรากฏเพียงครั้งเดียวเท่านั้น"
+
+#: ../propono/propono-window.c:731 ../propono/propono-window.c:737
+#, c-format
+msgid "Error while creating the file %s: %s"
+msgstr "เกิดข้อผิดพลาดขณะสร้างแฟ้ม %s: %s"
+
+#~ msgid "<b>Connection</b>"
+#~ msgstr "<b>การเชื่อมต่อ</b>"
+
+#~ msgid "<b>Folder</b>"
+#~ msgstr "<b>โฟลเดอร์</b>"
+
+#~ msgid "<i><small>All fields above are mandatory</small></i>"
+#~ msgstr "<i><small>ต้องกรอกข้อมูลในช่องข้างบนให้ครบทั้งหมด</small></i>"
+
+#~ msgid "host or host:display or host::port"
+#~ msgstr "โฮสต์ หรือ โฮสต์:ดิสเพลย์ หรือ โฮสต์::พอร์ต"
+
+#~ msgid "Supported formats"
+#~ msgstr "รูปแบบที่รองรับ"
+
+#~ msgid "Choose a VNC Server"
+#~ msgstr "เลือกเซิร์ฟเวอร์ VNC"
+
+#~ msgid "Could not find the host address in the file."
+#~ msgstr "ไม่พบที่อยู่โฮสต์ในแฟ้ม"
+
+#~ msgid "Opens a .vnc file"
+#~ msgstr "เปิดแฟ้ม .vnc"
+
+#~ msgid "- VNC Client for MATE"
+#~ msgstr "- ลูกข่าย VNC สำหรับ MATE"
+
+#~ msgid "Minimize window"
+#~ msgstr "ย่อเก็บหน้าต่าง"
+
+#~ msgid "_Read only"
+#~ msgstr "ดูอย่างเ_ดียว"
+
+#~ msgid "Press Ctrl+Alt to release the cursor"
+#~ msgstr "กด Ctrl+Alt เพื่อปล่อยเคอร์เซอร์"
+
+#~ msgid "<b>Editing a bookmark</b>"
+#~ msgstr "<b>การแก้ไขที่คั่นหน้า</b>"
+
+#~ msgid "<b>Enter a name for this connection</b>"
+#~ msgstr "<b>ตั้งชื่อการเชื่อมต่อนี้</b>"
+
+#~ msgid ""
+#~ "<b>In order to connect on this machine, a password is required. Please "
+#~ "supply it.</b>"
+#~ msgstr "<b>การเชื่อมต่อไปยังเครื่องนี้ ต้องใช้รหัสผ่าน กรุณาป้อนรหัสผ่าน</b>"
+
+#~ msgid "Editing a bookmark"
+#~ msgstr "การแก้ไขที่คั่นหน้า"
+
+#~ msgid "Saving to bookmarks"
+#~ msgstr "การบันทึกที่คั่นหน้า"
+
+#~ msgid "_Bookmark name:"
+#~ msgstr "_ชื่อที่คั่นหน้า:"
+
+#~ msgid "Error: %s"
+#~ msgstr "ข้อผิดพลาด: %s"
+
+#~ msgid "Confirm removal?"
+#~ msgstr "ยืนยันที่จะลบหรือไม่?"
+
+#~ msgid "Error while removing %s from bookmarks: %s"
+#~ msgstr "เกิดข้อผิดพลาดขณะลบ %s ออกจากรายการที่คั่นหน้า: %s"
+
+#~ msgid ""
+#~ "Scaling does not work properly on composited windows. Disable the visual "
+#~ "effects and try again."
+#~ msgstr ""
+#~ "การปรับขนาดจะทำงานผิดปกติในหน้าต่างที่ใช้ composite กรุณาปิดเอฟเฟ็กต์หน้าต่างแล้วลองใหม่"
+
+#~ msgid "Image"
+#~ msgstr "รูป"
+
+#~ msgid "Name"
+#~ msgstr "ชื่อ"
+
+#~ msgid "Hide bookmarks"
+#~ msgstr "ซ่อนที่คั่นหน้า"
+
+#~ msgid "Expected `%s' got `%s' for key %s"
+#~ msgstr "ต้องการ `%s' แต่ได้รับ `%s' สำหรับคีย์ %s"
+
+#~ msgid "Press Ctrl+Alt to grab the cursor"
+#~ msgstr "กด Ctrl+Alt เพื่อจับยึดเคอร์เซอร์"

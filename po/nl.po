@@ -1,0 +1,881 @@
+# Dutch translation of Propono
+#
+# This file is distributed under the same license as the Propono package.
+#
+# Reinout van Schouwen <reinouts@mate.org>, 2007.
+# Tino Meinen <a.t.meinen@chello.nl>, 2008.
+# Vincent van Adrighem <adrighem@mate.org>, 2008.
+# Wouter Bolsterlee <wbolster@mate.org>, 2008–2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Propono\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-03-31 14:24+0200\n"
+"PO-Revision-Date: 2009-03-31 14:24+0200\n"
+"Last-Translator: Wouter Bolsterlee <wbolster@mate.org>\n"
+"Language-Team: Dutch <vertaling@vrijschrift.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../data/MATE_ProponoApplet.xml.h:1
+msgid "_About"
+msgstr "_Info"
+
+#: ../data/MATE_ProponoApplet.xml.h:2 ../src/propono-ui.h:37
+msgid "_Help"
+msgstr "_Hulp"
+
+#: ../data/propono.desktop.in.in.h:1 ../data/propono-file.desktop.in.in.h:1
+msgid "Access remote desktops"
+msgstr "Toegang tot werkplekken op afstand"
+
+#: ../data/propono.desktop.in.in.h:2 ../data/propono-file.desktop.in.in.h:2
+#: ../src/MATE_ProponoApplet.server.in.in.h:2 ../src/propono-applet.c:418
+#: ../src/propono-applet.c:473 ../src/propono-main.c:151
+msgid "Remote Desktop Viewer"
+msgstr "Werkplek op afstand"
+
+#: ../data/propono.glade.h:1
+msgid "<b>Authentication is required</b>"
+msgstr "<b>Aanmelden is vereist</b>"
+
+#: ../data/propono.glade.h:2
+msgid "<b>Connection options</b>"
+msgstr "<b>Verbindingsopties</b>"
+
+#: ../data/propono.glade.h:3
+msgid "<b>Connection</b>"
+msgstr "<b>Verbinding</b>"
+
+#: ../data/propono.glade.h:4
+msgid "<b>Folder</b>"
+msgstr "<b>Map</b>"
+
+#: ../data/propono.glade.h:5
+msgid "<b>Interface</b>"
+msgstr "<b>Interface</b>"
+
+#: ../data/propono.glade.h:6
+msgid "<b>Options</b>"
+msgstr "<b>Opties</b>"
+
+#: ../data/propono.glade.h:7
+msgid "<b>Parent Folder</b>"
+msgstr "<b>Oudermap</b>"
+
+#: ../data/propono.glade.h:8
+msgid "<b>Which machine do you want to connect to?</b>"
+msgstr "<b>Met welke machine wilt u verbinding maken?</b>"
+
+#: ../data/propono.glade.h:9
+msgid "<i><small>All fields above are mandatory</small></i>"
+msgstr "<i><small>Alle bovenstaande velden zijn verplicht.</small></i>"
+
+#: ../data/propono.glade.h:10 ../src/propono-fav.c:846
+msgid "Bookmarks"
+msgstr "Bladwijzers"
+
+#: ../data/propono.glade.h:11 ../src/propono-fav.c:422
+#: ../src/propono-tab.c:1062
+msgid "Host:"
+msgstr "Host:"
+
+#: ../data/propono.glade.h:12
+msgid "Preferences"
+msgstr "Voorkeuren"
+
+# 'we' niet vertalen!
+#: ../data/propono.glade.h:13 ../data/propono.schemas.in.h:8
+msgid ""
+"Whether we should show tabs even when there is only one active connection"
+msgstr ""
+"Of tabs ook getoond moeten worden als er maar één actieve verbinding is"
+
+# 'we' niet vertalen!
+# Of de verbinding met andere clients/clienten intact moet blijven<
+#: ../data/propono.glade.h:14 ../data/propono.schemas.in.h:9
+msgid "Whether we should show the menu accelerators (shortcut keys)"
+msgstr "Of menusneltoetsen zichtbaar zijn"
+
+#: ../data/propono.glade.h:15
+msgid "_Always show tabs"
+msgstr "_Altijd tabs tonen"
+
+#. This is a button label, in the authentication dialog
+#: ../data/propono.glade.h:17
+msgid "_Authenticate"
+msgstr "_Aanmelden"
+
+#: ../data/propono.glade.h:18
+msgid "_Full screen"
+msgstr "_Volledig scherm"
+
+#: ../data/propono.glade.h:19
+msgid "_Host:"
+msgstr "_Host:"
+
+#: ../data/propono.glade.h:20
+msgid "_Name:"
+msgstr "_Naam:"
+
+#: ../data/propono.glade.h:21
+msgid "_Password:"
+msgstr "_Wachtwoord:"
+
+#: ../data/propono.glade.h:22
+msgid "_Remember this credential"
+msgstr "Dit wachtwoord _onthouden"
+
+#: ../data/propono.glade.h:23
+msgid "_Scaling"
+msgstr "S_chalen"
+
+#: ../data/propono.glade.h:24
+msgid "_Show menu shortcuts"
+msgstr "Menu_sneltoetsen tonen"
+
+#: ../data/propono.glade.h:25
+msgid "_Username:"
+msgstr "_Gebruikersnaam:"
+
+#: ../data/propono.glade.h:26
+msgid "_View only"
+msgstr "_Alleen bekijken"
+
+#. Tooltip for host entry in connect dialog
+#: ../data/propono.glade.h:28
+msgid "host or host:display or host::port"
+msgstr "computer, computer:schermnummer of computer::poort"
+
+#: ../data/propono.schemas.in.h:1
+msgid "Maximum number of history items in connect dialog"
+msgstr "Maximum aantal geschiedenisitems bij verbinden"
+
+#: ../data/propono.schemas.in.h:2
+msgid ""
+"Set to \"false\" to disable menu shortcuts. Set to \"true\" to enable them. "
+"Note that if they are enabled, those keys will be intercepted by the menu "
+"and will not be sent to the remote host."
+msgstr ""
+"Instellen op \"Onwaar\" om menusneltoetsen uit te schakelen. Instellen op "
+"\"Waar\" om deze in te schakelen. Let op: Indien ingeschakeld zullen deze "
+"toetsen dus afgevangen worden en niet doorgestuurd worden naar de andere "
+"computer."
+
+# Grammatica fout:
+# http://bugzilla.mate.org/show_bug.cgi?id=533048
+#: ../data/propono.schemas.in.h:3
+msgid ""
+"Set to \"true\" to always show the tabs. Set to \"false\" to only show the "
+"tabs when there is more than one active connection."
+msgstr ""
+"Instellen op \"Waar\" om altijd tabs te tonen. Instellen op \"Onwaar\" om "
+"alleen tabs te tonen bij twee of meer verbindingen."
+
+#: ../data/propono.schemas.in.h:4
+msgid "Specifies the maximum number of items in the host dropdown entry."
+msgstr ""
+"Bepaalt het maximum aantal items in de uitklaplijst van het invoerveld."
+
+# De toepassing voor ‘vnc://’-adressen<
+#: ../data/propono.schemas.in.h:5
+msgid "The handler for \"vnc://\" URLs"
+msgstr "De toepassing voor het openen van \"vnc://\"-adressen"
+
+#: ../data/propono.schemas.in.h:6
+msgid ""
+"When connecting to a host, the client can say to the server to leave other "
+"clients connected or to drop the existent connections. Set the value to true "
+"to share the desktop with the other clients."
+msgstr ""
+"Bij het verbinding maken met een host kan de cliënt de server instrueren de "
+"verbinding met andere cliënten intact te laten of de verbinding met de "
+"anderen te verbreken. Instellen op Waar om het bureaublad te delen met "
+"andere cliënten."
+
+# 'we' niet vertalen!
+# Of de verbinding met andere clients/clienten intact moet blijven<
+#: ../data/propono.schemas.in.h:7
+msgid "Whether we should leave other clients connected"
+msgstr "Of de andere cliënten verbonden moeten blijven"
+
+#: ../data/propono-mime.xml.in.h:1
+msgid "Remote Desktop (VNC) file"
+msgstr "Werkblad op afstand (VNC)-bestand"
+
+#: ../data/propono-mime.xml.in.h:2
+msgid "Remote Desktop Connection"
+msgstr "Verbinding met werkblad op afstand"
+
+#: ../src/MATE_ProponoApplet.server.in.in.h:1
+msgid "A menu to quickly access remote machines"
+msgstr "Een menu om snel te verbinden met andere computers"
+
+#: ../src/MATE_ProponoApplet.server.in.in.h:3
+msgid "Propono Applet Factory"
+msgstr "Propono appletfabriek"
+
+#: ../src/propono-applet.c:271 ../src/propono-applet.c:349
+msgid "Could not run propono:"
+msgstr "Kan propono niet starten:"
+
+#: ../src/propono-applet.c:369
+msgid "Open Remote Desktop Viewer"
+msgstr "Werkplek op afstand starten"
+
+#: ../src/propono-applet.c:419
+msgid "Access your bookmarks"
+msgstr "Bladwijzers openen"
+
+#: ../src/propono-bookmarks.c:344
+#, c-format
+msgid "Error while initializing bookmarks: %s"
+msgstr "Fout tijdens het initialiseren van bladwijzers: %s"
+
+#: ../src/propono-bookmarks.c:344 ../src/propono-bookmarks.c:459
+#: ../src/propono-bookmarks-migration.c:133 ../src/propono-commands.c:145
+#: ../src/propono-connect.c:277 ../src/propono-fav.c:678
+#: ../src/propono-main.c:85 ../src/propono-main.c:104
+#: ../src/propono-window.c:279
+msgid "Unknown error"
+msgstr "Onbekende fout"
+
+#: ../src/propono-bookmarks.c:351
+msgid "Error while initializing bookmarks: The file seems to be empty"
+msgstr ""
+"Fout tijdens het initialiseren van bladwijzers: het bestand lijkt leegt te "
+"zijn."
+
+#: ../src/propono-bookmarks.c:358
+msgid ""
+"Error while initializing bookmarks: The file is not a propono bookmarks file"
+msgstr ""
+"Fout tijdens het initialiseren van bladwijzers: het bestand is geen propono-"
+"bladwijzerbestand"
+
+#: ../src/propono-bookmarks.c:420 ../src/propono-bookmarks.c:427
+msgid "Error while saving bookmarks: Failed to create the XML structure"
+msgstr ""
+"Fout bij het opslaan van bladwijzers: kon de XML-structuur niet aanmaken"
+
+#: ../src/propono-bookmarks.c:434 ../src/propono-bookmarks.c:441
+msgid "Error while saving bookmarks: Failed to initialize the XML structure"
+msgstr ""
+"Fout bij het opslaan van bladwijzers: kon de XML-structuur niet initialiseren"
+
+#: ../src/propono-bookmarks.c:450
+msgid "Error while saving bookmarks: Failed to finalize the XML structure"
+msgstr ""
+"Fout bij het opslaan van bladwijzers: kon de XML-structuur niet afronden"
+
+#: ../src/propono-bookmarks.c:459
+#, c-format
+msgid "Error while saving bookmarks: %s"
+msgstr "Fout bij het opslaan van bladwijzers: %s"
+
+#: ../src/propono-bookmarks-migration.c:93
+#: ../src/propono-bookmarks-migration.c:100
+msgid "Error while migrating bookmarks: Failed to create the XML structure"
+msgstr "Fout bij migreren van bladwijzers: kon de XML-structuur niet aanmaken"
+
+#: ../src/propono-bookmarks-migration.c:107
+#: ../src/propono-bookmarks-migration.c:114
+msgid "Error while migrating bookmarks: Failed to initialize the XML structure"
+msgstr ""
+"Fout bij migreren van bladwijzers: kon de XML-structuur niet initialiseren"
+
+#: ../src/propono-bookmarks-migration.c:123
+msgid "Error while migrating bookmarks: Failed to finalize the XML structure"
+msgstr "Fout bij migreren van bladwijzers: kon de XML-structuur niet afronden"
+
+#: ../src/propono-bookmarks-migration.c:133
+#: ../src/propono-bookmarks-migration.c:231
+#, c-format
+msgid "Error while migrating bookmarks: %s"
+msgstr "Fout bij het migreren van bladwijzers: %s"
+
+#: ../src/propono-bookmarks-migration.c:231
+msgid "Failed to create the directory"
+msgstr "Kon map niet aanmaken"
+
+#: ../src/propono-bookmarks-migration.c:255
+msgid ""
+"Migrating the bookmarks file to the new format. This operation is only "
+"supposed to run once."
+msgstr ""
+"Migreren van het bladwijzerbestand naar het nieuwe bestandsformaat. Dit "
+"gebeurt eenmalig."
+
+#: ../src/propono-bookmarks-migration.c:263
+#, c-format
+msgid "Error opening old bookmarks file: %s"
+msgstr "Fout bij het openen van het oude bladwijzerbestand: %s"
+
+#: ../src/propono-bookmarks-migration.c:264
+#: ../src/propono-bookmarks-migration.c:276
+msgid "Migration cancelled"
+msgstr "Migratie geannuleerd"
+
+#: ../src/propono-bookmarks-migration.c:273
+msgid "Could not remove the old bookmarks file"
+msgstr "Kon het oude bladwijzerbestand niet verwijderen"
+
+#: ../src/propono-bookmarks-tree.c:120
+msgid "Root Folder"
+msgstr "Hoofdmap"
+
+#: ../src/propono-bookmarks-ui.c:79
+msgid "Invalid name for this folder"
+msgstr "Ongeldige naam voor deze map"
+
+#: ../src/propono-bookmarks-ui.c:89 ../src/propono-bookmarks-ui.c:191
+#, c-format
+msgid ""
+"The name \"%s\" is already used in this folder. Please use a different name."
+msgstr "De naam ‘%s’ is al ingebruik in deze map. Gebruik een andere naam."
+
+#: ../src/propono-bookmarks-ui.c:90 ../src/propono-bookmarks-ui.c:181
+#: ../src/propono-bookmarks-ui.c:192
+msgid "Invalid name for this item"
+msgstr "Ongeldige naam voor dit item"
+
+#: ../src/propono-bookmarks-ui.c:292
+#, c-format
+msgid "Are you sure you want to remove <i>%s</i> from bookmarks?"
+msgstr "Weet u zeker dat u <i>%s</i> wilt verwijderen uit de bladwijzers?"
+
+#: ../src/propono-bookmarks-ui.c:297
+msgid "Remove Folder?"
+msgstr "Map verwijderen?"
+
+#: ../src/propono-bookmarks-ui.c:298
+msgid "Notice that all its subfolders and items will be removed as well."
+msgstr "Ook alle onderliggende mappen en items zullen verwijderd worden."
+
+#: ../src/propono-bookmarks-ui.c:303
+msgid "Remove Item?"
+msgstr "Item verwijderen?"
+
+#: ../src/propono-bookmarks-ui.c:320
+msgid "Error removing bookmark: Entry not found"
+msgstr "Fout bij het verwijderen van de bladwijzer: niet gevonden"
+
+#: ../src/propono-bookmarks-ui.c:337
+msgid "New Folder"
+msgstr "Nieuwe map"
+
+#: ../src/propono-commands.c:113
+msgid "Choose the file"
+msgstr "Kies het bestand"
+
+#: ../src/propono-commands.c:124 ../src/propono-tab.c:1152
+msgid "Supported formats"
+msgstr "Ondersteunde formaten"
+
+#: ../src/propono-commands.c:156
+msgid "The following file could not be opened:"
+msgid_plural "The following files could not be opened:"
+msgstr[0] "Het volgende bestand kon niet worden geopend:"
+msgstr[1] "De volgende bestanden konden niet worden geopend:"
+
+#: ../src/propono-connect.c:181
+#, c-format
+msgid "Error while saving history file: %s"
+msgstr "Fout bij het opslaan van geschiedenis: %s"
+
+#: ../src/propono-connect.c:193
+msgid "Choose a VNC Server"
+msgstr "VNC-server kiezen"
+
+#: ../src/propono-connection.c:601
+#, c-format
+msgid "The protocol %s is not supported."
+msgstr "Protocol ‘%s’ is niet ondersteund."
+
+#: ../src/propono-connection.c:708
+msgid "Could not open the file."
+msgstr "Kon het bestand niet openen."
+
+#: ../src/propono-connection.c:727
+msgid "Could not parse the file."
+msgstr "Kon het bestand niet verwerken."
+
+#: ../src/propono-connection.c:772
+#, c-format
+msgid ""
+"Bad value for 'shared' flag: %d. It is supposed to be 0 or 1. Ignoring it."
+msgstr ""
+"Ongeldige waarde voor ‘shared’-vlag: %d. Deze zou 0 of 1 moeten zijn. Waarde "
+"wordt genegeerd."
+
+#: ../src/propono-connection.c:778
+msgid "Could not find the host address in the file."
+msgstr "Kon het host-adres niet in het bestand vinden"
+
+#: ../src/propono-fav.c:667
+msgid "Invalid operation"
+msgstr "Ongeldige bewerking"
+
+#: ../src/propono-fav.c:668
+msgid "Data received from drag&drop operation is invalid."
+msgstr "Ongeldige gegevens ontvangen bij slepen en neerzetten."
+
+#: ../src/propono-fav.c:861
+msgid "Hosts nearby"
+msgstr "Hosts in de omgeving"
+
+#: ../src/propono-main.c:53
+msgid "Opens a .vnc file"
+msgstr "Opent een .vnc-bestand"
+
+#: ../src/propono-main.c:53
+msgid "filename"
+msgstr "bestandsnaam"
+
+# ugh, bestaande instantie
+#: ../src/propono-main.c:56
+msgid "Create a new toplevel window in an existing instance of propono"
+msgstr "Een nieuw toplevel-venster aanmaken in het huidige propono-venster"
+
+#: ../src/propono-main.c:60
+msgid "[server:port]"
+msgstr "[server:poort]"
+
+#: ../src/propono-main.c:115
+msgid "The following error has occurred:"
+msgid_plural "The following errors have occurred:"
+msgstr[0] "De volgende fout is opgetreden:"
+msgstr[1] "De volgende fouten zijn opgetreden:"
+
+#. Setup command line options
+#: ../src/propono-main.c:137
+msgid "- VNC Client for MATE"
+msgstr "- VNC-client voor Mate"
+
+#: ../src/propono-main.c:146
+msgid ""
+"Run 'propono --help' to see a full list of available command line options"
+msgstr "Start 'propono --help' om een lijst met opdrachtregelopties te zien"
+
+# verwerken/ontleden
+#: ../src/propono-mdns.c:123
+#, c-format
+msgid "Failed to resolve avahi hostname: %s\n"
+msgstr "Ontleden van de avahi-hostnaam is mislukt: %s\n"
+
+# omgeving verkennen/doorzoeken/bladeren...
+#: ../src/propono-mdns.c:175 ../src/propono-mdns.c:184
+#, c-format
+msgid "Failed to browse for hosts: %s\n"
+msgstr "Omgeving verkennen voor hosts is mislukt: %s\n"
+
+#: ../src/propono-notebook.c:168
+#, c-format
+msgid "Connection to host <i>%s</i> was closed."
+msgstr "Verbinding met host <i>%s</i> is verbroken."
+
+#: ../src/propono-notebook.c:170
+msgid "Connection closed"
+msgstr "Verbinding verbroken"
+
+#: ../src/propono-notebook.c:194
+msgid "Connecting..."
+msgstr "Verbinden…"
+
+#: ../src/propono-notebook.c:221 ../src/propono-tab.c:878
+msgid "Close connection"
+msgstr "Verbinding sluiten"
+
+#: ../src/propono-prefs.c:169
+msgid "Cannot initialize preferences manager."
+msgstr "Kan voorkeuren-beheer niet initialiseren."
+
+#: ../src/propono-tab.c:322
+msgid "Error connecting to host."
+msgstr "Fout bij verbinding maken met host."
+
+#: ../src/propono-tab.c:354
+#, c-format
+msgid "Authentication to host <i>%s</i> has failed"
+msgstr "Aanmelden bij host <i>%s</i> is mislukt"
+
+#: ../src/propono-tab.c:360
+msgid "Authentication failed"
+msgstr "Aanmelden mislukt"
+
+#: ../src/propono-tab.c:382
+#, c-format
+msgid "Authentication method to host <i>%s</i> is unsupported. (%u)"
+msgstr "Aanmeldingsmethode voor host <i>%s</i> wordt niet ondersteund. (%u)"
+
+#: ../src/propono-tab.c:386
+msgid "Authentication unsupported"
+msgstr "Aanmelding niet ondersteund"
+
+#: ../src/propono-tab.c:460
+msgid "Error saving recent connection."
+msgstr "Er is een fout opgetreden bij het opslaan van een recente verbinding."
+
+#: ../src/propono-tab.c:492
+msgid "Error saving the credential on the keyring."
+msgstr "Fout bij opslaan van wachtwoord in sleutelbos."
+
+# Vrij vertaald (Wouter Bolsterlee)
+#: ../src/propono-tab.c:747 ../src/propono-tab.c:764
+msgid "Authentication error"
+msgstr "Aanmelden mislukt"
+
+#: ../src/propono-tab.c:748
+msgid "A username is required in order to access this machine."
+msgstr "Er is een gebruikersnaam nodig voor toegang tot deze machine."
+
+#: ../src/propono-tab.c:765
+msgid "A password is required in order to access this machine."
+msgstr "Er is een wachtwoord nodig voor toegang tot deze machine."
+
+#: ../src/propono-tab.c:891
+msgid "Minimize window"
+msgstr "Venster minimaliseren"
+
+#: ../src/propono-tab.c:906 ../src/propono-tab.c:907
+msgid "Scaling"
+msgstr "Schalen"
+
+#: ../src/propono-tab.c:916 ../src/propono-tab.c:917
+msgid "Read only"
+msgstr "Alleen bekijken"
+
+#. Machine menu
+#: ../src/propono-tab.c:927 ../src/propono-tab.c:928 ../src/propono-ui.h:85
+msgid "Take screenshot"
+msgstr "Een schermafdruk maken"
+
+#: ../src/propono-tab.c:936 ../src/propono-tab.c:937 ../src/propono-ui.h:88
+msgid "Send Ctrl-Alt-Del"
+msgstr "Ctrl-Alt-Del verzenden"
+
+#: ../src/propono-tab.c:1061
+msgid "Desktop Name:"
+msgstr "Werkpleknaam:"
+
+#: ../src/propono-tab.c:1063
+msgid "Port:"
+msgstr "Poort:"
+
+#: ../src/propono-tab.c:1064
+msgid "Dimensions:"
+msgstr "Afmetingen:"
+
+#: ../src/propono-tab.c:1130
+msgid "Could not get a screenshot of the connection."
+msgstr "Kon geen schermafdruk van de verbinding maken."
+
+#: ../src/propono-tab.c:1138
+#, c-format
+msgid "Screenshot of %s"
+msgstr "Schermafdruk van %s"
+
+#: ../src/propono-tab.c:1141
+msgid "Save Screenshot"
+msgstr "Schermafdruk opslaan"
+
+#: ../src/propono-tab.c:1205
+msgid ""
+"Scaling is not supported on this installation.\n"
+"\n"
+"Read the README file (shipped with Propono) in order to know how to enable "
+"this feature."
+msgstr ""
+"Schalen is niet mogelijk op deze installatie.\n"
+"\n"
+"Lees het bestand README (meegeleverd met Propono) om te zien hoe u deze "
+"functie kunt aanzetten."
+
+#. Toplevel
+#: ../src/propono-ui.h:33
+msgid "_Machine"
+msgstr "_Machine"
+
+#: ../src/propono-ui.h:34
+msgid "_Edit"
+msgstr "Be_werken"
+
+#: ../src/propono-ui.h:35
+msgid "_View"
+msgstr "Beel_d"
+
+#: ../src/propono-ui.h:36
+msgid "_Bookmarks"
+msgstr "Bl_adwijzers"
+
+#: ../src/propono-ui.h:41
+msgid "Connect to a remote machine"
+msgstr "Verbinden met een andere computer"
+
+#: ../src/propono-ui.h:43
+msgid "Open a .VNC file"
+msgstr "Een .VNC-bestand openen"
+
+#: ../src/propono-ui.h:45
+msgid "Quit the program"
+msgstr "Het programma afsluiten"
+
+#: ../src/propono-ui.h:49
+msgid "Edit the application preferences"
+msgstr "De toepassingsvoorkeuren aanpassen"
+
+#. Bookmarks menu
+#: ../src/propono-ui.h:52
+msgid "_Open bookmark"
+msgstr "Bladwijzer _openen"
+
+#: ../src/propono-ui.h:53
+msgid "Connect to this machine"
+msgstr "Verbinden met deze machine"
+
+#: ../src/propono-ui.h:54
+msgid "_Edit bookmark"
+msgstr "Bladwijzer be_werken"
+
+#: ../src/propono-ui.h:55
+msgid "Edit the details of selected bookmark"
+msgstr "De details van de geselecteerde bladwijzer bewerken"
+
+#: ../src/propono-ui.h:56
+msgid "_Remove from bookmarks"
+msgstr "Ver_wijderen uit bladwijzers"
+
+#: ../src/propono-ui.h:57
+msgid "Remove current selected connection from bookmarks"
+msgstr "De geselecteerde verbinding verwijderen uit de bladwijzers"
+
+#: ../src/propono-ui.h:58
+msgid "_New Folder"
+msgstr "_Nieuwe map"
+
+#: ../src/propono-ui.h:59
+msgid "Create a new folder"
+msgstr "Nieuwe map aanmaken"
+
+#. Help menu
+#: ../src/propono-ui.h:62
+msgid "_Contents"
+msgstr "I_nhoud"
+
+#: ../src/propono-ui.h:63
+msgid "Open the propono manual"
+msgstr "De propono-handleiding openen"
+
+#: ../src/propono-ui.h:65
+msgid "About this application"
+msgstr "Info over deze toepassing"
+
+#: ../src/propono-ui.h:72
+msgid "Close the current connection"
+msgstr "Huidige verbinding sluiten"
+
+#: ../src/propono-ui.h:73
+msgid "C_lose All"
+msgstr "_Alle sluiten"
+
+#: ../src/propono-ui.h:74
+msgid "Close all active connections"
+msgstr "Alle actieve verbindingen sluiten"
+
+#. Bookmarks menu
+#: ../src/propono-ui.h:77
+msgid "_Add to bookmarks"
+msgstr "_Toevoegen aan bladwijzers"
+
+#: ../src/propono-ui.h:78
+msgid "Add current connection to your bookmarks"
+msgstr "De huidige verbinding toevoegen aan uw bladwijzers"
+
+#: ../src/propono-ui.h:86
+msgid "Take a screenshot of active connection"
+msgstr "Maak een schermafdruk van een actieve verbinding"
+
+#: ../src/propono-ui.h:89
+msgid "Send Ctrl+Alt+Del to active connection"
+msgstr "Ctrl+Alt+Del naar de actieve verbinding verzenden"
+
+#: ../src/propono-ui.h:93
+msgid "View the current machine in full screen"
+msgstr "De huidige machine in volledig scherm bekijken"
+
+#: ../src/propono-ui.h:95
+msgid "_Original size"
+msgstr "_Oorspronkelijke grootte"
+
+#: ../src/propono-ui.h:96
+msgid "Adjusts the window to the remote desktop's size"
+msgstr "Het venster aan de grootte van het bureaublad op afstand aanpassen"
+
+#: ../src/propono-ui.h:102
+msgid "S_caling"
+msgstr "S_chalen"
+
+#: ../src/propono-ui.h:103
+msgid "Fit the remote screen into the current window size"
+msgstr "Het externe scherm in het huidige venster passen"
+
+#: ../src/propono-ui.h:105
+msgid "_Read only"
+msgstr "_Alleen lezen"
+
+# onmogelijk maken/uitzetten/verhinderen
+#: ../src/propono-ui.h:106
+msgid "Disable mouse and keyboard"
+msgstr "Muis- en toetsenbord-activiteiten uitzetten"
+
+#: ../src/propono-ui.h:112
+msgid "_Toolbar"
+msgstr "_Werkbalk"
+
+#: ../src/propono-ui.h:113
+msgid "Show or hide the toolbar"
+msgstr "De werkbalk tonen of verbergen"
+
+#: ../src/propono-ui.h:116
+msgid "_Statusbar"
+msgstr "_Statusbalk"
+
+#: ../src/propono-ui.h:117
+msgid "Show or hide the statusbar"
+msgstr "Statusbalk weergeven/verbergen"
+
+#: ../src/propono-ui.h:120
+msgid "Side _Panel"
+msgstr "_Zijpaneel"
+
+# bladwijzerpaneel/zijpaneel
+#: ../src/propono-ui.h:121
+msgid "Show or hide the side panel"
+msgstr "Het zijpaneel tonen/verbergen"
+
+#: ../src/propono-utils.c:75
+msgid "An error has occurred:"
+msgstr "Een fout is opgetreden:"
+
+#: ../src/propono-utils.c:433
+msgid "Propono is a VNC client for the MATE Desktop"
+msgstr "Propono is een VNC-client voor de Mate-werkomgeving"
+
+#: ../src/propono-utils.c:436
+msgid ""
+"Propono is free software; you can redistribute it and/or modify it under the "
+"terms of the GNU General Public License as published by the Free Software "
+"Foundation; either version 2 of the License, or (at your option) any later "
+"version."
+msgstr ""
+"Propono is vrije software; u mag het opnieuw distribueren en/of wijzigen "
+"onder de voorwaarden van de GNU General Public License zoals gepubliceerd "
+"door de Free Software Foundation; ofwel versie 2 van deze licentie of(zo u "
+"wilt) een latere versie."
+
+#: ../src/propono-utils.c:440
+msgid ""
+"Propono is distributed in the hope that it will be useful, but WITHOUT ANY "
+"WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS "
+"FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more "
+"details."
+msgstr ""
+"Propono wordt gedistibueerd in de hoop dat het nuttig zal zijn,maar ZONDER "
+"ENIGE GARANTIE; zonder zelfs de geïmpliceerde garantievan VERKOOPBAARHEID of "
+"GESCHIKTHEID VOOR EEN BEPAALD DOEL.  Zie deGNU General Public License voor "
+"meer details."
+
+#: ../src/propono-utils.c:444
+msgid ""
+"You should have received a copy of the GNU General Public License along with "
+"this program. If not, see <http://www.gnu.org/licenses/>."
+msgstr ""
+"U zou een kopie van de GNU General Public License ontvangen moeten hebben "
+"samen met dit programma. Zoniet, kijk dan op <http://www.gnu.org/licenses/>."
+
+#: ../src/propono-utils.c:466
+msgid "translator-credits"
+msgstr ""
+"Reinout van Schouwen \n"
+"Wouter Bolsterlee \n"
+"\n"
+"Kijk voor meer info op http://nl.mate.org/"
+
+#: ../src/propono-utils.c:469
+msgid "Propono Website"
+msgstr "Propono-webstek"
+
+#: ../src/propono-window.c:413
+#, c-format
+msgid "Could not merge propono-ui.xml: %s"
+msgstr "Kan propono-ui.xml niet samenvoegen: %s"
+
+#: ../src/propono-window.c:441
+msgid "_Recent connections"
+msgstr "_Recente verbindingen"
+
+#. Translators: This is server:port, a statusbar tooltip when mouse is over a bookmark item on menu
+#: ../src/propono-window.c:614
+#, c-format
+msgid "Open %s:%d"
+msgstr "%s:%d openen"
+
+#: ../src/propono-window.c:797
+msgid "Press Ctrl+Alt to release the cursor"
+msgstr "Druk op Ctrl+Alt om de cursor vrij te laten"
+
+#~ msgid "<b>Editing a bookmark</b>"
+#~ msgstr "<b>Bewerken van een bladwijzer</b>"
+
+#~ msgid "<b>Enter a name for this connection</b>"
+#~ msgstr "<b>Geef een naam voor deze verbinding</b>"
+
+#~ msgid ""
+#~ "<b>In order to connect on this machine, a password is required. Please "
+#~ "supply it.</b>"
+#~ msgstr ""
+#~ "<b>Om met deze machine te kunnen verbinden is een wachtwoord nodig. Geef "
+#~ "deze alstublieft.</b>"
+
+#~ msgid "Editing a bookmark"
+#~ msgstr "Bladwijzer bewerken"
+
+#~ msgid "Saving to bookmarks"
+#~ msgstr "Opslaan bij bladwijzers"
+
+#~ msgid "_Bookmark name:"
+#~ msgstr "Bl_adwijzernaam:"
+
+#~ msgid "Error: %s"
+#~ msgstr "Fout: %s"
+
+#~ msgid "Confirm removal?"
+#~ msgstr "Verwijdering bevestigen?"
+
+#~ msgid "Error while removing %s from bookmarks: %s"
+#~ msgstr "Fout bij het verwijderen van %s uit de bladwijzers: %s"
+
+#~ msgid ""
+#~ "Scaling does not work properly on composited windows. Disable the visual "
+#~ "effects and try again."
+#~ msgstr ""
+#~ "Schalen werkt niet goed bij vensters die ‘composite’ gebruiken. Zet de "
+#~ "visuele effecten uit en probeer het opnieuw."
+
+#~ msgid "_Port:"
+#~ msgstr "_Poort:"
+
+#~ msgid "Press Ctrl+Alt to grab the cursor"
+#~ msgstr "Druk op Ctrl+Alt om de cursor te pakken"
+
+#~ msgid "Image"
+#~ msgstr "Afbeelding"
+
+#~ msgid "Name"
+#~ msgstr "Naam"
+
+#~ msgid "Hide bookmarks"
+#~ msgstr "Bladwijzers verbergen"

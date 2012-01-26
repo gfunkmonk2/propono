@@ -1,0 +1,999 @@
+# translation of propono.master.kn.po to Kannada
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Shankar Prasad <svenkate@redhat.com>, 2008, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: propono.master.kn\n"
+"Report-Msgid-Bugs-To: http://bugzilla.mate.org/enter_bug.cgi?product=propono&component=general\n"
+"POT-Creation-Date: 2009-09-01 06:12+0000\n"
+"PO-Revision-Date: 2009-09-17 12:03+0530\n"
+"Last-Translator: Shankar Prasad <svenkate@redhat.com>\n"
+"Language-Team: Kannada <en@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: ../data/MATE_ProponoApplet.xml.h:1 ../propono/propono-plugin-manager.c:495
+msgid "_About"
+msgstr "ಬಗ್ಗೆ(_A)"
+
+#: ../data/MATE_ProponoApplet.xml.h:2 ../propono/propono-ui.h:37
+msgid "_Help"
+msgstr "ನೆರವು(_H)"
+
+#: ../data/propono.desktop.in.in.h:1 ../data/propono-file.desktop.in.in.h:1
+msgid "Access remote desktops"
+msgstr "ದೂರಸ್ಥ ಗಣಕತೆರೆಗಳನ್ನು ನಿಲುಕಿಸಿಕೊಳ್ಳಿ"
+
+#: ../data/propono.desktop.in.in.h:2 ../data/propono-file.desktop.in.in.h:2
+#: ../propono/MATE_ProponoApplet.server.in.in.h:2
+#: ../propono/propono-applet.c:434 ../propono/propono-applet.c:486
+#: ../propono/propono-main.c:198
+msgid "Remote Desktop Viewer"
+msgstr "ದೂರಸ್ಥ ಗಣಕತೆರೆಗಳ ವೀಕ್ಷಕ"
+
+#: ../data/propono.ui.h:1
+msgid "All fields above are mandatory"
+msgstr "ಮೇಲಿನ ಎಲ್ಲಾ ಕ್ಷೇತ್ರಗಳು ಖಡ್ಡಾಯವಾಗಿವೆ"
+
+#: ../data/propono.ui.h:2
+msgid "Authentication is required"
+msgstr "ದೃಢೀಕರಣದ ಅಗತ್ಯವಿದೆ"
+
+#: ../data/propono.ui.h:3 ../propono/propono-fav.c:856
+msgid "Bookmarks"
+msgstr "ಬುಕ್‌ಮಾರ್ಕುಗಳು"
+
+#: ../data/propono.ui.h:4
+msgid "Connection"
+msgstr "ಸಂಪರ್ಕಿಸಲಾಗುತ್ತಿದೆ"
+
+#: ../data/propono.ui.h:5
+msgid "Connection options"
+msgstr "ಸಂಪರ್ಕದ ಆಯ್ಕೆಗಳು"
+
+#: ../data/propono.ui.h:6
+msgid "Folder"
+msgstr "ಕಡತಕೋಶ"
+
+#: ../data/propono.ui.h:7 ../plugins/ssh/propono-ssh-tab.c:49
+#: ../plugins/vnc/propono-vnc-tab.c:134 ../propono/propono-fav.c:425
+msgid "Host:"
+msgstr "ಅತಿಥೇಯ:"
+
+#: ../data/propono.ui.h:8
+msgid "Interface"
+msgstr "ಸಂಪರ್ಕಸಾಧನ"
+
+#: ../data/propono.ui.h:9
+msgid "Options"
+msgstr "ಆಯ್ಕೆಗಳು"
+
+#: ../data/propono.ui.h:10
+msgid "Parent Folder"
+msgstr "ಮೂಲ ಕಡತಕೋಶ"
+
+#: ../data/propono.ui.h:11
+msgid "Preferences"
+msgstr "ಆದ್ಯತೆಗಳು"
+
+#: ../data/propono.ui.h:12
+msgid "Which machine do you want to connect to?"
+msgstr "ಯಾವ ಗಣಕಕ್ಕೆ ನೀವು ಸಂಪರ್ಕಿತಗೊಳ್ಳಲು ಬಯಸುತ್ತೀರಿ?"
+
+#: ../data/propono.ui.h:13
+msgid "_Always show tabs"
+msgstr "ಯಾವಾಗಲೂ ಹಾಳೆಗಳನ್ನು ತೋರಿಸು(_A)"
+
+#. This is a button label, in the authentication dialog
+#: ../data/propono.ui.h:15
+msgid "_Authenticate"
+msgstr "ದೃಢೀಕರಿಸು(_A)"
+
+#: ../data/propono.ui.h:16
+msgid "_Full screen"
+msgstr "ಪೂರ್ಣತೆರೆ(_F)"
+
+#: ../data/propono.ui.h:17
+msgid "_Host:"
+msgstr "ಅತಿಥೇಯ(_H):"
+
+#: ../data/propono.ui.h:18
+msgid "_Name:"
+msgstr "ಹೆಸರು(_N):"
+
+#: ../data/propono.ui.h:19
+msgid "_Password:"
+msgstr "ಗುಪ್ತಪದ(_P):"
+
+#: ../data/propono.ui.h:20
+msgid "_Protocol:"
+msgstr "ಪ್ರೊಟೊಕಾಲ್(_P):"
+
+#: ../data/propono.ui.h:21
+msgid "_Remember this credential"
+msgstr "ಈ ಪರಿಚಯನ್ನು ನೆನನಪಿಟ್ಟುಕೊ (_R)"
+
+#: ../data/propono.ui.h:22
+msgid "_Show menu shortcuts"
+msgstr "ಮೆನು ಶಾರ್ಟ್-ಕಟ್‌ಗಳನ್ನು ತೋರಿಸು(_S)"
+
+#: ../data/propono.ui.h:23
+msgid "_Username:"
+msgstr "ಬಳಕೆದಾರ ಹೆಸರು(_U):"
+
+#: ../data/propono.schemas.in.in.h:1 ../propono/propono-plugin-manager.c:795
+msgid "Active plugins"
+msgstr "ಸಕ್ರಿಯ ಪ್ಲಗ್ಗಿನ್ನುಗಳು"
+
+#: ../data/propono.schemas.in.in.h:2
+msgid ""
+"List of active plugins. It contains the \"Location\" of the active plugins. "
+"See the .propono-plugin file for obtaining the \"Location\" of a given "
+"plugin."
+msgstr ""
+"ಸಕ್ರಿಯ ಪ್ಲಗ್‌ಇನ್‌ಗಳ ಪಟ್ಟಿ. ಇದು ಸಕ್ರಿಯ ಪ್ಲಗ್‌ಇನ್‌ಗಳು ಇರುವ \"ಸ್ಥಳ\"ವನ್ನು ಹೊಂದಿರುತ್ತದೆ. "
+"ಒದಗಿಸಲಾದ ಒಂದು ಪ್ಲಗ್‌ಇನ್‌ ಇರುವ \"ಸ್ಥಳ\"ವನ್ನು ಕಂಡುಕೊಳ್ಳಲು .propono-plugin ಕಡತವನ್ನು ನೋಡಿ."
+
+#: ../data/propono.schemas.in.in.h:3
+msgid "Maximum number of history items in connect dialog"
+msgstr "ಸಂಪರ್ಕ ಸಂವಾದದಲ್ಲಿನ ಗರಿಷ್ಟ ಸಂಖ್ಯೆಯ ಇತಿಹಾಸದ ಅಂಶಗಳು"
+
+#: ../data/propono.schemas.in.in.h:4
+msgid ""
+"Set to \"false\" to disable menu shortcuts. Set to \"true\" to enable them. "
+"Note that if they are enabled, those keys will be intercepted by the menu "
+"and will not be sent to the remote host."
+msgstr ""
+"ಶಾರ್ಟ್-ಕಟ್‌ಗಳನ್ನು ಅಶಕ್ತಗೊಳಿಸಲು \"false\" ಗೆ ಬದಲಾಯಿಸಿ. ಅವನ್ನು ಶಕ್ತಗೊಳಿಸಲು \"true\" ಗೆ "
+"ಬದಲಾಯಿಸಿ. ಅವುಗಳನ್ನು ಶಕ್ತಗೊಳಿಸಿದಲ್ಲಿ, ಆ ಕೀಲಿಗಳನ್ನು ಮೆನುವಿನಿಂದ ಅರ್ಥೈಸಿಕೊಳ್ಳಲಾಗುತ್ತದೆ "
+"ಹಾಗು ಅವನ್ನು ದೂರಸ್ಥ ಅತಿಥೇಯಕ್ಕೆ ಕಳುಹಿಸಲಾಗುವುದಿಲ್ಲ."
+
+#: ../data/propono.schemas.in.in.h:5
+msgid ""
+"Set to \"true\" to always show the tabs. Set to \"false\" to only show the "
+"tabs when there is more than one active connection."
+msgstr ""
+"ಹಾಳೆಗಳನ್ನು ಯಾವಾಗಲೂ ತೋರಿಸಲು \"true\" ಗೆ ಬದಲಾಯಿಸಿ. ಒಂದಕ್ಕಿಂತ ಹೆಚ್ಚಿನ ಸಕ್ರಿಯ "
+"ಸಂಪರ್ಕವು ಇದ್ದಲ್ಲಿ ಹಾಳೆಗಳನ್ನು ತೋರಿಸಲು \"false\" ಗೆ ಬದಲಾಯಿಸಿ."
+
+#: ../data/propono.schemas.in.in.h:6
+msgid "Specifies the maximum number of items in the host dropdown entry."
+msgstr "ಅತಿಥೇಯದ ಬೀಳಿಕೆ ನಮೂದಿನಲ್ಲಿನ ಗರಿಷ್ಟ ಸಂಖ್ಯೆಯ ಅಂಶಗಳನ್ನು ಸೂಚಿಸುತ್ತದೆ."
+
+#: ../data/propono.schemas.in.in.h:7
+msgid "The handler for \"vnc://\" URLs"
+msgstr "\"vnc://\" URL ಗಳ ಹ್ಯಾಂಡ್ಲರ್"
+
+#: ../data/propono.schemas.in.in.h:8
+msgid ""
+"When connecting to a host, the client can say to the server to leave other "
+"clients connected or to drop the existent connections. Set the value to true "
+"to share the desktop with the other clients."
+msgstr ""
+"ಅತಿಥೇಯದೊಂದಿಗೆ ಸಂಪರ್ಕಿತಗೊಳ್ಳುವಾಗ, ಇತರೆ ಕ್ಲೈಂಟ್‌ಗಳೊಂದಿಗಿನ ಸಂಪರ್ಕವು ಹಾಗೆಯೆ ಇರಲು ಬಿಡು "
+"ಅಥವ ಈಗಿರುವ ಸಂಪರ್ಕಗಳನ್ನು ಬಿಟ್ಟುಬಿಡು ಎಂದು ಪರಿಚಾರಕಕ್ಕೆ ಕ್ಲೈಂಟ್‌ ಹೇಳಬಹುದು. ಗಣಕತೆರೆಯನ್ನು "
+"ಇತರೆ ಕ್ಲೈಂಟಿನೊಂದಿಗೆ ಹಂಚಿಕೊಳ್ಳಲು ಮೌಲ್ಯವನ್ನು true ಗೆ ಹೊಂದಿಸು."
+
+#: ../data/propono.schemas.in.in.h:9
+msgid "Whether we should leave other clients connected"
+msgstr "ಬೇರೆ ಕ್ಲೈಂಟ್‌ಗಳು ಸಂಪರ್ಕಿತಗೊಂಡಿರಲು ನಾವು ಬಿಡಬೇಕೆ"
+
+#: ../data/propono.schemas.in.in.h:10
+msgid "Whether we should show tabs even when there is only one active connection"
+msgstr "ಕೇವಲ ಒಂದು ಸಕ್ರಿಯ ಸಂಪರ್ಕವಿದ್ದಾಗಲೂ ಸಹ ನಾವು ಹಾಳೆಗಳನ್ನು ತೋರಿಸಬೇಕೆ"
+
+#: ../data/propono.schemas.in.in.h:11
+msgid "Whether we should show the menu accelerators (shortcut keys)"
+msgstr "ನಾವು ಮೆನು ವೇಗವರ್ಧಕಗಳನ್ನು ತೋರಿಸಬೇಕೆ (ಶಾರ್ಟ್-ಕಟ್‌ ಕೀಲಿಗಳು)"
+
+#: ../data/propono-mime.xml.in.h:1
+msgid "Remote Desktop (VNC) file"
+msgstr "ದೂರಸ್ಥ ಗಣಕತೆರೆ (VNC) ಕಡತ"
+
+#: ../data/propono-mime.xml.in.h:2
+msgid "Remote Desktop Connection"
+msgstr "ದೂರಸ್ಥ ಗಣಕತೆರೆ ಸಂಪರ್ಕ"
+
+#. vim: set ts=8:
+#: ../plugins/ssh/propono-ssh-plugin.c:70
+#: ../plugins/ssh/ssh.propono-plugin.desktop.in.h:1
+msgid "SSH"
+msgstr "SSH"
+
+#. Translators: This is a description of the SSH protocol. It appears at Connect dialog.
+#: ../plugins/ssh/propono-ssh-plugin.c:72
+msgid "Access Unix/Linux terminals"
+msgstr "Unix/Linux ಟರ್ಮಿನಲ್‌ಗಳನ್ನು ನಿಲುಕಿಸಿಕೊಳ್ಳಿ"
+
+#: ../plugins/ssh/propono-ssh-tab.c:50 ../plugins/vnc/propono-vnc-tab.c:135
+msgid "Port:"
+msgstr "ಸಂಪರ್ಕಸ್ಥಾನ:"
+
+#: ../plugins/ssh/ssh.propono-plugin.desktop.in.h:2
+msgid "SSH support"
+msgstr "SSH ಬೆಂಬಲ"
+
+#: ../plugins/vnc/propono-vnc-connection.c:207
+#: ../plugins/vnc/propono-vnc-plugin.c:214
+#, c-format
+msgid "Bad value for 'shared' flag: %d. It is supposed to be 0 or 1. Ignoring it."
+msgstr ""
+"'ಹಂಚಲಾದ' ಫ್ಲಾಗಿಗೆ ಸರಿಯಲ್ಲದ ಮೌಲ್ಯ: %d. ಅದು 0 ಅಥವ 1 ಆಗಿರಬೇಕು. ಅದನ್ನು "
+"ನಿರ್ಲಕ್ಷಿಸಲಾಗುತ್ತಿದೆ."
+
+#. Translators: this is a command line option (run propono --help)
+#: ../plugins/vnc/propono-vnc-plugin.c:66
+msgid "Enable scaled mode"
+msgstr "ಸ್ಕೇಲ್ಡ್ ಕ್ರಮವನ್ನು ಶಕ್ತಗೊಳಿಸು"
+
+#. Translators: this is a command line option (run propono --help)
+#: ../plugins/vnc/propono-vnc-plugin.c:81
+msgid "VNC Options:"
+msgstr "VNC ಆಯ್ಕೆಗಳು:"
+
+#. Translators: this is a command line option (run propono --help)
+#: ../plugins/vnc/propono-vnc-plugin.c:83
+msgid "Show VNC Options"
+msgstr "VNC ಆಯ್ಕೆಗಳನ್ನು ತೋರಿಸು"
+
+#. vim: set ts=8:
+#: ../plugins/vnc/propono-vnc-plugin.c:105
+#: ../plugins/vnc/vnc.propono-plugin.desktop.in.h:1
+msgid "VNC"
+msgstr "VNC"
+
+#: ../plugins/vnc/propono-vnc-plugin.c:106
+msgid "Access Unix/Linux, Windows and other machines."
+msgstr "Unix/Linux, Windows ಹಾಗು ಇನ್ನಿತರೆ ಗಣಕಗಳನ್ನು ನಿಲುಕಿಸಿಕೊಳ್ಳಿ."
+
+#: ../plugins/vnc/propono-vnc-plugin.c:163
+msgid "Could not parse the file."
+msgstr "ಕಡತವನ್ನು ಪಾರ್ಸ್ ಮಾಡಲು ಸಾಧ್ಯವಾಗಿಲ್ಲ."
+
+#: ../plugins/vnc/propono-vnc-plugin.c:170
+msgid "The file is not a VNC one: Missing the group \"connection\"."
+msgstr "ಕಡತವು ಒಂದು VNC ಕಡತವಾಗಿಲ್ಲ: \"connection\"(ಸಂಪರ್ಕ) ಗುಂಪು ಕಾಣೆಯಾಗಿದೆ."
+
+#: ../plugins/vnc/propono-vnc-plugin.c:176
+msgid "The file is not a VNC one: Missing the key \"host\"."
+msgstr "ಕಡತವು ಒಂದು VNC ಕಡತವಾಗಿಲ್ಲ: \"host\"(ಆತಿಥೇಯ) ಕೀಲಿಯು ಕಾಣೆಯಾಗಿದೆ."
+
+#: ../plugins/vnc/propono-vnc-plugin.c:243
+msgid "VNC Options"
+msgstr "VNC ಆಯ್ಕೆಗಳು"
+
+#: ../plugins/vnc/propono-vnc-plugin.c:254
+#: ../plugins/vnc/propono-vnc-tab.c:654
+msgid "_View only"
+msgstr "ನೋಟ ಮಾತ್ರ(_V)"
+
+#: ../plugins/vnc/propono-vnc-plugin.c:261
+msgid "_Scaling"
+msgstr "ಅಳತೆ ಬದಲಾವಣೆ(_S)"
+
+#. Translators: this is a pattern to open *.vnc files in a open dialog.
+#: ../plugins/vnc/propono-vnc-plugin.c:285
+msgid "VNC Files"
+msgstr "VNC ಕಡತಗಳು"
+
+#: ../plugins/vnc/propono-vnc-tab.c:133
+msgid "Desktop Name:"
+msgstr "ಗಣಕತೆರೆ ಹೆಸರು:"
+
+#: ../plugins/vnc/propono-vnc-tab.c:136
+msgid "Dimensions:"
+msgstr "ಆಯಾಮಗಳು:"
+
+#: ../plugins/vnc/propono-vnc-tab.c:268
+msgid "Error connecting to host."
+msgstr "ಅತಿಥೇಯಕ್ಕೆ ಸಂಪರ್ಕ ಕಲ್ಪಿಸುವಲ್ಲಿ ದೋಷ."
+
+#. Translators: %s is a host name or IP address; %u is a code error (number).
+#: ../plugins/vnc/propono-vnc-tab.c:306
+#, c-format
+msgid "Authentication method to host %s is unsupported. (%u)"
+msgstr "ಅತಿಥೇಯ %s ಕ್ಕಾಗಿನ ದೃಢೀಕರಣ ವಿಧಾನಕ್ಕೆ ಬೆಂಬಲವಿಲ್ಲ. (%u)"
+
+#: ../plugins/vnc/propono-vnc-tab.c:310
+msgid "Authentication unsupported"
+msgstr "ದೃಢೀಕರಣವು ಬೆಂಬಲಿತವಾಗಿಲ್ಲ"
+
+#: ../plugins/vnc/propono-vnc-tab.c:570 ../plugins/vnc/propono-vnc-tab.c:587
+msgid "Authentication error"
+msgstr "ದೃಢೀಕರಣದ ದೋಷ"
+
+#: ../plugins/vnc/propono-vnc-tab.c:571
+msgid "A username is required in order to access this machine."
+msgstr "ಈ ಗಣಕವನ್ನು ನಿಲುಕಿಸಿಕೊಳ್ಳಲು ಬಳಕೆದಾರರ ಹೆಸರಿನ ಅಗತ್ಯವಿದೆ."
+
+#: ../plugins/vnc/propono-vnc-tab.c:588
+msgid "A password is required in order to access this machine."
+msgstr "ಈ ಗಣಕವನ್ನು ನಿಲುಕಿಸಿಕೊಳ್ಳಲು ಬಳಕೆದಾರರ ಒಂದು ಗುಪ್ತಪದದ ಅಗತ್ಯವಿದೆ."
+
+#: ../plugins/vnc/propono-vnc-tab.c:639
+msgid "S_caling"
+msgstr "ಗಾತ್ರದ ಹೊಂದಿಕೆ(_c)"
+
+#: ../plugins/vnc/propono-vnc-tab.c:640
+msgid "Fits the remote screen into the current window size"
+msgstr "ದೂರಸ್ಥ ತೆರೆಯನ್ನು ಪ್ರಸಕ್ತ ವಿಂಡೋ ಗಾತ್ರಕ್ಕೆ ಸರಿಹೊಂದಿಸುತ್ತದೆ"
+
+#: ../plugins/vnc/propono-vnc-tab.c:655
+#| msgid "Disable mouse and keyboard"
+msgid "Does not send mouse and keyboard events"
+msgstr "ಮೌಸ್ ಹಾಗು ಕೀಲಿಮಣೆ ಘಟನೆಯನ್ನು ಕಳುಹಿಸಲಬೇಡಸ"
+
+#: ../plugins/vnc/propono-vnc-tab.c:668
+msgid "_Original size"
+msgstr "ಮೂಲ ಗಾತ್ರ(_O)"
+
+#: ../plugins/vnc/propono-vnc-tab.c:669
+msgid "Adjusts the window to the remote desktop's size"
+msgstr "ವಿಂಡೋವನ್ನು ದೂರಸ್ಥ ಗಣಕತೆರೆಯ ಗಾತ್ರಕ್ಕೆ ಹೊಂದಿಸುತ್ತದೆ"
+
+#: ../plugins/vnc/propono-vnc-tab.c:692 ../plugins/vnc/propono-vnc-tab.c:766
+#: ../plugins/vnc/propono-vnc-tab.c:767
+msgid "Send Ctrl-Alt-Del"
+msgstr "Ctrl-Alt-Del ಅನ್ನು ಕಳುಹಿಸಿ"
+
+#: ../plugins/vnc/propono-vnc-tab.c:693
+#| msgid "Send Ctrl+Alt+Del to active connection"
+msgid "Sends Ctrl+Alt+Del to the remote machine"
+msgstr "ಸಕ್ರಿಯ ಸಂಪರ್ಕಕ್ಕಾಗಿ Ctrl+Alt+Del ಅನ್ನು ಕಳುಹಿಸು"
+
+#: ../plugins/vnc/propono-vnc-tab.c:745 ../plugins/vnc/propono-vnc-tab.c:746
+msgid "Scaling"
+msgstr "ಅಳತೆ ಬದಲಾವಣೆ"
+
+#: ../plugins/vnc/propono-vnc-tab.c:755 ../plugins/vnc/propono-vnc-tab.c:756
+msgid "Read only"
+msgstr "ಓದಲು ಮಾತ್ರ"
+
+#: ../plugins/vnc/propono-vnc-tab.c:925
+msgid ""
+"Scaling is not supported on this installation.\n"
+"\n"
+"Read the README file (shipped with Propono) in order to know how to enable "
+"this feature."
+msgstr ""
+"ಈ ಅನುಸ್ತಾಪನೆಯಲ್ಲಿ ಗಾತ್ರ ಬದಲಾವಣೆಗೆ(ಸ್ಕೇಲಿಂಗ್‌) ಬೆಂಬಲವಿಲ್ಲ.\n"
+"\n"
+"ಈ ಸವಲತ್ತನ್ನು ಹೇಗೆ ಶಕ್ತಗೊಳಿಸುವುದು ಎಂಬುದನ್ನು ಅರಿಯಲು README ಕಡತವನ್ನು (Propono "
+"ನೊಂದಿಗೆ ನೀಡಲಾದ) ಓದಿ."
+
+#: ../plugins/vnc/vnc.propono-plugin.desktop.in.h:2
+msgid "VNC support"
+msgstr "VNC ಬೆಂಬಲ"
+
+#: ../propono/MATE_ProponoApplet.server.in.in.h:1
+msgid "A menu to quickly access remote machines"
+msgstr "ದೂರಸ್ಥ ಗಣಕಗಳನ್ನು ತಕ್ಷಣ ನಿಲುಕಿಸಿಕೊಳ್ಳಲು ಬಳಸಲಾಗುವ ಒಂದು ಮೆನು"
+
+#: ../propono/MATE_ProponoApplet.server.in.in.h:3
+msgid "Propono Applet Factory"
+msgstr "Propono ಆಪ್ಲೆಟ್ ಫ್ಯಾಕ್ಟರಿ"
+
+#: ../propono/propono-applet.c:277 ../propono/propono-applet.c:360
+msgid "Could not run propono:"
+msgstr "propono ಅನ್ನು ಚಲಾಯಿಸಲು ಸಾಧ್ಯವಾಗಿಲ್ಲ:"
+
+#: ../propono/propono-applet.c:380
+msgid "Open Remote Desktop Viewer"
+msgstr "ದೂರಸ್ಥ ಗಣಕತೆರೆ ವೀಕ್ಷಕವನ್ನು ತೆರೆ"
+
+#: ../propono/propono-applet.c:435
+msgid "Access your bookmarks"
+msgstr "ನಿಮ್ಮ ಬುಕ್‌ಮಾರ್ಕುಗಳನ್ನು ನಿಲುಕಿಸಿಕೊಳ್ಳಿ"
+
+#: ../propono/propono-bookmarks.c:265 ../propono/propono-connection.c:519
+#: ../propono/propono-tab.c:533 ../propono/propono-tube-handler.c:253
+#, c-format
+msgid "The protocol %s is not supported."
+msgstr "ಪ್ರೋಟೋಕಾಲ್ %s ಬೆಂಬಲಿತವಾಗಿಲ್ಲ."
+
+#: ../propono/propono-bookmarks.c:343
+#, c-format
+msgid "Error while initializing bookmarks: %s"
+msgstr "ಬುಕ್‌ಮಾರ್ಕುಗಳನ್ನು ಆರಂಭಿಸುವಲ್ಲಿ ದೋಷ: %s"
+
+#: ../propono/propono-bookmarks.c:343 ../propono/propono-bookmarks.c:458
+#: ../propono/propono-bookmarks-migration.c:135
+#: ../propono/propono-commands.c:170 ../propono/propono-connect.c:459
+#: ../propono/propono-fav.c:681 ../propono/propono-main.c:100
+#: ../propono/propono-main.c:119 ../propono/propono-window.c:266
+msgid "Unknown error"
+msgstr "ಗೊತ್ತಿಲ್ಲದ ದೋಷ"
+
+#: ../propono/propono-bookmarks.c:350
+msgid "Error while initializing bookmarks: The file seems to be empty"
+msgstr "ಬುಕ್‌ಮಾರ್ಕುಗಳನ್ನು ಆರಂಭಿಸುವಲ್ಲಿ ದೋಷ: ಕಡತವು ಖಾಲಿ ಇರುವಂತೆ ತೋರುತ್ತಿದೆ"
+
+#: ../propono/propono-bookmarks.c:357
+msgid "Error while initializing bookmarks: The file is not a propono bookmarks file"
+msgstr "ಬುಕ್‌ಮಾರ್ಕುಗಳನ್ನು ಆರಂಭಿಸುವಲ್ಲಿ ದೋಷ: ಕಡತವು ಒಂದು ಮಾನ್ಯವಾದ propono ಬುಕ್‌ಮಾರ್ಕ್ ಕಡತವಾಗಿಲ್ಲ"
+
+#: ../propono/propono-bookmarks.c:419 ../propono/propono-bookmarks.c:426
+msgid "Error while saving bookmarks: Failed to create the XML structure"
+msgstr "ಬುಕ್‌ಮಾರ್ಕುಗಳನ್ನು ಉಳಿಸುವಲ್ಲಿ ದೋಷ: XML ರಚನೆಯನ್ನು ನಿರ್ಮಿಸುವಲ್ಲಿ ವಿಫಲಗೊಂಡಿದೆ"
+
+#: ../propono/propono-bookmarks.c:433 ../propono/propono-bookmarks.c:440
+msgid "Error while saving bookmarks: Failed to initialize the XML structure"
+msgstr "ಬುಕ್‌ಮಾರ್ಕುಗಳನ್ನು ಉಳಿಸುವಲ್ಲಿ ದೋಷ: XML ರಚನೆಯನ್ನು ಆರಂಭಿಸಲು ವಿಫಲಗೊಂಡಿದೆ"
+
+#: ../propono/propono-bookmarks.c:449
+msgid "Error while saving bookmarks: Failed to finalize the XML structure"
+msgstr "ಬುಕ್‌ಮಾರ್ಕುಗಳನ್ನು ಉಳಿಸುವಲ್ಲಿ ದೋಷ: XML ರಚನೆಯನ್ನು ಅಂತ್ಯಗೊಳಿಸಲು ವಿಫಲಗೊಂಡಿದೆ"
+
+#: ../propono/propono-bookmarks.c:458
+#, c-format
+msgid "Error while saving bookmarks: %s"
+msgstr "ಬುಕ್‌ಮಾರ್ಕುಗಳನ್ನು ಉಳಿಸುವಲ್ಲಿ ದೋಷ: %s"
+
+#: ../propono/propono-bookmarks-migration.c:95
+#: ../propono/propono-bookmarks-migration.c:102
+msgid "Error while migrating bookmarks: Failed to create the XML structure"
+msgstr "ಬುಕ್‌ಮಾರ್ಕುಗಳನ್ನು ವರ್ಗಾಯಿಸುವಲ್ಲಿ ದೋಷ: XML ರಚನೆಯನ್ನು ನಿರ್ಮಿಸಲು ವಿಫಲಗೊಂಡಿದೆ"
+
+#: ../propono/propono-bookmarks-migration.c:109
+#: ../propono/propono-bookmarks-migration.c:116
+msgid "Error while migrating bookmarks: Failed to initialize the XML structure"
+msgstr "ಬುಕ್‌ಮಾರ್ಕುಗಳನ್ನು ವರ್ಗಾಯಿಸುವಲ್ಲಿ ದೋಷ: XML ರಚನೆಯನ್ನು ಆರಂಭಿಸುವಲ್ಲಿ ವಿಫಲಗೊಂಡಿದೆ"
+
+#: ../propono/propono-bookmarks-migration.c:125
+msgid "Error while migrating bookmarks: Failed to finalize the XML structure"
+msgstr "ಬುಕ್‌ಮಾರ್ಕುಗಳನ್ನು ವರ್ಗಾಯಿಸುವಲ್ಲಿ ದೋಷ: XML ರಚನೆಯನ್ನು ಅಂತ್ಯಗೊಳಿಸುವಲ್ಲಿ ವಿಫಲಗೊಂಡಿದೆ"
+
+#: ../propono/propono-bookmarks-migration.c:135
+#: ../propono/propono-bookmarks-migration.c:238
+#, c-format
+msgid "Error while migrating bookmarks: %s"
+msgstr "ಬುಕ್‌ಮಾರ್ಕುಗಳನ್ನು ವರ್ಗಾಯಿಸುವಲ್ಲಿ ದೋಷ: %s"
+
+#: ../propono/propono-bookmarks-migration.c:164
+msgid "Error while migrating bookmarks: VNC plugin is not activated"
+msgstr "ಬುಕ್‌ಮಾರ್ಕುಗಳನ್ನು ವರ್ಗಾಯಿಸುವಲ್ಲಿ ದೋಷ: VNC ಪ್ಲಗ್‌ಇನ್ ಸಕ್ರಿಯಗೊಂಡಿಲ್ಲ"
+
+#: ../propono/propono-bookmarks-migration.c:238
+msgid "Failed to create the directory"
+msgstr "ಕೋಶವನ್ನು ನಿರ್ಮಿಸುವಲ್ಲಿ ವಿಫಲಗೊಂಡಿದೆ"
+
+#: ../propono/propono-bookmarks-migration.c:262
+msgid ""
+"Migrating the bookmarks file to the new format. This operation is only "
+"supposed to run once."
+msgstr ""
+"ಬುಕ್‌ಮಾರ್ಕುಗಳ ಕಡತವನ್ನು ಹೊಸ ರಚನೆಗೆ ವರ್ಗಾಯಿಸಲಾಗುತ್ತಿದೆ. ಈ ಕಾರ್ಯವು ಕೇವಲ ಒಮ್ಮೆ ಮಾತ್ರ "
+"ಚಲಾಯಿತಗೊಳ್ಳಬೇಕು."
+
+#: ../propono/propono-bookmarks-migration.c:270
+#, c-format
+msgid "Error opening old bookmarks file: %s"
+msgstr "ಹಳೆಯ ಬುಕ್‌ಮಾರ್ಕುಗಳನ್ನು ತೆರೆಯುವಲ್ಲಿ ದೋಷ: %s"
+
+#: ../propono/propono-bookmarks-migration.c:271
+#: ../propono/propono-bookmarks-migration.c:283
+msgid "Migration cancelled"
+msgstr "ವರ್ಗಾವಣೆಯನ್ನು ರದ್ದುಗೊಳಿಸಲಾಗಿದೆ"
+
+#: ../propono/propono-bookmarks-migration.c:280
+msgid "Could not remove the old bookmarks file"
+msgstr "ಹಳೆಯ ಬುಕ್‌ಮಾರ್ಕ್ ಕಡತವನ್ನು ತೆಗೆದು ಹಾಕಲಾಗಲಿಲ್ಲ"
+
+#: ../propono/propono-bookmarks-tree.c:120
+msgid "Root Folder"
+msgstr "ರೂಟ್‌ ಕಡತಕೋಶ"
+
+#: ../propono/propono-bookmarks-ui.c:78
+msgid "Invalid name for this folder"
+msgstr "ಈ ಕಡತಕೋಶದ ಅಮಾನ್ಯವಾದ ಹೆಸರು"
+
+#: ../propono/propono-bookmarks-ui.c:88 ../propono/propono-bookmarks-ui.c:200
+#, c-format
+msgid "The name \"%s\" is already used in this folder. Please use a different name."
+msgstr "ಹೆಸರು \"%s\" ಅನ್ನು ಈ ಕಡತಕೋಶದಲ್ಲಿ ಈಗಾಗಲೆ ಬಳಸಲಾಗಿದೆ. ದಯವಿಟ್ಟು ಬೇರೊಂದು ಹೆಸರನ್ನು ಬಳಸಿ."
+
+#: ../propono/propono-bookmarks-ui.c:89 ../propono/propono-bookmarks-ui.c:190
+#: ../propono/propono-bookmarks-ui.c:201
+msgid "Invalid name for this item"
+msgstr "ಈ ಅಂಶದ ಅಮಾನ್ಯವಾದ ಹೆಸರು"
+
+#. Translators: %s is a protocol name, like VNC or SSH
+#: ../propono/propono-bookmarks-ui.c:168
+#, c-format
+msgid "(Protocol: %s)"
+msgstr "(ಪ್ರೊಟೊಕಾಲ್: %s)"
+
+#. Translators: %s is a bookmark entry name
+#: ../propono/propono-bookmarks-ui.c:308
+#, c-format
+msgid "Are you sure you want to remove %s from bookmarks?"
+msgstr "ನೀವು ನಿಜವಾಗಲು ಬುಕ್‌ಮಾರ್ಕಿನಿಂದ %s ಅನ್ನು ತೆಗೆದು ಹಾಕಲು ಬಯಸುತ್ತೀರೆ?"
+
+#: ../propono/propono-bookmarks-ui.c:314
+msgid "Remove Folder?"
+msgstr "ಕಡತಕೋಶವನ್ನು ತೆಗೆದುಹಾಕಬೇಕೆ?"
+
+#: ../propono/propono-bookmarks-ui.c:315
+msgid "Notice that all its subfolders and items will be removed as well."
+msgstr "ಅದರೊಳಿಗಿನ ಎಲ್ಲಾ ಉಪಕಡತಕೋಶಗಳು ಹಾಗು ಅಂಶಗಳು ತೆಗೆಯಲ್ಪಡುತ್ತವೆ ಎಂಬುದನ್ನು ನೆನಪಿಡಿ."
+
+#: ../propono/propono-bookmarks-ui.c:320
+msgid "Remove Item?"
+msgstr "ಅಂಶವನ್ನು ತೆಗೆದುಹಾಕಬೇಕೆ?"
+
+#: ../propono/propono-bookmarks-ui.c:337
+msgid "Error removing bookmark: Entry not found"
+msgstr "ಬುಕ್‌ಮಾರ್ಕನ್ನು ತೆಗೆದು ಹಾಕುವಲ್ಲಿ ದೋಷ: ನಮೂದು ಕಂಡುಬಂದಿಲ್ಲ"
+
+#: ../propono/propono-bookmarks-ui.c:354
+msgid "New Folder"
+msgstr "ಹೊಸ ಕಡತಕೋಶ"
+
+#: ../propono/propono-commands.c:120
+msgid "Choose the file"
+msgstr "ಕಡತವನ್ನು ಆಯ್ಕೆ ಮಾಡಿ"
+
+#: ../propono/propono-commands.c:148
+msgid "There are none supported files"
+msgstr "ಬೆಂಬಲಿತವಾದ ಯಾವುದೆ ಕಡತಗಳಿಲ್ಲ"
+
+#: ../propono/propono-commands.c:148
+msgid ""
+"None of the active plugins offer a supported file to be open. Activate some "
+"plugins and try again."
+msgstr "ಸಕ್ರಿಯವಾಗಿರುವ ಯಾವುದೆ ಪ್ಲಗ್‌ಇನ್‌ಗಳು ಬೆಂಬಲಿತ ಕಡತವನ್ನು ತೆರೆಯಲು ಯಾವುದೆ ನೆರವನ್ನು ನೀಡುತ್ತಿಲ್ಲ. ಕೆಲವು ಪ್ಲಗ್‌ಇನ್‌ಗಳನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ ನಂತರ ಇನ್ನೊಮ್ಮೆ ಪ್ರಯತ್ನಿಸಿ."
+
+#: ../propono/propono-commands.c:181
+msgid "The following file could not be opened:"
+msgid_plural "The following files could not be opened:"
+msgstr[0] "ಈ ಕೆಳಗಿನ ಕಡತವನ್ನು ತೆರೆಯಲು ಸಾಧ್ಯವಾಗಿಲ್ಲ:"
+msgstr[1] "ಈ ಕೆಳಗಿನ ಕಡತಗಳನ್ನು ತೆರೆಯಲು ಸಾಧ್ಯವಾಗಿಲ್ಲ:"
+
+#: ../propono/propono-connect.c:86 ../propono/propono-connect.c:330
+#: ../propono/propono-connect.c:424
+msgid "Could not get the active protocol in the protocol list."
+msgstr "ಪ್ರೊಟೊಕಾಲ್‌ ಪಟ್ಟಿಯಲ್ಲಿ ಸಕ್ರಿಯ ಪ್ರೊಟೊಕಾಲ್ ಕಂಡು ಬಂದಿಲ್ಲ."
+
+#: ../propono/propono-connect.c:313
+#, c-format
+msgid "Error while saving history file: %s"
+msgstr "ಇತಿಹಾಸ ಕಡತವನ್ನು ಉಳಿಸುವಲ್ಲಿ ದೋಷ: %s"
+
+#: ../propono/propono-connect.c:340
+msgid "Choose a Remote Desktop"
+msgstr "ದೂರಸ್ಥ ಗಣಕತೆರೆಯನ್ನು ಆಯ್ಕೆ ಮಾಡಿ"
+
+#: ../propono/propono-connection.c:627
+msgid "Could not open the file."
+msgstr "ಕಡತವನ್ನು ತೆರೆಯಲು ಸಾಧ್ಯವಾಗಿಲ್ಲ."
+
+#: ../propono/propono-connection.c:651
+msgid "The file was not recognized by any of the plugins."
+msgstr "ಕಡತವನ್ನು ಯಾವುದೆ ಪ್ಲಗ್‌ಇನ್‌ಗಳಿಂದ ಗುರುತಿಸಲಾಗಿಲ್ಲ."
+
+#: ../propono/propono-fav.c:670
+msgid "Invalid operation"
+msgstr "ಅಮಾನ್ಯವಾದ ಕಾರ್ಯ"
+
+#: ../propono/propono-fav.c:671
+msgid "Data received from drag&drop operation is invalid."
+msgstr "ಎಳೆದು ಸೇರಿಸುವ ಕ್ರಿಯೆಯಿಂದ ಪಡೆಯಲಾದ ದತ್ತಾಂಶವು ಅಮಾನ್ಯವಾಗಿದೆ."
+
+#: ../propono/propono-fav.c:871
+msgid "Hosts nearby"
+msgstr "ಸಮೀಪದ ಅತಿಥೇಯಗಳು"
+
+#. Translators: this is a command line option (run propono --help)
+#: ../propono/propono-main.c:62
+msgid "Open propono in fullscreen mode"
+msgstr "propono ಅನ್ನು ಸಂಪೂರ್ಣ ತೆರೆಯಲ್ಲಿ ತೆರೆ"
+
+#. Translators: this is a command line option (run propono --help)
+#: ../propono/propono-main.c:66
+msgid "Create a new toplevel window in an existing instance of propono"
+msgstr "propono ನ ಈಗಿರುವ ಒಂದು ಪ್ರಸಂಗದಲ್ಲಿ ಒಂದು ಹೊಸ ಮೇಲ್ಮಟ್ಟದ ವಿಂಡೋವನ್ನು ನಿರ್ಮಿಸಿ"
+
+#. Translators: this is a command line option (run propono --help)
+#: ../propono/propono-main.c:70
+msgid "Open a file recognized by propono"
+msgstr "propono ನಿಂದ ಗುರುತಿಸಲಾದ ಕಡತವನ್ನು ತೆರೆ"
+
+#: ../propono/propono-main.c:70
+msgid "filename"
+msgstr "ಕಡತದಹೆಸರು"
+
+#. Translators: this is a command line option (run propono --help)
+#: ../propono/propono-main.c:75
+msgid "[server:port]"
+msgstr "[server:port]"
+
+#: ../propono/propono-main.c:130
+msgid "The following error has occurred:"
+msgid_plural "The following errors have occurred:"
+msgstr[0] "ಈ ಕೆಳಗಿನ ದೋಷವು ಸಂಭವಿಸಿದೆ:"
+msgstr[1] "ಈ ಕೆಳಗಿನ ದೋಷಗಳು ಸಂಭವಿಸಿವೆ:"
+
+#. Setup command line options
+#: ../propono/propono-main.c:169
+msgid "- Remote Desktop Viewer"
+msgstr "- ದೂರಸ್ಥ ಗಣಕತೆರೆಗಳ ವೀಕ್ಷಕ"
+
+#: ../propono/propono-main.c:193
+msgid "Run 'propono --help' to see a full list of available command line options"
+msgstr "ಲಭ್ಯವಿರುವ ಆಜ್ಞಾ ಸಾಲಿನ ಆಯ್ಕೆಗಳ ಸಂಪೂರ್ಣ ಪಟ್ಟಿಗಾಗಿ 'propono --help' ಅನ್ನು ಚಲಾಯಿಸಿ"
+
+#: ../propono/propono-mdns.c:142
+#, c-format
+msgid "Failed to resolve avahi hostname: %s\n"
+msgstr "avahi ಅತಿಥೇಯದ ಹೆಸರನ್ನು ಪರಿಹರಿಸುವಲ್ಲಿ ವಿಫಲಗೊಂಡಿದೆ: %s\n"
+
+#: ../propono/propono-mdns.c:200
+#, c-format
+msgid "Plugin %s has already registered a browser for service %s."
+msgstr "ಪ್ಲಗ್‌ಇನ್ %s ಈಗಾಗಲೆ %s ಸೇವೆಗಾಗಿ ಒಂದು ವೀಕ್ಷಕವನ್ನು ನೋಂದಾಯಿಸಿದೆ."
+
+#: ../propono/propono-mdns.c:209
+#, c-format
+#| msgid "Failed to browse for hosts: %s\n"
+msgid "Failed to add mDNS browser for service %s."
+msgstr "mDNS ವೀಕ್ಷಕವನ್ನು ಸೇವೆಗೆ ಸೇರಿಸುವಲ್ಲಿ ವಿಫಲಗೊಂಡಿದೆ: %s."
+
+#: ../propono/propono-mdns.c:225
+#, c-format
+msgid "Failed to browse for hosts: %s\n"
+msgstr "ಅತಿಥಿಗಳಿಗಾಗಿ ಹುಡುಕುವುದಕ್ಕೆ ಬೆಂಬಲವಿಲ್ಲ: %s\n"
+
+#: ../propono/propono-mdns.c:298
+#, c-format
+#| msgid "Failed to browse for hosts: %s\n"
+msgid "Failed to initialize mDNS browser: %s\n"
+msgstr "mDNS ವೀಕ್ಷಕವನ್ನು ಆರಂಭಿಸುವಲ್ಲಿ ವಿಫಲಗೊಂಡಿದೆ: %s\n"
+
+#. Translators: %s is a host name or IP address.
+#: ../propono/propono-notebook.c:461
+#, c-format
+msgid "Connection to host %s was closed."
+msgstr "ಅತಿಥೇಯ %s ದೊಂದಿಗಿನ ಸಂಪರ್ಕವು ಕಡಿದು ಹೋಗಿದೆ."
+
+#: ../propono/propono-notebook.c:463
+msgid "Connection closed"
+msgstr "ಸಂಪರ್ಕವು ಕಡಿದು ಹೋಗಿದೆ"
+
+#. Translators: %s is a host name or IP address.
+#: ../propono/propono-notebook.c:482
+#, c-format
+msgid "Authentication to host %s has failed"
+msgstr "ಅತಿಥೇಯ %s ದ ದೃಢೀಕರಣವು ವಿಫಲಗೊಂಡಿದೆ"
+
+#: ../propono/propono-notebook.c:488
+msgid "Authentication failed"
+msgstr "ದೃಢೀಕರಣವು ವಿಫಲಗೊಂಡಿದೆ"
+
+#: ../propono/propono-notebook.c:525
+msgid "Connecting..."
+msgstr "ಸಂಪರ್ಕಿಸಲಾಗುತ್ತಿದೆ..."
+
+#: ../propono/propono-notebook.c:552 ../propono/propono-tab.c:325
+msgid "Close connection"
+msgstr "ಸಂಪರ್ಕವನ್ನು ಮುಚ್ಚು"
+
+#: ../propono/propono-plugin-dialog.c:83
+msgid "Plugin Manager"
+msgstr "ಪ್ಲಗ್‌ಇನ್‌ ವ್ಯವಸ್ಥಾಪಕ"
+
+#: ../propono/propono-plugin-manager.c:45
+msgid "Plugin"
+msgstr "ಪ್ಲಗ್ಇನ್"
+
+#: ../propono/propono-plugin-manager.c:46
+msgid "Enabled"
+msgstr "ಸಕ್ರಿಯಗೊಂಡ"
+
+#: ../propono/propono-plugin-manager.c:503
+msgid "C_onfigure"
+msgstr "ಸಂರಚಿಸು(_o)"
+
+#: ../propono/propono-plugin-manager.c:512
+msgid "A_ctivate"
+msgstr "ಸಕ್ರಿಯಗೊಳಿಸು(_c)"
+
+#: ../propono/propono-plugin-manager.c:523
+msgid "Ac_tivate All"
+msgstr "ಎಲ್ಲವನ್ನೂ ಸಕ್ರಿಯಗೊಳಿಸು(_t)"
+
+#: ../propono/propono-plugin-manager.c:528
+msgid "_Deactivate All"
+msgstr "ಎಲ್ಲವನ್ನೂ ನಿಷ್ಕ್ರಿಯಗೊಳಿಸು(_D)"
+
+#: ../propono/propono-plugin-manager.c:824
+msgid "_About Plugin"
+msgstr "ಪ್ಲಗ್ಇನ್‍ನ ಬಗ್ಗೆ(_A)"
+
+#: ../propono/propono-plugin-manager.c:828
+msgid "C_onfigure Plugin"
+msgstr "ಪ್ಲಗ್ಇನ್ ಅನ್ನು ಸಂರಚಿಸು(_o)"
+
+#: ../propono/propono-prefs.c:217
+msgid "Cannot initialize preferences manager."
+msgstr "ಆದ್ಯತೆಗಳ ನಿರ್ವಾಹಕನನ್ನು ಆರಂಭಿಸಲಾಗಿಲ್ಲ."
+
+#: ../propono/propono-tab.c:346
+msgid "Leave fullscreen"
+msgstr "ಪೂರ್ಣತೆರೆಯಿಂದ ನಿರ್ಗಮಿಸು"
+
+#: ../propono/propono-tab.c:495
+msgid "Error saving recent connection."
+msgstr "ಇತ್ತೀಚಿನ ಸಂಪರ್ಕವನ್ನು ಉಳಿಸುವಲ್ಲಿ ದೋಷ."
+
+#: ../propono/propono-tab.c:728
+msgid "Error saving the credentials on the keyring."
+msgstr "ಕೀಲಿ ಸುರುಳಿಯಲ್ಲಿ ಪರಿಚಯಗಳನ್ನು ಉಳಿಸುವಲ್ಲಿ ದೋಷ."
+
+#: ../propono/propono-tab.c:814
+msgid "Could not get a screenshot of the connection."
+msgstr "ಸಂಪರ್ಕದ ಒಂದು ತೆರೆಚಿತ್ರವನ್ನು ತೆಗೆದುಕೊಳ್ಳಲಾಗಲಿಲ್ಲ."
+
+#: ../propono/propono-tab.c:819
+msgid "Save Screenshot"
+msgstr "ತೆರೆಚಿತ್ರವನ್ನು ಉಳಿಸು"
+
+#: ../propono/propono-tab.c:830
+#, c-format
+msgid "Screenshot of %s"
+msgstr "%s ನ ತೆರೆಚಿತ್ರ"
+
+#: ../propono/propono-tab.c:881
+#| msgid "Error saving recent connection."
+msgid "Error saving screenshot"
+msgstr "ತೆರೆ ಚಿತ್ರವನ್ನು ಉಳಿಸುವಲ್ಲಿ ದೋಷ ಉಂಟಾಗಿದೆ"
+
+#: ../propono/propono-tube-handler.c:229
+#, c-format
+msgid "Impossible to get service property: %s"
+msgstr "ಸೇವಾ ಗುಣವನ್ನು ಪಡೆಯಲು ಅಸಾಧ್ಯವಾಗಿದೆ: %s"
+
+#: ../propono/propono-tube-handler.c:286
+#, c-format
+#| msgid "Failed to create the directory"
+msgid "Impossible to create the connection: %s"
+msgstr "ಸಂಪರ್ಕವನ್ನು ನಿರ್ಮಿಸಲು ಅಸಾಧ್ಯವಾಗಿದೆ %s"
+
+#: ../propono/propono-tube-handler.c:325
+#, c-format
+msgid "Impossible to accept the stream tube: %s"
+msgstr "ಸ್ಟ್ರೀಮ್ ಟ್ಯೂಬ್ ಅನ್ನು ಅಂಗೀರಿಸುವುದು ಅಸಾಧ್ಯ: %s"
+
+#: ../propono/propono-tube-handler.c:463
+#, c-format
+msgid "Impossible to get the contact name: %s"
+msgstr "ಸಂಪರ್ಕ ಹೆಸರನ್ನು ಪಡೆದುಕೊಳ್ಳಲು ಸಾಧ್ಯವಾಗಿಲ್ಲ: %s"
+
+#: ../propono/propono-tube-handler.c:498
+#, c-format
+msgid "Impossible to get the avatar: %s"
+msgstr "ಅವತಾರವನ್ನು ಪಡೆದುಕೊಳ್ಳಲು ಸಾಧ್ಯವಾಗಿಲ್ಲ: %s"
+
+#: ../propono/propono-tube-handler.c:519
+#, c-format
+msgid "%s wants to share his desktop with you."
+msgstr "%s ನಿಮ್ಮೊಂದಿಗೆ ತನ್ನ ಗಣಕತೆರೆಯನ್ನು ಹಂಚಿಕೊಳ್ಳಲು ಬಯಸಿದ್ದಾರೆ."
+
+#: ../propono/propono-tube-handler.c:524
+msgid "Desktop sharing invitation"
+msgstr "ಗಣಕತೆರೆ ಹಂಚಿಕೊಳ್ಳುವ ಆಹ್ವಾನ"
+
+#. Toplevel
+#: ../propono/propono-ui.h:33
+msgid "_Machine"
+msgstr "ಗಣಕ(_M)"
+
+#: ../propono/propono-ui.h:34
+msgid "_Edit"
+msgstr "ಸಂಪಾದನೆ(_E)"
+
+#: ../propono/propono-ui.h:35
+msgid "_View"
+msgstr "ನೋಟ(_V)"
+
+#: ../propono/propono-ui.h:36
+msgid "_Bookmarks"
+msgstr "ಬುಕ್‌ಮಾರ್ಕುಗಳು(_B)"
+
+#: ../propono/propono-ui.h:41
+msgid "Connect to a remote machine"
+msgstr "ದೂರಸ್ಥ ಗಣಕಕ್ಕೆ ಸಂಪರ್ಕ ಕಲ್ಪಿಸು"
+
+#: ../propono/propono-ui.h:43
+msgid "Open a .VNC file"
+msgstr "ಒಂದು .VNC ಕಡತವನ್ನು ತೆರೆ"
+
+#: ../propono/propono-ui.h:45
+msgid "Quit the program"
+msgstr "ಪ್ರೋಗ್ರಾಂನಿಂದ ಹೊರನಡೆ"
+
+#: ../propono/propono-ui.h:49
+msgid "Edit the application preferences"
+msgstr "ಅನ್ವಯದ ಆದ್ಯತೆಗಳನ್ನು ಸಂಪಾದಿಸಿ"
+
+#. FIXME: Study this dialog for next release
+#. { "EditPlugins", GTK_STOCK_EXECUTE, N_("_Plugins"), NULL,
+#. N_("Select plugins"), G_CALLBACK (propono_cmd_edit_plugins) },
+#.
+#. Bookmarks menu
+#: ../propono/propono-ui.h:56
+msgid "_Open bookmark"
+msgstr "ಬುಕ್‌ಮಾರ್ಕನ್ನು ತೆರೆ(_O)"
+
+#: ../propono/propono-ui.h:57
+msgid "Connect to this machine"
+msgstr "ಈ ಗಣಕಕ್ಕೆ ಸಂಪರ್ಕ ಕಲ್ಪಿಸು"
+
+#: ../propono/propono-ui.h:58
+msgid "_Edit bookmark"
+msgstr "ಬುಕ್‌ಮಾರ್ಕನ್ನು ಸಂಪಾದಿಸು(_E)"
+
+#: ../propono/propono-ui.h:59
+msgid "Edit the details of selected bookmark"
+msgstr "ಆಯ್ಕೆ ಮಾಡಲಾದ ಬುಕ್‌ಮಾರ್ಕಿನ ವಿವರಗಳನ್ನು ಸಂಪಾದಿಸಿ"
+
+#: ../propono/propono-ui.h:60
+msgid "_Remove from bookmarks"
+msgstr "ಬುಕ್‌ಮಾರ್ಕುಗಳಿಂದ ತೆಗೆದುಹಾಕಿ(_R)"
+
+#: ../propono/propono-ui.h:61
+msgid "Remove current selected connection from bookmarks"
+msgstr "ಪ್ರಸಕ್ತ ಆಯ್ಕೆ ಮಾಡಲಾದ ಸಂಪರ್ಕವನ್ನು ಬುಕ್‌ಮಾರ್ಕುಗಳಿಂದ ತೆಗೆದು ಹಾಕಿ"
+
+#: ../propono/propono-ui.h:62
+msgid "_New Folder"
+msgstr "ಹೊಸ ಕಡತಕೋಶ(_N)"
+
+#: ../propono/propono-ui.h:63
+msgid "Create a new folder"
+msgstr "ಒಂದು ಹೊಸ ಕಡತಕೋಶವನ್ನು ನಿರ್ಮಿಸಿ"
+
+#. Help menu
+#: ../propono/propono-ui.h:66
+msgid "_Contents"
+msgstr "ಒಳವಿಷಯಗಳು(_C)"
+
+#: ../propono/propono-ui.h:67
+msgid "Open the propono manual"
+msgstr "propono ಕೈಪಿಡಿಯನ್ನು ತೆರೆ"
+
+#: ../propono/propono-ui.h:69
+msgid "About this application"
+msgstr "ಈ ಅನ್ವಯದ ಬಗ್ಗೆ"
+
+#: ../propono/propono-ui.h:74
+msgid "_Toolbar"
+msgstr "ಉಪಕರಣಪಟ್ಟಿ(_T)"
+
+#: ../propono/propono-ui.h:75
+msgid "Show or hide the toolbar"
+msgstr "ಉಪಕರಣಪಟ್ಟಿಯನ್ನು ತೋರಿಸು ಅಥವ ಅಡಗಿಸು"
+
+#: ../propono/propono-ui.h:78
+msgid "_Statusbar"
+msgstr "ಸ್ಥಿತಿಪಟ್ಟಿ(_S)"
+
+#: ../propono/propono-ui.h:79
+msgid "Show or hide the statusbar"
+msgstr "ಸ್ಥಿತಿಪಟ್ಟಿಯನ್ನು ತೋರಿಸು ಅಥವ ಅಡಗಿಸು"
+
+#: ../propono/propono-ui.h:82
+msgid "Side _Panel"
+msgstr "ಬದಿಯ ಫಲಕ(_P)"
+
+#: ../propono/propono-ui.h:83
+msgid "Show or hide the side panel"
+msgstr "ಬದಿಯ ಫಲಕವನ್ನು ತೋರಿಸು ಅಥವ ಅಡಗಿಸು"
+
+#: ../propono/propono-ui.h:91
+msgid "Close the current connection"
+msgstr "ಪ್ರಸಕ್ತ ಸಂಪರ್ಕವನ್ನು ಮುಚ್ಚು"
+
+#: ../propono/propono-ui.h:92
+msgid "C_lose All"
+msgstr "ಎಲ್ಲವನ್ನೂ ಮುಚ್ಚು(_l)"
+
+#: ../propono/propono-ui.h:93
+msgid "Close all active connections"
+msgstr "ಎಲ್ಲಾ ಸಕ್ರಿಯ ಸಂಪರ್ಕಗಳನ್ನು ಮುಚ್ಚು"
+
+#. Bookmarks menu
+#: ../propono/propono-ui.h:96
+msgid "_Add to bookmarks"
+msgstr "ಬುಕ್‌ಮಾರ್ಕುಗಳಿಗೆ ಸೇರಿಸು(_A)"
+
+#: ../propono/propono-ui.h:97
+msgid "Add current connection to your bookmarks"
+msgstr "ನಿಮ್ಮ ಬುಕ್‌ಮಾರ್ಕುಗಳಿಗೆ ಪ್ರಸಕ್ತ ಸಂಪರ್ಕವನ್ನು ಸೇರಿಸಿ"
+
+#. Machine menu
+#: ../propono/propono-ui.h:104
+msgid "Take screenshot"
+msgstr "ತೆರೆಚಿತ್ರವನ್ನು ತೆಗೆದುಕೊಳ್ಳಿ"
+
+#: ../propono/propono-ui.h:105
+msgid "Take a screenshot of active connection"
+msgstr "ಸಕ್ರಿಯ ಸಂಪರ್ಕದ ಒಂದು ತೆರೆಚಿತ್ರವನ್ನು ತೆಗೆದುಕೊಳ್ಳಿ"
+
+#: ../propono/propono-ui.h:109
+msgid "View the current machine in full screen"
+msgstr "ಪ್ರಸಕ್ತ ಗಣಕವನ್ನು ಸಂಪೂರ್ಣತೆರೆಯಲ್ಲಿ ನೋಡು"
+
+#: ../propono/propono-utils.c:75
+msgid "An error has occurred:"
+msgstr "ಒಂದು ದೋಷವು ಸಂಭವಿಸಿದೆ:"
+
+#: ../propono/propono-utils.c:150
+#, c-format
+#| msgid "Could not open the file."
+msgid "Could not load builder file: %s"
+msgstr "ನಿರ್ಮಾಣಗಾರ ಕಡತವನ್ನು ಲೋಡ್‌ ಮಾಡಲು ಸಾಧ್ಯವಾಗಿಲ್ಲ: %s"
+
+#: ../propono/propono-utils.c:453
+#| msgid "Propono is a VNC client for the MATE Desktop"
+msgid "Propono is a remote desktop viewer for the MATE Desktop"
+msgstr "Propono ಎನ್ನುವುದು MATE Desktop ಗಾಗಿನ ದೂರಸ್ಥ ಗಣಕತೆರೆಯನ್ನು ನೋಡುವ ಸಾಧನವಾಗಿದೆ"
+
+#: ../propono/propono-utils.c:456
+msgid ""
+"Propono is free software; you can redistribute it and/or modify it under the "
+"terms of the GNU General Public License as published by the Free Software "
+"Foundation; either version 2 of the License, or (at your option) any later "
+"version."
+msgstr ""
+"Propono is free software; you can redistribute it and/or modify it under the "
+"terms of the GNU General Public License as published by the Free Software "
+"Foundation; either version 2 of the License, or (at your option) any later "
+"version."
+
+#: ../propono/propono-utils.c:460
+msgid ""
+"Propono is distributed in the hope that it will be useful, but WITHOUT ANY "
+"WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS "
+"FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more "
+"details."
+msgstr ""
+"Propono is distributed in the hope that it will be useful, but WITHOUT ANY "
+"WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS "
+"FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more "
+"details."
+
+#: ../propono/propono-utils.c:464
+msgid ""
+"You should have received a copy of the GNU General Public License along with "
+"this program. If not, see <http://www.gnu.org/licenses/>."
+msgstr ""
+"You should have received a copy of the GNU General Public License along with "
+"this program. If not, see <http://www.gnu.org/licenses/>."
+
+#: ../propono/propono-utils.c:486
+msgid "translator-credits"
+msgstr "ಶಂಕರ್ ಪ್ರಸಾದ್ ಎಂ. ವಿ. <svenkate@redhat.com>"
+
+#: ../propono/propono-utils.c:489
+msgid "Propono Website"
+msgstr "Propono ಜಾಲತಾಣ"
+
+#: ../propono/propono-window.c:397
+#, c-format
+msgid "Could not merge propono-ui.xml: %s"
+msgstr "propono-ui.xml ಅನ್ನು ಒಗ್ಗೂಡಿಸಲು ಸಾಧ್ಯವಾಗಿಲ್ಲ: %s"
+
+#: ../propono/propono-window.c:425
+msgid "_Recent connections"
+msgstr "ಇತ್ತೀಚಿನ ಸಂಪರ್ಕಗಳು(_R)"
+
+#. Translators: This is server:port, a statusbar tooltip when mouse is over a bookmark item on menu
+#: ../propono/propono-window.c:585
+#, c-format
+msgid "Open %s:%d"
+msgstr "%s ಅನ್ನು ತೆರೆ:%d"

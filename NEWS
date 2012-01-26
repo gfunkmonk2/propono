@@ -1,0 +1,900 @@
+Propono 2.30.2
+===============
+
+  Fixes
+
+	+ Removed password length limit for SSH connections
+	+ Allows using of an alternative ssh port when doing tunnel
+
+  UI translations:
+
+	+ Bruce Cowan (en_GB)
+	+ Fran Diéguez (gl)
+	+ Gabor Kelemen (hu)
+	+ Gil Forcada (ca)
+	+ Ivar Smolin (et)
+	+ Jonh Wendell (pt_BR)
+	+ Jorge González (es)
+	+ Mario Blättermann (de)
+	+ Matej Urbančič (sl)
+	+ Rajesh Ranjan (hi)
+	+ Rudolfs Mazurs (lv)
+	+ Thomas Thurman (en@shaw)
+	+ Yaron Shahrabani (he)
+
+  Doc translations:
+
+	+ Jorge González (es)
+
+Propono 2.30.1
+===============
+
+  Fixes
+
+	+ Fix a crash when using SSH tunneling due to a not exported symbol
+	+ Added various comments for translators
+	+ Bump telepathy minimum version to 0.9.0
+	+ Fix SSH username saving in bookmarks
+	+ Make sure we use system ifaddrs.h thus showing the correct IP address in
+	the Reverse Connections dialog
+
+  UI translations
+
+	+ Andika Triwidada (id)
+	+ Carles Ferrando (ca@valencia)
+	+ Jordi Serratosa (ca)
+	+ Kjartan Maraas (nb)
+	+ Roman Mátyus (sk)
+	+ Theppitak Karoonboonyanan (th)
+	+ Xandru Armesto (ast)
+	+ Žygimantas Beručka (lt)
+
+Propono 2.30.0
+===============
+
+  UI Translations
+
+	+ Andrea Zagli (it)
+	+ A S Alam (pa)
+	+ Daniel Nylander (sv)
+	+ Duarte Loreto (pt)
+	+ Gabor Kelemen (hu)
+	+ Inaki Larranaga Murgoitio (eu)
+	+ Jamil Ahmed (bn)
+	+ Leonid Kanter (ru)
+	+ Maxim V. Dziumanenko (uk)
+	+ Nikos Bakaoukas (el)
+	+ Petr Kovar (cs)
+	+ Tommi Vainikainen (fi)
+	+ YunQiang Su (zh_CN)
+
+  Doc translations:
+
+	+ Claude Paroz (fr)
+
+Propono 2.29.92
+===============
+
+  UI Translations
+
+	+ Ask H. Larsen (da)
+	+ Bruce Cowan (en_GB)
+	+ Changwoo Ryu (ko)
+	+ Joan Duran (ca)
+	+ Kjartan Maraas (nb)
+	+ Peteris Krisjanis (lv)
+	+ Piotr Drąg (pl)
+
+Propono 2.29.91
+===============
+
+  UI Translations
+
+	+ Chao-Hsiung Liao (zh_HK) (zh_TW)
+	+ Claude Paroz (fr)
+	+ Fran Diéguez (gl)
+	+ Inaki Larranaga Murgoitio (eu)
+	+ Kjartan Maraas (nb)
+	+ Leonid Kanter (ru)
+	+ Lucian Adrian Grijincu (ro)
+	+ Matej Urbančič (sl)
+	+ Sweta Kothari (gu)
+	+ vasudeven (ta)
+	+ Wolfgang Stöggl (de)
+
+Propono 2.29.90
+===============
+
+  Features
+
+	+ Improved SSH tunneling.
+	+ Show a message in the first run explaining menu accelerators and
+	keyboard shortcuts behavior in Propono.
+	+ Store window size, position, panel state, etc in the XDG_CACHE_DIR
+	instead of MateConf.
+	+ Enable the username field for SSH connections.
+	+ Option to keep the aspect ratio when using scaling.
+	+ Modernize autotools.
+	+ SSH plugin uses the username provided from mdns (Avahi).
+
+  Fixes
+
+	+ Fix build on Solaris (Halton Huo).
+	+ Drop 1px line at toolbar in fullscreen mode.
+	+ Minor fixes
+
+  UI translations:
+
+	+ Aron Xu (zh_CN)
+	+ Ivar Smolin (et)
+	+ Jamil Ahmed (bn)
+	+ Jonh Wendell (pt_BR)
+	+ Jorge González (es)
+	+ Kjartan Maraas (nb)
+	+ Krasimir Chonov (bg)
+	+ Matej Urbančič (sl)
+	+ Mattias Põldaru (et)
+	+ Sweta Kothari (gu)
+
+Propono 2.29.6
+==============
+
+  Features
+
+	+ Added basic support to SSH tunneling, to be polished in next release.
+	+ Updated Telepathy support to the new API
+
+
+  UI translations:
+
+	+ Christian.Kirbach (de)
+	+ Claude Paroz (fr)
+	+ Daniel Nylander (sv)
+	+ drtvasudevan (ta)
+	+ Inaki Larranaga Murgoitio (eu)
+	+ Ivar Smolin (et)
+	+ Jorge González (es)
+	+ Kjartan Maraas (nb)
+	+ Liel Fridman (he)
+	+ Lucian Adrian Grijincu (ro)
+	+ Matej Urbančič (sl)
+	+ Maxim V. Dziumanenko (uk)
+	+ Peteris Krisjanis (lv)
+	+ Thomas Thurman (en@shaw)
+	+ Tournaris Pavlos-Petros (el)
+	+ Xandru Armesto Fernandez (ast)
+	+ Yaron Sharabani (he)
+
+  Doc translations:
+
+	+ Aleksander Łukasiewicz (pl)
+	+ Christian Kirbach (de)
+
+Propono 2.29.1
+==============
+
+  Features
+
+	+ Added a listener mode (similar to vncviewer -listen)
+	+ Added ability to request an screen update
+	+ Added ability to change depth color
+	+ Added ability to use JPEG compression (lossy encoding)
+	+ Added an toolbar in bookmarks panel
+	+ Use AM_SILENT_RULES if available
+	+ Requires gtk-vnc 0.3.10
+
+  Fixes
+
+	+ Fix warnings and crashes activating bookmarks
+	+ Keep the aspect ratio when using scaling mode
+
+  UI translations:
+
+	+ Adi Roiban (ro)
+	+ Amitakhya Phukan (as)
+	+ Andrea Zagli (it)
+	+ Ani (ml)
+	+ Ask H. Larsen (da)
+	+ Branko Kokanović (sr) (sr@latin)
+	+ Bruce Cowan (en_GB)
+	+ Carles Ferrando (ca@valencia)
+	+ drtvasudevan (ta)
+	+ Gabor Kelemen (hu)
+	+ Gintautas Miliauskas (lt)
+	+ Ivar Smolin (et)
+	+ Joan Duran (ca)
+	+ Jorge González (es)
+	+ Kostas Papadimas (el)
+	+ krishnababu k (te)
+	+ Manoj Kumar Giri (or)
+	+ Matej Urbančič (sl)
+	+ Maxim V. Dziumanenko (uk)
+	+ Petr Kovar (cs)
+	+ Rajesh Ranjan (hi)
+	+ Rajesh Ranjan (mai)
+	+ Shankar Prasad (kn)
+
+  Doc translations:
+	+ Petr Kovar (cs)
+	+ Sterios Prosiniklis (el)
+
+Propono 2.27.92
+===============
+
+  Features and Fixes
+
+	+ Removed duplicated names in the UI file, avoiding crashes (Robert Ancell).
+	+ Show IP addresses of avahi-discovered machines instead of names (Jonh Wendell).
+	+ Handle MateConf errors in preferences (Matthias Clasen).
+
+  UI translations:
+
+	+ A S Alam (pa)
+	+ Baris Cicek (tr)
+	+ Branko Kokanović (sr) (sr@latin)
+	+ Changwoo Ryu (ko)
+	+ Duarte Loreto (pt)
+	+ ifelix (ta)
+	+ Inaki Larranaga Murgoitio (eu)
+	+ Jamil Ahmed (bn)
+	+ Khaled Hosny (ar)
+	+ Kjartan Maraas (nb)
+	+ krishnababu k (te)
+	+ Mario Blättermann (de)
+	+ Sandeep Shedmake (mr)
+	+ Shankar Prasad (kn)
+	+ Sweta Kothari (gu)
+	+ Tomasz Dominikowski (pl)
+	+ Tommi Vainikainen (fi)
+
+  Doc translations:
+	+ Jonh Wendell (pt_BR)
+	+ Jorge González (es)
+	+ Mario Blättermann (de)
+
+Propono 2.27.91
+===============
+
+  Features and Fixes
+
+	+ Updated Unix man page (Emilio Monfort).
+	+ Improvements in Telepathy tubes (Arnaud Maillet).
+	+ Toolbar in full screen mode is now centralized.
+	+ Updated documentation (help).
+
+  UI translations:
+	+ Alexander Shopov (bg)
+	+ Antón Méixome (gl)
+	+ Chao-Hsiung Liao (zh_HK) (zh_TW)
+	+ Claude Paroz (fr)
+	+ Daniel Nylander (sv)
+	+ Ivar Smolin (et)
+	+ Krix Apolinário, Henrique Machado (pt_BR)
+	+ Jorge González (es)
+	+ Manoj Kumar Giri (or)
+	+ Mattias Põldaru (et)
+	+ Priit Laes (et)
+	+ Runa Bhattacharjee (bn_IN)
+	+ Seán de Búrca (ga)
+	+ Tommi Vainikainen (fi)
+
+  Doc translations:
+	+ Mario Blättermann (de)
+	+ Milo Casagrande (it)
+
+Propono 2.27.90
+===============
+
+  Features and Fixes
+	+ Use GtkBuilder instead of Glade.
+	+ Added a *very basic* SSH plugin. Enable it with --enable-ssh in configure.
+	+ Panel applet is now optional. Disable it with --disable-applet.
+	+ Toolbar in fullscreen mode is now centralized.
+	+ Screenshot can be saved in various formats.
+	+ New fullscreen command-line option.
+	+ New scaled command-line option.
+	+ If the server is omitted in the command line, 'localhost' is assumed.
+	+ Clipboard operations work even with special chars.
+
+  UI translations:
+	+ Antón Méixome (gl)
+	+ Chao-Hsiung Liao (zh_HK) (zh_TW)
+	+ Claude Paroz (fr)
+	+ Daniel Nylander (sv)
+	+ Ivar Smolin (et)
+	+ Jochen Skulj (de)
+	+ Jorge González (es)
+	+ Kjartan Maraas (nb)
+	+ Mattias Põldaru (et)
+
+Propono 2.27.5
+==============
+
+  Features and Fixes
+	+ New plugin system. All protocols should be implemented as a plugin.
+	Initially we have only VNC plugin.
+	+ Telepathy tubes support. This allows you to access a screen of an
+	IM contact.
+	+ Lots of minor fixes.
+	+ Some regressions? File a bug please!
+
+  UI translations:
+	+ Alexander Shopov (bg)
+	+ A S Alam (pa)
+	+ Daniel Nylander (sv)
+	+ drtvasudevan (ta)
+	+ Ilkka Tuohela (fi)
+	+ Ivar Smolin (et)
+	+ Jorge Gonzalez (es)
+	+ Kjartan Maraas (nb)
+	+ Luca Ferretti (it)
+	+ Lucas Lommer (cs)
+	+ Manoj Kumar Giri (or)
+	+ Marios Zindilis (el)
+	+ Mattias Põldaru (et)
+	+ Maxim V. Dziumanenko (uk)
+	+ Nathan-J. Hirschauer (de)
+	+ Runa Bhattacharjee (bn_IN)
+	+ Yaron Shahrabani (he)
+
+  Doc translations:
+	+ Fotis Tsamis (el)
+	+ Łukasz Jernaś (pl)
+	+ Petr Kovar (cs)
+	+ TeliuTe (zh_CN)
+
+Propono 2.26.1
+==============
+
+  Fixes
+
+	+ #574134 – Don't allow items name duplicated on bookmarks.
+
+  Translations
+
+	+ Khaled Hosny (ar)
+	+ Joan Duran (ca)
+	+ Lucas Lommer (cs)
+	+ Ask Hjorth Larsen (da)
+	+ Mario Blättermann (de)
+	+ Jennie Petoumenou (el)
+	+ Jen Ockwell (en_GB)
+	+ Jorge González (es)
+	+ Mattias Põldaru (et)
+	+ Iñaki Larrañaga Murgoitio (eu)
+	+ Claude Paroz (fr)
+	+ Suso Baleato (gl)
+	+ Yaron Shahrabani (he)
+	+ Gabor Kelemen (hu)
+	+ Andrea Zagli (it)
+	+ Takeshi AIHANA (ja)
+	+ Shankar Prasad (kn)
+	+ Changwoo Ryu (ko)
+	+ Vytautas Rėkus (lt)
+	+ Sandeep Shedmake (mr)
+	+ Kjartan Maraas (nb)
+	+ Wouter Bolsterlee (nl)
+	+ Jonh Wendell (pt_BR)
+	+ Yuriy Penkin (ru)
+	+ Daniel Nylander (sv)
+	+ Baris Cicek (tr)
+	+ Oleksandr Kovalenko (uk)
+	+ Ray Wang (zh_CN)
+
+Propono 2.26.0
+==============
+
+  Translations
+
+	+ Amitakhya Phukan (as)
+	+ Alexander Shopov (bg)
+	+ Runa Bhattacharjee (bn_IN)
+	+ Petr Kovar (cs)
+	+ Ask Hjorth Larsen (da)
+	+ Jennie Petoumenou (el)
+	+ Jorge González (es)
+	+ Sweta Kothari (gu)
+	+ Yaron Shahrabani (he)
+	+ Rajesh Ranjan (hi)
+	+ Takeshi AIHANA (ja)
+	+ Vytautas Rėkus (lt)
+	+ Hari|ഹരി Vishnu | വിഷ്ണു (ml)
+	+ Sandeep Shedmake (mr)
+	+ Manoj Kumar Giri (or)
+	+ Yuriy Penkin (ru)
+	+ I. Felix (ta)
+	+ Krishna Babu K (te)
+
+
+Propono 2.25.92
+===============
+
+  Fixes
+
+	+ Improved the authentication dialog.
+	+ Allow IPv6 address in command line as well in	the connection dialog.
+	The address must be enclosed by square braces, for instance: [::a:b:c:d].
+	This is the same syntax used by RealVNC.
+
+  Translations
+
+	+ Ihar Hrachyshka (be@latin)
+	+ Joan Duran (ca)
+	+ Wolfgang Stoeggl (de)
+	+ Sotiria Tziouri (el)
+	+ Philip Withnall (en_GB)
+	+ Jorge González (es)
+	+ Ivar Smolin (et)
+	+ Iñaki Larrañaga Murgoitio (eu)
+	+ Ilkka Tuohela (fi)
+	+ Claude Paroz (fr)
+	+ Sweta Kothari (gu)
+	+ Gabor Kelemen (hu)
+	+ Shankar Prasad (kn)
+	+ Changwoo Ryu (ko)
+	+ Jovan Naumovski (mk)
+	+ Sandeep Shedmake (mr)
+	+ Kjartan Maraas (nb)
+	+ Wouter Bolsterlee (nl)
+	+ Amanpreet Singh Alam (pa)
+	+ Tomasz Dominikowski (pl)
+	+ Jonh Wendell (pt_BR)
+	+ Duarte Loreto (pt)
+	+ Adi Roiban (ro)
+	+ Daniel Nylander (sv)
+	+ Theppitak Karoonboonyanan (th)
+	+ Maxim Dziumanenko (uk)
+	+ 甘露(Gan Lu) (zh_CN)
+	+ Chao-Hsiung Liao (zh_HK)
+	+ Chao-Hsiung Liao (zh_TW)
+
+Propono 2.25.91
+===============
+
+  Translations
+
+	+ Astur (ast)
+	+ Alexander Shopov (bg)
+	+ Ask Hjorth Larsen (da)
+	+ Nathan-J. Hirschauer (de)
+	+ Jorge González (es)
+	+ Iñaki Larrañaga Murgoitio (eu)
+	+ laurent coudeur (fr)
+	+ Gabor Kelemen (hu)
+	+ Manoj Kumar Giri (or)
+	+ Tomasz Dominikowski (pl)
+	+ Jonh Wendell (pt_BR)
+	+ Duarte Loreto (pt)
+	+ Adi Roiban (ro)
+	+ Daniel Nylander (sv)
+	+ Clytie Siddall (vi)
+	+ Chao-Hsiung Liao (zh_HK)
+	+ Chao-Hsiung Liao (zh_TW)
+
+Propono 2.25.90
+===============
+  Fixes
+
+	+ Fix the applet icon on transparent panels
+	+ Handle correctly --enable-avahi option in configure.ac
+
+  Translations
+
+	+ Joan Duran (ca)
+	+ Changwoo Ryu (ko)
+	+ Kjartan Maraas (nb)
+	+ Daniel Nylander (sv)
+	+ 甘露(Gan Lu) (zh_CN)
+
+
+Propono 2.25.5
+==============
+
+  Translations
+
+	+ Mark Krapivner (he)
+	+ Kjartan Maraas (nb)
+
+
+Propono 2.25.4
+==============
+
+  Features
+
+	+ #558596: Added minimize button to toolbar in fullscreen mode. Thanks
+	to Vinicius Depizzol for his work on the icon.
+	+ Depends on gtk-vnc 0.3.8. This makes scaling work even on composited
+	screens.
+
+  Translations
+
+	+ Jorge González (es)
+	+ Mattias Põldaru (et)
+	+ Raivis Dejus (lv)
+	+ Kjartan Maraas (nb)
+	+ Taylon (pt_BR)
+
+
+Propono 2.25.3
+==============
+
+  Features
+
+	+ #509948: Added an 'original size' option in the view menu.
+	+ #557740: Make avahi optional again. Pass '--disable-avahi' to configure.
+	+ #559526: Allow username in the authentication schema.
+	+ #536896: Drag and drop ability: Bookmark can be added by dragging
+	and dropping an tab into it.
+	+ #549649: Folders in bookmarks.
+	+ New manual page, by Emilio Pozuelo Monfort and Halton Huo.
+	+ Added an initial preferences dialog.
+
+  Bugs
+
+	+ #554995: Create the parent directory before copying the old bookmarks
+	file to the new location.
+	+ #555803: Hides menu mnemonics.
+	+ #559525: Better parse a .vnc file.
+	+ #550596: Sort bookmarks alphabetically.
+	+ #562526: Make 'propono --help' fully localized.
+
+  Translations
+
+	+ Ihar Hrachyshka (be@latin)
+	+ nikosCharonitakis (el)
+	+ Jorge González (es)
+	+ Mattias Põldaru (et)
+	+ Iñaki Larrañaga Murgoitio (eu)
+	+ Mark Krapivner (he)
+	+ Vladimir Melo (pt_BR)
+
+
+Propono 2.24.0
+==============
+
+  Translations
+
+	+ Youssef Chahibi (ar)
+	+ Ask Hjorth Larsen (da)
+	+ Mario Blättermann (de)
+	+ Gabor Kelemen (hu)
+	+ Andrea Zagli (it)
+	+ Shankar Prasad (kn)
+	+ Changwoo Ryu (ko)
+	+ Gintautas Miliauskas (lt)
+	+ Manoj Kumar Giri (or)
+	+ Alexandre Prokoudine (ru)
+	+ Горан Ракић (sr)
+	+ Baris Cicek (tr)
+	+ Deng Xiyue (zh_CN)
+	+ Y.C.Liu (zh_HK)
+	+ Y.C.Liu (zh_TW)
+
+Propono 2.23.92
+===============
+  Fixes
+
+	+ Support down scaling, requires gtk-vnc 0.3.7
+
+  Translations
+
+	+ Alexander Shopov (bg)
+	+ Runa Bhattacharjee (bn_IN)
+	+ Joan Duran (ca)
+	+ nikosCharonitakis (el)
+	+ Philip Withnall (en_GB)
+	+ Takeshi AIHANA (ja)
+	+ പ്രവീണ്‍ അരിമ്പ്രത്തൊടിയില്‍ (ml)
+	+ Vincent van Adrighem (nl)
+	+ Dr.T.Vasudevan (ta)
+
+Propono 2.23.91
+===============
+  Fixes
+
+	+ Minor bug fixes
+
+  Translations
+
+	+ Joan Duran (ca, Documentation)
+	+ Mario Blättermann (de, UI and Documentation)
+	+ Jorge González (es)
+	+ Iñaki Larrañaga Murgoitio (eu)
+	+ Mark Krapivner (he)
+	+ Jovan Naumovski (mk)
+	+ Sandeep Shedmake (mr)
+	+ Vladimir Melo (pt_BR)
+	+ Daniel Nylander (sv)
+
+Propono 2.23.90
+===============
+  Fixes
+
+	+ Minor bug fixes
+
+  Translations
+
+	+ Youssef Chahibi (ar)
+	+ Alexander Shopov (bg)
+	+ Petr Kovar (cs)
+	+ Jorge González (es)
+	+ Priit Laes (et)
+	+ Ilkka Tuohela (fi)
+	+ Claude Paroz (fr)
+	+ Ignacio Casal Quinteiro (gl)
+	+ Sweta Kothari (gu)
+	+ Mark Krapivner (he)
+	+ Kjartan Maraas (nb)
+	+ Yannig Marchegay (Kokoyaya) (oc)
+	+ Tomasz Dominikowski (pl)
+	+ Vladimir Melo (pt_BR)
+	+ Duarte Loreto (pt)
+	+ Matej Urbančič (sl)
+	+ Laurent Dhima (sq)
+	+ Theppitak Karoonboonyanan (th)
+
+Propono 2.23.4
+==============
+  Features
+
+	+ Added a panel applet
+
+  Translations
+
+	+ Djihed Afifi (ar)
+	+ Petr Kovar (cs)
+	+ Jorge González (es)
+	+ Ivar Smolin (et)
+	+ Frédéric Péters (fr)
+	+ Ignacio Casal Quinteiro (gl)
+	+ Mark Krapivner (he)
+	+ Kjartan Maraas (nb)
+	+ Yannig Marchegay (Kokoyaya) (oc)
+	+ Clytie Siddall (vi)
+
+
+Propono 2.23.3.1
+================
+  Bugs
+
+	+ Bug #536330 - [build break] libview/autoDrawer.h: No such file or directory
+
+Propono 2.23.3
+==============
+  Features
+
+	+ Bug #522100 - Provide option to leave fullscreen mode. While in fullscreen
+	  mode, if you move the mouse to top of window, a toolbar appears.
+	+ Now we grab the keyboard automatically when the focus is on Propono
+	+ Added a mateconf option to disable all menu shortcuts. This is useful if
+	  you want to get rid of having your key presses being intercepted by Propono.
+	+ Bug #515816 - Connect dialog should remember Host/Port address.
+	  Also reworked 'connect' and 'edit bookmark' dialogs, allowing you to
+	  provide some options to the connection, like scaling, fullscreen...
+	+ Bug #536111 - Store bookmarks file in XDG data dir (~/.local/share/propono).
+	  The old file is automatically copied to new location.
+
+  Bugs
+    + Bug #531969 - Fix scrolling.
+    + Ubuntu #233918 - Persist changes in menu shortcuts.
+
+  Translations
+	+ Djihed Afifi (ar)
+	+ Jorge González (es)
+	+ Ignacio Casal Quinteiro (gl)
+	+ Mate Ory (hu)
+	+ Kjartan Maraas (nb)
+	+ Tino Meinen (nl)
+	+ Manoj Kumar Giri (or)
+
+Propono 2.23.2
+==============
+  Features
+
+	+ Bug #490841, Added "Send ctrl-alt-del" option to menu and toolbar (Henrik Holst).
+	+ Tell the server to share the connection with other clients (it can be
+	disabled through the mateconf key "shared_flag").
+	+ Bug #530712, Initial support for VEncrypt sessions (Henrik Holst).
+	+ Bug #501165, Support for host::port command line syntax (Henrik Holst).
+	+ Bug #518351, Don't show tabs when only one connection is open. (you can
+	always show tabs with the mateconf key "always_show_tabs".
+	+ Bug #519145, Added unique instance behavior. Added a new command line
+	option, "--new-window" if you want to use another propono window.
+	+ Depends on gtk-vnc 0.3.6.
+
+  Fixes
+
+	+ Bug #531593, don't distribute propono-enums.[hc].
+	+ Bug #530582, handles correctly the clipboard.
+
+  Translations
+
+	+ Jorge González (es)
+	+ Ivar Smolin (et)
+	+ Ignacio Casal Quinteiro (gl)
+	+ Mark Krapivner (he)
+	+ Kjartan Maraas (nb)
+
+Propono 2.23.1
+==============
+  Features
+
+	+ Bug #476942, initial support to scaling, see README file for details.
+	+ Bug #512918, modified the side panel, to show avahi-discovered machines.
+	+ New debug stuff, added the command line option: --gtk-vnc-debug
+	+ Bug #509945, provides a 'read-only' mode.
+	+ Mandatory dependency on avahi >= 0.6.22
+
+  Fixes
+
+	+ Several minor fixes
+
+  Translations
+
+	+ Simos Xenitellis (el)
+	+ Jorge González (es)
+	+ Mark Krapivner (he)
+	+ Erdal Ronahi (ku)
+	+ Kjartan Maraas (nb)
+	+ Eskild Hustvedt (nn)
+	+ Amanpreet Singh Alam (pa)
+	+ Laurent Dhima (sq)
+	+ Daniel Nylander (sv)
+
+Propono 0.5
+===========
+
+  Translations
+
+	+ Djihed Afifi (ar)
+	+ Sankarshan Mukhopadhyay (bn_IN)
+	+ Ask Hjorth Larsen (da)
+	+ Philip Withnall (en_GB)
+	+ Jorge González (es)
+	+ Stéphane Raimbault (fr)
+	+ Rajesh Ranjan (hi)
+	+ Gabor Kelemen (hu)
+	+ Andrea Zagli (it)
+	+ Takeshi AIHANA (ja)
+	+ Changwoo Ryu (ko)
+	+ Gintautas Miliauskas (lt)
+	+ Arangel Angov (mk)
+	+ Ani Peter (ml)
+	+ Sandeep Shedmake (mr)
+	+ Daniel Nylander (sv)
+	+ I. Felix (ta)
+	+ Tolga Gunkut (tr)
+	+ Maxim Dziumanenko (uk)
+	+ Y.C.Liu (zh_HK)
+	+ Y.C.Liu (zh_TW)
+
+Propono 0.4.92 (0.5 Release Candidate)
+======================================
+
+  Fixes
+	+ Fix an inconsistency in menu sensitivity (Jonh Wendell).
+	+ Fix build in Solaris (Halton Huo)
+
+  Translations
+
+	+ Djihed Afifi (ar)
+	+ Joan Duran (ca)
+	+ Simos Xenitellis (el)
+	+ Jorge González (es)
+	+ Ilkka Tuohela (fi)
+	+ Claude Paroz (fr)
+	+ Nyitrai István (hu)
+	+ Wouter Bolsterlee (nl)
+	+ Filipe Gomes (pt)
+	+ Leonid Kanter (ru)
+	+ Matej Urbančič (sl)
+	+ Theppitak Karoonboonyanan (th)
+	+ Y.C.Liu (zh_HK)
+	+ Y.C.Liu (zh_TW)
+
+Propono 0.4.91 (0.5 beta 2)
+===========================
+
+  Features
+
+	+ Register ourself as handler for vnc:// protocol
+	+ Depends on gtk-vnc 0.3.3
+
+  Fixes
+	+ Allow port numbers less than 1024 (#513381).
+
+  Translations
+
+	+ Djihed Afifi (ar)
+	+ Ihar Hrachyshka (be@latin)
+	+ Petr Kovar (cs)
+	+ Andre Klapper (de)
+	+ Jorge González (es)
+	+ Ivar Smolin (et)
+	+ Iñaki Larrañaga Murgoitio (eu)
+	+ Ignacio Casal Quinteiro (gl)
+	+ Kjartan Maraas (nb)
+	+ Tomasz Dominikowski (pl)
+	+ Og Maciel (pt_BR)
+	+ Daniel Nylander (sv)
+	+ Y.C.Liu (zh_HK)
+	+ Y.C.Liu (zh_TW)
+
+Propono 0.4.90 (0.5 beta 1)
+===========================
+
+  Features
+
+	+ Documentation (Jaap A. Haitsma and Vinicius Depizzol)
+	+ Man page (Emilio Pozuelo Monfort)
+	+ Make use of new gio instead of mate-vfs
+	+ Depends on gtk-vnc 0.3.2
+
+  Fixes
+	+ Minor fixes
+
+  Translations
+
+	+ Ivar Smolin (et)
+	+ Iñaki Larrañaga Murgoitio (eu)
+	+ Yair Hershkovitz (he)
+	+ Namhyung Kim (ko)
+	+ Jovan Naumovski (mk)
+	+ Reinout van Schouwen (nl)
+	+ Yannig Marchegay (Kokoyaya) (oc)
+	+ Filipe Gomes (pt)
+	+ Leonid Kanter (ru)
+
+Propono 0.4
+===========
+
+  Features
+
+	+ Store vnc passwords in mate-keyring
+	+ Support clipboard copy and paste
+	+ We have our own icon, thanks to Vinicius Depizzol
+	+ Basic support to open .vnc files
+	+ Keep track of recent connections (Menu Places->Recent Documents)
+	+ Lots of minor fixes
+	+ Depends on gtk-vnc 0.3
+
+  Translations
+
+	+ Djihed Afifi (ar)
+	+ Alexander Shopov (bg)
+	+ Joan Duran (ca)
+	+ Andre Klapper (de)
+	+ Jorge González (es)
+	+ Ilkka Tuohela (fi)
+	+ Claude Paroz (fr)
+	+ Ignacio Casal Quinteiro (gl)
+	+ Gabor Kelemen (hu)
+	+ Andrea Zagli (it)
+	+ Kjartan Maraas (nb)
+	+ Reinout van Schouwen (nl)
+	+ Yannig Marchegay (Kokoyaya) (oc)
+	+ Vladimir Melo and Og Maciel (pt_BR)
+	+ W.H. Kalpa Pathum (si)
+	+ Matej Urbančič (sl)
+	+ Daniel Nylander (sv)
+
+Propono 0.3
+===========
+
+  Features
+
+    + Shows a message dialog when the connection is lost
+    + Added command line parsing, now you can call 'propono <host:port>'
+    + Added 'Take a Screenshot' feature
+    + Shows tooltips on statusbar
+    + Shows a error message when the auth fails
+    + Depends on gtk-vnc 0.2 (is this a feature? :))
+
+  Fixes
+
+    + A lot of small fixes
+
+Propono 0.2
+===========
+
+ - Initial public alpha quality release

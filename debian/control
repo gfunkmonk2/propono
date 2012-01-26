@@ -1,0 +1,66 @@
+Source: propono
+Section: misc
+Priority: optional
+Maintainer: Ubuntu Desktop Team <ubuntu-desktop@lists.ubuntu.com>
+XSBC-Original-Maintainer: Emilio Pozuelo Monfort <pochu@debian.org>
+Uploaders: @MATE_TEAM@
+Build-Depends: cdbs (>= 0.4.52),
+               debhelper (>= 5.0.51~),
+               dh-autoreconf,
+               mate-common,
+               mate-doc-utils (>= 1.1.0),
+               mate-doc-utils-gnome,
+               intltool (>= 0.40.0),
+               libglib2.0-dev (>= 2.17.0),
+               libx11-dev,
+               libgtk2.0-dev (>= 2.13.1),
+               libmateconf-dev (>= 1.1.0),
+               libmatekeyring-dev,
+               libgtk-vnc-1.0-dev (>= 0.3.10),
+               libavahi-ui-dev (>= 0.6.22),
+               libavahi-gobject-dev (>= 0.6.22),
+               libmatepanelapplet-dev (>= 1.1.0),
+               libdbus-glib-1-dev,
+               libvte-dev (>= 0.20),
+               libxml2-dev (>= 2.6.31),
+               libtelepathy-glib-dev (>= 0.9.0),
+               openssh-client,
+               libmateconf,
+               docbook-xml
+Standards-Version: 3.9.0
+Homepage: http://www.mate.org/projects/propono/
+Vcs-Bzr: https://code.launchpad.net/~ubuntu-desktop/propono/ubuntu
+
+Package: propono
+Architecture: any
+Depends: ${shlibs:Depends},
+         ${misc:Depends}
+Description: remote desktop client for the MATE Desktop
+ Propono is a remote desktop client integrated into the MATE Desktop.
+ .
+ With Propono you can have several connections open simultaneously,
+ bookmark your servers thanks to the Favorites support, store the
+ passwords in the MATE keyring, and browse the network to look for
+ VNC servers.
+ .
+ Supported protocols are VNC and SSH.
+
+Package: propono-dev
+Architecture: any
+Section: devel
+Depends: ${shlibs:Depends},
+         ${misc:Depends},
+         propono (= ${binary:Version}),
+         libgtk2.0-dev (>= 2.13.1),
+         libxml2-dev (>= 2.6.31)
+Description: remote desktop client for the MATE Desktop (devel)
+ Propono is a remote desktop client integrated into the MATE Desktop.
+ .
+ With Propono you can have several connections open simultaneously,
+ bookmark your servers thanks to the Favorites support, store the
+ passwords in the MATE keyring, and browse the network to look for
+ VNC servers.
+ .
+ Supported protocols are VNC and SSH.
+ .
+ This package contains the development files.

@@ -1,0 +1,8 @@
+debian/tmp/usr/bin
+debian/tmp/usr/lib/propono
+debian/tmp/usr/lib/propono-1/plugins/*.propono-plugin
+debian/tmp/usr/lib/propono-1/plugins/*.so
+debian/tmp/usr/lib/propono-1/plugin-loaders/*.so
+debian/tmp/usr/lib/matecomponent
+debian/tmp/usr/share
+debian/tmp/etc

@@ -1,0 +1,46 @@
+Propono 2.30.2
+===============
+
+This is propono, a remote desktop viewer for the MATE Desktop.
+
+You can download or see more information about it on:
+   http://projects.mate.org/propono/
+
+
+Installation
+============
+
+  - See the file 'INSTALL'
+
+
+What's New?
+===========
+
+  - See the file 'NEWS'
+
+
+Who is behind Propono?
+======================
+
+  - See the file 'AUTHORS'
+
+
+Enabling scaling
+================
+
+ - Current version (2.25 an up):
+  Scaling should be working out-of-the-box, as it relies on cairo, and cairo
+  is present on most platforms. Note that gtk-vnc >= 0.3.8 is required.
+
+ - Older versions (2.24 and earlier):
+  In order to enable scaling in Propono, gtk-vnc widget must have been
+  compiled with this feature enabled. Just build gtk-vnc with the flag
+  '--with-gtkglext=yes', in the configure stage.
+
+Bookmarks
+=========
+
+  - In Propono 2.23.3 we have moved the bookmarks file location from ~/.mate2
+  to ~/.local/share/propono, which is the recommended place for data files.
+  The change should be transparent, i.e., we automatically copy the old file
+  to the new place if we detect that new file does not exist yet.

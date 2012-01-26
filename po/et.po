@@ -1,0 +1,1048 @@
+# Propono eesti keele tõlge.
+# Estonian translation of Propono.
+#
+# Copyright (C) 2008-2010 The Mate Project.
+# This file is distributed under the same license as the propono package.
+#
+# Ivar Smolin <okul linux ee>, 2008-2010.
+# Mattias Põldaru <mahfiaz gmail com>, 2008-2010.
+# Priit Laes <plaes plaes org>, 2008, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: propono 2.30\n"
+"Report-Msgid-Bugs-To: http://bugzilla.mate.org/enter_bug.cgi?"
+"product=propono&component=general\n"
+"POT-Creation-Date: 2010-06-05 14:56+0000\n"
+"PO-Revision-Date: 2010-02-03 11:55+0200\n"
+"Last-Translator: Ivar Smolin <okul@linux.ee>\n"
+"Language-Team: Estonian <mate-et@linux.ee>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "_About"
+msgstr "_Programmist lähemalt"
+
+msgid "_Help"
+msgstr "A_bi"
+
+msgid "Access remote desktops"
+msgstr "Ligipääs kaugtöölaudadele"
+
+msgid "Remote Desktop Viewer"
+msgstr "Kaugtöölaudade vaataja"
+
+msgid "Allow _keyboard shortcuts"
+msgstr "_Kiirklahvid on lubatud"
+
+msgid "Authentication is required"
+msgstr "Autentimine on vajalik"
+
+#. setup label
+msgid "Bookmarks"
+msgstr "Järjehoidjad"
+
+msgid "Connection"
+msgstr "Ühendus"
+
+msgid "Connection options"
+msgstr "Ühenduse valikud"
+
+msgid "Folder"
+msgstr "Kaus"
+
+msgid "Host:"
+msgstr "Host:"
+
+msgid "Interface"
+msgstr "Kasutajakeskkond"
+
+msgid "Options"
+msgstr "Valikud"
+
+msgid "Parent Folder"
+msgstr "Ülemine kataloog"
+
+msgid "Preferences"
+msgstr "Eelistused"
+
+#. This is a tooltip in preferences dialog
+msgid ""
+"This option enables menu accelerators and keyboard shortcuts. For more info "
+"on why you may want to disable them, check the documentation."
+msgstr ""
+"See valik lubab kiirklahvid ja menüü otseteed. Täpsema info selle kohta, "
+"miks võiks need keelata, leiab dokumentatsioonist."
+
+msgid "Which machine do you want to connect to?"
+msgstr "Millise masinaga soovid ühendust võtta?"
+
+msgid "_Always show tabs"
+msgstr "_Alati näidatakse sakke"
+
+#. This is a button label, in the authentication dialog
+msgid "_Authenticate"
+msgstr "_Autendi"
+
+msgid "_Full screen"
+msgstr "_Täisekraan"
+
+msgid "_Host:"
+msgstr "_Host:"
+
+#. Translators: This is the name of a bookmark. It appears in the add/edit bookmark dialog.
+msgid "_Name:"
+msgstr "_Nimi:"
+
+msgid "_Password:"
+msgstr "_Parool:"
+
+msgid "_Protocol:"
+msgstr "_Protokoll:"
+
+msgid "_Remember this credential"
+msgstr "See _tõend jäetakse meelde"
+
+msgid "_Username:"
+msgstr "_Kasutajanimi:"
+
+msgid "Active plugins"
+msgstr "Aktiivsed pluginad"
+
+msgid ""
+"List of active plugins. It contains the \"Location\" of the active plugins. "
+"See the .propono-plugin file for obtaining the \"Location\" of a given "
+"plugin."
+msgstr ""
+"Aktiivsete pluginate loend. See sisaldab aktiivsete pluginate \"asukohta\". "
+"Konkreetse plugina \"asukoha\" leiad .propono-plugin failist."
+
+msgid "Maximum number of history items in connect dialog"
+msgstr "Ühendusdialoogi ajalookirjete suurim hulk"
+
+msgid ""
+"Set to \"false\" to disable menu shortcuts. Set to \"true\" to enable them. "
+"Note that if they are enabled, those keys will be intercepted by the menu "
+"and will not be sent to the remote host."
+msgstr ""
+"Määra väärtuseks \"false\" et keelata menüüde kiirklahvid. Määra väärtuseks "
+"\"true\" et need lubada. Pane tähele, et kui need on lubatud, püüab need "
+"kiirklahvid kinni menüü ja neid ei saadeta kaughostile."
+
+msgid ""
+"Set to \"true\" to always show the tabs. Set to \"false\" to only show the "
+"tabs when there is more than one active connection."
+msgstr ""
+"Kui märgitud, siis näidatakse alati sakke. Kui märkimata, siis näidatakse "
+"sakke ainult rohkem kui ühe aktiivse ühenduse korral."
+
+msgid ""
+"Set to \"true\" to always start the program listening for reverse "
+"connections."
+msgstr ""
+"Määra väärtuseks \"tõene\", et programmi käivitumisel alati kuulataks "
+"pööratud ühendusi."
+
+msgid "Specifies the maximum number of items in the host dropdown entry."
+msgstr "Määrab suurima kirjete arvu hostide ripploendis."
+
+msgid "The handler for \"vnc://\" URLs"
+msgstr "\"vnc://\" URL-ide käsitleja"
+
+msgid ""
+"When connecting to a host, the client can say to the server to leave other "
+"clients connected or to drop the existent connections. Set the value to true "
+"to share the desktop with the other clients."
+msgstr ""
+"Uue hostiga ühendudes võib klient öelda serverile, kas teised kliendid "
+"võivad jääda ühendatuks või tuleb olemasolevad ühendused sulgeda. Kui sa "
+"tahad töölauda teiste klientidega jagada, siis peab see väärtus märgitud "
+"olema."
+
+msgid "Whether we should leave other clients connected"
+msgstr "Kas teised kliendid tuleb jätta ühendatuks või mitte"
+
+msgid ""
+"Whether we should show tabs even when there is only one active connection"
+msgstr "Kas ainult ühe aktiivse ühenduse korral näidatakse sakke või mitte"
+
+msgid "Whether we should show the menu accelerators (shortcut keys)"
+msgstr "Kas näidata menüüdes kiirklahve või mitte"
+
+msgid "Whether we should start the program listening for reverse connections"
+msgstr "Kas programmi käivitamisel kuulatakse pööratud ühendusi"
+
+msgid "Remote Desktop (VNC) file"
+msgstr "Kaugtöölaua (VNC) fail"
+
+msgid "Remote Desktop Connection"
+msgstr "Kaugtöölaua ühendus"
+
+#. vim: set ts=8:
+msgid "SSH"
+msgstr "SSH"
+
+#. Translators: This is a description of the SSH protocol. It appears at Connect dialog.
+msgid "Access Unix/Linux terminals"
+msgstr "Ligipääs Unixi/Linuxi terminalidele"
+
+msgid "SSH Options"
+msgstr "SSH valikud"
+
+#. Translators: This is the tooltip for the username field in a SSH connection
+msgid ""
+"Optional. If blank, your username will be used. Also, it can be supplied in "
+"the Machine field above, in the form username@hostname."
+msgstr ""
+"Valikuline. Tühja väärtuse korral kasutatakse sinu kasutajanime. "
+"Kasutajanime on võimalik määrata ka hostinimes kujul kasutajanimi@hostinimi."
+
+msgid "Port:"
+msgstr "Port:"
+
+msgid "SSH support"
+msgstr "SSH tugi"
+
+#. Translators: 'shared' here is a VNC protocol specific flag. You can translate it, but I think it's better to let it untranslated
+#, c-format
+msgid ""
+"Bad value for 'shared' flag: %d. It is supposed to be 0 or 1. Ignoring it."
+msgstr ""
+" 'shared' lipul on sobimatu väärtus: %d. See peaks olema 0 või 1. Lippu "
+"eiratakse."
+
+#. Translators: "Reverse" here is an adjective, not a verb.
+msgid "_Reverse Connections..."
+msgstr "_Pööratud ühendused..."
+
+msgid "Configure incoming VNC connections"
+msgstr "Sisenevate VNC-ühenduste seadistamine"
+
+#. Translators: this is a command line option (run propono --help)
+msgid "Enable scaled mode"
+msgstr "Luba skaleeritud režiim"
+
+#. Translators: this is a command line option (run propono --help)
+msgid "VNC Options:"
+msgstr "VNC valikud:"
+
+#. Translators: this is a command line option (run propono --help)
+msgid "Show VNC Options"
+msgstr "Kuva VNC valikud"
+
+#. vim: set ts=8:
+msgid "VNC"
+msgstr "VNC"
+
+msgid "Access Unix/Linux, Windows and other machines."
+msgstr "Ligipääs Unixi/Linuxi, Windowsi ja teiste opsüsteemidega masinatele."
+
+msgid "Could not parse the file."
+msgstr "Faili pole võimalik töödelda."
+
+#. Translators: Do not translate "connection". It's the name of a group in the .vnc (.ini like) file.
+msgid "The file is not a VNC one: Missing the group \"connection\"."
+msgstr "See pole VNC fail: puudub grupp \"connection\"."
+
+#. Translators: Do not translate "host". It's the name of a key in the .vnc (.ini like) file.
+msgid "The file is not a VNC one: Missing the key \"host\"."
+msgstr "See pole VNC fail: puudub võti \"host\"."
+
+msgid "VNC Options"
+msgstr "VNC Valikud"
+
+#. View only check button
+msgid "_View only"
+msgstr "_Kirjutuskaitsega"
+
+#. Scaling check button
+msgid "_Scaling"
+msgstr "_Skaleerimine"
+
+msgid "_Keep aspect ratio"
+msgstr "Säilita _proportsioone"
+
+#. JPEG Compression check button
+msgid "_Use JPEG Compression"
+msgstr "_JPEG-tihenduse kasutamine"
+
+msgid "This might not work on all VNC servers"
+msgstr "See ei pruugi kõigi VNC-serveritega töötada"
+
+msgid "_Depth Color:"
+msgstr "_Värvisügavus:"
+
+msgid "Use Server Settings"
+msgstr "Kasutatakse serveri sätteid"
+
+msgid "True Color (24 bits)"
+msgstr "Loomutruud värvid (24 bitti)"
+
+msgid "High Color (16 bits)"
+msgstr "Head värvid (16 bitti)"
+
+msgid "Low Color (8 bits)"
+msgstr "Vähe värve (8 bitti)"
+
+msgid "Ultra Low Color (3 bits)"
+msgstr "Eriti vähe värve (3 bitti)"
+
+#. Translators: the whole sentence will be: Use host <hostname> as a SSH tunnel
+msgid "Use h_ost"
+msgstr "Kasuta h_osti"
+
+#. Translators: This is the tooltip of the SSH tunneling entry
+msgid "hostname or user@hostname"
+msgstr "hostinimi või kasutaja@hostinimi"
+
+#. Translators: the whole sentence will be: Use host <hostname> as a SSH tunnel
+msgid "as a SSH tunnel"
+msgstr "SSH tunnelina"
+
+#. Translators: this is a pattern to open *.vnc files in a open dialog.
+msgid "VNC Files"
+msgstr "VNC failid"
+
+msgid "Desktop Name:"
+msgstr "Töölaua nimi:"
+
+msgid "Dimensions:"
+msgstr "Mõõtmed:"
+
+msgid "Error creating the SSH tunnel"
+msgstr "Tõrge SSH tunneli loomisel"
+
+msgid "Unknown reason"
+msgstr "Põhjus tundmatu"
+
+msgid "Error connecting to host."
+msgstr "Viga hostiga ühendumisel."
+
+#. Translators: %s is a host name or IP address; %u is a code error (number). Also, the right sentence would be ... method for host...
+#, c-format
+msgid "Authentication method to host %s is unsupported. (%u)"
+msgstr "Hosti <i>%s</i> autentimismeetod pole toetatud. (%u)"
+
+msgid "Authentication unsupported"
+msgstr "Toetamata autentimismeetod"
+
+msgid "Authentication error"
+msgstr "Viga autentimisel"
+
+msgid "A username is required in order to access this machine."
+msgstr "Ligipääsuks sellele masinale on vaja kasutajanime."
+
+msgid "A password is required in order to access this machine."
+msgstr "Sellele masinale ligipääsuks on vaja parooli."
+
+msgid "S_caling"
+msgstr "_Skaleerimine"
+
+msgid "Fits the remote screen into the current window size"
+msgstr "Kaugekraani sobitamine käesolevasse aknasse"
+
+msgid "_Keep Aspect Ratio"
+msgstr "Säilita _proportsioone"
+
+msgid "Keeps the screen aspect ratio when using scaling"
+msgstr "Skaleerimisel proportsioonide säilitamine"
+
+msgid "Does not send mouse and keyboard events"
+msgstr "Hiire- ja klaviatuurisündmuseid ei saadeta"
+
+msgid "_Original size"
+msgstr "_Algne suurus"
+
+msgid "Adjusts the window to the remote desktop's size"
+msgstr "Akna suurus sobitatakse kaugtöölaua suurusega"
+
+msgid "_Refresh Screen"
+msgstr "_Värskenda ekraani"
+
+msgid "Requests an update of the screen"
+msgstr "Ekraani värskendamise pärimine"
+
+#. Send Ctrl-alt-del
+msgid "Send Ctrl-Alt-Del"
+msgstr "Saada Ctrl+Alt+Del"
+
+msgid "Sends Ctrl+Alt+Del to the remote machine"
+msgstr "Kaugmasinale Ctrl+Alt+Del saatmine"
+
+msgid "Scaling"
+msgstr "Skaleerimine"
+
+msgid "Read only"
+msgstr "Kirjutuskaitsega"
+
+msgid ""
+"Scaling is not supported on this installation.\n"
+"\n"
+"Read the README file (shipped with Propono) in order to know how to enable "
+"this feature."
+msgstr ""
+"Selles paigalduses ei ole skaleerimine toetatud.\n"
+"\n"
+"Selle võimaluse sisselülitamist on kirjeldatud README failis (tuleb "
+"Propono'ga kaasa)."
+
+#, c-format
+msgid "Unable to find a free TCP port"
+msgstr "Ei suuda leida vaba TCP-porti"
+
+msgid "VNC support"
+msgstr "VNC tugi"
+
+msgid "IPv4:"
+msgstr "IPv4:"
+
+msgid ""
+"\n"
+"\n"
+"IPv6:"
+msgstr ""
+"\n"
+"\n"
+"IPv6:"
+
+#, c-format
+msgid "On the port %d"
+msgstr "Pordil %d"
+
+msgid "Incoming VNC connection arrived but there is no active window"
+msgstr "Saabus sissetulev VNC-ühendus, aga puudub aktiivne aken"
+
+#. vim: set ts=8:
+msgid ""
+"By activating reverse connections you can access machines that are behind a "
+"firewall. The remote side is supposed to initiate the connection with you. "
+"For further information, checkout the help."
+msgstr ""
+"Pööratud ühenduse kaudu saab ligi tulemüüri taga asuvatele masinatele. "
+"Kaugmasin peaks sinuga ühendust alustama. Rohkem teavet leiab abist."
+
+msgid "Connectivity"
+msgstr "Ühenduvus"
+
+msgid "Reverse Connections"
+msgstr "Pööratud ühendused"
+
+msgid "This machine is reachable through the following IP address(es):"
+msgstr "See arvuti on ligipääsetav järgnevatelt IP aadressi(te)lt:"
+
+#. Translators: this is the reverse connection mode. "Always enabled" means it will be enabled by default in the program startup. You can see this string in the dialog Machine->Reverse connections.
+msgid "_Always Enabled"
+msgstr "_Alati lubatud"
+
+msgid "_Enable Reverse Connections"
+msgstr "_Pööratud ühendused on lubatud"
+
+msgid "A menu to quickly access remote machines"
+msgstr "Kaugmasinaga kiirelt ühenduse võtmise menüü"
+
+msgid "Propono Applet Factory"
+msgstr "Propono rakendi Factory"
+
+msgid "Could not run propono:"
+msgstr "Proponot pole võimalik käivitada:"
+
+msgid "Open Remote Desktop Viewer"
+msgstr "Kaugtöölaudade vaataja avamine"
+
+msgid "Access your bookmarks"
+msgstr "Ligipääs järjehoidjatele"
+
+#, c-format
+msgid "The protocol %s is not supported."
+msgstr "%s-protokoll pole toetatud."
+
+#, c-format
+msgid "Error while initializing bookmarks: %s"
+msgstr "Viga järjehoidjate lähtestamisel: %s"
+
+msgid "Unknown error"
+msgstr "Tundmatu viga"
+
+msgid "Error while initializing bookmarks: The file seems to be empty"
+msgstr "Viga järjehoidjate lähtestamisel: Fail tundub tühi"
+
+msgid ""
+"Error while initializing bookmarks: The file is not a propono bookmarks file"
+msgstr "Viga järjehoidjate lähtestamisel: See ei ole propono järjehoidjafail"
+
+msgid "Error while saving bookmarks: Failed to create the XML structure"
+msgstr "Viga järjehoidjate salvestamisel: XML struktuuri loomine nurjus"
+
+msgid "Error while saving bookmarks: Failed to initialize the XML structure"
+msgstr "Viga järjehoidjate salvestamisel: XML struktuuri lähtestamine nurjus"
+
+msgid "Error while saving bookmarks: Failed to finalize the XML structure"
+msgstr "Viga järjehoidjate salvestamisel: XML struktuuri lõpetamine nurjus"
+
+#, c-format
+msgid "Error while saving bookmarks: %s"
+msgstr "Viga järjehoidjate salvestamisel: %s"
+
+msgid "Error while migrating bookmarks: Failed to create the XML structure"
+msgstr "Viga järjehoidjate vormingu uuendamisel: XML struktuuri loomine nurjus"
+
+msgid "Error while migrating bookmarks: Failed to initialize the XML structure"
+msgstr ""
+"Viga järjehoidjate vormingu uuendamisel: XML struktuuri lähtestamine nurjus"
+
+msgid "Error while migrating bookmarks: Failed to finalize the XML structure"
+msgstr ""
+"Viga järjehoidjate vormingu uuendamisel: XML struktuuri lõpetamine nurjus"
+
+#, c-format
+msgid "Error while migrating bookmarks: %s"
+msgstr "Viga järjehoidjate vormingu uuendamisel: %s"
+
+msgid "Error while migrating bookmarks: VNC plugin is not activated"
+msgstr "Viga järjehoidjate migreerimisel: VNC plugin pole aktiveeritud"
+
+msgid "Failed to create the directory"
+msgstr "Kausta loomine nurjus"
+
+msgid ""
+"Migrating the bookmarks file to the new format. This operation is only "
+"supposed to run once."
+msgstr ""
+"Järjehoidjate faili vormingu uuendamine. See tegevus peaks käivituma ainult "
+"üks kord."
+
+#, c-format
+msgid "Error opening old bookmarks file: %s"
+msgstr "Viga vana järjehoidjate faili avamisel: %s"
+
+msgid "Migration cancelled"
+msgstr "Failivormingu uuendamine katkestati"
+
+msgid "Could not remove the old bookmarks file"
+msgstr "Vana järjehoidjate faili pole võimalik eemaldada"
+
+msgid "Root Folder"
+msgstr "Juurkaust"
+
+msgid "Invalid name for this folder"
+msgstr "Kausta nimi on sobimatu"
+
+#, c-format
+msgid ""
+"The name \"%s\" is already used in this folder. Please use a different name."
+msgstr "Nime \"%s\" on selles kaustas juba kasutatud. Vali muu nimi."
+
+msgid "Invalid name for this item"
+msgstr "Kirje nimi on sobimatu"
+
+#. Translators: %s is a protocol name, like VNC or SSH
+#, c-format
+msgid "(Protocol: %s)"
+msgstr "(Protokoll: %s)"
+
+#. Translators: %s is a bookmark entry name
+#, c-format
+msgid "Are you sure you want to remove %s from bookmarks?"
+msgstr "Kas eemaldada %s järjehoidjate hulgast?"
+
+msgid "Remove Folder?"
+msgstr "Kas kaust eemaldada?"
+
+msgid "Notice that all its subfolders and items will be removed as well."
+msgstr "Tähelepanu! Koos sellega kustutatakse ka kõik alamkaustad ja kirjed."
+
+msgid "Remove Item?"
+msgstr "Kas kirje eemaldada?"
+
+msgid "Error removing bookmark: Entry not found"
+msgstr "Viga järjehoidja eemaldamisel: kirjet ei leitud"
+
+msgid "New Folder"
+msgstr "Uus kaust"
+
+#, c-format
+msgid "Error while saving preferences: %s"
+msgstr "Viga eelistuste salvestamisel: %s"
+
+msgid "Choose the file"
+msgstr "Faili valimine"
+
+msgid "There are no supported files"
+msgstr "Pole ühtegi toetatud faili"
+
+msgid ""
+"None of the active plugins support this action. Activate some plugins and "
+"try again."
+msgstr ""
+"Mitte ükski aktiivsetest pluginatest ei toeta seda tegevust. Aktiveeri veel "
+"pluginaid ja proovi uuesti."
+
+msgid "The following file could not be opened:"
+msgid_plural "The following files could not be opened:"
+msgstr[0] "Järgnevat faili pole võimalik avada:"
+msgstr[1] "Järgnevaid faile pole võimalik avada:"
+
+#. Translators: Please consider the word "from" instead of "in". I'll fix this phrase for 2.31 (or 3.0)
+msgid "Could not get the active protocol in the protocol list."
+msgstr "Protokolliloendist ei saadud aktiivset protokolli."
+
+#, c-format
+msgid "Error while saving history file: %s"
+msgstr "Viga ajaloofaili salvestamisel: %s"
+
+msgid "Choose a Remote Desktop"
+msgstr "Kaugtöölaua valimine"
+
+msgid "Could not open the file."
+msgstr "Faili pole võimalik avada."
+
+msgid "The file was not recognized by any of the plugins."
+msgstr "Ükski pluginatest ei tundnud seda faili ära."
+
+msgid "_New Folder"
+msgstr "_Uus kaust"
+
+msgid "Create a new folder"
+msgstr "Loo uus kataloog"
+
+msgid "_Open bookmark"
+msgstr "_Ava järjehoidja"
+
+msgid "Connect to this machine"
+msgstr "Selle masinaga ühenduse võtmine"
+
+msgid "_Edit bookmark"
+msgstr "_Redigeeri järjehoidjat"
+
+msgid "Edit the details of selected bookmark"
+msgstr "Valitud järjehoidja üksikasjade muutmine"
+
+msgid "_Remove from bookmarks"
+msgstr "_Eemalda järjehoidjate hulgast"
+
+msgid "Remove current selected connection from bookmarks"
+msgstr "Valitud järjehoidja eemaldamine järjehoidjate seast"
+
+#, c-format
+msgid "Could not merge UI XML file: %s"
+msgstr "Kasutajaliidese XML-faili pole võimalik ühendada: %s"
+
+msgid "Invalid operation"
+msgstr "Sobimatu tegevus"
+
+msgid "Data received from drag&drop operation is invalid."
+msgstr "Aknasse lohistatud andmed ei ole sobivad."
+
+msgid "Hide panel"
+msgstr "Peida paneel"
+
+msgid "Hosts nearby"
+msgstr "Lähedalasuvad hostid"
+
+#. Translators: this is a command line option (run propono --help)
+msgid "Open propono in fullscreen mode"
+msgstr "Propono avamine täisekraanirežiimis"
+
+#. Translators: this is a command line option (run propono --help)
+msgid "Create a new toplevel window in an existing instance of propono"
+msgstr "Olemasolevale propono instantsile uue ülataseme akna loomine"
+
+#. Translators: this is a command line option (run propono --help)
+msgid "Open a file recognized by propono"
+msgstr "Proponole tuntud vormingus faili avamine"
+
+msgid "filename"
+msgstr "failinimi"
+
+#. Translators: this is a command line option (run propono --help)
+msgid "[server:port]"
+msgstr "[server:port]"
+
+msgid "The following error has occurred:"
+msgid_plural "The following errors have occurred:"
+msgstr[0] "Leidis aset järgmine viga:"
+msgstr[1] "Leidsid aset järgmised vead:"
+
+#. Setup command line options
+msgid "- Remote Desktop Viewer"
+msgstr "- Kaugtöölaudade vaataja"
+
+msgid ""
+"Run 'propono --help' to see a full list of available command line options"
+msgstr "Kõigi käsureavõtmete vaatamiseks käivita 'propono --help'"
+
+#, c-format
+msgid "Failed to resolve avahi hostname: %s\n"
+msgstr "Tõrge avahi hostinime lahendamisel: %s\n"
+
+#, c-format
+msgid "Plugin %s has already registered a browser for service %s."
+msgstr "Plugin %s on juba registreerinud teenuse %s jaoks lehitseja."
+
+#, c-format
+msgid "Failed to add mDNS browser for service %s."
+msgstr "Tõrge mDNS-i sirvija lisamisel teenusele %s."
+
+#. Translators: "Browse for hosts" means the ability to find/locate some machines [with the VNC service enabled] in the local network
+#, c-format
+msgid "Failed to browse for hosts: %s\n"
+msgstr "Tõrge hostide sirvimisel: %s\n"
+
+#, c-format
+msgid "Failed to initialize mDNS browser: %s\n"
+msgstr "Tõrge mDNS-i sirvija lähtestamisel: %s\n"
+
+#. Translators: %s is a host name or IP address.
+#, c-format
+msgid "Connection to host %s was closed."
+msgstr "Ühendus hostiga %s suleti."
+
+msgid "Connection closed"
+msgstr "Ühendus suleti"
+
+#. Translators: %s is a host name or IP address.
+#, c-format
+msgid "Authentication to host %s has failed"
+msgstr "Autentimine hostile %s nurjus"
+
+msgid "Authentication failed"
+msgstr "Autentimine nurjus"
+
+msgid "Connecting..."
+msgstr "Ühendumine..."
+
+msgid "Close connection"
+msgstr "Ühenduse sulgemine"
+
+msgid "Plugin Manager"
+msgstr "Pluginahaldur"
+
+msgid "Plugin"
+msgstr "Plugin"
+
+#. Translators: "Enabled" is the title of a column in the plugins treeview. This column shows a checkbox, where the plugin can be [de]activated. If it's activated, its status is "enabled" and the checkbox is checked.
+msgid "Enabled"
+msgstr "Lubatud"
+
+msgid "C_onfigure"
+msgstr "_Seadista"
+
+msgid "A_ctivate"
+msgstr "_Aktiveeri"
+
+msgid "Ac_tivate All"
+msgstr "Aktiveeri _kõik"
+
+msgid "_Deactivate All"
+msgstr "_Deaktiveeri kõik"
+
+msgid "_About Plugin"
+msgstr "_Pluginast lähemalt"
+
+msgid "C_onfigure Plugin"
+msgstr "_Seadista pluginat"
+
+msgid "Cannot initialize preferences manager."
+msgstr "Eelistuste haldurit pole võimalik lähtestada."
+
+msgid "Timed out when logging into SSH host"
+msgstr "SSH-hostile sisselogimisel saabus ajapiirang"
+
+msgid "Unable to spawn ssh program"
+msgstr "SSH-programmi pole võimalik käivitada"
+
+#, c-format
+msgid "Unable to spawn ssh program: %s"
+msgstr "SSH-programmi pole võimalik käivitada: %s"
+
+msgid "Timed out when logging in"
+msgstr "Sisselogimine aegus"
+
+msgid "Permission denied"
+msgstr "Ligipääs keelatud"
+
+msgid "Password dialog canceled"
+msgstr "Paroolidialoog katkestati"
+
+msgid "Could not send password"
+msgstr "Parooli ei olnud võimalik saata"
+
+msgid "Log In Anyway"
+msgstr "Logi ikkagi sisse"
+
+msgid "Cancel Login"
+msgstr "Katkesta sisselogimine"
+
+#, c-format
+msgid ""
+"The identity of the remote computer (%s) is unknown.\n"
+"This happens when you log in to a computer the first time.\n"
+"\n"
+"The identity sent by the remote computer is %s. If you want to be absolutely "
+"sure it is safe to continue, contact the system administrator."
+msgstr ""
+"Kaugmasina (%s) identiteet on tundmatu.\n"
+"See juhtub siis, kui logid sealsesse arvutisse sisse esimest korda.\n"
+"\n"
+"Kaugmasina saadetud identiteet on %s. Kui sa tahad olla täiesti kindel, et "
+"jätkamine on turvaline, kontakteeru süsteemihalduriga."
+
+msgid "Login dialog canceled"
+msgstr "Sisselogimise dialoog katkestati"
+
+msgid "Can't send host identity confirmation"
+msgstr "Hosti identiteedikinnitust pole võimalik saata"
+
+msgid "Error saving the credentials on the keyring."
+msgstr "Viga tõendite salvestamisel võtmerõngasse."
+
+msgid "Hostname not known"
+msgstr "Hostinimi on tundmatu"
+
+msgid "No route to host"
+msgstr "Puudub marsruut hostini"
+
+msgid "Connection refused by server"
+msgstr "Server keeldus ühendusest"
+
+msgid "Host key verification failed"
+msgstr "Hosti turvavõtme kontrollimine nurjus"
+
+msgid "Unable to find a valid SSH program"
+msgstr "Sobivat SSH-rakendust ei suudeta leida"
+
+msgid "Leave fullscreen"
+msgstr "Välju täisekraanvaatest"
+
+msgid "Error saving recent connection."
+msgstr "Viga hiljutise ühenduse salvestamisel."
+
+msgid "Could not get a screenshot of the connection."
+msgstr "Ühendusest pole võimalik kuvatõmmist võtta."
+
+msgid "Save Screenshot"
+msgstr "Kuvatõmmise salvestamine"
+
+#. Translators: This is the suggested filename (in save dialog) when taking a screenshot of the connection. %s will be replaced by the friendly name of the connection, for instance: Screenshot of wendell@wendell-laptop, or Screenshot of 200.100.100.123
+#, c-format
+msgid "Screenshot of %s"
+msgstr "Masina %s kuvatõmmis"
+
+msgid "Error saving screenshot"
+msgstr "Viga kuvatõmmise salvestamisel"
+
+#, c-format
+msgid "Impossible to get service property: %s"
+msgstr "Teenuse omadust pole võimalik hankida: %s"
+
+#, c-format
+msgid "Impossible to create the connection: %s"
+msgstr "Ühendust pole võimalik luua: %s"
+
+#, c-format
+msgid "Impossible to accept the stream tube: %s"
+msgstr "Andmevoo toruga pole võimalik nõustuda: %s"
+
+#. Translators: this is an error message when we fail to get the name of an empathy/telepathy buddy. %s will be replaced by the actual error message.
+#, c-format
+msgid "Impossible to get the contact name: %s"
+msgstr "Kontaktnime pole võimalik hankida: %s"
+
+#, c-format
+msgid "Impossible to get the avatar: %s"
+msgstr "Avatari pole võimalik hankida: %s"
+
+#, c-format
+msgid "%s wants to share their desktop with you."
+msgstr "%s soovib oma töölauda sinuga jagada."
+
+msgid "Desktop sharing invitation"
+msgstr "Töölaua jagamise kutse"
+
+#. Toplevel
+msgid "_Machine"
+msgstr "_Masin"
+
+msgid "_Edit"
+msgstr "_Redaktor"
+
+msgid "_View"
+msgstr "_Vaade"
+
+msgid "_Bookmarks"
+msgstr "_Järjehoidjad"
+
+msgid "Connect to a remote machine"
+msgstr "Kaugmasinaga ühenduse võtmine"
+
+msgid "Open a .VNC file"
+msgstr ".VNC faili avamine"
+
+msgid "Quit the program"
+msgstr "Programmist väljumine"
+
+msgid "Edit the application preferences"
+msgstr "Redigeeri rakenduse eelistusi"
+
+msgid "_Plugins"
+msgstr "_Pluginad"
+
+msgid "Select plugins"
+msgstr "Pluginate valimine"
+
+#. Help menu
+msgid "_Contents"
+msgstr "_Sisukord"
+
+msgid "Open the propono manual"
+msgstr "Vinage käsiraamatu avamine"
+
+msgid "About this application"
+msgstr "Sellest rakendusest lähemalt"
+
+msgid "_Toolbar"
+msgstr "_Tööriistariba"
+
+msgid "Show or hide the toolbar"
+msgstr "Tööriistariba näitamine või peitmine"
+
+msgid "_Statusbar"
+msgstr "_Olekuriba"
+
+msgid "Show or hide the statusbar"
+msgstr "Olekuriba näitamine või peitmine"
+
+msgid "Side _Panel"
+msgstr "Külg_paneel"
+
+msgid "Show or hide the side panel"
+msgstr "Külgpaneeli näitamine või peitmine"
+
+msgid "Close the current connection"
+msgstr "Käesoleva ühenduse sulgemine"
+
+msgid "C_lose All"
+msgstr "Sulge _kõik"
+
+msgid "Close all active connections"
+msgstr "Kõigi aktiivsete ühenduste sulgemine"
+
+#. Bookmarks menu
+msgid "_Add to bookmarks"
+msgstr "_Lisa järjehoidjatesse"
+
+msgid "Add current connection to your bookmarks"
+msgstr "Käesoleva ühenduse lisamine järjehoidjate hulka"
+
+#. Machine menu
+msgid "Take screenshot"
+msgstr "Võta kuvatõmmis"
+
+msgid "Take a screenshot of active connection"
+msgstr "Aktiivsest ühendusest kuvatõmmise võtmine"
+
+msgid "View the current machine in full screen"
+msgstr "Käesoleva masina vaatamine täisekraanil"
+
+msgid "An error has occurred:"
+msgstr "Esines järgmine viga:"
+
+msgid ""
+"A plugin tried to open an UI file but did not succeed, with the error "
+"message:"
+msgstr ""
+"Plugin proovis kasutajaliidese faili avada, kuid see tegevus lõppes veaga: "
+
+msgid ""
+"The program tried to open an UI file but did not succeed, with the error "
+"message:"
+msgstr ""
+"Programm proovis kasutajaliidese faili avada, kuid see tegevus lõppes veaga: "
+
+msgid "Please check your installation."
+msgstr "Palun kontrolli programmi paigaldust."
+
+msgid "Error loading UI file"
+msgstr "Viga kasutajaliidese faili laadimisel"
+
+msgid "Propono is a remote desktop viewer for the MATE Desktop"
+msgstr "Propono on kaugtöölaudade vaataja MATE töölauale"
+
+msgid ""
+"Propono is free software; you can redistribute it and/or modify it under the "
+"terms of the GNU General Public License as published by the Free Software "
+"Foundation; either version 2 of the License, or (at your option) any later "
+"version."
+msgstr ""
+"Propono on vaba tarkvara. Te võite seda edasi levitada ja/või muuta "
+"vastavalt GNU Üldise Avaliku Litsentsi tingimustele, nagu need on Vaba "
+"Tarkvara Fondi poolt avaldatud; kas Litsentsi versioon number 2 või "
+"(vastavalt Teie valikule) ükskõik milline hilisem versioon."
+
+msgid ""
+"Propono is distributed in the hope that it will be useful, but WITHOUT ANY "
+"WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS "
+"FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more "
+"details."
+msgstr ""
+"Programmi Propono levitatakse lootuses, et see on kasulik, kuid ILMA "
+"IGASUGUSE GARANTIITA; isegi KESKMISE/TAVALISE KVALITEEDIGARANTIITA või "
+"SOBIVUSELE TEATUD KINDLAKS EESMÄRGIKS. Üksikasjade suhtes vaata GNU Üldist "
+"Avalikku Litsentsi."
+
+msgid ""
+"You should have received a copy of the GNU General Public License along with "
+"this program. If not, see <http://www.gnu.org/licenses/>."
+msgstr ""
+"Te peaks olema saanud GNU Üldise Avaliku Litsentsi koopia koos selle "
+"programmiga; kui ei, siis vaadake aadressi <http://www.gnu.org/licenses/>."
+
+msgid "translator-credits"
+msgstr ""
+"Ivar Smolin <okul linux ee>, 2008-2010.\n"
+"Mattias Põldaru <mahfiaz gmail com>, 2008-2010.\n"
+"Priit Laes <plaes plaes org>, 2008, 2009."
+
+msgid "Propono Website"
+msgstr "Propono veebisait"
+
+#. Translators: %s is a protocol, like VNC or SSH
+#, c-format
+msgid "%s authentication is required"
+msgstr "%s autentimine on vajalik"
+
+msgid "_Recent connections"
+msgstr "_Hiljutised ühendused"
+
+#. Translators: This is server:port, a statusbar tooltip when mouse is over a bookmark item on menu
+#, c-format
+msgid "Open %s:%d"
+msgstr "%s:%d avamine"
+
+msgid "About menu accelerators and keyboard shortcuts"
+msgstr "Menüü otseteedest ja kiirklahvidest lähemalt"
+
+msgid ""
+"Propono comes with menu accelerators and keyboard shortcuts disabled by "
+"default. The reason is to avoid the keys to be intercepted by the program, "
+"and allow them to be sent to the remote machine.\n"
+"\n"
+"You can change this behavior through the preferences dialog. For more "
+"information, check the documentation.\n"
+"\n"
+"This message will appear only once."
+msgstr ""
+"Proponos on vaikimisi kiirklahvid ja menüüde otseteed keelatud. Sellepärast, "
+"et Propono klahvivajutuste kaugmasinale saatmise asemel ei töötleks neid "
+"ise.\n"
+"\n"
+"Seda saab muuta eelistuste dialoogist. Täpsema teabe leiad "
+"dokumentatsioonist.\n"
+"\n"
+"See teade ilmub ainult ühe korra."
+
+#, c-format
+msgid "Error while creating the file %s: %s"
+msgstr "Tõrge faili %s loomisel: %s"

@@ -1,0 +1,1276 @@
+# Romanian translation for propono
+# Copyright (c) 2008 Rosetta Contributors and Canonical Ltd 2008
+# This file is distributed under the same license as the propono package.
+# Lucian Adrian Grijincu <lucian.grijincu@gmail.com>, 2009, 2010.
+# Adi Roiban https://launchpad.net/~adiroiban, 2009
+msgid ""
+msgstr ""
+"Project-Id-Version: propono\n"
+"Report-Msgid-Bugs-To: http://bugzilla.mate.org/enter_bug.cgi?product=propono&component=general\n"
+"POT-Creation-Date: 2010-02-12 09:24+0000\n"
+"PO-Revision-Date: 2010-02-13 18:17+0200\n"
+"Last-Translator: Adi Roiban <adi@roiban.ro>\n"
+"Language-Team: Romanian MATE Team <matero-list@lists.sourceforge.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ro\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2);;\n"
+"X-Generator: Virtaal 0.5.2\n"
+
+#: ../data/MATE_ProponoApplet.xml.h:1
+#: ../propono/propono-plugin-manager.c:495
+msgid "_About"
+msgstr "_Despre"
+
+#: ../data/MATE_ProponoApplet.xml.h:2
+#: ../propono/propono-ui.h:37
+msgid "_Help"
+msgstr "_Ajutor"
+
+#: ../data/propono.desktop.in.in.h:1
+#: ../data/propono-file.desktop.in.in.h:1
+msgid "Access remote desktops"
+msgstr "Accesați desktopuri la distanță"
+
+#: ../data/propono.desktop.in.in.h:2
+#: ../data/propono-file.desktop.in.in.h:2
+#: ../propono/MATE_ProponoApplet.server.in.in.h:2
+#: ../propono/propono-applet.c:434
+#: ../propono/propono-applet.c:486
+#: ../propono/propono-main.c:200
+msgid "Remote Desktop Viewer"
+msgstr "Vizualizare desktop la distanță"
+
+#: ../data/propono.ui.h:1
+msgid "Allow _keyboard shortcuts"
+msgstr "Permite _scurtăturile de tastatură"
+
+#: ../data/propono.ui.h:2
+msgid "Authentication is required"
+msgstr "Se cere autentificare"
+
+#. setup label
+#: ../data/propono.ui.h:3
+#: ../propono/propono-fav.c:851
+msgid "Bookmarks"
+msgstr "Favorite"
+
+#: ../data/propono.ui.h:4
+msgid "Connection"
+msgstr "Conexiune"
+
+#: ../data/propono.ui.h:5
+msgid "Connection options"
+msgstr "Opțiuni conexiune"
+
+#: ../data/propono.ui.h:6
+msgid "Folder"
+msgstr "Dosar"
+
+#: ../data/propono.ui.h:7
+#: ../plugins/ssh/propono-ssh-tab.c:49
+#: ../plugins/vnc/propono-vnc-tab.c:148
+#: ../propono/propono-fav.c:404
+msgid "Host:"
+msgstr "Gazdă:"
+
+#: ../data/propono.ui.h:8
+msgid "Interface"
+msgstr "Interfață"
+
+#: ../data/propono.ui.h:9
+msgid "Options"
+msgstr "Opțiuni"
+
+#: ../data/propono.ui.h:10
+msgid "Parent Folder"
+msgstr "Dosar părinte"
+
+#: ../data/propono.ui.h:11
+msgid "Preferences"
+msgstr "Preferințe"
+
+#. This is a tooltip in preferences dialog
+#: ../data/propono.ui.h:13
+msgid "This option enables menu accelerators and keyboard shortcuts. For more info on why you may want to disable them, check the documentation."
+msgstr "Această opțiune activează acceleratorii de meniu și scurtăturile de tastatură. Pentru mai multe informații în legătură cu motivul pentru care ați dori să le dezactivați consultați documentația."
+
+#: ../data/propono.ui.h:14
+msgid "Which machine do you want to connect to?"
+msgstr "La ce calculator doriți să vă conectați?"
+
+#: ../data/propono.ui.h:15
+msgid "_Always show tabs"
+msgstr "_Arată întotdeauna taburile"
+
+#. This is a button label, in the authentication dialog
+#: ../data/propono.ui.h:17
+msgid "_Authenticate"
+msgstr "_Autentifică"
+
+#: ../data/propono.ui.h:18
+msgid "_Full screen"
+msgstr "_Pe tot ecranul"
+
+#: ../data/propono.ui.h:19
+msgid "_Host:"
+msgstr "_Gazdă:"
+
+#: ../data/propono.ui.h:20
+msgid "_Name:"
+msgstr "_Nume:"
+
+#: ../data/propono.ui.h:21
+msgid "_Password:"
+msgstr "_Parolă:"
+
+#: ../data/propono.ui.h:22
+msgid "_Protocol:"
+msgstr "_Protocol:"
+
+#: ../data/propono.ui.h:23
+msgid "_Remember this credential"
+msgstr "Memo_rează această certificare"
+
+#: ../data/propono.ui.h:24
+#: ../plugins/ssh/propono-ssh-plugin.c:144
+msgid "_Username:"
+msgstr "Nume _utilizator:"
+
+#: ../data/propono.schemas.in.in.h:1
+#: ../propono/propono-plugin-manager.c:795
+msgid "Active plugins"
+msgstr "Module active"
+
+#: ../data/propono.schemas.in.in.h:2
+msgid "List of active plugins. It contains the \"Location\" of the active plugins. See the .propono-plugin file for obtaining the \"Location\" of a given plugin."
+msgstr "Lista modulelor active. Conține „Locația” modulelor active. Informații suplimentare despre cum se poate obține „Locația” unui modul dat, pot fi găsite în fișierul .propono-plugin."
+
+#: ../data/propono.schemas.in.in.h:3
+msgid "Maximum number of history items in connect dialog"
+msgstr "Numărul maxim de elemente de istoric din dialogul de conectare"
+
+#: ../data/propono.schemas.in.in.h:4
+msgid "Set to \"false\" to disable menu shortcuts. Set to \"true\" to enable them. Note that if they are enabled, those keys will be intercepted by the menu and will not be sent to the remote host."
+msgstr "Definiți ca „false” pentru a dezactiva scurtăturile meniului. Definiți ca „true” pentru a le activa. Dacă ele sunt activate, acele taste vor fi interceptate de meniu și nu vor fi trimise câtre gazda de la distanță."
+
+#: ../data/propono.schemas.in.in.h:5
+msgid "Set to \"true\" to always show the tabs. Set to \"false\" to only show the tabs when there is more than one active connection."
+msgstr "Definiți ca „true” pentru a afișa întotdeauna taburile. Definiți ca „false” pentru a afișa taburile doar când sunt mai mult de o conexiune activă."
+
+#: ../data/propono.schemas.in.in.h:6
+msgid "Set to \"true\" to always start the program listening for reverse connections."
+msgstr "Definit ca „true” pentru a porni întotdeauna programul de primire a conexiunilor inverse."
+
+#: ../data/propono.schemas.in.in.h:7
+msgid "Specifies the maximum number of items in the host dropdown entry."
+msgstr "Specifică numărum maxim de elemente din câmpul de introducere a gazdei."
+
+#: ../data/propono.schemas.in.in.h:8
+msgid "The handler for \"vnc://\" URLs"
+msgstr "Operatorul pentru URL-uri „vnc://”"
+
+#: ../data/propono.schemas.in.in.h:9
+msgid "When connecting to a host, the client can say to the server to leave other clients connected or to drop the existent connections. Set the value to true to share the desktop with the other clients."
+msgstr "Când se conectează la o gazdă, clientul poate spune serverului să lase alți clienți conectați sau să închidă conexiunile existente. Definiți ca „true” pentru a partaja desktopul cu altă clienți."
+
+#: ../data/propono.schemas.in.in.h:10
+msgid "Whether we should leave other clients connected"
+msgstr "Dacă ar trebui să fie lasați conectați alți clienți"
+
+#: ../data/propono.schemas.in.in.h:11
+msgid "Whether we should show tabs even when there is only one active connection"
+msgstr "Dacă trebuie afișate taburile chiar și atunci când există doar o conexiune activă."
+
+#: ../data/propono.schemas.in.in.h:12
+msgid "Whether we should show the menu accelerators (shortcut keys)"
+msgstr "Dacă trebuie afișați acceleratorii din meniuri (scurtăturile)"
+
+#: ../data/propono.schemas.in.in.h:13
+msgid "Whether we should start the program listening for reverse connections"
+msgstr "Dacă programul ar trebui pornit întotdeauna de acceptare a conexiunilor inverse."
+
+#: ../data/propono-mime.xml.in.h:1
+msgid "Remote Desktop (VNC) file"
+msgstr "Fișier desktop la distanță (VNC)"
+
+#: ../data/propono-mime.xml.in.h:2
+msgid "Remote Desktop Connection"
+msgstr "Conexiune desktop la distanță"
+
+#. vim: set ts=8:
+#: ../plugins/ssh/propono-ssh-plugin.c:76
+#: ../plugins/ssh/ssh.propono-plugin.desktop.in.h:1
+msgid "SSH"
+msgstr "SSH"
+
+#. Translators: This is a description of the SSH protocol. It appears at Connect dialog.
+#: ../plugins/ssh/propono-ssh-plugin.c:78
+msgid "Access Unix/Linux terminals"
+msgstr "Accesați terminale Unix/Linux"
+
+#: ../plugins/ssh/propono-ssh-plugin.c:132
+msgid "SSH Options"
+msgstr "Opțiuni SSH"
+
+#. Translators: This is the tooltip for the username field in a SSH connection
+#: ../plugins/ssh/propono-ssh-plugin.c:149
+msgid "Optional. If blank, your username will be used. Also, it can be supplied in the Machine field above, in the form username@hostname."
+msgstr "Opțional. Dacă este gol, numele dumneavoastră de utilizator va fi folosit. De asemenea, poate fi introdus în câmpul de mai sus care specifică numele mașinii în forma nume_utilizator@nume_gazdă."
+
+#: ../plugins/ssh/propono-ssh-tab.c:50
+#: ../plugins/vnc/propono-vnc-tab.c:149
+msgid "Port:"
+msgstr "Port:"
+
+#: ../plugins/ssh/ssh.propono-plugin.desktop.in.h:2
+msgid "SSH support"
+msgstr "Suport SSH"
+
+#: ../plugins/vnc/propono-vnc-connection.c:290
+#: ../plugins/vnc/propono-vnc-plugin.c:321
+#, c-format
+msgid "Bad value for 'shared' flag: %d. It is supposed to be 0 or 1. Ignoring it."
+msgstr "Valoare greșită pentru fanionul „shared”: %d. Trebuie să fie 0 sau 1. Se ignoră."
+
+#: ../plugins/vnc/propono-vnc-plugin.c:84
+msgid "_Reverse Connections..."
+msgstr "Conexiuni inve_rse..."
+
+#: ../plugins/vnc/propono-vnc-plugin.c:86
+msgid "Configure incoming VNC connections"
+msgstr "Configurează conexiunile VNC către acest calculator"
+
+#. Translators: this is a command line option (run propono --help)
+#: ../plugins/vnc/propono-vnc-plugin.c:173
+msgid "Enable scaled mode"
+msgstr "Activează modul scalat"
+
+#. Translators: this is a command line option (run propono --help)
+#: ../plugins/vnc/propono-vnc-plugin.c:188
+msgid "VNC Options:"
+msgstr "Preferințe VNC:"
+
+#. Translators: this is a command line option (run propono --help)
+#: ../plugins/vnc/propono-vnc-plugin.c:190
+msgid "Show VNC Options"
+msgstr "Afișează opțiunile VNC"
+
+#. vim: set ts=8:
+#: ../plugins/vnc/propono-vnc-plugin.c:212
+#: ../plugins/vnc/vnc.propono-plugin.desktop.in.h:1
+msgid "VNC"
+msgstr "VNC"
+
+#: ../plugins/vnc/propono-vnc-plugin.c:213
+msgid "Access Unix/Linux, Windows and other machines."
+msgstr "Accesați mașini Unix/Linux, Windows etc."
+
+#: ../plugins/vnc/propono-vnc-plugin.c:270
+msgid "Could not parse the file."
+msgstr "Nu s-a putut analiza fișierul."
+
+#: ../plugins/vnc/propono-vnc-plugin.c:277
+msgid "The file is not a VNC one: Missing the group \"connection\"."
+msgstr "Fișierul nu este unul VNC: Lipsește grupul „connection”."
+
+#: ../plugins/vnc/propono-vnc-plugin.c:283
+msgid "The file is not a VNC one: Missing the key \"host\"."
+msgstr "Fișierul nu este unul VNC: Lipsește cheia „host”."
+
+#: ../plugins/vnc/propono-vnc-plugin.c:374
+msgid "VNC Options"
+msgstr "Preferințe VNC"
+
+#. View only check button
+#: ../plugins/vnc/propono-vnc-plugin.c:387
+#: ../plugins/vnc/propono-vnc-tab.c:632
+msgid "_View only"
+msgstr "Doar _vizualizare"
+
+#. Scaling check button
+#: ../plugins/vnc/propono-vnc-plugin.c:395
+msgid "_Scaling"
+msgstr "_Scalare"
+
+#: ../plugins/vnc/propono-vnc-plugin.c:411
+msgid "_Keep aspect ratio"
+msgstr "Păstrea_ză raportul aspectului"
+
+#. JPEG Compression check button
+#: ../plugins/vnc/propono-vnc-plugin.c:421
+msgid "_Use JPEG Compression"
+msgstr "Folosește compres_ie JPEG"
+
+#: ../plugins/vnc/propono-vnc-plugin.c:422
+msgid "This might not work on all VNC servers"
+msgstr "Aceasta s-ar putea să nu funcționeze cu toate tipurile de servere VNC"
+
+#: ../plugins/vnc/propono-vnc-plugin.c:431
+msgid "_Depth Color:"
+msgstr "A_dâncimea de culoare:"
+
+#: ../plugins/vnc/propono-vnc-plugin.c:436
+msgid "Use Server Settings"
+msgstr "Folosește configurările serverului"
+
+#: ../plugins/vnc/propono-vnc-plugin.c:437
+msgid "True Color (24 bits)"
+msgstr "Culori reale (24 de biți)"
+
+#: ../plugins/vnc/propono-vnc-plugin.c:438
+msgid "High Color (16 bits)"
+msgstr "Mai multe culori (16 biți)"
+
+#: ../plugins/vnc/propono-vnc-plugin.c:439
+msgid "Low Color (8 bits)"
+msgstr "Puține culori (8 biți)"
+
+#: ../plugins/vnc/propono-vnc-plugin.c:440
+msgid "Ultra Low Color (3 bits)"
+msgstr "Culori foarte puține (3 biți)"
+
+#. Translators: the whole sentence will be: Use host <hostname> as a SSH tunnel
+#: ../plugins/vnc/propono-vnc-plugin.c:453
+msgid "Use h_ost"
+msgstr "F_olosește gazda"
+
+#. Translators: This is the tooltip of the SSH tunneling entry
+#: ../plugins/vnc/propono-vnc-plugin.c:461
+msgid "hostname or user@hostname"
+msgstr "nume gazdă sau nume_utilizator@nume_gazdă"
+
+#. Translators: the whole sentence will be: Use host <hostname> as a SSH tunnel
+#: ../plugins/vnc/propono-vnc-plugin.c:465
+msgid "as a SSH tunnel"
+msgstr "ca un tunel SSH"
+
+#. Translators: this is a pattern to open *.vnc files in a open dialog.
+#: ../plugins/vnc/propono-vnc-plugin.c:500
+msgid "VNC Files"
+msgstr "Fișiere VNC"
+
+#: ../plugins/vnc/propono-vnc-tab.c:147
+msgid "Desktop Name:"
+msgstr "Nume desktop:"
+
+#: ../plugins/vnc/propono-vnc-tab.c:150
+msgid "Dimensions:"
+msgstr "Dimensiuni:"
+
+#: ../plugins/vnc/propono-vnc-tab.c:304
+msgid "Error creating the SSH tunnel"
+msgstr "Eroare la crearea tunelului SSH"
+
+#: ../plugins/vnc/propono-vnc-tab.c:305
+#: ../plugins/vnc/propono-vnc-tab.c:316
+msgid "Unknown reason"
+msgstr "Motiv necunoscut"
+
+#: ../plugins/vnc/propono-vnc-tab.c:315
+msgid "Error connecting to host."
+msgstr "Eroare la conectarea la gazdă."
+
+#. Translators: %s is a host name or IP address; %u is a code error (number).
+#: ../plugins/vnc/propono-vnc-tab.c:360
+#, c-format
+msgid "Authentication method to host %s is unsupported. (%u)"
+msgstr "Metoda de autentificare la gazda %s nu este suportată. (%u)"
+
+#: ../plugins/vnc/propono-vnc-tab.c:364
+msgid "Authentication unsupported"
+msgstr "Autentificare nesuportată"
+
+#: ../plugins/vnc/propono-vnc-tab.c:531
+#: ../plugins/vnc/propono-vnc-tab.c:548
+msgid "Authentication error"
+msgstr "Eroare la autentificare"
+
+#: ../plugins/vnc/propono-vnc-tab.c:532
+msgid "A username is required in order to access this machine."
+msgstr "Este nevoie de un nume de utilizator pentru a accesa acest calculator."
+
+#: ../plugins/vnc/propono-vnc-tab.c:549
+msgid "A password is required in order to access this machine."
+msgstr "Este nevoie de o parolă pentru a accesa acest calculator."
+
+#: ../plugins/vnc/propono-vnc-tab.c:603
+msgid "S_caling"
+msgstr "S_calare"
+
+#: ../plugins/vnc/propono-vnc-tab.c:604
+msgid "Fits the remote screen into the current window size"
+msgstr "Potrivește ecranul de la distanță în dimensiunea curentă a ferestrei"
+
+#: ../plugins/vnc/propono-vnc-tab.c:617
+msgid "_Keep Aspect Ratio"
+msgstr "Păstrea_ză raportul aspectului"
+
+#: ../plugins/vnc/propono-vnc-tab.c:618
+msgid "Keeps the screen aspect ratio when using scaling"
+msgstr "Păstrează raportul aspectului ecranului când se folosește scalarea"
+
+#: ../plugins/vnc/propono-vnc-tab.c:633
+msgid "Does not send mouse and keyboard events"
+msgstr "Nu trimite evenimente de maus sau tastatură"
+
+#: ../plugins/vnc/propono-vnc-tab.c:646
+msgid "_Original size"
+msgstr "Dimensiune _originală"
+
+#: ../plugins/vnc/propono-vnc-tab.c:647
+msgid "Adjusts the window to the remote desktop's size"
+msgstr "Ajustează fereastra la dimensiunea desktopului de la distanță"
+
+#: ../plugins/vnc/propono-vnc-tab.c:660
+msgid "_Refresh Screen"
+msgstr "_Reîmprospătează ecranul"
+
+#: ../plugins/vnc/propono-vnc-tab.c:661
+msgid "Requests an update of the screen"
+msgstr "Pune în coadă o actualizare de ecran"
+
+#. Send Ctrl-alt-del
+#: ../plugins/vnc/propono-vnc-tab.c:683
+#: ../plugins/vnc/propono-vnc-tab.c:755
+#: ../plugins/vnc/propono-vnc-tab.c:757
+msgid "Send Ctrl-Alt-Del"
+msgstr "Trimite Ctrl-Alt-Del"
+
+#: ../plugins/vnc/propono-vnc-tab.c:684
+msgid "Sends Ctrl+Alt+Del to the remote machine"
+msgstr "Trimite Ctrl+Alt+Del mașinii la distanță"
+
+#: ../plugins/vnc/propono-vnc-tab.c:736
+#: ../plugins/vnc/propono-vnc-tab.c:737
+msgid "Scaling"
+msgstr "Scalare"
+
+#: ../plugins/vnc/propono-vnc-tab.c:746
+#: ../plugins/vnc/propono-vnc-tab.c:747
+msgid "Read only"
+msgstr "Doar citire"
+
+#: ../plugins/vnc/propono-vnc-tab.c:919
+msgid ""
+"Scaling is not supported on this installation.\n"
+"\n"
+"Read the README file (shipped with Propono) in order to know how to enable this feature."
+msgstr ""
+"Scalarea nu este suportată în acestă instalare.\n"
+"\n"
+"Pentru a afla cum să activați această facilitate, citiți fișierul README (distribuit cu Propono)."
+
+#: ../plugins/vnc/propono-vnc-tunnel.c:77
+#, c-format
+msgid "Unable to find a free TCP port"
+msgstr "Nu s-a putut găsi un port TCP liber"
+
+#: ../plugins/vnc/vnc.propono-plugin.desktop.in.h:2
+msgid "VNC support"
+msgstr "Suport VNC"
+
+#: ../plugins/vnc/propono-vnc-listener-dialog.c:90
+msgid "IPv4:"
+msgstr "IPv4:"
+
+#: ../plugins/vnc/propono-vnc-listener-dialog.c:102
+msgid ""
+"\n"
+"\n"
+"IPv6:"
+msgstr ""
+"\n"
+"\n"
+"IPv6:"
+
+#: ../plugins/vnc/propono-vnc-listener-dialog.c:161
+#, c-format
+msgid "On the port %d"
+msgstr "Pe portul %d"
+
+#: ../plugins/vnc/propono-vnc-listener.c:168
+msgid "Incoming VNC connection arrived but there is no active window"
+msgstr "A sosit o conexiune VNC de conectare la acest calculator, dar nu există nicio fereastră activă"
+
+#. vim: set ts=8:
+#: ../plugins/vnc/vnc.ui.h:1
+msgid "By activating reverse connections you can access machines that are behind a firewall. The remote side is supposed to initiate the connection with you. For further information, checkout the help."
+msgstr "Activând conexiunile inverse puteți accesa mașini care sunt sub un firewall. Calculatorul la distanță trebuie să inițieze conexiunea cu acest calculator. Pentru mai multe informații consultați documentele de ajutor."
+
+#: ../plugins/vnc/vnc.ui.h:2
+msgid "Connectivity"
+msgstr "Conectivitate"
+
+#: ../plugins/vnc/vnc.ui.h:3
+msgid "Reverse Connections"
+msgstr "Conexiuni inverse"
+
+#: ../plugins/vnc/vnc.ui.h:4
+msgid "This machine is reachable through the following IP address(es):"
+msgstr "Această mașină poate fi contactată prin următoarele adrese IP:"
+
+#: ../plugins/vnc/vnc.ui.h:5
+msgid "_Always Enabled"
+msgstr "Întotdeauna _activat"
+
+#: ../plugins/vnc/vnc.ui.h:6
+msgid "_Enable Reverse Connections"
+msgstr "Activ_ează conexiunile inverse"
+
+#: ../propono/MATE_ProponoApplet.server.in.in.h:1
+msgid "A menu to quickly access remote machines"
+msgstr "Un meniul pentru a accesa rapid mașini la distanță"
+
+#: ../propono/MATE_ProponoApplet.server.in.in.h:3
+msgid "Propono Applet Factory"
+msgstr "Șablon miniaplicație Propono"
+
+#: ../propono/propono-applet.c:277
+#: ../propono/propono-applet.c:360
+msgid "Could not run propono:"
+msgstr "Nu s-a putut porni propono:"
+
+#: ../propono/propono-applet.c:380
+msgid "Open Remote Desktop Viewer"
+msgstr "Deschide vizualizatorul de desktop la distanță"
+
+#: ../propono/propono-applet.c:435
+msgid "Access your bookmarks"
+msgstr "Accesare favorite"
+
+#: ../propono/propono-bookmarks.c:265
+#: ../propono/propono-connection.c:522
+#: ../propono/propono-tab.c:535
+#: ../propono/propono-tube-handler.c:253
+#, c-format
+msgid "The protocol %s is not supported."
+msgstr "Protocolul %s nu este suportat."
+
+#: ../propono/propono-bookmarks.c:343
+#, c-format
+msgid "Error while initializing bookmarks: %s"
+msgstr "Eroare la inițializare favorite: %s"
+
+#: ../propono/propono-bookmarks.c:343
+#: ../propono/propono-bookmarks.c:458
+#: ../propono/propono-bookmarks-migration.c:135
+#: ../propono/propono-cache-prefs.c:53
+#: ../propono/propono-commands.c:173
+#: ../propono/propono-connect.c:482
+#: ../propono/propono-fav.c:765
+#: ../propono/propono-main.c:101
+#: ../propono/propono-main.c:120
+#: ../propono/propono-window.c:268
+#: ../propono/propono-window.c:737
+msgid "Unknown error"
+msgstr "Eroare necunoscută"
+
+#: ../propono/propono-bookmarks.c:350
+msgid "Error while initializing bookmarks: The file seems to be empty"
+msgstr "Eroare la inițializare favorite: Acest fișier pare a fi gol"
+
+#: ../propono/propono-bookmarks.c:357
+msgid "Error while initializing bookmarks: The file is not a propono bookmarks file"
+msgstr "Eroare la inițializare favorite: Acest fișier nu este un fișier favorit propono"
+
+#: ../propono/propono-bookmarks.c:419
+#: ../propono/propono-bookmarks.c:426
+msgid "Error while saving bookmarks: Failed to create the XML structure"
+msgstr "Eroare la salvarea favoritelor: Crearea structurii XML a eșuat"
+
+#: ../propono/propono-bookmarks.c:433
+#: ../propono/propono-bookmarks.c:440
+msgid "Error while saving bookmarks: Failed to initialize the XML structure"
+msgstr "Eroare la salvarea favoritelor: Inițializarea structurii XML a eșuat"
+
+#: ../propono/propono-bookmarks.c:449
+msgid "Error while saving bookmarks: Failed to finalize the XML structure"
+msgstr "Eroare la salvarea favoritelor: Finalizarea structurii XML a eșuat"
+
+#: ../propono/propono-bookmarks.c:458
+#, c-format
+msgid "Error while saving bookmarks: %s"
+msgstr "Eroare la salvarea favoritelor: %s"
+
+#: ../propono/propono-bookmarks-migration.c:95
+#: ../propono/propono-bookmarks-migration.c:102
+msgid "Error while migrating bookmarks: Failed to create the XML structure"
+msgstr "Eroare la migrarea favoritelor: Creearea structurii XML a eșuat"
+
+#: ../propono/propono-bookmarks-migration.c:109
+#: ../propono/propono-bookmarks-migration.c:116
+msgid "Error while migrating bookmarks: Failed to initialize the XML structure"
+msgstr "Eroare la migrarea favoritelor: Inițializarea structurii XML a eșuat"
+
+#: ../propono/propono-bookmarks-migration.c:125
+msgid "Error while migrating bookmarks: Failed to finalize the XML structure"
+msgstr "Eroare la migrarea favoritelor: Finalizarea structurii XML a eșuat"
+
+#: ../propono/propono-bookmarks-migration.c:135
+#: ../propono/propono-bookmarks-migration.c:217
+#, c-format
+msgid "Error while migrating bookmarks: %s"
+msgstr "Eroare la migrarea favoritelor: %s"
+
+#: ../propono/propono-bookmarks-migration.c:164
+msgid "Error while migrating bookmarks: VNC plugin is not activated"
+msgstr "Eroare la migrarea favoritelor: modulul VNC nu este activat"
+
+#: ../propono/propono-bookmarks-migration.c:217
+msgid "Failed to create the directory"
+msgstr "Eroare la crearea dosarului"
+
+#: ../propono/propono-bookmarks-migration.c:241
+msgid "Migrating the bookmarks file to the new format. This operation is only supposed to run once."
+msgstr "Se migrează fișierul favoritelor în noua locație. Se presupune că această operație este rulată doar o singură dată."
+
+#: ../propono/propono-bookmarks-migration.c:249
+#, c-format
+msgid "Error opening old bookmarks file: %s"
+msgstr "Eroare la deschiderea fișierului favorit vechi: %s"
+
+#: ../propono/propono-bookmarks-migration.c:250
+#: ../propono/propono-bookmarks-migration.c:262
+msgid "Migration cancelled"
+msgstr "Migrare anulată"
+
+#: ../propono/propono-bookmarks-migration.c:259
+msgid "Could not remove the old bookmarks file"
+msgstr "Nu s-a putut șterge fișierul vechi al favoritelor"
+
+#: ../propono/propono-bookmarks-tree.c:120
+msgid "Root Folder"
+msgstr "Dosar rădăcină"
+
+#: ../propono/propono-bookmarks-ui.c:78
+msgid "Invalid name for this folder"
+msgstr "Nume nevalid pentru acest dosar"
+
+#: ../propono/propono-bookmarks-ui.c:88
+#: ../propono/propono-bookmarks-ui.c:200
+#, c-format
+msgid "The name \"%s\" is already used in this folder. Please use a different name."
+msgstr "Numele „%s” este deja folosit în acest dosar. Alegeți alt nume."
+
+#: ../propono/propono-bookmarks-ui.c:89
+#: ../propono/propono-bookmarks-ui.c:190
+#: ../propono/propono-bookmarks-ui.c:201
+msgid "Invalid name for this item"
+msgstr "Nume nevalid pentru acest element"
+
+#. Translators: %s is a protocol name, like VNC or SSH
+#: ../propono/propono-bookmarks-ui.c:168
+#, c-format
+msgid "(Protocol: %s)"
+msgstr "(Protocol: %s)"
+
+#. Translators: %s is a bookmark entry name
+#: ../propono/propono-bookmarks-ui.c:308
+#, c-format
+msgid "Are you sure you want to remove %s from bookmarks?"
+msgstr "Doriți să ștergeți %s din lista de favorite?"
+
+#: ../propono/propono-bookmarks-ui.c:314
+msgid "Remove Folder?"
+msgstr "Ștergeți dosarul?"
+
+#: ../propono/propono-bookmarks-ui.c:315
+msgid "Notice that all its subfolders and items will be removed as well."
+msgstr "Atenție! Toate subdosarele și elementele vor fi de asemenea șterse."
+
+#: ../propono/propono-bookmarks-ui.c:320
+msgid "Remove Item?"
+msgstr "Ștergeți elementul?"
+
+#: ../propono/propono-bookmarks-ui.c:337
+msgid "Error removing bookmark: Entry not found"
+msgstr "Eroare la ștergerea favoritului: Intrarea nu a fost găsită"
+
+#: ../propono/propono-bookmarks-ui.c:354
+msgid "New Folder"
+msgstr "Dosar nou"
+
+#: ../propono/propono-cache-prefs.c:53
+#, c-format
+msgid "Error while saving preferences: %s"
+msgstr "Eroare la salvarea preferințelor: %s"
+
+#: ../propono/propono-commands.c:121
+msgid "Choose the file"
+msgstr "Alegeți fișierul"
+
+#: ../propono/propono-commands.c:149
+msgid "There are no supported files"
+msgstr "Nu există niciun fișier suportat"
+
+#: ../propono/propono-commands.c:150
+msgid "None of the active plugins support this action. Activate some plugins and try again."
+msgstr "Niciunul dintre modulele active nu suportă această acțiune. Activați câteva module și reîncercați."
+
+#: ../propono/propono-commands.c:184
+msgid "The following file could not be opened:"
+msgid_plural "The following files could not be opened:"
+msgstr[0] "Următorul fișier nu a putut fi deschis:"
+msgstr[1] "Următoarele fișiere nu au putut fi deschise:"
+msgstr[2] "Următoarele fișiere nu au putut fi deschise:"
+
+#: ../propono/propono-connect.c:87
+#: ../propono/propono-connect.c:334
+#: ../propono/propono-connect.c:446
+msgid "Could not get the active protocol in the protocol list."
+msgstr "Nu s-a putut găsi protocolul activ din lista de protocoale."
+
+#: ../propono/propono-connect.c:315
+#, c-format
+msgid "Error while saving history file: %s"
+msgstr "Eroare la salvarea fișierului istoric: %s"
+
+#: ../propono/propono-connect.c:350
+msgid "Choose a Remote Desktop"
+msgstr "Alegeți un desktop la distanță"
+
+#: ../propono/propono-connection.c:630
+msgid "Could not open the file."
+msgstr "Nu s-a putut deschide fișierul."
+
+#: ../propono/propono-connection.c:654
+msgid "The file was not recognized by any of the plugins."
+msgstr "Fișierul nu a fost recunoscut de niciunul dintre module."
+
+#: ../propono/propono-fav.c:567
+msgid "_New Folder"
+msgstr "Dosar _nou"
+
+#: ../propono/propono-fav.c:568
+msgid "Create a new folder"
+msgstr "Creează un dosar nou"
+
+#: ../propono/propono-fav.c:573
+msgid "_Open bookmark"
+msgstr "Deschide fav_orit"
+
+#: ../propono/propono-fav.c:574
+msgid "Connect to this machine"
+msgstr "Conectare la acestă mașină"
+
+#: ../propono/propono-fav.c:575
+msgid "_Edit bookmark"
+msgstr "_Editare favorite"
+
+#: ../propono/propono-fav.c:576
+msgid "Edit the details of selected bookmark"
+msgstr "Editați detaliile pentru favoritul selectat"
+
+#: ../propono/propono-fav.c:577
+msgid "_Remove from bookmarks"
+msgstr "Ște_rge din favorite"
+
+#: ../propono/propono-fav.c:578
+msgid "Remove current selected connection from bookmarks"
+msgstr "Șterge din favorite conexiunea selectată curent"
+
+#: ../propono/propono-fav.c:596
+#: ../propono/propono-window.c:399
+#, c-format
+msgid "Could not merge UI XML file: %s"
+msgstr "Nu s-a putut combina fișierul XML UI: %s"
+
+#: ../propono/propono-fav.c:754
+msgid "Invalid operation"
+msgstr "Operație nevalidă"
+
+#: ../propono/propono-fav.c:755
+msgid "Data received from drag&drop operation is invalid."
+msgstr "Datele primite de la operația „drag&drop” nu sunt valide."
+
+#: ../propono/propono-fav.c:859
+msgid "Hide panel"
+msgstr "Ascunde panoul"
+
+#: ../propono/propono-fav.c:1044
+msgid "Hosts nearby"
+msgstr "Gazde în apropiere"
+
+#. Translators: this is a command line option (run propono --help)
+#: ../propono/propono-main.c:63
+msgid "Open propono in fullscreen mode"
+msgstr "Deschide propono în modul pe tot ecranul"
+
+#. Translators: this is a command line option (run propono --help)
+#: ../propono/propono-main.c:67
+msgid "Create a new toplevel window in an existing instance of propono"
+msgstr "Creează o nouă fereastră principală într-o instanță existentă de propono"
+
+#. Translators: this is a command line option (run propono --help)
+#: ../propono/propono-main.c:71
+msgid "Open a file recognized by propono"
+msgstr "Deschide un fișier recunocut de propono"
+
+#: ../propono/propono-main.c:71
+msgid "filename"
+msgstr "nume fișier"
+
+#. Translators: this is a command line option (run propono --help)
+#: ../propono/propono-main.c:76
+msgid "[server:port]"
+msgstr "[server:port]"
+
+#: ../propono/propono-main.c:131
+msgid "The following error has occurred:"
+msgid_plural "The following errors have occurred:"
+msgstr[0] "A intervenit următoarea eroare:"
+msgstr[1] "Au intervenit următoarele erori:"
+msgstr[2] "Au intervenit următoarele erori:"
+
+#. Setup command line options
+#: ../propono/propono-main.c:170
+msgid "- Remote Desktop Viewer"
+msgstr "- Vizualizator desktop la distanță"
+
+#: ../propono/propono-main.c:195
+msgid "Run 'propono --help' to see a full list of available command line options"
+msgstr "Rulați „propono --help” pentru a vedea lista completă a opțiunilor din linia de comandă"
+
+#: ../propono/propono-mdns.c:159
+#, c-format
+msgid "Failed to resolve avahi hostname: %s\n"
+msgstr "Rezolvarea numelui gazdă avahi a eșuat: %s\n"
+
+#: ../propono/propono-mdns.c:217
+#, c-format
+msgid "Plugin %s has already registered a browser for service %s."
+msgstr "Modulul %s a înregistrat deja un navigator pentru serviciul %s."
+
+#: ../propono/propono-mdns.c:226
+#, c-format
+msgid "Failed to add mDNS browser for service %s."
+msgstr "Adăugarea navigatoarelor mDNS pentru serviciul %s a eșuat."
+
+#: ../propono/propono-mdns.c:242
+#, c-format
+msgid "Failed to browse for hosts: %s\n"
+msgstr "Navigarea gazdelor a eșuat: %s\n"
+
+#: ../propono/propono-mdns.c:315
+#, c-format
+msgid "Failed to initialize mDNS browser: %s\n"
+msgstr "Inițializarea navigatorului mDNS a eșuat: %s\n"
+
+#. Translators: %s is a host name or IP address.
+#: ../propono/propono-notebook.c:461
+#, c-format
+msgid "Connection to host %s was closed."
+msgstr "Conexiunea la gazda %s a fost închisă."
+
+#: ../propono/propono-notebook.c:463
+msgid "Connection closed"
+msgstr "Conexiunea a fost închisă"
+
+#. Translators: %s is a host name or IP address.
+#: ../propono/propono-notebook.c:482
+#, c-format
+msgid "Authentication to host %s has failed"
+msgstr "Autentificarea la gazda %s a eșuat"
+
+#: ../propono/propono-notebook.c:488
+msgid "Authentication failed"
+msgstr "Autentificarea a eșuat"
+
+#: ../propono/propono-notebook.c:526
+msgid "Connecting..."
+msgstr "Se conectează..."
+
+#: ../propono/propono-notebook.c:553
+#: ../propono/propono-tab.c:325
+msgid "Close connection"
+msgstr "Închide conexiune"
+
+#: ../propono/propono-plugin-dialog.c:83
+msgid "Plugin Manager"
+msgstr "Administrator de module"
+
+#: ../propono/propono-plugin-manager.c:45
+msgid "Plugin"
+msgstr "Modul"
+
+#: ../propono/propono-plugin-manager.c:46
+msgid "Enabled"
+msgstr "Activat"
+
+#: ../propono/propono-plugin-manager.c:503
+msgid "C_onfigure"
+msgstr "C_onfigurează"
+
+#: ../propono/propono-plugin-manager.c:512
+msgid "A_ctivate"
+msgstr "A_ctivează"
+
+#: ../propono/propono-plugin-manager.c:523
+msgid "Ac_tivate All"
+msgstr "Activează _tot"
+
+#: ../propono/propono-plugin-manager.c:528
+msgid "_Deactivate All"
+msgstr "_Dezactivează tot"
+
+#: ../propono/propono-plugin-manager.c:824
+msgid "_About Plugin"
+msgstr "_Despre modul"
+
+#: ../propono/propono-plugin-manager.c:828
+msgid "C_onfigure Plugin"
+msgstr "C_onfigurează modul"
+
+#: ../propono/propono-prefs.c:212
+msgid "Cannot initialize preferences manager."
+msgstr "Nu s-a putut inițializa managerul de preferințe."
+
+#: ../propono/propono-ssh.c:106
+msgid "Timed out when logging into SSH host"
+msgstr "Limită de timp la autentificarea în gazde SSH"
+
+#: ../propono/propono-ssh.c:180
+msgid "Unable to spawn ssh program"
+msgstr "Nu s-a putut lansa programul ssh"
+
+#: ../propono/propono-ssh.c:197
+#, c-format
+msgid "Unable to spawn ssh program: %s"
+msgstr "Nu s-a putut lansa programul ssh: %s"
+
+#: ../propono/propono-ssh.c:352
+msgid "Timed out when logging in"
+msgstr "A expirat limita de timp la autentificare"
+
+#: ../propono/propono-ssh.c:375
+#: ../propono/propono-ssh.c:529
+#: ../propono/propono-ssh.c:612
+msgid "Permission denied"
+msgstr "Nu aveți acces"
+
+#: ../propono/propono-ssh.c:440
+msgid "Password dialog canceled"
+msgstr "Dialogul de parolă a fost anulat"
+
+#: ../propono/propono-ssh.c:463
+msgid "Could not send password"
+msgstr "Nu s-a putut trimite parola"
+
+#: ../propono/propono-ssh.c:471
+msgid "Log In Anyway"
+msgstr "Autentifică oricum"
+
+#: ../propono/propono-ssh.c:471
+msgid "Cancel Login"
+msgstr "Anulează autentificarea"
+
+#: ../propono/propono-ssh.c:480
+#, c-format
+msgid ""
+"The identity of the remote computer (%s) is unknown.\n"
+"This happens when you log in to a computer the first time.\n"
+"\n"
+"The identity sent by the remote computer is %s. If you want to be absolutely sure it is safe to continue, contact the system administrator."
+msgstr ""
+"Identitatea calculatorului aflat la distanță (%s) nu este cunoscută.\n"
+"Aceasta se întâmplă când vă autentificați pentru prima dată pe acest calculator.\n"
+"\n"
+"Identitatea trimisă de calculatorul aflat la distanță este %s. Dacă doriți să fiți absolut siguri că este în regulă să continuați consultați un administrator."
+
+#: ../propono/propono-ssh.c:498
+msgid "Login dialog canceled"
+msgstr "Dialogul de autentificare a fost anulat"
+
+#: ../propono/propono-ssh.c:519
+msgid "Can't send host identity confirmation"
+msgstr "Nu se pot trimite informațiile de identificare a gazdei"
+
+#: ../propono/propono-ssh.c:554
+#: ../propono/propono-tab.c:732
+msgid "Error saving the credentials on the keyring."
+msgstr "Eroare la salvarea credențialelor în inelul de chei."
+
+#: ../propono/propono-ssh.c:619
+msgid "Hostname not known"
+msgstr "Numele gazdei este necunoscut"
+
+#: ../propono/propono-ssh.c:626
+msgid "No route to host"
+msgstr "Nicio rută către gazdă"
+
+#: ../propono/propono-ssh.c:633
+msgid "Connection refused by server"
+msgstr "Conexiunea a fost refuzată de server"
+
+#: ../propono/propono-ssh.c:640
+msgid "Host key verification failed"
+msgstr "Verificarea cheii gazdei a eșuat"
+
+#: ../propono/propono-ssh.c:676
+msgid "Unable to find a valid SSH program"
+msgstr "Nu s-a găsit un program SSH valid"
+
+#: ../propono/propono-tab.c:346
+msgid "Leave fullscreen"
+msgstr "Ieși din modul pe tot ecranul"
+
+#: ../propono/propono-tab.c:497
+msgid "Error saving recent connection."
+msgstr "Eroare la salvarea conexiunii recente."
+
+#: ../propono/propono-tab.c:818
+msgid "Could not get a screenshot of the connection."
+msgstr "Nu s-a putut obține o captură de ecran pentru conexiune."
+
+#: ../propono/propono-tab.c:823
+msgid "Save Screenshot"
+msgstr "Salvează captura de ecran"
+
+#: ../propono/propono-tab.c:834
+#, c-format
+msgid "Screenshot of %s"
+msgstr "Captură de ecran pentru %s"
+
+#: ../propono/propono-tab.c:885
+msgid "Error saving screenshot"
+msgstr "Eroare la salvarea capturii de ecran"
+
+#: ../propono/propono-tube-handler.c:229
+#, c-format
+msgid "Impossible to get service property: %s"
+msgstr "Nu s-a putut obține proprietatea de serviciu: %s"
+
+#: ../propono/propono-tube-handler.c:286
+#, c-format
+msgid "Impossible to create the connection: %s"
+msgstr "Nu se poate realiza conexiunea: %s"
+
+#: ../propono/propono-tube-handler.c:325
+#, c-format
+msgid "Impossible to accept the stream tube: %s"
+msgstr "Nu s-a putut accepta fișierul flux: %s"
+
+#: ../propono/propono-tube-handler.c:463
+#, c-format
+msgid "Impossible to get the contact name: %s"
+msgstr "Nu s-a putut obține numele de contact: %s"
+
+#: ../propono/propono-tube-handler.c:498
+#, c-format
+msgid "Impossible to get the avatar: %s"
+msgstr "Nu s-a putut obține avatarul: %s"
+
+#: ../propono/propono-tube-handler.c:519
+#, c-format
+msgid "%s wants to share their desktop with you."
+msgstr "%s dorește să partajeze propriul desktop."
+
+#: ../propono/propono-tube-handler.c:524
+msgid "Desktop sharing invitation"
+msgstr "Invitație partajare desktop"
+
+#. Toplevel
+#: ../propono/propono-ui.h:33
+msgid "_Machine"
+msgstr "_Calculator"
+
+#: ../propono/propono-ui.h:34
+msgid "_Edit"
+msgstr "_Editare"
+
+#: ../propono/propono-ui.h:35
+msgid "_View"
+msgstr "_Vizualizare"
+
+#: ../propono/propono-ui.h:36
+msgid "_Bookmarks"
+msgstr "Favo_rite"
+
+#: ../propono/propono-ui.h:41
+msgid "Connect to a remote machine"
+msgstr "Conectare la o gazdă la distanță"
+
+#: ../propono/propono-ui.h:43
+msgid "Open a .VNC file"
+msgstr "Deschide un fișier .VNC"
+
+#: ../propono/propono-ui.h:45
+msgid "Quit the program"
+msgstr "Închide aplicația"
+
+#: ../propono/propono-ui.h:49
+msgid "Edit the application preferences"
+msgstr "Editați preferințele aplicației"
+
+#: ../propono/propono-ui.h:50
+msgid "_Plugins"
+msgstr "_Module de extensie"
+
+#: ../propono/propono-ui.h:51
+msgid "Select plugins"
+msgstr "Selectați modulele"
+
+#. Help menu
+#: ../propono/propono-ui.h:54
+msgid "_Contents"
+msgstr "_Conținut"
+
+#: ../propono/propono-ui.h:55
+msgid "Open the propono manual"
+msgstr "Deschide manualul propono"
+
+#: ../propono/propono-ui.h:57
+msgid "About this application"
+msgstr "Despre această aplicație"
+
+#: ../propono/propono-ui.h:62
+msgid "_Toolbar"
+msgstr "Bară de unel_te"
+
+#: ../propono/propono-ui.h:63
+msgid "Show or hide the toolbar"
+msgstr "Afișează sau ascunde bara de unelte"
+
+#: ../propono/propono-ui.h:66
+msgid "_Statusbar"
+msgstr "Bară de _stare"
+
+#: ../propono/propono-ui.h:67
+msgid "Show or hide the statusbar"
+msgstr "Afișează sau ascunde bara de stare"
+
+#: ../propono/propono-ui.h:70
+msgid "Side _Panel"
+msgstr "_Panou lateral"
+
+#: ../propono/propono-ui.h:71
+msgid "Show or hide the side panel"
+msgstr "Afișează sau ascunde panoul lateral"
+
+#: ../propono/propono-ui.h:79
+msgid "Close the current connection"
+msgstr "Închide conexiunea curentă"
+
+#: ../propono/propono-ui.h:80
+msgid "C_lose All"
+msgstr "Î_nchide tot"
+
+#: ../propono/propono-ui.h:81
+msgid "Close all active connections"
+msgstr "Închide toate conexiunile active"
+
+#. Bookmarks menu
+#: ../propono/propono-ui.h:84
+msgid "_Add to bookmarks"
+msgstr "_Adaugă la favorite"
+
+#: ../propono/propono-ui.h:85
+msgid "Add current connection to your bookmarks"
+msgstr "Adaugă conexiunea curentă la favorite"
+
+#. Machine menu
+#: ../propono/propono-ui.h:92
+msgid "Take screenshot"
+msgstr "Capturează ecranul"
+
+#: ../propono/propono-ui.h:93
+msgid "Take a screenshot of active connection"
+msgstr "Fă o captură de ecran pentru conexiunea curentă"
+
+#: ../propono/propono-ui.h:97
+msgid "View the current machine in full screen"
+msgstr "Vizualizează calculatorul curent pe tot ecranul"
+
+#: ../propono/propono-utils.c:75
+msgid "An error has occurred:"
+msgstr "S-a produs o eroare:"
+
+#: ../propono/propono-utils.c:175
+msgid "A plugin tried to open an UI file but did not succeed, with the error message:"
+msgstr "Un modul a încercat să deschidă un fișier UI, dar nu a reușit, ieșind cu următorul mesaj de eroare:"
+
+#: ../propono/propono-utils.c:177
+msgid "The program tried to open an UI file but did not succeed, with the error message:"
+msgstr "Programul a încercat să deschidă un fișier UI, dar nu a reușit, ieșind cu următorul mesaj de eroare:"
+
+#: ../propono/propono-utils.c:180
+msgid "Please check your installation."
+msgstr "Verificați instalarea."
+
+#: ../propono/propono-utils.c:181
+msgid "Error loading UI file"
+msgstr "Eroare la încărcarea fișierului UI"
+
+#: ../propono/propono-utils.c:492
+msgid "Propono is a remote desktop viewer for the MATE Desktop"
+msgstr "Propono este o aplicație de vizualizare la mașini pentru desktopul MATE"
+
+#: ../propono/propono-utils.c:495
+msgid "Propono is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version."
+msgstr "Propono este un program liber; îl puteți redistribui și/sau modifica în conformitate cu termenii Licenței Publice Generale GNU așa cum este publicată de Free Software Foundation; fie versiunea 2 a Licenței, fie (la latitudinea dumneavoastră) orice versiune ulterioară."
+
+#: ../propono/propono-utils.c:499
+msgid "Propono is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details."
+msgstr "Propono este distribuit cu speranța că va fi util, dar FĂRĂ NICI O GARANȚIE, fără garanție implicită de vandabilitate și conformitate unui anumit scop. Citiți Licența Publică Generală GNU pentru detalii."
+
+#: ../propono/propono-utils.c:503
+msgid "You should have received a copy of the GNU General Public License along with this program. If not, see <http://www.gnu.org/licenses/>."
+msgstr "Ar fi trebuit ca împreună cu programul să fi primit o copie a Licenței generale GNU. Dacă nu consultați <http://www.gnu.org/licenses/>."
+
+#: ../propono/propono-utils.c:525
+msgid "translator-credits"
+msgstr ""
+"Launchpad Contributions:\n"
+"  Adi Roiban https://launchpad.net/~adiroiban\n"
+"  Lucian Adrian Grijincu https://launchpad.net/~lucian.grijincu"
+
+#: ../propono/propono-utils.c:528
+msgid "Propono Website"
+msgstr "Pagina web Propono"
+
+#. Translators: %s is a protocol, like VNC or SSH
+#: ../propono/propono-utils.c:660
+#, c-format
+msgid "%s authentication is required"
+msgstr "Este necesară autentificarea %s"
+
+#: ../propono/propono-window.c:428
+msgid "_Recent connections"
+msgstr "Conexiuni _recente"
+
+#. Translators: This is server:port, a statusbar tooltip when mouse is over a bookmark item on menu
+#: ../propono/propono-window.c:543
+#, c-format
+msgid "Open %s:%d"
+msgstr "Deschide %s:%d"
+
+#: ../propono/propono-window.c:721
+msgid "About menu accelerators and keyboard shortcuts"
+msgstr "Despre acceleratorii de meniu și scurtăturile de tastatură"
+
+#: ../propono/propono-window.c:723
+msgid ""
+"Propono comes with menu accelerators and keyboard shortcuts disabled by default. The reason is to avoid the keys to be intercepted by the program, and allow them to be sent to the remote machine.\n"
+"\n"
+"You can change this behavior through the preferences dialog. For more information, check the documentation.\n"
+"\n"
+"This message will appear only once."
+msgstr ""
+"Implicit, acceleratorii și scurtăturile de tastatură sunt dezactivate în Propono. Motivul principal este evitarea interceptării combinațiilor de taste de către program pentru a vă permite să le trimiteți mașinii la distanță.\n"
+"\n"
+"Puteți schimba acest comportament din meniul „Preferințe”. Pentru mai multe informații, consultați documentația.\n"
+"\n"
+"Acest mesaj va fi afișat o singură dată."
+
+#: ../propono/propono-window.c:731
+#: ../propono/propono-window.c:737
+#, c-format
+msgid "Error while creating the file %s: %s"
+msgstr "Eroare la crearea fișierului %s: %s"
+
+#~ msgid "All fields above are mandatory"
+#~ msgstr "Toate câmpurile de mai sus sunt obligatorii"
+#~ msgid "Could not merge propono-ui.xml: %s"
+#~ msgstr "Nu s-a putut combina propono-ui.xml: %s"

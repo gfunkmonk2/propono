@@ -1,0 +1,572 @@
+# Thai translation of propono help.
+# Copyright (C) 2008 Free Software Foundation, Inc.
+# This file is distributed under the same license as the propono package.
+#
+# Sira Nokyoongtong <gumaraa@gmail.com>, 2008.
+# Theppitak Karoonboonyanan <thep@linux.thai.net>, 2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: propono help\n"
+"POT-Creation-Date: 2008-09-22 18:24+0700\n"
+"PO-Revision-Date: 2008-09-22 20:27+0700\n"
+"Last-Translator: Theppitak Karoonboonyanan <thep@linux.thai.net>\n"
+"Language-Team: Thai <thai-l10n@googlegroups.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: C/propono.xml:180(None)
+msgid ""
+"@@image: 'figures/propono-screenshot.png'; "
+"md5=b085b9b302f38aa59e8b4e3307dd6450"
+msgstr ""
+"@@image: 'figures/propono-screenshot.png'; "
+"md5=b085b9b302f38aa59e8b4e3307dd6450"
+
+#: C/propono.xml:25(title)
+msgid "<application>Propono</application> Manual"
+msgstr "คู่มือ <application>Propono</application>"
+
+#: C/propono.xml:27(para)
+msgid "<application>Propono</application> is a Remote Desktop Viewer"
+msgstr "<application>Propono</application> เป็นเครื่องมือแสดงพื้นโต๊ะเครื่องอื่น"
+
+#: C/propono.xml:32(year)
+msgid "2007, 2008"
+msgstr "2007, 2008"
+
+#: C/propono.xml:33(holder)
+msgid "Jonh Wendell (wendell@bani.com.br)"
+msgstr "Jonh Wendell (wendell@bani.com.br)"
+
+#: C/propono.xml:49(publishername)
+msgid "Jonh Wendell"
+msgstr "Jonh Wendell"
+
+#: C/propono.xml:2(para)
+msgid ""
+"Permission is granted to copy, distribute and/or modify this document under "
+"the terms of the GNU Free Documentation License (GFDL), Version 1.1 or any "
+"later version published by the Free Software Foundation with no Invariant "
+"Sections, no Front-Cover Texts, and no Back-Cover Texts. You can find a copy "
+"of the GFDL at this <ulink type=\"help\" url=\"ghelp:fdl\">link</ulink> or "
+"in the file COPYING-DOCS distributed with this manual."
+msgstr ""
+"อนุญาตให้ทำซ้ำ เผยแพร่ และ/หรือ ดัดแปลงเอกสารนี้ได้ ภายใต้เงื่อนไขของ GNU Free "
+"Documentation License (GFDL) รุ่น 1.1 หรือรุ่นถัดมารุ่นใดๆ ที่เผยแพร่โดยมูลนิธิซอฟต์แวร์เสรี "
+"(Free Software Foundation) โดยไม่มี \"หัวข้อห้ามเปลี่ยน\" (Invariant Sections), ไม่มี "
+"\"ข้อความปกหน้า\" (Front-Cover Texts) และไม่มี \"ข้อความปกหลัง\" (Back-Cover "
+"Texts) คุณสามารถอ่านสำเนาของ GFDL ได้จาก <ulink type=\"help\" url=\"ghelp:fdl"
+"\">ลิงก์นี้</ulink> หรือในแฟ้ม COPYING-DOCS ที่เผยแพร่มาพร้อมกับคู่มือนี้"
+
+#: C/propono.xml:12(para)
+msgid ""
+"This manual is part of a collection of MATE manuals distributed under the "
+"GFDL. If you want to distribute this manual separately from the collection, "
+"you can do so by adding a copy of the license to the manual, as described in "
+"section 6 of the license."
+msgstr ""
+"คู่มือนี้ เป็นส่วนหนึ่งของชุดคู่มือ MATE ที่เผยแพร่ภายใต้ GFDL "
+"ถ้าคุณต้องการเผยแพร่คู่มือนี้แยกต่างหากจากชุด "
+"คุณสามารถทำได้โดยเพิ่มสำเนาของสัญญาอนุญาตไปกับคู่มือ ตามที่อธิบายในข้อ 6 ของสัญญาอนุญาต"
+
+#: C/propono.xml:19(para)
+msgid ""
+"Many of the names used by companies to distinguish their products and "
+"services are claimed as trademarks. Where those names appear in any MATE "
+"documentation, and the members of the MATE Documentation Project are made "
+"aware of those trademarks, then the names are in capital letters or initial "
+"capital letters."
+msgstr ""
+"มีชื่อหลายชื่อที่บริษัทต่างๆ ใช้แยกความแตกต่างของผลิตภัณฑ์และบริการของตนจากบริษัทอื่น "
+"และอ้างเป็นเครื่องหมายการค้า ที่ใดก็ตามที่ชื่อเหล่านั้นปรากฏในเอกสารของ MATE "
+"และสมาชิกโครงการเอกสาร MATE ได้รับทราบเกี่ยวกับเครื่องหมายการค้าเหล่านั้น "
+"ชื่อเหล่านั้นจะเขียนด้วยตัวพิมพ์ใหญ่ หรือขึ้นต้นด้วยตัวพิมพ์ใหญ่"
+
+#: C/propono.xml:35(para)
+msgid ""
+"DOCUMENT IS PROVIDED ON AN \"AS IS\" BASIS, WITHOUT WARRANTY OF ANY KIND, "
+"EITHER EXPRESSED OR IMPLIED, INCLUDING, WITHOUT LIMITATION, WARRANTIES THAT "
+"THE DOCUMENT OR MODIFIED VERSION OF THE DOCUMENT IS FREE OF DEFECTS "
+"MERCHANTABLE, FIT FOR A PARTICULAR PURPOSE OR NON-INFRINGING. THE ENTIRE "
+"RISK AS TO THE QUALITY, ACCURACY, AND PERFORMANCE OF THE DOCUMENT OR "
+"MODIFIED VERSION OF THE DOCUMENT IS WITH YOU. SHOULD ANY DOCUMENT OR "
+"MODIFIED VERSION PROVE DEFECTIVE IN ANY RESPECT, YOU (NOT THE INITIAL "
+"WRITER, AUTHOR OR ANY CONTRIBUTOR) ASSUME THE COST OF ANY NECESSARY "
+"SERVICING, REPAIR OR CORRECTION. THIS DISCLAIMER OF WARRANTY CONSTITUTES AN "
+"ESSENTIAL PART OF THIS LICENSE. NO USE OF ANY DOCUMENT OR MODIFIED VERSION "
+"OF THE DOCUMENT IS AUTHORIZED HEREUNDER EXCEPT UNDER THIS DISCLAIMER; AND"
+msgstr ""
+"เอกสารนี้ เผยแพร่ตามสภาพที่เป็น โดยไม่มีการรับประกันใดๆ ทั้งสิ้น ไม่ว่าจะโดยชัดแจ้งหรือโดยนัย "
+"ซึ่งรวมถึงโดยไม่ได้จำกัดเพียงการรับประกันว่าเอกสารนี้หรือฉบับดัดแปลงของเอกสารนี้จะปลอดจากข้อผิดพลาดที่อาจเรียกร้องความเสียหายได้ "
+"หรือเหมาะกับวัตถุประสงค์เฉพาะใดๆ หรือไม่มีการละเมิดสิทธิ์ ความเสี่ยงทั้งหมดเกี่ยวกับคุณภาพ "
+"ความถูกต้อง และประสิทธิภาพของเอกสารนี้หรือฉบับดัดแปลงของเอกสารนี้ อยู่ที่ตัวคุณ "
+"หากมีการพิสูจน์พบว่าเอกสารนี้หรือฉบับดัดแปลงมีข้อบกพร่องในแง่ใดๆ ก็ตาม คุณ (ไม่ใช่ผู้เขียนเริ่มแรก "
+"หรือผู้ร่วมสมทบใดๆ) จะรับภาระค่าใช้จ่ายของการให้บริการ การซ่อมแซมหรือแก้ไขที่จำเป็น "
+"คำปฏิเสธความรับผิดชอบเกี่ยวกับการรับประกันนี้ เป็นส่วนสำคัญของสัญญาอนุญาตนี้ "
+"ไม่อนุญาตให้ใช้เอกสารนี้หรือฉบับดัดแปลงของเอกสารนี้ นอกจากจะอยู่ภายใต้คำปฏิเสธความรับผิดชอบนี้ "
+"และ"
+
+#: C/propono.xml:55(para)
+msgid ""
+"UNDER NO CIRCUMSTANCES AND UNDER NO LEGAL THEORY, WHETHER IN TORT (INCLUDING "
+"NEGLIGENCE), CONTRACT, OR OTHERWISE, SHALL THE AUTHOR, INITIAL WRITER, ANY "
+"CONTRIBUTOR, OR ANY DISTRIBUTOR OF THE DOCUMENT OR MODIFIED VERSION OF THE "
+"DOCUMENT, OR ANY SUPPLIER OF ANY OF SUCH PARTIES, BE LIABLE TO ANY PERSON "
+"FOR ANY DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES OF "
+"ANY CHARACTER INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS OF GOODWILL, "
+"WORK STOPPAGE, COMPUTER FAILURE OR MALFUNCTION, OR ANY AND ALL OTHER DAMAGES "
+"OR LOSSES ARISING OUT OF OR RELATING TO USE OF THE DOCUMENT AND MODIFIED "
+"VERSIONS OF THE DOCUMENT, EVEN IF SUCH PARTY SHALL HAVE BEEN INFORMED OF THE "
+"POSSIBILITY OF SUCH DAMAGES."
+msgstr ""
+"ไม่มีสภาวะใดและทฤษฎีทางกฎหมายใด ไม่ว่าจะในการล่วงละเมิด (รวมถึงการละเลย), ในสัญญา "
+"หรืออื่นๆ ที่ผู้เขียน ผู้เขียนเริ่มแรก ผู้ร่วมสมทบใดๆ หรือผู้เผยแพร่เอกสารนี้หรือฉบับดัดแปลง "
+"หรือผู้สนับสนุนแก่กลุ่มคนดังกล่าว จะมีภาระผูกพันต่อบุคคลใดในความเสียหายโดยตรง โดยอ้อม โดยพิเศษ "
+"โดยบังเอิญ หรือโดยผลพวง ของสิ่งใด "
+"รวมถึงโดยไม่จำกัดเพียงความเสียหายในเรื่องความสูญเสียเจตนาดี การสะดุดของงาน "
+"ความล้มเหลวหรือการทำงานผิดพลาดของคอมพิวเตอร์ หรือความเสียหายหรือความสูญเสียอื่นใดทั้งหมด "
+"ที่เกิดขึ้นจาก หรือเกี่ยวข้องกับการใช้เอกสารนี้หรือฉบับดัดแปลง "
+"แม้กลุ่มบุคคลเหล่านั้นจะได้รับทราบความเป็นไปได้ของความเสียหายดังกล่าวก็ตาม"
+
+#: C/propono.xml:28(para)
+msgid ""
+"DOCUMENT AND MODIFIED VERSIONS OF THE DOCUMENT ARE PROVIDED UNDER THE TERMS "
+"OF THE GNU FREE DOCUMENTATION LICENSE WITH THE FURTHER UNDERSTANDING THAT: "
+"<placeholder-1/>"
+msgstr ""
+"เอกสารนี้และฉบับดัดแปลงของเอกสารนี้ เผยแพร่ภายใต้เงื่อนไขของ GNU FREE DOCUMENTATION "
+"LICENSE พร้อมด้วยความเข้าใจในสิ่งต่อไปนี้: <placeholder-1/>"
+
+#: C/propono.xml:59(firstname)
+msgid "Vinicius"
+msgstr "Vinicius"
+
+#: C/propono.xml:60(surname)
+msgid "Depizzol"
+msgstr "Depizzol"
+
+#: C/propono.xml:61(email)
+msgid "vdepizzol@gmail.com"
+msgstr "vdepizzol@gmail.com"
+
+#: C/propono.xml:80(revnumber)
+msgid "0.2"
+msgstr "0.2"
+
+#: C/propono.xml:81(date)
+msgid "2008-01-15"
+msgstr "2008-01-15"
+
+#: C/propono.xml:83(para)
+msgid "Vinicius Depizzol <email>vdepizzol@gmail.com</email>"
+msgstr "Vinicius Depizzol <email>vdepizzol@gmail.com</email>"
+
+#: C/propono.xml:89(revnumber)
+msgid "0.1"
+msgstr "0.1"
+
+#: C/propono.xml:90(date)
+msgid "2007-12-16"
+msgstr "2007-12-16"
+
+#: C/propono.xml:92(para)
+msgid "Jaap A. Haitsma <email>jaap@haitsma.org</email>"
+msgstr "Jaap A. Haitsma <email>jaap@haitsma.org</email>"
+
+#: C/propono.xml:95(para)
+msgid "Jaap A. Haitsma"
+msgstr "Jaap A. Haitsma"
+
+#: C/propono.xml:101(title)
+msgid "Feedback"
+msgstr "ข้อเสนอแนะ"
+
+#: C/propono.xml:102(para)
+msgid ""
+"To report a bug or make a suggestion regarding the Propono application or "
+"this manual, follow the directions in the <ulink url=\"http://www.mate.org/"
+"projects/propono/\" type=\"http\"><application>Propono</application> Contact "
+"Page</ulink>."
+msgstr ""
+"หากพบปัญหาหรือมีข้อเสนอแนะสำหรับโปรแกรม Propono หรือเกี่ยวกับคู่มือนี้ กรุณาแจ้งให้เราทราบ "
+"ตามขั้นตอนใน <ulink url=\"http://www.mate.org/projects/propono/\" "
+"type=\"http\">หน้าติดต่อ <application>Propono</application></ulink>"
+
+#: C/propono.xml:0(application)
+msgid "Propono"
+msgstr "Propono"
+
+#: C/propono.xml:116(primary)
+msgid "remote desktop"
+msgstr "พื้นโต๊ะเครื่องอื่น"
+
+#: C/propono.xml:122(title)
+msgid "Introduction"
+msgstr "เกริ่นนำ"
+
+#: C/propono.xml:128(secondary)
+msgid "Manual"
+msgstr "คู่มือ"
+
+#: C/propono.xml:129(tertiary)
+msgid "propono"
+msgstr "propono"
+
+#: C/propono.xml:132(para)
+msgid ""
+"The Propono application is a Remote Desktop Viewer for the <systemitem>MATE "
+"desktop</systemitem> that uses Virtual Network Computing (VNC) system to "
+"remotely control another computer."
+msgstr ""
+"โปรแกรม Propono เป็นเครื่องมือแสดงพื้นโต๊ะเครื่องอื่นของเดสก์ท็อป <systemitem>MATE</"
+"systemitem> โดยใช้ระบบ Virtual Network Computing (VNC) "
+"ในการควบคุมคอมพิวเตอร์เครื่องอื่นผ่านเครือข่าย"
+
+#: C/propono.xml:133(para)
+msgid "<application>Propono</application> provides the following features:"
+msgstr "<application>Propono</application> มีคุณสมบัติต่าง ๆ ดังต่อไปนี้:"
+
+#: C/propono.xml:136(para)
+msgid "Connect to several machines at the same time."
+msgstr "เชื่อมต่อได้หลายเครื่องในขณะเดียวกัน"
+
+#: C/propono.xml:139(para)
+msgid "Store recently connections and allows to bookmark them."
+msgstr "จดจำการเชื่อมต่อล่าสุด และสามารถทำที่คั่นหน้าสำหรับการเชื่อมต่อไว้ได้"
+
+#: C/propono.xml:142(para)
+msgid "Browse local network for VNC Servers."
+msgstr "สำรวจหาเซิร์ฟเวอร์ VNC ภายในเครือข่ายเดียวกัน"
+
+#: C/propono.xml:150(title)
+msgid "Getting Started"
+msgstr "เริ่มต้น"
+
+#: C/propono.xml:155(title)
+msgid "Starting Propono"
+msgstr "เริ่มใช้งาน Propono"
+
+#: C/propono.xml:156(para)
+msgid "You can start <application>Propono</application> in the following ways:"
+msgstr "คุณสามารถเริ่มใช้งาน <application>Propono</application> ได้ด้วยวิธีต่างๆ ดังนี้:"
+
+#: C/propono.xml:159(term)
+msgid "<guimenu>Applications</guimenu> menu"
+msgstr "เมนู <guimenu>โปรแกรม</guimenu>"
+
+#: C/propono.xml:161(para)
+msgid ""
+"Choose <menuchoice><guisubmenu>Internet</guisubmenu><guimenuitem>Remote "
+"Desktop Viewer</guimenuitem></menuchoice>."
+msgstr ""
+"เลือก <menuchoice><guisubmenu>อินเทอร์เน็ต</"
+"guisubmenu><guimenuitem>เครื่องมือแสดงพื้นโต๊ะเครื่องอื่น</guimenuitem></menuchoice>"
+
+#: C/propono.xml:165(term)
+msgid "Command line"
+msgstr "บรรทัดคำสั่ง"
+
+#: C/propono.xml:167(para)
+msgid "Execute the following command: <command>propono</command>"
+msgstr "เรียกคำสั่งต่อไปนี้: <command>propono</command>"
+
+#: C/propono.xml:174(title)
+msgid "The Propono Window"
+msgstr "หน้าต่างโปรแกรม Propono"
+
+#: C/propono.xml:176(title)
+msgid "Propono window"
+msgstr "หน้าต่างโปรแกรม Propono"
+
+#: C/propono.xml:182(phrase)
+msgid "Shows propono main window."
+msgstr "แสดงหน้าต่างหลักของ propono"
+
+#: C/propono.xml:188(para)
+msgid ""
+"The <application>Propono</application> window contains the following "
+"elements:"
+msgstr ""
+"หน้าต่างโปรแกรม <application>Propono</application> ประกอบด้วยส่วนประกอบต่าง ๆ ดังนี้:"
+
+#: C/propono.xml:193(term)
+msgid "Menubar"
+msgstr "แถบเมนู"
+
+#: C/propono.xml:195(para)
+msgid ""
+"The menus on the menubar contain all of the commands you need to work with "
+"remote connections in <application>Propono</application>."
+msgstr ""
+"เมนูจะประกอบด้วยคำสั่งต่าง ๆ ที่จำเป็นต่อการใช้งาน <application>Propono</"
+"application> ในการเชื่อมต่อ"
+
+#: C/propono.xml:199(term)
+msgid "Toolbar"
+msgstr "แถบเครื่องมือ"
+
+#: C/propono.xml:201(para)
+msgid ""
+"The toolbar contains a subset of the most used commands that you can access "
+"from the menubar."
+msgstr "แถบเครื่องมือจะประกอบด้วยคำสั่งที่ใช้บ่อย ซึ่งเป็นคำสั่งที่มีอยู่แล้วในแถบเมนู"
+
+#: C/propono.xml:205(term)
+msgid "Display Area"
+msgstr "พื้นที่แสดงผล"
+
+#: C/propono.xml:207(para)
+msgid ""
+"The display area contains a list of tabs with the connected machines and its "
+"remote desktops."
+msgstr ""
+"พื้นที่แสดงผลจะประกอบด้วยแท็บต่าง ๆ ของเครื่องที่ได้ทำการเชื่อมต่อไว้ "
+"พร้อมทั้งพื้นโต๊ะของเครื่องเหล่านั้น"
+
+#: C/propono.xml:211(term)
+msgid "Statusbar"
+msgstr "แถบสถานะ"
+
+#: C/propono.xml:213(para)
+msgid ""
+"The statusbar displays information about current <application>Propono</"
+"application> activity and contextual information about the menu items."
+msgstr ""
+"แถบสถานะจะแสดงข้อมูลเกี่ยวกับสิ่งต่าง ๆ ที่ <application>Propono</application> ทำ "
+"และข้อมูลเกี่ยวกับรายการเมนูต่าง ๆ"
+
+#: C/propono.xml:217(term)
+msgid "Side Pane"
+msgstr "ช่องด้านข้าง"
+
+#: C/propono.xml:219(para)
+msgid "The side pane contains a list of bookmarked connections."
+msgstr "ช่องด้านข้างจะประกอบด้วยรายชื่อของการเชื่อมต่อที่ได้คั่นหน้าไว้"
+
+#: C/propono.xml:228(title)
+msgid "Using Propono"
+msgstr "การใช้งาน Propono"
+
+#: C/propono.xml:231(title)
+msgid "To connect with a remote machine"
+msgstr "การเชื่อมต่อกับเครื่องในเครือข่าย"
+
+#: C/propono.xml:234(title)
+msgid "Informing Host address"
+msgstr "การป้อนที่อยู่โฮสต์"
+
+#: C/propono.xml:235(para)
+msgid ""
+"To connect with a remote machine, choose "
+"<menuchoice><shortcut><keycombo><keycap>Ctrl</keycap><keycap>N</keycap></"
+"keycombo></shortcut><guimenu>Machine</guimenu><guimenuitem>Connect</"
+"guimenuitem></menuchoice>. The <guilabel>Connection Dialog</guilabel> is "
+"displayed. Inform the <guilabel>Host</guilabel> and the <guilabel>Port</"
+"guilabel> of the connection and click the <guibutton>Connect</guibutton> "
+"button. You can also use the <guibutton>Find</guibutton> button to browse "
+"available machines on local network."
+msgstr ""
+"การเชื่อมต่อไปยังเครื่องอื่น ทำได้โดยเลือก "
+"<menuchoice><shortcut><keycombo><keycap>Ctrl</keycap><keycap>N</keycap></"
+"keycombo></shortcut><guimenu>เครื่อง</guimenu><guimenuitem>เชื่อมต่อ</"
+"guimenuitem></menuchoice> จะปรากฏกล่องโต้ตอบ <guilabel>การเชื่อมต่อ</guilabel> "
+"ให้คุณป้อน <guilabel>โฮสต์</guilabel> และ <guilabel>พอร์ต</guilabel> "
+"ของเครื่องที่จะเชื่อมต่อ แล้วคลิกปุ่ม <guibutton>เชื่อมต่อ</guibutton> นอกจากนี้ "
+"คุณสามารถใช้ปุ่ม <guibutton>หา</guibutton> เพื่อเรียกดูเครื่องต่าง ๆ ที่มีอยู่ในเครือข่ายได้เช่นกัน"
+
+#: C/propono.xml:246(para)
+msgid ""
+"Some machines may require a secure connection. In this case, a "
+"<guilabel>Password</guilabel> dialog will be displayed asking for the "
+"connection password. If you check <guilabel>Remember this password</"
+"guilabel>, <application>Propono</application> will store the secure "
+"information using <application>MATE Keyring Manager</application>."
+msgstr ""
+"บางเครื่องอาจต้องการการเชื่อมแบบนิรภัย ในกรณีนี้ จะมีกล่องโต้ตอบ <guilabel>รหัสผ่าน</"
+"guilabel> ขึ้นมาเพื่อถามรหัสผ่านในการเชื่อมต่อ ถ้าคุณเลือกตัวเลือก <guilabel>จำรหัสผ่านนี้ไว้</"
+"guilabel> โปรแกรม <application>Propono</application> "
+"จะจดจำข้อมูลรหัสลับไว้ใน <application>เครื่องมือจัดการพวงกุญแจ</application>"
+
+#: C/propono.xml:253(para)
+msgid ""
+"If the connection has been used previously, you can also access it by "
+"<menuchoice><guimenu>Machine</guimenu><guimenu>Recent connections...</"
+"guimenu></menuchoice>."
+msgstr ""
+"ถ้าต้องการเชื่อมต่อโฮสต์ที่คุณเคยเชื่อมต่อมาแล้ว คุณสามารถเลือกได้ในเมนู "
+"<menuchoice><guimenu>เครื่อง</guimenu><guimenuitem>การเชื่อมต่อล่าสุด...</"
+"guimenuitem></menuchoice>"
+
+#: C/propono.xml:263(title)
+msgid "Opening a Remote Connection File"
+msgstr "การเปิดแฟ้มข้อมูลการเชื่อมต่อ"
+
+#: C/propono.xml:264(para)
+msgid ""
+"Some hosts distribute remote connection files (generally ending with suffix "
+"\".vnc\") instead of inform Host address and Port. To open a remote "
+"connection file, choose <menuchoice><shortcut><keycombo><keycap>Ctrl</"
+"keycap><keycap>O</keycap></keycombo></shortcut><guimenu>Machine</"
+"guimenu><guimenuitem>Open</guimenuitem></menuchoice>. The <guilabel>Select "
+"File</guilabel> dialog is displayed. Select the file you want to open, then "
+"click on the <guibutton>Open</guibutton> button."
+msgstr ""
+"บางโฮสต์อาจแจกจ่ายแฟ้มข้อมูลการเชื่อมต่อเครือข่าย (ซึ่งโดยทั่วไปจะมีนามสกุลเป็น \".vnc\") "
+"แทนการอ้างที่อยู่โฮสต์และพอร์ต การเปิดใช้งานแฟ้มเชื่อมต่อดังกล่าวนี้ ทำได้โดยเลือกเมนู "
+"<menuchoice><shortcut><keycombo><keycap>Ctrl</keycap><keycap>O</keycap></"
+"keycombo></shortcut><guimenu>เครื่อง</guimenu><guimenuitem>เปิด</guimenuitem></"
+"menuchoice> จะมีกล่องโต้ตอบ <guilabel>เลือกแฟ้ม</guilabel> ขึ้นมา "
+"ให้เลือกแฟ้มที่คุณต้องการเปิด จากนั้นคลิกที่ปุ่ม <guibutton>เปิด</guibutton>"
+
+#: C/propono.xml:276(para)
+msgid ""
+"You can also double-click on a remote connection file in the "
+"<application>Caja</application> file manager to open it on the "
+"<application>Propono</application> window."
+msgstr ""
+"คุณสามารถดับเบิลคลิกที่แฟ้มข้อมูลการเชื่อมต่อเครือข่ายในโปรแกรมจัดการแฟ้ม "
+"<application>Caja</application> เพื่อเปิดแฟ้มดังกล่าวด้วยโปรแกรม "
+"<application>Propono</application> ก็ได้"
+
+#: C/propono.xml:284(title)
+msgid "To Create a New Bookmark"
+msgstr "การเพิ่มที่คั่นหน้า"
+
+#: C/propono.xml:285(para)
+msgid ""
+"To bookmark the currently viewed connection, choose "
+"<menuchoice><shortcut><keycombo><keycap>Ctrl</keycap><keycap>D</keycap></"
+"keycombo></shortcut><guimenu>Bookmarks</guimenu><guimenuitem>Add to "
+"Bookmarks</guimenuitem></menuchoice>. The <guilabel>Saving to Bookmarks</"
+"guilabel> dialog is displayed. Inform the name of the connection and click "
+"<guibutton>Ok</guibutton>."
+msgstr ""
+"การเพิ่มที่คั่นหน้าสำหรับการเชื่อมต่อที่กำลังเชื่อมต่ออยู่ ทำได้โดยเลือกเมนู "
+"<menuchoice><shortcut><keycombo><keycap>Ctrl</keycap><keycap>D</keycap></"
+"keycombo></shortcut><guimenu>ที่คั่นหน้า</guimenu><guimenuitem>เพิ่มในที่คั่นหน้า</"
+"guimenuitem></menuchoice> จะมีกล่องโต้ตอบ <guilabel>การบันทึกที่คั่นหน้า</guilabel> "
+"ขึ้นมา ให้ตั้งชื่อการเชื่อมต่อนั้นแล้วคลิก <guibutton>ตกลง</guibutton>"
+
+#: C/propono.xml:296(title)
+msgid "To Remove a Bookmark"
+msgstr "การลบที่คั่นหน้า"
+
+#: C/propono.xml:297(para)
+msgid ""
+"To remove a bookmark, choose <guimenuitem>Remove</guimenuitem> from the "
+"context menu of the bookmark in the Side Pane."
+msgstr ""
+"การลบที่คั่นหน้าการเชื่อมต่อ ทำได้โดยเลือก <guimenuitem>ลบ</guimenuitem> "
+"จากเมนูคลิกขวาของที่คั่นหน้าที่ต้องการในช่องด้านข้าง"
+
+#: C/propono.xml:304(title)
+msgid "To Edit a Bookmark's Properties"
+msgstr "การแก้ไขรายละเอียดของที่คั่นหน้า"
+
+#: C/propono.xml:305(para)
+msgid ""
+"To edit a bookmark's properties, such as it's name and host, choose "
+"<guimenuitem>Edit</guimenuitem> from the context menu of the bookmark in the "
+"Side Pane."
+msgstr ""
+"การแก้ไขรายละเอียดของที่คั่นหน้า เช่น ชื่อ หรือโฮสต์ ทำได้โดยเลือก <guimenuitem>แก้ไข</"
+"guimenuitem> จากเมนูคลิกขวาของที่คั่นหน้าที่ต้องการในช่องด้านข้าง"
+
+#: C/propono.xml:312(title)
+msgid "To Use Full Screen Mode"
+msgstr "การใช้โหมดเต็มจอ"
+
+#: C/propono.xml:313(para)
+msgid ""
+"To zoom the Display Area to full screen mode, choose "
+"<menuchoice><shortcut><keycap>F11</keycap></shortcut><guimenu>View</"
+"guimenu><guimenuitem>Full Screen</guimenuitem></menuchoice>. To exit full "
+"screen mode, press <keycap>F11</keycap> or <keycombo><keycap>Ctrl</"
+"keycap><keycap>Alt</keycap></keycombo>."
+msgstr ""
+"การขยายพื้นที่การแสดงผลให้เต็มหน้าจอ ทำได้โดยเลือกเมนู "
+"<menuchoice><shortcut><keycap>F11</keycap></shortcut><guimenu>มุมมอง</"
+"guimenu><guimenuitem>เต็มจอ</guimenuitem></menuchoice> "
+"ส่วนการยกเลิกการแสดงผลแบบเต็มจอ ให้กดปุ่ม <keycap>F11</keycap> หรือ "
+"<keycombo><keycap>Ctrl</keycap><keycap>Alt</keycap></keycombo>"
+
+#: C/propono.xml:324(title)
+msgid "To Close a Connection"
+msgstr "การปิดการเชื่อมต่อ"
+
+#: C/propono.xml:325(para)
+msgid ""
+"To close a connection, choose <menuchoice><guimenu>Machine</"
+"guimenu><guimenuitem>Close</guimenuitem></menuchoice>."
+msgstr ""
+"การปิดการเชื่อมต่อ ทำได้โดยเลือกเมนู <menuchoice><guimenu>เครื่อง</"
+"guimenu><guimenuitem>ปิด</guimenuitem></menuchoice>"
+
+#: C/propono.xml:334(title)
+msgid "To Take Screenshot"
+msgstr "การจับภาพหน้าจอ"
+
+#: C/propono.xml:335(para)
+msgid ""
+"To take screenshot of the current remote desktop, choose "
+"<menuchoice><guimenu>Machine</guimenu><guimenu>Take Screenshot</guimenu></"
+"menuchoice> or press the relative button in the toolbar. The <guilabel>Save "
+"Screenshot</guilabel> dialog is displayed, click the <guibutton>Save</"
+"guibutton> button to save the screenshot."
+msgstr ""
+"การจับภาพหน้าจอของเครื่องที่เชื่อมต่ออยู่ ทำได้โดยเลือก <menuchoice><guimenu>เครื่อง</"
+"guimenu><guimenu>จับภาพหน้าจอ</guimenu></menuchoice> "
+"หรือกดปุ่มรูปกล้องถ่ายรูปในแถบเครื่องมือ จะมีกล่องโต้ตอบ <guilabel>จับภาพหน้าจอ</guilabel> "
+"แสดงขึ้นมา ให้คลิกที่ปุ่ม <guibutton>บันทึก</guibutton> เพื่อบันทึกภาพหน้าจอ"
+
+#: C/propono.xml:349(title)
+msgid "About"
+msgstr "เกี่ยวกับ"
+
+#: C/propono.xml:350(para)
+msgid ""
+"Propono was written by Jonh Wendell <email>wendell@bani.com.br</email>. To "
+"find more information about Propono, please visit the <ulink url=\"http://"
+"www.mate.org/projects/propono\" type=\"http\"><application>Propono</"
+"application> web page</ulink>."
+msgstr ""
+"โปรแกรม Propono พัฒนาโดย Jonh Wendell <email>wendell@bani.com.br</email> "
+"สำหรับข้อมูลเพิ่มเติมของ Propono โปรดเข้าไปที่ <ulink url=\"http://www.mate.org/"
+"projects/propono\" type=\"http\"><application>เว็บไซต์ของ Propono</"
+"application></ulink>"
+
+#: C/propono.xml:356(para)
+msgid ""
+"To report a bug or make a suggestion regarding this application you can file "
+"a bug in our <ulink url=\"http://bugzilla.mate.org/browse.cgi?"
+"product=propono\" type=\"http\"> bug tracker</ulink>."
+msgstr ""
+"หากพบปัญหาหรือมีข้อเสนอแนะสำหรับ Propono กรุณาแจ้งให้เราทราบได้ที่ <ulink "
+"url=\"http://bugzilla.mate.org/browse.cgi?product=propono\" "
+"type=\"http\">เครื่องมือติดตามบั๊ก</ulink> ของเรา"
+
+#: C/propono.xml:362(para)
+msgid ""
+"This program is distributed under the terms of the GNU General Public "
+"license as published by the Free Software Foundation; either version 2 of "
+"the License, or (at your option) any later version. A copy of this license "
+"can be found at the <ulink url=\"http://www.gnu.org/licenses/gpl.html\" type="
+"\"http\">GNU site</ulink>, or in the file COPYING included with the source "
+"code of this program."
+msgstr ""
+"โปรแกรมนี้เผยแพร่ภายใต้เงื่อนไขของ GNU General Public License "
+"ที่เผยแพร่โดยมูลนิธิซอฟต์แวร์เสรี ไม่ว่าจะเป็นสัญญาอนุญาตรุ่นที่ 2 หรือรุ่นถัดมา (ตามแต่คุณจะเลือก) "
+"รายละเอียดของสัญญาอนุญาต สามารถอ่านได้ที่ <ulink url=\"http://"
+"www.gnu.org/licenses/gpl.html\" type=\"http\">เว็บไซต์ของ GNU</ulink> หรือในแฟ้ม "
+"COPYING ที่มาพร้อมกับซอร์สโค้ดของโปรแกรมนี้"
+
+#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2.
+#: C/propono.xml:0(None)
+msgid "translator-credits"
+msgstr ""
+"Sira Nokyoongtong <gumaraa@gmail.com>, 2008."
+"Theppitak Karoonboonyanan <thep@linux.thai.net>, 2008."

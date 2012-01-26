@@ -1,0 +1,1336 @@
+# Simplified Chinese Translation of Propono
+# Copyright (C) 2008 Free Software Foundation, Inc.
+# This file is distributed under the same license as the propono package.
+# Deng Xiyue <manphiz@gmail.com>, 2008.
+# 甘露(Gan Lu) <rhythm.gan@gmail.com>, 2009.
+# YunQiang Su <wzssyqa@gmail.com>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: propono HEAD\n"
+"Report-Msgid-Bugs-To: http://bugzilla.mate.org/enter_bug.cgi?"
+"product=propono&component=general\n"
+"POT-Creation-Date: 2010-03-27 15:15+0000\n"
+"PO-Revision-Date: 2010-03-28 10:21+0800\n"
+"Last-Translator: Eleanor Chen <chenyueg@gmail.com>\n"
+"Language-Team: Chinese/Simplified <i18n-zh@googlegroups.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../data/MATE_ProponoApplet.xml.h:1 ../propono/propono-plugin-manager.c:495
+msgid "_About"
+msgstr "关于(_A)"
+
+#: ../data/MATE_ProponoApplet.xml.h:2 ../propono/propono-ui.h:37
+msgid "_Help"
+msgstr "帮助(_H)"
+
+#: ../data/propono.desktop.in.in.h:1 ../data/propono-file.desktop.in.in.h:1
+msgid "Access remote desktops"
+msgstr "访问远程桌面"
+
+#: ../data/propono.desktop.in.in.h:2 ../data/propono-file.desktop.in.in.h:2
+#: ../propono/MATE_ProponoApplet.server.in.in.h:2
+#: ../propono/propono-applet.c:434 ../propono/propono-applet.c:486
+#: ../propono/propono-main.c:200
+msgid "Remote Desktop Viewer"
+msgstr "远程桌面查看器"
+
+#: ../data/propono.ui.h:1
+msgid "Allow _keyboard shortcuts"
+msgstr "允许菜单快捷键(_K)"
+
+#: ../data/propono.ui.h:2
+msgid "Authentication is required"
+msgstr "需要验证"
+
+#. setup label
+#: ../data/propono.ui.h:3 ../propono/propono-fav.c:851
+msgid "Bookmarks"
+msgstr "书签"
+
+#: ../data/propono.ui.h:4
+msgid "Connection"
+msgstr "连接"
+
+#: ../data/propono.ui.h:5
+msgid "Connection options"
+msgstr "连接选项"
+
+#: ../data/propono.ui.h:6
+msgid "Folder"
+msgstr "文件夹"
+
+#: ../data/propono.ui.h:7 ../plugins/ssh/propono-ssh-tab.c:49
+#: ../plugins/vnc/propono-vnc-tab.c:148 ../propono/propono-fav.c:404
+msgid "Host:"
+msgstr "主机："
+
+#: ../data/propono.ui.h:8
+msgid "Interface"
+msgstr "界面"
+
+#: ../data/propono.ui.h:9
+msgid "Options"
+msgstr "选项"
+
+#: ../data/propono.ui.h:10
+msgid "Parent Folder"
+msgstr "父文件夹"
+
+#: ../data/propono.ui.h:11
+msgid "Preferences"
+msgstr "首选项"
+
+#. This is a tooltip in preferences dialog
+#: ../data/propono.ui.h:13
+msgid ""
+"This option enables menu accelerators and keyboard shortcuts. For more info "
+"on why you may want to disable them, check the documentation."
+msgstr ""
+"此选项允许菜单快捷键和键盘组合键。要获得为何可能需要禁用的信息，请查看文档。"
+
+#: ../data/propono.ui.h:14
+msgid "Which machine do you want to connect to?"
+msgstr "您想连接到哪台机器？"
+
+#: ../data/propono.ui.h:15
+msgid "_Always show tabs"
+msgstr "总是显示标签(_A)"
+
+#. This is a button label, in the authentication dialog
+#: ../data/propono.ui.h:17
+msgid "_Authenticate"
+msgstr "认证(_A)"
+
+#: ../data/propono.ui.h:18
+msgid "_Full screen"
+msgstr "全屏(_F)"
+
+#: ../data/propono.ui.h:19
+msgid "_Host:"
+msgstr "主机(_H)："
+
+#: ../data/propono.ui.h:20
+msgid "_Name:"
+msgstr "名称(_N)："
+
+#: ../data/propono.ui.h:21
+msgid "_Password:"
+msgstr "口令(_P)："
+
+#: ../data/propono.ui.h:22
+msgid "_Protocol:"
+msgstr "协议(_P)："
+
+#: ../data/propono.ui.h:23
+msgid "_Remember this credential"
+msgstr "记住此证书(_R)"
+
+#: ../data/propono.ui.h:24 ../plugins/ssh/propono-ssh-plugin.c:144
+msgid "_Username:"
+msgstr "用户名(_N)："
+
+#: ../data/propono.schemas.in.in.h:1 ../propono/propono-plugin-manager.c:795
+msgid "Active plugins"
+msgstr "已激活的插件"
+
+#: ../data/propono.schemas.in.in.h:2
+msgid ""
+"List of active plugins. It contains the \"Location\" of the active plugins. "
+"See the .propono-plugin file for obtaining the \"Location\" of a given "
+"plugin."
+msgstr ""
+"已激活的插件的列表。包含已激活插件的“位置”。参考 .propono-plugin 获取某个插件"
+"的“位置”。"
+
+#: ../data/propono.schemas.in.in.h:3
+msgid "Maximum number of history items in connect dialog"
+msgstr "连接对话框中最多的历史记录条数"
+
+#: ../data/propono.schemas.in.in.h:4
+msgid ""
+"Set to \"false\" to disable menu shortcuts. Set to \"true\" to enable them. "
+"Note that if they are enabled, those keys will be intercepted by the menu "
+"and will not be sent to the remote host."
+msgstr ""
+"设为“false”以禁用菜单快捷键。设为“true”以启用它们。注意如果\n"
+"被启用的话，这些键将被菜单所截获，不能被发送到远程主机。"
+
+#: ../data/propono.schemas.in.in.h:5
+msgid ""
+"Set to \"true\" to always show the tabs. Set to \"false\" to only show the "
+"tabs when there is more than one active connection."
+msgstr ""
+"设为“true”以总是显示标签栏。设为“false”以仅当存在多个活动连接时显示标签栏。"
+
+#: ../data/propono.schemas.in.in.h:6
+msgid ""
+"Set to \"true\" to always start the program listening for reverse "
+"connections."
+msgstr "如果为 \"true\" (真)，则总是以监听反向连接的方式启动本程序。"
+
+#: ../data/propono.schemas.in.in.h:7
+msgid "Specifies the maximum number of items in the host dropdown entry."
+msgstr "指定在主机下拉菜单中显示项的最大数目"
+
+#: ../data/propono.schemas.in.in.h:8
+msgid "The handler for \"vnc://\" URLs"
+msgstr "“vnc://”这类 URL 的处理程序"
+
+#: ../data/propono.schemas.in.in.h:9
+msgid ""
+"When connecting to a host, the client can say to the server to leave other "
+"clients connected or to drop the existent connections. Set the value to true "
+"to share the desktop with the other clients."
+msgstr ""
+"当连接到主机时，客户端可以告诉服务器保持其它客户端的连接\n"
+"或丢弃已有的连接。将此值设为“true”以和其它客户端共享桌面。"
+
+#: ../data/propono.schemas.in.in.h:10
+msgid "Whether we should leave other clients connected"
+msgstr "是否应保持其它客户端的连接"
+
+#: ../data/propono.schemas.in.in.h:11
+msgid ""
+"Whether we should show tabs even when there is only one active connection"
+msgstr "在只有一个活动连接时是否仍然应显示标签"
+
+#: ../data/propono.schemas.in.in.h:12
+msgid "Whether we should show the menu accelerators (shortcut keys)"
+msgstr "是否应显示菜单加速器(快捷键)"
+
+#: ../data/propono.schemas.in.in.h:13
+msgid "Whether we should start the program listening for reverse connections"
+msgstr "是否以监听反向连接的方式启动此程序"
+
+#: ../data/propono-mime.xml.in.h:1
+msgid "Remote Desktop (VNC) file"
+msgstr "远程桌面(VNC)文件"
+
+#: ../data/propono-mime.xml.in.h:2
+msgid "Remote Desktop Connection"
+msgstr "远程桌面连接"
+
+#. vim: set ts=8:
+#: ../plugins/ssh/propono-ssh-plugin.c:76
+#: ../plugins/ssh/ssh.propono-plugin.desktop.in.h:1
+msgid "SSH"
+msgstr "SSH"
+
+#. Translators: This is a description of the SSH protocol. It appears at Connect dialog.
+#: ../plugins/ssh/propono-ssh-plugin.c:78
+msgid "Access Unix/Linux terminals"
+msgstr "访问 Unix/Linux 终端"
+
+#: ../plugins/ssh/propono-ssh-plugin.c:132
+msgid "SSH Options"
+msgstr "SSH 选项"
+
+#. Translators: This is the tooltip for the username field in a SSH connection
+#: ../plugins/ssh/propono-ssh-plugin.c:149
+msgid ""
+"Optional. If blank, your username will be used. Also, it can be supplied in "
+"the Machine field above, in the form username@hostname."
+msgstr ""
+"可选。如果为空，将使用您的用户名。也可以在上面提到的机器字段中使用 用户名@主"
+"机名 的格式提供。"
+
+#: ../plugins/ssh/propono-ssh-tab.c:50 ../plugins/vnc/propono-vnc-tab.c:149
+msgid "Port:"
+msgstr "端口："
+
+#: ../plugins/ssh/ssh.propono-plugin.desktop.in.h:2
+msgid "SSH support"
+msgstr "SSH 支持"
+
+#. Translators: 'shared' here is a VNC protocol specific flag. You can translate it, but I think it's better to let it untranslated
+#: ../plugins/vnc/propono-vnc-connection.c:291
+#: ../plugins/vnc/propono-vnc-plugin.c:322
+#, c-format
+msgid ""
+"Bad value for 'shared' flag: %d. It is supposed to be 0 or 1. Ignoring it."
+msgstr "坏的“共享”标记值：%d。应当为 0 或 1。忽略掉。"
+
+#: ../plugins/vnc/propono-vnc-plugin.c:84
+msgid "_Reverse Connections..."
+msgstr "反向连接(_R)..."
+
+#: ../plugins/vnc/propono-vnc-plugin.c:86
+msgid "Configure incoming VNC connections"
+msgstr "配置到达的 VNC 连接"
+
+#. Translators: this is a command line option (run propono --help)
+#: ../plugins/vnc/propono-vnc-plugin.c:173
+msgid "Enable scaled mode"
+msgstr "启用缩放模式"
+
+#. Translators: this is a command line option (run propono --help)
+#: ../plugins/vnc/propono-vnc-plugin.c:188
+msgid "VNC Options:"
+msgstr "VNC 选项："
+
+#. Translators: this is a command line option (run propono --help)
+#: ../plugins/vnc/propono-vnc-plugin.c:190
+msgid "Show VNC Options"
+msgstr "显示 VNC 选项"
+
+#. vim: set ts=8:
+#: ../plugins/vnc/propono-vnc-plugin.c:212
+#: ../plugins/vnc/vnc.propono-plugin.desktop.in.h:1
+msgid "VNC"
+msgstr "VNC"
+
+#: ../plugins/vnc/propono-vnc-plugin.c:213
+msgid "Access Unix/Linux, Windows and other machines."
+msgstr "访问 Unix/Linux，Windows 和其它机器。"
+
+#: ../plugins/vnc/propono-vnc-plugin.c:270
+msgid "Could not parse the file."
+msgstr "无法解析该文件。"
+
+#: ../plugins/vnc/propono-vnc-plugin.c:277
+msgid "The file is not a VNC one: Missing the group \"connection\"."
+msgstr "此文件不是 VNC 文件缺少 \"connection\" 组。"
+
+#: ../plugins/vnc/propono-vnc-plugin.c:283
+msgid "The file is not a VNC one: Missing the key \"host\"."
+msgstr "此文件不是 VNC 文件缺少 \"host\" 键。"
+
+#: ../plugins/vnc/propono-vnc-plugin.c:375
+msgid "VNC Options"
+msgstr "VNC 选项"
+
+#. View only check button
+#: ../plugins/vnc/propono-vnc-plugin.c:388
+#: ../plugins/vnc/propono-vnc-tab.c:632
+msgid "_View only"
+msgstr "仅查看(_V)"
+
+#. Scaling check button
+#: ../plugins/vnc/propono-vnc-plugin.c:396
+msgid "_Scaling"
+msgstr "缩放(_S)"
+
+#: ../plugins/vnc/propono-vnc-plugin.c:412
+msgid "_Keep aspect ratio"
+msgstr "保持宽高比(_K)"
+
+#. JPEG Compression check button
+#: ../plugins/vnc/propono-vnc-plugin.c:422
+msgid "_Use JPEG Compression"
+msgstr "使用 JPEG 压缩(_U)"
+
+#: ../plugins/vnc/propono-vnc-plugin.c:423
+msgid "This might not work on all VNC servers"
+msgstr "这可能不能在所有 VNC 服务器上工作"
+
+#: ../plugins/vnc/propono-vnc-plugin.c:432
+msgid "_Depth Color:"
+msgstr "颜色深度(_D)："
+
+#: ../plugins/vnc/propono-vnc-plugin.c:437
+msgid "Use Server Settings"
+msgstr "使用服务器设定"
+
+#: ../plugins/vnc/propono-vnc-plugin.c:438
+msgid "True Color (24 bits)"
+msgstr "真彩色(24 位)"
+
+#: ../plugins/vnc/propono-vnc-plugin.c:439
+msgid "High Color (16 bits)"
+msgstr "高彩色(16 位)"
+
+#: ../plugins/vnc/propono-vnc-plugin.c:440
+msgid "Low Color (8 bits)"
+msgstr "低彩色(8 位)"
+
+#: ../plugins/vnc/propono-vnc-plugin.c:441
+msgid "Ultra Low Color (3 bits)"
+msgstr "超低彩色(3 位)"
+
+#. Translators: the whole sentence will be: Use host <hostname> as a SSH tunnel
+#: ../plugins/vnc/propono-vnc-plugin.c:454
+msgid "Use h_ost"
+msgstr "使用主机(_O)"
+
+#. Translators: This is the tooltip of the SSH tunneling entry
+#: ../plugins/vnc/propono-vnc-plugin.c:462
+msgid "hostname or user@hostname"
+msgstr "主机名或 user@hostname"
+
+#. Translators: the whole sentence will be: Use host <hostname> as a SSH tunnel
+#: ../plugins/vnc/propono-vnc-plugin.c:466
+msgid "as a SSH tunnel"
+msgstr "作为 SSH 隧道"
+
+#. Translators: this is a pattern to open *.vnc files in a open dialog.
+#: ../plugins/vnc/propono-vnc-plugin.c:501
+msgid "VNC Files"
+msgstr "VNC 文件"
+
+#: ../plugins/vnc/propono-vnc-tab.c:147
+msgid "Desktop Name:"
+msgstr "桌面名称："
+
+#: ../plugins/vnc/propono-vnc-tab.c:150
+msgid "Dimensions:"
+msgstr "维度："
+
+#: ../plugins/vnc/propono-vnc-tab.c:304
+msgid "Error creating the SSH tunnel"
+msgstr "创建 SSH 隧道出错"
+
+#: ../plugins/vnc/propono-vnc-tab.c:305 ../plugins/vnc/propono-vnc-tab.c:316
+msgid "Unknown reason"
+msgstr "未知原因"
+
+#: ../plugins/vnc/propono-vnc-tab.c:315
+msgid "Error connecting to host."
+msgstr "连接到主机出错。"
+
+#. Translators: %s is a host name or IP address; %u is a code error (number).
+#: ../plugins/vnc/propono-vnc-tab.c:360
+#, c-format
+msgid "Authentication method to host %s is unsupported. (%u)"
+msgstr "到主机 %s 的认证方法不受支持。(%u)"
+
+#: ../plugins/vnc/propono-vnc-tab.c:364
+msgid "Authentication unsupported"
+msgstr "验证方法不支持"
+
+#: ../plugins/vnc/propono-vnc-tab.c:531 ../plugins/vnc/propono-vnc-tab.c:548
+msgid "Authentication error"
+msgstr "验证错误"
+
+#: ../plugins/vnc/propono-vnc-tab.c:532
+msgid "A username is required in order to access this machine."
+msgstr "要访问这台机器必须提供用户名。"
+
+#: ../plugins/vnc/propono-vnc-tab.c:549
+msgid "A password is required in order to access this machine."
+msgstr "要访问这台机器必须提供密码。"
+
+#: ../plugins/vnc/propono-vnc-tab.c:603
+msgid "S_caling"
+msgstr "缩放(_C)"
+
+#: ../plugins/vnc/propono-vnc-tab.c:604
+msgid "Fits the remote screen into the current window size"
+msgstr "使远程屏幕适应当前窗口大小"
+
+#: ../plugins/vnc/propono-vnc-tab.c:617
+msgid "_Keep Aspect Ratio"
+msgstr "保持宽高比(_K)"
+
+#: ../plugins/vnc/propono-vnc-tab.c:618
+msgid "Keeps the screen aspect ratio when using scaling"
+msgstr "使用缩放时，保持屏幕的宽高比"
+
+#: ../plugins/vnc/propono-vnc-tab.c:633
+msgid "Does not send mouse and keyboard events"
+msgstr "不发送鼠标和键盘事件"
+
+#: ../plugins/vnc/propono-vnc-tab.c:646
+msgid "_Original size"
+msgstr "原始大小(_O)"
+
+#: ../plugins/vnc/propono-vnc-tab.c:647
+msgid "Adjusts the window to the remote desktop's size"
+msgstr "调节窗口到远程桌面大小"
+
+#: ../plugins/vnc/propono-vnc-tab.c:660
+msgid "_Refresh Screen"
+msgstr "刷新屏幕(_R)"
+
+#: ../plugins/vnc/propono-vnc-tab.c:661
+msgid "Requests an update of the screen"
+msgstr "要求更新屏幕"
+
+#. Send Ctrl-alt-del
+#: ../plugins/vnc/propono-vnc-tab.c:683 ../plugins/vnc/propono-vnc-tab.c:755
+#: ../plugins/vnc/propono-vnc-tab.c:757
+msgid "Send Ctrl-Alt-Del"
+msgstr "发送 Ctrl+Alt+Del"
+
+#: ../plugins/vnc/propono-vnc-tab.c:684
+msgid "Sends Ctrl+Alt+Del to the remote machine"
+msgstr "向远程机器发送 Ctrl+Alt+Del"
+
+#: ../plugins/vnc/propono-vnc-tab.c:736 ../plugins/vnc/propono-vnc-tab.c:737
+msgid "Scaling"
+msgstr "缩放"
+
+#: ../plugins/vnc/propono-vnc-tab.c:746 ../plugins/vnc/propono-vnc-tab.c:747
+msgid "Read only"
+msgstr "只读"
+
+#: ../plugins/vnc/propono-vnc-tab.c:919
+msgid ""
+"Scaling is not supported on this installation.\n"
+"\n"
+"Read the README file (shipped with Propono) in order to know how to enable "
+"this feature."
+msgstr ""
+"此按钮不支持缩放。\n"
+"\n"
+"请阅读 Propono 自带的 README 文件，以便获知如何启用此特性。"
+
+#: ../plugins/vnc/propono-vnc-tunnel.c:77
+#, c-format
+msgid "Unable to find a free TCP port"
+msgstr "无法找到空闲 TCP 端口"
+
+#: ../plugins/vnc/vnc.propono-plugin.desktop.in.h:2
+msgid "VNC support"
+msgstr "VNC 支持"
+
+#: ../plugins/vnc/propono-vnc-listener-dialog.c:90
+msgid "IPv4:"
+msgstr "IPv4:"
+
+#: ../plugins/vnc/propono-vnc-listener-dialog.c:102
+msgid ""
+"\n"
+"\n"
+"IPv6:"
+msgstr ""
+"\n"
+"\n"
+"IPv6:"
+
+#: ../plugins/vnc/propono-vnc-listener-dialog.c:161
+#, c-format
+msgid "On the port %d"
+msgstr "在端口 %d"
+
+#: ../plugins/vnc/propono-vnc-listener.c:168
+msgid "Incoming VNC connection arrived but there is no active window"
+msgstr "进入的 VNC 连接已经到达，但是没有活动窗口。"
+
+#. vim: set ts=8:
+#: ../plugins/vnc/vnc.ui.h:1
+msgid ""
+"By activating reverse connections you can access machines that are behind a "
+"firewall. The remote side is supposed to initiate the connection with you. "
+"For further information, checkout the help."
+msgstr ""
+"通过激活反向连接，您可以访问防火墙后边的机器。远程端应该发起和您的连接。要获"
+"取更多信息，查看帮助。"
+
+#: ../plugins/vnc/vnc.ui.h:2
+msgid "Connectivity"
+msgstr "连接"
+
+#: ../plugins/vnc/vnc.ui.h:3
+msgid "Reverse Connections"
+msgstr "反向连接"
+
+#: ../plugins/vnc/vnc.ui.h:4
+msgid "This machine is reachable through the following IP address(es):"
+msgstr "可以使用如下 IP 地址到达此机器："
+
+#: ../plugins/vnc/vnc.ui.h:5
+msgid "_Always Enabled"
+msgstr "总是启用(_A)"
+
+#: ../plugins/vnc/vnc.ui.h:6
+msgid "_Enable Reverse Connections"
+msgstr "启用反向连接(_E)"
+
+#: ../propono/MATE_ProponoApplet.server.in.in.h:1
+msgid "A menu to quickly access remote machines"
+msgstr "可快速连接到远程机器的菜单"
+
+#: ../propono/MATE_ProponoApplet.server.in.in.h:3
+msgid "Propono Applet Factory"
+msgstr "Propono 小程序工厂"
+
+#: ../propono/propono-applet.c:277 ../propono/propono-applet.c:360
+msgid "Could not run propono:"
+msgstr "无法运行 propono："
+
+#: ../propono/propono-applet.c:380
+msgid "Open Remote Desktop Viewer"
+msgstr "打开远程桌面查看器"
+
+#: ../propono/propono-applet.c:435
+msgid "Access your bookmarks"
+msgstr "访问您的书签"
+
+#: ../propono/propono-bookmarks.c:265 ../propono/propono-connection.c:522
+#: ../propono/propono-tab.c:535 ../propono/propono-tube-handler.c:253
+#, c-format
+msgid "The protocol %s is not supported."
+msgstr "不支持 %s 协议。"
+
+#: ../propono/propono-bookmarks.c:343
+#, c-format
+msgid "Error while initializing bookmarks: %s"
+msgstr "初始化书签时出错：%s"
+
+#: ../propono/propono-bookmarks.c:343 ../propono/propono-bookmarks.c:458
+#: ../propono/propono-bookmarks-migration.c:135
+#: ../propono/propono-cache-prefs.c:53 ../propono/propono-commands.c:173
+#: ../propono/propono-connect.c:482 ../propono/propono-fav.c:765
+#: ../propono/propono-main.c:101 ../propono/propono-main.c:120
+#: ../propono/propono-window.c:268 ../propono/propono-window.c:737
+msgid "Unknown error"
+msgstr "未知错误"
+
+#: ../propono/propono-bookmarks.c:350
+msgid "Error while initializing bookmarks: The file seems to be empty"
+msgstr "初始化书签时出错：文件似乎为空"
+
+#: ../propono/propono-bookmarks.c:357
+msgid ""
+"Error while initializing bookmarks: The file is not a propono bookmarks file"
+msgstr "初始化书签时出错：该文件不是一个 propono 书签文件"
+
+#: ../propono/propono-bookmarks.c:419 ../propono/propono-bookmarks.c:426
+msgid "Error while saving bookmarks: Failed to create the XML structure"
+msgstr "保存书签时出错：无法创建 XML 结构"
+
+#: ../propono/propono-bookmarks.c:433 ../propono/propono-bookmarks.c:440
+msgid "Error while saving bookmarks: Failed to initialize the XML structure"
+msgstr "保存书签时出错：无法初始化 XML 结构"
+
+#: ../propono/propono-bookmarks.c:449
+msgid "Error while saving bookmarks: Failed to finalize the XML structure"
+msgstr "保存书签时出错：无法结束 XML 结构"
+
+#: ../propono/propono-bookmarks.c:458
+#, c-format
+msgid "Error while saving bookmarks: %s"
+msgstr "保存书签时出错：%s"
+
+#: ../propono/propono-bookmarks-migration.c:95
+#: ../propono/propono-bookmarks-migration.c:102
+msgid "Error while migrating bookmarks: Failed to create the XML structure"
+msgstr "迁移书签时出错：无法创建 XML 结构"
+
+#: ../propono/propono-bookmarks-migration.c:109
+#: ../propono/propono-bookmarks-migration.c:116
+msgid "Error while migrating bookmarks: Failed to initialize the XML structure"
+msgstr "迁移书签时出错：无法初始化 XML 结构"
+
+#: ../propono/propono-bookmarks-migration.c:125
+msgid "Error while migrating bookmarks: Failed to finalize the XML structure"
+msgstr "迁移书签时出错：无法结束 XML 结构"
+
+#: ../propono/propono-bookmarks-migration.c:135
+#: ../propono/propono-bookmarks-migration.c:217
+#, c-format
+msgid "Error while migrating bookmarks: %s"
+msgstr "迁移书签时出错：%s"
+
+#: ../propono/propono-bookmarks-migration.c:164
+msgid "Error while migrating bookmarks: VNC plugin is not activated"
+msgstr "迁移书签时出错：VNC 插件未激活"
+
+#: ../propono/propono-bookmarks-migration.c:217
+msgid "Failed to create the directory"
+msgstr "创建目录失败"
+
+#: ../propono/propono-bookmarks-migration.c:241
+msgid ""
+"Migrating the bookmarks file to the new format. This operation is only "
+"supposed to run once."
+msgstr "将书签文件迁移为新格式。此操作应当仅需执行一次。"
+
+#: ../propono/propono-bookmarks-migration.c:249
+#, c-format
+msgid "Error opening old bookmarks file: %s"
+msgstr "打开旧书签文件时出错：%s"
+
+#: ../propono/propono-bookmarks-migration.c:250
+#: ../propono/propono-bookmarks-migration.c:262
+msgid "Migration cancelled"
+msgstr "迁移已取消"
+
+#: ../propono/propono-bookmarks-migration.c:259
+msgid "Could not remove the old bookmarks file"
+msgstr "无法删除旧书签文件"
+
+#: ../propono/propono-bookmarks-tree.c:120
+msgid "Root Folder"
+msgstr "根文件夹"
+
+#: ../propono/propono-bookmarks-ui.c:78
+msgid "Invalid name for this folder"
+msgstr "无效的文件夹名"
+
+#: ../propono/propono-bookmarks-ui.c:88 ../propono/propono-bookmarks-ui.c:200
+#, c-format
+msgid ""
+"The name \"%s\" is already used in this folder. Please use a different name."
+msgstr "“%s”这个名称在这个文件夹中已经被使用。请使用不同的名称。"
+
+#: ../propono/propono-bookmarks-ui.c:89 ../propono/propono-bookmarks-ui.c:190
+#: ../propono/propono-bookmarks-ui.c:201
+msgid "Invalid name for this item"
+msgstr "该项的名称无效"
+
+#. Translators: %s is a protocol name, like VNC or SSH
+#: ../propono/propono-bookmarks-ui.c:168
+#, c-format
+msgid "(Protocol: %s)"
+msgstr "(协议：%s)"
+
+#. Translators: %s is a bookmark entry name
+#: ../propono/propono-bookmarks-ui.c:308
+#, c-format
+msgid "Are you sure you want to remove %s from bookmarks?"
+msgstr "您确认想要从书签中删除 %s 吗？"
+
+#: ../propono/propono-bookmarks-ui.c:314
+msgid "Remove Folder?"
+msgstr "删除文件夹？"
+
+#: ../propono/propono-bookmarks-ui.c:315
+msgid "Notice that all its subfolders and items will be removed as well."
+msgstr "注意所有的子文件夹及项目均将被删除。"
+
+#: ../propono/propono-bookmarks-ui.c:320
+msgid "Remove Item?"
+msgstr "删除项目？"
+
+#: ../propono/propono-bookmarks-ui.c:337
+msgid "Error removing bookmark: Entry not found"
+msgstr "保存书签时出错：没有找到条目"
+
+#: ../propono/propono-bookmarks-ui.c:354
+msgid "New Folder"
+msgstr "新文件夹"
+
+#: ../propono/propono-cache-prefs.c:53
+#, c-format
+msgid "Error while saving preferences: %s"
+msgstr "保存首选项时出错：%s"
+
+#: ../propono/propono-commands.c:121
+msgid "Choose the file"
+msgstr "选择文件"
+
+#: ../propono/propono-commands.c:149
+msgid "There are no supported files"
+msgstr "没有支持的文件"
+
+#: ../propono/propono-commands.c:150
+msgid ""
+"None of the active plugins support this action. Activate some plugins and "
+"try again."
+msgstr "没有支持此动作的已激活插件。激活某些插件然后重新尝试。"
+
+#: ../propono/propono-commands.c:184
+msgid "The following file could not be opened:"
+msgid_plural "The following files could not be opened:"
+msgstr[0] "无法打开下列文件："
+
+#: ../propono/propono-connect.c:87 ../propono/propono-connect.c:334
+#: ../propono/propono-connect.c:446
+msgid "Could not get the active protocol in the protocol list."
+msgstr "无法从协议列表中获取已激活了的协议。"
+
+#: ../propono/propono-connect.c:315
+#, c-format
+msgid "Error while saving history file: %s"
+msgstr "保存历史文件时出错：%s"
+
+#: ../propono/propono-connect.c:350
+msgid "Choose a Remote Desktop"
+msgstr "选择一个远程桌面"
+
+#: ../propono/propono-connection.c:630
+msgid "Could not open the file."
+msgstr "无法打开该文件。"
+
+#: ../propono/propono-connection.c:654
+msgid "The file was not recognized by any of the plugins."
+msgstr "此文件没有被任何插件识别。"
+
+#: ../propono/propono-fav.c:567
+msgid "_New Folder"
+msgstr "新文件夹(_N)"
+
+#: ../propono/propono-fav.c:568
+msgid "Create a new folder"
+msgstr "创建一个新文件夹"
+
+#: ../propono/propono-fav.c:573
+msgid "_Open bookmark"
+msgstr "打开书签(_O)"
+
+#: ../propono/propono-fav.c:574
+msgid "Connect to this machine"
+msgstr "连接到此机器"
+
+#: ../propono/propono-fav.c:575
+msgid "_Edit bookmark"
+msgstr "编辑书签(_E)"
+
+#: ../propono/propono-fav.c:576
+msgid "Edit the details of selected bookmark"
+msgstr "编辑所选择书签的细节"
+
+#: ../propono/propono-fav.c:577
+msgid "_Remove from bookmarks"
+msgstr "从书签中删除(_R)"
+
+#: ../propono/propono-fav.c:578
+msgid "Remove current selected connection from bookmarks"
+msgstr "从书签中删除目前选中的连接"
+
+#: ../propono/propono-fav.c:596 ../propono/propono-window.c:399
+#, c-format
+msgid "Could not merge UI XML file: %s"
+msgstr "无法合并界面 XML 文件：%s"
+
+#: ../propono/propono-fav.c:754
+msgid "Invalid operation"
+msgstr "无效操作"
+
+#: ../propono/propono-fav.c:755
+msgid "Data received from drag&drop operation is invalid."
+msgstr "来自拖/放操作的数据无效。"
+
+#: ../propono/propono-fav.c:859
+msgid "Hide panel"
+msgstr "隐藏面板"
+
+#: ../propono/propono-fav.c:1044
+msgid "Hosts nearby"
+msgstr "临近的主机"
+
+#. Translators: this is a command line option (run propono --help)
+#: ../propono/propono-main.c:63
+msgid "Open propono in fullscreen mode"
+msgstr "以全屏模式打卡 propono"
+
+#. Translators: this is a command line option (run propono --help)
+#: ../propono/propono-main.c:67
+msgid "Create a new toplevel window in an existing instance of propono"
+msgstr "在现有 propono 中创建新的顶级窗口"
+
+#. Translators: this is a command line option (run propono --help)
+#: ../propono/propono-main.c:71
+msgid "Open a file recognized by propono"
+msgstr "打卡一个被 propono 识别的文件"
+
+#: ../propono/propono-main.c:71
+msgid "filename"
+msgstr "文件名"
+
+#. Translators: this is a command line option (run propono --help)
+#: ../propono/propono-main.c:76
+msgid "[server:port]"
+msgstr "[服务器:端口]"
+
+#: ../propono/propono-main.c:131
+msgid "The following error has occurred:"
+msgid_plural "The following errors have occurred:"
+msgstr[0] "发生下列错误："
+
+#. Setup command line options
+#: ../propono/propono-main.c:170
+msgid "- Remote Desktop Viewer"
+msgstr "- 远程桌面查看器"
+
+#: ../propono/propono-main.c:195
+msgid ""
+"Run 'propono --help' to see a full list of available command line options"
+msgstr "执行“propono --help”以查看可用命令行选项的完整列表"
+
+#: ../propono/propono-mdns.c:159
+#, c-format
+msgid "Failed to resolve avahi hostname: %s\n"
+msgstr "解析 avahi 主机名失败：%s\n"
+
+#: ../propono/propono-mdns.c:217
+#, c-format
+msgid "Plugin %s has already registered a browser for service %s."
+msgstr "插件 %s 已经注册一个对服务 %s 的浏览器。"
+
+#: ../propono/propono-mdns.c:226
+#, c-format
+msgid "Failed to add mDNS browser for service %s."
+msgstr "添加 mDNS 浏览器到服务 %s 失败。"
+
+#: ../propono/propono-mdns.c:242
+#, c-format
+msgid "Failed to browse for hosts: %s\n"
+msgstr "浏览主机失败：%s\n"
+
+#: ../propono/propono-mdns.c:315
+#, c-format
+msgid "Failed to initialize mDNS browser: %s\n"
+msgstr "初始化 mDNS 浏览器失败：%s\n"
+
+#. Translators: %s is a host name or IP address.
+#: ../propono/propono-notebook.c:461
+#, c-format
+msgid "Connection to host %s was closed."
+msgstr "到主机 %s 的连接已关闭。"
+
+#: ../propono/propono-notebook.c:463
+msgid "Connection closed"
+msgstr "连接已关闭"
+
+#. Translators: %s is a host name or IP address.
+#: ../propono/propono-notebook.c:482
+#, c-format
+msgid "Authentication to host %s has failed"
+msgstr "到主机 %s 的认证失败"
+
+#: ../propono/propono-notebook.c:488
+msgid "Authentication failed"
+msgstr "认证失败"
+
+#: ../propono/propono-notebook.c:526
+msgid "Connecting..."
+msgstr "正在连接..."
+
+#: ../propono/propono-notebook.c:553 ../propono/propono-tab.c:325
+msgid "Close connection"
+msgstr "关闭连接"
+
+#: ../propono/propono-plugin-dialog.c:83
+msgid "Plugin Manager"
+msgstr "插件管理器"
+
+#: ../propono/propono-plugin-manager.c:45
+msgid "Plugin"
+msgstr "插件"
+
+#: ../propono/propono-plugin-manager.c:46
+msgid "Enabled"
+msgstr "已启用"
+
+#: ../propono/propono-plugin-manager.c:503
+msgid "C_onfigure"
+msgstr "配置(_O)"
+
+#: ../propono/propono-plugin-manager.c:512
+msgid "A_ctivate"
+msgstr "激活(_C)"
+
+#: ../propono/propono-plugin-manager.c:523
+msgid "Ac_tivate All"
+msgstr "激活所有(_T)"
+
+#: ../propono/propono-plugin-manager.c:528
+msgid "_Deactivate All"
+msgstr "停用所有(_D)"
+
+#: ../propono/propono-plugin-manager.c:824
+msgid "_About Plugin"
+msgstr "关于插件(_A)"
+
+#: ../propono/propono-plugin-manager.c:828
+msgid "C_onfigure Plugin"
+msgstr "配置插件(_O)"
+
+#: ../propono/propono-prefs.c:212
+msgid "Cannot initialize preferences manager."
+msgstr "无法初始化受选项管理器。"
+
+#: ../propono/propono-ssh.c:106
+msgid "Timed out when logging into SSH host"
+msgstr "登录到 SSH 主机时超时"
+
+#: ../propono/propono-ssh.c:180
+msgid "Unable to spawn ssh program"
+msgstr "无法运行 ssh 程序"
+
+#: ../propono/propono-ssh.c:197
+#, c-format
+msgid "Unable to spawn ssh program: %s"
+msgstr "无法运行 ssh 程序：%s"
+
+#: ../propono/propono-ssh.c:352
+msgid "Timed out when logging in"
+msgstr "登录时超时"
+
+#: ../propono/propono-ssh.c:375 ../propono/propono-ssh.c:529
+#: ../propono/propono-ssh.c:612
+msgid "Permission denied"
+msgstr "许可被拒绝"
+
+#: ../propono/propono-ssh.c:440
+msgid "Password dialog canceled"
+msgstr "口令对话框被取消"
+
+#: ../propono/propono-ssh.c:463
+msgid "Could not send password"
+msgstr "无法发送口令"
+
+#: ../propono/propono-ssh.c:471
+msgid "Log In Anyway"
+msgstr "仍然登录"
+
+#: ../propono/propono-ssh.c:471
+msgid "Cancel Login"
+msgstr "取消登录"
+
+#: ../propono/propono-ssh.c:480
+#, c-format
+msgid ""
+"The identity of the remote computer (%s) is unknown.\n"
+"This happens when you log in to a computer the first time.\n"
+"\n"
+"The identity sent by the remote computer is %s. If you want to be absolutely "
+"sure it is safe to continue, contact the system administrator."
+msgstr ""
+"远程计算机(%s)的标识未知。\n"
+"这发生于您第一次登录到某台计算机时。\n"
+"\n"
+"由远程计算机发送的标识是 %s。如果您想绝对确定它是可以安全的继续操作的，联系系"
+"统管理员。"
+
+#: ../propono/propono-ssh.c:498
+msgid "Login dialog canceled"
+msgstr "登录对话框已取消"
+
+#: ../propono/propono-ssh.c:519
+msgid "Can't send host identity confirmation"
+msgstr "无法发送主机标识确认"
+
+#: ../propono/propono-ssh.c:554 ../propono/propono-tab.c:732
+msgid "Error saving the credentials on the keyring."
+msgstr "保存证书到密钥环出错。"
+
+#: ../propono/propono-ssh.c:619
+msgid "Hostname not known"
+msgstr "主机名未知"
+
+#: ../propono/propono-ssh.c:626
+msgid "No route to host"
+msgstr "没有到主机的路由"
+
+#: ../propono/propono-ssh.c:633
+msgid "Connection refused by server"
+msgstr "连接被服务器拒绝"
+
+#: ../propono/propono-ssh.c:640
+msgid "Host key verification failed"
+msgstr "主机密钥验证失败"
+
+#: ../propono/propono-ssh.c:676
+msgid "Unable to find a valid SSH program"
+msgstr "无法找到可用的 SSH 程序"
+
+#: ../propono/propono-tab.c:346
+msgid "Leave fullscreen"
+msgstr "继续全屏"
+
+#: ../propono/propono-tab.c:497
+msgid "Error saving recent connection."
+msgstr "保存最近连接出错。"
+
+#: ../propono/propono-tab.c:818
+msgid "Could not get a screenshot of the connection."
+msgstr "无法得到该连接的屏幕截图。"
+
+#: ../propono/propono-tab.c:823
+msgid "Save Screenshot"
+msgstr "保存屏幕截图"
+
+#: ../propono/propono-tab.c:834
+#, c-format
+msgid "Screenshot of %s"
+msgstr "%s 的屏幕截图"
+
+#: ../propono/propono-tab.c:885
+msgid "Error saving screenshot"
+msgstr "保存截图出错。"
+
+#: ../propono/propono-tube-handler.c:229
+#, c-format
+msgid "Impossible to get service property: %s"
+msgstr "不可能获得服务属性：%s"
+
+#: ../propono/propono-tube-handler.c:286
+#, c-format
+msgid "Impossible to create the connection: %s"
+msgstr "不可能创建连接：%s"
+
+#: ../propono/propono-tube-handler.c:325
+#, c-format
+msgid "Impossible to accept the stream tube: %s"
+msgstr "不可能接受流管：%s"
+
+#: ../propono/propono-tube-handler.c:463
+#, c-format
+msgid "Impossible to get the contact name: %s"
+msgstr "不可能获得联系名：%s"
+
+#: ../propono/propono-tube-handler.c:498
+#, c-format
+msgid "Impossible to get the avatar: %s"
+msgstr "不可能获得头像：%s"
+
+#: ../propono/propono-tube-handler.c:519
+#, c-format
+msgid "%s wants to share their desktop with you."
+msgstr "%s 想要和您分享他们的桌面。"
+
+#: ../propono/propono-tube-handler.c:524
+msgid "Desktop sharing invitation"
+msgstr "桌面分享邀请"
+
+#. Toplevel
+#: ../propono/propono-ui.h:33
+msgid "_Machine"
+msgstr "机器(_M)"
+
+#: ../propono/propono-ui.h:34
+msgid "_Edit"
+msgstr "编辑(_E)"
+
+#: ../propono/propono-ui.h:35
+msgid "_View"
+msgstr "查看(_V)"
+
+#: ../propono/propono-ui.h:36
+msgid "_Bookmarks"
+msgstr "书签(_B)"
+
+#: ../propono/propono-ui.h:41
+msgid "Connect to a remote machine"
+msgstr "连接到远程机器"
+
+#: ../propono/propono-ui.h:43
+msgid "Open a .VNC file"
+msgstr "打开 .VNC 文件"
+
+#: ../propono/propono-ui.h:45
+msgid "Quit the program"
+msgstr "退出程序"
+
+#: ../propono/propono-ui.h:49
+msgid "Edit the application preferences"
+msgstr "编辑程序首选项"
+
+#: ../propono/propono-ui.h:50
+msgid "_Plugins"
+msgstr "插件(_P)"
+
+#: ../propono/propono-ui.h:51
+msgid "Select plugins"
+msgstr "选择插件"
+
+#. Help menu
+#: ../propono/propono-ui.h:54
+msgid "_Contents"
+msgstr "目录(_C)"
+
+#: ../propono/propono-ui.h:55
+msgid "Open the propono manual"
+msgstr "打开 propono 手册"
+
+#: ../propono/propono-ui.h:57
+msgid "About this application"
+msgstr "关于此程序"
+
+#: ../propono/propono-ui.h:62
+msgid "_Toolbar"
+msgstr "工具栏(_T)"
+
+#: ../propono/propono-ui.h:63
+msgid "Show or hide the toolbar"
+msgstr "显示或隐藏工具栏"
+
+#: ../propono/propono-ui.h:66
+msgid "_Statusbar"
+msgstr "状态栏(_S)"
+
+#: ../propono/propono-ui.h:67
+msgid "Show or hide the statusbar"
+msgstr "显示或隐藏状态栏"
+
+#: ../propono/propono-ui.h:70
+msgid "Side _Panel"
+msgstr "侧边栏(_P)"
+
+#: ../propono/propono-ui.h:71
+msgid "Show or hide the side panel"
+msgstr "显示或隐藏侧边栏"
+
+#: ../propono/propono-ui.h:79
+msgid "Close the current connection"
+msgstr "关闭当前连接"
+
+#: ../propono/propono-ui.h:80
+msgid "C_lose All"
+msgstr "全部关闭(_L)"
+
+#: ../propono/propono-ui.h:81
+msgid "Close all active connections"
+msgstr "关闭所有活动连接"
+
+#. Bookmarks menu
+#: ../propono/propono-ui.h:84
+msgid "_Add to bookmarks"
+msgstr "添加到书签(_A)"
+
+#: ../propono/propono-ui.h:85
+msgid "Add current connection to your bookmarks"
+msgstr "添加连接到你的书签"
+
+#. Machine menu
+#: ../propono/propono-ui.h:92
+msgid "Take screenshot"
+msgstr "抓拍屏幕截图"
+
+#: ../propono/propono-ui.h:93
+msgid "Take a screenshot of active connection"
+msgstr "抓拍活动连接的屏幕截图"
+
+#: ../propono/propono-ui.h:97
+msgid "View the current machine in full screen"
+msgstr "以全屏方式查看当前机器"
+
+#: ../propono/propono-utils.c:75
+msgid "An error has occurred:"
+msgstr "发生一个错误："
+
+#: ../propono/propono-utils.c:175
+msgid ""
+"A plugin tried to open an UI file but did not succeed, with the error "
+"message:"
+msgstr "一个插件尝试打开一个界面文件但是没有成功，失败消息为："
+
+#: ../propono/propono-utils.c:177
+msgid ""
+"The program tried to open an UI file but did not succeed, with the error "
+"message:"
+msgstr "程序尝试打开一个界面文件但是没有成功，失败消息为："
+
+#: ../propono/propono-utils.c:180
+msgid "Please check your installation."
+msgstr "请检查是否安装成功。"
+
+#: ../propono/propono-utils.c:181
+msgid "Error loading UI file"
+msgstr "加载界面文件失败"
+
+#: ../propono/propono-utils.c:492
+msgid "Propono is a remote desktop viewer for the MATE Desktop"
+msgstr "Propono 是 MATE 桌面的远程桌面查看器"
+
+#: ../propono/propono-utils.c:495
+msgid ""
+"Propono is free software; you can redistribute it and/or modify it under the "
+"terms of the GNU General Public License as published by the Free Software "
+"Foundation; either version 2 of the License, or (at your option) any later "
+"version."
+msgstr ""
+"Propono 是自由软件；您可以按照自由软件基金会所发表的 GNU GPL 协议自由发放和/"
+"或修改它；GPL 协议应该采用第二版或以后的任何版本。"
+
+#: ../propono/propono-utils.c:499
+msgid ""
+"Propono is distributed in the hope that it will be useful, but WITHOUT ANY "
+"WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS "
+"FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more "
+"details."
+msgstr ""
+"Propono 发表的目的是希望它能够对您有用，但我们没有任何保证；对于以任何用途使"
+"用它所造成的任何直接或间接后果都不承担任何责任。请参看GNU GPL 协议中的细节。"
+
+#: ../propono/propono-utils.c:503
+msgid ""
+"You should have received a copy of the GNU General Public License along with "
+"this program. If not, see <http://www.gnu.org/licenses/>."
+msgstr ""
+"您应该随本程序收到了 GNU GPL 协议的副本；如果您没有收到的话，请查看 <http://"
+"www.gnu.org/licenses/>。"
+
+#: ../propono/propono-utils.c:525
+msgid "translator-credits"
+msgstr "YunQiang Su <wzssyqa@gmail.com>"
+
+#: ../propono/propono-utils.c:528
+msgid "Propono Website"
+msgstr "Propono 网站"
+
+#. Translators: %s is a protocol, like VNC or SSH
+#: ../propono/propono-utils.c:660
+#, c-format
+msgid "%s authentication is required"
+msgstr "%s 需要验证"
+
+#: ../propono/propono-window.c:428
+msgid "_Recent connections"
+msgstr "最近连接(_R)"
+
+#. Translators: This is server:port, a statusbar tooltip when mouse is over a bookmark item on menu
+#: ../propono/propono-window.c:543
+#, c-format
+msgid "Open %s:%d"
+msgstr "打开 %s：%d"
+
+#: ../propono/propono-window.c:721
+msgid "About menu accelerators and keyboard shortcuts"
+msgstr "关于菜单快捷键和键盘组合键"
+
+#: ../propono/propono-window.c:723
+msgid ""
+"Propono comes with menu accelerators and keyboard shortcuts disabled by "
+"default. The reason is to avoid the keys to be intercepted by the program, "
+"and allow them to be sent to the remote machine.\n"
+"\n"
+"You can change this behavior through the preferences dialog. For more "
+"information, check the documentation.\n"
+"\n"
+"This message will appear only once."
+msgstr ""
+"Propono 默认禁用了菜单快捷键和键盘组合键。这是为了防止这些快捷键被本程序截"
+"获，使得它们可以被发送到远程机器。 \n"
+"\n"
+"您可以通过首选项对话框更改这个行为。要获取更多信息，查看文档。\n"
+"\n"
+"此消息将只显示一次。"
+
+#: ../propono/propono-window.c:731 ../propono/propono-window.c:737
+#, c-format
+msgid "Error while creating the file %s: %s"
+msgstr "创建文件 %s 时出错：%s"
+
+#~ msgid "<b>Connection</b>"
+#~ msgstr "<b>连接</b>"
+
+#~ msgid "<b>Folder</b>"
+#~ msgstr "<b>文件夹</b>"
+
+#~ msgid "<i><small>All fields above are mandatory</small></i>"
+#~ msgstr "<i><small>上面所有的域都是必需的</small></i>"
+
+#~ msgid "host or host:display or host::port"
+#~ msgstr "主机 或 主机:显示 或 主机::端口"
+
+#~ msgid "Supported formats"
+#~ msgstr "支持的格式"
+
+#~ msgid "Choose a VNC Server"
+#~ msgstr "选择 VNC 服务器"
+
+#~ msgid "Could not find the host address in the file."
+#~ msgstr "无法在文件中找到主机地址。"
+
+#~ msgid "Opens a .vnc file"
+#~ msgstr "打开 .vnc 文件"
+
+#~ msgid "- VNC Client for MATE"
+#~ msgstr "- MATE 的 VNC 客户端"
+
+#~ msgid "Minimize window"
+#~ msgstr "最小化窗口"
+
+#~ msgid "_Read only"
+#~ msgstr "只读(_R)"
+
+#~ msgid "Press Ctrl+Alt to release the cursor"
+#~ msgstr "按 Ctrl+Alt 以释放鼠标"

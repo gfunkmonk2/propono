@@ -1,0 +1,15 @@
+[Desktop Entry]
+_Name=Remote Desktop Viewer
+_Comment=Access remote desktops
+Exec=propono -F %U
+Icon=propono
+Terminal=false
+Type=Application
+StartupNotify=true
+MimeType=application/mate-vnc;
+OnlyShowIn=MATE;
+NoDisplay=true
+X-MATE-Bugzilla-Bugzilla=MATE
+X-MATE-Bugzilla-Product=propono
+X-MATE-Bugzilla-Component=general
+X-MATE-Bugzilla-Version=@VERSION@

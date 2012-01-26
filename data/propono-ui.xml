@@ -1,0 +1,76 @@
+<!--
+ * propono-ui.xml
+ * This file is part of propono
+ *
+ * Copyright (C) 2007,2008,2009 - Jonh Wendell <wendell@bani.com.br>
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program. If not, see <http://www.gnu.org/licenses/>.
+-->
+
+<ui>
+
+  <menubar name="MenuBar">
+    <menu name="MachineMenu" action="Machine">
+      <menuitem name="MachineConnectMenu" action="MachineConnect"/>
+      <menuitem name="MachineOpenMenu" action="MachineOpen"/>
+      <separator/>
+      <menuitem name="MachineCloseMenu" action="MachineClose"/>
+      <menuitem name="MachineTakeScreenshotMenu" action="MachineTakeScreenshot"/>
+      <placeholder name="MachineOps_1" />
+      <placeholder name="FileRecentsPlaceholder">
+        <separator/>
+      </placeholder>
+      <separator/>
+      <menuitem name="MachineCloseAllMenu" action="MachineCloseAll"/>
+      <menuitem name="MachineQuitMenu" action="MachineQuit"/>
+    </menu>
+
+    <menu name="EditMenu" action="Edit">
+      <menuitem name="EditPreferencesMenu" action="EditPreferences"/>
+      <menuitem name="EditPluginsMenu" action="EditPlugins"/>
+    </menu>
+
+    <menu name="ViewMenu" action="View">
+      <menuitem name="ViewToolbarMenu" action="ViewToolbar"/>
+      <menuitem name="ViewStatusbarMenu" action="ViewStatusbar"/>
+      <menuitem name="ViewSidePanelMenu" action="ViewSidePanel"/>
+      <separator/>
+      <menuitem name="ViewFullScreenMenu" action="ViewFullScreen"/>
+    </menu>
+
+    <menu name="BookmarksMenu" action="Bookmarks">
+      <menuitem name="BookmarksAddMenu" action="BookmarksAdd"/>
+      <separator/>
+      <placeholder name="BookmarksList"/>
+      <separator/>
+      <placeholder name="AvahiList"/>
+    </menu>
+
+    <menu name="HelpMenu" action="Help">
+      <menuitem name="HelpContentsMenu" action="HelpContents"/>
+      <placeholder name='LaunchpadItems'/>
+      <menuitem name="HelpAboutMenu" action="HelpAbout"/>
+    </menu>
+  </menubar>
+
+  <toolbar name="ToolBar">
+    <toolitem action="MachineConnect"/>
+    <toolitem action="MachineClose"/>
+    <separator/>
+    <toolitem action="ViewFullScreen"/>
+    <toolitem action="MachineTakeScreenshot"/>
+    <separator/>
+  </toolbar>
+
+</ui>

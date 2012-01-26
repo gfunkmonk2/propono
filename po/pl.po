@@ -1,0 +1,1353 @@
+# -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+# Aviary.pl
+# Jeśli masz jakiekolwiek uwagi odnoszące się do tłumaczenia lub chcesz
+# pomóc w jego rozwijaniu i pielęgnowaniu, napisz do nas:
+# matepl@aviary.pl
+# -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+msgid ""
+msgstr ""
+"Project-Id-Version: propono\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-02-27 18:38+0100\n"
+"PO-Revision-Date: 2010-02-27 18:24+0100\n"
+"Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
+"Language-Team: Polish <matepl@aviary.pl>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+"X-Poedit-Language: Polish\n"
+"X-Poedit-Country: Poland\n"
+
+#: ../data/MATE_ProponoApplet.xml.h:1 ../propono/propono-plugin-manager.c:495
+msgid "_About"
+msgstr "_O programie"
+
+#: ../data/MATE_ProponoApplet.xml.h:2 ../propono/propono-ui.h:37
+msgid "_Help"
+msgstr "Pomo_c"
+
+#: ../data/propono.desktop.in.in.h:1 ../data/propono-file.desktop.in.in.h:1
+msgid "Access remote desktops"
+msgstr "Dostęp do zdalnych pulpitów"
+
+#: ../data/propono.desktop.in.in.h:2 ../data/propono-file.desktop.in.in.h:2
+#: ../propono/MATE_ProponoApplet.server.in.in.h:2
+#: ../propono/propono-applet.c:434 ../propono/propono-applet.c:486
+#: ../propono/propono-main.c:200
+msgid "Remote Desktop Viewer"
+msgstr "Przeglądarka zdalnych pulpitów"
+
+#: ../data/propono.ui.h:1
+msgid "Allow _keyboard shortcuts"
+msgstr "_Zezwolenie na skróty klawiszowe"
+
+#: ../data/propono.ui.h:2
+msgid "Authentication is required"
+msgstr "Wymagane jest uwierzytelnienie"
+
+#. setup label
+#: ../data/propono.ui.h:3 ../propono/propono-fav.c:851
+msgid "Bookmarks"
+msgstr "Zakładki"
+
+#: ../data/propono.ui.h:4
+msgid "Connection"
+msgstr "Połączenie"
+
+#: ../data/propono.ui.h:5
+msgid "Connection options"
+msgstr "Opcje połączenia"
+
+#: ../data/propono.ui.h:6
+msgid "Folder"
+msgstr "Katalog"
+
+#: ../data/propono.ui.h:7 ../plugins/ssh/propono-ssh-tab.c:49
+#: ../plugins/vnc/propono-vnc-tab.c:148 ../propono/propono-fav.c:404
+msgid "Host:"
+msgstr "Komputer:"
+
+#: ../data/propono.ui.h:8
+msgid "Interface"
+msgstr "Interfejs"
+
+#: ../data/propono.ui.h:9
+msgid "Options"
+msgstr "Opcje"
+
+#: ../data/propono.ui.h:10
+msgid "Parent Folder"
+msgstr "Katalog nadrzędny"
+
+#: ../data/propono.ui.h:11
+msgid "Preferences"
+msgstr "Preferencje"
+
+#. This is a tooltip in preferences dialog
+#: ../data/propono.ui.h:13
+msgid ""
+"This option enables menu accelerators and keyboard shortcuts. For more info "
+"on why you may want to disable them, check the documentation."
+msgstr ""
+"Ta opcja włącza skróty klawiszowe w menu. Proszę zajrzeć do dokumentacji, "
+"aby dowiedzieć się, dlaczego mogą zostać wyłączone."
+
+#: ../data/propono.ui.h:14
+msgid "Which machine do you want to connect to?"
+msgstr "Z którym komputerem się połączyć?"
+
+#: ../data/propono.ui.h:15
+msgid "_Always show tabs"
+msgstr "_Stałe wyświetlanie kart"
+
+#. This is a button label, in the authentication dialog
+#: ../data/propono.ui.h:17
+msgid "_Authenticate"
+msgstr "_Uwierzytelnij"
+
+#: ../data/propono.ui.h:18
+msgid "_Full screen"
+msgstr "_Pełny ekran"
+
+#: ../data/propono.ui.h:19
+msgid "_Host:"
+msgstr "_Komputer:"
+
+#: ../data/propono.ui.h:20
+msgid "_Name:"
+msgstr "_Nazwa:"
+
+#: ../data/propono.ui.h:21
+msgid "_Password:"
+msgstr "_Hasło:"
+
+#: ../data/propono.ui.h:22
+msgid "_Protocol:"
+msgstr "_Protokół:"
+
+#: ../data/propono.ui.h:23
+msgid "_Remember this credential"
+msgstr "_Zapamiętanie danych logowania"
+
+#: ../data/propono.ui.h:24 ../plugins/ssh/propono-ssh-plugin.c:144
+msgid "_Username:"
+msgstr "_Nazwa użytkownika:"
+
+#: ../data/propono.schemas.in.in.h:1 ../propono/propono-plugin-manager.c:795
+msgid "Active plugins"
+msgstr "Włączone wtyczki"
+
+#: ../data/propono.schemas.in.in.h:2
+msgid ""
+"List of active plugins. It contains the \"Location\" of the active plugins. "
+"See the .propono-plugin file for obtaining the \"Location\" of a given "
+"plugin."
+msgstr ""
+"Lista włączonych wtyczek. Zawiera \"Położenia\" włączonych wtyczek. W pliku ."
+"propono-plugin można odnaleźć \"Położenie\" danej wtyczki."
+
+#: ../data/propono.schemas.in.in.h:3
+msgid "Maximum number of history items in connect dialog"
+msgstr "Maksymalna liczba elementów historii w oknie dialogowym połączenia"
+
+#: ../data/propono.schemas.in.in.h:4
+msgid ""
+"Set to \"false\" to disable menu shortcuts. Set to \"true\" to enable them. "
+"Note that if they are enabled, those keys will be intercepted by the menu "
+"and will not be sent to the remote host."
+msgstr ""
+"Wartość \"false\" wyłącza skróty menu. Wartość \"true\" włącza je. Proszę "
+"zwrócić uwagę, iż gdy są włączone, te klawisze będą przechwytywane przez "
+"menu i nie będą przesyłane do zdalnego komputera."
+
+#: ../data/propono.schemas.in.in.h:5
+msgid ""
+"Set to \"true\" to always show the tabs. Set to \"false\" to only show the "
+"tabs when there is more than one active connection."
+msgstr ""
+"Wartość \"true\" włącza stałe wyświetlanie kart. Wartość \"false\" włącza "
+"wyświetlanie kart jeśli występuje więcej niż jedno aktywne połączenie."
+
+#: ../data/propono.schemas.in.in.h:6
+msgid ""
+"Set to \"true\" to always start the program listening for reverse "
+"connections."
+msgstr ""
+"Wartość \"true\" sprawia, że program zawsze będzie uruchamiany nasłuchując "
+"odwrotnych połączeń."
+
+#: ../data/propono.schemas.in.in.h:7
+msgid "Specifies the maximum number of items in the host dropdown entry."
+msgstr "Określa maksymalną liczbę elementów w menu komputerów."
+
+#: ../data/propono.schemas.in.in.h:8
+msgid "The handler for \"vnc://\" URLs"
+msgstr "Obsługa adresów URL \"vnc://\""
+
+#: ../data/propono.schemas.in.in.h:9
+msgid ""
+"When connecting to a host, the client can say to the server to leave other "
+"clients connected or to drop the existent connections. Set the value to true "
+"to share the desktop with the other clients."
+msgstr ""
+"Podczas łączenia z komputerem, klient może nakazać serwerowi, aby inne "
+"połączone klienty zostały rozłączone, może też pozostawić istniejące "
+"połączenia. Ustawienie wartości na \"true\" spowoduje możliwość "
+"współdzielenia pulpitu z innymi klientami."
+
+#: ../data/propono.schemas.in.in.h:10
+msgid "Whether we should leave other clients connected"
+msgstr "Określa, czy inne klienty mogą nadal być połączone"
+
+#: ../data/propono.schemas.in.in.h:11
+msgid ""
+"Whether we should show tabs even when there is only one active connection"
+msgstr ""
+"Określa, czy wyświetlać karty nawet w przypadku tylko jednego aktywnego "
+"połączenia"
+
+#: ../data/propono.schemas.in.in.h:12
+msgid "Whether we should show the menu accelerators (shortcut keys)"
+msgstr "Określa, czy wyświetlać skróty klawiszowe w menu"
+
+#: ../data/propono.schemas.in.in.h:13
+msgid "Whether we should start the program listening for reverse connections"
+msgstr "Określa, czy uruchamiać program nasłuchując odwrotnych połączeń"
+
+#: ../data/propono-mime.xml.in.h:1
+msgid "Remote Desktop (VNC) file"
+msgstr "Plik zdalnego pulpitu (VNC)"
+
+#: ../data/propono-mime.xml.in.h:2
+msgid "Remote Desktop Connection"
+msgstr "Połączenie ze zdalnym pulpitem"
+
+#. vim: set ts=8:
+#: ../plugins/ssh/propono-ssh-plugin.c:76
+#: ../plugins/ssh/ssh.propono-plugin.desktop.in.h:1
+msgid "SSH"
+msgstr "SSH"
+
+#. Translators: This is a description of the SSH protocol. It appears at Connect dialog.
+#: ../plugins/ssh/propono-ssh-plugin.c:78
+msgid "Access Unix/Linux terminals"
+msgstr "Dostęp do terminali Unix/Linux"
+
+#: ../plugins/ssh/propono-ssh-plugin.c:132
+msgid "SSH Options"
+msgstr "Opcje SSH"
+
+#. Translators: This is the tooltip for the username field in a SSH connection
+#: ../plugins/ssh/propono-ssh-plugin.c:149
+msgid ""
+"Optional. If blank, your username will be used. Also, it can be supplied in "
+"the Machine field above, in the form username@hostname."
+msgstr ""
+"Opcjonalne. Jeśli zostanie pozostawione puste, zostanie użyta nazwa "
+"bieżącego użytkownika. Może zostać także podana w polu Komputer powyżej, w "
+"formie nazwa_użytkownika@nazwa_komputera."
+
+#: ../plugins/ssh/propono-ssh-tab.c:50 ../plugins/vnc/propono-vnc-tab.c:149
+msgid "Port:"
+msgstr "Port:"
+
+#: ../plugins/ssh/ssh.propono-plugin.desktop.in.h:2
+msgid "SSH support"
+msgstr "Obsługa SSH"
+
+#: ../plugins/vnc/propono-vnc-connection.c:290
+#: ../plugins/vnc/propono-vnc-plugin.c:321
+#, c-format
+msgid ""
+"Bad value for 'shared' flag: %d. It is supposed to be 0 or 1. Ignoring it."
+msgstr ""
+"Błędna wartość dla flagi \"shared\": %d. Powinna być 0 lub 1. Ignorowanie."
+
+#: ../plugins/vnc/propono-vnc-plugin.c:84
+msgid "_Reverse Connections..."
+msgstr "_Odwrotne połączenia..."
+
+#: ../plugins/vnc/propono-vnc-plugin.c:86
+msgid "Configure incoming VNC connections"
+msgstr "Konfiguruje przychodzące połączenia VNC"
+
+#. Translators: this is a command line option (run propono --help)
+#: ../plugins/vnc/propono-vnc-plugin.c:173
+msgid "Enable scaled mode"
+msgstr "Tryb skalowany"
+
+#. Translators: this is a command line option (run propono --help)
+#: ../plugins/vnc/propono-vnc-plugin.c:188
+msgid "VNC Options:"
+msgstr "Opcje VNC:"
+
+#. Translators: this is a command line option (run propono --help)
+#: ../plugins/vnc/propono-vnc-plugin.c:190
+msgid "Show VNC Options"
+msgstr "Wyświetla opcje VNC"
+
+#. vim: set ts=8:
+#: ../plugins/vnc/propono-vnc-plugin.c:212
+#: ../plugins/vnc/vnc.propono-plugin.desktop.in.h:1
+msgid "VNC"
+msgstr "VNC"
+
+#: ../plugins/vnc/propono-vnc-plugin.c:213
+msgid "Access Unix/Linux, Windows and other machines."
+msgstr "Dostęp do komputerów z systemami Unix/Linux oraz Windows."
+
+#: ../plugins/vnc/propono-vnc-plugin.c:270
+msgid "Could not parse the file."
+msgstr "Nie można przetworzyć pliku."
+
+#: ../plugins/vnc/propono-vnc-plugin.c:277
+msgid "The file is not a VNC one: Missing the group \"connection\"."
+msgstr "To nie jest plik VNC: brak grupy \"connection\"."
+
+#: ../plugins/vnc/propono-vnc-plugin.c:283
+msgid "The file is not a VNC one: Missing the key \"host\"."
+msgstr "To nie jest plik VNC: brak klucza \"host\"."
+
+#: ../plugins/vnc/propono-vnc-plugin.c:374
+msgid "VNC Options"
+msgstr "Opcje VNC"
+
+#. View only check button
+#: ../plugins/vnc/propono-vnc-plugin.c:387
+#: ../plugins/vnc/propono-vnc-tab.c:632
+msgid "_View only"
+msgstr "_Tylko podgląd"
+
+#. Scaling check button
+#: ../plugins/vnc/propono-vnc-plugin.c:395
+msgid "_Scaling"
+msgstr "_Skalowanie"
+
+#: ../plugins/vnc/propono-vnc-plugin.c:411
+msgid "_Keep aspect ratio"
+msgstr "Utrzy_mywanie proporcji obrazu"
+
+#. JPEG Compression check button
+#: ../plugins/vnc/propono-vnc-plugin.c:421
+msgid "_Use JPEG Compression"
+msgstr "_Użycie kompresji JPEG"
+
+#: ../plugins/vnc/propono-vnc-plugin.c:422
+msgid "This might not work on all VNC servers"
+msgstr "Może nie działać na wszystkich serwerach VNC"
+
+#: ../plugins/vnc/propono-vnc-plugin.c:431
+msgid "_Depth Color:"
+msgstr "_Głębia koloru:"
+
+#: ../plugins/vnc/propono-vnc-plugin.c:436
+msgid "Use Server Settings"
+msgstr "Użycie ustawień serwera"
+
+#: ../plugins/vnc/propono-vnc-plugin.c:437
+msgid "True Color (24 bits)"
+msgstr "True Color (24 bitowy)"
+
+#: ../plugins/vnc/propono-vnc-plugin.c:438
+msgid "High Color (16 bits)"
+msgstr "High Color (16 bitowy)"
+
+#: ../plugins/vnc/propono-vnc-plugin.c:439
+msgid "Low Color (8 bits)"
+msgstr "Low Color (8 bitowy)"
+
+#: ../plugins/vnc/propono-vnc-plugin.c:440
+msgid "Ultra Low Color (3 bits)"
+msgstr "Ultra Low Color (3 bitowy)"
+
+#. Translators: the whole sentence will be: Use host <hostname> as a SSH tunnel
+#: ../plugins/vnc/propono-vnc-plugin.c:453
+msgid "Use h_ost"
+msgstr "Użycie k_omputera"
+
+#. Translators: This is the tooltip of the SSH tunneling entry
+#: ../plugins/vnc/propono-vnc-plugin.c:461
+msgid "hostname or user@hostname"
+msgstr "nazwa-komputera lub użytkownik@nazwa-komputera"
+
+#. Translators: the whole sentence will be: Use host <hostname> as a SSH tunnel
+#: ../plugins/vnc/propono-vnc-plugin.c:465
+msgid "as a SSH tunnel"
+msgstr "jako tunelu SSH"
+
+#. Translators: this is a pattern to open *.vnc files in a open dialog.
+#: ../plugins/vnc/propono-vnc-plugin.c:500
+msgid "VNC Files"
+msgstr "Pliki VNC"
+
+#: ../plugins/vnc/propono-vnc-tab.c:147
+msgid "Desktop Name:"
+msgstr "Nazwa pulpitu:"
+
+#: ../plugins/vnc/propono-vnc-tab.c:150
+msgid "Dimensions:"
+msgstr "Wymiary:"
+
+#: ../plugins/vnc/propono-vnc-tab.c:304
+msgid "Error creating the SSH tunnel"
+msgstr "Błąd podczas tworzenia tunelu SSH"
+
+#: ../plugins/vnc/propono-vnc-tab.c:305 ../plugins/vnc/propono-vnc-tab.c:316
+msgid "Unknown reason"
+msgstr "Nieznany powód"
+
+#: ../plugins/vnc/propono-vnc-tab.c:315
+msgid "Error connecting to host."
+msgstr "Błąd podczas łączenia z komputerem."
+
+#. Translators: %s is a host name or IP address; %u is a code error (number).
+#: ../plugins/vnc/propono-vnc-tab.c:360
+#, c-format
+msgid "Authentication method to host %s is unsupported. (%u)"
+msgstr "Metoda uwierzytelniania w komputerze %s jest nieobsługiwana. (%u)"
+
+#: ../plugins/vnc/propono-vnc-tab.c:364
+msgid "Authentication unsupported"
+msgstr "Metoda uwierzytelniania jest nieobsługiwana"
+
+#: ../plugins/vnc/propono-vnc-tab.c:531 ../plugins/vnc/propono-vnc-tab.c:548
+msgid "Authentication error"
+msgstr "Błąd uwierzytelniania"
+
+#: ../plugins/vnc/propono-vnc-tab.c:532
+msgid "A username is required in order to access this machine."
+msgstr "Wymagana jest nazwa użytkownika, aby uzyskać dostęp do tego komputera."
+
+#: ../plugins/vnc/propono-vnc-tab.c:549
+msgid "A password is required in order to access this machine."
+msgstr "Wymagane jest hasło, aby uzyskać dostęp do tego komputera."
+
+#: ../plugins/vnc/propono-vnc-tab.c:603
+msgid "S_caling"
+msgstr "S_kalowanie"
+
+#: ../plugins/vnc/propono-vnc-tab.c:604
+msgid "Fits the remote screen into the current window size"
+msgstr "Dopasowuje zdalny ekran do bieżącego rozmiaru okna"
+
+#: ../plugins/vnc/propono-vnc-tab.c:617
+msgid "_Keep Aspect Ratio"
+msgstr "Utrzy_mywanie proporcji obrazu"
+
+#: ../plugins/vnc/propono-vnc-tab.c:618
+msgid "Keeps the screen aspect ratio when using scaling"
+msgstr "Utrzymuje proporcje obrazu podczas skalowania"
+
+#: ../plugins/vnc/propono-vnc-tab.c:633
+msgid "Does not send mouse and keyboard events"
+msgstr "Nie przesyła zdarzeń myszy i klawiatury"
+
+#: ../plugins/vnc/propono-vnc-tab.c:646
+msgid "_Original size"
+msgstr "_Rozmiar pierwotny"
+
+#: ../plugins/vnc/propono-vnc-tab.c:647
+msgid "Adjusts the window to the remote desktop's size"
+msgstr "Dopasowuje okno do rozmiarów zdalnego pulpitu"
+
+#: ../plugins/vnc/propono-vnc-tab.c:660
+msgid "_Refresh Screen"
+msgstr "_Odśwież ekran"
+
+#: ../plugins/vnc/propono-vnc-tab.c:661
+msgid "Requests an update of the screen"
+msgstr "Wysyła żądanie odświeżenia ekranu"
+
+#. Send Ctrl-alt-del
+#: ../plugins/vnc/propono-vnc-tab.c:683 ../plugins/vnc/propono-vnc-tab.c:755
+#: ../plugins/vnc/propono-vnc-tab.c:757
+msgid "Send Ctrl-Alt-Del"
+msgstr "Wyślij Ctrl-Alt-Del"
+
+#: ../plugins/vnc/propono-vnc-tab.c:684
+msgid "Sends Ctrl+Alt+Del to the remote machine"
+msgstr "Wysyła Ctrl+Alt+Del do zdalnego komputera"
+
+#: ../plugins/vnc/propono-vnc-tab.c:736 ../plugins/vnc/propono-vnc-tab.c:737
+msgid "Scaling"
+msgstr "Skalowanie"
+
+#: ../plugins/vnc/propono-vnc-tab.c:746 ../plugins/vnc/propono-vnc-tab.c:747
+msgid "Read only"
+msgstr "Tylko do odczytu"
+
+#: ../plugins/vnc/propono-vnc-tab.c:919
+msgid ""
+"Scaling is not supported on this installation.\n"
+"\n"
+"Read the README file (shipped with Propono) in order to know how to enable "
+"this feature."
+msgstr ""
+"Skalowanie nie jest obsługiwane przez tę instalację.\n"
+"\n"
+"Proszę przeczytać plik README (dostarczony z programem Propono), aby "
+"dowiedzieć się jak włączyć tę funkcję."
+
+#: ../plugins/vnc/propono-vnc-tunnel.c:77
+#, c-format
+msgid "Unable to find a free TCP port"
+msgstr "Nie można odnaleźć wolnego portu TCP"
+
+#: ../plugins/vnc/vnc.propono-plugin.desktop.in.h:2
+msgid "VNC support"
+msgstr "Obsługa VNC"
+
+#: ../plugins/vnc/propono-vnc-listener-dialog.c:90
+msgid "IPv4:"
+msgstr "IPv4:"
+
+#: ../plugins/vnc/propono-vnc-listener-dialog.c:102
+msgid ""
+"\n"
+"\n"
+"IPv6:"
+msgstr ""
+"\n"
+"\n"
+"IPv6:"
+
+#: ../plugins/vnc/propono-vnc-listener-dialog.c:161
+#, c-format
+msgid "On the port %d"
+msgstr "Na porcie %d"
+
+#: ../plugins/vnc/propono-vnc-listener.c:168
+msgid "Incoming VNC connection arrived but there is no active window"
+msgstr "Odebrano połączenie przychodzące VNC, ale nie ma aktywnego okna"
+
+#. vim: set ts=8:
+#: ../plugins/vnc/vnc.ui.h:1
+msgid ""
+"By activating reverse connections you can access machines that are behind a "
+"firewall. The remote side is supposed to initiate the connection with you. "
+"For further information, checkout the help."
+msgstr ""
+"Włączając odwrotne połączenia można uzyskać dostęp do komputerów za zaporą "
+"sieciową. Zdalny komputer ma nawiązać połączenie z tym komputerem. Proszę "
+"zajrzeć do pomocy, aby dowiedzieć się więcej."
+
+#: ../plugins/vnc/vnc.ui.h:2
+msgid "Connectivity"
+msgstr "Łączność"
+
+#: ../plugins/vnc/vnc.ui.h:3
+msgid "Reverse Connections"
+msgstr "Odwrotne połączenia"
+
+#: ../plugins/vnc/vnc.ui.h:4
+msgid "This machine is reachable through the following IP address(es):"
+msgstr ""
+"Z tym komputerem można się połączyć za pomocą następujących adresów IP:"
+
+#: ../plugins/vnc/vnc.ui.h:5
+msgid "_Always Enabled"
+msgstr "Z_awsze włączone"
+
+#: ../plugins/vnc/vnc.ui.h:6
+msgid "_Enable Reverse Connections"
+msgstr "_Włączenie odwrotnych połączeń"
+
+#: ../propono/MATE_ProponoApplet.server.in.in.h:1
+msgid "A menu to quickly access remote machines"
+msgstr "Menu szybkiego dostępu do zdalnych komputerów"
+
+#: ../propono/MATE_ProponoApplet.server.in.in.h:3
+msgid "Propono Applet Factory"
+msgstr "Generator apletów Propono"
+
+#: ../propono/propono-applet.c:277 ../propono/propono-applet.c:360
+msgid "Could not run propono:"
+msgstr "Nie można uruchomić programu Propono:"
+
+#: ../propono/propono-applet.c:380
+msgid "Open Remote Desktop Viewer"
+msgstr "Otwórz przeglądarkę zdalnych pulpitów"
+
+#: ../propono/propono-applet.c:435
+msgid "Access your bookmarks"
+msgstr "Dostęp do zakładek"
+
+#: ../propono/propono-bookmarks.c:265 ../propono/propono-connection.c:522
+#: ../propono/propono-tab.c:535 ../propono/propono-tube-handler.c:253
+#, c-format
+msgid "The protocol %s is not supported."
+msgstr "Protokół %s nie jest obsługiwany."
+
+#: ../propono/propono-bookmarks.c:343
+#, c-format
+msgid "Error while initializing bookmarks: %s"
+msgstr "Błąd podczas inicjowania zakładek: %s"
+
+#: ../propono/propono-bookmarks.c:343 ../propono/propono-bookmarks.c:458
+#: ../propono/propono-bookmarks-migration.c:135
+#: ../propono/propono-cache-prefs.c:53 ../propono/propono-commands.c:173
+#: ../propono/propono-connect.c:482 ../propono/propono-fav.c:765
+#: ../propono/propono-main.c:101 ../propono/propono-main.c:120
+#: ../propono/propono-window.c:268 ../propono/propono-window.c:737
+msgid "Unknown error"
+msgstr "Nieznany błąd"
+
+#: ../propono/propono-bookmarks.c:350
+msgid "Error while initializing bookmarks: The file seems to be empty"
+msgstr "Błąd podczas inicjowania zakładek: plik wydaje się być pusty"
+
+#: ../propono/propono-bookmarks.c:357
+msgid ""
+"Error while initializing bookmarks: The file is not a propono bookmarks file"
+msgstr ""
+"Błąd podczas inicjowania zakładek: plik nie jest plikiem zakładek programu "
+"propono"
+
+#: ../propono/propono-bookmarks.c:419 ../propono/propono-bookmarks.c:426
+msgid "Error while saving bookmarks: Failed to create the XML structure"
+msgstr ""
+"Błąd podczas zapisywania zakładek: utworzenie struktury XML się nie powiodło"
+
+#: ../propono/propono-bookmarks.c:433 ../propono/propono-bookmarks.c:440
+msgid "Error while saving bookmarks: Failed to initialize the XML structure"
+msgstr ""
+"Błąd podczas zapisywania zakładek: zainicjowanie struktury XML się nie "
+"powiodło"
+
+#: ../propono/propono-bookmarks.c:449
+msgid "Error while saving bookmarks: Failed to finalize the XML structure"
+msgstr ""
+"Błąd podczas zapisywania zakładek: sfinalizowanie struktury XML się nie "
+"powiodło"
+
+#: ../propono/propono-bookmarks.c:458
+#, c-format
+msgid "Error while saving bookmarks: %s"
+msgstr "Błąd podczas zapisywania zakładek: %s"
+
+#: ../propono/propono-bookmarks-migration.c:95
+#: ../propono/propono-bookmarks-migration.c:102
+msgid "Error while migrating bookmarks: Failed to create the XML structure"
+msgstr ""
+"Wystąpił błąd podczas przenoszenia zakładek: utworzenie struktury XML się "
+"nie powiodło"
+
+#: ../propono/propono-bookmarks-migration.c:109
+#: ../propono/propono-bookmarks-migration.c:116
+msgid "Error while migrating bookmarks: Failed to initialize the XML structure"
+msgstr ""
+"Wystąpił błąd podczas przenoszenia zakładek: zainicjowanie struktury XML się "
+"nie powiodło"
+
+#: ../propono/propono-bookmarks-migration.c:125
+msgid "Error while migrating bookmarks: Failed to finalize the XML structure"
+msgstr ""
+"Wystąpił błąd podczas przenoszenia zakładek: sfinalizowanie struktury XML "
+"się nie powiodło"
+
+#: ../propono/propono-bookmarks-migration.c:135
+#: ../propono/propono-bookmarks-migration.c:217
+#, c-format
+msgid "Error while migrating bookmarks: %s"
+msgstr "Błąd podczas przenoszenia zakładek: %s"
+
+#: ../propono/propono-bookmarks-migration.c:164
+msgid "Error while migrating bookmarks: VNC plugin is not activated"
+msgstr "Błąd podczas przenoszenia zakładek: wtyczka VNC jest wyłączona"
+
+#: ../propono/propono-bookmarks-migration.c:217
+msgid "Failed to create the directory"
+msgstr "Utworzenie katalogu się nie powiodło"
+
+#: ../propono/propono-bookmarks-migration.c:241
+msgid ""
+"Migrating the bookmarks file to the new format. This operation is only "
+"supposed to run once."
+msgstr ""
+"Migrowanie pliku zakładek do nowego formatu. Działanie ma odbyć się tylko "
+"jednokrotnie."
+
+#: ../propono/propono-bookmarks-migration.c:249
+#, c-format
+msgid "Error opening old bookmarks file: %s"
+msgstr "Błąd podczas otwierania poprzedniego pliku zakładek: %s"
+
+#: ../propono/propono-bookmarks-migration.c:250
+#: ../propono/propono-bookmarks-migration.c:262
+msgid "Migration cancelled"
+msgstr "Anulowano migrację"
+
+#: ../propono/propono-bookmarks-migration.c:259
+msgid "Could not remove the old bookmarks file"
+msgstr "Nie można usunąć poprzedniego pliku zakładek"
+
+#: ../propono/propono-bookmarks-tree.c:120
+msgid "Root Folder"
+msgstr "Katalog główny"
+
+#: ../propono/propono-bookmarks-ui.c:78
+msgid "Invalid name for this folder"
+msgstr "Nieprawidłowa nazwa dla tego katalogu"
+
+#: ../propono/propono-bookmarks-ui.c:88 ../propono/propono-bookmarks-ui.c:200
+#, c-format
+msgid ""
+"The name \"%s\" is already used in this folder. Please use a different name."
+msgstr ""
+"Nazwa \"%s\" jest już używana w tym katalogu. Proszę wybrać inną nazwę."
+
+#: ../propono/propono-bookmarks-ui.c:89 ../propono/propono-bookmarks-ui.c:190
+#: ../propono/propono-bookmarks-ui.c:201
+msgid "Invalid name for this item"
+msgstr "Nieprawidłowa nazwa dla tego elementu"
+
+#. Translators: %s is a protocol name, like VNC or SSH
+#: ../propono/propono-bookmarks-ui.c:168
+#, c-format
+msgid "(Protocol: %s)"
+msgstr "(Protokół: %s)"
+
+#. Translators: %s is a bookmark entry name
+#: ../propono/propono-bookmarks-ui.c:308
+#, c-format
+msgid "Are you sure you want to remove %s from bookmarks?"
+msgstr "Na pewno usunąć %s z zakładek?"
+
+#: ../propono/propono-bookmarks-ui.c:314
+msgid "Remove Folder?"
+msgstr "Usunąć katalog?"
+
+#: ../propono/propono-bookmarks-ui.c:315
+msgid "Notice that all its subfolders and items will be removed as well."
+msgstr ""
+"Proszę zwrócić uwagę, iż wszystkie jego podkatalogi znajdujące się w nich "
+"elementy także zostaną usunięte."
+
+#: ../propono/propono-bookmarks-ui.c:320
+msgid "Remove Item?"
+msgstr "Usunąć element?"
+
+#: ../propono/propono-bookmarks-ui.c:337
+msgid "Error removing bookmark: Entry not found"
+msgstr "Błąd podczas usuwania zakładki: wpis nie został odnaleziony"
+
+#: ../propono/propono-bookmarks-ui.c:354
+msgid "New Folder"
+msgstr "Nowy katalog"
+
+#: ../propono/propono-cache-prefs.c:53
+#, c-format
+msgid "Error while saving preferences: %s"
+msgstr "Błąd podczas zapisywania preferencji: %s"
+
+#: ../propono/propono-commands.c:121
+msgid "Choose the file"
+msgstr "Wybór pliku"
+
+#: ../propono/propono-commands.c:149
+msgid "There are no supported files"
+msgstr "Brak obsługiwanych plików"
+
+#: ../propono/propono-commands.c:150
+msgid ""
+"None of the active plugins support this action. Activate some plugins and "
+"try again."
+msgstr ""
+"Żadna z włączonych wtyczek nie obsługuje tego działania. Proszę włączyć "
+"wtyczki i spróbować ponownie. "
+
+#: ../propono/propono-commands.c:184
+msgid "The following file could not be opened:"
+msgid_plural "The following files could not be opened:"
+msgstr[0] "Następujący plik nie mógł zostać otwarty:"
+msgstr[1] "Następujące pliki nie mogły zostać otwarte:"
+msgstr[2] "Następujące pliki nie mogły zostać otwarte:"
+
+#: ../propono/propono-connect.c:87 ../propono/propono-connect.c:334
+#: ../propono/propono-connect.c:446
+msgid "Could not get the active protocol in the protocol list."
+msgstr "Nie można uzyskać aktywnego protokołu na liście protokołów."
+
+#: ../propono/propono-connect.c:315
+#, c-format
+msgid "Error while saving history file: %s"
+msgstr "Błąd podczas zapisywania pliku historii: %s"
+
+#: ../propono/propono-connect.c:350
+msgid "Choose a Remote Desktop"
+msgstr "Wybór zdalnego pulpitu"
+
+#: ../propono/propono-connection.c:630
+msgid "Could not open the file."
+msgstr "Nie można otworzyć pliku."
+
+#: ../propono/propono-connection.c:654
+msgid "The file was not recognized by any of the plugins."
+msgstr "Plik nie został rozpoznany przez żadną z wtyczek."
+
+#: ../propono/propono-fav.c:567
+msgid "_New Folder"
+msgstr "_Nowy katalog"
+
+#: ../propono/propono-fav.c:568
+msgid "Create a new folder"
+msgstr "Tworzy nowy katalog"
+
+#: ../propono/propono-fav.c:573
+msgid "_Open bookmark"
+msgstr "_Otwórz zakładkę"
+
+#: ../propono/propono-fav.c:574
+msgid "Connect to this machine"
+msgstr "Łączy z tym komputerem"
+
+#: ../propono/propono-fav.c:575
+msgid "_Edit bookmark"
+msgstr "Z_modyfikuj zakładkę"
+
+#: ../propono/propono-fav.c:576
+msgid "Edit the details of selected bookmark"
+msgstr "Modyfikuje szczegóły zaznaczonej zakładki"
+
+#: ../propono/propono-fav.c:577
+msgid "_Remove from bookmarks"
+msgstr "_Usuń z zakładek"
+
+#: ../propono/propono-fav.c:578
+msgid "Remove current selected connection from bookmarks"
+msgstr "Usuwa bieżąco zaznaczone połączenie z zakładek"
+
+#: ../propono/propono-fav.c:596 ../propono/propono-window.c:399
+#, c-format
+msgid "Could not merge UI XML file: %s"
+msgstr "Nie można połączyć pliku XML interfejsu użytkownika: %s"
+
+#: ../propono/propono-fav.c:754
+msgid "Invalid operation"
+msgstr "Nieprawidłowe działanie"
+
+#: ../propono/propono-fav.c:755
+msgid "Data received from drag&drop operation is invalid."
+msgstr "Dane otrzymane z działania \"przeciągnij i upuść\" są nieprawidłowe."
+
+#: ../propono/propono-fav.c:859
+msgid "Hide panel"
+msgstr "Ukryj panel"
+
+#: ../propono/propono-fav.c:1044
+msgid "Hosts nearby"
+msgstr "Komputery w pobliżu"
+
+#. Translators: this is a command line option (run propono --help)
+#: ../propono/propono-main.c:63
+msgid "Open propono in fullscreen mode"
+msgstr "Otwiera program Propono w trybie pełnego ekranu"
+
+#. Translators: this is a command line option (run propono --help)
+#: ../propono/propono-main.c:67
+msgid "Create a new toplevel window in an existing instance of propono"
+msgstr ""
+"Tworzy nowe okno najwyższego poziomu w istniejącej instancji programu Propono"
+
+#. Translators: this is a command line option (run propono --help)
+#: ../propono/propono-main.c:71
+msgid "Open a file recognized by propono"
+msgstr "Otwiera plik rozpoznany przez program Propono"
+
+#: ../propono/propono-main.c:71
+msgid "filename"
+msgstr "nazwa_pliku"
+
+#. Translators: this is a command line option (run propono --help)
+#: ../propono/propono-main.c:76
+msgid "[server:port]"
+msgstr "[serwer:port]"
+
+#: ../propono/propono-main.c:131
+msgid "The following error has occurred:"
+msgid_plural "The following errors have occurred:"
+msgstr[0] "Wystąpił następujący błąd:"
+msgstr[1] "Wystąpiły następujące błędy:"
+msgstr[2] "Wystąpiły następujące błędy:"
+
+#. Setup command line options
+#: ../propono/propono-main.c:170
+msgid "- Remote Desktop Viewer"
+msgstr "- przeglądarka zdalnych pulpitów"
+
+#: ../propono/propono-main.c:195
+msgid ""
+"Run 'propono --help' to see a full list of available command line options"
+msgstr ""
+"Uruchomienie \"propono --help\" wyświetli pełną listę dostępnych poleceń"
+
+#: ../propono/propono-mdns.c:159
+#, c-format
+msgid "Failed to resolve avahi hostname: %s\n"
+msgstr "Uzyskanie nazwy komputera przez usługę Avahi się nie powiodło: %s\n"
+
+#: ../propono/propono-mdns.c:217
+#, c-format
+msgid "Plugin %s has already registered a browser for service %s."
+msgstr "Wtyczka %s już zarejestrowała przeglądarkę usługi %s."
+
+#: ../propono/propono-mdns.c:226
+#, c-format
+msgid "Failed to add mDNS browser for service %s."
+msgstr "Dodanie przeglądarki mDNS dla usługi %s się nie powiodło."
+
+#: ../propono/propono-mdns.c:242
+#, c-format
+msgid "Failed to browse for hosts: %s\n"
+msgstr "Przeglądanie w poszukiwaniu komputerów się nie powiodło: %s\n"
+
+#: ../propono/propono-mdns.c:315
+#, c-format
+msgid "Failed to initialize mDNS browser: %s\n"
+msgstr "Zainicjowanie przeglądarki mDNS się nie powiodło: %s\n"
+
+#. Translators: %s is a host name or IP address.
+#: ../propono/propono-notebook.c:461
+#, c-format
+msgid "Connection to host %s was closed."
+msgstr "Połączenie z komputerem %s zostało zamknięte."
+
+#: ../propono/propono-notebook.c:463
+msgid "Connection closed"
+msgstr "Zamknięto połączenie"
+
+#. Translators: %s is a host name or IP address.
+#: ../propono/propono-notebook.c:482
+#, c-format
+msgid "Authentication to host %s has failed"
+msgstr "Uwierzytelnienie w komputerze %s się nie powiodło"
+
+#: ../propono/propono-notebook.c:488
+msgid "Authentication failed"
+msgstr "Uwierzytelnienie się nie powiodło"
+
+#: ../propono/propono-notebook.c:526
+msgid "Connecting..."
+msgstr "Łączenie..."
+
+#: ../propono/propono-notebook.c:553 ../propono/propono-tab.c:325
+msgid "Close connection"
+msgstr "Zamknij połączenie"
+
+#: ../propono/propono-plugin-dialog.c:83
+msgid "Plugin Manager"
+msgstr "Menedżer wtyczek"
+
+#: ../propono/propono-plugin-manager.c:45
+msgid "Plugin"
+msgstr "Wtyczka"
+
+#: ../propono/propono-plugin-manager.c:46
+msgid "Enabled"
+msgstr "Włączona"
+
+#: ../propono/propono-plugin-manager.c:503
+msgid "C_onfigure"
+msgstr "_Skonfiguruj"
+
+#: ../propono/propono-plugin-manager.c:512
+msgid "A_ctivate"
+msgstr "_Włącz"
+
+#: ../propono/propono-plugin-manager.c:523
+msgid "Ac_tivate All"
+msgstr "Włącz ws_zystkie"
+
+#: ../propono/propono-plugin-manager.c:528
+msgid "_Deactivate All"
+msgstr "Wyłącz wszys_tkie"
+
+#: ../propono/propono-plugin-manager.c:824
+msgid "_About Plugin"
+msgstr "_O wtyczce"
+
+#: ../propono/propono-plugin-manager.c:828
+msgid "C_onfigure Plugin"
+msgstr "S_konfiguruj wtyczkę"
+
+#: ../propono/propono-prefs.c:212
+msgid "Cannot initialize preferences manager."
+msgstr "Nie można zainicjować menedżera preferencji."
+
+#: ../propono/propono-ssh.c:106
+msgid "Timed out when logging into SSH host"
+msgstr "Przekroczono czas oczekiwania podczas logowania do komputera SSH"
+
+#: ../propono/propono-ssh.c:180
+msgid "Unable to spawn ssh program"
+msgstr "Nie można wywołać programu ssh"
+
+#: ../propono/propono-ssh.c:197
+#, c-format
+msgid "Unable to spawn ssh program: %s"
+msgstr "Nie można wywołać programu ssh: %s"
+
+#: ../propono/propono-ssh.c:352
+msgid "Timed out when logging in"
+msgstr "Przekroczono czas oczekiwania podczas logowania"
+
+#: ../propono/propono-ssh.c:375 ../propono/propono-ssh.c:529
+#: ../propono/propono-ssh.c:612
+msgid "Permission denied"
+msgstr "Brak upoważnienia"
+
+#: ../propono/propono-ssh.c:440
+msgid "Password dialog canceled"
+msgstr "Anulowano okno dialogowe wprowadzania hasła"
+
+#: ../propono/propono-ssh.c:463
+msgid "Could not send password"
+msgstr "Nie można wysłać hasła"
+
+#: ../propono/propono-ssh.c:471
+msgid "Log In Anyway"
+msgstr "Zaloguj mimo to"
+
+#: ../propono/propono-ssh.c:471
+msgid "Cancel Login"
+msgstr "Anuluj logowanie"
+
+#: ../propono/propono-ssh.c:480
+#, c-format
+msgid ""
+"The identity of the remote computer (%s) is unknown.\n"
+"This happens when you log in to a computer the first time.\n"
+"\n"
+"The identity sent by the remote computer is %s. If you want to be absolutely "
+"sure it is safe to continue, contact the system administrator."
+msgstr ""
+"Tożsamość zdalnego komputera (%s) jest nieznana.\n"
+"Zdarza się to podczas logowania do komputera po raz pierwszy.\n"
+"\n"
+"Tożsamość wysłana przez zdalny komputer to %s. Aby być absolutnie pewny, że "
+"kontynuowanie jest bezpieczne, należy skontaktować się z administratorem."
+
+#: ../propono/propono-ssh.c:498
+msgid "Login dialog canceled"
+msgstr "Anulowano okno dialogowe logowania"
+
+#: ../propono/propono-ssh.c:519
+msgid "Can't send host identity confirmation"
+msgstr "Nie można wysłać potwierdzenia tożsamości komputera"
+
+#: ../propono/propono-ssh.c:554 ../propono/propono-tab.c:732
+msgid "Error saving the credentials on the keyring."
+msgstr "Błąd podczas zapisywania danych uwierzytelniania w bazie kluczy."
+
+#: ../propono/propono-ssh.c:619
+msgid "Hostname not known"
+msgstr "Nieznana nazwa komputera"
+
+#: ../propono/propono-ssh.c:626
+msgid "No route to host"
+msgstr "Brak trasy do komputera"
+
+#: ../propono/propono-ssh.c:633
+msgid "Connection refused by server"
+msgstr "Połączenie zostało odrzucone przez serwer"
+
+#: ../propono/propono-ssh.c:640
+msgid "Host key verification failed"
+msgstr "Sprawdzenie klucza komputera się nie powiodło"
+
+#: ../propono/propono-ssh.c:676
+msgid "Unable to find a valid SSH program"
+msgstr "Nie można odnaleźć prawidłowego programu SSH"
+
+#: ../propono/propono-tab.c:346
+msgid "Leave fullscreen"
+msgstr "Opuść pełny ekran"
+
+#: ../propono/propono-tab.c:497
+msgid "Error saving recent connection."
+msgstr "Błąd podczas zapisywania ostatniego połączenia."
+
+#: ../propono/propono-tab.c:818
+msgid "Could not get a screenshot of the connection."
+msgstr "Nie udało się uzyskać zrzutu ekranu połączenia."
+
+#: ../propono/propono-tab.c:823
+msgid "Save Screenshot"
+msgstr "Zapisz zrzut ekranu"
+
+#: ../propono/propono-tab.c:834
+#, c-format
+msgid "Screenshot of %s"
+msgstr "Zrzut ekranu %s"
+
+#: ../propono/propono-tab.c:885
+msgid "Error saving screenshot"
+msgstr "Błąd podczas zapisywania zrzutu ekranu"
+
+#: ../propono/propono-tube-handler.c:229
+#, c-format
+msgid "Impossible to get service property: %s"
+msgstr "Niemożliwe uzyskanie własności usługi: %s"
+
+#: ../propono/propono-tube-handler.c:286
+#, c-format
+msgid "Impossible to create the connection: %s"
+msgstr "Niemożliwe utworzenie połączenia: %s"
+
+#: ../propono/propono-tube-handler.c:325
+#, c-format
+msgid "Impossible to accept the stream tube: %s"
+msgstr "Niemożliwa akceptacja strumienia: %s"
+
+#: ../propono/propono-tube-handler.c:463
+#, c-format
+msgid "Impossible to get the contact name: %s"
+msgstr "Niemożliwe uzyskanie nazwy kontaktu: %s"
+
+#: ../propono/propono-tube-handler.c:498
+#, c-format
+msgid "Impossible to get the avatar: %s"
+msgstr "Niemożliwe uzyskanie awatara: %s"
+
+#: ../propono/propono-tube-handler.c:519
+#, c-format
+msgid "%s wants to share their desktop with you."
+msgstr "Użytkownik %s chce współdzielić swój pulpit."
+
+#: ../propono/propono-tube-handler.c:524
+msgid "Desktop sharing invitation"
+msgstr "Zaproszenie do współdzielenia pulpitu"
+
+#. Toplevel
+#: ../propono/propono-ui.h:33
+msgid "_Machine"
+msgstr "_Komputer"
+
+#: ../propono/propono-ui.h:34
+msgid "_Edit"
+msgstr "_Edycja"
+
+#: ../propono/propono-ui.h:35
+msgid "_View"
+msgstr "_Widok"
+
+#: ../propono/propono-ui.h:36
+msgid "_Bookmarks"
+msgstr "_Zakładki"
+
+#: ../propono/propono-ui.h:41
+msgid "Connect to a remote machine"
+msgstr "Połączenie ze zdalnym komputerem"
+
+#: ../propono/propono-ui.h:43
+msgid "Open a .VNC file"
+msgstr "Otwórz plik .VNC"
+
+#: ../propono/propono-ui.h:45
+msgid "Quit the program"
+msgstr "Kończy działanie programu"
+
+#: ../propono/propono-ui.h:49
+msgid "Edit the application preferences"
+msgstr "Modyfikuje preferencje programu"
+
+#: ../propono/propono-ui.h:50
+msgid "_Plugins"
+msgstr "Wtycz_ki"
+
+#: ../propono/propono-ui.h:51
+msgid "Select plugins"
+msgstr "Wybór wtyczek"
+
+#. Help menu
+#: ../propono/propono-ui.h:54
+msgid "_Contents"
+msgstr "_Spis treści"
+
+#: ../propono/propono-ui.h:55
+msgid "Open the propono manual"
+msgstr "Otwiera podręcznik użytkownika programu Propono"
+
+#: ../propono/propono-ui.h:57
+msgid "About this application"
+msgstr "O tym programie"
+
+#: ../propono/propono-ui.h:62
+msgid "_Toolbar"
+msgstr "Pasek _narzędziowy"
+
+#: ../propono/propono-ui.h:63
+msgid "Show or hide the toolbar"
+msgstr "Wyświetla lub ukrywa pasek narzędziowy"
+
+#: ../propono/propono-ui.h:66
+msgid "_Statusbar"
+msgstr "_Pasek stanu"
+
+#: ../propono/propono-ui.h:67
+msgid "Show or hide the statusbar"
+msgstr "Wyświetla lub ukrywa pasek stanu"
+
+# skrócone w Totem, tu też
+#: ../propono/propono-ui.h:70
+msgid "Side _Panel"
+msgstr "P_anel"
+
+#: ../propono/propono-ui.h:71
+msgid "Show or hide the side panel"
+msgstr "Wyświetla lub ukrywa panel boczny"
+
+#: ../propono/propono-ui.h:79
+msgid "Close the current connection"
+msgstr "Zamyka bieżące połączenie"
+
+#: ../propono/propono-ui.h:80
+msgid "C_lose All"
+msgstr "_Zamknij wszystkie"
+
+#: ../propono/propono-ui.h:81
+msgid "Close all active connections"
+msgstr "Zamyka wszystkie aktywne połączenia"
+
+#. Bookmarks menu
+#: ../propono/propono-ui.h:84
+msgid "_Add to bookmarks"
+msgstr "Dod_aj do zakładek"
+
+#: ../propono/propono-ui.h:85
+msgid "Add current connection to your bookmarks"
+msgstr "Dodaje bieżące połączenie do zakładek"
+
+#. Machine menu
+#: ../propono/propono-ui.h:92
+msgid "Take screenshot"
+msgstr "Pobierz zrzut ekranu"
+
+#: ../propono/propono-ui.h:93
+msgid "Take a screenshot of active connection"
+msgstr "Pobiera zrzut ekranu aktywnego połączenia"
+
+#: ../propono/propono-ui.h:97
+msgid "View the current machine in full screen"
+msgstr "Wyświetla bieżącą sesję na pełnym ekranie"
+
+#: ../propono/propono-utils.c:75
+msgid "An error has occurred:"
+msgstr "Wystąpił błąd:"
+
+#: ../propono/propono-utils.c:175
+msgid ""
+"A plugin tried to open an UI file but did not succeed, with the error "
+"message:"
+msgstr ""
+"Wtyczka próbowała otworzyć plik interfejsu użytkownika, ale to się nie "
+"powiodło. Komunikat błędu:"
+
+#: ../propono/propono-utils.c:177
+msgid ""
+"The program tried to open an UI file but did not succeed, with the error "
+"message:"
+msgstr ""
+"Program próbował otworzyć plik interfejsu użytkownika, ale to się nie "
+"powiodło. Komunikat błędu:"
+
+#: ../propono/propono-utils.c:180
+msgid "Please check your installation."
+msgstr "Proszę sprawdzić poprawność instalacji."
+
+#: ../propono/propono-utils.c:181
+msgid "Error loading UI file"
+msgstr "Błąd podczas wczytywania pliku interfejsu użytkownika"
+
+#: ../propono/propono-utils.c:492
+msgid "Propono is a remote desktop viewer for the MATE Desktop"
+msgstr ""
+"Program Propono jest przeglądarką zdalnych pulpitów dla środowiska MATE"
+
+#: ../propono/propono-utils.c:495
+msgid ""
+"Propono is free software; you can redistribute it and/or modify it under the "
+"terms of the GNU General Public License as published by the Free Software "
+"Foundation; either version 2 of the License, or (at your option) any later "
+"version."
+msgstr ""
+"Program Propono jest wolnym oprogramowaniem; można go rozprowadzać dalej i/"
+"lub modyfikować na warunkach Powszechnej Licencji Publicznej GNU, wydanej "
+"przez Fundację Wolnego Oprogramowania - według wersji drugiej tej Licencji "
+"lub którejś z późniejszych wersji."
+
+#: ../propono/propono-utils.c:499
+msgid ""
+"Propono is distributed in the hope that it will be useful, but WITHOUT ANY "
+"WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS "
+"FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more "
+"details."
+msgstr ""
+"Program Propono rozpowszechniany jest z nadzieją, iż będzie on użyteczny - "
+"jednak BEZ JAKIEJKOLWIEK GWARANCJI, nawet domyślnej gwarancji PRZYDATNOŚCI "
+"HANDLOWEJ albo PRZYDATNOŚCI DO OKREŚLONYCH ZASTOSOWAŃ. W celu uzyskania "
+"bliższych informacji należy zapoznać się z Powszechną Licencją Publiczną GNU."
+
+#: ../propono/propono-utils.c:503
+msgid ""
+"You should have received a copy of the GNU General Public License along with "
+"this program. If not, see <http://www.gnu.org/licenses/>."
+msgstr ""
+"Z pewnością wraz z niniejszym programem dostarczono także egzemplarz "
+"Powszechnej Licencji Publicznej GNU (GNU General Public License); jeśli nie "
+"- proszę odwiedzić stronę internetową <http://www.gnu.org/licenses/>."
+
+#: ../propono/propono-utils.c:525
+msgid "translator-credits"
+msgstr "Aviary.pl <matepl@aviary.pl>, 2007, 2008, 2009, 2010"
+
+#: ../propono/propono-utils.c:528
+msgid "Propono Website"
+msgstr "Witryna programu Propono"
+
+#. Translators: %s is a protocol, like VNC or SSH
+#: ../propono/propono-utils.c:660
+#, c-format
+msgid "%s authentication is required"
+msgstr "Wymagane jest uwierzytelnienie %s"
+
+#: ../propono/propono-window.c:428
+msgid "_Recent connections"
+msgstr "_Ostatnie połączenia"
+
+#. Translators: This is server:port, a statusbar tooltip when mouse is over a bookmark item on menu
+#: ../propono/propono-window.c:543
+#, c-format
+msgid "Open %s:%d"
+msgstr "Otwiera %s:%d"
+
+#: ../propono/propono-window.c:721
+msgid "About menu accelerators and keyboard shortcuts"
+msgstr "O skrótach klawiszowych w menu"
+
+#: ../propono/propono-window.c:723
+msgid ""
+"Propono comes with menu accelerators and keyboard shortcuts disabled by "
+"default. The reason is to avoid the keys to be intercepted by the program, "
+"and allow them to be sent to the remote machine.\n"
+"\n"
+"You can change this behavior through the preferences dialog. For more "
+"information, check the documentation.\n"
+"\n"
+"This message will appear only once."
+msgstr ""
+"Program Propono ma domyślnie wyłączone skróty klawiszowe w menu. Dzięki temu "
+"można uniknąć przechwycenia wciśnięć klawiszy przez program, umożliwiając "
+"wysyłanie ich do zdalnego komputera.\n"
+"\n"
+"Można zmienić te zachowanie w oknie preferencji. Proszę zajrzeć do "
+"dokumentacji, aby dowiedzieć się więcej.\n"
+"\n"
+"Ten komunikat pojawi się tylko raz."
+
+#: ../propono/propono-window.c:731 ../propono/propono-window.c:737
+#, c-format
+msgid "Error while creating the file %s: %s"
+msgstr "Błąd podczas tworzenia pliku %s: %s"

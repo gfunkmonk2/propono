@@ -1,0 +1,6 @@
+?package(propono): \
+ needs="X11" \
+ section="Applications/Network/Communication" \
+ title="Propono" \
+ description="Remote Desktop Viewer" \
+ command="propono"

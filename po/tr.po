@@ -1,0 +1,998 @@
+# translation of Propono.
+# Copyright (C) 2008 THE Propono'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the Propono package.
+#
+# Baris Cicek <baris@teamforce.name.tr>, 2008, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: Propono\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-08-30 08:52+0300\n"
+"PO-Revision-Date: 2009-08-30 08:50+0300\n"
+"Last-Translator: Baris Cicek <baris@teamforce.name.tr>\n"
+"Language-Team: Turkish <mate-turk@mate.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../data/MATE_ProponoApplet.xml.h:1 ../propono/propono-plugin-manager.c:495
+msgid "_About"
+msgstr "_Hakkında"
+
+#: ../data/MATE_ProponoApplet.xml.h:2 ../propono/propono-ui.h:37
+msgid "_Help"
+msgstr "_Yardım"
+
+#: ../data/propono.desktop.in.in.h:1 ../data/propono-file.desktop.in.in.h:1
+msgid "Access remote desktops"
+msgstr "Uzak masaüstüne ulaş"
+
+#: ../data/propono.desktop.in.in.h:2 ../data/propono-file.desktop.in.in.h:2
+#: ../propono/MATE_ProponoApplet.server.in.in.h:2
+#: ../propono/propono-applet.c:434 ../propono/propono-applet.c:486
+#: ../propono/propono-main.c:198
+msgid "Remote Desktop Viewer"
+msgstr "Uzak Masaüstü Görüntüleyici"
+
+#: ../data/propono.ui.h:1
+msgid "All fields above are mandatory"
+msgstr "Yukarıdakı tüm alanlar zorunludur"
+
+#: ../data/propono.ui.h:2
+msgid "Authentication is required"
+msgstr "Kimlik denetimi gerekli"
+
+#: ../data/propono.ui.h:3 ../propono/propono-fav.c:856
+msgid "Bookmarks"
+msgstr "Yer imleri"
+
+#: ../data/propono.ui.h:4
+msgid "Connection"
+msgstr "Bağlantı"
+
+#: ../data/propono.ui.h:5
+msgid "Connection options"
+msgstr "Bağlantı seçenekleri"
+
+#: ../data/propono.ui.h:6
+msgid "Folder"
+msgstr "Klasör"
+
+#: ../data/propono.ui.h:7 ../plugins/ssh/propono-ssh-tab.c:49
+#: ../plugins/vnc/propono-vnc-tab.c:134 ../propono/propono-fav.c:425
+msgid "Host:"
+msgstr "Ana Bilgisayar:"
+
+#: ../data/propono.ui.h:8
+msgid "Interface"
+msgstr "Arayüz"
+
+#: ../data/propono.ui.h:9
+msgid "Options"
+msgstr "Seçenekler"
+
+#: ../data/propono.ui.h:10
+msgid "Parent Folder"
+msgstr "Üst Klasör"
+
+#: ../data/propono.ui.h:11
+msgid "Preferences"
+msgstr "Tercihler"
+
+#: ../data/propono.ui.h:12
+msgid "Which machine do you want to connect to?"
+msgstr "Hangi makinaya bağlanmak istiyorsunuz?"
+
+#: ../data/propono.ui.h:13
+msgid "_Always show tabs"
+msgstr "Her zaman sekmeleri _göster"
+
+#. This is a button label, in the authentication dialog
+#: ../data/propono.ui.h:15
+msgid "_Authenticate"
+msgstr "Kimliği _Doğrulama"
+
+#: ../data/propono.ui.h:16
+msgid "_Full screen"
+msgstr "_Tam ekran"
+
+#: ../data/propono.ui.h:17
+msgid "_Host:"
+msgstr "_Ana Bilgisayar:"
+
+#: ../data/propono.ui.h:18
+msgid "_Name:"
+msgstr "_İsim:"
+
+#: ../data/propono.ui.h:19
+msgid "_Password:"
+msgstr "_Parola:"
+
+#: ../data/propono.ui.h:20
+msgid "_Protocol:"
+msgstr "_Protokol:"
+
+#: ../data/propono.ui.h:21
+msgid "_Remember this credential"
+msgstr "Bu bilgileri _hatırla"
+
+#: ../data/propono.ui.h:22
+msgid "_Show menu shortcuts"
+msgstr "_Menü kısayollarını göster"
+
+#: ../data/propono.ui.h:23
+msgid "_Username:"
+msgstr "_Kullanıcı Adı:"
+
+#: ../data/propono.schemas.in.in.h:1 ../propono/propono-plugin-manager.c:795
+msgid "Active plugins"
+msgstr "Etkin eklentiler"
+
+#: ../data/propono.schemas.in.in.h:2
+msgid ""
+"List of active plugins. It contains the \"Location\" of the active plugins. "
+"See the .propono-plugin file for obtaining the \"Location\" of a given "
+"plugin."
+msgstr ""
+"Etkin eklentiler listesi. Etkin eklentilerin \"Konum\"unu içerir. .propono-"
+"plugin dosyasına  belirli bir eklentinin \"Konum\"unu almak için bakın."
+
+#: ../data/propono.schemas.in.in.h:3
+msgid "Maximum number of history items in connect dialog"
+msgstr "Bağlantı penceresinde azami sayıdaki geçmiş girişi"
+
+#: ../data/propono.schemas.in.in.h:4
+msgid ""
+"Set to \"false\" to disable menu shortcuts. Set to \"true\" to enable them. "
+"Note that if they are enabled, those keys will be intercepted by the menu "
+"and will not be sent to the remote host."
+msgstr ""
+"Menü kısayollarını kapatmak için \" false\" olarak atayın. Etkinleştirmek "
+"için \"true\" atayın. Eğer etkinl olurlarda bu tuşlar menü tarafından "
+"algılanacak ve uzaktaki makineye gönderilmeyecekler."
+
+#: ../data/propono.schemas.in.in.h:5
+msgid ""
+"Set to \"true\" to always show the tabs. Set to \"false\" to only show the "
+"tabs when there is more than one active connection."
+msgstr ""
+"Her zaman sekmeleri göstermek için \"true\" olarak atayın. Eğer sadece "
+"birden daha fazla etkin bağlantı varken sekmelerin gösterilmesi için \"false"
+"\" olarak atayın."
+
+#: ../data/propono.schemas.in.in.h:6
+msgid "Specifies the maximum number of items in the host dropdown entry."
+msgstr "Makine açılan girişinde azami sayıdaki öğeleri belirler."
+
+#: ../data/propono.schemas.in.in.h:7
+msgid "The handler for \"vnc://\" URLs"
+msgstr "\"vnc://\" URL'leri için işleyici"
+
+#: ../data/propono.schemas.in.in.h:8
+msgid ""
+"When connecting to a host, the client can say to the server to leave other "
+"clients connected or to drop the existent connections. Set the value to true "
+"to share the desktop with the other clients."
+msgstr ""
+"Bir makineye bağlanılırken, istemci sunucudan diğer istemcileri bağlı "
+"bırakmasını ya da mevcut bağlantıları kesmesini isteyebilir. Değeri true "
+"olarak atayarak diğer istemcilerle masaüstünün paylaşılmasını "
+"sağlayabilirsiniz."
+
+#: ../data/propono.schemas.in.in.h:9
+msgid "Whether we should leave other clients connected"
+msgstr "Diğer istemcilerin bağlı olarak bırakılması"
+
+#: ../data/propono.schemas.in.in.h:10
+msgid ""
+"Whether we should show tabs even when there is only one active connection"
+msgstr "Sadece bir etkin bağlantı olsa bile sekmelerin gösterilmesi"
+
+#: ../data/propono.schemas.in.in.h:11
+msgid "Whether we should show the menu accelerators (shortcut keys)"
+msgstr "Menü hızlandırıcılarının (kısayol tuşları) gösterilmesi"
+
+#: ../data/propono-mime.xml.in.h:1
+msgid "Remote Desktop (VNC) file"
+msgstr "Uzak Masaüstü(VNC) dosyası"
+
+#: ../data/propono-mime.xml.in.h:2
+msgid "Remote Desktop Connection"
+msgstr "Uzak Masaüstü Bağlantısı"
+
+#. vim: set ts=8:
+#: ../plugins/ssh/propono-ssh-plugin.c:70
+#: ../plugins/ssh/ssh.propono-plugin.desktop.in.h:1
+msgid "SSH"
+msgstr "SSH"
+
+#. Translators: This is a description of the SSH protocol. It appears at Connect dialog.
+#: ../plugins/ssh/propono-ssh-plugin.c:72
+msgid "Access Unix/Linux terminals"
+msgstr "Unix/Linux Uçbirimlerine Erişim"
+
+#: ../plugins/ssh/propono-ssh-tab.c:50 ../plugins/vnc/propono-vnc-tab.c:135
+msgid "Port:"
+msgstr "Port:"
+
+#: ../plugins/ssh/ssh.propono-plugin.desktop.in.h:2
+msgid "SSH support"
+msgstr "SSH desteği"
+
+#: ../plugins/vnc/propono-vnc-connection.c:207
+#: ../plugins/vnc/propono-vnc-plugin.c:214
+#, c-format
+msgid ""
+"Bad value for 'shared' flag: %d. It is supposed to be 0 or 1. Ignoring it."
+msgstr ""
+"'shared' imi için geçersiz değer: %d. 0 veya 1 olmalıdır. Yok sayılıyor."
+
+#. Translators: this is a command line option (run propono --help)
+#: ../plugins/vnc/propono-vnc-plugin.c:66
+msgid "Enable scaled mode"
+msgstr "Ölçekli kipi etkinleştir"
+
+#. Translators: this is a command line option (run propono --help)
+#: ../plugins/vnc/propono-vnc-plugin.c:81
+msgid "VNC Options:"
+msgstr "VNC Seçenekler:"
+
+#. Translators: this is a command line option (run propono --help)
+#: ../plugins/vnc/propono-vnc-plugin.c:83
+msgid "Show VNC Options"
+msgstr "VNC Seçeneklerini Göster"
+
+#. vim: set ts=8:
+#: ../plugins/vnc/propono-vnc-plugin.c:105
+#: ../plugins/vnc/vnc.propono-plugin.desktop.in.h:1
+msgid "VNC"
+msgstr "VNC"
+
+#: ../plugins/vnc/propono-vnc-plugin.c:106
+msgid "Access Unix/Linux, Windows and other machines."
+msgstr "Unix/Linux, Windows ve diğer makineler erişim."
+
+#: ../plugins/vnc/propono-vnc-plugin.c:163
+msgid "Could not parse the file."
+msgstr "Dosya ayrıştırılamadı."
+
+#: ../plugins/vnc/propono-vnc-plugin.c:170
+msgid "The file is not a VNC one: Missing the group \"connection\"."
+msgstr "Dosya bir VNC dosyası değil:  \"connection\" grubu eksik."
+
+#: ../plugins/vnc/propono-vnc-plugin.c:176
+msgid "The file is not a VNC one: Missing the key \"host\"."
+msgstr "Dosya bir VNC dosyası değil:  \"host\" anahtarı eksik."
+
+#: ../plugins/vnc/propono-vnc-plugin.c:243
+msgid "VNC Options"
+msgstr "VNC Seçenekleri"
+
+#: ../plugins/vnc/propono-vnc-plugin.c:254
+#: ../plugins/vnc/propono-vnc-tab.c:654
+msgid "_View only"
+msgstr "_Sadece görünüm"
+
+#: ../plugins/vnc/propono-vnc-plugin.c:261
+msgid "_Scaling"
+msgstr "Ö_lçekleme"
+
+#. Translators: this is a pattern to open *.vnc files in a open dialog.
+#: ../plugins/vnc/propono-vnc-plugin.c:285
+msgid "VNC Files"
+msgstr "VNC Dosyaları"
+
+#: ../plugins/vnc/propono-vnc-tab.c:133
+msgid "Desktop Name:"
+msgstr "Masaüstü İsmi:"
+
+#: ../plugins/vnc/propono-vnc-tab.c:136
+msgid "Dimensions:"
+msgstr "Boyutlar:"
+
+#: ../plugins/vnc/propono-vnc-tab.c:268
+msgid "Error connecting to host."
+msgstr "Ana bilgisayara bağlanırken hata."
+
+#. Translators: %s is a host name or IP address; %u is a code error (number).
+#: ../plugins/vnc/propono-vnc-tab.c:306
+#, c-format
+msgid "Authentication method to host %s is unsupported. (%u)"
+msgstr "%s makinesine kimlik doğrulama yöntemi desteklenmiyor. (%u)"
+
+#: ../plugins/vnc/propono-vnc-tab.c:310
+msgid "Authentication unsupported"
+msgstr "Kimlik doğrulama desteklenmiyor"
+
+#: ../plugins/vnc/propono-vnc-tab.c:570 ../plugins/vnc/propono-vnc-tab.c:587
+msgid "Authentication error"
+msgstr "Kimlik doğrulama hatası"
+
+#: ../plugins/vnc/propono-vnc-tab.c:571
+msgid "A username is required in order to access this machine."
+msgstr "Bu makineye erişmek için bir kullanıcı ismi gereklidir."
+
+#: ../plugins/vnc/propono-vnc-tab.c:588
+msgid "A password is required in order to access this machine."
+msgstr "Bu makineye erişmek için bir parola gereklidir."
+
+#: ../plugins/vnc/propono-vnc-tab.c:639
+msgid "S_caling"
+msgstr "Ö_lçekleme"
+
+#: ../plugins/vnc/propono-vnc-tab.c:640
+msgid "Fits the remote screen into the current window size"
+msgstr "Uzaktaki ekranı mevcut pencere boyutuna uydurur"
+
+#: ../plugins/vnc/propono-vnc-tab.c:655
+msgid "Does not send mouse and keyboard events"
+msgstr "Fare ya da klavye olaylarını göndermez"
+
+#: ../plugins/vnc/propono-vnc-tab.c:668
+msgid "_Original size"
+msgstr "Ö_zgün boyut"
+
+#: ../plugins/vnc/propono-vnc-tab.c:669
+msgid "Adjusts the window to the remote desktop's size"
+msgstr "Pencereyi uzaktaki masaüstünün boyutuna ayarlar"
+
+#: ../plugins/vnc/propono-vnc-tab.c:692 ../plugins/vnc/propono-vnc-tab.c:766
+#: ../plugins/vnc/propono-vnc-tab.c:767
+msgid "Send Ctrl-Alt-Del"
+msgstr "Ctrl-Alt-Del Gönder"
+
+#: ../plugins/vnc/propono-vnc-tab.c:693
+msgid "Sends Ctrl+Alt+Del to the remote machine"
+msgstr "Uzaktaki makineye Ctrl+Alt+Del gönder"
+
+#: ../plugins/vnc/propono-vnc-tab.c:745 ../plugins/vnc/propono-vnc-tab.c:746
+msgid "Scaling"
+msgstr "Ölçekleme"
+
+#: ../plugins/vnc/propono-vnc-tab.c:755 ../plugins/vnc/propono-vnc-tab.c:756
+msgid "Read only"
+msgstr "Salt okunur"
+
+#: ../plugins/vnc/propono-vnc-tab.c:925
+msgid ""
+"Scaling is not supported on this installation.\n"
+"\n"
+"Read the README file (shipped with Propono) in order to know how to enable "
+"this feature."
+msgstr ""
+"Bu kurulumda ölçekleme desteklenmiyor.\n"
+"\n"
+"Bu özelliği etkinleştirmek için README dosyasını (Propono ile gelen) okuyun."
+
+#: ../plugins/vnc/vnc.propono-plugin.desktop.in.h:2
+msgid "VNC support"
+msgstr "VNC desteği"
+
+#: ../propono/MATE_ProponoApplet.server.in.in.h:1
+msgid "A menu to quickly access remote machines"
+msgstr "Uzaktaki makinelere hızlı erişim için bir menü"
+
+#: ../propono/MATE_ProponoApplet.server.in.in.h:3
+msgid "Propono Applet Factory"
+msgstr "Propono Uygulamacık Üreticisi"
+
+#: ../propono/propono-applet.c:277 ../propono/propono-applet.c:360
+msgid "Could not run propono:"
+msgstr "Propono çalıştırılamadı:"
+
+#: ../propono/propono-applet.c:380
+msgid "Open Remote Desktop Viewer"
+msgstr "Uzak Masaüstü Görüntüleyici Aç"
+
+#: ../propono/propono-applet.c:435
+msgid "Access your bookmarks"
+msgstr "Yer imlerinize erişin"
+
+#: ../propono/propono-bookmarks.c:265 ../propono/propono-connection.c:519
+#: ../propono/propono-tab.c:533 ../propono/propono-tube-handler.c:253
+#, c-format
+msgid "The protocol %s is not supported."
+msgstr "Protokol %s desteklenmiyor"
+
+#: ../propono/propono-bookmarks.c:343
+#, c-format
+msgid "Error while initializing bookmarks: %s"
+msgstr "Yer imlerini başlatırken hata: %s"
+
+#: ../propono/propono-bookmarks.c:343 ../propono/propono-bookmarks.c:458
+#: ../propono/propono-bookmarks-migration.c:135
+#: ../propono/propono-commands.c:170 ../propono/propono-connect.c:459
+#: ../propono/propono-fav.c:681 ../propono/propono-main.c:100
+#: ../propono/propono-main.c:119 ../propono/propono-window.c:266
+msgid "Unknown error"
+msgstr "Bilinmeyen hata"
+
+#: ../propono/propono-bookmarks.c:350
+msgid "Error while initializing bookmarks: The file seems to be empty"
+msgstr "Yer imleri başlatılırken hata: Dosya boş gibi görünüyor"
+
+#: ../propono/propono-bookmarks.c:357
+msgid ""
+"Error while initializing bookmarks: The file is not a propono bookmarks file"
+msgstr "Yer imleri başlatılırken hata: Dosya propono yer imleri dosyası değil"
+
+#: ../propono/propono-bookmarks.c:419 ../propono/propono-bookmarks.c:426
+msgid "Error while saving bookmarks: Failed to create the XML structure"
+msgstr "Yer imlerini kaydederken hata: XML yapısı oluşturulamadı"
+
+#: ../propono/propono-bookmarks.c:433 ../propono/propono-bookmarks.c:440
+msgid "Error while saving bookmarks: Failed to initialize the XML structure"
+msgstr "Yer imlerini kaydederken hata: XML yapısı ilklendirilemedi"
+
+#: ../propono/propono-bookmarks.c:449
+msgid "Error while saving bookmarks: Failed to finalize the XML structure"
+msgstr "Yer imlerini kaydederken hata: XML yapısı bitirilemedi"
+
+#: ../propono/propono-bookmarks.c:458
+#, c-format
+msgid "Error while saving bookmarks: %s"
+msgstr "Yer imlerini kaydederken hata: %s"
+
+#: ../propono/propono-bookmarks-migration.c:95
+#: ../propono/propono-bookmarks-migration.c:102
+msgid "Error while migrating bookmarks: Failed to create the XML structure"
+msgstr "Yer imleri aktarılırken hata: XML yapısı oluşturulamadı"
+
+#: ../propono/propono-bookmarks-migration.c:109
+#: ../propono/propono-bookmarks-migration.c:116
+msgid "Error while migrating bookmarks: Failed to initialize the XML structure"
+msgstr "Yer imleri aktarılırken hata: XML yapısı ilklendirilemedi"
+
+#: ../propono/propono-bookmarks-migration.c:125
+msgid "Error while migrating bookmarks: Failed to finalize the XML structure"
+msgstr "Yer imleri aktarılırken hata: XML yapısı bitirilemedi"
+
+#: ../propono/propono-bookmarks-migration.c:135
+#: ../propono/propono-bookmarks-migration.c:238
+#, c-format
+msgid "Error while migrating bookmarks: %s"
+msgstr "Yer imleri aktarılırken hata: %s"
+
+#: ../propono/propono-bookmarks-migration.c:164
+msgid "Error while migrating bookmarks: VNC plugin is not activated"
+msgstr "Yer imleri aktarılırken hata: VNC eklentisi etkin değil"
+
+#: ../propono/propono-bookmarks-migration.c:238
+msgid "Failed to create the directory"
+msgstr "Dizin oluşturulamadı"
+
+#: ../propono/propono-bookmarks-migration.c:262
+msgid ""
+"Migrating the bookmarks file to the new format. This operation is only "
+"supposed to run once."
+msgstr ""
+"Yer imleri yeni dosya biçimine aktarılıyor. Bu işlemin sadece bir kez "
+"çalıştırması gerekmektedir."
+
+#: ../propono/propono-bookmarks-migration.c:270
+#, c-format
+msgid "Error opening old bookmarks file: %s"
+msgstr "Eski yer imleri dosyası açarken hata: %s"
+
+#: ../propono/propono-bookmarks-migration.c:271
+#: ../propono/propono-bookmarks-migration.c:283
+msgid "Migration cancelled"
+msgstr "Aktarma iptal edildi"
+
+#: ../propono/propono-bookmarks-migration.c:280
+msgid "Could not remove the old bookmarks file"
+msgstr "Eski yer imleri dosyası silinemedi"
+
+#: ../propono/propono-bookmarks-tree.c:120
+msgid "Root Folder"
+msgstr "Başlangıç Klasörü"
+
+#: ../propono/propono-bookmarks-ui.c:78
+msgid "Invalid name for this folder"
+msgstr "Bu klasörü için geçersiz isim"
+
+#: ../propono/propono-bookmarks-ui.c:88 ../propono/propono-bookmarks-ui.c:200
+#, c-format
+msgid ""
+"The name \"%s\" is already used in this folder. Please use a different name."
+msgstr ""
+"Bu isim \"%s\" zaten bu klasör içinde kullanılıyor. Lütfen farklı bir isim "
+"kullanın."
+
+#: ../propono/propono-bookmarks-ui.c:89 ../propono/propono-bookmarks-ui.c:190
+#: ../propono/propono-bookmarks-ui.c:201
+msgid "Invalid name for this item"
+msgstr "Bu öğe için geçersiz isim"
+
+#. Translators: %s is a protocol name, like VNC or SSH
+#: ../propono/propono-bookmarks-ui.c:168
+#, c-format
+msgid "(Protocol: %s)"
+msgstr "(Protokol: %s)"
+
+#. Translators: %s is a bookmark entry name
+#: ../propono/propono-bookmarks-ui.c:308
+#, c-format
+msgid "Are you sure you want to remove %s from bookmarks?"
+msgstr "Yer imlerinden %s kaldırmayı istediğinize emin misiniz?"
+
+#: ../propono/propono-bookmarks-ui.c:314
+msgid "Remove Folder?"
+msgstr "Klasör Silinsin mi?"
+
+#: ../propono/propono-bookmarks-ui.c:315
+msgid "Notice that all its subfolders and items will be removed as well."
+msgstr "Tüm alt klasörler ve öğelerin de silineceğini dikkate alın."
+
+#: ../propono/propono-bookmarks-ui.c:320
+msgid "Remove Item?"
+msgstr "Öğe Silinsin mi?"
+
+#: ../propono/propono-bookmarks-ui.c:337
+msgid "Error removing bookmark: Entry not found"
+msgstr "Yer imi silinirken hata: Giriş bulunamadı"
+
+#: ../propono/propono-bookmarks-ui.c:354
+msgid "New Folder"
+msgstr "Yeni Klasör"
+
+#: ../propono/propono-commands.c:120
+msgid "Choose the file"
+msgstr "Dosya seçin"
+
+#: ../propono/propono-commands.c:148
+msgid "There are none supported files"
+msgstr "Hiçbir desteklenen dosya yok"
+
+#: ../propono/propono-commands.c:148
+msgid ""
+"None of the active plugins offer a supported file to be open. Activate some "
+"plugins and try again."
+msgstr ""
+"Etkin eklentilerin hiçbiri açmak için desteklenen bir dosya sunmuyor. Bazı "
+"eklentileri etkinleştirin ve yeniden deneyin."
+
+#: ../propono/propono-commands.c:181
+msgid "The following file could not be opened:"
+msgid_plural "The following files could not be opened:"
+msgstr[0] "Aşağıdaki dosya açılamadı."
+
+#: ../propono/propono-connect.c:86 ../propono/propono-connect.c:330
+#: ../propono/propono-connect.c:424
+msgid "Could not get the active protocol in the protocol list."
+msgstr "Protokol listesinden aktif protokol alınamadı."
+
+#: ../propono/propono-connect.c:313
+#, c-format
+msgid "Error while saving history file: %s"
+msgstr "Geçmiş dosyası kaydederken hata: %s"
+
+#: ../propono/propono-connect.c:340
+msgid "Choose a Remote Desktop"
+msgstr "Uzak Masaüstü Seçin"
+
+#: ../propono/propono-connection.c:627
+msgid "Could not open the file."
+msgstr "Dosya açılamadı."
+
+#: ../propono/propono-connection.c:651
+msgid "The file was not recognized by any of the plugins."
+msgstr "Dosya hiçbir eklenti tarafından tanınmadı."
+
+#: ../propono/propono-fav.c:670
+msgid "Invalid operation"
+msgstr "Geçersiz işlem"
+
+#: ../propono/propono-fav.c:671
+msgid "Data received from drag&drop operation is invalid."
+msgstr "Sürükle ve bırak işleminden alınan veri geçersiz."
+
+#: ../propono/propono-fav.c:871
+msgid "Hosts nearby"
+msgstr "Yakındaki makineler"
+
+#. Translators: this is a command line option (run propono --help)
+#: ../propono/propono-main.c:62
+msgid "Open propono in fullscreen mode"
+msgstr "Propono'yi  tam ekran kipinde aç"
+
+#. Translators: this is a command line option (run propono --help)
+#: ../propono/propono-main.c:66
+msgid "Create a new toplevel window in an existing instance of propono"
+msgstr "Mevcut vinagra oluşumuna bir yeni üst seviye pencere oluştur"
+
+#. Translators: this is a command line option (run propono --help)
+#: ../propono/propono-main.c:70
+msgid "Open a file recognized by propono"
+msgstr "Propono tarafından tanınan bir dosya aç"
+
+#: ../propono/propono-main.c:70
+msgid "filename"
+msgstr "dosyaismi"
+
+#. Translators: this is a command line option (run propono --help)
+#: ../propono/propono-main.c:75
+msgid "[server:port]"
+msgstr "[sunucu:port]"
+
+#: ../propono/propono-main.c:130
+msgid "The following error has occurred:"
+msgid_plural "The following errors have occurred:"
+msgstr[0] "Aşağıdaki hata oluştu:"
+
+#. Setup command line options
+#: ../propono/propono-main.c:169
+msgid "- Remote Desktop Viewer"
+msgstr "- Uzak Masaüstü Görüntüleyici"
+
+#: ../propono/propono-main.c:193
+msgid ""
+"Run 'propono --help' to see a full list of available command line options"
+msgstr ""
+"Mevcut komut satırı seçeneklerinin tam listesini görmek için 'propono --"
+"help' çalıştırın"
+
+#: ../propono/propono-mdns.c:142
+#, c-format
+msgid "Failed to resolve avahi hostname: %s\n"
+msgstr "Avahi makine ismi çözümü başarısız oldu: %s\n"
+
+#: ../propono/propono-mdns.c:200
+#, c-format
+msgid "Plugin %s has already registered a browser for service %s."
+msgstr "Eklenti %s zaten %s servisi için bir tarayıcı kaydetti"
+
+#: ../propono/propono-mdns.c:209
+#, c-format
+msgid "Failed to add mDNS browser for service %s."
+msgstr "%s servisi için mDNS tarayıcısı eklerken başarısız oldu."
+
+#: ../propono/propono-mdns.c:225
+#, c-format
+msgid "Failed to browse for hosts: %s\n"
+msgstr "Makineler için göz atma başarısız oldu: %s\n"
+
+#: ../propono/propono-mdns.c:298
+#, c-format
+msgid "Failed to initialize mDNS browser: %s\n"
+msgstr "mDNS tarayıcısı başlatılırken başarısız oldu: %s\n"
+
+#. Translators: %s is a host name or IP address.
+#: ../propono/propono-notebook.c:461
+#, c-format
+msgid "Connection to host %s was closed."
+msgstr "%s makinesine bağlantı kapatıldı."
+
+#: ../propono/propono-notebook.c:463
+msgid "Connection closed"
+msgstr "Bağlantı kapatıldı"
+
+#. Translators: %s is a host name or IP address.
+#: ../propono/propono-notebook.c:482
+#, c-format
+msgid "Authentication to host %s has failed"
+msgstr "%s makinesine kimlik doğrulama başarılamadı"
+
+#: ../propono/propono-notebook.c:488
+msgid "Authentication failed"
+msgstr "Kimlik doğrulama başarısız"
+
+#: ../propono/propono-notebook.c:525
+msgid "Connecting..."
+msgstr "Bağlanıyor..."
+
+#: ../propono/propono-notebook.c:552 ../propono/propono-tab.c:325
+msgid "Close connection"
+msgstr "Bağlantıyı kapat"
+
+#: ../propono/propono-plugin-dialog.c:83
+msgid "Plugin Manager"
+msgstr "Eklenti Yöneticisi"
+
+#: ../propono/propono-plugin-manager.c:45
+msgid "Plugin"
+msgstr "Eklenti"
+
+#: ../propono/propono-plugin-manager.c:46
+msgid "Enabled"
+msgstr "Etkin"
+
+#: ../propono/propono-plugin-manager.c:503
+msgid "C_onfigure"
+msgstr "_Yapılandır"
+
+#: ../propono/propono-plugin-manager.c:512
+msgid "A_ctivate"
+msgstr "_Etkinleştir"
+
+#: ../propono/propono-plugin-manager.c:523
+msgid "Ac_tivate All"
+msgstr "_Tümünü Etkinleştir"
+
+#: ../propono/propono-plugin-manager.c:528
+msgid "_Deactivate All"
+msgstr "Tümünü _Devre Dışı Bırak"
+
+#: ../propono/propono-plugin-manager.c:824
+msgid "_About Plugin"
+msgstr "Eklenti _Hakkında"
+
+#: ../propono/propono-plugin-manager.c:828
+msgid "C_onfigure Plugin"
+msgstr "Eklentiyi _Yapılandır"
+
+#: ../propono/propono-prefs.c:217
+msgid "Cannot initialize preferences manager."
+msgstr "Tercihler yöneticisi başlatılamadı."
+
+#: ../propono/propono-tab.c:346
+msgid "Leave fullscreen"
+msgstr "Tam ekranı terket"
+
+#: ../propono/propono-tab.c:495
+msgid "Error saving recent connection."
+msgstr "Son bağlantı kaydedilirken hata."
+
+#: ../propono/propono-tab.c:728
+msgid "Error saving the credentials on the keyring."
+msgstr "Anahtarlık üzerine kimlik bilgileri kaydederken hata."
+
+#: ../propono/propono-tab.c:814
+msgid "Could not get a screenshot of the connection."
+msgstr "Bağlantının ekran görüntüsü alınamadı."
+
+#: ../propono/propono-tab.c:819
+msgid "Save Screenshot"
+msgstr "Ekran görüntülerini kaydet"
+
+#: ../propono/propono-tab.c:830
+#, c-format
+msgid "Screenshot of %s"
+msgstr "%s'nin ekran görüntüsü"
+
+#: ../propono/propono-tab.c:881
+msgid "Error saving screenshot"
+msgstr "Ekran görüntüsü kaydedilirken hata."
+
+#: ../propono/propono-tube-handler.c:229
+#, c-format
+msgid "Impossible to get service property: %s"
+msgstr "Servis mülkü almak imkansız: %s"
+
+#: ../propono/propono-tube-handler.c:286
+#, c-format
+msgid "Impossible to create the connection: %s"
+msgstr "Bağlantı oluşturmak mümkün değil: %s"
+
+#: ../propono/propono-tube-handler.c:325
+#, c-format
+msgid "Impossible to accept the stream tube: %s"
+msgstr "Akış tüpü kabul etmek imkansız: %s"
+
+#: ../propono/propono-tube-handler.c:463
+#, c-format
+msgid "Impossible to get the contact name: %s"
+msgstr "Bağlantı adını almak imkansız: %s"
+
+#: ../propono/propono-tube-handler.c:498
+#, c-format
+msgid "Impossible to get the avatar: %s"
+msgstr "Avatar almak imkansız: %s"
+
+#: ../propono/propono-tube-handler.c:519
+#, c-format
+msgid "%s wants to share his desktop with you."
+msgstr "%s sizinle masaüstünü paylaşmak istiyor."
+
+#: ../propono/propono-tube-handler.c:524
+msgid "Desktop sharing invitation"
+msgstr "Masaüstü paylaşım daveti"
+
+#. Toplevel
+#: ../propono/propono-ui.h:33
+msgid "_Machine"
+msgstr "_Makine"
+
+#: ../propono/propono-ui.h:34
+msgid "_Edit"
+msgstr "_Düzenle"
+
+#: ../propono/propono-ui.h:35
+msgid "_View"
+msgstr "_Görünüm"
+
+#: ../propono/propono-ui.h:36
+msgid "_Bookmarks"
+msgstr "_Yer imleri"
+
+#: ../propono/propono-ui.h:41
+msgid "Connect to a remote machine"
+msgstr "Uzaktaki bir makineye bağlan"
+
+#: ../propono/propono-ui.h:43
+msgid "Open a .VNC file"
+msgstr "Bir .VNC dosyası aç"
+
+#: ../propono/propono-ui.h:45
+msgid "Quit the program"
+msgstr "Programdan çık"
+
+#: ../propono/propono-ui.h:49
+msgid "Edit the application preferences"
+msgstr "Uygulama tercihlerini düzenle"
+
+#. FIXME: Study this dialog for next release
+#. { "EditPlugins", GTK_STOCK_EXECUTE, N_("_Plugins"), NULL,
+#. N_("Select plugins"), G_CALLBACK (propono_cmd_edit_plugins) },
+#.
+#. Bookmarks menu
+#: ../propono/propono-ui.h:56
+msgid "_Open bookmark"
+msgstr "_Yer imini aç"
+
+#: ../propono/propono-ui.h:57
+msgid "Connect to this machine"
+msgstr "Bu makineye bağlan"
+
+#: ../propono/propono-ui.h:58
+msgid "_Edit bookmark"
+msgstr "_Yer imini düzenle"
+
+#: ../propono/propono-ui.h:59
+msgid "Edit the details of selected bookmark"
+msgstr "_Seçilen yer iminin ayrıntılarını düzenle"
+
+#: ../propono/propono-ui.h:60
+msgid "_Remove from bookmarks"
+msgstr "_Yer imlerinden kaldır"
+
+#: ../propono/propono-ui.h:61
+msgid "Remove current selected connection from bookmarks"
+msgstr "Seçilen bağlantıyı yer imlerinden kaldır"
+
+#: ../propono/propono-ui.h:62
+msgid "_New Folder"
+msgstr "_Yeni Klasör"
+
+#: ../propono/propono-ui.h:63
+msgid "Create a new folder"
+msgstr "Yeni bir klasör oluştur"
+
+#. Help menu
+#: ../propono/propono-ui.h:66
+msgid "_Contents"
+msgstr "_İçerikler"
+
+#: ../propono/propono-ui.h:67
+msgid "Open the propono manual"
+msgstr "Propono el kitabını aç"
+
+#: ../propono/propono-ui.h:69
+msgid "About this application"
+msgstr "Bu uygulama hakkında"
+
+#: ../propono/propono-ui.h:74
+msgid "_Toolbar"
+msgstr "_Araç Çubuğu"
+
+#: ../propono/propono-ui.h:75
+msgid "Show or hide the toolbar"
+msgstr "Araç çubuğunu gizle ya da göster"
+
+#: ../propono/propono-ui.h:78
+msgid "_Statusbar"
+msgstr "_Durum Çubuğu"
+
+#: ../propono/propono-ui.h:79
+msgid "Show or hide the statusbar"
+msgstr "Durum çubuğunu gizle ya da göster"
+
+#: ../propono/propono-ui.h:82
+msgid "Side _Panel"
+msgstr "Kenar _Paneli"
+
+#: ../propono/propono-ui.h:83
+msgid "Show or hide the side panel"
+msgstr "Yan paneli göster ya da gizle"
+
+#: ../propono/propono-ui.h:91
+msgid "Close the current connection"
+msgstr "Mevcut bağlantıyı kapat."
+
+#: ../propono/propono-ui.h:92
+msgid "C_lose All"
+msgstr "_Hepsini Kapat"
+
+#: ../propono/propono-ui.h:93
+msgid "Close all active connections"
+msgstr "Bütün etkin bağlantıları kapat"
+
+#. Bookmarks menu
+#: ../propono/propono-ui.h:96
+msgid "_Add to bookmarks"
+msgstr "_Yer imlerine ekle"
+
+#: ../propono/propono-ui.h:97
+msgid "Add current connection to your bookmarks"
+msgstr "Mevcut bağlantıyı yer imlerinize ekleyin"
+
+#. Machine menu
+#: ../propono/propono-ui.h:104
+msgid "Take screenshot"
+msgstr "Ekran görüntüsü al"
+
+#: ../propono/propono-ui.h:105
+msgid "Take a screenshot of active connection"
+msgstr "Etkin bağlantının bir ekran görüntüsünü al"
+
+#: ../propono/propono-ui.h:109
+msgid "View the current machine in full screen"
+msgstr "Mevcut makineyi tam ekran görüntüle"
+
+#: ../propono/propono-utils.c:75
+msgid "An error has occurred:"
+msgstr "Bir hata oluştu:"
+
+#: ../propono/propono-utils.c:150
+#, c-format
+msgid "Could not load builder file: %s"
+msgstr "İnşa edici dosya yüklenemedi: %s"
+
+#: ../propono/propono-utils.c:453
+msgid "Propono is a remote desktop viewer for the MATE Desktop"
+msgstr "Propono MATE Masaüstü için bir uzaktaki masaüstü görüntüleyicidir."
+
+#: ../propono/propono-utils.c:456
+msgid ""
+"Propono is free software; you can redistribute it and/or modify it under the "
+"terms of the GNU General Public License as published by the Free Software "
+"Foundation; either version 2 of the License, or (at your option) any later "
+"version."
+msgstr ""
+"Propono bir özgür yazılımdır; yeniden dağıtılabilir ve/veya Özgür Yazılım "
+"vakfı tarafından yayınlanan GNU Genel Kamu Lisansının sürüm 2 veya (sizin "
+"seçiminiz) daha sonrakisürümlerinin  şartları altında değiştirebilirsiniz."
+
+#: ../propono/propono-utils.c:460
+msgid ""
+"Propono is distributed in the hope that it will be useful, but WITHOUT ANY "
+"WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS "
+"FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more "
+"details."
+msgstr ""
+"Propono faydalı olması umuduyla fakat HERHANGİ BİR GARANTİ OLMADAN;hatta "
+"ORTALAMA kalite garantisi veya BELLİ BİR AMACA UYGUNLUK ima "
+"etmedendağıtılmaktadır. Ayrıntılı bilgi için GNU Genel Kamu Lisansına "
+"bakınız."
+
+#: ../propono/propono-utils.c:464
+msgid ""
+"You should have received a copy of the GNU General Public License along with "
+"this program. If not, see <http://www.gnu.org/licenses/>."
+msgstr ""
+"Bu programla birlikte GNU Genel Kamu Lisansının bir kopyasını almış "
+"olmalısınız Eğer yoksa, <http://www.gnu.org/licenses/>adresine bakınız."
+
+#: ../propono/propono-utils.c:486
+msgid "translator-credits"
+msgstr "Barış Çiçek <baris@teamforce.name.tr>"
+
+#: ../propono/propono-utils.c:489
+msgid "Propono Website"
+msgstr "Propono Web sayfası"
+
+#: ../propono/propono-window.c:397
+#, c-format
+msgid "Could not merge propono-ui.xml: %s"
+msgstr "propono-ui.xml %s birleştirilemedi"
+
+#: ../propono/propono-window.c:425
+msgid "_Recent connections"
+msgstr "_Son bağlantılar"
+
+#. Translators: This is server:port, a statusbar tooltip when mouse is over a bookmark item on menu
+#: ../propono/propono-window.c:585
+#, c-format
+msgid "Open %s:%d"
+msgstr "%s'yi Aç:%d"

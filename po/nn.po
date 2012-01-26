@@ -1,0 +1,421 @@
+# Norwegian (nynorsk) translation of vino.
+# Copyright (C) 2004, Red Hat, Inc.
+# This file is distributed under the same license as the vino package.
+# Kjartan Maraas <kmaraas@mate.org>, 2004-2006.
+# Eskild Hustvedt <eskildh@mate.org>, 2008
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: propono 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-02-02 21:35+0100\n"
+"PO-Revision-Date: 2008-03-31 10:30+0200\n"
+"Last-Translator: Eskild Hustvedt <eskildh@mate.org>\n"
+"Language-Team: Norwegian nynorsk <i18n-no@lister.ping.uio.no>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../data/propono.desktop.in.in.h:1 ../data/propono-file.desktop.in.in.h:1
+msgid "Access remote desktops"
+msgstr "Bruk eksternt skrivebord"
+
+#: ../data/propono.desktop.in.in.h:2 ../data/propono-file.desktop.in.in.h:2
+#: ../src/propono-main.c:146
+msgid "Remote Desktop Viewer"
+msgstr "Vising av eksternt skrivebord"
+
+#: ../data/propono.glade.h:1
+msgid "<b>Editing a bookmark</b>"
+msgstr "<b>Redigerer eit bokmerke</b>"
+
+#: ../data/propono.glade.h:2
+msgid "<b>Enter a name for this connection</b>"
+msgstr "<b>Vel eit namn for denne tilkoplinga</b>"
+
+#: ../data/propono.glade.h:3
+msgid "<b>In order to connect on this machine, a password is required. Please, supply it.</b>"
+msgstr "<b>For å kopla til denne maskinen, treng du eit passord.</b>"
+
+#: ../data/propono.glade.h:4
+msgid "<b>Which machine do you want to connect to?</b>"
+msgstr "<b>Kva maskin vil du kopla til?</b>"
+
+#: ../data/propono.glade.h:5
+msgid "Editing a bookmark"
+msgstr "Redigerer eit bokmerke"
+
+#: ../data/propono.glade.h:6 ../src/propono-tab.c:684
+msgid "Host:"
+msgstr "Vert:"
+
+#: ../data/propono.glade.h:7
+msgid "Saving to bookmarks"
+msgstr "Lagrar bokmerke"
+
+#: ../data/propono.glade.h:8
+msgid "_Host:"
+msgstr "_Vert:"
+
+#: ../data/propono.glade.h:9
+msgid "_Name:"
+msgstr "_Namn:"
+
+#: ../data/propono.glade.h:10
+msgid "_Password:"
+msgstr "_Passord:"
+
+#: ../data/propono.glade.h:11
+msgid "_Port:"
+msgstr "_Port:"
+
+#: ../data/propono.glade.h:12
+msgid "_Remember this password"
+msgstr "_Hugs dette passordet"
+
+#: ../data/propono.schemas.in.h:1
+msgid "The handler for \"vnc://\" URLs"
+msgstr "Handsamar for «vnc://»-URLer"
+
+#: ../data/propono-mime.xml.in.h:1
+msgid "Remote Desktop (VNC) file"
+msgstr "Fil for eksternt skrivebord (VNC)"
+
+#: ../data/propono-mime.xml.in.h:2
+msgid "Remote Desktop Connection"
+msgstr "Ekstern skrivebordstilkopling"
+
+#: ../src/propono-bookmarks.c:58 ../src/propono-bookmarks.c:76
+#, c-format
+msgid "Error while saving bookmarks: %s"
+msgstr "Feil under lagring av bokmerke: %s"
+
+#: ../src/propono-bookmarks.c:111
+#, c-format
+msgid "Error while initializing bookmarks: %s"
+msgstr "Feil under oppstart av bokmerke: %s"
+
+#: ../src/propono-bookmarks.c:282
+msgid "Confirm removal?"
+msgstr "Stadfest fjerning"
+
+#: ../src/propono-bookmarks.c:285
+#, c-format
+msgid "Are you sure you want to exclude <i>%s</i> from bookmarks?"
+msgstr "Er du sikker på at du ynskjer å utelate <i>%s</i> frå bokmerka?"
+
+#: ../src/propono-bookmarks.c:296
+#, c-format
+msgid "Error while removing %s from bookmarks: %s"
+msgstr "Feil ved fjerning av %s frå bokmerke: %s"
+
+#: ../src/propono-commands.c:90
+msgid "Choose the file"
+msgstr "Vel fil"
+
+#: ../src/propono-commands.c:101 ../src/propono-tab.c:767
+msgid "Supported formats"
+msgstr "Støttede format"
+
+#: ../src/propono-commands.c:133
+msgid "The following file could not be opened:"
+msgid_plural "The following files could not be opened:"
+msgstr[0] "Følgjande fil kunne ikkje verta opna:"
+msgstr[1] "Følgjande filer kunne ikkje verta opna:"
+
+#: ../src/propono-commands.c:383
+msgid "Propono is a VNC client for the MATE Desktop"
+msgstr "Propono er ein VNC-klient for MATE-skrivebordet"
+
+#: ../src/propono-commands.c:386
+msgid "Propono is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version."
+msgstr "Propono er fri programvare. Du kan redistribuere og/eller endra programmet under betingelsene gjeven i GNU General Public License som utgjeven av Free Software Foundation; anten versjon 2 av lisensen, eller (viss du ynskjer det) ein kvar seinare versjon."
+
+#: ../src/propono-commands.c:390
+msgid "Propono is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details."
+msgstr "Propono vert distribuert i håp om at programmet er nyttig, men UTEN NOKON GARANTI, ikkje eingong implisitt garanti om at det er SALGBART eller PASSER EIT BESTEMT FORMÅL. Sjå GNU General Public License for detaljar."
+
+#: ../src/propono-commands.c:394
+msgid "You should have received a copy of the GNU General Public License along with this program. If not, see <http://www.gnu.org/licenses/>."
+msgstr "Du skal ha motteken ein kopi av GNU General Public License saman med dette programmet. Viss ikkje, sjå på <http://www.gnu.org/licenses/>."
+
+#: ../src/propono-commands.c:416
+msgid "translator-credits"
+msgstr ""
+"Kjartan Maraas <kmaraas@mate.org>\n"
+"Espen Stefansen <libbe AT stefansen DOT net>\n"
+"Eskild Hustvedt <eskildh@mate.org>"
+
+#: ../src/propono-commands.c:419
+msgid "Propono Website"
+msgstr "Heimeside for Propono"
+
+#: ../src/propono-connect.c:53
+msgid "Choose a VNC Server"
+msgstr "Vel ein VNC-tenar"
+
+#: ../src/propono-fav.c:382
+msgid "Image"
+msgstr "Bilete"
+
+#: ../src/propono-fav.c:389
+msgid "Name"
+msgstr "Namn"
+
+#: ../src/propono-fav.c:437
+msgid "Bookmarks"
+msgstr "Bokmerke"
+
+#: ../src/propono-fav.c:445
+msgid "Hide bookmarks"
+msgstr "Gøym bokmerke"
+
+#: ../src/propono-main.c:42
+msgid "Opens a .vnc file"
+msgstr "Opnar ei .vnc-fil"
+
+#: ../src/propono-main.c:42
+msgid "filename"
+msgstr "filnamn"
+
+#: ../src/propono-main.c:46
+msgid "[server:port]"
+msgstr "[tenar:port]"
+
+#: ../src/propono-main.c:73
+msgid "Unknown error"
+msgstr "Ukjend feil"
+
+#: ../src/propono-main.c:91
+#, c-format
+msgid "The protocol %s is not supported."
+msgstr "Protokoll %s er ikkje støtta."
+
+#: ../src/propono-main.c:113
+msgid "The following error has occurred:"
+msgid_plural "The following errors have occurred:"
+msgstr[0] "Følgjande feil oppsto:"
+msgstr[1] "Følgjande feil oppsto:"
+
+#. Setup command line options
+#: ../src/propono-main.c:133
+msgid "- VNC Client for MATE"
+msgstr "- VNC-klient for MATE"
+
+#: ../src/propono-main.c:141
+msgid "Run 'propono --help' to see a full list of available command line options"
+msgstr "Køyr «propono --help» for å sjå ei liste med tilgjengelege kommandolinjeval"
+
+#: ../src/propono-notebook.c:98
+#, c-format
+msgid "Connection to host \"%s\" was closed."
+msgstr "Tilkoplinga til verten «%s» vart lukka."
+
+#: ../src/propono-notebook.c:124
+msgid "Connecting..."
+msgstr "Koplar til ..."
+
+#: ../src/propono-notebook.c:148
+msgid "Close connection"
+msgstr "Lukk tilkopling"
+
+#: ../src/propono-prefs-manager.c:124
+msgid "Cannot initialize preferences manager."
+msgstr "Kan ikkje starta opp innstillingshandsamaren."
+
+#: ../src/propono-prefs-manager.c:420
+#, c-format
+msgid "Expected `%s' got `%s' for key %s"
+msgstr "Forventa «%s», fikk «%s» for nøkkelen %s"
+
+#: ../src/propono-tab.c:255
+msgid "Error connecting to host."
+msgstr "Feil ved tilkopling til verten."
+
+#: ../src/propono-tab.c:292
+#, c-format
+msgid "Authentication to host \"%s\" has failed"
+msgstr "Autentisering mot verten «%s» mislukkast"
+
+#: ../src/propono-tab.c:320
+#, c-format
+msgid "Authentication method to host \"%s\" is unsupported. (%u)"
+msgstr "Autentiseringsmetoden mot verten «%s» er ikkje støtta. (%u)"
+
+#: ../src/propono-tab.c:376
+msgid "Error saving recent connection."
+msgstr "Feil under lagring av siste tilkopling."
+
+#: ../src/propono-tab.c:407
+msgid "Error saving the password on the keyring."
+msgstr "Feil under lagring av passord på nøkkelringa."
+
+#: ../src/propono-tab.c:467 ../src/propono-tab.c:563
+msgid "Press Ctrl+Alt to grab the cursor"
+msgstr "Trykk Ctrl + Alt for å fange peikaren"
+
+#: ../src/propono-tab.c:542
+msgid "Press Ctrl+Alt to release the cursor"
+msgstr "Trykk Ctrl + Alt for å sleppa peikaren"
+
+#: ../src/propono-tab.c:683
+msgid "Desktop Name:"
+msgstr "Skrivebordsnamn:"
+
+#: ../src/propono-tab.c:685
+msgid "Port:"
+msgstr "Port:"
+
+#: ../src/propono-tab.c:686
+msgid "Dimensions:"
+msgstr "Dimensjonar:"
+
+#: ../src/propono-tab.c:753
+#, c-format
+msgid "Screenshot of %s"
+msgstr "Skjermbilete av %s"
+
+#: ../src/propono-tab.c:756
+msgid "Save Screenshot"
+msgstr "Lagra skjermbilete"
+
+#. Toplevel
+#: ../src/propono-ui.h:33
+msgid "_Machine"
+msgstr "_Maskin"
+
+#: ../src/propono-ui.h:34
+msgid "_Edit"
+msgstr "_Rediger"
+
+#: ../src/propono-ui.h:35
+msgid "_View"
+msgstr "_Vis"
+
+#: ../src/propono-ui.h:36 ../src/propono-ui.h:97
+msgid "_Bookmarks"
+msgstr "_Bokmerke"
+
+#: ../src/propono-ui.h:37
+msgid "_Help"
+msgstr "_Hjelp"
+
+#: ../src/propono-ui.h:41
+msgid "Connect into a remote machine"
+msgstr "Kopla til ein ekstern maskin"
+
+#: ../src/propono-ui.h:43
+msgid "Open a .VNC file"
+msgstr "Opna ein .VNC-fil"
+
+#: ../src/propono-ui.h:45
+msgid "Quit the program"
+msgstr "Avslutt programmet"
+
+#. Bookmarks menu
+#: ../src/propono-ui.h:48
+msgid "_Open bookmark"
+msgstr "_Opna bokmerke"
+
+#: ../src/propono-ui.h:49
+msgid "Connect into this machine"
+msgstr "Kopla til denne maskinen"
+
+#: ../src/propono-ui.h:50
+msgid "_Edit bookmark"
+msgstr "_Rediger bokmerke"
+
+#: ../src/propono-ui.h:51
+msgid "Edit the details of selected bookmark"
+msgstr "Rediger detaljene for vald bokmerke"
+
+#: ../src/propono-ui.h:52
+msgid "_Remove from bookmarks"
+msgstr "_Fjern bokmerke"
+
+#: ../src/propono-ui.h:53
+msgid "Remove current selected connection from bookmarks"
+msgstr "Fjern gjeldende valde tilkopling frå bokmerke"
+
+#. Help menu
+#: ../src/propono-ui.h:56
+msgid "_Contents"
+msgstr "_Innhald"
+
+#: ../src/propono-ui.h:57
+msgid "Open the propono manual"
+msgstr "Opna manualen for Propono"
+
+#: ../src/propono-ui.h:59
+msgid "About this application"
+msgstr "Om dette programmet"
+
+#: ../src/propono-ui.h:66
+msgid "Close the current connection"
+msgstr "Lukk gjeldende tilkopling"
+
+#: ../src/propono-ui.h:67
+msgid "C_lose All"
+msgstr "_Lukk alle"
+
+#: ../src/propono-ui.h:68
+msgid "Close all active connections"
+msgstr "Lukk alle aktive tilkoplingar"
+
+#. Bookmarks menu
+#: ../src/propono-ui.h:71
+msgid "_Add to bookmarks"
+msgstr "_Legg til i bokmerke"
+
+#: ../src/propono-ui.h:72
+msgid "Add current connection to your bookmarks"
+msgstr "Legg til gjeldende tilkopling til dine bokmerke"
+
+#. Machine menu
+#: ../src/propono-ui.h:79
+msgid "Take screenshot"
+msgstr "Ta skjermbilete"
+
+#: ../src/propono-ui.h:80
+msgid "Take a screenshot of active connection"
+msgstr "Ta eit skjermbilete av den aktive tilkoplinga"
+
+#: ../src/propono-ui.h:84
+msgid "View the current machine in full screen"
+msgstr "Vis gjeldende tilkopling i fullskjerm"
+
+#: ../src/propono-ui.h:89
+msgid "_Toolbar"
+msgstr "_Verktøylinje"
+
+#: ../src/propono-ui.h:90
+msgid "Show or hide the toolbar"
+msgstr "Vis eller gøym verktøylinja"
+
+#: ../src/propono-ui.h:93
+msgid "_Statusbar"
+msgstr "_Statuslinje"
+
+#: ../src/propono-ui.h:94
+msgid "Show or hide the statusbar"
+msgstr "Vis eller gøym statuslinja"
+
+#: ../src/propono-ui.h:98
+msgid "Show or hide the bookmarks panel"
+msgstr "Vis eller gøym bokmerketpanelet"
+
+#: ../src/propono-window.c:386
+#, c-format
+msgid "Could not merge propono-ui.xml: %s"
+msgstr "Klarte ikkje å slå saman propono-ui.xml: %s"
+
+#: ../src/propono-window.c:414
+msgid "_Recent connections"
+msgstr "_Siste tilkoplingar"
+
+#. Translators: This is server:port, a statusbar tooltip when mouse is over a bookmark item on menu
+#: ../src/propono-window.c:555
+#, c-format
+msgid "Open %s:%d"
+msgstr "Opna %s:%d"
